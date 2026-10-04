@@ -3295,3 +3295,1284 @@
   - 1104
   - 1105
   sweep: people-E
+- id: ch-sa-2025-02-14-cms-navigator-funding
+  date: '2025-02-14'
+  what: CMS announced that Navigator funding would be $10 million a year for the remaining budget periods of the performance
+    period August 27, 2024 to August 26, 2029, against $98 million to 56 organizations in the 2024 plan year. On August
+    26, 2026 it awarded $10 million to 35 organizations [1191] [1192].
+  status: final
+  affects:
+  - cms-navigator-cooperative-agreements
+  - cms
+  sources:
+  - 1191
+  - 1192
+  sweep: service-A
+- id: ch-sa-2025-03-06-hrsa-letter-to-grantees
+  date: '2025-03-06'
+  what: The HRSA Administrator wrote to hospital administrators and grant recipients that HRSA will review its policies,
+    grants and programmes, including Children's Hospitals Graduate Medical Education payments, and may re-scope, delay or
+    cancel new grants. HRSA's grants page still featured the letter in 2026 [1195] [1145].
+  status: announced
+  affects:
+  - hrsa-chgme
+  - hrsa
+  sources:
+  - 1195
+  - 1145
+  sweep: service-A
+- id: ch-sa-2025-03-24-public-health-grant-terminations
+  date: '2025-03-24'
+  what: On March 24 and 25, 2025 HHS issued notices terminating about $11 billion in CDC and SAMHSA public health grants,
+    stating that the end of the pandemic was cause. On May 16, 2025 a district court granted 23 states and the District
+    of Columbia a preliminary injunction covering the plaintiff states and their local health jurisdictions. A litigation
+    tracker reports that the district court case has been stayed since October 27, 2025 with the injunction in effect [544]
+    [1210].
+  status: enjoined
+  affects:
+  - cdc
+  - samhsa
+  - samhsa-mental-health-block-grant
+  - samhsa-substance-use-block-grant
+  sources:
+  - 544
+  - 1210
+  sweep: service-A
+- id: ch-sa-2025-03-27-hhs-reorganisation-announced
+  date: '2025-03-27'
+  what: HHS announced a reorganisation, giving a workforce reduction from 82,000 to 62,000 full-time employees, 28 divisions
+    consolidated into 15, regional offices cut from 10 to 5, and a new Administration for a Healthy America combining OASH,
+    HRSA, SAMHSA, ATSDR and NIOSH [530].
+  status: announced
+  affects:
+  - hrsa
+  - samhsa
+  - cdc
+  - oash
+  sources:
+  - 530
+  sweep: service-A
+- id: ch-sa-2025-07-01-reorganisation-injunction
+  date: '2025-07-01'
+  what: A district court injunction of July 1, 2025, clarified August 12, 2025, covers reductions in force and restructuring
+    at parts of CDC, the FDA Center for Tobacco Products, the Office of Head Start and a division of ASPE. The First Circuit
+    denied a stay on September 17, 2025. HRSA, SAMHSA and OASH are not among the covered components [543].
+  status: enjoined
+  affects:
+  - cdc
+  sources:
+  - 543
+  sweep: service-A
+- id: ch-sa-2026-04-aha-still-planned
+  date: 2026-04
+  what: The FY 2027 budget documents describe the Administration for a Healthy America as planned, state that the budget
+    continues to align with the Secretary's planned reorganisation, and present OASH, HRSA, SAMHSA and several CDC centres
+    under it. FY 2026 appropriations were reported under SAMHSA and HRSA as separate agencies, and on 2026-10-04 both still
+    posted notices under their own names [535] [533] [1108] [1144].
+  status: proposed
+  affects:
+  - hrsa
+  - samhsa
+  - cdc
+  - oash
+  sources:
+  - 535
+  - 533
+  - 1108
+  - 1144
+  sweep: service-A
+- id: ch-sa-2025-07-01-tpp-policy-notice
+  date: '2025-07-01'
+  what: OASH issued Teen Pregnancy Prevention Program Policy Notice 2025-01 to recipients, subrecipients and service sites.
+    It cites Executive Orders 14168, 14190, 14187, 14151 and 14173, sets content expectations and parental notice with opt-out,
+    and names suspension, termination, ineligibility for continuation funding and cost disallowance as remedies [1184].
+  status: final
+  affects:
+  - oash-teen-pregnancy-prevention
+  sources:
+  - 1184
+  sweep: service-A
+- id: ch-sa-2025-07-14-prwora-federal-public-benefit
+  date: '2025-07-14'
+  what: HHS published a notice, effective on publication, that revises its 1998 interpretation of "federal public benefit"
+    under PRWORA and adds 13 programmes, including the Health Center Program, Title X, CCBHCs, the two SAMHSA block grants
+    and health workforce programmes. On September 10, 2025 a district court granted the plaintiff states a preliminary injunction
+    against this and three other departments' notices. A law firm note of January 2026 reports that the government dismissed
+    its appeals [1175] [1177] [1178]. On September 21, 2026 the same court granted the plaintiff states summary judgment,
+    declared the notices of the five departments, HHS among them, unlawful under the Administrative Procedure Act, set them
+    aside and vacated them, and permanently enjoined their enforcement against the plaintiff states and the District of
+    Columbia [1479].
+  status: vacated
+  affects:
+  - hrsa-health-center-service-area-competition
+  - oash-title-x-family-planning
+  - samhsa-ccbhc-planning-development-implementation
+  - samhsa-ccbhc-improvement-advancement
+  - samhsa-mental-health-block-grant
+  - samhsa-substance-use-block-grant
+  - hrsa-thcgme
+  sources:
+  - 1175
+  - 1177
+  - 1178
+  - 1176
+  - 1145
+  - 1479
+  sweep: service-A
+- id: ch-sa-2025-07-29-samhsa-letter-on-executive-order
+  date: '2025-07-29'
+  what: After the executive order of July 24, 2025 titled Ending Crime and Disorder on America's Streets, SAMHSA wrote to
+    grantees and state agencies that federal funding cannot purchase pipes, syringes, needles or drug paraphernalia, and
+    listed supplies that remained allowable, including naloxone and, as the letter was returned, test kits [1136].
+  status: final
+  affects:
+  - samhsa
+  - samhsa-substance-use-block-grant
+  - samhsa-mat-pdoa
+  sources:
+  - 1136
+  sweep: service-A
+- id: ch-sa-2025-08-07-eo-14332-grant-oversight
+  date: '2025-08-07'
+  what: Executive Order 14332 requires a senior appointee to review discretionary funding announcements and awards, lists
+    things discretionary awards are not to fund, and directs agencies to write termination for convenience into grant terms.
+    SAMHSA's FY 2026 notices and HRSA's FY 2027 Service Area Competition notice carry matching restrictions, and the HRSA
+    notice states an award may be terminated if it no longer meets programme goals or agency priorities [246] [548] [1204].
+  status: final
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  - oash
+  - ihs
+  - cms
+  sources:
+  - 246
+  - 548
+  - 1204
+  sweep: service-A
+- id: ch-sa-2025-10-01-hhs-gps-v2
+  date: '2025-10-01'
+  what: Version 2.0 of the HHS Grants Policy Statement took effect for awards and funded modifications made on or after
+    October 1, 2025 at HHS agencies other than NIH; a technical edit followed on December 18, 2025 [527].
+  status: final
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  - oash
+  - ihs
+  - cms
+  sources:
+  - 527
+  sweep: service-A
+- id: ch-sa-2026-01-13-samhsa-terminations-reversed
+  date: '2026-01-13'
+  what: An association report states that SAMHSA sent termination notices to more than 2,000 grants worth over $2 billion
+    on January 13, 2026 and that reinstatement was announced on the evening of January 14, 2026. A letter of January 20,
+    2026 from 20 senators to the Secretary states that more than 2,000 active grants received notices that were reversed
+    within 24 hours. No SAMHSA or HHS page recording the event was found [1134] [547]. A statement of January 14, 2026 on
+    the page of the House Appropriations Committee minority says the grants, which it puts at $2 billion, were cancelled
+    on the evening of January 13, 2026 and reinstated on January 14, 2026; it quotes no HHS or SAMHSA notice [546].
+  status: rescinded
+  affects:
+  - samhsa
+  sources:
+  - 1134
+  - 547
+  - 546
+  sweep: service-A
+- id: ch-sa-2026-02-03-fy2026-appropriations
+  date: '2026-02-03'
+  what: Congress completed the FY 2026 Labor-HHS-Education appropriations act on February 3, 2026, as the Senate committee
+    reports. HHS shows FY 2026 enacted amounts of $1,737.8 million for health centers, $3,648.3 million for Ryan White,
+    $818.7 million for the Title V block grant, $286.5 million for Title X, $1,012.6 million for the mental health block
+    grant, $2,013.1 million for the substance use block grant, $385.5 million for CCBHCs and $534.6 million for 988 [538]
+    [535].
+  status: enacted
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  - oash
+  sources:
+  - 538
+  - 535
+  - 533
+  sweep: service-A
+- id: ch-sa-2026-04-fy2027-budget-request
+  date: 2026-04
+  what: The FY 2027 President's Budget requests $0 for Title X, Teen Pregnancy Prevention and Healthy Start, and proposes
+    to consolidate the two SAMHSA block grants and State Opioid Response grants into a Behavioral Health Innovation Block
+    Grant of $4,520.4 million. It requests $2,725.1 million for Ryan White (FY 2026 $3,648.3 million), $767.3 million for
+    the Title V block grant, $70.0 million for Drug Free Communities (FY 2026 $109.0 million), $5.280 billion in budget
+    authority for CDC and $9.094 billion for the Indian Health Service [535] [533].
+  status: proposed
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  - oash
+  - ihs
+  - oash-title-x-family-planning
+  - oash-teen-pregnancy-prevention
+  - hrsa-healthy-start
+  - samhsa-mental-health-block-grant
+  - samhsa-substance-use-block-grant
+  - samhsa-state-opioid-response
+  - cdc-drug-free-communities
+  sources:
+  - 535
+  - 533
+  sweep: service-A
+- id: ch-sa-2026-04-24-samhsa-harm-reduction-letter
+  date: '2026-04-24'
+  what: SAMHSA's letter of April 24, 2026 to grantees and state agency leadership lists supplies and services federal funds
+    may not buy, adding fentanyl test strips and other substance test kits to syringes, pipes and other paraphernalia, and
+    lists what remains allowable, including naloxone and nalmefene. The FY 2026 application guide and notices state that
+    applications must not support harm reduction as the letter outlines it [1135] [548] [1112].
+  status: final
+  affects:
+  - samhsa
+  - samhsa-substance-use-block-grant
+  - samhsa-mat-pdoa
+  - samhsa-ccbhc-planning-development-implementation
+  - samhsa-building-communities-of-recovery
+  sources:
+  - 1135
+  - 548
+  - 1112
+  sweep: service-A
+- id: ch-sa-2026-06-samhsa-fy2026-notices
+  date: 2026-06
+  what: SAMHSA posted its FY 2026 notices between May 15 and July 14, 2026, most with application windows of about 30 days
+    and the three CCBHC notices with two months; all had closed by August 17, 2026. The FY 2026 application guide is dated
+    June 2026 [1109] [548].
+  status: final
+  affects:
+  - samhsa
+  sources:
+  - 1109
+  - 548
+  sweep: service-A
+- id: ch-sa-2026-06-09-house-fy2027-lhhs
+  date: '2026-06-09'
+  what: The House Appropriations Committee approved its FY 2027 Labor-HHS-Education bill 34 to 28, with $189.3 billion in
+    discretionary funding. The committee states that the bill raises the mental health and substance abuse block grant by
+    $61 million and CDC programmes by $184 million. A budget tracker lists Senate action as to be determined [60] [1203].
+  status: proposed
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  sources:
+  - 60
+  - 1203
+  sweep: service-A
+- id: ch-sa-2026-08-13-new-access-points-awards
+  date: '2026-08-13'
+  what: HHS announced $102 million in New Access Points awards to 158 health centers for 415 new sites. The awards were
+    made under a notice that closed August 30, 2024 [1154] [1153].
+  status: final
+  affects:
+  - hrsa-health-center-new-access-points
+  sources:
+  - 1154
+  - 1153
+  sweep: service-A
+- id: ch-sa-2026-09-03-samhsa-fy2027-forecast
+  date: '2026-09-03'
+  what: Eight SAMHSA forecasts for FY 2027 were posted on Grants.gov on September 3, 2026, with estimated posting dates
+    of December 15, 2026 on those read. The GLS campus forecast shows $1,000,000 and 5 awards; the FY 2026 notice had $8,830,039
+    and 71 awards [1108] [1115] [1205].
+  status: announced
+  affects:
+  - samhsa
+  - samhsa-gls-campus-suicide-prevention
+  - samhsa-childrens-mental-health-initiative
+  - samhsa-building-communities-of-recovery
+  - samhsa-ppw-residential-treatment
+  sources:
+  - 1108
+  - 1115
+  - 1205
+  sweep: service-A
+- id: ch-sa-2026-09-fy2027-continuing-resolution
+  date: '2026-09-01'
+  what: A budget tracker reports that a continuing resolution (H.R. 6500) funding the government through December 11, 2026
+    passed the House on September 1, 2026 and was signed [1203]. The White House states that the President signed H.R. 6500,
+    the Continuing Appropriations and Extensions Act, 2027, on September 2, 2026 [61]. It is Public Law 119-103, and section
+    106 continues appropriations until, at the latest, December 11, 2026 [1480].
+  status: final
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  - oash
+  - ihs
+  - cms
+  sources:
+  - 1203
+  - 61
+  - 1480
+  - 1481
+  sweep: service-A
+- id: ch-sa-2026-rural-health-transformation
+  date: '2026'
+  what: The Rural Health Transformation Program, created by Public Law 119-21, section 71401, makes $10 billion available
+    to approved states in each of fiscal years 2026 to 2030. Only the 50 states may receive awards [1193].
+  status: enacted
+  affects:
+  - cms-rural-health-transformation
+  - cms
+  sources:
+  - 1193
+  sweep: service-A
+- id: ch-sa-2025-03-31-title-x-funds-withheld
+  date: '2025-03-31'
+  what: A policy organization reports that on March 31, 2025, 16 of 86 Title X grantees were notified that year 4 funding
+    of a 5-year project period would be temporarily withheld, affecting 879 clinics in 23 states. No HHS page recording
+    the withholding or any restoration was found [1221].
+  status: announced
+  affects:
+  - oash-title-x-family-planning
+  - oash
+  sources:
+  - 1221
+  sweep: service-A
+- id: ch-sa-2026-04-03-title-x-fy2027-notice
+  date: '2026-04-03'
+  what: OASH posted a new Title X services notice, PA-FPH-27-001, with up to $257,000,000 for up to 90 grants, a 60-month
+    project period starting April 1, 2027 and a due date of January 11, 2027; it was revised on July 8, 2026. The FY 2027
+    budget requests $0 for Title X [1218] [1180] [535].
+  status: final
+  affects:
+  - oash-title-x-family-planning
+  - oash
+  sources:
+  - 1218
+  - 1180
+  - 535
+  sweep: service-A
+- id: ch-sb-ojp-award-terminations-2025
+  date: 2025-04
+  what: In April 2025 OJP terminated 376 discretionary awards to 219 recipients, worth more than $820 million, with notices
+    citing 2 C.F.R. 200.340(a)(4). On July 7, 2025 the District Court for the District of Columbia denied a preliminary
+    injunction and dismissed the suit for lack of jurisdiction [1281]. The appeal was argued October 14, 2025 and no decision
+    was found [1282].
+  status: on-appeal
+  affects:
+  - doj-ojp
+  - doj-bja-second-chance-community-reentry
+  - doj-ovc-human-trafficking-services
+  - doj-ojjdp-multistate-mentoring
+  sources:
+  - 1281
+  - 1282
+  sweep: service-B
+- id: ch-sb-ovw-out-of-scope-conditions-stayed
+  date: '2025-08-08'
+  what: The District of Rhode Island stayed several of OVW's "out-of-scope activities" conditions and the related certification
+    for all FY2025 grants [1271]. For FY2026 OVW states that the certification is paused as to items 2-5, 7-9 and 11 [1263].
+  status: enjoined
+  affects:
+  - doj-ovw
+  - doj-ovw-legal-assistance-for-victims
+  - doj-ovw-transitional-housing
+  - doj-ovw-stop-formula
+  sources:
+  - 1271
+  - 1263
+  - 1270
+  sweep: service-B
+- id: ch-sb-prwora-federal-public-benefit-notices
+  date: '2025-07-14'
+  what: HHS published a notice reinterpreting "federal public benefit" under PRWORA and adding thirteen programmes, among
+    them Head Start and the Community Services Block Grant, effective on publication [1175]. A preliminary injunction issued
+    September 10, 2025 [1231]. On September 21, 2026 the District of Rhode Island granted summary judgment to the plaintiff
+    states, declared the HHS, Education, Labor, HUD and Justice notices unlawful and vacated them [1230]. As read on GovInfo,
+    the order sets the notices aside and vacates them, and its permanent injunction bars enforcement against the plaintiff
+    states and the District of Columbia [1479].
+  status: vacated
+  affects:
+  - acf
+  - acf-head-start
+  - acf-csbg
+  sources:
+  - 1175
+  - 1231
+  - 1230
+  - 1223
+  - 1479
+  sweep: service-B
+- id: ch-sb-head-start-immigration-directive-enjoined
+  date: '2025-09-11'
+  what: In Washington State Association of Head Start v. Kennedy (W.D. Wash.) a first preliminary injunction barred HHS
+    from applying the July 2025 notice to Head Start agencies, providers and families; plaintiffs' counsel dates it September
+    11, 2025 [1334] [1254]. The court's January 2026 order refers to that earlier injunction [1253].
+  status: enjoined
+  affects:
+  - acf-head-start
+  - acf-early-head-start-expansion
+  sources:
+  - 1334
+  - 1254
+  - 1253
+  sweep: service-B
+- id: ch-sb-head-start-deia-certification-enjoined
+  date: '2026-01-06'
+  what: A second preliminary injunction in the same case bars HHS from requiring a DEIA certification of Head Start agencies,
+    from changing grant terms on that basis, from conditioning or ending grants for reasons outside the Head Start Act,
+    and from carrying out reductions in force at the Office of Head Start [1253].
+  status: enjoined
+  affects:
+  - acf-head-start
+  - acf-early-head-start-expansion
+  - acf
+  sources:
+  - 1253
+  sweep: service-B
+- id: ch-sb-hhs-hud-new-grant-conditions-vacated
+  date: '2026-08-14'
+  what: In Rhode Island Coalition Against Domestic Violence v. Kennedy, brought by 22 non-profits on July 21, 2025, the
+    District of Rhode Island granted summary judgment and vacated the "New Conditions" HHS and HUD had added to grants (among
+    them compliance with existing and future executive orders, a "gender ideology" bar and antidiscrimination certifications);
+    it denied a permanent injunction [1272].
+  status: vacated
+  affects:
+  - acf
+  - hud
+  - hud-continuum-of-care
+  - acf-fvpsa-culturally-specific-services
+  sources:
+  - 1272
+  sweep: service-B
+- id: ch-sb-hud-conditions-ninth-circuit
+  date: '2026-08-25'
+  what: In County of King v. Turner the Ninth Circuit affirmed in large part the June 3, 2025 preliminary injunction against
+    conditions HUD attached to Continuum of Care grants and DOT to its grants, held by local-government plaintiffs, and
+    remanded the antidiscrimination part for narrowing [1335].
+  status: enjoined
+  affects:
+  - hud
+  - hud-continuum-of-care
+  sources:
+  - 1335
+  sweep: service-B
+- id: ch-sb-coc-fy2025-notice
+  date: '2025-12-20'
+  what: 'HUD posted a separate FY2025 Continuum of Care notice on December 20, 2025; its listing states that HUD understands
+    the notice to be enjoined and will not implement or enforce it pending further court order [1350]. Plaintiffs'' counsel
+    dates the preliminary injunction December 23, 2025 and a summary-judgment ruling June 29, 2026 [1288]. HUD announced
+    FY2025 renewal awards on March 31, April 27 and May 21, 2026 [1283]. The court''s order is dated December 23, 2025:
+    it stayed and preliminarily enjoined HUD''s rescission of the FY 2024 and FY 2025 notice and stayed the 2025 notice
+    [1476]. On June 29, 2026 the court set aside HUD''s November 2025 and December 2025 notices under the Administrative
+    Procedure Act and denied a permanent injunction [1477].'
+  status: vacated
+  affects:
+  - hud-continuum-of-care
+  sources:
+  - 1350
+  - 1288
+  - 1283
+  - 1284
+  - 1476
+  - 1477
+  sweep: service-B
+- id: ch-sb-coc-fy2026-notice
+  date: '2026-09-16'
+  what: 'HUD posted the FY2026 Continuum of Care notice on June 1, 2026 and amended it July 24, 2026 [1285] [1283]. The
+    District of Rhode Island vacated it; on September 16, 2026 the First Circuit stayed that ruling pending appeal, and
+    HUD reopened the notice on September 18 with a deadline of September 30, 2026 [1283]. The district court''s order is
+    dated August 7, 2026 and carries docket numbers 26-cv-436 and 26-cv-439: it set aside the 2026 notice in its entirety
+    because HUD had not used the notice-and-comment process the McKinney-Vento Act requires when it created a $1.3 billion
+    set-aside for transitional housing, and it denied a permanent injunction [1478].'
+  status: on-appeal
+  affects:
+  - hud-continuum-of-care
+  - hud
+  sources:
+  - 1283
+  - 1285
+  - 1286
+  - 1287
+  - 1478
+  sweep: service-B
+- id: ch-sb-hud-fy2027-request
+  date: '2026'
+  what: HUD's FY2027 budget requests no funding for the Continuum of Care programme, CDBG, HOME or Housing Counseling Assistance,
+    and proposes an expanded Emergency Solutions Grants programme at $4,024,000 thousand [1340] [1341]. FY2026 enacted amounts
+    are $3,958,000 thousand for Continuum of Care, $3,300M for CDBG and $1,250M for HOME [1340] [1341].
+  status: proposed
+  affects:
+  - hud
+  - hud-continuum-of-care
+  - hud-cdbg
+  - hud-home
+  - hud-housing-counseling
+  sources:
+  - 1340
+  - 1341
+  sweep: service-B
+- id: ch-sb-dhs-immigration-conditions-vacated
+  date: '2025-09-24'
+  what: In Illinois v. FEMA the District of Rhode Island granted summary judgment, vacated the immigration-enforcement conditions
+    in DHS's grant terms and permanently enjoined their enforcement against the plaintiff states [1336].
+  status: vacated
+  affects:
+  - fema
+  - fema-nsgp
+  sources:
+  - 1336
+  sweep: service-B
+- id: ch-sb-nsgp-fy2025-terms
+  date: '2025-07-28'
+  what: FEMA published the FY2025 NSGP notice on July 28, 2025 with a state deadline of August 11, 2025 and $274.5 million.
+    It applied the FY2025 DHS Standard Terms and Conditions, version 3, and stated that paragraphs C.IX and C.XVII(2)(a)(iii)
+    of those terms do not apply to awards under the notice [1321].
+  status: final
+  affects:
+  - fema-nsgp
+  sources:
+  - 1321
+  - 1322
+  sweep: service-B
+- id: ch-sb-nsgp-fy2026-notice
+  date: '2026-06-24'
+  what: FEMA published the FY2026 NSGP notice with $300 million, a state deadline of July 24, 2026, score multipliers by
+    type of organisation and final subaward decisions by the Secretary of Homeland Security. The notice lists three preliminary
+    injunctions that suspend certain DHS standard terms for named plaintiffs [1320]. A states' complaint of July 23, 2026
+    challenges conditions on FY2026 FEMA grants [1337].
+  status: in-litigation
+  affects:
+  - fema-nsgp
+  - fema
+  sources:
+  - 1320
+  - 1319
+  - 1337
+  sweep: service-B
+- id: ch-sb-ojp-fy2026-unallowable-activities
+  date: '2026-07-02'
+  what: FY2026 OJP notices list as unallowable any activity that violates federal immigration law, including 8 U.S.C. 1373,
+    or federal civil rights law [1274]. In the OVC human trafficking notice DOJ states it has stipulated not to enforce
+    those paragraphs while the amended preliminary injunction of July 2, 2026 in Freedom Network v. Trump (N.D. Ill.) remains
+    in effect [1276].
+  status: enjoined
+  affects:
+  - doj-ojp
+  - doj-ovc-human-trafficking-services
+  - doj-bja-second-chance-community-reentry
+  - doj-ojjdp-multistate-mentoring
+  sources:
+  - 1274
+  - 1276
+  - 1277
+  sweep: service-B
+- id: ch-sb-voca-immigration-conditions-dropped
+  date: '2025-10-03'
+  what: A plaintiff state's release says DOJ dropped a plan to attach immigration-enforcement conditions to VOCA victim
+    assistance and compensation grants after 20 states and the District of Columbia sued [1338]. No DOJ notice of the withdrawal
+    was found. OVC's FY2026 victim assistance formula notice lists among unallowable activities any programme or activity
+    that violates federal immigration law or impedes its enforcement [1482].
+  status: rescinded
+  affects:
+  - doj-ovc-voca-victim-assistance
+  sources:
+  - 1338
+  - 1482
+  sweep: service-B
+- id: ch-sb-eo-14332-grant-oversight
+  date: '2025-08-07'
+  what: Executive Order 14332 directs senior appointee review of funding announcements and discretionary awards, lists what
+    such awards may not fund, and calls for termination-for-convenience terms [246]. FY2026 notices from Labor and Veterans
+    Affairs cite it [1300] [1309].
+  status: final
+  affects:
+  - dol-eta-reentry-restart
+  - va-ssvf
+  - acf
+  - doj-ojp
+  - hud
+  sources:
+  - 246
+  - 1300
+  - 1309
+  sweep: service-B
+- id: ch-sb-acf-notice-funding-restrictions
+  date: '2026-07-23'
+  what: ACF's FY2026 notices state that funds may not be used for DEI or DEIA activities or for "gender ideology", and the
+    Basic Center notice adds harm reduction activities; both add 10 points for alignment with ACF priorities [1235] [1246].
+  status: final
+  affects:
+  - acf-rhy-basic-center
+  - acf-orr-placement-and-coordination
+  - acf
+  sources:
+  - 1235
+  - 1246
+  sweep: service-B
+- id: ch-sb-acfc-reorganisation
+  date: '2025-03-27'
+  what: HHS announced that ACL's programmes would be integrated into ACF, ASPE and CMS [530]. The FY2027 budget presents
+    ACF and ACL together as the Administration for Children, Families, and Communities and describes the integration as
+    planned [1339] [533].
+  status: announced
+  affects:
+  - acf
+  - acl
+  sources:
+  - 530
+  - 1339
+  - 533
+  - 1255
+  sweep: service-B
+- id: ch-sb-acfc-fy2026-enacted-fy2027-request
+  date: '2026-04-02'
+  what: 'FY2026 enacted: Head Start $12,356,820 thousand; Child Care and Development Block Grant $8,831,387 thousand; CSBG
+    $775,000 thousand; Family Violence Prevention and Services $245,000 thousand; Runaway and Homeless Youth $146,283 thousand
+    [1339]. The FY2027 request holds these except CSBG, LIHEAP and Preschool Development Grants, each at $0, and lowers
+    Refugee and Entrant Assistance to $3,577,234 thousand [1339]. Congress cleared the FY2026 Labor-HHS-Education act by
+    February 3, 2026 [538].'
+  status: proposed
+  affects:
+  - acf
+  - acl
+  - acf-head-start
+  - acf-csbg
+  - acf-ccdf
+  - acf-orr-placement-and-coordination
+  - acl-oaa-title-iii
+  - acl-centers-for-independent-living
+  sources:
+  - 1339
+  - 538
+  sweep: service-B
+- id: ch-sb-doj-fy2026-enacted-fy2027-request
+  date: '2026'
+  what: 'OVW: $720,000 thousand enacted for FY2026 and $539,000 thousand requested for FY2027. OJP State and Local Law Enforcement
+    Assistance: $2,398,500 thousand and $1,617,300 thousand. Community Violence Intervention: $50,000 thousand and $0. Youth
+    Mentoring: $105,000 thousand and $43,000 thousand [620].'
+  status: proposed
+  affects:
+  - doj-ovw
+  - doj-ojp
+  - doj-ovw-legal-assistance-for-victims
+  - doj-ovw-transitional-housing
+  - doj-ojjdp-multistate-mentoring
+  - doj-bja-byrne-jag
+  sources:
+  - 620
+  sweep: service-B
+- id: ch-sb-dol-fy2027-masa-consolidation
+  date: '2026'
+  what: The Labor Department's FY2027 budget requests $0 for the WIOA Adult, Youth and Dislocated Worker lines, Apprenticeship,
+    YouthBuild and Reentry Employment Opportunities, and $3,425,067 thousand for a single Make America Skilled Again grant
+    [1342].
+  status: proposed
+  affects:
+  - dol-eta
+  - dol-eta-youthbuild
+  - dol-eta-reentry-restart
+  - dol-eta-apprenticeship-pay-for-performance
+  - dol-eta-wioa-formula
+  sources:
+  - 1342
+  sweep: service-B
+- id: ch-sb-dol-lists-education-competitions
+  date: '2026-03-17'
+  what: From March 2026 ETA's funding list carries Department of Education competitions, for example Talent Search (posted
+    March 17, 2026) and Teacher Quality Partnership (posted May 7, 2026) [1295].
+  status: final
+  affects:
+  - dol-eta
+  sources:
+  - 1295
+  sweep: service-B
+- id: ch-sb-lsc-fy2026-appropriation
+  date: '2026-01-15'
+  what: Congress passed $540 million for LSC for FY2026, against $560 million in FY2025. The White House had proposed in
+    May 2025 to eliminate LSC, and the House Appropriations Committee had approved $300 million [1329] [1330].
+  status: enacted
+  affects:
+  - lsc
+  - lsc-basic-field-grant
+  sources:
+  - 1329
+  - 1330
+  sweep: service-B
+- id: ch-sb-orr-placement-and-coordination
+  date: '2026-07-31'
+  what: ORR posted a Placement and Coordination Program notice for initial resettlement services and intensive case management,
+    limited to organisations not already funded for the Program of Initial Resettlement [1245] [1246].
+  status: final
+  affects:
+  - acf-orr-placement-and-coordination
+  sources:
+  - 1245
+  - 1246
+  sweep: service-B
+- id: ch-sb-head-start-fy2027-competition-forecast
+  date: '2026-09-02'
+  what: ACF forecast a Head Start and Early Head Start competition covering service areas in 37 states and territories,
+    with $824,047,328 and 255 expected awards, to be posted October 14, 2026 [1251]. The previous service-area notice on
+    Grants.gov closed April 29, 2025 [1250].
+  status: announced
+  affects:
+  - acf-head-start
+  sources:
+  - 1251
+  - 1250
+  sweep: service-B
+- id: ch-sb-rhy-short-application-windows
+  date: '2025-07-09'
+  what: The Basic Center notice stayed open about two months each year to 2024, 19 days in 2025 (July 9 to July 28) and
+    25 days in 2026 (July 23 to August 17) [1233]. No FY2026 Transitional Living or Maternity Group Home notice was found
+    [1236].
+  status: final
+  affects:
+  - acf-rhy-basic-center
+  - acf-rhy-transitional-living
+  - acf-rhy-street-outreach
+  sources:
+  - 1233
+  - 1236
+  sweep: service-B
+- id: ch-sc-nea-fy26-guideline-changes
+  date: '2025-02-06'
+  what: The NEA cancelled Challenge America for FY 2026, replaced the February 13, 2025 deadline with March 11 and July
+    10, 2025, stated a five-year arts programming requirement, and barred applying to both Grants for Arts Projects and
+    Our Town in one fiscal year [1361].
+  status: final
+  affects:
+  - nea-grants-for-arts-projects
+  - nea-challenge-america
+  - nea-our-town
+  sources:
+  - 1361
+  sweep: service-C
+- id: ch-sc-nea-certification-ruling
+  date: '2025-09-19'
+  what: On February 6, 2025 the NEA required applicants to confirm that federal funds would not be used to promote gender
+    ideology and withdrew the requirement after suit was filed on March 6, 2025; on September 19, 2025 the District of Rhode
+    Island vacated the NEA's later Final Notice and permanently enjoined it [657]. A litigation tracker reports an appeal
+    to the First Circuit filed November 17, 2025 [658].
+  status: on-appeal
+  affects:
+  - nea-grants-for-arts-projects
+  - nea-challenge-america
+  - nea-our-town
+  sources:
+  - 657
+  - 658
+  sweep: service-C
+- id: ch-sc-nea-challenge-our-town-folded-into-gap
+  date: '2026-10-04'
+  what: On the sweep date Challenge America and Our Town were disciplines inside Grants for Arts Projects, not separate
+    applications [1357] [1358]. The NEA expects new guidelines by late December 2026 [654].
+  status: announced
+  affects:
+  - nea-grants-for-arts-projects
+  - nea-challenge-america
+  - nea-our-town
+  sources:
+  - 1357
+  - 1358
+  - 654
+  sweep: service-C
+- id: ch-sc-nea-fy26-appropriation
+  date: '2026'
+  what: The NEA's appropriations table shows $207,000,000 for FY 2026, the same as FY 2023, 2024 and 2025 [655].
+  status: enacted
+  affects:
+  - nea
+  sources:
+  - 655
+  sweep: service-C
+- id: ch-sc-neh-council-grants-terminated
+  date: '2025-04-02'
+  what: NEH terminated the general operating support grants of the state and jurisdictional humanities councils on April
+    2, 2025; on August 6, 2025 the District of Oregon granted a preliminary injunction and an APA stay against the terminations
+    [1448].
+  status: enjoined
+  affects:
+  - neh-state-humanities-councils
+  sources:
+  - 1448
+  - 1449
+  sweep: service-C
+- id: ch-sc-neh-lifelong-learning-deadlines
+  date: '2026-10-04'
+  what: 'On the sweep date NEH''s list of upcoming deadlines held three programmes, all in the Division of Lifelong Learning
+    and all due December 9, 2026: Public Humanities Projects and the two Landmarks and Summer Institutes competitions [630].'
+  status: announced
+  affects:
+  - neh-public-humanities-projects
+  - neh-landmarks-and-summer-institutes
+  sources:
+  - 630
+  sweep: service-C
+- id: ch-sc-imls-fy27-notices
+  date: '2026-10-04'
+  what: IMLS's FY 2027 notices for Museums for America, Inspire!, Native American/Native Hawaiian Museum Services, Native
+    American Library Services and Native Hawaiian Library Services were open with a November 13, 2026 deadline [686] [1367]
+    [1368] [1369] [1370] [1371].
+  status: final
+  affects:
+  - imls-museums-for-america
+  - imls-inspire-grants-for-small-museums
+  - imls-native-american-native-hawaiian-museum-services
+  - imls-native-american-library-services
+  - imls-native-hawaiian-library-services
+  sources:
+  - 686
+  - 1367
+  - 1368
+  - 1369
+  - 1370
+  - 1371
+  sweep: service-C
+- id: ch-sc-americorps-terminations-2025-04
+  date: '2025-04-25'
+  what: AmeriCorps terminated 1,031 grants, approximately $396.5 million, on April 25, 2025, after ending the service of
+    all NCCC members on April 15 and placing about 85 percent of staff on leave on April 16; the stated ground was that
+    the awards no longer effectuate agency priorities [1380].
+  status: enjoined
+  affects:
+  - americorps
+  - americorps-state-and-national
+  - americorps-vista
+  - americorps-seniors-rsvp
+  sources:
+  - 1380
+  sweep: service-C
+- id: ch-sc-americorps-injunction-2025-06
+  date: '2025-06-05'
+  what: In Maryland v. Corporation for National and Community Service the District of Maryland enjoined the closure of the
+    terminated programmes in 24 plaintiff States and the District of Columbia until notice-and-comment rulemaking is completed,
+    and denied relief as to NCCC members and staff reductions [1380].
+  status: enjoined
+  affects:
+  - americorps
+  - americorps-state-and-national
+  - americorps-vista
+  sources:
+  - 1380
+  sweep: service-C
+- id: ch-sc-americorps-fy27-notices
+  date: '2026-08-28'
+  what: AmeriCorps posted the FY 2027 State and National competitive notice on August 28, 2026 (closing January 13, 2027)
+    and the FY 2027 RSVP notice on August 20, 2026 (closing October 20, 2026) [1374] [1376].
+  status: final
+  affects:
+  - americorps-state-and-national
+  - americorps-seniors-rsvp
+  sources:
+  - 1374
+  - 1376
+  sweep: service-C
+- id: ch-sc-cpb-rescission
+  date: '2025-07-24'
+  what: The Rescissions Act of 2025 (Public Law 119-28) rescinded the amounts made available for the Corporation for Public
+    Broadcasting for fiscal years 2026 and 2027 [1407].
+  status: final
+  affects:
+  - cpb
+  - cpb-grants
+  sources:
+  - 1407
+  sweep: service-C
+- id: ch-sc-cpb-wind-down
+  date: '2025-08-01'
+  what: The Corporation for Public Broadcasting announced an orderly wind-down, with most staff positions ending September
+    30, 2025 and a transition team through January 2026 [1406]. A policy organisation reports a board vote to dissolve on
+    January 5, 2026 [1409].
+  status: final
+  affects:
+  - cpb
+  - cpb-grants
+  sources:
+  - 1406
+  - 1409
+  sweep: service-C
+- id: ch-sc-ed-gearup-reopened-2025
+  date: '2025-06-11'
+  what: The Department of Education reopened the FY 2025 GEAR UP State and Partnership competitions with a June 25, 2025
+    deadline, removed competitive preference priorities and required earlier applicants to resubmit [1394] [1403].
+  status: final
+  affects:
+  - ed-gear-up
+  sources:
+  - 1394
+  - 1403
+  sweep: service-C
+- id: ch-sc-ed-trio-denials-and-discontinuations-2025
+  date: 2025-07
+  what: In July 2025 the Department denied new FY 2025 Student Support Services applications and in summer 2025 discontinued
+    existing TRIO grants, stating that the applications took account of race in ways that conflict with its policy [1389].
+    On January 16, 2026 the District of Columbia district court vacated those decisions for the plaintiff association's
+    named members [1389]. The Department's Student Support Services page, last reviewed January 14, 2025, gives no figure
+    for applications denied or grants discontinued in 2025 [1489].
+  status: enjoined
+  affects:
+  - ed-trio-student-support-services
+  - ed-trio-upward-bound
+  - ed-trio-talent-search
+  - ed-trio-educational-opportunity-centers
+  sources:
+  - 1389
+  - 1390
+  - 1489
+  sweep: service-C
+- id: ch-sc-ed-mental-health-grants-ruling
+  date: '2025-12-19'
+  what: The Western District of Washington granted summary judgment to sixteen States against the Department's discontinuation
+    of multi-year mental health programme grants; on February 24, 2026 the Ninth Circuit denied a stay of the permanent
+    injunction pending appeal [1391].
+  status: on-appeal
+  affects:
+  - ed-oese
+  sources:
+  - 1391
+  sweep: service-C
+- id: ch-sc-ed-supplemental-priorities-2025
+  date: '2025-09-09'
+  what: The Secretary's supplemental priorities on evidence-based literacy, education choice and returning education to
+    the States were published, effective October 9, 2025, replacing the 2021 priorities [1392].
+  status: final
+  affects:
+  - ed-oese
+  - ed-education-innovation-research
+  - ed-trio-talent-search
+  - ed-trio-educational-opportunity-centers
+  sources:
+  - 1392
+  sweep: service-C
+- id: ch-sc-ed-supplemental-priorities-2026
+  date: '2026-05-22'
+  what: 'Four further supplemental priorities were finalised: Meaningful Learning Opportunities (February 12, 2026), Career
+    Pathways and Workforce Readiness and Advancing Artificial Intelligence in Education (April 13, 2026), and Promoting
+    Patriotic Education (May 22, 2026) [1393].'
+  status: final
+  affects:
+  - ed-oese
+  sources:
+  - 1393
+  sweep: service-C
+- id: ch-sc-ed-interagency-agreements-2025-11
+  date: '2025-11-18'
+  what: The Department of Education announced six interagency agreements, placing its elementary and secondary and its postsecondary
+    programmes with the Department of Labor, Indian Education with Interior, CCAMPIS with HHS, and international education
+    with State [672].
+  status: pending-implementation
+  affects:
+  - ed-oese
+  - ed-trio-talent-search
+  - ed-trio-educational-opportunity-centers
+  - ed-trio-upward-bound
+  - ed-trio-student-support-services
+  - ed-gear-up
+  - ed-21st-century-community-learning-centers
+  - ed-charter-schools-state-entities
+  sources:
+  - 672
+  sweep: service-C
+- id: ch-sc-ed-interagency-agreements-2026-02
+  date: '2026-02-23'
+  what: The Department announced that HHS will administer Project SERV, School Safety National Activities, Ready to Learn
+    Programming, Full-Service Community Schools, Promise Neighborhoods and Statewide Family Engagement Centers, and that
+    State will take foreign gift reporting [1397] [1398].
+  status: pending-implementation
+  affects:
+  - ed-oese
+  - ed-full-service-community-schools
+  - ed-promise-neighborhoods
+  sources:
+  - 1397
+  - 1398
+  sweep: service-C
+- id: ch-sc-ed-first-competitions-under-partners-2026
+  date: '2026-03-23'
+  what: The FY 2026 Talent Search (March 23), Educational Opportunity Centers (April 3) and Charter Schools State Entities
+    (April 20) notices were issued jointly with the Department of Labor, whose Employment and Training Administration ran
+    the competitions; the Promise Neighborhoods notice (May 18) was issued with HHS [1382] [1384] [1396] [1395].
+  status: final
+  affects:
+  - ed-trio-talent-search
+  - ed-trio-educational-opportunity-centers
+  - ed-charter-schools-state-entities
+  - ed-promise-neighborhoods
+  sources:
+  - 1382
+  - 1384
+  - 1396
+  - 1395
+  sweep: service-C
+- id: ch-sc-ed-fscs-discontinuations-2025-12
+  date: '2025-12-12'
+  what: Trade press reports that the Department discontinued 19 Full-Service Community Schools grants, at least $168 million,
+    on December 12, 2025, and that some funds were restored by agreement in March 2026 [1450]. The Department's programme
+    page stops at FY 2024 and carries no statement on discontinued grants, and a Federal Register search for the programme
+    from October 1, 2025 returned no documents [1488] [1495].
+  status: in-litigation
+  affects:
+  - ed-full-service-community-schools
+  sources:
+  - 1450
+  - 1488
+  - 1495
+  sweep: service-C
+- id: ch-sc-ed-fy27-request
+  date: '2026'
+  what: The FY 2027 request proposes $0 for the Federal TRIO Programs, GEAR UP, Education Innovation and Research and Full-Service
+    Community Schools, consolidates 21st CCLC and Promise Neighborhoods into a proposed $2.0 billion Make Education Great
+    Again programme, and keeps Charter Schools Grants at $500.0 million [1404] [1405].
+  status: proposed
+  affects:
+  - ed-oese
+  - ed-trio-talent-search
+  - ed-trio-educational-opportunity-centers
+  - ed-trio-upward-bound
+  - ed-trio-student-support-services
+  - ed-gear-up
+  - ed-education-innovation-research
+  - ed-full-service-community-schools
+  - ed-promise-neighborhoods
+  - ed-21st-century-community-learning-centers
+  - ed-charter-schools-state-entities
+  sources:
+  - 1404
+  - 1405
+  sweep: service-C
+- id: ch-sc-usda-pcsc-cancelled
+  date: '2025-04-14'
+  what: USDA cancelled the Partnerships for Climate-Smart Commodities programme and said existing projects could continue
+    if at least 65 percent of federal funds go to producers and the project had enrolled and paid a producer by December
+    31, 2024 [1418].
+  status: final
+  affects: []
+  sources:
+  - 1418
+  sweep: service-C
+- id: ch-sc-usda-f2s-fy25-cancelled
+  date: '2025-03-25'
+  what: An association reports that USDA cancelled the fiscal year 2025 Patrick Leahy Farm to School competition [1415].
+    The FY 2026 request followed on September 10, 2025 with a single award range of $100,000 to $500,000 [1414]. USDA's
+    grant page, last updated April 16, 2026, says the FY 2026 grants have been awarded and says nothing about the FY 2025
+    competition [1413].
+  status: final
+  affects:
+  - usda-fns-farm-to-school-grants
+  sources:
+  - 1415
+  - 1414
+  - 1413
+  sweep: service-C
+- id: ch-sc-usda-rcdi-notice-rescinded
+  date: '2026-07-02'
+  what: The Rural Housing Service rescinded the fiscal year 2025 Rural Community Development Initiative notice; submitted
+    applications do not advance and a new application is needed under a future notice [1412].
+  status: rescinded
+  affects:
+  - usda-rd-rural-community-development-initiative
+  sources:
+  - 1412
+  sweep: service-C
+- id: ch-sc-usda-fns-site-renamed
+  date: '2026-10-04'
+  what: On the sweep date fns.usda.gov redirected to fna.usda.gov and the site carried the name Food and Nutrition Administration;
+    no page explaining the change was read [1413].
+  status: final
+  affects:
+  - usda-fns
+  - usda-fns-farm-to-school-grants
+  sources:
+  - 1413
+  sweep: service-C
+- id: ch-sc-epa-ecj-rescission
+  date: '2025-07-04'
+  what: Public Law 119-21 includes section 60016, headed rescission of funding for environmental and climate justice block
+    grants [1422].
+  status: rescinded
+  affects:
+  - epa-environmental-and-climate-justice-grants
+  sources:
+  - 1422
+  sweep: service-C
+- id: ch-sc-epa-ecj-litigation
+  date: '2026-07-21'
+  what: A litigation tracker reports that in Appalachian Voices v. EPA, a class action over terminated Environmental and
+    Climate Justice awards, the district court dismissed on August 29, 2025 and the D.C. Circuit vacated and remanded on
+    July 21, 2026 to decide mootness [1423].
+  status: in-litigation
+  affects:
+  - epa-environmental-and-climate-justice-grants
+  sources:
+  - 1423
+  - 1424
+  sweep: service-C
+- id: ch-sc-epa-brownfields-fy27-no-multipurpose
+  date: '2026-09-28'
+  what: EPA's FY 2027 brownfields preview lists no Multipurpose Grants and about $64 million across assessment, revolving
+    loan fund and cleanup grants [1420].
+  status: announced
+  affects:
+  - epa-brownfields-assessment-rlf-cleanup-grants
+  sources:
+  - 1420
+  sweep: service-C
+- id: ch-sc-ntia-digital-equity-cancelled
+  date: '2025-05-09'
+  what: The Digital Equity Competitive Grant Program was cancelled on May 9, 2025, on the stated ground that the Act allocated
+    funds by the race of beneficiaries [1426].
+  status: in-litigation
+  affects:
+  - ntia-digital-equity-competitive-grants
+  sources:
+  - 1426
+  - 1428
+  sweep: service-C
+- id: ch-sc-ntia-digital-equity-ruling
+  date: '2026-07-15'
+  what: The District of Columbia district court held the Digital Equity Act's racial classification provision unconstitutional
+    and severable and denied the motion to dismiss; the government had committed to reinstate the Competitive Grant Program
+    on such a ruling [1426]. Trade press reports that NTIA targets a December 2026 reopening [1429].
+  status: in-litigation
+  affects:
+  - ntia-digital-equity-competitive-grants
+  sources:
+  - 1426
+  - 1429
+  sweep: service-C
+- id: ch-sc-cdfi-fy25-deadline-moved
+  date: '2026-03-10'
+  what: The CDFI Fund moved a FY 2025 CDFI Program deadline for applicants at step 4 of evaluation from October 27, 2025
+    to April 10, 2026, citing the lapse in appropriations [1435]. No FY 2026 CDFI Program notice had appeared in the Federal
+    Register by the sweep date [1436].
+  status: final
+  affects:
+  - cdfi-fund-cdfi-program
+  sources:
+  - 1435
+  - 1436
+  sweep: service-C
+- id: ch-sc-omb-2cfr-proposed
+  date: '2026-05-29'
+  what: OMB and the grant-making agencies proposed revisions to the government-wide grants rules in 2 CFR, with comments
+    due July 13, 2026 [1458].
+  status: proposed
+  affects:
+  - americorps
+  - ed-oese
+  - epa
+  - eda
+  sources:
+  - 1458
+  sweep: service-C
+- id: ch-sc-americorps-title-vi-proposed
+  date: '2026-07-23'
+  what: AmeriCorps proposed to rescind portions of its Title VI regulations to implement Executive Order 14281; the text
+    was not read [1457].
+  status: proposed
+  affects:
+  - americorps
+  sources:
+  - 1457
+  sweep: service-C
+- id: ch-sc-fy27-budget-commerce-usda
+  date: '2026'
+  what: The FY 2027 Budget proposes to eliminate the Economic Development Administration ($449 million), to cancel $2.2
+    billion for the Digital Equity programme, and to reduce Community Facilities grant earmarks by $659 million and the
+    Rural Business Service by $82 million [1463].
+  status: proposed
+  affects:
+  - eda
+  - eda-public-works-and-economic-adjustment
+  - ntia-digital-equity-competitive-grants
+  - usda-rd-community-facilities-grants
+  - usda-rd
+  sources:
+  - 1463
+  sweep: service-C
+- id: ch-sd-fy2027-continuing-resolution-pl-119-103
+  date: '2026-09-02'
+  what: The Continuing Appropriations and Extensions Act, 2027 (H.R. 6500) was signed on September 2, 2026 and is Public
+    Law 119-103; it continues appropriations until, at the latest, December 11, 2026 [61] [1480].
+  status: final
+  affects:
+  - samhsa
+  - hrsa
+  - cdc
+  - acf
+  - acl
+  - hud
+  - doj-ojp
+  - doj-ovw
+  - dol-eta
+  - ed-oese
+  - americorps
+  sources:
+  - 61
+  - 1480
+  - 1481
+  sweep: service-D
+- id: ch-sd-neh-fedstate-fy2026-escrow
+  date: '2026'
+  what: NEH's FY 2026 spend plan shows $34.8 million for the Federal/State Partnership, held in escrow due to pending litigation
+    [1485]. NEH's programme page gave the councils an application deadline of April 6, 2026 for a period of performance
+    of November 1, 2026 to May 1, 2027 [1484].
+  status: in-litigation
+  affects:
+  - neh-state-humanities-councils
+  - neh
+  sources:
+  - 1485
+  - 1484
+  sweep: service-D
+- id: ch-sd-coc-notices-set-aside-2026
+  date: '2026-08-07'
+  what: The District of Rhode Island set aside HUD's November 2025 and December 2025 Continuum of Care notices on June 29,
+    2026 and the FY 2026 notice on August 7, 2026, each under the Administrative Procedure Act, and denied a permanent injunction
+    both times [1477] [1478]. The first order in the 2025 case, a preliminary injunction, is dated December 23, 2025 [1476].
+    HUD's competition page reports that the First Circuit stayed the August 7 ruling pending appeal on September 16, 2026
+    [1283].
+  status: on-appeal
+  affects:
+  - hud-continuum-of-care
+  - hud
+  - hud-youth-homelessness-demonstration-program
+  sources:
+  - 1476
+  - 1477
+  - 1478
+  - 1283
+  sweep: service-D
+- id: ch-sd-prwora-notices-vacated-2026-09-21
+  date: '2026-09-21'
+  what: The District of Rhode Island declared the 2025 PRWORA "federal public benefit" notices of the Departments of Justice,
+    Health and Human Services, Education, Labor, and Housing and Urban Development unlawful and vacated them, and permanently
+    enjoined their enforcement against the plaintiff states and the District of Columbia [1479].
+  status: vacated
+  affects:
+  - acf-head-start
+  - acf-csbg
+  - hrsa-health-center-service-area-competition
+  - oash-title-x-family-planning
+  - samhsa-mental-health-block-grant
+  - samhsa-substance-use-block-grant
+  sources:
+  - 1479
+  sweep: service-D
+- id: ch-sd-voca-fy2026-notice
+  date: '2026-05-29'
+  what: OVC posted the FY 2026 VOCA victim assistance formula notice on May 29, 2026, for $1,291,565,110 in 56 awards [1468]
+    [1482]. The notice lists among unallowable activities any programme or activity that violates federal immigration law
+    or impedes its enforcement [1482].
+  status: final
+  affects:
+  - doj-ovc-voca-victim-assistance
+  sources:
+  - 1468
+  - 1482
+  - 1470
+  sweep: service-D

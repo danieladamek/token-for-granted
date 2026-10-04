@@ -428,3 +428,157 @@
   sources:
   - 1027
   sweep: people-D
+- id: samhsa-notice-contacts
+  name: SAMHSA notice contacts (programme, budget, review)
+  what: Each SAMHSA notice names three contacts, one in the programme centre for programme and eligibility questions, the
+    Division of Grants Management for budget questions, and the Division of Grant Review for review and application status
+    [1112].
+  official_url: https://www.samhsa.gov/grants/about/contact-information
+  sources:
+  - 1112
+  sweep: service-A
+- id: hrsa-bphc-funding-contact
+  name: HRSA Bureau of Primary Health Care funding contact
+  what: Health Center Program applicants are directed to bphcfunding@hrsa.gov and 301-594-4300; look-alike applicants to
+    a contact form and 877-464-4772 [1149] [1216].
+  official_url: https://bphc.hrsa.gov/funding/funding-opportunities/service-area-competition
+  sources:
+  - 1149
+  - 1216
+  sweep: service-A
+- id: forhp-rural-technical-assistance
+  name: Technical assistance for rural community programme grantees
+  what: The Federal Office of Rural Health Policy states that technical assistance for its community-based programmes is
+    provided by the Georgia Health Policy Center (ruralhealthlink.org) [1161].
+  official_url: https://www.hrsa.gov/rural-health/grants/rural-community
+  sources:
+  - 1161
+  sweep: service-A
+- id: hrsa-find-grants-tool
+  name: HRSA awarded grants search
+  what: HRSA's grants page links a tool for searching HRSA-awarded grants [1145].
+  official_url: https://data.hrsa.gov/tools/find-grants
+  sources:
+  - 1145
+  sweep: service-A
+- id: local-continuum-of-care
+  name: Local Continuum of Care and its Collaborative Applicant
+  what: The local body through which a homeless-services project applies for HUD Continuum of Care funds; it runs the local
+    competition and files the consolidated application [1283].
+  official_url: https://www.hud.gov/hud-partners/coc-program-competition
+  sources:
+  - 1283
+  sweep: service-B
+- id: state-administrative-agency-nsgp
+  name: State Administrative Agency (Nonprofit Security Grant Program)
+  what: The state agency that takes non-profits' NSGP applications, scores them and applies to FEMA [1320].
+  official_url: https://www.fema.gov/grants/preparedness/nonprofit-security
+  sources:
+  - 1320
+  sweep: service-B
+- id: state-voca-administrator
+  name: State VOCA administrator
+  what: The state agency that makes Victims of Crime Act subawards to local service providers; OVC lists contacts on its
+    State Support map [1279].
+  official_url: https://ovc.ojp.gov/states
+  sources:
+  - 1279
+  sweep: service-B
+- id: find-your-caa
+  name: Find Your CAA (Community Action Agency locator)
+  what: ACF's tool for finding the local Community Action Agency that delivers CSBG-funded services [1239].
+  official_url: https://acf.gov/ocs/programs/csbg
+  sources:
+  - 1239
+  sweep: service-B
+- id: ohs-grants-contact
+  name: Office of Head Start application help line
+  what: The contact for questions about Head Start applications - OHSgrants@koniag-gs.com or 888-242-0684 [1225].
+  official_url: https://headstart.gov/grant-application
+  sources:
+  - 1225
+  sweep: service-B
+- id: ovw-applicant-resources
+  name: OVW Resources for Applicants and Application Companion Guide
+  what: OVW's sample documents (budget narrative, memorandum of understanding, certification letters) and its yearly companion
+    guide [1349] [1270].
+  official_url: https://www.justice.gov/ovw/resources-applicants
+  sources:
+  - 1349
+  - 1270
+  sweep: service-B
+- id: american-job-center
+  name: American Job Center
+  what: The local point of delivery for WIOA services; ETA gives 1-877-US-2JOBS for finding one [1304].
+  official_url: https://www.dol.gov/agencies/eta/workforce-investment/adult
+  sources:
+  - 1304
+  sweep: service-B
+- id: state-service-commission
+  name: State service commission (AmeriCorps)
+  what: The body through which a State receives AmeriCorps State and National formula and state-competitive funds and makes
+    subgrants [1377].
+  official_url: https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XXV/part-2521
+  sources:
+  - 1377
+  sweep: service-C
+- id: state-arts-agency
+  name: State or jurisdictional arts agency
+  what: One of 56 agencies that receive NEA Partnership Agreement grants and make their own grants to arts organisations
+    in the state [1359] [1360].
+  official_url: https://www.arts.gov/grants/partnership-agreement-grants
+  sources:
+  - 1359
+  - 1360
+  sweep: service-C
+- id: state-humanities-council
+  name: State or jurisdictional humanities council
+  what: One of 56 councils funded by NEH that run and sponsor local humanities programmes; NEH offers a contact list [1366].
+  official_url: https://www.neh.gov/divisions/fedstate
+  sources:
+  - 1366
+  sweep: service-C
+- id: state-library-administrative-agency
+  name: State Library Administrative Agency
+  what: The state agency that receives IMLS Grants to States and makes subawards to libraries [1372].
+  official_url: https://www.imls.gov/find-funding/funding-opportunities/grants-to-states-overview
+  sources:
+  - 1372
+  sweep: service-C
+- id: state-21st-cclc-coordinator
+  name: State 21st Century Community Learning Centers coordinator
+  what: The contact at each state educational agency for the state's 21st CCLC competition, listed on the Department of
+    Education's programme page [1399].
+  official_url: https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/nita-m-lowey-21st-century-community-learning-centers
+  sources:
+  - 1399
+  sweep: service-C
+- id: usda-rd-state-office
+  name: USDA Rural Development state office
+  what: The office an applicant contacts before applying for Community Facilities or RCDI money [1410] [1411].
+  official_url: https://www.rd.usda.gov
+  sources:
+  - 1410
+  - 1411
+  sweep: service-C
+- id: arc-state-program-manager
+  name: ARC state program manager
+  what: The state official with whom an ARC Area Development application begins; deadlines are set by the state [1445].
+  official_url: https://www.arc.gov/area-development-program/
+  sources:
+  - 1445
+  sweep: service-C
+- id: dra-local-development-district
+  name: Local Development District (Delta Regional Authority)
+  what: The local body DRA tells SEDAP applicants to contact for help with an application [1447].
+  official_url: https://dra.gov/programs/critical-infrastructure/sedap/
+  sources:
+  - 1447
+  sweep: service-C
+- id: eda-economic-development-representative
+  name: EDA economic development representative
+  what: The regional office contact for applicants to EDA [1431].
+  official_url: https://www.eda.gov/funding/programs/public-works
+  sources:
+  - 1431
+  sweep: service-C

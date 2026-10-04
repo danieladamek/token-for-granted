@@ -1,4 +1,4 @@
-# Taken for Granted content pack — extension schema (draft v0.3, 2026-10-04)
+# Taken for Granted content pack — extension schema (draft v0.4, 2026-10-04)
 
 Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -251,3 +251,26 @@ status: open | closed | expired | not-competed | no-current-notice | forecast | 
 Funders met in two slices are merged like gates: one record, the other wording kept under `variants`.
 
 `source/sweeps/overrides.yaml` holds rulings made at consolidation (so far: relabelling fourteen statuses to `no-current-notice`). Each override writes its reason into the record under `consolidation_notes`.
+
+## Added in v0.4, after the programme and service sweep
+
+```yaml
+# programs.yaml — family: programme-service
+route: direct             # direct | pass-through | both
+                          #   direct        the organisation applies to the federal agency
+                          #   pass-through  the federal award goes to a state, territory, tribe or locality, which
+                          #                 makes subawards; the federal agency takes no application from a non-profit
+                          #   both          a formula part and a competitive part
+pass_through_via: '… [n]' # who the non-profit applies to, as the federal page says
+match: '… [n]'            # the exact cost-sharing or matching rule
+service_area: '… [n]'     # geographic or population limits
+reporting: '… [n]'        # performance measures or data systems the grantee must use
+
+status: … | formula       # formula: money allotted by formula or block grant; there is no federal competition a
+                          # non-profit can enter, and the door is the state or local grantee's own subaward cycle.
+                          # cycle.pattern says what a primary page shows about the current year's allotment.
+```
+
+On a pass-through record `who_may_apply.applicant_types` names the federal recipient (the state), not the non-profit; the non-profit's route is in `pass_through_via`.
+
+Cases the vocabulary still does not hold, recorded in prose and listed in the sweep notes: a competed notice open to governments only; programmes entered through a local body that itself applies (HUD's Continuum of Care, FEMA's Nonprofit Security Grant Program); a notice rescinded after posting (recorded as `expired`).

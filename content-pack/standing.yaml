@@ -988,3 +988,192 @@
   - 1047
   - 1050
   - 1049
+- id: hrsa-health-center-look-alike
+  name: Health Center Program look-alike designation
+  applies_to: nonprofit
+  what: A look-alike is an organization that meets all Health Center Program requirements and receives no programme grant.
+    Designation brings Federally Qualified Health Center payment for Medicare and Medicaid patients, 340B drug discounts,
+    Vaccines for Children and access to National Health Service Corps providers. Federal Tort Claims Act malpractice coverage
+    does not extend to look-alikes [1155].
+  who_qualifies: A public or nonprofit entity that serves areas or populations lacking access to primary care; the full
+    criteria are in the Bureau's application instructions [1216].
+  how_decided: By application to HRSA through the Electronic Handbooks at any time; the applicant has 90 days to complete
+    the application. Designated organizations then file an annual certification and a renewal [1216] [1155].
+  opens: []
+  official_url: https://bphc.hrsa.gov/funding/funding-opportunities/health-center-program-look-alikes
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1155
+  - 1216
+  sweep: service-A
+- id: samhsa-recovery-community-organization
+  name: Recovery Community Organization (RCO)
+  applies_to: nonprofit
+  what: The class of organization to which Building Communities of Recovery grants are limited by statute [1118].
+  who_qualifies: An independent nonprofit organization that mobilizes resources to increase the prevalence and quality of
+    long-term recovery from substance use disorders and is wholly or principally governed by people in recovery who reflect
+    the community served [1117] [1206].
+  how_decided: Set by the programme's statute, as the notice states; the applicant shows in its application that it meets
+    the definition [1118].
+  opens:
+  - samhsa-building-communities-of-recovery
+  official_url: https://www.samhsa.gov/grants/grant-announcements/ti-26-010
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1118
+  - 1117
+  - 1206
+  sweep: service-A
+- id: samhsa-988-lifeline-network-crisis-center
+  name: 988 Suicide and Crisis Lifeline network crisis centre
+  applies_to: nonprofit
+  what: A crisis centre that is part of the 988 Lifeline network and provides 24/7 services. Only such centres could apply
+    for the FY 2026 crisis centre follow-up notice [1122].
+  who_qualifies: Crisis centers that are part of the 988 Suicide and Crisis Lifeline Network and provide 24/7 services [1122].
+  how_decided: By membership of the Lifeline network; no page read describes how a centre joins [1122].
+  opens:
+  - samhsa-988-crisis-center-follow-up
+  official_url: https://www.samhsa.gov/grants/grant-announcements/fg-26-004
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1122
+  sweep: service-A
+- id: hud-approved-housing-counseling-agency
+  name: HUD-approved housing counselling agency
+  applies_to: nonprofit
+  sweep: service-B
+  what: An agency approved to take part in HUD's Housing Counseling Program. Approval must be in place before the grant
+    notice is issued [1290].
+  who_qualifies: Agencies HUD has approved for its Housing Counseling Program; state housing finance agencies qualify where
+    they have statutory authority for statewide counselling; the forecast does not give the approval criteria [1290].
+  how_decided: By HUD approval, before the notice issue date [1290].
+  opens:
+  - hud-housing-counseling
+  official_url: https://simpler.grants.gov/opportunity/4dd9dfaf-b0da-4193-b312-74e1dc62db30
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1290
+- id: acl-cil-eligible-agency
+  name: Eligible agency for a centre for independent living
+  applies_to: nonprofit
+  sweep: service-B
+  what: 'The kind of organisation that may hold a Part C centre for independent living grant: consumer-controlled, community-based,
+    cross-disability, non-residential and a private non-profit [1258].'
+  who_qualifies: A private non-profit agency that meets all five terms and can carry out the functions in section 725(b)
+    and (c) of the Rehabilitation Act [1258]. ACL reports that people with disabilities hold 75 percent of decision-making
+    positions in centres [1262].
+  how_decided: Defined by the Rehabilitation Act and applied in each competition notice [1258].
+  opens:
+  - acl-centers-for-independent-living
+  official_url: https://acl.gov/programs/aging-and-disability-networks/centers-independent-living
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1258
+  - 1262
+- id: nsgp-eligible-nonprofit
+  name: Non-profit eligible as a Nonprofit Security Grant Program subapplicant
+  applies_to: nonprofit
+  sweep: service-B
+  what: 'The class of organisation that may be a subapplicant under NSGP: described under section 501(c)(3) of the Internal
+    Revenue Code and exempt from tax under section 501(a) [1320].'
+  who_qualifies: A 501(c)(3) organisation; churches, mosques and synagogues qualify without an IRS recognition of exemption
+    [1320].
+  how_decided: By the Internal Revenue Code definition, checked by the State Administrative Agency and FEMA reviewers [1320].
+  opens:
+  - fema-nsgp
+  official_url: https://www.fema.gov/grants/preparedness/nonprofit-security
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1320
+- id: lsc-grantee
+  name: Existing LSC grantee
+  applies_to: nonprofit
+  sweep: service-B
+  what: An organisation that already holds an LSC grant. LSC's technology, pro bono, disaster and veterans appeals grants
+    are open only to this class [1323].
+  who_qualifies: The 129 legal aid programmes LSC funds through Basic Field Grants [1328].
+  how_decided: By holding a current LSC grant [1323].
+  opens:
+  - lsc-grantee-only-grants
+  official_url: https://www.lsc.gov/grants
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1323
+  - 1328
+- id: head-start-designated-agency
+  name: Designated Head Start agency
+  applies_to: nonprofit
+  sweep: service-B
+  what: An agency designated to run Head Start in a service area for five years. At the end of the period it is renewed
+    without competition unless it meets one of seven conditions, in which case the area is opened to other applicants [1226].
+  who_qualifies: A local public or private non-profit organisation, including a faith-based organisation, or a local for-profit
+    organisation, selected for the service area [1229].
+  how_decided: By ACF under 45 CFR part 1304, subpart B [1226].
+  opens:
+  - acf-head-start
+  - acf-early-head-start-expansion
+  official_url: https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-B/part-1304/subpart-B
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1226
+  - 1229
+- id: certified-cdfi
+  name: Certified Community Development Financial Institution (and emerging CDFI)
+  applies_to: nonprofit
+  what: 'Certification by the CDFI Fund is the gate to its Financial Assistance awards: each applicant for those must be
+    a certified CDFI [1434]. An emerging CDFI, one that can show it will be certified within three years, may apply for
+    Technical Assistance [1433].'
+  who_qualifies: An organisation the CDFI Fund has certified [1434]. The certification application's information collection
+    was put out for comment on September 30, 2026 [1436].
+  how_decided: By the CDFI Fund, on application [1436].
+  opens:
+  - cdfi-fund-cdfi-program
+  official_url: https://www.cdfifund.gov/programs-training/programs/cdfi-program
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1434
+  - 1433
+  - 1436
+  sweep: service-C
+- id: arc-county-economic-status
+  name: ARC county economic status
+  applies_to: institution
+  what: ARC classes each Appalachian county as distressed, at-risk, transitional, competitive or attainment, and the class
+    sets how much of a project ARC may pay [1446].
+  who_qualifies: 'A project is classed by the county or counties it serves: up to 80 percent ARC funding for distressed,
+    70 for at-risk, 50 for transitional and 30 for competitive counties; attainment counties are generally ineligible [1446].'
+  how_decided: By ARC's designation of each county; the method and the fiscal year of the current designations were not
+    read [1446].
+  opens:
+  - arc-area-development
+  official_url: https://www.arc.gov/how-match-rates-work/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1446
+  sweep: service-C
+- id: eda-economic-distress
+  name: EDA economic distress criteria
+  applies_to: institution
+  what: EDA's Public Works and Economic Adjustment grants are limited to projects in regions that meet a distress test,
+    and the level of distress sets the largest share EDA may pay [1432].
+  who_qualifies: A region with an unemployment rate at least one percentage point above the national average, or per capita
+    income at 80 percent or less of the national average, or a special need as EDA determines [1432].
+  how_decided: By regulation, 13 CFR 301.3 and 301.4, applied by EDA to the data in the application [1432].
+  opens:
+  - eda-public-works-and-economic-adjustment
+  official_url: https://www.ecfr.gov/current/title-13/chapter-III/part-301
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1432
+  sweep: service-C

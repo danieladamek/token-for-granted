@@ -10,34 +10,37 @@
   "people-B",
   "people-C",
   "people-D",
-  "people-E"
+  "people-E",
+  "service-A",
+  "service-B",
+  "service-C",
+  "service-D"
  ],
- "references": 1106,
+ "references": 1512,
  "references_by_kind": {
-  "primary": 1058,
-  "secondary": 48
+  "primary": 1443,
+  "secondary": 69
  },
  "references_by_tier": {
-  "current": 901,
-  "seminal": 65,
-  "background": 75,
-  "classic": 65
+  "current": 1225,
+  "seminal": 111,
+  "background": 104,
+  "classic": 72
  },
  "references_by_read": {
-  "partial": 919,
-  "full": 187
+  "partial": 1227,
+  "full": 282,
+  "not-fetched": 3
  },
- "references_cited": 1086,
+ "references_cited": 1490,
  "references_uncited": [
   511,
   522,
   532,
   575,
-  686,
   700,
   705,
   707,
-  709,
   710,
   722,
   723,
@@ -48,7 +51,11 @@
   1090,
   1096,
   1098,
-  1106
+  1106,
+  1455,
+  1502,
+  1508,
+  1512
  ],
  "merged_urls": [
   "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
@@ -127,23 +134,76 @@
   "https://nces.ed.gov/learn/blog/announcing-iess-planned-fy27-grantmaking",
   "https://basicresearch.defense.gov/Programs/Vannevar-Bush-Faculty-Fellowship/",
   "https://www.nist.gov/iaao/academic-affairs-office/nist-nrc-postdoctoral-research-associateships-program",
-  "https://www.noaa.gov/office-education/epp-msi/undergraduate-scholarship"
+  "https://www.noaa.gov/office-education/epp-msi/undergraduate-scholarship",
+  "https://www.samhsa.gov/grants",
+  "https://www.samhsa.gov/sites/default/files/grants/fy-2026-grant-application-guide.pdf",
+  "https://www.hhs.gov/sites/default/files/fy-2027-budget-in-brief.pdf",
+  "https://www.hhs.gov/sites/default/files/fy-2027-aha-cj.pdf",
+  "https://www.padilla.senate.gov/wp-content/uploads/letter_to_hhs_on_samhsa_grant_termination__reversal-1.pdf",
+  "https://www.cdc.gov/grants/applying/find-nofo.html",
+  "https://www.rid.uscourts.gov/sites/rid/files/M%26O.pdf",
+  "https://www.hhs.gov/press-room/hhs-restructuring-doge.html",
+  "https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html",
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-labor-hhs-education-appropriations-bill",
+  "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
+  "https://appropriations.house.gov/news/press-releases/committee-approves-fy27-labor-health-and-human-services-and-education",
+  "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1780___ORDER.PDF-01A.pdf",
+  "https://www.federalregister.gov/documents/2025/07/14/2025-13118/personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-prwora-interpretation-of",
+  "https://www.hhs.gov/sites/default/files/fy-2027-budget-in-brief.pdf",
+  "https://www.hhs.gov/press-room/hhs-restructuring-doge.html",
+  "https://simpler.grants.gov/search?agency=HHS-ACL&status=forecasted,posted&sortby=postedDateDesc",
+  "https://www.ojp.gov/funding/explore/current-funding-opportunities",
+  "https://justice.gov/jmd/media/1434906/dl?inline=",
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-labor-hhs-education-appropriations-bill",
+  "https://www.ojp.gov/funding/apply/ojp-grant-application-resource-guide",
+  "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
+  "https://www.arts.gov/grants/grants-for-arts-projects",
+  "https://www.arts.gov/grants",
+  "https://www.arts.gov/grants/legal-requirements-and-assurance-of-compliance",
+  "https://www.govinfo.gov/content/pkg/USCOURTS-rid-1_25-cv-00079/pdf/USCOURTS-rid-1_25-cv-00079-1.pdf",
+  "https://clearinghouse.net/case/46202/",
+  "https://www.arts.gov/about/appropriations-history",
+  "https://www.neh.gov/grants",
+  "https://www.neh.gov/program/celebrate-america",
+  "https://www.imls.gov/find-funding/funding-opportunities/grant-programs",
+  "https://www.imls.gov/find-funding/funding-opportunities/grant-programs/museums-for-america",
+  "https://www.ed.gov/about/news/press-release/us-department-of-education-announces-six-new-agency-partnerships-break-federal-bureaucracy",
+  "https://www.nifa.usda.gov/grants/funding-opportunities",
+  "https://www.medicaid.gov/resources-for-states/rural-health",
+  "https://mchb.hrsa.gov/programs-impact/title-v-maternal-child-health-mch-block-grant",
+  "https://acf.gov/ocs/programs/csbg",
+  "https://www.imls.gov/find-funding/funding-opportunities/grants-to-states-overview",
+  "https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/nita-m-lowey-21st-century-community-learning-centers",
+  "https://ojjdp.ojp.gov/programs/formula-grants-program",
+  "https://acf.gov/ocs/programs/ssbg",
+  "https://www.cdc.gov/infrastructure-phig/about/index.html",
+  "https://www.neh.gov/divisions/fedstate",
+  "https://www.arts.gov/grants/partnership-agreement-grants",
+  "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-6500-signed-into-law/",
+  "https://democrats-appropriations.house.gov/news/press-releases/delauro-statement-hhs-reinstating-billions-addiction-and-mental-health-grants",
+  "https://www.ntia.gov/funding-programs/internet-all/digital-equity-act-programs",
+  "https://www.fna.usda.gov/f2s/grant",
+  "https://simpler.grants.gov/opportunity/15ebf684-b971-446f-8e0b-519ded42a8b0",
+  "https://www.justice.gov/ovw/funding-opportunities",
+  "https://www.cdc.gov/overdose-prevention/php/drug-free-communities/index.html",
+  "https://www.cms.gov/marketplace/in-person-assisters/programs-procedures/in-person-assistance",
+  "https://www.samhsa.gov/grants/about/review-process"
  ],
  "records": {
-  "programs": 267,
-  "funders": 60,
-  "standing": 44,
-  "gates": 43,
-  "help": 49,
-  "mechanics": 126,
-  "changes": 237,
-  "todo": 334
+  "programs": 401,
+  "funders": 85,
+  "standing": 55,
+  "gates": 54,
+  "help": 69,
+  "mechanics": 158,
+  "changes": 326,
+  "todo": 425
  },
  "todo_by_kind": {
-  "conflict": 53,
-  "recheck": 76,
-  "unverified": 66,
-  "gap": 139
+  "conflict": 68,
+  "recheck": 100,
+  "unverified": 80,
+  "gap": 177
  },
  "merged_records": [
   "gates/sam-registration <- research-B",
@@ -165,7 +225,8 @@
   "gates/sam-registration <- research-F",
   "gates/grants-gov-registration <- research-F",
   "help/grants-gov-support <- research-F",
-  "funders/smithsonian <- people-D"
+  "funders/smithsonian <- people-D",
+  "mechanics/pass-through-subaward <- service-C"
  ],
  "id_clashes": [],
  "overrides_applied": [
@@ -186,7 +247,8 @@
  ],
  "programmes_by_family": {
   "research": 131,
-  "people": 136
+  "people": 136,
+  "programme-service": 134
  },
  "programme_status": {
   "people": {
@@ -198,6 +260,16 @@
    "forecast": 3,
    "not-competed": 3
   },
+  "programme-service": {
+   "closed": 55,
+   "forecast": 17,
+   "formula": 24,
+   "no-current-notice": 18,
+   "open": 17,
+   "unconfirmed": 1,
+   "not-competed": 1,
+   "expired": 1
+  },
   "research": {
    "None": 131
   }
@@ -206,11 +278,14 @@
  "unknown_reference_numbers": {},
  "dangling_cross_references": {},
  "second_person": [
+  "programs/acf-csbg",
   "funders/dod-onr",
   "help/nih-program-official",
   "help/nih-matchmaker",
+  "help/find-your-caa",
   "mechanics/nih-modular-budget",
-  "mechanics/nih-highlighted-topics"
+  "mechanics/nih-highlighted-topics",
+  "mechanics/samhsa-notice-six-steps"
  ],
- "queries": 328
+ "queries": 392
 }

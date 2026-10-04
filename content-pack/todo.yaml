@@ -2089,6 +2089,581 @@
     this pass and was not retried, because the refusal said not to fetch the page again. The NIH Grants Policy Statement
     sub-pages of sections 11.2, 11.3 and 12 were not fetched.
   sweep: people-E
+- id: t-sa-004
+  kind: recheck
+  about: sources-service-A.yaml/sa-dri-ny-v-doj-pi
+  text: The fetch returned the injunction's scope as "Nationwide; applies to all twenty plaintiff states and the District
+    of Columbia", which is two different things. Re-read the order's operative paragraph to settle whether relief is limited
+    to the plaintiff states.
+  sweep: service-A
+- id: t-sa-005
+  kind: unverified
+  about: records-service-A.yaml/ch-sa-2025-03-24-public-health-grant-terminations
+  text: The later history of Colorado v. HHS (appeal noticed July 15, 2025; stay of district court proceedings from October
+    27, 2025; injunction in effect on September 23, 2026) comes only from a university litigation tracker. Confirm on the
+    docket.
+  sweep: service-A
+- id: t-sa-006
+  kind: conflict
+  about: records-service-A.yaml/samhsa-substance-use-block-grant
+  text: FY 2026 funding for the substance use block grant is $2,013.1M in the HHS FY 2027 justification and $1.9 billion
+    in the Senate committee release; the FY 2025 figure is $2,022.1M. Both are kept. Check the act or its explanatory statement.
+  sweep: service-A
+- id: t-sa-007
+  kind: conflict
+  about: records-service-A.yaml/ihs-tribal-management-grant
+  text: The Indian Health Service funding page showed four 2026 notices as open on 2026-10-04 (ALZ, TMD, TSGP, TSGN); Grants.gov
+    shows ALZ, TMD and TSGP closed in August and September 2026.
+  sweep: service-A
+- id: t-sa-008
+  kind: conflict
+  about: records-service-A.yaml/samhsa-nctsi-community-treatment-services
+  text: Close date July 27, 2026 on the Grants.gov search list against August 26, 2026 returned from the listing page (which
+    may be the archive date). Other SAMHSA listing pages returned no closing date at all; closing dates in these records
+    come from the search list or the notice PDF.
+  sweep: service-A
+- id: t-sa-009
+  kind: conflict
+  about: records-service-A.yaml/samhsa-fy2026-funding-restrictions
+  text: The FY 2026 application guide caps contingency management at $75 per budget period; the CCBHC notice SM-26-014 gives
+    $750 per individual per budget year. Both were returned by the fetch; re-read both.
+  sweep: service-A
+- id: t-sa-010
+  kind: conflict
+  about: records-service-A.yaml/hhs-grants-policy-statement-v2-programme-awards
+  text: HRSA's two-tier application guide (updated September 30, 2025) cites "HHS Grants Policy Statement (October 1, 2024)";
+    the HHS page states Version 2.0 is in force from October 1, 2025 and replaces a version dated April 2025.
+  sweep: service-A
+- id: t-sa-011
+  kind: conflict
+  about: records-service-A.yaml/hrsa-health-center-new-access-points
+  text: The Grants.gov listing for HRSA-25-085 shows $50,000,000 and 77 expected awards; the HHS release of August 13, 2026
+    announces $102 million to 158 health centers. The HHS release calls the awards FY26; the notice number is FY25.
+  sweep: service-A
+- id: t-sa-012
+  kind: recheck
+  about: records-service-A.yaml/hrsa-health-center-service-area-competition
+  text: The Bureau's table as returned gives HRSA-27-006 and HRSA-27-007 (start dates January 1 and February 1, 2027) posting
+    dates of November 30, 2026 and EHBs deadlines of February 1, 2027, which fall after or on the start dates. Re-read the
+    table.
+  sweep: service-A
+- id: t-sa-013
+  kind: recheck
+  about: sources-service-A.yaml/sa-sgg-cdc-prevayl
+  text: The PREVAYL 2.0 forecast returned $2,250,000 in total funding with 10 awards at $450,000 each, which do not multiply.
+    Re-read.
+  sweep: service-A
+- id: t-sa-014
+  kind: gap
+  about: records-service-A.yaml/samhsa-mental-health-block-grant
+  text: uscode.house.gov was in maintenance for 42 U.S.C. 300x-2 and 300x-21, so the block grant rules are cited to SAMHSA's
+    FFY 2026-2027 application guide and 45 CFR 96, not the statute. Not found - Assistance Listing numbers for the two block
+    grants, the FY 2028-2029 application dates, and any federal description of how a provider applies to a state. Status
+    is closed for the two block grants (the FFY 2026-2027 application dates have passed) and unconfirmed for Title V; the
+    status vocabulary has no value for a formula programme.
+  sweep: service-A
+- id: t-sa-015
+  kind: gap
+  about: records-service-A.yaml/samhsa-discretionary-grants-process
+  text: samhsa.gov HTML pages (dashboard, forecasts, review process, reporting, announcement pages) returned navigation
+    and meta descriptions only. The forecast table, the review-process text and SAMHSA's own statement of who may apply
+    were not read; the process record rests on notice PDFs and the application guide.
+  sweep: service-A
+- id: t-sa-016
+  kind: unverified
+  about: records-service-A.yaml/oash
+  text: Not found - any HHS page on Title X funds withheld on March 31, 2025 (reported by KFF only) or on later restoration,
+    what the July 8, 2026 revision of PA-FPH-27-001 changed, the point values of its review criteria, the current Teen Pregnancy
+    Prevention cohort and its status, and any Office on Women's Health funding page (two URLs returned 404).
+  sweep: service-A
+- id: t-sa-018
+  kind: gap
+  about: records-service-A.yaml/samhsa-childrens-mental-health-initiative
+  text: Match ratios for the Children's Mental Health Initiative, the PPW programme and home visiting are not in the forecasts.
+    Scope question - the initiative is competed but only governments and tribes may apply, so route is recorded as direct
+    with a note that non-profits cannot apply.
+  sweep: service-A
+- id: t-sa-019
+  kind: gap
+  about: records-service-A.yaml/cms-rural-health-transformation
+  text: The funding instrument, the application dates and any subaward rules for the Rural Health Transformation Program
+    were not on the page read. The page's list of recent announcements (for example Montana $8.7M on Sept 29, 2026) was
+    returned without context and is not used. Instrument is also unstated for the CDC Public Health Infrastructure Grant.
+  sweep: service-A
+- id: t-sa-020
+  kind: recheck
+  about: sources-service-A.yaml/*
+  text: All quotes are from WebFetch extractions and need re-checking against the pages. Forecast dates and amounts on Grants.gov
+    are estimates and change; THCGME and CHGME forecasts were past their estimated post dates on 2026-10-04 and still showed
+    as forecast.
+  sweep: service-A
+- id: t-sa-021
+  kind: gap
+  about: records-service-A.yaml/hrsa-ryan-white-part-c-eis
+  text: No current Part C Early Intervention Services notice was found, and the Part B page returned 404. Award sizes, project
+    periods and Assistance Listing numbers for Parts A, B and C were not read.
+  sweep: service-A
+- id: t-sa-022
+  kind: gap
+  about: records-service-A.yaml/oash
+  text: No Office on Women's Health funding page was reached, and the Teen Pregnancy Prevention pages name no current cohort,
+    notice or award status. The former OASH grants page redirects to health.gov. OASH's review process is known only for
+    Title X.
+  sweep: service-A
+- id: t-sa-023
+  kind: gap
+  about: records-service-A.yaml/cdc-non-research-awards-process
+  text: CDC's pages give no forecast page, no description of its objective review phases, and no list of additional requirements
+    in the text returned. CDC programmes not recorded are listed under Gaps in the sweep note. No CDC page read states what
+    share of its funding goes to health departments.
+  sweep: service-A
+- id: t-sa-024
+  kind: recheck
+  about: records-service-A.yaml/ch-sa-2026-04-fy2027-budget-request
+  text: The FY 2027 budget documents read carry no publication date in the text returned; entries are dated 2026-04 from
+    the path of the White House copy seen in search results (whitehouse.gov/wp-content/uploads/2026/04/hhs_fy2027.pdf, not
+    fetched). Confirm the release date.
+  sweep: service-A
+- id: t-sb-001
+  kind: conflict
+  about: records-service-B.yaml/acf-ssbg
+  text: The SSBG programme page gives 28 services; the SSBG fact sheet gives 29 service categories. Both kept.
+  sweep: service-B
+- id: t-sb-002
+  kind: conflict
+  about: records-service-B.yaml/acl-centers-for-independent-living
+  text: The Guam CIL listing returned total funding $247,308, award $123,654 and, in the description, an estimated total
+    of $159,762 (the American Samoa floor). Re-read both listings.
+  sweep: service-B
+- id: t-sb-004
+  kind: conflict
+  about: records-service-B.yaml/va-ssvf
+  text: The SSVF notice says "over 200 awards"; the Grants.gov listing says 245 expected awards. Both kept.
+  sweep: service-B
+- id: t-sb-005
+  kind: unverified
+  about: records-service-B.yaml/ch-sb-head-start-immigration-directive-enjoined
+  text: The date (September 11, 2025) and nationwide scope of the first Head Start injunction rest on plaintiffs' counsel's
+    pages; the order itself (Dkt. 120) was not fetched.
+  sweep: service-B
+- id: t-sb-008
+  kind: unverified
+  about: records-service-B.yaml/ch-sb-voca-immigration-conditions-dropped
+  text: That DOJ withdrew immigration conditions on VOCA formula grants rests on a plaintiff state's press release. Find
+    the DOJ notice or the court filing.
+  sweep: service-B
+- id: t-sb-009
+  kind: unverified
+  about: records-service-B.yaml/ch-sb-ojp-award-terminations-2025
+  text: The appeal dates in Vera Institute v. DOJ come from a case-summary site current to November 2025. Check the D.C.
+    Circuit docket (No. 25-5248) for a decision.
+  sweep: service-B
+- id: t-sb-010
+  kind: recheck
+  about: records-service-B.yaml/hud-continuum-of-care
+  text: The Tier 1 (60 percent) and Tier 2 (40 percent) shares, and whether the FY2026 notice caps permanent housing, came
+    from a model extraction of a long PDF. Re-read the notice.
+  sweep: service-B
+- id: t-sb-011
+  kind: recheck
+  about: sources-service-B.yaml/sb-dri-ny-v-doj-sj-2026
+  text: The scope of the September 21, 2026 PRWORA vacatur ("20 plaintiff states and the District of Columbia") came from
+    the fetch summary. Re-read the order for the scope of vacatur and of the permanent injunction, and check whether an
+    appeal was filed.
+  sweep: service-B
+- id: t-sb-012
+  kind: recheck
+  about: records-service-B.yaml/fema-nsgp
+  text: The fetch returned a "$600,000 total per state" cap, which does not fit the per-site rule; it was left out. Re-read
+    the FY2026 notice for the cap per organisation.
+  sweep: service-B
+- id: t-sb-013
+  kind: recheck
+  about: records-service-B.yaml/doj-ovc-human-trafficking-services
+  text: Status is given as closed because the Grants.gov step closed September 29, 2026; the JustGrants step closes October
+    6, 2026. Recheck after that date.
+  sweep: service-B
+- id: t-sb-014
+  kind: recheck
+  about: records-service-B.yaml/lsc
+  text: LSC's January 15, 2026 release says the President was expected to sign the FY2026 bill. Confirm the date of signature
+    and the public law number.
+  sweep: service-B
+- id: t-sb-015
+  kind: recheck
+  about: records-service-B.yaml/hud-housing-counseling
+  text: The FY2026 forecast gave an estimated posting date of September 30, 2026; the notice was still a forecast on 2026-10-04.
+    Recheck.
+  sweep: service-B
+- id: t-sb-016
+  kind: recheck
+  about: records-service-B.yaml/acf-head-start
+  text: The FY2027 Head Start forecasts give an estimated posting date of October 14, 2026. Recheck the NOFO locator and
+    Grants.gov after that date.
+  sweep: service-B
+- id: t-sb-017
+  kind: gap
+  about: records-service-B.yaml/acf-fvpsa-formula
+  text: The FVPSA match rule and the state administrative cost limit were not found; the FVPSA programme page returned 403.
+    The subgrant shares come from the statute text as hosted by Cornell LII; check against the U.S. Code.
+  sweep: service-B
+- id: t-sb-018
+  kind: gap
+  about: records-service-B.yaml/acf-orr-placement-and-coordination
+  text: ORR's state-administered lines (Refugee Support Services, cash and medical assistance) and its other discretionary
+    lines were not recorded - the ORR grant funding page returned 403 and the programme page does not say who receives each
+    line.
+  sweep: service-B
+- id: t-sb-019
+  kind: gap
+  about: records-service-B.yaml/acf
+  text: ACF's general description of its review process was not read (the page returned 403); the record relies on two notices
+    and the Head Start page.
+  sweep: service-B
+- id: t-sb-020
+  kind: gap
+  about: records-service-B.yaml/acl-oaa-title-iii
+  text: Older Americans Act match rules, the 2024 final rule and any reauthorisation after 2020 were not found on ACL's
+    page.
+  sweep: service-B
+- id: t-sb-023
+  kind: gap
+  about: records-service-B.yaml/va
+  text: No VA budget figure (FY2026 enacted or FY2027 request) for SSVF, Grant and Per Diem or the SSG Fox programme was
+    found; nor whether the SSG Fox authorisation was extended beyond FY2025.
+  sweep: service-B
+- id: t-sb-024
+  kind: gap
+  about: records-service-B.yaml/fema
+  text: The FY2027 request for the Nonprofit Security Grant Program, and the FY2026 DHS Standard Terms and Conditions, were
+    not found (the DHS terms page lists versions only to FY2024).
+  sweep: service-B
+- id: t-sb-026
+  kind: gap
+  about: records-service-B.yaml/dol-eta-wioa-formula
+  text: How WIOA funds are allocated within a state and how local boards select providers was not found on the ETA pages
+    read; PY 2026 national totals were not returned from the allotment PDF.
+  sweep: service-B
+- id: t-sb-028
+  kind: gap
+  about: records-service-B.yaml/lsc-grantee-only-grants
+  text: Dates and award sizes for the Technology Initiative Grants and the Pro Bono Innovation Fund were not on the pages
+    read; the President's FY2027 proposal for LSC was not found.
+  sweep: service-B
+- id: t-sb-029
+  kind: gap
+  about: records-service-B.yaml/acf-rhy-street-outreach
+  text: The FY2026 Street Outreach notice was not opened; eligibility, match, period and criteria are not recorded.
+  sweep: service-B
+- id: t-sb-030
+  kind: gap
+  about: records-service-B.yaml/hud
+  text: FY2026 appropriations-act provisions on Continuum of Care renewals, and HUD's general review procedure, were not
+    found.
+  sweep: service-B
+- id: t-sc-001
+  kind: conflict
+  about: records-service-C.yaml/nea-grants-for-arts-projects
+  text: The main GAP page and the February 2025 release require five years of arts programming; the eligibility sub-page
+    that still loads says three years and refers to a July 2023 deadline. The brief also called it a three-year rule. Confirm
+    against the FY28 guidelines when posted.
+  sweep: service-C
+- id: t-sc-002
+  kind: conflict
+  about: records-service-C.yaml/irs-low-income-taxpayer-clinics
+  text: The Taxpayer Advocate page (2021 material) says up to $100,000 a year; 2027 Publication 3319 and the Grants.gov
+    listing say up to $200,000. Publication 3319 gives the window as May 6 to July 6, 2026 and the listing shows a July
+    17, 2026 close. Confirm whether the deadline was extended.
+  sweep: service-C
+- id: t-sc-003
+  kind: conflict
+  about: records-service-C.yaml/epa-brownfields-job-training
+  text: The Grants.gov search listing shows $300,000 as the award maximum and the opportunity page as returned shows it
+    as the minimum. Read the notice.
+  sweep: service-C
+- id: t-sc-004
+  kind: conflict
+  about: sources-service-C.yaml/sc-clearinghouse-appvoices-v-epa
+  text: The tracker names the district judge as Paul L. Friedman; the GovInfo document header reads 1:25-cv-01982-RJL. The
+    opinion text could not be read (scanned PDF). No judge is named in the records.
+  sweep: service-C
+- id: t-sc-005
+  kind: recheck
+  about: records-service-C.yaml/ed-gear-up
+  text: Both the State and the Partnership FY 2025 notices returned $36.5 million as estimated funds. Check the Partnership
+    figure against the notice text.
+  sweep: service-C
+- id: t-sc-006
+  kind: recheck
+  about: records-service-C.yaml/americorps-state-and-national
+  text: The overall grantee share schedule (24, 26, 28, 30 percent) and the 67 percent operating-cost limit come from two
+    small-model reads of 45 CFR 2521.35-2521.60. Check the table in the regulation and the FY 2027 notice.
+  sweep: service-C
+- id: t-sc-007
+  kind: recheck
+  about: records-service-C.yaml/americorps-seniors-rsvp
+  text: The RSVP sponsor share was returned as a flat 10 percent from 45 CFR 2553.72. Check whether the share rises by year,
+    and read the FY 2027 notice.
+  sweep: service-C
+- id: t-sc-008
+  kind: unverified
+  about: records-service-C.yaml/nea-grants-for-arts-projects
+  text: The appeal in Rhode Island Latino Arts v. NEA (First Circuit No. 25-2113, filed November 17, 2025) rests on a litigation
+    tracker. No First Circuit document was read; its status in October 2026 is not known.
+  sweep: service-C
+- id: t-sc-009
+  kind: unverified
+  about: records-service-C.yaml/cpb-grants
+  text: The CPB board's January 5, 2026 vote to dissolve rests on a secondary source. The CPB release (cpb.org/pressroom/corporation-public-broadcasting-board-votes-dissolve-organization-act-responsible)
+    could not be fetched. Whether CPB still exists and what became of its grants on 2026-10-04 is not confirmed.
+  sweep: service-C
+- id: t-sc-010
+  kind: unverified
+  about: records-service-C.yaml/usda-fns-farm-to-school-grants
+  text: The cancellation of the FY 2025 farm to school competition rests on an association news item. No USDA page stating
+    it was found.
+  sweep: service-C
+- id: t-sc-011
+  kind: unverified
+  about: records-service-C.yaml/ed-full-service-community-schools
+  text: The December 12, 2025 discontinuation of 19 FSCS grants and the lawsuits rest on trade press. No Department page
+    or court opinion was read. Whether HHS will hold an FSCS competition is not stated on any page read.
+  sweep: service-C
+- id: t-sc-012
+  kind: unverified
+  about: records-service-C.yaml/ntia-digital-equity-competitive-grants
+  text: NTIA's plan to reopen the competitive programme in December 2026 rests on trade press reporting a joint status report.
+    NTIA's page does not state it. The status of the State Digital Equity Capacity and Planning grants was not established.
+  sweep: service-C
+- id: t-sc-013
+  kind: unverified
+  about: records-service-C.yaml/epa-environmental-and-climate-justice-grants
+  text: EPA's page does not state the programme's status. The termination of awards and the litigation timeline rest on
+    a tracker; the operative text of Public Law 119-21 section 60016 was not returned. Status set to unconfirmed.
+  sweep: service-C
+- id: t-sc-014
+  kind: unverified
+  about: records-service-C.yaml/ed-trio-student-support-services
+  text: The count of more than 100 TRIO grants denied or discontinued comes from the plaintiff association's release and
+    is not in any record; the opinion as read gives only the named members. The Department's own figures were not found.
+  sweep: service-C
+- id: t-sc-017
+  kind: unverified
+  about: records-service-C.yaml/americorps-vista
+  text: No FY 2026 or FY 2027 VISTA request for concept papers was found; americorps.gov programme pages returned HTTP 403.
+    Status set to unconfirmed.
+  sweep: service-C
+- id: t-sc-020
+  kind: gap
+  about: records-service-C.yaml/americorps
+  text: AmeriCorps budget (FY 2026 enacted, FY 2027 request), the FY 2027 State and National notice (which applicants go
+    through a commission, cost per member service year, priorities, eGrants or Grants.gov) and the VISTA and Seniors pages
+    were not read; americorps.gov returned 403 on three of four paths. The FY 2027 congressional justification is at americorps.gov/sites/default/files/document/2026-04/FY_2027_AmeriCorps_Congressional_Budget_Justification.pdf
+    and was not attempted.
+  sweep: service-C
+- id: t-sc-021
+  kind: gap
+  about: records-service-C.yaml/ed-trio-talent-search
+  text: The full notices inviting applications for Talent Search, EOC, Charter Schools State Entities and Promise Neighborhoods
+    (funds available, number of awards, project period, selection criteria, indirect cost rule) were not read; the Grants.gov
+    listings were not found through the Simpler.Grants.gov search.
+  sweep: service-C
+- id: t-sc-022
+  kind: gap
+  about: records-service-C.yaml/ed-oese
+  text: FY 2026 enacted amounts for TRIO, GEAR UP, 21st CCLC, EIR, FSCS and Promise Neighborhoods were not returned by the
+    budget documents read. The FY 2026 column of the Higher Education justification needs a second read.
+  sweep: service-C
+- id: t-sc-023
+  kind: gap
+  about: records-service-C.yaml/ed-trio-upward-bound
+  text: No page says when the next Upward Bound, Upward Bound Math-Science, Veterans Upward Bound or Student Support Services
+    competition will be held or which department will run it.
+  sweep: service-C
+- id: t-sc-024
+  kind: gap
+  about: records-service-C.yaml/ed-gear-up
+  text: The membership rule for a GEAR UP Partnership (statute, section 404A) and the per-student award limits were not
+    read; the Department's GEAR UP page returned 404.
+  sweep: service-C
+- id: t-sc-025
+  kind: gap
+  about: records-service-C.yaml/neh-public-humanities-projects
+  text: applicant_types is left out of the four NEH direct records and of IMLS Museums for America and Inspire! because
+    the programme pages do not list eligible kinds; the pack's standing records neh-eligible-organization and imls-museum-eligibility
+    carry the rule. Cost share, indirect costs and review criteria for these programmes are in notices not read in this
+    sweep.
+  sweep: service-C
+- id: t-sc-026
+  kind: gap
+  about: records-service-C.yaml/epa-brownfields-assessment-rlf-cleanup-grants
+  text: EPA's list of entities eligible for brownfields grants (including which non-profits qualify for which grant type)
+    was not found; two guessed URLs returned 404.
+  sweep: service-C
+- id: t-sc-027
+  kind: gap
+  about: records-service-C.yaml/dra-sedap
+  text: DRA's eligible applicants, match rules, the Governor's role in selection, and its other programmes (Community Infrastructure
+    Fund, workforce grants) were not read; dra.gov/funding-programs failed on robots.txt and the SEDAP page does not state
+    eligibility.
+  sweep: service-C
+- id: t-sc-028
+  kind: gap
+  about: records-service-C.yaml/arc-area-development
+  text: ARC's direct initiatives (POWER, ARISE, INSPIRE, READY, WORC) are not recorded; their 2026 deadlines, ARC's FY 2026
+    appropriation and the FY 2027 request were not read. The arc.gov how-to-apply page holds only placeholder text.
+  sweep: service-C
+- id: t-sc-029
+  kind: gap
+  about: records-service-C.yaml/eda-public-works-and-economic-adjustment
+  text: The FY 2025 PWEAA notice itself (review criteria, CEDS requirement, investment priorities), EDA's FY 2026 appropriation
+    and FY 2027 request, and the status of University Centers, Build to Scale and Tech Hubs were not read.
+  sweep: service-C
+- id: t-sc-030
+  kind: gap
+  about: records-service-C.yaml/irs-vita-and-tce-grants
+  text: TCE eligibility, match and Assistance Listing number were not on the pages read; the TCE publication was not fetched.
+    VITA details come from Publication 4671 (Rev. 4-2026).
+  sweep: service-C
+- id: t-sc-031
+  kind: gap
+  about: records-service-C.yaml/sba-small-business-development-centers
+  text: No current SBA funding announcement for SBDC or Women's Business Centers was read; award sizes and FY 2026 status
+    are not recorded.
+  sweep: service-C
+- id: t-sc-032
+  kind: gap
+  about: records-service-C.yaml/usda-rd
+  text: Other Rural Development grants to non-profits (Rural Business Development Grants, Distance Learning and Telemedicine,
+    housing preservation, Rural Cooperative Development Grants, which now appears on NIFA's list) and FNS community food
+    programmes (TEFAP and other pass-through programmes) are not recorded. The status of Local Food Purchase Assistance
+    and Local Food for Schools is not stated on the AMS page read.
+  sweep: service-C
+- id: t-sc-033
+  kind: gap
+  about: records-service-C.yaml/nifa-gusnip-nutrition-incentive
+  text: The GusNIP match ratio and the Produce Prescription component were not returned; NIFA's other education and extension
+    competitions on its 2026 list are named in the sweep note, not recorded.
+  sweep: service-C
+- id: t-sc-034
+  kind: gap
+  about: records-service-C.yaml/nea-partnership-agreements
+  text: The statutory share of NEA programme funds that goes to state and regional agencies was not on the pages read. The
+    NEA's May 2025 grant terminations are in the pack only from a secondary source (c-rf-nea-terminations-2025-05); no primary
+    page was found in this sweep either. The FY 2027 request for NEA, NEH and IMLS was not read on a primary page.
+  sweep: service-C
+- id: t-sc-035
+  kind: recheck
+  about: records-service-C.yaml/eda-public-works-and-economic-adjustment
+  text: The eligible-applicant list and the review step on EDA's Public Works page were returned in words close to the fetch
+    prompt. The non-profit cooperation rule is confirmed by 13 CFR 301.2; re-read the page for the rest.
+  sweep: service-C
+- id: t-sc-036
+  kind: recheck
+  about: records-service-C.yaml/ed-mental-health
+  text: No programme record was written for the school mental health grants (School-Based Mental Health Services; Mental
+    Health Service Professional Demonstration). The 2025 non-continuation, the December 19, 2025 judgment and any re-competition
+    need their own read; only the Ninth Circuit order was fetched.
+  sweep: service-C
+- id: t-sc-037
+  kind: recheck
+  about: records-service-C.yaml/ch-sc-fy27-budget-commerce-usda
+  text: The FY 2027 Budget figures for EDA, Digital Equity and USDA rural programmes come from one partial read of a long
+    volume; entries for AmeriCorps, NEA, NEH, IMLS, the CDFI Fund, ARC and DRA were not returned. Re-read the reductions
+    table.
+  sweep: service-C
+- id: t-sc-038
+  kind: gap
+  about: records-service-C.yaml/usda-fns
+  text: The Agricultural Marketing Service page for Local Food Purchase Assistance (sc-usda-ams-lfpa-page) describes the
+    programme and does not state whether it or Local Food for Schools continues; no record was written.
+  sweep: service-C
+- id: t-sd-001
+  kind: gap
+  about: records-service-A.yaml/ch-sa-2026-01-13-samhsa-terminations-reversed
+  text: The dates and the $2 billion total of the January 2026 SAMHSA terminations are now on a congressional committee
+    page (a statement by the ranking member, not an agency notice). The number of grants (more than 2,000) still rests on
+    an association report and a senators' letter. No SAMHSA or HHS page on the event was found.
+  sweep: service-D
+- id: t-sd-002
+  kind: recheck
+  about: records-service-B.yaml/ch-sb-coc-fy2025-notice
+  text: The April 1, 2026 date of the First Circuit order in the FY2025 Continuum of Care case still rests on plaintiffs'
+    counsel. The district court's June 29, 2026 order cites State v. HUD, 171 F.4th 473 (1st Cir. 2026) without a date in
+    the text returned. The First Circuit's September 16, 2026 stay in the FY2026 case rests on HUD's page; the order itself
+    was not read.
+  sweep: service-D
+- id: t-sd-003
+  kind: conflict
+  about: records-service-B.yaml/ch-sb-voca-immigration-conditions-dropped
+  text: A plaintiff state's release says DOJ dropped immigration-enforcement conditions on VOCA grants in October 2025 [1338].
+    OVC's FY 2026 formula notice lists as unallowable any programme or activity that violates federal immigration law or
+    impedes its enforcement, with wording on DHS requests [1482]. Both are kept. Re-read the FY 2026 notice's exact wording
+    and establish whether it is the condition reported as withdrawn or a different term. t-sb-008 stays in place.
+  sweep: service-D
+- id: t-sd-004
+  kind: conflict
+  about: records-service-D.yaml/doj-bja-stop-school-violence
+  text: The FY 2026 listing as returned shows $2,000,000 as the award floor with no ceiling; the Grants.gov search list
+    shows $2,000,000 as the maximum. Read the notice.
+  sweep: service-D
+- id: t-sd-005
+  kind: recheck
+  about: records-service-A.yaml/samhsa-state-opioid-response
+  text: Status left at no-current-notice. The pages read do not say how State Opioid Response money is divided among states,
+    so the record was not marked formula. Read the notice (TI-24-008) for the allotment method and the project period.
+  sweep: service-D
+- id: t-sd-006
+  kind: recheck
+  about: sources-service-D.yaml/sd-imls-state-allotment-data
+  text: A first fetch of the IMLS state allotment table returned a FY 2026 national total of $266,782,415; a second read
+    found no total row. The total is not used. Sum the table or find the appropriation.
+  sweep: service-D
+- id: t-sd-007
+  kind: gap
+  about: records-service-C.yaml/epa-environmental-and-climate-justice-grants
+  text: Status set to closed on the strength of EPA's Community Change Grants page (last updated March 21, 2025), which
+    says applications are no longer accepted. The operative text of Public Law 119-21 section 60016 was again not returned,
+    and no EPA statement on terminated awards or D.C. Circuit opinion was read. t-sc-013 stays in place.
+  sweep: service-D
+- id: t-sd-008
+  kind: gap
+  about: records-service-A.yaml/samhsa-substance-use-block-grant
+  text: No page of FY 2026 allotments for the substance use block grant was found, and the FY 2026 mental health block grant
+    allotment table did not render. samhsa.gov HTML pages still return navigation and metadata only.
+  sweep: service-D
+- id: t-sd-009
+  kind: recheck
+  about: records-service-A.yaml/ch-sa-2025-07-14-prwora-federal-public-benefit
+  text: The status of this change was moved from enjoined to vacated on the September 21, 2026 order. Whether vacatur reaches
+    beyond the plaintiff states, and whether the government has appealed, was not settled (see t-sa-004 and t-sb-011).
+  sweep: service-D
+- id: t-sd-010
+  kind: gap
+  about: records-service-D.yaml/hud-fair-housing-initiatives-program
+  text: 'The seven new programme records rest on Grants.gov listings and one USDA page. Notices were not opened: project
+    periods, review criteria, reporting, indirect cost rules, the match ratios for the HUD youth homelessness notice and
+    SEDS, and the JustGrants deadlines for the two DOJ notices are not recorded.'
+  sweep: service-D
+- id: t-sd-011
+  kind: gap
+  about: records-service-C.yaml/americorps-vista
+  text: americorps.gov returned HTTP 403 on three more addresses, so VISTA stays unconfirmed. A web search listed a page
+    titled "Fiscal Year 2026 AmeriCorps VISTA Request for Concept Paper" and a VISTA annual guidance PDF dated 01/20/2026
+    on americorps.gov; neither could be read. t-sc-017 and t-sc-020 stay in place.
+  sweep: service-D
+- id: t-sd-012
+  kind: unverified
+  about: records-service-C.yaml/ntia-digital-equity-competitive-grants
+  text: Status set to no-current-notice. The December 2026 target for a superseding notice still rests on secondary reports
+    of the August 17, 2026 joint status report; the filing was not found on a court or NTIA page. t-sc-012 stays in place.
+  sweep: service-D
+- id: t-sd-013
+  kind: recheck
+  about: records-service-D.yaml/dol-eta-national-farmworker-jobs-program
+  text: The 2024 competition for NFJP career services and training grants was not found in the Grants.gov search (only the
+    housing services notice FOA-ETA-24-18 appeared). Find the competition notice and who may compete.
+  sweep: service-D
 - id: t-merge-gates-sam-registration
   kind: recheck
   about: gates/sam-registration
@@ -2137,5 +2712,10 @@
 - id: t-merge-funders-smithsonian
   kind: recheck
   about: funders/smithsonian
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-pass-through-subaward
+  kind: recheck
+  about: mechanics/pass-through-subaward
   text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
   sweep: consolidation

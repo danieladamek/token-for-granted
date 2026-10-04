@@ -2587,3 +2587,1078 @@
   sources:
   - 1001
   sweep: people-D
+- id: oash
+  name: Office of the Assistant Secretary for Health (Office of Population Affairs, Office of Minority Health, Office on
+    Women's Health)
+  funder_kind: federal
+  parent: HHS
+  what: The Office of the Assistant Secretary for Health makes programme grants through its offices. The Office of Population
+    Affairs runs Title X family planning services grants and the Teen Pregnancy Prevention Program; the Office of Minority
+    Health posts a few notices a year. On 2026-10-04 one OASH notice was open, for Title X services [1179] [1222] [1181]
+    [1183] [1185].
+  how_it_decides: For Title X an independent merit review panel evaluates eligible applications and the Grants Management
+    Officer determines eligibility and qualification; the regulation lists the factors the Secretary weighs, including the
+    number of clients and of low-income clients, local need, capacity to use funds rapidly, and non-federal resources. No
+    OASH-wide description of review was read [1218] [1214] [1217].
+  cycle: Irregular. The Title X notice was posted April 3, 2026 and closes January 11, 2027. The Office of Minority Health
+    posted and closed two notices in FY 2026. The last Teen Pregnancy Prevention notices closed in 2023. Nine OASH forecasts
+    dating from August 2024 and July 2025 remain on Grants.gov without posting dates [1179] [1185].
+  who_to_talk_to: Each notice names a contact; the Title X notice names a contact in the Office of Population Affairs [1180].
+  where_it_posts: On Grants.gov; the Office of Minority Health also lists its notices on its own funding page and offers
+    an email list. The former OASH grants page redirected to health.gov on 2026-10-04 [1185] [1179] [1217].
+  budget:
+  - amount: $286.5M (Title X Family Planning)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 535
+  - amount: $0 (Title X Family Planning)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 535
+  - amount: $107.8M (Teen Pregnancy Prevention)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 535
+  - amount: $0 (Teen Pregnancy Prevention)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 535
+  - amount: $74.8M (Office of Minority Health)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 535
+  - amount: $45.0M (Office of Minority Health)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 535
+  - amount: $44.1M (Office on Women's Health)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 535
+  - amount: $30.0M (Office on Women's Health)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 535
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  policy_guide_note: The HHS Grants Policy Statement, Version 2.0, effective October 1, 2025, covers OASH awards [527].
+  programs:
+  - oash-title-x-family-planning
+  - oash-teen-pregnancy-prevention
+  - oash-minority-health-grants
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY 2027 budget proposes to combine OASH with HRSA, SAMHSA and several CDC centres in an Administration for
+      a Healthy America [533].
+  official_url: https://opa.hhs.gov/grant-programs/title-x-service-grants
+  as_of: '2026-10-04'
+  sources:
+  - 1179
+  - 1181
+  - 1183
+  - 1185
+  - 1214
+  - 1180
+  - 535
+  - 533
+  - 527
+  - 1217
+  - 1218
+  - 1222
+  sweep: service-A
+- id: ihs
+  name: Indian Health Service (grants to tribes, tribal organizations and urban Indian organizations)
+  funder_kind: federal
+  parent: HHS
+  what: The Indian Health Service makes grants and cooperative agreements through its Division of Grants Management. Its
+    eligible applicants are federally recognized tribes, tribal organizations and urban Indian organizations; other non-profits
+    and universities are not among the applicant classes its funding page names [1186].
+  cycle: FY 2026 notices were posted between June and September 2026. On 2026-10-04 one notice was open, National Indian
+    Health Outreach and Education (closing November 2, 2026), and 17 FY 2027 forecasts, posted in August and September 2026,
+    were listed on Grants.gov [1187] [1213].
+  who_to_talk_to: The Division of Grants Management, dgm@ihs.gov [1188].
+  where_it_posts: New and competing continuation announcements are posted on Grants.gov and listed on the Division of Grants
+    Management funding page; non-competing continuations are submitted in GrantSolutions [1186].
+  budget:
+  - amount: $9.094 billion budget authority ($9.143 billion program level), whole agency
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 533
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  policy_guide_note: The HHS Grants Policy Statement, Version 2.0, effective October 1, 2025, covers IHS awards [527].
+  programs:
+  - ihs-tribal-management-grant
+  - ihs-urban-indian-health-4-in-1
+  pending_changes: []
+  official_url: https://www.ihs.gov/dgm/funding/
+  as_of: '2026-10-04'
+  sources:
+  - 1186
+  - 1187
+  - 1188
+  - 533
+  - 527
+  - 1213
+  sweep: service-A
+- id: cms
+  name: Centers for Medicare & Medicaid Services (grants to community organizations and states)
+  funder_kind: federal
+  parent: HHS
+  what: CMS is mainly a payer, not a grant maker. The grant line read that reaches community organizations directly is the
+    Navigator cooperative agreement for the federally-facilitated health insurance exchanges. Its Rural Health Transformation
+    Program makes awards to states only [1192] [1193].
+  cycle: The Navigator notice is posted once for a multi-year performance period, most recently in June 2024 for August
+    27, 2024 to August 26, 2029 [1190] [1192].
+  who_to_talk_to: The 2024 Navigator notice gives navigatorgrants@cms.hhs.gov [1190].
+  where_it_posts: The Navigator notices are on Grants.gov; CMS lists each year's Navigator recipients on its in-person assistance
+    page [1190] [1192].
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  policy_guide_note: The HHS Grants Policy Statement, Version 2.0, effective October 1, 2025, covers CMS awards [527].
+  programs:
+  - cms-navigator-cooperative-agreements
+  - cms-rural-health-transformation
+  pending_changes: []
+  official_url: https://www.cms.gov/marketplace/in-person-assisters/programs-procedures/in-person-assistance
+  as_of: '2026-10-04'
+  sources:
+  - 1192
+  - 1193
+  - 1190
+  - 527
+  sweep: service-A
+- id: acf
+  name: Administration for Children and Families
+  funder_kind: federal
+  parent: HHS
+  sweep: service-B
+  what: ACF is the HHS agency for children, youth and family programmes. In this slice it runs Head Start, the Runaway and
+    Homeless Youth grants, the Family Violence Prevention and Services Act grants and refugee resettlement grants as direct
+    competitions, and the Community Services Block Grant, Social Services Block Grant and child care funds as formula money
+    to states and tribes [1339] [1234] [1239] [1241] [1248]. The FY2027 budget presents ACF and ACL together as the Administration
+    for Children, Families, and Communities (ACFC) and calls the integration planned [1339].
+  how_it_decides: Competitive applications are scored by review panels whose members are typically not federal employees,
+    against criteria and point values printed in each notice; the 2026 notices read used a 110-point scale that includes
+    10 points for alignment with ACF priorities [1235] [1246]. For Head Start, ACF states that review scores and rankings
+    do not bind it [1228].
+  cycle: The FY2026 discretionary notices read were posted between July 23 and August 12, 2026, with windows of about 25
+    to 48 days, for start dates from September 30 to December 1, 2026 [1234] [1345] [1245] [1235] [1246]. In 2025 the Basic
+    Center and Transitional Living notices were open from July 9 to July 28 [1233] [1236]. Head Start service-area notices
+    are forecast for October 14, 2026 [1251].
+  who_to_talk_to: Each Grants.gov listing names a grantor contact [1234] [1245]. For Head Start applications the Office
+    of Head Start gives OHSgrants@koniag-gs.com and 888-242-0684 [1225]. For CSBG the contacts are CSBGStates@acf.hhs.gov
+    and CSBGTribes@acf.hhs.gov [1239].
+  where_it_posts: On Grants.gov, which carries ACF's notices, its forecasts and its archived notices [1224]. On 2026-10-04
+    a search under the top-level ACF agency code returned one open notice and one forecast; other offices' notices sit under
+    sub-agency codes [1232]. Head Start competitions are also listed on the Office of Head Start's NOFO locator [1227].
+  budget:
+  - amount: $35,535 million budget authority for ACFC (ACF and ACL programmes together)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 533
+  - amount: $28,680 million budget authority for ACFC
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 533
+  - amount: $12,356,820 thousand for Head Start
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1339
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  policy_guide_note: The HHS Grants Policy Statement is recorded in the pack as mechanics id hhs-grants-policy-statement;
+    no ACF page read in this sweep states which version governs its awards [1223].
+  programs:
+  - acf-head-start
+  - acf-early-head-start-expansion
+  - acf-rhy-basic-center
+  - acf-rhy-street-outreach
+  - acf-rhy-transitional-living
+  - acf-fvpsa-formula
+  - acf-fvpsa-culturally-specific-services
+  - acf-orr-placement-and-coordination
+  - acf-csbg
+  - acf-ssbg
+  - acf-ccdf
+  pending_changes:
+  - status: announced
+    date: '2025-03-27'
+    text: HHS announced that ACL's programmes for older adults and people with disabilities would be integrated into ACF,
+      ASPE and CMS [530]. The FY2027 justification, dated April 2, 2026, describes the integration of ACL and ACF within
+      ACFC as planned [1339].
+  - status: proposed
+    date: '2026-04-02'
+    text: The FY2027 budget requests $0 for the Community Services Block Grant, LIHEAP and Preschool Development Grants,
+      and holds Head Start at $12,356,820 thousand [1339].
+  - status: vacated
+    date: '2026-09-21'
+    text: The July 14, 2025 PRWORA notice, which the ACF grants page still mentions, was declared unlawful and vacated by
+      the District of Rhode Island [1223] [1230].
+  official_url: https://acf.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 1223
+  - 1224
+  - 1232
+  - 1339
+  - 533
+  - 530
+  - 1235
+  - 1246
+  - 1228
+  - 1225
+  - 1227
+  - 1234
+  - 1233
+  - 1236
+  - 1345
+  - 1245
+  - 1251
+  - 1239
+  - 1241
+  - 1248
+  - 1230
+- id: acl
+  name: Administration for Community Living
+  funder_kind: federal
+  parent: HHS
+  sweep: service-B
+  what: ACL funds services for older adults and people with disabilities. Most of its money is formula funding under the
+    Older Americans Act that passes through state and area agencies on aging; it also makes direct discretionary grants,
+    among them centres for independent living, Alzheimer's programmes, respite care, falls prevention and national resource
+    centres [1260] [1259] [1255]. HHS announced in March 2025 that ACL's programmes would move into other HHS agencies;
+    the FY2027 budget shows them within ACFC [530] [1339].
+  how_it_decides: ACL separates discretionary (competitive) grants, where it chooses the projects, from mandatory (formula)
+    grants, which need no application or competition; the page does not describe the review procedure for its competitive
+    grants [1259].
+  cycle: In 2026 ACL posted its discretionary notices between June 22 and July 9, most with windows of about 30 days [1255].
+    On September 25, 2026 it posted fifteen forecasts for FY2027; the one service forecast read gives an estimated posting
+    date of March 4, 2027 [1044] [1256].
+  who_to_talk_to: Each Grants.gov listing names a grantor contact, for example aoa.oaa@acl.hhs.gov for the Alzheimer's programme
+    [1257]. For Older Americans Act services the contact is the state or area agency on aging [1261].
+  where_it_posts: On Grants.gov and on its own open-opportunities page, which sorts by programme office (AoD, AoA, NIDILRR,
+    CIP) [1259] [1044]. Forecasts are posted on Grants.gov [1044].
+  budget:
+  - amount: $2,508,979,000 for Aging and Disability Services Programs
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1339
+  - amount: $2,454,100,000 for Aging and Disability Services Programs
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1339
+  programs:
+  - acl-oaa-title-iii
+  - acl-centers-for-independent-living
+  - acl-adpi-state-and-community
+  pending_changes:
+  - status: announced
+    date: '2025-03-27'
+    text: HHS announced that ACL's programmes would be integrated into ACF, ASPE and CMS [530]. The FY2027 justification
+      describes the integration of ACL and ACF within ACFC as planned and moves ACL's programme administration to ACFC's
+      federal administration line [1339]. ACL was still posting notices under its own name in 2026 [1255].
+  - status: proposed
+    date: '2026-04-02'
+    text: The FY2027 request lowers Developmental Disabilities Programs from $191,369,000 to $125,000,000 and NIDILRR from
+      $119,000,000 to $100,000,000, and raises Independent Living from $128,183,000 to $228,183,000 [1339].
+  official_url: https://acl.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 1259
+  - 1260
+  - 1261
+  - 1255
+  - 1044
+  - 1256
+  - 1257
+  - 1339
+  - 530
+- id: doj-ovw
+  name: Office on Violence Against Women
+  funder_kind: federal
+  parent: DOJ
+  sweep: service-B
+  what: OVW administers the grant programmes authorised by the Violence Against Women Act of 1994 and later laws [1264].
+    Its discretionary programmes fund victim services, legal assistance, housing and justice-system responses; its formula
+    programmes (STOP, Sexual Assault Services, and coalition grants) go to states and coalitions [1263]. Eligibility differs
+    from programme to programme [1264].
+  how_it_decides: A responsiveness review removes ineligible or incomplete applications. Peer reviewers, who may be internal,
+    external or both, score the rest. A programmatic review can deduct up to 25 points each for activities that compromise
+    victim safety, for out-of-scope activities and for past performance, and add up to 10 for the notice's priorities. After
+    a risk review the OVW Director decides, may consider geographic variety, and the decision is not subject to appeal [1348].
+  cycle: OVW publishes a release plan. In FY2026 notices came out between June 2 and September 1, 2026, with closing dates
+    from July 2 to October 8, 2026 [1266] [1263]. Awards in the notices read start October 1, 2026 [1267]. Twelve programmes
+    were marked as not accepting applications in FY2026 [1263].
+  who_to_talk_to: OVW.Info@usdoj.gov and 202-307-6026 [1263]. OVW publishes sample documents and a companion guide for applicants
+    [1349] [1270].
+  where_it_posts: On its own Funding Opportunities page, with each notice also on Grants.gov; its forecast is the "Notices
+    of Funding Opportunity Release Plan" page; updates go out by GovDelivery subscription [1263] [1266].
+  budget:
+  - amount: $720,000 thousand
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 620
+  - amount: $713,000 thousand
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 620
+  - amount: $539,000 thousand
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 620
+  governing_terms: The FY2026 Application Companion Guide sets the common application and reporting rules that each notice
+    refers to; OVW also posts general terms and conditions by fiscal year [1270].
+  programs:
+  - doj-ovw-legal-assistance-for-victims
+  - doj-ovw-transitional-housing
+  - doj-ovw-stop-formula
+  pending_changes:
+  - status: enjoined
+    date: '2025-08-08'
+    text: OVW requires applicants to certify that funds will not go to listed "out-of-scope activities". On August 8, 2025
+      the District of Rhode Island stayed several of these conditions for all FY2025 grants [1271]. OVW's FY2026 page says
+      the certification requirement is paused as to items 2-5, 7-9 and 11 [1263].
+  - status: proposed
+    date: '2026'
+    text: The FY2027 request is $539,000 thousand, against $720,000 thousand enacted for FY2026 [620].
+  official_url: https://www.justice.gov/ovw/funding-opportunities
+  as_of: '2026-10-04'
+  sources:
+  - 1264
+  - 1263
+  - 1265
+  - 1266
+  - 1348
+  - 1349
+  - 1270
+  - 1267
+  - 620
+  - 1271
+- id: doj-ojp
+  name: Office of Justice Programs (Bureau of Justice Assistance, Office for Victims of Crime, Office of Juvenile Justice
+    and Delinquency Prevention)
+  funder_kind: federal
+  parent: DOJ
+  sweep: service-B
+  what: 'OJP is the Department of Justice''s main grant-making office. Three of its bureaus fund services: BJA (reentry,
+    treatment courts, justice assistance), OVC (victim services and the Victims of Crime Act formula grants) and OJJDP (mentoring,
+    youth reentry, juvenile justice formula grants) [612] [1280] [1344].'
+  how_it_decides: Applications are screened for basic minimum requirements, then go through a merit-based review under OJP's
+    merit review policy, then programmatic and financial review, including a pre-award risk questionnaire. Final decisions
+    are made by the Assistant Attorney General unless a statute names another official [619]. The FY2026 notices read weight
+    need at 5 percent, goals at 15, design at 35, capabilities at 30 and budget at 15 [1274] [1276] [1277].
+  cycle: The FY2026 notices were posted from August to September 2026, with Grants.gov deadlines from late September to
+    mid-November 2026 and awards starting January 1, 2027; about 50 notices were open on 2026-10-04 [612] [1274] [1275].
+  who_to_talk_to: The OJP Response Center, recorded in the pack as help id ojp-response-center; each notice names its own
+    contact [619].
+  where_it_posts: On the OJP Current Funding Opportunities page and each bureau's funding page, with every notice also on
+    Grants.gov; applications are completed in JustGrants [612] [619].
+  budget:
+  - amount: $2,398,500 thousand for State and Local Law Enforcement Assistance
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 620
+  - amount: $1,617,300 thousand for State and Local Law Enforcement Assistance
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 620
+  - amount: $375,000 thousand for Juvenile Justice Programs
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 620
+  - amount: $1,950,000 thousand Crime Victims Fund obligation level
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 620
+  policy_guide: https://www.ojp.gov/funding/apply/ojp-grant-application-resource-guide
+  policy_guide_note: The OJP Grant Application Resource Guide, last updated September 3, 2026, is the standing guide for
+    applicants; it refers to the DOJ Grants Financial Guide for cost rules [619].
+  programs:
+  - doj-bja-second-chance-community-reentry
+  - doj-bja-byrne-jag
+  - doj-ovc-human-trafficking-services
+  - doj-ovc-voca-victim-assistance
+  - doj-ojjdp-multistate-mentoring
+  - doj-ojjdp-title-ii-formula
+  pending_changes:
+  - status: on-appeal
+    date: '2025-07-07'
+    text: In April 2025 OJP terminated 376 discretionary awards to 219 recipients, worth more than $820 million, citing
+      2 C.F.R. 200.340(a)(4). On July 7, 2025 the District Court for the District of Columbia denied a preliminary injunction
+      and dismissed the challenge for lack of jurisdiction [1281]. An appeal (D.C. Circuit No. 25-5248) was argued October
+      14, 2025; no appellate decision was found [1282].
+  - status: enjoined
+    date: '2026-07-02'
+    text: FY2026 OJP notices list as unallowable any activity that violates federal immigration law, including 8 U.S.C.
+      1373, or federal civil rights law [1274]. One OVC notice records DOJ's stipulation not to enforce those two paragraphs
+      while the amended preliminary injunction of July 2, 2026 in Freedom Network v. Trump (N.D. Ill.) remains in effect
+      [1276].
+  - status: proposed
+    date: '2026'
+    text: The FY2027 request has $0 for Community Violence Intervention ($50,000 thousand in FY2026), $43,000 thousand for
+      Youth Mentoring ($105,000 thousand) and $426,000 thousand for Byrne JAG ($964,000 thousand) [620].
+  official_url: https://www.ojp.gov/funding/explore/current-funding-opportunities
+  as_of: '2026-10-04'
+  sources:
+  - 612
+  - 619
+  - 620
+  - 1274
+  - 1276
+  - 1275
+  - 1277
+  - 1280
+  - 1344
+  - 1281
+  - 1282
+- id: hud
+  name: Department of Housing and Urban Development (Community Planning and Development; Housing Counseling)
+  funder_kind: federal
+  sweep: service-B
+  what: HUD funds homeless assistance through the Continuum of Care competition, housing counselling through an annual notice,
+    and community development and affordable housing through the CDBG and HOME formula grants to governments [1347] [1291]
+    [1292] [1293]. Non-profits reach the first two directly or through a local body and the last two only through the government
+    grantee [1292].
+  how_it_decides: Each notice sets its own rating factors; HUD's funding page says each NOFO contains all the information
+    needed to apply [1294]. In the Continuum of Care competition the local CoC ranks projects and HUD selects in two tiers
+    [1286].
+  cycle: The FY2026 Continuum of Care notice was posted June 1 and the CoC Builds notice June 23, 2026; HUD's list shows
+    FY2026 due dates from July 13 to August 26, 2026 [1294] [1284]. The housing counselling notice runs later and less regularly
+    [1289].
+  who_to_talk_to: The contact named in the notice, for example CoCNOFO@hud.gov and Housing.Counseling@hud.gov [1285] [1291].
+    For the CoC competition the first contact is the local Continuum of Care's Collaborative Applicant [1283].
+  where_it_posts: All funding opportunities are posted on Grants.gov; HUD's funding page lists the year's notices by office
+    with due dates, and forecasts appear on Grants.gov [1294] [1290]. CoC project applications are filed in e-snaps [1283].
+  budget:
+  - amount: $84,216M total discretionary (gross)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1341
+  - amount: $73,504M total discretionary (gross)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1341
+  - amount: $4,417,000 thousand for Homeless Assistance Grants
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1340
+  programs:
+  - hud-continuum-of-care
+  - hud-housing-counseling
+  - hud-cdbg
+  - hud-home
+  pending_changes:
+  - status: proposed
+    date: '2026'
+    text: The FY2027 budget requests $0 for CDBG, HOME and Housing Counseling Assistance, and no funding for the Continuum
+      of Care programme, with homeless assistance consolidated into Emergency Solutions Grants [1341] [1340].
+  - status: vacated
+    date: '2026-08-14'
+    text: In Rhode Island Coalition Against Domestic Violence v. Kennedy the District of Rhode Island vacated the "New Conditions"
+      that HUD and HHS had added to grants, and denied a permanent injunction [1272].
+  - status: enjoined
+    date: '2026-08-25'
+    text: The Ninth Circuit affirmed in large part the preliminary injunction in County of King v. Turner against HUD's
+      conditions on Continuum of Care grants held by the plaintiff local governments [1335].
+  official_url: https://www.hud.gov/hud-partners/grants-info-funding-opps
+  as_of: '2026-10-04'
+  sources:
+  - 1294
+  - 1283
+  - 1347
+  - 1286
+  - 1284
+  - 1285
+  - 1289
+  - 1291
+  - 1290
+  - 1292
+  - 1293
+  - 1341
+  - 1340
+  - 1272
+  - 1335
+- id: dol-eta
+  name: Employment and Training Administration
+  funder_kind: federal
+  parent: DOL
+  sweep: service-B
+  what: 'ETA runs the Department of Labor''s workforce grants: formula funds to states under the Workforce Innovation and
+    Opportunity Act, and competitive grants such as YouthBuild, reentry and apprenticeship [1302] [1295]. In 2026 its funding
+    list also carried Department of Education competitions [1295].'
+  how_it_decides: In the announcement read, a technical merit review panel scores applications against printed criteria;
+    its results are advisory, and the Grant Officer selects, weighing factors such as geographic distribution and target
+    industries [1300].
+  cycle: Competitive announcements in the 2026 round were posted from December 23, 2025 to June 10, 2026, with windows of
+    about six to ten weeks; formula and guidance-letter opportunities for states and standing grantees were posted from
+    April to August 2026 [1295] [1296].
+  who_to_talk_to: The grants contact named in each announcement, for example YB_FOA-ETA-26-38@dol.gov for YouthBuild [1297].
+  where_it_posts: On Grants.gov and at dol.gov/agencies/eta/grants; some opportunities are announced through Training and
+    Employment Guidance Letters [1305]. No ETA forecast page was found [1305].
+  budget:
+  - amount: $3,981,588 thousand for Training and Employment Services
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1342
+  - amount: $4,875,067 thousand for Training and Employment Services, including Career and Technical Education moved from
+      the Department of Education
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1342
+  programs:
+  - dol-eta-youthbuild
+  - dol-eta-reentry-restart
+  - dol-eta-apprenticeship-pay-for-performance
+  - dol-eta-wioa-formula
+  pending_changes:
+  - status: proposed
+    date: '2026'
+    text: The FY2027 budget proposes one Make America Skilled Again grant of $3,425,067 thousand in place of the Adult,
+      Youth, Dislocated Worker, Apprenticeship, YouthBuild, Reentry, Native American, farmworker and older-worker lines,
+      each of which is requested at $0 [1342].
+  official_url: https://www.dol.gov/agencies/eta/grants
+  as_of: '2026-10-04'
+  sources:
+  - 1295
+  - 1305
+  - 1296
+  - 1300
+  - 1297
+  - 1302
+  - 1342
+- id: va
+  name: Department of Veterans Affairs (community grant programmes)
+  funder_kind: federal
+  sweep: service-B
+  what: 'VA makes grants to community organisations for services to Veterans: Supportive Services for Veteran Families and
+    Grant and Per Diem from its Homeless Programs Office, and the Staff Sergeant Fox suicide prevention grants from its
+    Office of Suicide Prevention [1306] [1310] [1314].'
+  how_it_decides: 'By point scoring under each programme''s regulation: SSVF under 38 CFR part 62, with a 75-point minimum
+    for renewals, and Grant and Per Diem on a 1,000-point scale [1309] [1312].'
+  cycle: The homeless programme notices are posted in December and close in February for grants that start the next October
+    1 [1307] [1311]. The suicide prevention notice was posted March 13, 2026 and closed June 12, 2026 [1315]. VA announced
+    $1.17 billion in homeless grants to 680 organisations for FY2027 [1306].
+  who_to_talk_to: ssvf@va.gov, GPDgrants@va.gov and VASSGFoxGrants@va.gov [1308] [1313] [1316].
+  where_it_posts: On Grants.gov and on each programme's page; Grant and Per Diem also posts a multi-year forecast entry
+    on Grants.gov [1310] [1311]. Applications go to VA's own systems, not through Grants.gov [1309] [1312].
+  governing_terms: 38 CFR part 62 for SSVF and 38 C.F.R. Part 78 for the suicide prevention grants [1309] [1316].
+  programs:
+  - va-ssvf
+  - va-grant-and-per-diem
+  - va-ssg-fox-suicide-prevention
+  pending_changes: []
+  official_url: https://department.va.gov/homeless/
+  as_of: '2026-10-04'
+  sources:
+  - 1306
+  - 1310
+  - 1314
+  - 1309
+  - 1312
+  - 1307
+  - 1311
+  - 1315
+  - 1308
+  - 1313
+  - 1316
+- id: fema
+  name: Federal Emergency Management Agency (preparedness grants)
+  funder_kind: federal
+  parent: DHS
+  sweep: service-B
+  what: FEMA's preparedness grants go to State Administrative Agencies. The one that reaches non-profits is the Nonprofit
+    Security Grant Program, where the state agency applies and non-profits are subapplicants [1320].
+  how_it_decides: For NSGP the state agency scores each non-profit's Investment Justification, FEMA reviews eligibility
+    and allowability, multipliers and bonus points are applied, and the Secretary of Homeland Security makes the final decision
+    on subawards [1320].
+  cycle: One NSGP notice a year, posted April 16 in 2024, July 28 in 2025 and June 24 in 2026 [1318].
+  who_to_talk_to: The State Administrative Agency for a non-profit; the FEMA GO Help Desk (1-877-585-3242, femago@fema.dhs.gov)
+    for the state applicant [1319].
+  where_it_posts: On Grants.gov and fema.gov; the state applies in FEMA GO [1320] [1318].
+  governing_terms: The DHS Standard Terms and Conditions for the fiscal year; the FY2025 NSGP notice applied version 3 of
+    the FY2025 terms with two paragraphs excluded [1321].
+  programs:
+  - fema-nsgp
+  pending_changes:
+  - status: vacated
+    date: '2025-09-24'
+    text: In Illinois v. FEMA the District of Rhode Island vacated the immigration-enforcement conditions in DHS's grant
+      terms and permanently enjoined their enforcement against the plaintiff states [1336].
+  - status: in-litigation
+    date: '2026-07-23'
+    text: A second complaint by states challenges immigration, election and termination conditions on FY2026 FEMA grants
+      [1337].
+  official_url: https://www.fema.gov/grants/preparedness/nonprofit-security
+  as_of: '2026-10-04'
+  sources:
+  - 1317
+  - 1320
+  - 1321
+  - 1318
+  - 1319
+  - 1336
+  - 1337
+- id: lsc
+  name: Legal Services Corporation
+  funder_kind: independent-nonprofit
+  sweep: service-B
+  what: LSC is an independent 501(c)(3) non-profit established by Congress in 1974 and funded by annual appropriation. A
+    board of 11 members appointed by the President and confirmed by the Senate governs it. It distributes over 94 percent
+    of its funding to 129 independent non-profit legal aid programmes with more than 800 offices [1328].
+  how_it_decides: Basic Field Grant applications are assessed against the LSC Act, LSC Regulations, the LSC Performance
+    Criteria and the ABA Standards for the Provision of Civil Legal Aid [1326].
+  cycle: 'Basic Field Grants: request for proposals in April, applications due June 1, decisions announced in December for
+    the following calendar year [1325] [1324].'
+  who_to_talk_to: LSC's grant programme staff; the Pro Bono Innovation Fund gives probonoinnovation@lsc.gov [1333].
+  where_it_posts: On lsc.gov, with applications in its own system, GrantEase [1324].
+  budget:
+  - amount: $540 million
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1329
+  - amount: $560 million
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 1329
+  - amount: $300 million
+    fiscal_year: 2026
+    status: house-mark
+    cite:
+    - 1330
+  - amount: $2.1 billion (LSC's own request to Congress)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1331
+  governing_terms: The LSC Act and LSC Regulations, which also bind subgrants of LSC funds [1326].
+  programs:
+  - lsc-basic-field-grant
+  - lsc-grantee-only-grants
+  pending_changes:
+  - status: enacted
+    date: '2026-01-15'
+    text: Congress passed $540 million for FY2026 after the White House proposed in May 2025 to eliminate LSC and the House
+      Appropriations Committee approved $300 million [1329] [1330].
+  official_url: https://www.lsc.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 1328
+  - 1323
+  - 1324
+  - 1325
+  - 1326
+  - 1333
+  - 1329
+  - 1330
+  - 1331
+- id: ed-oese
+  name: U.S. Department of Education, elementary, secondary and community programmes (Office of Elementary and Secondary
+    Education)
+  funder_kind: federal
+  parent: Department of Education
+  what: The Department of Education's school and community grant programmes include formula grants to States, such as 21st
+    Century Community Learning Centers, and discretionary competitions such as the Charter Schools Program, Education Innovation
+    and Research, Full-Service Community Schools and Promise Neighborhoods [1399] [1453] [1401] [1400] [1395]. Since November
+    2025 other departments run many of these competitions for Education under interagency agreements [672] [1397].
+  how_it_decides: 'Each competition is governed by its notice inviting applications, which sets absolute and competitive
+    preference priorities [1401] [1395]. The Secretary''s supplemental priorities, effective October 9, 2025, may be used
+    in any discretionary competition whose statute allows it: Promoting Evidence-Based Literacy, Expanding Education Choice,
+    and Returning Education to the States [1392]. Further supplemental priorities were finalised in 2026 on meaningful learning
+    opportunities, career pathways and workforce readiness, artificial intelligence in education, and patriotic education
+    [1393].'
+  cycle: In 2026 most competition notices were published between late March and early June, with deadlines 30 to 80 days
+    later [1381] [1382] [1395].
+  who_to_talk_to: Each Federal Register notice names a programme contact; grantees of the programmes moved to HHS are told
+    to stay in contact with both Education and HHS programme staff [1395] [1398].
+  where_it_posts: A short notice in the Federal Register announces each competition; the full notice inviting applications
+    is on the programme's ed.gov page, on the partner agency's site and on Grants.gov, where applications are submitted
+    [1382] [1384] [1395].
+  budget:
+  - amount: $78.7 billion (Department discretionary total)
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 1404
+  - amount: $78.9 billion (Department discretionary total)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1404
+  - amount: $75.7 billion (Department discretionary total)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1404
+  governing_terms: The Education Department General Administrative Regulations; a proposed rule to revise them was published
+    August 24, 2026 and was not read [1393].
+  programs:
+  - ed-charter-schools-state-entities
+  - ed-education-innovation-research
+  - ed-full-service-community-schools
+  - ed-promise-neighborhoods
+  - ed-21st-century-community-learning-centers
+  pending_changes:
+  - status: pending-implementation
+    date: '2025-11-18'
+    text: The Department of Labor manages competitions and technical assistance for Education's elementary and secondary
+      and postsecondary programmes; Interior for Indian Education; HHS for CCAMPIS; State for international education [672].
+  - status: pending-implementation
+    date: '2026-02-23'
+    text: HHS administers Project SERV, School Safety National Activities, Ready to Learn Programming, Full-Service Community
+      Schools, Promise Neighborhoods and Statewide Family Engagement Centers [1397].
+  - status: proposed
+    date: '2026'
+    text: The FY 2027 request proposes a $2.0 billion Make Education Great Again programme that consolidates 17 K-12 formula
+      and competitive programmes [1404].
+  official_url: https://www.ed.gov/grants-and-programs
+  as_of: '2026-10-04'
+  sources:
+  - 672
+  - 1397
+  - 1398
+  - 1392
+  - 1393
+  - 1381
+  - 1404
+  sweep: service-C
+- id: americorps
+  name: AmeriCorps (Corporation for National and Community Service)
+  funder_kind: federal
+  what: 'AmeriCorps funds organisations to engage members and volunteers in service: State and National grants, VISTA, and
+    the AmeriCorps Seniors programmes [1374] [1379] [1378]. In April 2025 the agency terminated 1,031 grants and placed
+    about 85 percent of its staff on leave; a court enjoined the programme closures in the plaintiff States [1380]. It posted
+    FY 2027 competitions in August 2026 [1375].'
+  how_it_decides: State and National money is split by regulation between a population formula to States, a competition
+    among States and direct competitive grants [1377]. RSVP grants are chosen competitively with peer review panels [1378].
+    The agency renewed its External Reviewer application form in 2026 [1457].
+  cycle: The State and National notice is posted in late summer with a January deadline; the FY 2027 RSVP notice was posted
+    August 20, 2026 with an October 20, 2026 deadline [1374] [1376].
+  who_to_talk_to: The listings give americorpsgrants@americorps.gov for State and National and RSVPCompetition@americorps.gov
+    for RSVP [1374] [1376].
+  where_it_posts: On Grants.gov, with the full notice and resources on the competition page at americorps.gov [1374].
+  governing_terms: 45 CFR chapter XXV, including parts 2521 (State and National), 2553 (RSVP), 2552 (Foster Grandparents)
+    and 2556 (VISTA) [1377] [1378] [1451] [1379].
+  programs:
+  - americorps-state-and-national
+  - americorps-vista
+  - americorps-seniors-rsvp
+  - americorps-seniors-foster-grandparent
+  pending_changes:
+  - status: enjoined
+    date: '2025-06-05'
+    text: Preliminary injunction against the closure of 1,031 terminated programmes in 24 plaintiff States and the District
+      of Columbia, pending notice-and-comment rulemaking [1380].
+  - status: proposed
+    date: '2026-07-23'
+    text: AmeriCorps proposed to rescind portions of its Title VI regulations to implement Executive Order 14281; the text
+      was not read [1457].
+  official_url: https://www.americorps.gov/partner/funding-opportunities
+  as_of: '2026-10-04'
+  sources:
+  - 1374
+  - 1376
+  - 1375
+  - 1377
+  - 1378
+  - 1451
+  - 1379
+  - 1380
+  - 1457
+  sweep: service-C
+- id: cpb
+  name: Corporation for Public Broadcasting
+  funder_kind: independent-nonprofit
+  what: The Corporation for Public Broadcasting passed federal appropriations to public media stations and producers [1406].
+    Its appropriations for fiscal years 2026 and 2027 were rescinded on July 24, 2025, and on August 1, 2025 it announced
+    that it was winding down [1407] [1406].
+  cycle: Most staff positions ended September 30, 2025; a transition team was to remain through January 2026 [1406]. The
+    newest grant announcements on its press page as read are from December 2025 [1408].
+  where_it_posts: Its press releases are at cpb.org/pressroom [1408].
+  budget:
+  - amount: rescinded (amounts made available for fiscal year 2026 by Public Law 118-47)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1407
+  - amount: rescinded (amounts made available for fiscal year 2027 by Public Law 119-4)
+    fiscal_year: 2027
+    status: enacted
+    cite:
+    - 1407
+  programs:
+  - cpb-grants
+  pending_changes:
+  - status: announced
+    date: '2026-01-05'
+    text: A policy organisation reports that the board voted on January 5, 2026 to dissolve the Corporation [1409].
+  official_url: https://cpb.org/
+  as_of: '2026-10-04'
+  sources:
+  - 1406
+  - 1407
+  - 1408
+  - 1409
+  sweep: service-C
+- id: usda-rd
+  name: USDA Rural Development
+  funder_kind: federal
+  parent: USDA
+  what: Rural Development makes loans and grants for rural community facilities, housing, utilities and business development;
+    its grants to non-profits include Community Facilities grants and the Rural Community Development Initiative [1410]
+    [1411].
+  how_it_decides: Community Facilities applications are scored with priority points for small and low-income communities
+    [1410]. RCDI is a national competition under a yearly notice [1411].
+  cycle: Community Facilities applications are taken all year, October 1 to September 30; competitive programmes such as
+    RCDI open by notice in the Federal Register [1410] [1411].
+  who_to_talk_to: The Rural Development state office, which applicants are told to contact before applying [1410] [1411].
+  where_it_posts: Programme pages at rd.usda.gov, notices in the Federal Register, and application packages on Grants.gov
+    [1411].
+  programs:
+  - usda-rd-community-facilities-grants
+  - usda-rd-rural-community-development-initiative
+  pending_changes:
+  - status: rescinded
+    date: '2026-07-02'
+    text: The fiscal year 2025 RCDI notice was rescinded while the notice is updated for new policy and programme priorities
+      [1412].
+  official_url: https://www.rd.usda.gov/programs-services
+  as_of: '2026-10-04'
+  sources:
+  - 1410
+  - 1411
+  - 1412
+  sweep: service-C
+- id: usda-fns
+  name: USDA Food and Nutrition Service (site now titled Food and Nutrition Administration)
+  funder_kind: federal
+  parent: USDA
+  what: The agency runs the federal nutrition programmes and makes a small number of competitive grants to organisations,
+    among them the Patrick Leahy Farm to School grants [1414]. On the sweep date its web address fns.usda.gov redirected
+    to fna.usda.gov, where the site is titled Food and Nutrition Administration [1413].
+  how_it_decides: The farm to school request for applications is scored out of 100 points against published criteria [1414].
+  cycle: The FY 2026 farm to school request was released in September 2025 with a December deadline and awards the following
+    June [1414].
+  where_it_posts: On its grant pages and on Grants.gov, where the request for applications is attached to the listing [1413]
+    [1414].
+  programs:
+  - usda-fns-farm-to-school-grants
+  official_url: https://www.fna.usda.gov/f2s/grant
+  as_of: '2026-10-04'
+  sources:
+  - 1413
+  - 1414
+  sweep: service-C
+- id: epa
+  name: U.S. Environmental Protection Agency (community and education grants)
+  funder_kind: federal
+  what: Outside its research office, EPA makes grants to communities and organisations for environmental education, brownfields
+    assessment, cleanup and job training [1419] [1420] [1456]. The research office is a separate record, epa-ord.
+  cycle: Brownfields solicitations come out each fall with a deadline about 60 days later; the Brownfields Job Training
+    notice for FY27 ran from July 17 to September 23, 2026; the environmental education competition closed March 3, 2026
+    [1420] [1456] [1419].
+  where_it_posts: On Grants.gov and on each programme's EPA page, which previews the coming competition [1420] [1456].
+  programs:
+  - epa-environmental-education-grants
+  - epa-brownfields-assessment-rlf-cleanup-grants
+  - epa-brownfields-job-training
+  - epa-environmental-and-climate-justice-grants
+  pending_changes:
+  - status: rescinded
+    date: '2025-07-04'
+    text: Public Law 119-21 section 60016 is headed rescission of funding for environmental and climate justice block grants
+      [1422].
+  official_url: https://www.epa.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 1419
+  - 1420
+  - 1456
+  - 1421
+  - 1422
+  sweep: service-C
+- id: eda
+  name: U.S. Economic Development Administration
+  funder_kind: federal
+  parent: Department of Commerce
+  what: EDA makes grants for public works, economic adjustment, planning and technical assistance in economically distressed
+    regions [1430] [1431].
+  how_it_decides: An Investment Review Committee evaluates applications; the share EDA pays depends on the region's distress
+    [1431] [1432].
+  cycle: Its main notices are rolling, with no deadlines, and stay open until replaced, cancelled or exhausted [1430].
+  who_to_talk_to: The economic development representative in the EDA regional office [1431].
+  where_it_posts: On its funding opportunities page and Grants.gov; applications go through its EDGE portal at sfgrants.eda.gov
+    [1430] [1431].
+  governing_terms: 13 CFR chapter III, including part 301 on eligibility, investment rates and application requirements
+    [1432].
+  programs:
+  - eda-public-works-and-economic-adjustment
+  official_url: https://www.eda.gov/funding/funding-opportunities
+  as_of: '2026-10-04'
+  sources:
+  - 1430
+  - 1431
+  - 1432
+  - 1463
+  budget:
+  - amount: $449 million proposed for elimination
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1463
+  pending_changes:
+  - status: proposed
+    date: '2026'
+    text: The FY 2027 Budget proposes to eliminate the Economic Development Administration [1463].
+  sweep: service-C
+- id: ntia
+  name: National Telecommunications and Information Administration
+  funder_kind: federal
+  parent: Department of Commerce
+  what: NTIA runs the broadband and digital equity grant programmes created in 2021, among them the Digital Equity Act programmes
+    [1425]. The Digital Equity Competitive Grant Program was cancelled on May 9, 2025 and is the subject of a court ruling
+    of July 15, 2026 [1426].
+  where_it_posts: On its programme pages; the 2024 competitive applications went through the NTIA Grants Portal [1425].
+  programs:
+  - ntia-digital-equity-competitive-grants
+  official_url: https://www.ntia.gov/funding-programs
+  as_of: '2026-10-04'
+  sources:
+  - 1425
+  - 1426
+  sweep: service-C
+- id: cdfi-fund
+  name: Community Development Financial Institutions Fund
+  funder_kind: federal
+  parent: Department of the Treasury
+  what: The CDFI Fund makes awards to certified community development financial institutions, including non-profit loan
+    funds, and runs related programmes [1433] [1436].
+  how_it_decides: 'The FY 2025 notice describes a staged review: eligibility checks, then evaluation against the criteria
+    in its regulations, then selection and a final compliance check [1434].'
+  cycle: One notice of funds availability per programme per round. The FY 2025 CDFI Program notice was published in January
+    2025; FY 2026 notices for the Small Dollar Loan, Bank Enterprise Award and Bond Guarantee programmes were published
+    June 30, 2026 [1434] [1436].
+  who_to_talk_to: Applicants send questions as a service request in AMIS [1435].
+  where_it_posts: In the Federal Register and at cdfifund.gov; applications use Grants.gov for the SF-424 and AMIS for the
+    rest [1434].
+  governing_terms: 12 CFR parts 1805 and 1815 [1434].
+  programs:
+  - cdfi-fund-cdfi-program
+  official_url: https://www.cdfifund.gov
+  as_of: '2026-10-04'
+  sources:
+  - 1433
+  - 1434
+  - 1435
+  - 1436
+  sweep: service-C
+- id: irs
+  name: Internal Revenue Service (grants to community tax programmes)
+  funder_kind: federal
+  parent: Department of the Treasury
+  what: 'The IRS makes three kinds of grant to organisations that help taxpayers: Volunteer Income Tax Assistance, Tax Counseling
+    for the Elderly, and Low Income Taxpayer Clinics [1437] [1439].'
+  cycle: VITA and TCE applications are taken each May; the LITC notice for the next grant year is posted in May with a July
+    deadline [1437] [1439].
+  who_to_talk_to: The VITA Grant Office at grant.program.office@irs.gov; the LITC Program Office through the contact on
+    the listing [1438] [1439].
+  where_it_posts: On Grants.gov and in IRS news releases; LITC applications go through litcgrants.treasury.gov [1437] [1439].
+  programs:
+  - irs-vita-and-tce-grants
+  - irs-low-income-taxpayer-clinics
+  official_url: https://www.irs.gov/individuals/irs-vita-grant-program
+  as_of: '2026-10-04'
+  sources:
+  - 1437
+  - 1438
+  - 1439
+  - 1440
+  - 1459
+  - 1460
+  how_it_decides: VITA and LITC applications each get a scored technical evaluation followed by a review by the programme
+    office [1460] [1459].
+  policy_guide: https://www.irs.gov/pub/irs-pdf/p3319.pdf
+  policy_guide_note: Publication 3319 governs LITC grants and Publication 4671 governs VITA grants; each is reissued for
+    the grant year [1459] [1460].
+  sweep: service-C
+- id: sba
+  name: U.S. Small Business Administration (grants to resource partners)
+  funder_kind: federal
+  what: SBA gives grants and cooperative agreements to non-profits, resource partners and educational organisations that
+    counsel and train entrepreneurs; it gives none for starting or expanding a business [1441]. The programmes it names
+    include Small Business Development Centers, Women's Business Centers, SCORE, Veterans Business Outreach Centers, the
+    State Trade Expansion Program, FAST and PRIME [1441].
+  where_it_posts: Its grants page lists the programmes; Women's Business Center funding is announced by a programme announcement
+    each fiscal year [1441] [1443].
+  governing_terms: 13 CFR part 130 for Small Business Development Centers and part 131 for Women's Business Centers [1442]
+    [1443].
+  programs:
+  - sba-small-business-development-centers
+  - sba-womens-business-centers
+  official_url: https://www.sba.gov/funding-programs/grants
+  as_of: '2026-10-04'
+  sources:
+  - 1441
+  - 1442
+  - 1443
+  sweep: service-C
+- id: arc
+  name: Appalachian Regional Commission
+  funder_kind: federal
+  what: ARC is a federal-state partnership that makes grants for economic development in the Appalachian Region [1444].
+    Its grants go to state and local governments, tribes, institutions of higher education and non-profits, never to individuals
+    or for-profit entities [1444].
+  how_it_decides: Area Development applications are reviewed and approved by the State first and then by ARC, ending with
+    the Federal Co-Chair; applications to ARISE, POWER, INSPIRE and READY go to ARC first and then to state review [1444].
+  cycle: Area Development deadlines vary by state [1445].
+  who_to_talk_to: The state ARC programme manager [1445].
+  where_it_posts: On arc.gov, by initiative [1444].
+  programs:
+  - arc-area-development
+  official_url: https://www.arc.gov/about-arc-grants/
+  as_of: '2026-10-04'
+  sources:
+  - 1444
+  - 1445
+  - 1446
+  sweep: service-C
+- id: dra
+  name: Delta Regional Authority
+  funder_kind: federal
+  what: The Delta Regional Authority makes investments in infrastructure, business development and workforce development
+    through programmes such as SEDAP [1447].
+  cycle: The 2026 SEDAP cycle opened June 1 and closed July 31, 2026 [1447].
+  who_to_talk_to: The Local Development District for the applicant's area; technical questions to sedap.cif@dra.gov [1447].
+  where_it_posts: On its programme pages at dra.gov [1447].
+  programs:
+  - dra-sedap
+  official_url: https://dra.gov
+  as_of: '2026-10-04'
+  sources:
+  - 1447
+  sweep: service-C

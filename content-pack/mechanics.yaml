@@ -1315,3 +1315,416 @@
   - 1060
   - 1063
   sweep: people-E
+- id: samhsa-discretionary-grants-process
+  name: How SAMHSA posts, reviews and decides discretionary grants
+  what: SAMHSA lists its notices on its Grants Dashboard, with a separate page of forecasts for the next fiscal year, and
+    posts them on Grants.gov. Applications go through eRA Commons ASSIST or Grants.gov Workspace. An application that is
+    late, over the page limit or missing a required attachment is screened out and not reviewed. Peer reviewers with relevant
+    expertise score the project narrative against point-weighted sections in the notice. The programme office and approving
+    official make the final determination, and awards over $250,000 need National Advisory Council approval. SAM.gov responsibility
+    records are reviewed for awards likely to exceed $250,000. After award, SAMHSA releases each later year's funds on approval
+    of progress reports [549] [1107] [1113] [1112] [548].
+  official_url: https://www.samhsa.gov/grants
+  sources:
+  - 549
+  - 1107
+  - 1113
+  - 1112
+  - 548
+  sweep: service-A
+- id: samhsa-notice-six-steps
+  name: SAMHSA notice structure (six steps) and the application guide
+  what: FY 2026 SAMHSA notices are laid out in six steps (Review the Opportunity; Get Ready to Apply; Build Your Application;
+    Learn About Review and Award; Submit Your Application; Learn What Happens After Award). Each notice refers to the FY
+    2026 Application Guide, dated June 2026, for registration, format, budget, funding restrictions and standard terms.
+    The project narratives in the notices read were limited to 10 or 15 pages [1112] [548] [1205].
+  official_url: https://www.samhsa.gov/sites/default/files/grants/fy-2026-grant-application-guide.pdf
+  sources:
+  - 1112
+  - 548
+  - 1205
+  sweep: service-A
+- id: samhsa-fy2026-funding-restrictions
+  name: SAMHSA FY 2026 funding restrictions
+  what: The FY 2026 application guide lists what award funds may not pay for. The list includes syringes, pipes, drug test
+    strips for people using drugs and other drug paraphernalia; overdose hotlines whose primary function is facilitating
+    drug use; marijuana; promotional items; building purchase or construction; inpatient treatment; direct payments to individuals
+    to enter treatment; housing other than sober or recovery housing; housing first policies as the guide describes them;
+    firearms; and salaries above Executive Level II. Discretionary awards may not fund racial preferences, denial of the
+    sex binary, illegal immigration, or other initiatives that compromise public safety. Minor alteration and renovation
+    is allowed up to 25 percent of a budget period or $150,000, whichever is less [548] [1135].
+  official_url: https://www.samhsa.gov/sites/default/files/grants/fy-2026-grant-application-guide.pdf
+  sources:
+  - 548
+  - 1135
+  - 1112
+  sweep: service-A
+- id: samhsa-spars-reporting
+  name: SAMHSA performance reporting in SPARS
+  what: SAMHSA service grantees report client-level or indicator data in SAMHSA's Performance Accountability and Reporting
+    System (SPARS). In the CCBHC notice, data are collected at intake, six months, 12 months and annually, and at closeout,
+    and entered within 30 days. Progress reports are due within 90 days of the end of a budget period (some programmes add
+    a six-month report in year 1) and a final report within 120 days of the end of the project. SAMHSA's site has separate
+    performance measure pages for its three centres [1112] [1208] [549].
+  official_url: https://www.samhsa.gov/grants/grants-management/reporting-requirements
+  sources:
+  - 1112
+  - 1208
+  - 1206
+  - 549
+  sweep: service-A
+- id: samhsa-fy2027-forecast
+  name: SAMHSA FY 2027 forecast
+  what: SAMHSA's forecast page is titled for FY 2027 and was last modified September 18, 2026; its table did not render
+    in this sweep. Grants.gov listed eight SAMHSA forecasts on 2026-10-04, all posted September 3, 2026, with an estimated
+    post date of December 15, 2026 and an estimated award date of September 30, 2027 on the six read (Children's Mental
+    Health Initiative; GLS Campus Suicide Prevention; Assisted Outpatient Treatment; Building Communities of Recovery; Residential
+    Treatment for Pregnant and Postpartum Women; Emergency Department Alternatives to Opioids). The other two are Providers
+    Clinical Support System – Universities and the State Pilot Program for Treatment for Pregnant and Postpartum Women.
+    No SAMHSA notice was open that day [1107] [1108] [1110] [1115] [1120] [1117] [1119] [1121].
+  official_url: https://www.samhsa.gov/grants/grants-dashboard/forecasts
+  sources:
+  - 1107
+  - 1108
+  - 1110
+  - 1115
+  - 1120
+  - 1117
+  - 1119
+  - 1121
+  sweep: service-A
+- id: samhsa-state-authority-letter
+  name: State agency letters and notifications in SAMHSA applications
+  what: The FY 2026 CCBHC notice required a letter from the state, district or territory behavioural health authority approving
+    the application (waived for tribal applicants) and a letter to the State Point of Contact for intergovernmental review
+    under Executive Order 12372. The application guide requires a recipient to notify the Single State Agency within 30
+    days of receiving an award [1112] [548].
+  official_url: https://www.samhsa.gov/grants/how-to-apply/forms-and-resources/intergovernmental-review
+  sources:
+  - 1112
+  - 548
+  sweep: service-A
+- id: hrsa-programme-grants-process
+  name: How HRSA posts, reviews and decides programme grants
+  what: HRSA lists open and closed opportunities on its find-funding page and posts notices and forecasts on Grants.gov;
+    on 2026-10-04 a Grants.gov search for HRSA returned 50 opportunities, one open and the rest forecasts posted between
+    July and September 2026. The Bureau of Primary Health Care lists supplemental and continuation funding for existing
+    health centres on its own page. Each notice sets eligibility. An application that is ineligible, incomplete, non-responsive
+    or late is not reviewed. A merit review panel of independent experts, screened for conflicts of interest, scores the
+    rest against the criteria in the notice; HRSA may then apply funding factors and a risk review before deciding. Results
+    reach applicants through the Electronic Handbooks, and the Notice of Award states the budget period, amount, terms and
+    reports [1145] [1144] [1147] [1194] [1215] [1204] [1151].
+  official_url: https://www.hrsa.gov/grants
+  sources:
+  - 1145
+  - 1144
+  - 1147
+  - 1194
+  - 1215
+  - 1204
+  - 1146
+  - 1151
+  sweep: service-A
+- id: hrsa-two-tier-submission
+  name: HRSA two-tier (two-phase) submission
+  what: Some HRSA notices, including the Service Area Competition, are submitted in two phases. Phase 1 goes to Grants.gov
+    by 11:59 p.m. ET on the due date. HRSA emails within 7 days, and phase 2, the programme-specific forms, is completed
+    in the Electronic Handbooks by a later deadline at 5 p.m. ET. HRSA does not review pages over the limit in the notice.
+    A waiver for a late submission may be requested from ApplicationWaivers@hrsa.gov for a natural disaster, a service disruption
+    or a technical fault on HRSA's side, and is not granted more than five calendar days after closing [1194] [1150].
+  official_url: https://www.hrsa.gov/sites/default/files/hrsa/grants/two-tier-application-guide.pdf
+  sources:
+  - 1194
+  - 1150
+  sweep: service-A
+- id: hrsa-budget-and-reporting-terms
+  name: HRSA budget limits and post-award reports
+  what: HRSA's application guide sets a salary limit at Executive Level II ($225,700, effective January 2025), which also
+    applies to subrecipients, and allows a de minimis indirect rate of up to 15% of modified total direct costs for an applicant
+    without a negotiated rate. Recipients file a Federal Financial Report each year in the Payment Management System, progress
+    reports in the Electronic Handbooks, and a final report 120 calendar days after the period of performance ends. Health
+    centres also report in the Uniform Data System [1194] [1204].
+  official_url: https://www.hrsa.gov/sites/default/files/hrsa/grants/two-tier-application-guide.pdf
+  sources:
+  - 1194
+  - 1204
+  sweep: service-A
+- id: cdc-non-research-awards-process
+  name: How CDC posts, reviews and manages non-research grants and cooperative agreements
+  what: CDC posts every grant and cooperative agreement opportunity on Grants.gov, where FY 2027 forecasts for 2026-10-04
+    carried estimated posting and due dates. CDC uses a cooperative agreement when it expects substantial agency involvement
+    and a grant when it does not. Applications that are eligible, responsive and on time are reviewed and scored; non-research
+    applications are reviewed for ability to meet programmatic needs, and awards follow rank, score and the selection criteria
+    in the notice. CDC describes the pre-award phase as taking 4 to 12 months and the award phase 1 to 5 months. Non-research
+    recipients are managed in GrantSolutions. Additional requirements attached to a notice are listed in the notice and
+    the Notice of Award [550] [1139] [1138] [1198] [1199].
+  official_url: https://www.cdc.gov/grants/index.html
+  sources:
+  - 550
+  - 1139
+  - 1138
+  - 1198
+  - 1199
+  - 1137
+  - 1196
+  sweep: service-A
+- id: cdc-direct-versus-health-department-funding
+  name: CDC money that goes direct and CDC money that goes through health departments
+  what: CDC names state and local governments, domestic non-profits and educational institutions, and for-profit groups
+    among its recipients; individuals cannot apply. Some of its non-research notices are limited to health departments.
+    The Public Health Infrastructure Grant went to 107 health departments and three national partners; the forecast youth
+    violence notice PREVAYL 2.0 lists only state, county and city governments; the open Public Health Crisis Response notice
+    is for governmental public health organizations. Notices in the FY 2027 forecast that list non-profits and universities
+    as applicants include Drug-Free Communities, SCALE and the infectious disease notice CDC-RFA-PS-27-0239. Each notice
+    states the entities that are eligible to apply [1138] [1197] [1143] [1212] [1140] [1142] [1211] [550].
+  official_url: https://www.cdc.gov/grants/about/index.html
+  sources:
+  - 1138
+  - 1197
+  - 1143
+  - 1212
+  - 1140
+  - 1142
+  - 1211
+  - 550
+  sweep: service-A
+- id: hhs-block-grant-pass-through
+  name: HHS health block and formula grants as a pass-through route
+  what: Several of the largest health programmes are awarded to states, territories or cities, which then fund local providers.
+    In this slice they are the two SAMHSA block grants, State Opioid Response grants, the Title V Maternal and Child Health
+    block grant, home visiting, Ryan White Parts A and B, and the Rural Health Transformation Program. The federal agency
+    takes no application from a non-profit for these. For the substance use block grant, federal rules let a state give
+    financial assistance only to public or nonprofit private entities. For the mental health block grant a state must provide
+    services only through appropriate, qualified community programs. State block grant plans must be made public for comment.
+    The federal pages read do not describe how a provider applies to its state [1129] [1130] [1133] [1201] [1168] [1167]
+    [1158] [1193] [1219].
+  official_url: https://www.samhsa.gov/grants/block-grants
+  sources:
+  - 1129
+  - 1130
+  - 1133
+  - 1201
+  - 1168
+  - 1167
+  - 1158
+  - 1193
+  - 1219
+  sweep: service-A
+- id: federal-public-benefit-classification
+  name: '"Federal public benefit" classification of HHS programmes under PRWORA'
+  what: An HHS notice published July 14, 2025 revised the department's 1998 reading of "federal public benefit" and added
+    13 programmes to its list, among them the Health Center Program, Title X, Certified Community Behavioral Health Clinics,
+    both SAMHSA block grants, other SAMHSA treatment and prevention programmes and health workforce programmes. The notice
+    states that it does not revise the verification part of the 1998 notice and that nothing in the statute prohibits an
+    entity from verifying status. A district court granted the plaintiff states a preliminary injunction against the notice
+    on September 10, 2025. HRSA's grants page still carries a disclaimer about a stay of enforcement through September 10,
+    2025 [1175] [1177] [1145] [1176].
+  official_url: https://www.federalregister.gov/documents/2025/07/14/2025-13118/personal-responsibility-and-work-opportunity-reconciliation-act-of-1996-prwora-interpretation-of
+  sources:
+  - 1175
+  - 1177
+  - 1145
+  - 1176
+  sweep: service-A
+- id: hhs-grants-policy-statement-v2-programme-awards
+  name: HHS Grants Policy Statement, Version 2.0, as it applies to programme awards
+  what: Version 2.0 of the HHS Grants Policy Statement took effect October 1, 2025 and applies to awards and funded modifications
+    made on or after that date at SAMHSA, HRSA, CDC, OASH, IHS and CMS among others; it does not apply to NIH. A technical
+    edit was published December 18, 2025. SAMHSA's FY 2026 guide tells recipients to comply with it unless the Notice of
+    Award says otherwise. HRSA's two-tier guide of September 30, 2025, as read, still cites the statement of October 1,
+    2024 [527] [548] [1194].
+  official_url: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  sources:
+  - 527
+  - 548
+  - 1194
+  sweep: service-A
+- id: hrsa-workforce-institutional-grants-not-recorded
+  name: HRSA health workforce grants to institutions (outline)
+  what: Two HRSA workforce lines are recorded here because they pay institutions to run training, Teaching Health Center
+    Graduate Medical Education and Children's Hospitals Graduate Medical Education. Other institutional workforce lines
+    seen in the FY 2027 forecast are Centers of Excellence (HRSA-27-062), Rural Residency Planning and Development (HRSA-27-046),
+    the Health Workforce Research Center (HRSA-27-058), Leadership Education in Adolescent Health (HRSA-27-034) and the
+    Maternal and Child Health Nutrition Training Program (HRSA-27-036). They were not researched [1144] [1173] [1174].
+  official_url: https://simpler.grants.gov/search?query=HRSA&status=posted,forecasted
+  sources:
+  - 1144
+  - 1173
+  - 1174
+  sweep: service-A
+- id: pass-through-subaward
+  name: Pass-through funding and subawards
+  what: 'Formula and block grants go to a state, territory, tribe or local government, which then funds local providers.
+    The federal agency takes no application from a non-profit: HUD states this for CDBG, FEMA for NSGP, and ACL describes
+    formula grants as needing no application or competition [1292] [1320] [1259].'
+  official_url: https://www.hud.gov/hud-partners/community-cdbg
+  sources:
+  - 1259
+  - 1292
+  - 1320
+  - 1360
+  - 1366
+  - 1372
+  - 1399
+  sweep: service-B
+  variants:
+  - what: 'In a pass-through programme the federal grant goes to a state body, which makes its own subawards on its own
+      calendar: state educational agencies for 21st CCLC, State Library Administrative Agencies for Grants to States, state
+      arts agencies for NEA Partnership funds, humanities councils for NEH Federal/State Partnership funds [1399] [1372]
+      [1360] [1366].'
+    sources:
+    - 1399
+    - 1372
+    - 1360
+    - 1366
+    sweep: service-C
+- id: head-start-designation-renewal-system
+  name: Head Start Designation Renewal System
+  what: The rule under which a Head Start agency is designated for five years and must compete for its next grant if it
+    meets any of seven conditions; ACF tells the agency at least 12 months before the grant ends [1226].
+  official_url: https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-B/part-1304/subpart-B
+  sources:
+  - 1226
+  sweep: service-B
+- id: head-start-non-federal-match
+  name: Head Start non-federal match and administrative cost limit
+  what: Federal funds may not exceed 80 percent of approved costs, the grantee supplies 20 percent, and development and
+    administrative costs may not exceed 15 percent, each subject to waiver [1249].
+  official_url: https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XIII/subchapter-B/part-1303/subpart-A
+  sources:
+  - 1249
+  sweep: service-B
+- id: coc-consolidated-application
+  name: Continuum of Care consolidated application
+  what: The single application a Collaborative Applicant files in e-snaps for a Continuum of Care, made up of the CoC's
+    priority listing and its project applications [1283].
+  official_url: https://www.hud.gov/hud-partners/coc-program-competition
+  sources:
+  - 1283
+  - 1286
+  sweep: service-B
+- id: coc-tiers
+  name: Continuum of Care Tier 1 and Tier 2
+  what: HUD selects CoC projects in two tiers set as shares of the CoC's Annual Renewal Demand; as returned by the fetch
+    the FY2026 notice puts Tier 1 at 60 percent and competes Tier 2 on merit [1286].
+  official_url: https://www.hud.gov/hud-partners/coc-program-competition
+  sources:
+  - 1286
+  sweep: service-B
+- id: ovw-out-of-scope-certification
+  name: OVW certification regarding out-of-scope activities
+  what: A letter to OVW's Director, signed by the Authorized Representative, certifying that grant funds will not be used
+    for the activities OVW lists as out of scope. The requirement is in litigation and is paused as to the items a court
+    stayed [1270] [1263].
+  official_url: https://www.justice.gov/ovw/fy-2026-application-companion-guide
+  sources:
+  - 1270
+  - 1263
+  - 1271
+  sweep: service-B
+- id: ojp-unallowable-activities
+  name: OJP "Unallowable Activities" paragraphs (FY2026 notices)
+  what: FY2026 OJP notices list as unallowable any programme or activity that violates federal immigration law or impedes
+    its enforcement, including by failing to comply with 8 U.S.C. 1373, and any that violates federal civil rights law;
+    one notice records a stipulation not to enforce these while an injunction stands [1274] [1276].
+  official_url: https://www.ojp.gov/funding/explore/current-funding-opportunities
+  sources:
+  - 1274
+  - 1276
+  sweep: service-B
+- id: nsgp-investment-justification
+  name: NSGP Investment Justification and scoring multipliers
+  what: The form a non-profit submits to its State Administrative Agency. The state's score is multiplied by 3, 2 or 1 according
+    to the type of organisation, and 15 points are added for a first-time subapplicant [1320].
+  official_url: https://www.fema.gov/grants/preparedness/nonprofit-security
+  sources:
+  - 1320
+  sweep: service-B
+- id: grants-termination-for-convenience
+  name: Senior appointee review and termination for convenience (Executive Order 14332)
+  what: The executive order of August 7, 2025 requires a senior appointee's review of funding announcements and discretionary
+    awards and directs that discretionary grants permit termination for convenience [246].
+  official_url: https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking
+  sources:
+  - 246
+  sweep: service-B
+- id: ssvf-priorities
+  name: SSVF funding priorities
+  what: 'The four ranks in which VA funds SSVF applications: existing Priority 1 grantees expanding to rural communities,
+    accredited existing grantees, other renewals, then new applicants [1309].'
+  official_url: https://department.va.gov/homeless/supportive-services-for-veteran-families/
+  sources:
+  - 1309
+  sweep: service-B
+- id: ed-notice-announcing-competition
+  name: Department of Education 'Notice Announcing ... Competition'
+  what: In 2026 the Department's Federal Register notices are short announcements that give the Assistance Listing number,
+    the deadline and the contact, and send the reader to the full notice inviting applications on ed.gov, the partner agency's
+    site and Grants.gov [1382] [1384] [1395] [1381].
+  official_url: https://www.federalregister.gov/agencies/education-department
+  sources:
+  - 1382
+  - 1384
+  - 1395
+  - 1381
+  sweep: service-C
+- id: ed-secretary-supplemental-priorities
+  name: Secretary of Education's supplemental priorities
+  what: Priorities the Secretary may add to a discretionary competition whose statute allows it, using a whole priority,
+    parts of one or several together [1392]. The set effective October 9, 2025 is Promoting Evidence-Based Literacy, Expanding
+    Education Choice, and Returning Education to the States; it replaced the 2021 set [1392]. Four more were finalised between
+    February and May 2026 [1393].
+  official_url: https://www.federalregister.gov/documents/2025/09/09/2025-17310/final-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions-on
+  sources:
+  - 1392
+  - 1393
+  sweep: service-C
+- id: ed-interagency-administration
+  name: Administration of Education programmes by another department
+  what: Under interagency agreements announced November 18, 2025 and February 23, 2026, the Department of Labor, HHS, Interior
+    and State run competitions and give technical assistance for named Education programmes, while the programmes keep their
+    Education Assistance Listing numbers and statutes [672] [1397] [1398] [1382].
+  official_url: https://www.ed.gov/about/news/press-release/us-department-of-education-announces-additional-partnerships-break-federal-education-bureaucracy
+  sources:
+  - 672
+  - 1397
+  - 1398
+  - 1382
+  sweep: service-C
+- id: trio-participant-and-cost-floors
+  name: TRIO minimum participants and cost per participant
+  what: 'The FY 2026 TRIO notices set a minimum number of participants and a ceiling on cost per participant: 500 participants
+    and $500 for Talent Search; 850 participants and $280 for Educational Opportunity Centers [1382] [1384].'
+  official_url: https://www.federalregister.gov/documents/2026/03/23/2026-05655/notice-announcing-talent-search-program
+  sources:
+  - 1382
+  - 1384
+  sweep: service-C
+- id: americorps-grantee-share
+  name: AmeriCorps State and National grantee share
+  what: The grantee pays at least 15 percent of member support in cash and a rising overall share of programme cost, returned
+    by the fetch as 24, 26, 28 and 30 percent across four grant periods; rural and severely distressed programmes may ask
+    for a lower match [1377].
+  official_url: https://www.ecfr.gov/current/title-45/subtitle-B/chapter-XXV/part-2521/section-2521.60
+  sources:
+  - 1377
+  sweep: service-C
+- id: grant-share-by-distress
+  name: Federal share that varies with local distress
+  what: 'Several community programmes pay a larger share of project cost where the place served is poorer or smaller: ARC
+    by county economic status, EDA by regional unemployment and income, and USDA Community Facilities by population and
+    median household income [1446] [1432] [1410].'
+  official_url: https://www.arc.gov/how-match-rates-work/
+  sources:
+  - 1446
+  - 1432
+  - 1410
+  sweep: service-C
+- id: omb-2-cfr-revision-2026
+  name: Proposed revision of the federal grants rules in 2 CFR (2026)
+  what: On May 29, 2026 OMB and the grant-making agencies proposed revisions to the government-wide grants rules, with comments
+    due July 13, 2026; only the preamble was read [1458].
+  official_url: https://www.federalregister.gov/documents/2026/05/29/2026-10817/regulation-for-federal-financial-assistance
+  sources:
+  - 1458
+  sweep: service-C

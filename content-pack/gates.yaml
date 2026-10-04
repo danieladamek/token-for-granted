@@ -543,3 +543,98 @@
   sources:
   - 1015
   sweep: people-D
+- id: hrsa-ehbs
+  name: HRSA Electronic Handbooks (EHBs)
+  what: HRSA's own system. Two-tier notices such as the Service Area Competition require a second submission in the EHBs
+    after Grants.gov; look-alike designation applications, progress reports and site verification are filed there; HRSA
+    sends review results through it [1194] [1150] [1216] [1152].
+  official_url: https://grants.hrsa.gov/EAuthNS/external/account/SignIn
+  sources:
+  - 1194
+  - 1150
+  - 1216
+  - 1152
+  sweep: service-A
+- id: era-commons-samhsa
+  name: eRA Commons registration for SAMHSA applicants
+  what: SAMHSA requires the organization to be registered in eRA Commons and the project director to hold an active eRA
+    Commons PI/PD account by the deadline, or the application is not accepted. Its notices say to register at least six
+    weeks before the deadline. Applications go through eRA Commons ASSIST or Grants.gov Workspace and must be validated
+    by both systems [548] [1112].
+  official_url: https://www.samhsa.gov/grants/resources/era-commons
+  sources:
+  - 548
+  - 1112
+  sweep: service-A
+- id: payment-management-system
+  name: Payment Management System (PMS)
+  what: The HHS system to which HRSA recipients submit the yearly Federal Financial Report [1194].
+  sources:
+  - 1194
+  sweep: service-A
+- id: e-snaps
+  name: e-snaps (HUD's Continuum of Care application system)
+  what: The system in which Collaborative Applicants and project applicants file Continuum of Care applications and priority
+    listings [1283].
+  official_url: https://esnaps.hud.gov/grantium/frontOffice.jsf
+  sources:
+  - 1283
+  - 1294
+  sweep: service-B
+- id: fema-go
+  name: FEMA Grants Outcomes (FEMA GO)
+  what: FEMA's grants system. For the Nonprofit Security Grant Program only the State Administrative Agency uses it; a non-profit
+    submits to the state agency instead [1320].
+  official_url: https://go.fema.gov/
+  sources:
+  - 1320
+  sweep: service-B
+- id: lsc-grantease
+  name: GrantEase (Legal Services Corporation)
+  what: LSC's online grants management system, through which every part of a Basic Field Grant application is submitted
+    [1324].
+  official_url: https://www.lsc.gov/grants/basic-field-grant/how-apply-basic-field-grant
+  sources:
+  - 1324
+  - 1326
+  sweep: service-B
+- id: rhy-hmis
+  name: Runaway and Homeless Youth-Homeless Management Information System (RHY-HMIS)
+  what: The data system in which Runaway and Homeless Youth grantees enter data each quarter [1235].
+  official_url: https://acf.gov/fysb/programs/runaway-homeless-youth
+  sources:
+  - 1235
+  sweep: service-B
+- id: hmis
+  name: Homeless Management Information System (HMIS)
+  what: The local data system for homeless services. Each Continuum of Care designates an HMIS lead; SSVF grantees must
+    enter data and export it monthly; Grant and Per Diem grantees are encouraged to use it [1286] [1309] [1312].
+  official_url: https://www.hud.gov/hud-partners/community-coc
+  sources:
+  - 1286
+  - 1309
+  - 1312
+  sweep: service-B
+- id: cdfi-fund-amis
+  name: CDFI Fund Awards Management Information System (AMIS)
+  what: 'The CDFI Fund''s own application system: an applicant creates an AMIS account, submits the SF-424 through Grants.gov
+    and then submits the application in AMIS [1434].'
+  official_url: https://www.cdfifund.gov
+  sources:
+  - 1434
+  sweep: service-C
+- id: eda-edge-portal
+  name: EDA EDGE portal (sfgrants.eda.gov)
+  what: EDA's application portal for its rolling notices [1431] [1430].
+  official_url: https://sfgrants.eda.gov
+  sources:
+  - 1431
+  - 1430
+  sweep: service-C
+- id: litc-grants-portal
+  name: LITC grants portal (litcgrants.treasury.gov)
+  what: The site where Low Income Taxpayer Clinic applications are submitted, as stated in the 2027 Grants.gov listing [1439].
+  official_url: https://litcgrants.treasury.gov
+  sources:
+  - 1439
+  sweep: service-C
