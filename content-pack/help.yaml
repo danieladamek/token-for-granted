@@ -582,3 +582,133 @@
   sources:
   - 1431
   sweep: service-C
+- id: nih-s10-office-hours
+  name: ORIP S10 office hours
+  what: ORIP holds S10 office hours on Wednesdays from 2 to 3 pm Eastern [1534].
+  official_url: https://orip.nih.gov/construction-and-instruments/s10-instrumentation-programs
+  sources:
+  - 1534
+  sweep: capacity-A
+- id: nsf-epscor-office-hours
+  name: NSF EPSCoR office hours and programme contact
+  what: NSF EPSCoR schedules office hours for its solicitations (E-CORE office hours were listed for July 28, July 31, August
+    5 and August 7, 2026) and answers questions at nsfepscor@nsf.gov [866].
+  official_url: https://www.nsf.gov/funding/initiatives/epscor
+  sources:
+  - 866
+  sweep: capacity-A
+- id: nsf-mri-contact
+  name: NSF MRI programme contact
+  what: Questions about MRI go to mri@nsf.gov or 703-292-8040 [1515].
+  official_url: https://www.nsf.gov/od/oia/ia/major-research-instrumentation
+  sources:
+  - 1515
+  sweep: capacity-A
+- id: nasa-epscor-jurisdiction-directors
+  name: NASA EPSCoR jurisdiction directors
+  what: NASA publishes a list of EPSCoR directors, one for each participating jurisdiction [1570].
+  official_url: https://www.nasa.gov/learning-resources/established-program-to-stimulate-competitive-research/epscor-directors/
+  sources:
+  - 1570
+  sweep: capacity-A
+- id: nigms-drcb-staff-contacts
+  name: NIGMS Division for Research Capacity Building staff contacts
+  what: The IDeA page links the division's staff contacts by programme area [1543].
+  official_url: https://www.nigms.nih.gov/about/Pages/contactbyarea#idea
+  sources:
+  - 1543
+  sweep: capacity-A
+- id: durip-pre-proposal-inquiries
+  name: DURIP pre-proposal inquiries
+  what: Questions on the FY 2027 DURIP announcement are due October 16, 2026 [1563].
+  official_url: https://www.onr.navy.mil/work-with-us/funding-opportunities/fiscal-year-fy-2027-department-war-dow-defense-university
+  sources:
+  - 1563
+  sweep: capacity-A
+- id: ed-eligibility-technical-assistance
+  name: Department of Education eligibility designation technical assistance
+  what: The eligibility page names a technical assistance contact (Nemeka Mason-Clercin, nemeka.mason@ed.gov, 202-987-1340)
+    and points to a recorded webinar under GEA Resources at hepis.ed.gov [1595].
+  official_url: https://www.ed.gov/grants-and-programs/grants-higher-education/eligibility-designations-higher-education-programs
+  sources:
+  - 1595
+  sweep: capacity-B
+- id: nifa-1890-mailbox
+  name: NIFA 1890 institutions mailbox
+  what: NIFA gives 1890@usda.gov as the mailbox for requests from 1890 institutions about Evans-Allen funds [1635].
+  official_url: https://www.nifa.usda.gov/grants/programs/capacity-grants/agricultural-research-1890-land-grant-institutions
+  sources:
+  - 1635
+  sweep: capacity-B
+- id: nasa-msi-exchange
+  name: NASA MSI Exchange
+  what: NASA's MSI Exchange site holds the NASA MSI List used to check eligibility for MUREP [1629].
+  official_url: https://msiexchange.nasa.gov/
+  sources:
+  - 1629
+  sweep: capacity-B
+- id: nsf-tcup-programme-contact
+  name: NSF TCUP and HBCU programme mailboxes
+  what: NSF gives tcup@nsf.gov for the Tribal Colleges and Universities Program, HBCU_UP@nsf.gov for HBCU-UP and EIR@nsf.gov
+    for HBCU-EiR [1613] [1611] [1610].
+  official_url: https://www.nsf.gov/funding/opportunities/tcup-tribal-colleges-universities-program
+  sources:
+  - 1613
+  - 1611
+  - 1610
+  sweep: capacity-B
+- id: congressional-office-appropriations-request
+  name: A Member's or Senator's office (appropriations requests)
+  what: 'The only door into the earmark process: each House Member''s and each Senator''s office takes project requests
+    on its own form and deadline, ahead of the committee deadlines, and must post what it submits [1667] [1674]. One Senator''s
+    office guide said its deadline would be announced once the subcommittees announced theirs [1684].'
+  official_url: https://appropriations.house.gov/fy27-information/fy27-member-requests-guidance
+  sources:
+  - 1667
+  - 1674
+  - 1684
+  sweep: capacity-C
+- id: hud-cpd-field-office
+  name: HUD Community Planning and Development field office and regional environmental officer
+  what: HUD's field offices administer earmarked Economic Development Initiative grants, and regional environmental officers
+    help grantees with the environmental review [1685].
+  official_url: https://www.hud.gov/stat/cpd/edi-grants-fy2026
+  sources:
+  - 1685
+  sweep: capacity-C
+- id: hrsa-cds-program-mailbox
+  name: HRSA CDS Program mailbox and training page
+  what: HRSA answers named recipients at cdsprogram@hrsa.gov (CDSProgram2026@hrsa.gov for FY 2026) and posts webinars, pre-award
+    forms and post-award guidance on its Community Project Funding page [1708] [1687].
+  official_url: https://www.hrsa.gov/grants/manage-your-grant/training/community-project-funding-congressionally-directed
+  sources:
+  - 1708
+  - 1687
+  sweep: capacity-C
+- id: nps-stlpg-grants-mailbox
+  name: National Park Service STLPG grants mailbox
+  what: STLPG@nps.gov is the contact on each Historic Preservation Fund competitive notice [1696] [1701].
+  official_url: https://www.nps.gov/orgs/1623/contactus.htm
+  sources:
+  - 1696
+  - 1701
+  - 1692
+  sweep: capacity-C
+- id: americorps-region-office
+  name: AmeriCorps region office
+  what: The region office gives a prospective VISTA sponsor technical assistance during the application [1723].
+  official_url: https://americorps.gov/partner/how-it-works/americorps-vista
+  sources:
+  - 1723
+  sweep: capacity-C
+- id: hud-capacity-building-mailbox
+  name: HUD capacity building and technical assistance mailboxes
+  what: HUD's notices give capacitybuilding@hud.gov for Section 4 and Rural Capacity Building, communitycompass@hud.gov
+    for Community Compass and distressedcities@hud.gov for Distressed Cities Technical Assistance [1712] [1714] [1715] [1716].
+  official_url: https://simpler.grants.gov/search?query=capacity%20building&agency=HUD&status=posted,forecasted,closed&sortby=postedDateDesc
+  sources:
+  - 1712
+  - 1714
+  - 1715
+  - 1716
+  sweep: capacity-C

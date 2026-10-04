@@ -1,4 +1,4 @@
-# Taken for Granted content pack — extension schema (draft v0.4, 2026-10-04)
+# Taken for Granted content pack — extension schema (draft v0.5, 2026-10-04)
 
 Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -274,3 +274,21 @@ status: … | formula       # formula: money allotted by formula or block grant;
 On a pass-through record `who_may_apply.applicant_types` names the federal recipient (the state), not the non-profit; the non-profit's route is in `pass_through_via`.
 
 Cases the vocabulary still does not hold, recorded in prose and listed in the sweep notes: a competed notice open to governments only; programmes entered through a local body that itself applies (HUD's Continuum of Care, FEMA's Nonprofit Security Grant Program); a notice rescinded after posting (recorded as `expired`).
+
+## Added in v0.5, after the capacity sweep
+
+```yaml
+# programs.yaml — family: capacity
+kind: program | instrumentation | facility | center
+route: … | congressional  # a congressionally directed project (an earmark): the organisation asks a Member's or
+                          # Senator's office, Congress names the recipient in an appropriations act, and the named
+                          # recipient then applies to the agency for that project only. On these records `status`
+                          # refers to the request cycle, and cycle.pattern gives the agency's own window as well.
+who_may_apply:
+  limits: '… [n]'         # the limit on applications per institution; many capacity programmes have one
+match: '… [n]'
+```
+
+A programme recorded in two slices of one family is merged like a gate: one record, the other wording under `variants`.
+
+Standing records now carry the jurisdiction lists (NSF, DOE and NASA EPSCoR, DEPSCoR, NIH IDeA, USDA) and the institution designations, each with the date of the list it was read from.

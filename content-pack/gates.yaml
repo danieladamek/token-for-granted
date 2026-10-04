@@ -638,3 +638,35 @@
   sources:
   - 1439
   sweep: service-C
+- id: inl-proposals-portal
+  name: Idaho National Laboratory proposals portal
+  what: Applications to the DOE Office of Nuclear Energy infrastructure notice are submitted at proposals.inl.gov [1588].
+  official_url: https://proposals.inl.gov
+  sources:
+  - 1588
+  sweep: capacity-A
+- id: nsf-epscor-jurisdiction-prerequisites
+  name: EPSCoR jurisdiction prerequisites (steering committee and Science and Technology Plan)
+  what: Before any organisation in a jurisdiction may submit to E-CORE or E-RISE, the jurisdiction must have an active Jurisdictional
+    Steering Committee and a Science and Technology Plan approved within the past five years [1520] [1522].
+  official_url: https://www.nsf.gov/funding/opportunities/e-core-epscor-research-infrastructure-improvement-program-epscor/nsf25-523/solicitation
+  sources:
+  - 1520
+  - 1522
+  sweep: capacity-A
+- id: ed-hepis-gea
+  name: Grant Eligibility Application (GEA) system at HEPIS.ed.gov
+  what: The Department of Education system in which an institution checks its Title III eligibility designation and files
+    a reconsideration or waiver request; it is reached with a Login.gov account [1596].
+  official_url: https://hepis.ed.gov/
+  sources:
+  - 1596
+  sweep: capacity-B
+- id: hud-drgr
+  name: HUD Disaster Recovery Grant Reporting system (DRGR)
+  what: The HUD system in which an earmarked Economic Development Initiative grantee returns its grant package, enters an
+    Action Plan, files semi-annual reports and submits vouchers for reimbursement; HUD creates the grantee's account [1686].
+  official_url: https://www.hud.gov/stat/cpd/edi-grants-fy2026
+  sources:
+  - 1686
+  sweep: capacity-C

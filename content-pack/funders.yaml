@@ -3662,3 +3662,351 @@
   sources:
   - 1447
   sweep: service-C
+- id: nsf-oia
+  name: NSF Office of Integrative Activities (including the EPSCoR Office)
+  funder_kind: federal
+  parent: NSF
+  what: 'The Office of Integrative Activities sits in the NSF Office of the Director and runs the NSF-wide capacity programmes:
+    EPSCoR, GRANTED, Growing Convergence Research, Major Research Instrumentation, Mid-scale RI-1 and the Science and Technology
+    Centers [1578]. It has two parts, Integrative Research and Incubation and Research Capacity and Competitiveness [1578].
+    EPSCoR is housed in this office [866].'
+  how_it_decides: By NSF merit review under the National Science Board criteria, with additional criteria written into each
+    solicitation [1520] [1516].
+  cycle: 'EPSCoR solicitations have one deadline a year: E-CORE in July, E-RISE in August, Focused EPSCoR Collaborations
+    in December (letter of intent) and January [1519] [1521] [1523]. MRI has had an October–November window; the FY 2026
+    window was not held [1514].'
+  who_to_talk_to: 'EPSCoR: nsfepscor@nsf.gov, (703) 292-5111 [866]. MRI: mri@nsf.gov, 703-292-8040 [1515]. GRANTED: granted@nsf.gov
+    [1529]. The office: oia@nsf.gov [1578].'
+  where_it_posts: On each programme's NSF funding-opportunity page, and on Grants.gov [1513] [1589].
+  budget:
+  - amount: $181.78 million (Integrative Activities)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 255
+  - amount: $481.32 million (Integrative Activities, FY 2025 current plan)
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 255
+  - amount: $107.70 million (EPSCoR Office)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 255
+  - amount: $251.18 million from EPSCoR resources ($217.26M RII; $33.38M co-funding), as the EPSCoR report in the FY 2027
+      request states for FY 2025
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 255
+  - amount: $20.00 million (MRI)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 255
+  policy_guide_note: The NSF Proposal and Award Policies and Procedures Guide governs eligibility where a programme description
+    sets no rule of its own [1529].
+  programs:
+  - nsf-mri
+  - nsf-midscale-ri-1
+  - nsf-epscor-e-core
+  - nsf-epscor-e-rise
+  - nsf-epscor-fec
+  - nsf-epscor-workshops
+  - nsf-granted
+  - nsf-epscor-research-fellows
+  - nsf-egfp
+  pending_changes:
+  - status: proposed
+    date: '2026-04-03'
+    text: The FY 2027 request asks for $181.78 million for Integrative Activities against $481.32 million in the FY 2025
+      current plan, and $107.70 million for the EPSCoR Office [255].
+  official_url: https://www.nsf.gov/od/oia
+  as_of: '2026-10-04'
+  sources:
+  - 1578
+  - 866
+  - 255
+  - 1515
+  - 1529
+  sweep: capacity-A
+- id: nih-orip
+  name: NIH Office of Research Infrastructure Programs (ORIP), Division of Construction and Instruments
+  funder_kind: federal
+  parent: NIH
+  what: 'ORIP''s Division of Construction and Instruments runs NIH''s three infrastructure programmes: C06 extramural construction,
+    S10 instrumentation, and S15 equipment (formerly under the R24 activity code) [1538].'
+  how_it_decides: S10 applications are peer-reviewed by the Center for Scientific Review and then by an advisory council
+    or board; the number of awards depends on appropriations [1537] [1536].
+  cycle: ORIP issues S10 notices with one annual receipt date; the C06 notice has one receipt date a year, in January from
+    2027 [1535] [1541].
+  who_to_talk_to: ORIP holds S10 office hours on Wednesdays, 2–3 pm ET; the S10 contact named is Monika Aggarwal, Ph.D.,
+    301-435-0783 [1534].
+  where_it_posts: On its own programme pages, which link the full announcements on Grants.gov [1535] [1541].
+  programs:
+  - nih-s10-shared-instrumentation
+  - nih-s10-seed-instrumentation
+  - nih-s15-equipment
+  - nih-c06-research-facilities
+  official_url: https://orip.nih.gov/division-construction-instruments
+  as_of: '2026-10-04'
+  sources:
+  - 1538
+  - 1534
+  - 1535
+  - 1541
+  - 1537
+  - 1536
+  sweep: capacity-A
+- id: nih-nigms-drcb
+  name: NIGMS Division for Research Capacity Building (IDeA)
+  funder_kind: federal
+  parent: NIH
+  what: 'The Division for Research Capacity Building at the National Institute of General Medical Sciences administers the
+    Institutional Development Award (IDeA) programme [1543]. IDeA is congressionally mandated and builds research capacity
+    in states that have had low levels of NIH funding; it has five components: COBRE, INBRE, the clinical and translational
+    research programmes, co-funding, and the regional entrepreneurship programme I-RED [1543].'
+  how_it_decides: COBRE applications go to a Scientific Review Group and only the top half are discussed [1545]. Co-funding
+    is decided once a year from nominations by NIH institutes, with decisions typically in June or July [1553].
+  cycle: COBRE has three due dates a year; INBRE is competed once every several years, with the next notice forecast for
+    February 2027 [1545] [1549].
+  who_to_talk_to: The IDeA page points to the division's staff contacts and gives the NIGMS telephone number 301-496-7301
+    [1543].
+  where_it_posts: On the NIGMS programme pages and on Grants.gov [1544] [1551].
+  budget:
+  - amount: $430,956,000 (IDeA)
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 1584
+  - amount: $450,956,000 (IDeA)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1584
+  - amount: $448,019,000 (IDeA)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 1584
+  programs:
+  - nih-idea-cobre-d
+  - nih-idea-cobre-e-s
+  - nih-idea-inbre
+  - nih-idea-ctr
+  pending_changes:
+  - status: proposed
+    date: unknown
+    text: The FY 2027 request would reduce IDeA by 0.7 percent from the FY 2026 enacted level [1584].
+  official_url: https://www.nigms.nih.gov/Research/DRCB/IDeA/Pages/default.aspx
+  as_of: '2026-10-04'
+  sources:
+  - 1543
+  - 1584
+  - 1544
+  - 1553
+  - 1545
+  - 1549
+  - 1551
+  sweep: capacity-A
+- id: nih-ncats
+  name: National Center for Advancing Translational Sciences (CTSA Program)
+  funder_kind: federal
+  parent: NIH
+  what: NCATS leads the Clinical and Translational Science Awards programme, a national network of more than 60 medical
+    institutions [1557]. The programme is made up of the UM1 hub award and companion notices for training, career development,
+    small grants and collaborative innovation [1558].
+  who_to_talk_to: NCATS_CTSA_Program@mail.nih.gov [1557].
+  where_it_posts: NCATS lists the CTSA notices on its applicant information page [1558].
+  programs:
+  - nih-ctsa-um1
+  official_url: https://ncats.nih.gov/research/research-activities/ctsa
+  as_of: '2026-10-04'
+  sources:
+  - 1557
+  - 1558
+  sweep: capacity-A
+- id: nih-nimhd
+  name: National Institute on Minority Health and Health Disparities
+  funder_kind: federal
+  parent: NIH (HHS)
+  what: NIMHD is the NIH institute that issued the Research Centers in Minority Institutions notices [1622]. Its list of
+    active funding opportunities on October 4, 2026 showed parent fellowship announcements and NIH-wide policy notices and
+    no institutional capacity notice [1623].
+  where_it_posts: Active opportunities are listed on the institute's site and in the NIH Guide [1623] [1622].
+  programs:
+  - nih-rcmi-u54
+  pending_changes: []
+  official_url: https://www.nimhd.nih.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 1622
+  - 1623
+  sweep: capacity-B
+- id: nasa-ostem
+  name: NASA Office of STEM Engagement
+  funder_kind: federal
+  parent: NASA
+  what: The Office of STEM Engagement runs NASA's Minority University Research and Education Project and publishes a forecast
+    of its notices [1629] [1630].
+  cycle: The forecast updated August 11, 2026 lists three anticipated notices for the first quarter of FY 2027 and says
+    none has been approved for release [1630].
+  who_to_talk_to: The forecast page names Sarah M. McGarvey as contact [1630].
+  where_it_posts: Opportunities are posted in NSPIRES under the omnibus EONS announcement [1629] [1631].
+  budget:
+  - amount: $143.0 million
+    fiscal_year: 2025
+    status: enacted
+    cite:
+    - 396
+  - amount: $143.0 million
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 396
+  - amount: $0.0 million
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 396
+  programs:
+  - nasa-murep
+  pending_changes:
+  - status: proposed
+    date: '2026'
+    text: The FY 2027 request shows the STEM Engagement account at $0.0 million [396].
+  official_url: https://www.nasa.gov/learning-resources/minority-university-research-education-project/
+  as_of: '2026-10-04'
+  sources:
+  - 1629
+  - 1630
+  - 1631
+  - 396
+  sweep: capacity-B
+- id: house-appropriations-committee
+  name: House Committee on Appropriations (Community Project Funding)
+  funder_kind: federal
+  parent: U.S. House of Representatives
+  sweep: capacity-C
+  what: 'The Committee writes the House''s annual appropriations bills and runs the House side of the earmark process, which
+    it calls Community Project Funding [1667]. It does not take applications from organisations: only a Member may submit
+    a request, and the money, if enacted, is awarded by the federal agency whose account the project sits in [1667] [1672].'
+  how_it_decides: Each Member may submit at most 20 requests across all bills, with a written federal nexus statement and
+    evidence of community support for each [1667]. Each subcommittee publishes the accounts it will take requests in and
+    the kinds of recipient and project it will consider [1668] [1669]. Total Community Project Funding will not exceed one
+    half of one percent of discretionary spending [1667].
+  cycle: For FY27 the subcommittee deadlines for Members ran from March 13 to March 27, 2026, and Members had to post their
+    requests online by dates from March 27 to April 17, 2026 [1668]. For FY26 the Transportation-HUD deadline was May 23,
+    2025 [1707].
+  who_to_talk_to: The office of the organisation's own Member of the House, which sets its own earlier deadline and form;
+    the Committee requires each Member to post every request online [1666] [1667].
+  where_it_posts: Guidance by subcommittee on its Member requests guidance page, and tables of requested and included projects
+    on its Community Project Funding page [1668] [1666].
+  budget: []
+  governing_terms: The Committee's general guidance for the fiscal year and each subcommittee's guidance [1667] [1668].
+  programs:
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - usda-rd-community-facilities-directed-grants
+  - nist-congressionally-identified-projects
+  pending_changes:
+  - status: proposed
+    date: '2026-06-05'
+    text: FY27 project tables are posted with the subcommittee bills; no FY2027 appropriations act had been enacted on the
+      sweep date, and continuing appropriations run through December 11, 2026 [1666] [61].
+  official_url: https://appropriations.house.gov/fy27-information/fy27-community-project-funding
+  as_of: '2026-10-04'
+  sources:
+  - 1666
+  - 1667
+  - 1668
+  - 1669
+  - 1672
+  - 1707
+  - 61
+- id: senate-appropriations-committee
+  name: Senate Committee on Appropriations (Congressionally Directed Spending)
+  funder_kind: federal
+  parent: U.S. Senate
+  sweep: capacity-C
+  what: The Committee writes the Senate's annual appropriations bills and runs the Senate side of the earmark process, which
+    it calls Congressionally Directed Spending [1674]. Only a Senator may submit a request; the Committee considers only
+    requests that meet its rules and that it judges appropriate for federal support [1674].
+  how_it_decides: Funding for these items may not exceed one percent of discretionary spending, for-profit entities are
+    ineligible, and each Senator certifies that neither the Senator nor immediate family has a financial interest in a requested
+    item [1675]. Each subcommittee sets a per-Senator limit on requests, from 10 in Homeland Security to 65 in Labor-HHS-Education
+    and in Transportation-HUD [1675]. Rule XLIV of the Standing Rules of the Senate applies [1676].
+  cycle: For FY27 the subcommittee deadlines for Senators ran from April 7 to May 7, 2026 [1675]. Senators post their requests
+    on their websites within 15 calendar days of the subcommittee deadline [1676]. The same certification and posting rules
+    applied in the FY2026 cycle [1678].
+  who_to_talk_to: The offices of the organisation's two Senators, each of which sets its own deadline and form and must
+    publish its requests and certification on its website [1674].
+  where_it_posts: General guidance and a chart of requests on its page for the fiscal year; tables of projects in Senate
+    bills and in enacted laws on its Congressionally Directed Spending page for the fiscal year [1674] [1677].
+  budget: []
+  governing_terms: The Committee's general guidance for the fiscal year and its reforms and regulations document, which
+    this sweep could not read [1675] [1674].
+  programs:
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - usda-rd-community-facilities-directed-grants
+  - ed-congressionally-funded-community-projects
+  - dol-eta-community-project-funding
+  - samhsa-congressionally-directed-spending-projects
+  - nist-congressionally-identified-projects
+  - nps-hpf-congressionally-directed-projects
+  pending_changes: []
+  official_url: https://www.appropriations.senate.gov/fy27-appropriations-requests-and-congressionally-directed-spending
+  as_of: '2026-10-04'
+  sources:
+  - 1674
+  - 1675
+  - 1676
+  - 1677
+  - 1678
+- id: nps-stlpg
+  name: National Park Service, State, Tribal, Local, Plans & Grants Division (Historic Preservation Fund grants)
+  funder_kind: federal
+  parent: Department of the Interior
+  sweep: capacity-C
+  what: 'This division of the National Park Service runs the Historic Preservation Fund''s grants: formula grants to State
+    and Tribal Historic Preservation Offices, competitive project grants and disaster recovery grants [1691] [1692]. The
+    competitive programmes are African American Civil Rights, Save America''s Treasures, Paul Bruhn Historic Revitalization,
+    History of Equal Rights, Semiquincentennial, HBCU, Underrepresented Communities and Tribal Heritage grants [1694].'
+  how_it_decides: National Park Service personnel, and in some cases independent reviewers, score applications against the
+    criteria in each notice; the Save America's Treasures notice uses four criteria at 25 points each [1705].
+  cycle: A notice appears only after Congress has provided money [1693]. The FY2025 competitive notices were posted between
+    May 15 and June 11, 2026 and had all closed by July 28, 2026; none was open or forecast on the sweep date [1697].
+  who_to_talk_to: The division's grants mailbox, STLPG@nps.gov, is the contact on each notice [1696] [1699].
+  where_it_posts: All grants are applied for through Grants.gov; when a programme is taking applications, the division's
+    how-to-apply page links to the Grants.gov notice [1691] [1693].
+  budget:
+  - amount: $205,059,000 (Historic Preservation Fund)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 1706
+  governing_terms: Each notice of funding opportunity; the 2026 Save America's Treasures notice cites the Full-Year Continuing
+    Appropriations and Extensions Act, 2025 (Public Law 119-4) as its appropriation [1705].
+  programs:
+  - nps-save-americas-treasures
+  - nps-hbcu-preservation-grants
+  - nps-african-american-civil-rights-grants
+  - nps-history-of-equal-rights-grants
+  - nps-underrepresented-communities-grants
+  - nps-paul-bruhn-historic-revitalization-grants
+  - nps-hpf-congressionally-directed-projects
+  pending_changes: []
+  official_url: https://www.nps.gov/orgs/1623/index.htm
+  as_of: '2026-10-04'
+  sources:
+  - 1691
+  - 1692
+  - 1694
+  - 1693
+  - 1697
+  - 1705
+  - 1696
+  - 1699
+  - 1706

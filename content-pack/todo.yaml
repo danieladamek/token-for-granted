@@ -2664,6 +2664,567 @@
   text: The 2024 competition for NFJP career services and training grants was not found in the Grants.gov search (only the
     housing services notice FOA-ETA-24-18 appeared). Find the competition notice and who may compete.
   sweep: service-D
+- id: t-ca-001
+  kind: conflict
+  about: records-capacity-A.yaml/nsf-mri
+  text: The July 2, 2025 update gives a next MRI window of October 15 – November 16, 2026; the programme page on 2026-10-04
+    shows NSF 23-519 archived and an updated solicitation only anticipated. Re-read the page on or after October 15, 2026.
+  sweep: capacity-A
+- id: t-ca-002
+  kind: gap
+  about: records-capacity-A.yaml/nsf-mri
+  text: The MRI cost-sharing percentage and the classes of institution exempt from it before the CHIPS Act waiver were not
+    returned by the fetch of NSF 23-519. The five-year waiver began with the FY 2023 competition; what applies to the FY
+    2027 competition will be in the updated solicitation.
+  sweep: capacity-A
+- id: t-ca-003
+  kind: conflict
+  about: sources-capacity-A.yaml/ca-nsf-fy2027-request
+  text: Two extractions of the FY 2027 NSF request disagree on the FY 2025 MRI figure ($20.0 million vs $46.65 million)
+    and one gave $107.70 million for EPSCoR in FY 2025 while the EPSCoR report gives $251.18 million from EPSCoR resources.
+    Read the PDF tables directly. The FY 2026 column was returned as "FY 2026 (TBD)".
+  sweep: capacity-A
+- id: t-ca-004
+  kind: gap
+  about: records-capacity-A.yaml/nsf-oia
+  text: The FY 2026 enacted amounts for EPSCoR, MRI and the Engines were not found on a primary page. The NSF budget page
+    links no FY 2026 appropriation document [170]; the CRS report (congress.gov) is blocked by robots.txt.
+  sweep: capacity-A
+- id: t-ca-005
+  kind: gap
+  about: records-capacity-A.yaml/nsf-oia
+  text: The brief asks for the status of EPSCoR after a 2025–26 reorganisation. No primary page fetched describes a reorganisation
+    of EPSCoR; the OIA page (updated September 30, 2026) shows EPSCoR under the Office of Integrative Activities with a
+    part named Research Capacity and Competitiveness, and the FY 2027 request refers to an "EPSCoR Office". Not confirmed
+    as a change.
+  sweep: capacity-A
+- id: t-ca-006
+  kind: conflict
+  about: records-capacity-A.yaml/nsf-regional-innovation-engines
+  text: 'First cohort of Engines: 10 and $150 million (January 2024 announcement; programme page) vs nine and $135 million
+    (2026 pages). The Paso del Norte Engine is absent from the Cohort 1 page. No primary statement on what happened was
+    found. Matching commitments also differ: more than $2 billion vs over $1.50 billion.'
+  sweep: capacity-A
+- id: t-ca-007
+  kind: gap
+  about: records-capacity-A.yaml/nsf-regional-innovation-engines
+  text: No funding-opportunity page or eligibility rule for the Engines was fetched (the guessed URL returned 404). Who
+    may lead an Engine and any cost-sharing rule are not recorded from a notice.
+  sweep: capacity-A
+- id: t-ca-008
+  kind: conflict
+  about: records-capacity-A.yaml/nsf-midscale-ri-1
+  text: NSF page shows NSF 24-598 waiting for new publication with no due dates; Grants.gov shows it open with a close date
+    of February 8, 2027.
+  sweep: capacity-A
+- id: t-ca-009
+  kind: recheck
+  about: records-capacity-A.yaml/nsf-art
+  text: ART eligibility by track (which tracks admit non-profit non-academic organisations, and any research-expenditure
+    threshold for Tracks 1 and 2) was returned only in summary. Re-read NSF 25-548 section IV.
+  sweep: capacity-A
+- id: t-ca-010
+  kind: recheck
+  about: records-capacity-A.yaml/nih-s10-shared-instrumentation
+  text: The eligible-organisation list for PAR-27-022 and PAR-27-021 came back from the extraction with for-profit and government
+    types; ORIP describes S10 awards as going to domestic higher education and non-profit institutions. Check Section III
+    of both notices.
+  sweep: capacity-A
+- id: t-ca-011
+  kind: conflict
+  about: records-capacity-A.yaml/nih-s15-equipment
+  text: ORIP lists PAR-24-259 and PAR-24-167 as open; PAR-24-259 shows an expiration date of September 26, 2026. PAR-24-167
+    was not opened.
+  sweep: capacity-A
+- id: t-ca-012
+  kind: conflict
+  about: records-capacity-A.yaml/nih-c06-research-facilities
+  text: PAR-26-106 requires no cost sharing; the NIH activity-code definition of C06 speaks of matching federal funds of
+    up to 75%.
+  sweep: capacity-A
+- id: t-ca-013
+  kind: gap
+  about: records-capacity-A.yaml/nih-idea-eligible-state
+  text: The rule by which a state is IDeA-eligible (statute and threshold) was not found on the NIGMS page or in the notices.
+  sweep: capacity-A
+- id: t-ca-014
+  kind: conflict
+  about: records-capacity-A.yaml/nih-idea-ctr
+  text: The NIGMS IDeA-CTR page still names PAR-20-175 and the INBRE page PAR-23-100 (expired); Grants.gov shows PAR-27-056
+    open and PAR-26-026 forecast.
+  sweep: capacity-A
+- id: t-ca-015
+  kind: recheck
+  about: records-capacity-A.yaml/nih-ctsa-um1
+  text: The CTSA budget tiers were returned with labels A, C, T, G and overlapping bounds; copy the table from PAR-24-272
+    directly. The related notice of March 4, 2026 was not read.
+  sweep: capacity-A
+- id: t-ca-016
+  kind: gap
+  about: records-capacity-A.yaml/nih-p30-p20-center-grants
+  text: P30 and P20 are recorded only from the activity-code definitions and the IDeA notices. Institute-specific centre
+    core notices (for example cancer centres, P30 cores at other institutes) were not read. NIH resource grants (R24, P41)
+    and G20 were not reached.
+  sweep: capacity-A
+- id: t-ca-017
+  kind: gap
+  about: records-capacity-A.yaml/nih-rcmi-u54
+  text: Only the forecast was read; whether an RCMI notice was posted under another number in 2025–26 is not known. NARCH
+    (S06) was not reached.
+  sweep: capacity-A
+- id: t-ca-018
+  kind: conflict
+  about: records-capacity-A.yaml/dod-durip
+  text: 'ONR list page gives the DURIP number as N0001426SF004; the announcement page and Grants.gov give N0001426SF003.
+    Ceiling: $3,000,000 on the ONR listing and in the announcement, $7,000,000 on the AFOSR listing.'
+  sweep: capacity-A
+- id: t-ca-019
+  kind: gap
+  about: records-capacity-A.yaml/dod-depscor-eligible-state
+  text: basicresearch.defense.gov returned HTTP 403. The rule that sets the DEPSCoR list, and the white paper and state-committee
+    steps, were not read; the two notice PDFs and their four amendments were not opened.
+  sweep: capacity-A
+- id: t-ca-020
+  kind: conflict
+  about: records-capacity-A.yaml/doe-epscor-state-lab-partnerships
+  text: 'Award floor and ceiling: $600,000 and $1,000,000 on the Grants.gov listing vs $150,000 and $250,000 per year over
+    4 years in the notice.'
+  sweep: capacity-A
+- id: t-ca-021
+  kind: gap
+  about: records-capacity-A.yaml/nasa-epscor-research
+  text: NSPIRES could not be fetched (robots.txt fetch failed), so the NASA EPSCoR notices themselves were not read. Who
+    in a jurisdiction may submit a research proposal, and the applicant types, are not recorded. NASA instrumentation programmes
+    open to outside institutions were not searched.
+  sweep: capacity-A
+- id: t-ca-022
+  kind: conflict
+  about: records-capacity-A.yaml/nasa-epscor-r3
+  text: 'R3 award size: $100,000 total on the NASA page vs a $125,000 ceiling on the Grants.gov listing.'
+  sweep: capacity-A
+- id: t-ca-023
+  kind: gap
+  about: records-capacity-A.yaml/nifa-afri-fase-strengthening-grants
+  text: The FASE eligibility thresholds (enrolment size, the measure of limited institutional success) and the matching
+    rule and waiver for equipment grants were not returned from the AFRI notice PDF; the NIFA FAQ page says its guidance
+    has moved to the USDA guidance portal. The $50,000 figure for Workshop and Equipment Grants needs checking against the
+    notice.
+  sweep: capacity-A
+- id: t-ca-024
+  kind: gap
+  about: records-capacity-A.yaml/nifa-equipment-grants-program
+  text: 'The Equipment Grants Program notice PDF was not read: limits per institution, indirect cost rule and review criteria
+    are not recorded.'
+  sweep: capacity-A
+- id: t-ca-025
+  kind: recheck
+  about: sources-capacity-A.yaml/ca-nsf-fy2026-ia-chapter
+  text: The table from the FY 2026 Integrative Activities chapter came back with garbled column labels. Confirm which column
+    is the FY 2026 request and the date of the request.
+  sweep: capacity-A
+- id: t-ca-026
+  kind: gap
+  about: records-capacity-A.yaml/nasa-epscor-research
+  text: The dates of the NASA FY 2027 request and of the NIGMS FY 2027 justification were not returned; the changes that
+    cite them carry date unknown.
+  sweep: capacity-A
+- id: t-ca-027
+  kind: gap
+  about: records-capacity-A.yaml/nsf-epscor-e-core
+  text: 'The funds field (grant or cooperative agreement) is left out of 23 programme records because no fetched page named
+    the award instrument: the NSF records, SuRE, CTSA, RCMI, S15, DURIP, the DOE records and the NASA EPSCoR records. Read
+    the award-information section of each notice.'
+  sweep: capacity-A
+- id: t-ca-028
+  kind: gap
+  about: records-capacity-A.yaml/nih-sure-r16
+  text: Which NIH institute or division runs SuRE was not stated on a fetched page (the NIGMS SuRE page returned 404), so
+    the records carry funder nih. CC*, ART and EPIIC carry funder nsf for the same reason; DURIP carries dod-onr and DEPSCoR
+    dod-afosr because those are the posting offices read.
+  sweep: capacity-A
+- id: t-cb-003
+  kind: unverified
+  about: records-capacity-B.yaml/ed-predominantly-black-institutions
+  text: 'Status is unconfirmed: the PBI formula and competitive programme pages were not read. Confirm FY 2026 awards and
+    whether the competitive grants are now open to institutions that are not PBIs.'
+  sweep: capacity-B
+- id: t-cb-005
+  kind: unverified
+  about: records-capacity-B.yaml/ed-title-iii-part-f-mandatory
+  text: 'Status is unconfirmed: FY 2026 mandatory amounts by class and their disposition were not found on a primary page.'
+  sweep: capacity-B
+- id: t-cb-006
+  kind: unverified
+  about: records-capacity-B.yaml/ch-cb-tennessee-summary-judgment-motion
+  text: Docket events after the complaint come only from two secondary sources (a litigation tracker and a law firm summary).
+    Verify against the court record for No. 3:25-cv-270 (E.D. Tenn.).
+  sweep: capacity-B
+- id: t-cb-007
+  kind: gap
+  about: records-capacity-B.yaml/ch-cb-fy2026-appropriations
+  text: 'FY 2026 enacted amounts for each Title III and Title V line were not found on a primary page: the FY 2027 justification
+    returned no 2026 column and congress.gov is closed to automated reading. The date of enactment of P.L. 119-75 was not
+    confirmed.'
+  sweep: capacity-B
+- id: t-cb-009
+  kind: conflict
+  about: records-capacity-B.yaml/nsf-crest
+  text: NSF's page says CREST is waiting for a new publication; Grants.gov lists 23-595 as open with a closing date of December
+    4, 2026. Both kept.
+  sweep: capacity-B
+- id: t-cb-010
+  kind: conflict
+  about: records-capacity-B.yaml/ed-title-iii-a-tccu
+  text: 'FY 2027 request for tribally controlled colleges: $67.8 million in the budget summary; $53,807 thousand discretionary
+    plus $30,000 thousand mandatory in the justification as returned. The summary figure may include another line. Both
+    kept.'
+  sweep: capacity-B
+- id: t-cb-011
+  kind: conflict
+  about: records-capacity-B.yaml/nasa-murep
+  text: NASA's forecast lists no MUREP notice; Grants.gov shows a 2018 MUREP appendix as open with no closing date. Both
+    kept.
+  sweep: capacity-B
+- id: t-cb-012
+  kind: recheck
+  about: records-capacity-B.yaml/nsf-hbcu-eir
+  text: The opportunity page returned a letter of intent date of July 8, 2027 beside a full proposal deadline of October
+    20, 2026; the solicitation puts the letter of intent in July before the October deadline. Re-read the page.
+  sweep: capacity-B
+- id: t-cb-013
+  kind: recheck
+  about: records-capacity-B.yaml/nsf-hbcu-up
+  text: The NSF FY 2027 request figures (HBCU programmes $56.50 million; TCUP $7.11 million) came from a partial read of
+    the summary tables; an earlier sweep found column assignments unstable. Re-read the STEM Education chapter.
+  sweep: capacity-B
+- id: t-cb-014
+  kind: recheck
+  about: sources-capacity-B.yaml/cb-olc-nsf-stem-2026-08-12
+  text: Quotes from both Office of Legal Counsel opinions came through the fetch layer; check each against the PDF, and
+    confirm programme by programme the conclusions for GRFP, AISL and Noyce, which belong to other families.
+  sweep: capacity-B
+- id: t-cb-015
+  kind: recheck
+  about: records-capacity-B.yaml/hbcu
+  text: The count of 105 institutions in 34 CFR 608.2 is the fetch layer's count; verify against the regulation.
+  sweep: capacity-B
+- id: t-cb-016
+  kind: gap
+  about: records-capacity-B.yaml/ed-title-iii-a-tccu
+  text: FY 2026 awards for the tribally controlled colleges programme, and which department (Education, Labor or Interior)
+    administers it in 2026, were not found on a primary page; the programme page's funding table stops at FY 2021.
+  sweep: capacity-B
+- id: t-cb-017
+  kind: gap
+  about: records-capacity-B.yaml/ed-title-iii-b-hbgi
+  text: The matching rule for Historically Black Graduate Institutions grants and the FY 2025 and FY 2026 award totals were
+    not returned by the fetch.
+  sweep: capacity-B
+- id: t-cb-018
+  kind: gap
+  about: records-capacity-B.yaml/ed-hbcu-masters
+  text: The programme page was not read; eligible institutions, formula and FY 2026 awards are missing.
+  sweep: capacity-B
+- id: t-cb-019
+  kind: gap
+  about: records-capacity-B.yaml/nih-rcmi-u54
+  text: No NIMHD programme page for RCMI was found (two guessed addresses returned 404). Whether a new RCMI notice is planned
+    is not stated on a page read.
+  sweep: capacity-B
+- id: t-cb-020
+  kind: gap
+  about: records-capacity-B.yaml/nasa-murep
+  text: MUREP appendix titles, award sizes and FY 2026 activity were not found; the MUREP pages give no deadlines.
+  sweep: capacity-B
+- id: t-cb-022
+  kind: gap
+  about: records-capacity-B.yaml/dod-covered-educational-institution
+  text: The text of 10 U.S.C. 4144 was not read (GovInfo address returned 404); the definition recorded is the Navy notice's
+    summary.
+  sweep: capacity-B
+- id: t-cb-023
+  kind: gap
+  about: records-capacity-B.yaml/nih-nibib-beita-hbcu
+  text: RFA-EB-26-003 is known only from a Grants.gov forecast whose estimated dates have passed; the NIH Guide address
+    returned 404.
+  sweep: capacity-B
+- id: t-cb-024
+  kind: recheck
+  about: records-capacity-B.yaml/ed-title-iii-a-strengthening-institutions
+  text: The programme page says competitions are held in odd-numbered years and gives two figures for FY 2023 new awards
+    (105 and 107); the FY 2026 competition and its $365,875,512 are from the notice. Re-read the page.
+  sweep: capacity-B
+- id: t-cb-025
+  kind: gap
+  about: records-capacity-B.yaml/nifa-1890-capacity-building-grants
+  text: Limits on applications per institution, project periods and indirect cost rules for the NIFA notices were not read
+    from the notice PDFs.
+  sweep: capacity-B
+- id: t-cb-026
+  kind: gap
+  about: records-capacity-B.yaml/tribal-college-or-university
+  text: Bureau of Indian Education operating grants to tribal colleges and the Bureau's eligibility determination process
+    were not read (the page address tried returned 404).
+  sweep: capacity-B
+- id: t-cb-028
+  kind: gap
+  about: records-capacity-B.yaml/nsf-lsamp
+  text: NSF has published nothing found in this sweep on how it will act on the August 12, 2026 opinion; its priorities
+    page was last updated July 24, 2026.
+  sweep: capacity-B
+- id: t-cc-001
+  kind: conflict
+  about: records-capacity-C.yaml/hud-edi-community-project-funding
+  text: House FY26 and FY27 guidance lists governments, public colleges, HBCUs and Tribal Colleges as eligible recipients
+    and does not name other non-profits; a Senator's office guide says non-profits are eligible for Senate requests. HUD's
+    FY2026 recipient table was not read. Confirm from the Senate Transportation-HUD subcommittee's own guidance and from
+    the FY2026 table whether non-profits were named.
+  sweep: capacity-C
+- id: t-cc-002
+  kind: unverified
+  about: records-capacity-C.yaml/hud-edi-community-project-funding
+  text: The Senate's account-by-account rules (HUD EDI, HRSA $15 million ceiling, Education construction bar, NIST STRS
+    equipment and initial salaries, NPS Historic Preservation Fund match and $500,000 maximum, Community Facilities non-profit
+    eligibility) come only from one Senator's office guide (cc-hirono-fy27-cds-guidance). The Committee's public general
+    guidance does not carry them. Find the subcommittee guidance documents.
+  sweep: capacity-C
+- id: t-cc-003
+  kind: conflict
+  about: records-capacity-C.yaml/hrsa-cpf-cds-projects
+  text: 'Capital equipment threshold: House FY27 guidance says unit cost of at least $5,000; HRSA''s FY2026 overview says
+    moveable equipment of $10,000 or more per unit. Both kept.'
+  sweep: capacity-C
+- id: t-cc-004
+  kind: recheck
+  about: sources-capacity-C.yaml/cc-wh-hr6500-signed
+  text: The fetch returned September 2, 2026 as the signing date of H.R. 6500; a search result title from another site is
+    dated September 10, 2026. Confirm the signing date and the public law number (a search result names P.L. 119-103; congress.gov
+    was not fetched).
+  sweep: capacity-C
+- id: t-cc-005
+  kind: gap
+  about: records-capacity-C.yaml/ch-cc-fy2025-no-earmarks
+  text: No fetched page gives the enactment date of Public Law 119-4, so the change record's date is the year only. The
+    House section-by-section summary gives the section numbers; the act's text was not read (congress.gov not fetched).
+  sweep: capacity-C
+- id: t-cc-012
+  kind: conflict
+  about: records-capacity-C.yaml/eda-planning-and-local-technical-assistance
+  text: Grants.gov shows the six FY 2021 - FY 2023 regional notices as open and updated May 13, 2026; EDA's all-opportunities
+    list does not show them, and the FY2027 Budget proposes cancelling EDA programmes. Confirm with an EDA regional office
+    whether applications are being processed. The federal share was not found.
+  sweep: capacity-C
+- id: t-cc-013
+  kind: recheck
+  about: records-capacity-C.yaml/eda-university-centers
+  text: EDA's page says funding is not available to continue the programme but gives no date. The FY2026 appropriation for
+    EDA was not checked.
+  sweep: capacity-C
+- id: t-cc-014
+  kind: unverified
+  about: records-capacity-C.yaml/americorps-vista-capacity-sponsorship
+  text: Status no-current-notice rests on AmeriCorps's funding page, which still shows FY 2025 items as open with 2024 and
+    2025 deadlines. The page may be stale. Whether sponsor concept papers are being accepted in FY 2027 is not confirmed;
+    cost share for sponsors was not found on the page read.
+  sweep: capacity-C
+- id: t-cc-015
+  kind: gap
+  about: records-capacity-C.yaml/neh-endowments-for-advancing-the-humanities
+  text: 'The notice itself was not read: who counts as an ''independent educational institution'', the review criteria,
+    the indirect cost rule and what the endowment income may pay for are not recorded.'
+  sweep: capacity-C
+- id: t-cc-017
+  kind: unverified
+  about: records-capacity-C.yaml/neh-preservation-assistance-grants-smaller-institutions
+  text: NEH's page returned 2018-era text. No NEH statement on whether the programme will be offered again was found.
+  sweep: capacity-C
+- id: t-cc-018
+  kind: gap
+  about: records-capacity-C.yaml/imls-museums-empowered
+  text: Notice number, Assistance Listing, opening date and FY 2027 funding level not recorded for the three IMLS programmes;
+    eligibility for Museums Empowered is stated only as 'museums and museum professionals'.
+  sweep: capacity-C
+- id: t-cc-019
+  kind: gap
+  about: records-capacity-C.yaml/nps-save-americas-treasures
+  text: The preservation notice (P25AS00469) was not read; its award range and the easement or covenant requirement are
+    not recorded. Semiquincentennial, Tribal Heritage and Disaster Recovery grants were not researched.
+  sweep: capacity-C
+- id: t-cc-020
+  kind: conflict
+  about: records-capacity-C.yaml/nps-african-american-civil-rights-grants
+  text: The programme page (updated June 30, 2026) shows FY2024 notice numbers and 'not accepting applications'; Grants.gov
+    shows FY2025 notices P25AS00495 and P25AS00496 posted June 11 and closed July 14, 2026. The page's eligibility line
+    omits educational institutions, which the Grants.gov listing includes.
+  sweep: capacity-C
+- id: t-cc-021
+  kind: gap
+  about: records-capacity-C.yaml/nps-stlpg
+  text: 'The FY2027 request for the Historic Preservation Fund was not found: the Interior budget justification PDF was
+    truncated before the section and the Budget volume''s Interior chapter did not mention it. FY2025 actual not recorded.'
+  sweep: capacity-C
+- id: t-cc-024
+  kind: unverified
+  about: records-capacity-C.yaml/doe-renew-americas-nonprofits
+  text: The 2025-2026 status of the Renew America's Nonprofits awards is not stated on the Department's page. The June 2026
+    court ruling on other DOE terminations is reported only by trade press; the opinion was not fetched.
+  sweep: capacity-C
+- id: t-cc-025
+  kind: gap
+  about: records-capacity-C.yaml/ch-cc-fy2027-budget-request
+  text: The FY2027 request for NEH, IMLS, AmeriCorps, the CDFI Fund, HUD capacity building and the Historic Preservation
+    Fund was not reached in the truncated Budget volume. The pack's funder records for those agencies may already hold the
+    figures.
+  sweep: capacity-C
+- id: t-cc-026
+  kind: gap
+  about: records-capacity-C.yaml/senate-appropriations-committee
+  text: The Senate's 'Reforms and Regulations for Congressionally Directed Spending in Fiscal Year 2027' document is a download
+    that WebFetch could not read. The FY2026 Senate and House totals and counts of projects were not recorded.
+  sweep: capacity-C
+- id: t-cc-027
+  kind: gap
+  about: records-capacity-C.yaml/doj-ovw-training-and-technical-assistance-initiative
+  text: 'Applicant types are left empty: the fetched pages do not state who may apply to be a provider, and the instrument
+    (cooperative agreement) is not confirmed on a fetched page. Read the last TTA solicitation.'
+  sweep: capacity-C
+- id: t-cc-029
+  kind: gap
+  about: records-capacity-C.yaml/house-appropriations-committee
+  text: 'The two committee funder records carry no budget line: the FY2026 totals and counts of earmarked projects by chamber
+    were not found on a fetched page. Applicant types are left empty on six programme records (CDFI Technical Assistance,
+    HRSA National Technical Assistance Programs, HRSA capital, IMLS Museums Empowered, NEH challenge grants, OVW TTA) because
+    no fetched page lists them.'
+  sweep: capacity-C
+- id: t-cc-028
+  kind: gap
+  about: records-capacity-C.yaml/cdfi-fund-naca-program
+  text: NACA Technical Assistance award range, match rule, Assistance Listing and FY 2026 round status not recorded.
+  sweep: capacity-C
+- id: t-cd-001
+  kind: gap
+  about: records-capacity-C.yaml/usda-rd-community-facilities-directed-grants
+  text: 'Replaces t-cc-006. Status is now closed (request window). Still not found on a primary page: Rural Development''s
+    step for projects named in the FY2026 act, its deadline, and the FY2026 total for Community Facilities earmarks. The
+    Community Facilities index has no page for directed projects; the Senate''s FY26 Agriculture project table is a download
+    that was not read [1677].'
+  sweep: capacity-D
+- id: t-cd-002
+  kind: gap
+  about: records-capacity-C.yaml/ed-congressionally-funded-community-projects
+  text: Replaces t-cc-007. Status is now closed (request window). The K-12 page returned HTTP 403 again; the higher education
+    page (updated January 27, 2026) stops at FY 2024. The FY2026 application dates, notice number and higher-education total
+    were not found on the Department's pages or in two Grants.gov searches.
+  sweep: capacity-D
+- id: t-cd-003
+  kind: gap
+  about: records-capacity-C.yaml/nist-congressionally-identified-projects
+  text: 'Replaces t-cc-008. The application route is now recorded from NIST''s own pages. Not stated on them: cost share,
+    federal-interest rules, indirect costs, whether construction is allowed, and the calendar dates of the FY2026 30-day
+    window. NASA''s and NOAA''s agency steps were not researched.'
+  sweep: capacity-D
+- id: t-cd-004
+  kind: unverified
+  about: records-capacity-C.yaml/nps-hpf-congressionally-directed-projects
+  text: Replaces t-cc-009. Status is now closed (request window). The one-to-one match, the $500,000 maximum and the National
+    Register requirement still rest only on one Senator's office guide; no National Park Service page for directed projects
+    was found (two searches, a Grants.gov search, and three Park Service pages read).
+  sweep: capacity-D
+- id: t-cd-005
+  kind: conflict
+  about: records-capacity-C.yaml/ch-cc-fy2025-no-earmarks
+  text: The Park Service's Historic Preservation Fund appropriations page, under the heading 'Appropriations in Fiscal Year
+    2025', lists Congressionally Directed Spending as one of ten categories of an almost $218 million total [1762]. The
+    change record says Congress designated no earmarks in FY 2025. The page gives no amount for the category and may show
+    an earlier year's diagram; read the linked annual report.
+  sweep: capacity-D
+- id: t-cd-006
+  kind: recheck
+  about: records-capacity-C.yaml/samhsa-congressionally-directed-spending-projects
+  text: 'The Grants.gov search listing gives FG-26-099 a close date of Jul 13, 2026 [1759]; slice C''s read of the opportunity
+    page found no closing date. The record''s current_notices still carries closes: unknown with both statements in the
+    note.'
+  sweep: capacity-D
+- id: t-cd-007
+  kind: unverified
+  about: records-capacity-C.yaml/hud-section-4-capacity-building
+  text: Replaces t-cc-011. The House committee's summary confirms $42 million for Section 4 in the FY27 bill. The FY26 figure
+    of $46 million and the CDFI Fund figures ($276 million against $323 million) still come only from the Enterprise Community
+    Partners article.
+  sweep: capacity-D
+- id: t-cd-008
+  kind: gap
+  about: records-capacity-B.yaml/ch-cb-fy2026-appropriations
+  text: 'FY2026 enacted amounts for each Title III and Title V line were again not found. Tried: the Senate explanatory
+    statement PDF (truncated at Rehabilitation Services, before Higher Education); the Department''s budget tables page
+    (newest Congressional Action table is FY 2024); the FY 2027 budget summary (truncated); the FY 2027 justification (no
+    2026 column by programme). Only the Higher Education account total for 2026 was returned.'
+  sweep: capacity-D
+- id: t-cd-009
+  kind: gap
+  about: records-capacity-A.yaml/nsf-oia
+  text: 'The FY2026 enacted amount for NSF EPSCoR was not found. Tried: the explanatory statement for Division A of P.L.
+    119-74 on the Senate Appropriations and House Rules sites (both truncated in the Department of Justice section, before
+    NSF); the Senate committee release (NSF total only, $8.75 billion). The explanatory statement''s NSF section needs to
+    be read directly.'
+  sweep: capacity-D
+- id: t-cd-010
+  kind: recheck
+  about: sources-capacity-D.yaml/cd-ed-fy27-cj-higher-ed
+  text: The 2026 account totals ($3,265,598 and $240,465, taken to be thousands) came from one extraction of the table on
+    page 3 of the justification; confirm the units and which rows they are.
+  sweep: capacity-D
+- id: t-cd-011
+  kind: recheck
+  about: records-capacity-D.yaml/americorps-volunteer-generation-fund
+  text: The Grants.gov listing fields for AC-04-02-2026 came back inconsistent (award floor and ceiling $500,000; '$100,000'
+    in the expected-awards field). Award size, number of awards, the match ratio and whether commissions make subgrants
+    are not recorded; read the notice PDF.
+  sweep: capacity-D
+- id: t-cd-012
+  kind: gap
+  about: records-capacity-B.yaml/ed-title-v-ppoha
+  text: 'PPOHA and MSEIP are now recorded as not-competed on the Department''s September 10, 2025 statement plus the absence
+    of any notice. Whether continuation awards were paid in FY 2026, and what the Department will do with FY 2026 appropriations
+    for them, is not stated on a page read. The Predominantly Black Institutions record stays unconfirmed: the formula page
+    returned HTTP 403 again.'
+  sweep: capacity-D
+- id: t-cd-013
+  kind: gap
+  about: records-capacity-B.yaml/ch-cb-tennessee-summary-judgment-motion
+  text: t-cb-006 stays open. GovInfo has no opinion collection for E.D. Tenn. No. 3:25-cv-270 at the addresses tried (details
+    page HTTP 500; first document address 404). One search found only secondary summaries and a RECAP copy on a third-party
+    archive, which was not opened.
+  sweep: capacity-D
+- id: t-cd-014
+  kind: recheck
+  about: records-capacity-A.yaml/nsf-midscale-ri-1
+  text: 'Status left unconfirmed: NSF''s page (updated June 2, 2026) says waiting for new publication; Grants.gov (version
+    6, updated June 3, 2026) says open, closing February 8, 2027. The Assistance Listings, applicant types and award figures
+    added to the record come from the Grants.gov listing.'
+  sweep: capacity-D
+- id: t-cd-015
+  kind: gap
+  about: records-capacity-D.yaml/nih-nimhd-research-endowment-s21
+  text: 'The seven new records are outlines from Grants.gov listings and one agency page each. Missing: S21 project period
+    and limit per institution (notice not yet posted); NARCH award sizes and the IHS role; Hatch matching rule for states
+    and period of performance; Tribal College Initiative yearly funding; PRIME match ratio, tracks and period of performance;
+    Humanities Initiatives period of performance and the variants'' separate eligibility.'
+  sweep: capacity-D
+- id: t-cd-016
+  kind: gap
+  about: records-capacity-C.yaml/doe-renew-americas-nonprofits
+  text: t-cc-024 stays open. Grants.gov confirms one round only (DE-FOA-0003066, 2023). The status of the 2023 awards in
+    2025-2026 is still not stated on a Department page, and the June 2026 court ruling on other Department of Energy terminations
+    was not located on a court or GovInfo site (no case number found on a primary page).
+  sweep: capacity-D
+- id: t-cd-017
+  kind: recheck
+  about: records-capacity-C.yaml/dol-eta-community-project-funding
+  text: Status changed from open to closed under the rule given for earmark accounts (the FY2027 request window has passed).
+    The agency's own window for organisations named in the FY 2026 act is open until January 31, 2027; the author may want
+    a way to show both.
+  sweep: capacity-D
 - id: t-merge-gates-sam-registration
   kind: recheck
   about: gates/sam-registration
@@ -2717,5 +3278,10 @@
 - id: t-merge-mechanics-pass-through-subaward
   kind: recheck
   about: mechanics/pass-through-subaward
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-programs-nih-rcmi-u54
+  kind: recheck
+  about: programs/nih-rcmi-u54
   text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
   sweep: consolidation

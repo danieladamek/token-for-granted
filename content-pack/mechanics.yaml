@@ -1728,3 +1728,302 @@
   sources:
   - 1458
   sweep: service-C
+- id: limited-submission-capacity-programmes
+  name: Limits on applications per institution in capacity programmes
+  what: 'Many capacity programmes cap what one institution may submit, so the institution chooses internally before the
+    funder sees anything. Examples read in this sweep: MRI, two in Track 1, one in Track 2, one in Track 3 [1516]; E-CORE,
+    E-RISE and FEC, one submission as lead [1520] [1522] [1524]; ART, one proposal for Track 1 or 2 and one per track for
+    Tracks 3 to 5 [1528]; S10 Seed Instrumentation, one application [1537]; C06, one application per institution [1542];
+    COBRE-D, one application and no active COBRE grant [1545]; IDeA-CTR, one active award per state [1552]; DOE EPSCoR,
+    two lead submissions per programme area [1569]; NASA EPSCoR R3, three proposals per institution [1573]. DURIP states
+    no limit [1563].'
+  official_url: https://www.nsf.gov/funding/opportunities/mri-major-research-instrumentation-program/nsf23-519/solicitation
+  sources:
+  - 1516
+  - 1520
+  - 1522
+  - 1524
+  - 1528
+  - 1537
+  - 1542
+  - 1545
+  - 1552
+  - 1569
+  - 1573
+  - 1563
+  sweep: capacity-A
+- id: nsf-epscor-co-funding
+  name: NSF EPSCoR co-funding
+  what: EPSCoR often co-funds proposals submitted to other NSF programmes when the applicant is in an EPSCoR jurisdiction;
+    the applicant does not apply for it separately [1518]. The EPSCoR report in the FY 2027 request shows $33.38 million
+    of co-funding in FY 2025 [255].
+  official_url: https://www.nsf.gov/funding/initiatives/epscor/epscor-investment-strategies
+  sources:
+  - 1518
+  - 255
+  sweep: capacity-A
+- id: nih-idea-co-funding
+  name: NIH IDeA co-funding
+  what: 'NIGMS adds money to R01, R15 and MIRA R35 applications from investigators in IDeA states that an NIH institute
+    did not select for funding: up to $350,000 in total costs for each of the first two years [1553]. It runs once a year;
+    nominations typically open in January or February and close in early April, and decisions typically come in June or
+    July [1553]. All PIs and performance sites must be in IDeA-eligible states [1553].'
+  official_url: https://www.nigms.nih.gov/Research/DRCB/IDeA/Pages/IDeA-Co-Funding.aspx
+  sources:
+  - 1553
+  sweep: capacity-A
+- id: nsf-epscor-renewal-cost-share
+  name: NSF EPSCoR renewal cost share
+  what: E-CORE and E-RISE prohibit voluntary committed cost sharing on the first award and require cost sharing of at least,
+    and no more than, 20% of the amount requested on a renewal [1520] [1522].
+  official_url: https://www.nsf.gov/funding/opportunities/e-core-epscor-research-infrastructure-improvement-program-epscor/nsf25-523/solicitation
+  sources:
+  - 1520
+  - 1522
+  sweep: capacity-A
+- id: nih-instrument-awards-no-indirect-costs
+  name: No indirect costs on NIH S10 and C06 awards
+  what: S10 awards do not allow indirect costs [1536] [1537]. The C06 notice lists F&A costs as unallowable [1542]. DURIP
+    treats equipment costs as exempt from indirect costs [1563].
+  official_url: https://orip.nih.gov/division-construction-instruments
+  sources:
+  - 1536
+  - 1537
+  - 1542
+  - 1563
+  sweep: capacity-A
+- id: nih-s10-major-users
+  name: NIH S10 major-user requirement
+  what: 'An S10 application rests on named NIH-funded users of the instrument: at least three Major Users with active NIH
+    research awards for the Shared Instrumentation Grant, and at least two NIH-funded users, one from the applicant institution,
+    for Seed Instrumentation Support [1536] [1537].'
+  official_url: https://orip.nih.gov/construction-and-instruments/s10-instrumentation-programs
+  sources:
+  - 1536
+  - 1537
+  sweep: capacity-A
+- id: nih-c06-ten-year-use
+  name: NIH C06 ten-year use requirement
+  what: A facility built or improved with a C06 award must be used for the biomedical research purposes for which it was
+    built or improved for at least 10 years [1542].
+  official_url: https://orip.nih.gov/division-construction-instruments/extramural-construction-programs
+  sources:
+  - 1542
+  - 1541
+  sweep: capacity-A
+- id: nih-ctsa-budget-tiers
+  name: NIH CTSA budget tiers
+  what: The budget a CTSA hub may request is set by the institution's five-year average of NIH direct costs, in four tiers,
+    from up to $2,600,000 to up to $6,500,000 as the fetch returned them [1559].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PAR-24-272.html
+  sources:
+  - 1559
+  sweep: capacity-A
+- id: durip-three-office-announcements
+  name: DURIP is issued by three offices under three numbers
+  what: ONR, the Army Research Office and AFOSR each post the same DURIP announcement under their own number, and the applicant
+    submits to the office whose research the instrument serves [1563] [1561].
+  official_url: https://www.onr.navy.mil/work-with-us/funding-opportunities/fiscal-year-fy-2027-department-war-dow-defense-university
+  sources:
+  - 1563
+  - 1561
+  sweep: capacity-A
+- id: epscor-lists-differ-by-agency
+  name: EPSCoR-type lists differ by agency
+  what: 'Five agencies keep lists of jurisdictions for capacity programmes and the lists are not the same. NSF lists 28
+    jurisdictions and its list is frozen through FY 2027 [1517]. DOE and NASA follow the NSF list [1567] [1574]. DEPSCoR
+    lists 36 states and territories [1565]. USDA lists 19 states for FY 2026 plus the District of Columbia and insular areas
+    [1576]. NIH lists 23 states and Puerto Rico for IDeA [1543]. A state can be on one list and off another: Alabama, for
+    example, is on the NSF, DOE, NASA and DEPSCoR lists and not on the NIH IDeA or USDA FY 2026 lists [1517] [1567] [1573]
+    [1565] [1543] [1576].'
+  official_url: https://www.nsf.gov/funding/initiatives/epscor/epscor-criteria-eligibility
+  sources:
+  - 1517
+  - 1567
+  - 1574
+  - 1573
+  - 1565
+  - 1576
+  - 1543
+  sweep: capacity-A
+- id: ed-eligibility-matrix
+  name: Eligibility Matrix
+  what: The Department of Education's yearly set of programme lists, built from IPEDS data, showing which institutions meet
+    each programme definition; the Department uses it to pre-determine eligibility [1595] [1596]. Meeting a definition or
+    holding a grant does not by itself make an institution eligible for new funding [1595].
+  official_url: https://www.ed.gov/grants-and-programs/grants-higher-education/eligibility-designations-higher-education-programs
+  sources:
+  - 1595
+  - 1596
+  sweep: capacity-B
+- id: ed-development-grant-types
+  name: Individual development and cooperative arrangement development grants
+  what: 'Title III Part A and Title V competitions offer two grant types: an individual development grant to one institution
+    and a cooperative arrangement development grant to institutions working together, each with its own ceiling and application
+    limit [1600] [1644].'
+  official_url: https://www.dol.gov/sites/dolgov/files/ETA/grants/2026%20PDFs/FY2026_SIP_ANI_84.031A.pdf
+  sources:
+  - 1600
+  - 1644
+  sweep: capacity-B
+- id: ed-title-iii-wait-out-period
+  name: Two-year wait-out period (34 CFR 607.9)
+  what: An institution whose Strengthening Institutions individual development grant has ended waits two years before it
+    may receive another; in FY 2026 former grantees whose five-year grants ended on or before September 30, 2024 could apply
+    for individual grants [1600].
+  official_url: https://www.dol.gov/sites/dolgov/files/ETA/grants/2026%20PDFs/FY2026_SIP_ANI_84.031A.pdf
+  sources:
+  - 1600
+  sweep: capacity-B
+- id: ed-endowment-match
+  name: Endowment match under Title III and Title V
+  what: A grantee may put no more than 20 percent of an annual award into an endowment fund and matches that money with
+    non-federal funds [1599] [1617]. Apart from this the Title III Part A and Title V notices read required no cost sharing
+    [1600] [1642].
+  official_url: https://www.ed.gov/grants-and-programs/grants-higher-education/improvement-of-postsecondary-education/title-iii-part-programs-strengthening-institutions
+  sources:
+  - 1599
+  - 1617
+  - 1600
+  - 1642
+  sweep: capacity-B
+- id: title-iii-part-f-mandatory-funding
+  name: Mandatory funding under Title III Part F
+  what: Section 371 of the Higher Education Act appropriates $255,000,000 a year directly, outside the annual appropriations
+    bill, and divides it among seven institution classes [1661]. The Department of Education said in 2025 that such mandatory
+    funds cannot be reprogrammed [1594].
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2023-title20/html/USCODE-2023-title20-chap28-subchapIII-partF-sec1067q.htm
+  sources:
+  - 1661
+  - 1594
+  sweep: capacity-B
+- id: nsf-opportunity-status-waiting-or-archived
+  name: NSF opportunity pages marked "waiting for new publication" or "archived"
+  what: An NSF opportunity page labelled as waiting for a new publication lists the previous solicitation and no due dates;
+    an archived page is a past solicitation that is no longer active [1611] [1612] [882] [1660].
+  official_url: https://www.nsf.gov/funding/opportunities/hbcu-historically-black-colleges-universities-undergraduate
+  sources:
+  - 1611
+  - 1612
+  - 882
+  - 1660
+  sweep: capacity-B
+- id: congressionally-directed-spending-process
+  name: Community Project Funding and Congressionally Directed Spending (the earmark process)
+  what: 'Congress may name a specific recipient, project and amount in an appropriations act; the House calls this Community
+    Project Funding and the Senate Congressionally Directed Spending [1667] [1674]. An organisation cannot apply to either
+    committee: it asks its House Member or a Senator, on that office''s own deadline, and the office decides whether to
+    submit the request to the committee [1667] [1674]. Recipients may be state, local or tribal governments and certain
+    eligible non-profits; for-profit entities are excluded in both chambers [1667] [1675]. Projects are listed in a table
+    in the joint explanatory statement of the enacted act, and the agency then awards only to the named recipient [1679]
+    [1686]. Congress designated no such funds in FY 2025: the full-year continuing resolution gave prior-year project language
+    no legal effect [1680] [1755]. FY2026 projects were enacted in four laws signed between November 12, 2025 and April
+    30, 2026 [1677]. FY27 requests were due to the committees between March 13 and May 7, 2026; on the sweep date no FY2027
+    act had been enacted and continuing appropriations ran through December 11, 2026 [1668] [1675] [61].'
+  official_url: https://appropriations.house.gov/fy27-information/fy27-community-project-funding
+  sources:
+  - 1667
+  - 1674
+  - 1675
+  - 1679
+  - 1686
+  - 1680
+  - 1755
+  - 1677
+  - 1668
+  - 61
+  sweep: capacity-C
+- id: earmark-request-rules
+  name: Rules on earmark requests (caps, certification, posting, audit)
+  what: 'House, FY27: at most 20 requests per Member across bills; total Community Project Funding at most one half of one
+    percent of discretionary spending; no for-profit recipients; no memorials, museums or commemoratives; a written federal
+    nexus statement and evidence of community support for each request; the Member certifies that the Member and immediate
+    family have no financial interest and posts every request online in a searchable format [1667]. Senate, FY27: funding
+    for these items at most one percent of discretionary spending; for-profit entities ineligible; a per-Senator limit set
+    by each subcommittee; the Senator certifies no financial interest and publishes requests and the certification on the
+    Senator''s website [1675] [1674]. In both chambers the Government Accountability Office audits a sample of enacted projects
+    [1667] [1675].'
+  official_url: https://www.appropriations.senate.gov/fy27-appropriations-requests-and-congressionally-directed-spending
+  sources:
+  - 1667
+  - 1675
+  - 1674
+  sweep: capacity-C
+- id: earmark-eligible-accounts-fy2027
+  name: Accounts that take earmark requests, FY2027
+  what: 'A request must fit one of the accounts a subcommittee has opened [1669]. House, FY27: Community Facilities, Distance
+    Learning and Telemedicine, ARS Buildings and Facilities and two other Agriculture accounts; NIST Scientific and Technical
+    Research, NOAA Coastal Zone Management, NASA Safety, Security and Mission Services and two Justice accounts; FEMA Emergency
+    Operations Centers and Pre-Disaster Mitigation; EPA water revolving funds; HRSA only in Labor-HHS-Education; HUD Economic
+    Development Initiatives and five Transportation accounts; military construction; Army Corps and Reclamation accounts
+    [1669]. The House takes no requests in Defense, Financial Services, Legislative Branch or National Security and State
+    [1668]. Senate, FY27: the list is wider and adds NIST Construction of Research Facilities, the Small Business Administration,
+    the National Historical Publications and Records Commission, National Park Service Historic Preservation Fund Projects,
+    and, in Labor-HHS-Education, the Employment and Training Administration, SAMHSA, the Administration for Children and
+    Families, the Administration for Community Living and two Education accounts [1675]. The Senate takes no requests in
+    Defense, Legislative Branch or State-Foreign Operations [1675].'
+  official_url: https://appropriations.house.gov/sites/evo-subsites/republicans-appropriations.house.gov/files/evo-media-document/fy27-cpf-accounts-list.pdf
+  sources:
+  - 1669
+  - 1668
+  - 1675
+  sweep: capacity-C
+- id: earmark-agency-application-step
+  name: The agency application that follows an earmark
+  what: 'Being named in the act does not release the money: the named recipient still applies to the agency, which checks
+    the project against the congressional direction and its own rules [1686] [1672]. For FY2026, HUD emailed grant packages
+    from late April 2026, HRSA set a June 1, 2026 deadline under two closed notices, SAMHSA posted a closed announcement
+    on June 12, 2026, and the Department of Labor issued instructions on August 21, 2026 with a window to January 31, 2027
+    [1685] [1687] [1688] [1690]. GAO estimated that 61 percent of the $39 billion designated for FY2022 to FY2024 had been
+    obligated and about 16 percent paid out by the end of FY 2024, and that an estimated 60 percent of recipients reported
+    at least one challenge in carrying out their project [1681].'
+  official_url: https://www.gao.gov/tracking-funds
+  sources:
+  - 1686
+  - 1672
+  - 1685
+  - 1687
+  - 1688
+  - 1690
+  - 1681
+  sweep: capacity-C
+- id: environmental-review-before-federal-funds
+  name: Environmental review before funds are committed (capital projects)
+  what: For a HUD Economic Development Initiative project an environmental review must be completed before HUD funds or
+    non-HUD funds are committed to or spent on the project, under 24 CFR Part 50 or 58 [1673] [1685]. HRSA construction
+    projects file an Environmental Information Document checklist with the application [1687].
+  official_url: https://www.hud.gov/stat/cpd/edi-grants-fy2026
+  sources:
+  - 1673
+  - 1685
+  - 1687
+  sweep: capacity-C
+- id: notice-of-federal-interest
+  name: Notice of Federal Interest (HRSA capital awards)
+  what: A document that HRSA construction awards require to be filed for the property where it applies; HRSA publishes a
+    sample [1687] [1737].
+  official_url: https://bphc.hrsa.gov/funding/funding-opportunities/capital-development-grants
+  sources:
+  - 1687
+  - 1737
+  sweep: capacity-C
+- id: capacity-award-to-intermediary
+  name: Capacity money awarded to an intermediary that serves local organisations
+  what: Several capacity programmes are awarded to a national or regional body and reach a local organisation only as training,
+    technical assistance or a subgrant from that body [1712] [1704]. HUD Section 4 goes to three named national non-profits
+    and Rural Capacity Building to national non-profits [1712] [1714]. Paul Bruhn primes may not fund their own properties
+    [1704]. State Historical Records Advisory Boards may regrant to archives [700]. Renew America's Nonprofits made subawards
+    of up to $200,000 through prime recipients [1748]. Technical-assistance centre awards at HUD, HRSA, SAMHSA and Justice
+    pay the winner to assist others, not to build its own capacity [1715] [1741] [1746] [1743].
+  official_url: https://simpler.grants.gov/opportunity/ef1e04c3-9d68-465b-b0a1-1873ebb1e546
+  sources:
+  - 1712
+  - 1714
+  - 1704
+  - 700
+  - 1748
+  - 1715
+  - 1741
+  - 1746
+  - 1743
+  sweep: capacity-C

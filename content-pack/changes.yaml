@@ -4576,3 +4576,1219 @@
   - 1482
   - 1470
   sweep: service-D
+- id: ch-ca-nsf-mri-fy2026-window-not-held
+  date: '2025-07-02'
+  what: NSF announced that it would not accept new MRI proposals in the FY 2026 window (October 15 – November 14, 2025)
+    and that proposals submitted then would be returned without review; it would instead consider more awards from the FY
+    2025 cohort, subject to funds [1514].
+  status: final
+  affects:
+  - nsf-mri
+  sources:
+  - 1514
+  sweep: capacity-A
+- id: ch-ca-nsf-mri-updated-solicitation-anticipated
+  date: '2026-10-04'
+  what: As read on 2026-10-04, the MRI solicitation NSF 23-519 is labelled Archived and NSF states it anticipates issuing
+    an updated solicitation for proposals in FY 2027 [1513]. In July 2025 NSF had given October 15 – November 16, 2026 as
+    the next window [1514].
+  status: announced
+  affects:
+  - nsf-mri
+  sources:
+  - 1513
+  - 1514
+  sweep: capacity-A
+- id: ch-ca-nsf-fy2027-request-capacity-lines
+  date: '2026-04-03'
+  what: The NSF FY 2027 budget request asks for $107.70 million for the EPSCoR Office, $20.00 million for MRI, $48.06 million
+    for mid-scale research infrastructure, $181.78 million for Integrative Activities and $350.00 million for the TIP directorate
+    [255]. The FY 2025 current plan figures returned were $481.32 million for Integrative Activities, $617.90 million for
+    TIP and $110.18 million for mid-scale research infrastructure [255].
+  status: proposed
+  affects:
+  - nsf-oia
+  - nsf-mri
+  - nsf-midscale-ri-1
+  - nsf-midscale-ri-2
+  - nsf-epscor-e-core
+  - nsf-epscor-e-rise
+  - nsf-epscor-fec
+  - nsf-regional-innovation-engines
+  - nsf-art
+  sources:
+  - 255
+  sweep: capacity-A
+- id: ch-ca-nsf-fy2026-request-ia
+  date: unknown
+  what: The NSF FY 2026 budget request chapter for Integrative Activities states that at the request level EPSCoR funding
+    would support active RII awards made in prior years, and that MRI would make approximately 30-40 new awards [1577].
+    The figures returned were $107.70 million for EPSCoR and $20.00 million for MRI, against $250.00 million and $31.17
+    million in the FY 2024 current plan; the column labels were garbled in the fetch [1577].
+  status: proposed
+  affects:
+  - nsf-oia
+  - nsf-mri
+  - nsf-granted
+  - nsf-epscor-e-core
+  - nsf-epscor-e-rise
+  sources:
+  - 1577
+  sweep: capacity-A
+- id: ch-ca-nsf-epscor-eligibility-frozen
+  date: '2024-04-08'
+  what: NSF states that the CHIPS and Science Act of 2022 freezes EPSCoR jurisdiction eligibility through FY 2027 and that
+    no new jurisdictions will be considered eligible through FY 2027; the list of 28 was unchanged when read on 2026-10-04
+    [1517].
+  status: final
+  affects:
+  - nsf-epscor-jurisdiction
+  - nsf-epscor-e-core
+  - nsf-epscor-e-rise
+  - nsf-epscor-fec
+  - doe-epscor-jurisdiction
+  - nasa-epscor-jurisdiction
+  sources:
+  - 1517
+  sweep: capacity-A
+- id: ch-ca-nsf-epscor-rii-track-1-replaced
+  date: '2024-12-13'
+  what: E-CORE (NSF 25-523) and E-RISE (NSF 25-522) were posted on December 13, 2024 [1519] [1521]. NSF states that together
+    they replaced RII Track-1, archived in FY 2024 [255]. Both show deadlines in July and August 2027 [1519] [1521].
+  status: final
+  affects:
+  - nsf-epscor-e-core
+  - nsf-epscor-e-rise
+  sources:
+  - 1519
+  - 1521
+  - 255
+  sweep: capacity-A
+- id: ch-ca-nsf-epscor-fec-awards-2026
+  date: '2026-08-24'
+  what: NSF announced eight Focused EPSCoR Collaborations awards totalling $39.9 million across 16 jurisdictions [1525].
+  status: final
+  affects:
+  - nsf-epscor-fec
+  sources:
+  - 1525
+  sweep: capacity-A
+- id: ch-ca-nsf-engines-second-cohort
+  date: '2026-07-14'
+  what: NSF announced 12 new Regional Innovation Engines across 20 states, each with an initial $15 million over two years,
+    and said a further round of funding had been released for inaugural Engines [1527]. NSF had said in September 2025 that
+    it expected to announce the awards in early 2026 [1583].
+  status: final
+  affects:
+  - nsf-regional-innovation-engines
+  sources:
+  - 1527
+  - 1583
+  sweep: capacity-A
+- id: ch-ca-nsf-engines-first-cohort-count
+  date: '2026-07-14'
+  what: NSF announced 10 inaugural Engines on January 29, 2024 [1580]. Its Cohort 1 page (last updated July 14, 2026), its
+    one-pager and its July 14, 2026 news item count nine; the Paso del Norte Defense and Aerospace Innovation Engine is
+    not on the Cohort 1 list, and no page fetched states what happened to it [1581] [1582] [1527].
+  status: final
+  affects:
+  - nsf-regional-innovation-engines
+  sources:
+  - 1580
+  - 1581
+  - 1582
+  - 1527
+  sweep: capacity-A
+- id: ch-ca-nsf-art-new-solicitation
+  date: '2025-09-26'
+  what: NSF posted a new ART solicitation, NSF 25-548, with five tracks, an estimated programme budget of $178,000,000 and
+    deadlines of January 15 and March 12, 2026 [236] [1528].
+  status: final
+  affects:
+  - nsf-art
+  sources:
+  - 236
+  - 1528
+  sweep: capacity-A
+- id: ch-ca-nsf-granted-not-accepting
+  date: '2026-04-14'
+  what: NSF states that the GRANTED funding opportunity is not accepting proposals at this time; the page gives the programme's
+    name as Growing Research Access for Nationally Transformative Economic Development [1579] [1529].
+  status: announced
+  affects:
+  - nsf-granted
+  sources:
+  - 1579
+  - 1529
+  sweep: capacity-A
+- id: ch-ca-nsf-capacity-solicitations-awaiting-republication
+  date: '2026-10-04'
+  what: 'As read on 2026-10-04, these NSF capacity solicitations had no open deadline: MRI (archived), Mid-scale RI-1 (waiting
+    for new publication), Mid-scale RI-2 (archived), Campus Cyberinfrastructure (waiting for a new publication), EPIIC (archived)
+    and GRANTED (waiting for a new publication) [1513] [1531] [1532] [1533] [1530] [1529].'
+  status: final
+  affects:
+  - nsf-mri
+  - nsf-midscale-ri-1
+  - nsf-midscale-ri-2
+  - nsf-cc-star
+  - nsf-epiic
+  - nsf-granted
+  sources:
+  - 1513
+  - 1531
+  - 1532
+  - 1533
+  - 1530
+  - 1529
+  sweep: capacity-A
+- id: ch-ca-nsf-award-terminations
+  date: '2026-07-24'
+  what: NSF states that it terminated awards in named categories, that appeals for terminated awards will not be reviewed
+    or considered, and that 114 awards to 45 institutions are being reinstated following a June 23, 2025 court order; the
+    page (last updated July 24, 2026) names no change specific to EPSCoR, MRI or the Engines [154].
+  status: final
+  affects:
+  - nsf-oia
+  sources:
+  - 154
+  sweep: capacity-A
+- id: ch-ca-nsf-indirect-cost-cap-vacated
+  date: '2025-05-19'
+  what: NSF states that its 15% indirect cost policy (NSF 25-034) is not in effect because a federal court vacated it, that
+    it reverted to negotiated rates as of May 19, 2025, and that new awards carry language applying the cap if NSF is later
+    permitted [154].
+  status: vacated
+  affects:
+  - nsf-oia
+  - nsf-mri
+  - nsf-epscor-e-core
+  - nsf-epscor-e-rise
+  sources:
+  - 154
+  sweep: capacity-A
+- id: ch-ca-nih-s10-consolidated
+  date: '2026-06-25'
+  what: NIH posted PAR-27-022, which consolidates the Shared, High-End and Basic Instrumentation Grant programmes into one
+    S10 Shared Instrumentation Grant notice ($300,000 to $5,000,000), and PAR-27-021, a Seed Instrumentation Support notice
+    ($50,000 to $400,000, one application per organisation) [1536] [1537].
+  status: final
+  affects:
+  - nih-s10-shared-instrumentation
+  - nih-s10-seed-instrumentation
+  sources:
+  - 1536
+  - 1537
+  - 1535
+  sweep: capacity-A
+- id: ch-ca-nih-c06-notice-2026
+  date: '2026-03-06'
+  what: NIH posted PAR-26-106 for C06 construction awards, with due dates of April 6, 2026, January 25, 2027 and January
+    25, 2028 [1542].
+  status: final
+  affects:
+  - nih-c06-research-facilities
+  sources:
+  - 1542
+  - 1541
+  sweep: capacity-A
+- id: ch-ca-nih-s15-notice-expired
+  date: '2026-09-26'
+  what: The S15 equipment notice PAR-24-259 reached its expiration date; no successor notice was found in this sweep [1540].
+  status: final
+  affects:
+  - nih-s15-equipment
+  sources:
+  - 1540
+  - 1539
+  sweep: capacity-A
+- id: ch-ca-nih-cobre-renamed-phases
+  date: '2026-08-19'
+  what: 'NIH posted new COBRE notices under the P30 activity code: PAR-27-055 for the Expansion and Sustainability phases
+    (June 18, 2026) and PAR-27-054 for the Development phase (August 19, 2026) [1546] [1545]. NIGMS describes two tracks,
+    D-E-S (15 years maximum) and E-S (10 years maximum) [1544].'
+  status: final
+  affects:
+  - nih-idea-cobre-d
+  - nih-idea-cobre-e-s
+  sources:
+  - 1545
+  - 1546
+  - 1544
+  sweep: capacity-A
+- id: ch-ca-nih-idea-ctr-notice-2026
+  date: '2026-08-19'
+  what: NIH posted PAR-27-056 for IDeA clinical and translational research under the P30 activity code, with a Development
+    track and a Network track; a single-source IDeA Clinical Research Resource Center notice (PAR-28-024) is forecast [1552]
+    [1551].
+  status: final
+  affects:
+  - nih-idea-ctr
+  sources:
+  - 1552
+  - 1551
+  sweep: capacity-A
+- id: ch-ca-nih-inbre-notice-expired-and-forecast
+  date: '2025-05-23'
+  what: The INBRE notice PAR-23-100 expired on May 23, 2025 [1548]. A forecast for PAR-26-026, posted September 22, 2025
+    and updated May 13, 2026, estimates a post date of February 18, 2027 and a due date of May 18, 2027 [1549].
+  status: announced
+  affects:
+  - nih-idea-inbre
+  sources:
+  - 1548
+  - 1549
+  sweep: capacity-A
+- id: ch-ca-nih-idea-budget-fy2026-fy2027
+  date: unknown
+  what: The NIGMS FY 2027 justification shows IDeA at $430,956,000 in FY 2025, $450,956,000 enacted for FY 2026 and $448,019,000
+    requested for FY 2027, a decrease of 0.7 percent from FY 2026 [1584].
+  status: proposed
+  affects:
+  - nih-nigms-drcb
+  - nih-idea-cobre-d
+  - nih-idea-cobre-e-s
+  - nih-idea-inbre
+  - nih-idea-ctr
+  sources:
+  - 1584
+  sweep: capacity-A
+- id: ch-ca-nih-idea-list-unchanged
+  date: '2025-12-10'
+  what: The list of IDeA-eligible states on the NIGMS page (last updated December 10, 2025) and in the notices posted in
+    June and August 2026 is the same 23 states and Puerto Rico [1543] [1545] [1546].
+  status: final
+  affects:
+  - nih-idea-eligible-state
+  sources:
+  - 1543
+  - 1545
+  - 1546
+  sweep: capacity-A
+- id: ch-ca-nih-aids-due-dates-removed
+  date: '2026-01-28'
+  what: NIH will no longer accept applications on separate AIDS due dates, starting with applications for January 2027 advisory
+    council review; the notice is attached to the SuRE notices [17] [1555].
+  status: final
+  affects:
+  - nih-sure-r16
+  - nih-sure-first-r16
+  sources:
+  - 17
+  - 1555
+  sweep: capacity-A
+- id: ch-ca-nih-rcmi-forecast-dates-passed
+  date: '2026-05-13'
+  what: The Grants.gov forecast for an RCMI U54 notice (FOR-MD-25-004) shows an estimated post date of September 24, 2025
+    and an estimated award date of March 25, 2026; the forecast was last updated May 13, 2026 and no posted notice was found
+    on 2026-10-04 [1587] [1586].
+  status: announced
+  affects:
+  - nih-rcmi-u54
+  sources:
+  - 1587
+  - 1586
+  sweep: capacity-A
+- id: ch-ca-dod-durip-fy2027
+  date: '2026-07-29'
+  what: The FY 2027 DURIP announcement was posted under three numbers (ONR, Army, AFOSR), closing November 6, 2026, with
+    approximately $28 million pending appropriations; the announcement uses the name Department of War [1563] [1561].
+  status: final
+  affects:
+  - dod-durip
+  sources:
+  - 1563
+  - 1561
+  sweep: capacity-A
+- id: ch-ca-dod-depscor-fy26
+  date: '2026-08-10'
+  what: Two FY26 DEPSCoR notices were posted, Capacity Building ($6 million) and Research Collaboration ($14,400,000), both
+    closing April 5, 2027 and both listing 36 eligible states and territories [1565] [1566].
+  status: final
+  affects:
+  - dod-depscor-capacity-building
+  - dod-depscor-research-collaboration
+  - dod-depscor-eligible-state
+  sources:
+  - 1565
+  - 1566
+  sweep: capacity-A
+- id: ch-ca-doe-epscor-fy2026-notice
+  date: '2026-02-18'
+  what: DOE issued DE-FOA-0003615, Building EPSCoR-State/National Laboratory Partnerships, with $35,000,000 expected; applications
+    were due May 21, 2026 and the listing was archived June 20, 2026 [1569] [1568].
+  status: final
+  affects:
+  - doe-epscor-state-lab-partnerships
+  sources:
+  - 1569
+  - 1568
+  sweep: capacity-A
+- id: ch-ca-nasa-epscor-no-notice-since-fy2025
+  date: '2026-10-04'
+  what: As read on 2026-10-04, the newest NASA EPSCoR notices on Grants.gov are the two FY 2025 notices posted in October
+    and November 2024; NASA's page shows Research Infrastructure Development dates as "FY 2026 (TBD)" [1572] [1571].
+  status: final
+  affects:
+  - nasa-epscor-research
+  - nasa-epscor-r3
+  - nasa-epscor-rid
+  sources:
+  - 1572
+  - 1571
+  sweep: capacity-A
+- id: ch-ca-nasa-fy2027-request-stem-engagement
+  date: unknown
+  what: The NASA FY 2027 budget request asks for $0.0 million for STEM Engagement, against $143.0 million in FY 2025 and
+    FY 2026, and states that it terminates funding for the Office of STEM Engagement, under which NASA EPSCoR is funded
+    [1585] [1573].
+  status: proposed
+  affects:
+  - nasa-epscor-research
+  - nasa-epscor-r3
+  - nasa-epscor-rid
+  sources:
+  - 1585
+  - 1573
+  sweep: capacity-A
+- id: ch-ca-nifa-epscor-fy2026-list
+  date: '2026-03-13'
+  what: NIFA lists 19 USDA EPSCoR states for FY 2026, set at the 38th percentile of a three-year rolling average of AFRI
+    funding [1576].
+  status: final
+  affects:
+  - usda-epscor-state
+  - nifa-afri-fase-strengthening-grants
+  sources:
+  - 1576
+  sweep: capacity-A
+- id: ch-ca-nifa-egp-fy2026
+  date: '2026-05-18'
+  what: NIFA posted the FY 2026 Equipment Grants Program notice (USDA-NIFA-CEGP-32987), $2,800,000 estimated, which closed
+    June 25, 2026 [1575].
+  status: final
+  affects:
+  - nifa-equipment-grants-program
+  sources:
+  - 1575
+  - 1590
+  sweep: capacity-A
+- id: ch-ca-doe-ne-infrastructure-fy2026
+  date: '2025-12-15'
+  what: DOE Office of Nuclear Energy issued DE-FOA-0003541 for university reactor upgrades and general scientific infrastructure,
+    about $5,000,000 in all, due April 9, 2026 [1588].
+  status: final
+  affects:
+  - doe-ne-scientific-infrastructure-support
+  sources:
+  - 1588
+  sweep: capacity-A
+- id: ch-cb-eo-14148-revokes-tribal-college-order
+  date: '2025-01-20'
+  what: Executive Order 14148 revoked Executive Order 14049 of October 11, 2021 on Native American education and strengthening
+    tribal colleges and universities, together with the 2021 orders on Hispanics, Black Americans and Asian Americans, Native
+    Hawaiians and Pacific Islanders [1619]. A Federal Register search returned no later executive order on tribal colleges
+    [1620].
+  status: final
+  affects:
+  - tribal-college-or-university
+  sources:
+  - 1619
+  - 1620
+  sweep: capacity-B
+- id: ch-cb-eo-14283-hbcu-initiative
+  date: '2025-04-23'
+  what: Executive Order 14283 set up a White House Initiative on historically Black colleges and universities in the Executive
+    Office of the President and a Board of Advisors in the Department of Education, directed agencies to file annual plans,
+    and revoked Executive Order 14041 [1618].
+  status: final
+  affects:
+  - hbcu
+  - ed-title-iii-b-strengthening-hbcus
+  - nih-nibib-beita-hbcu
+  sources:
+  - 1618
+  sweep: capacity-B
+- id: ch-cb-tennessee-v-ed-filed
+  date: '2025-06-11'
+  what: Tennessee and Students for Fair Admissions sued the Department of Education in the Eastern District of Tennessee
+    (No. 3:25-cv-270), challenging the Developing HSIs, PPOHA and HSI STEM and Articulation programmes [1607].
+  status: in-litigation
+  affects:
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-hsi-stem-articulation
+  - hispanic-serving-institution
+  sources:
+  - 1607
+  sweep: capacity-B
+- id: ch-cb-doj-530d-letter-hsi
+  date: '2025-07-25'
+  what: The Solicitor General notified the Speaker of the House under 28 U.S.C. 530D that the Justice Department would not
+    defend 20 U.S.C. 1101(c) and the 25 percent definition in 20 U.S.C. 1101a(5)(B) in the Tennessee case [1606].
+  status: announced
+  affects:
+  - ed-title-v-developing-hsi
+  - hispanic-serving-institution
+  sources:
+  - 1606
+  sweep: capacity-B
+- id: ch-cb-ed-ends-msi-discretionary-funding
+  date: '2025-09-10'
+  what: The Department of Education announced it would no longer award discretionary grants under seven programmes (ANNH,
+    PBI, AANAPISI, NASNTI, MSEIP, Developing HSIs and PPOHA) and would reprogram about $350 million of FY 2025 discretionary
+    funds, while disbursing $132 million of mandatory funds [1594].
+  status: final
+  affects:
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - ed-predominantly-black-institutions
+  - ed-mseip
+  sources:
+  - 1594
+  sweep: capacity-B
+- id: ch-cb-ed-withdraws-fy2025-notices
+  date: '2025-09-18'
+  what: The Department withdrew the FY 2025 notices inviting applications for the Developing HSIs, ANNH Part A, AANAPISI
+    Part A and NASNTI Part A programmes and cancelled the competitions, effective September 18, 2025 [1643].
+  status: final
+  affects:
+  - ed-title-v-developing-hsi
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  sources:
+  - 1643
+  sweep: capacity-B
+- id: ch-cb-ed-fy2025-reprogramming-to-hbcus-tccus
+  date: '2025-09-15'
+  what: 'The Department''s FY 2027 justification records that $494,538 thousand was reprogrammed in FY 2025 from Aid for
+    Institutional Development, Aid for Hispanic-serving Institutions, International Education and Teacher Quality Partnership
+    to tribally controlled colleges and HBCUs [1405]. The Strengthening HBCUs page shows 98 supplemental awards totalling
+    $437,963,112 in FY 2025 [1602]. The Department announced the move in a release dated September 15, 2025: HBCUs and tribally
+    controlled colleges would receive an additional $495 million on top of the anticipated FY 2025 investment, for stated
+    totals of $1.34 billion for HBCUs and $108 million for tribally controlled colleges, with the money repurposed from
+    other programmes [1773].'
+  status: final
+  affects:
+  - ed-title-iii-b-strengthening-hbcus
+  - ed-title-iii-a-tccu
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - ed-predominantly-black-institutions
+  - ed-mseip
+  sources:
+  - 1405
+  - 1602
+  - 1773
+  sweep: capacity-B
+- id: ch-cb-ed-interagency-agreements
+  date: '2025-11-18'
+  what: The Department of Education announced agreements under which the Department of Labor takes a greater role in administering
+    most Higher Education Act grant programmes and the Department of the Interior in administering Indian Education programmes,
+    including higher education [672]. In 2026 the Labor Department's Employment and Training Administration ran the Strengthening
+    Institutions and HBCU and TCCU Research and Development Infrastructure competitions on Education's behalf [1600] [1616].
+  status: final
+  affects:
+  - ed-title-iii-a-strengthening-institutions
+  - ed-fipse-rdi-hbcu-tccu
+  - ed-title-iii-a-tccu
+  sources:
+  - 672
+  - 1600
+  - 1616
+  sweep: capacity-B
+- id: ch-cb-olc-opinion-ed-programmes
+  date: '2025-12-02'
+  what: The Office of Legal Counsel concluded that the eligibility provisions of the Developing HSIs, PPOHA, HSI STEM, ANNH,
+    NASNTI, AANAPISI and PBI formula programmes are unconstitutional and inseverable, and that the competitive PBI grants
+    and MSEIP grants may continue without regard to the recipient's class [1592]. The opinion says it does not address HBCU
+    or tribally controlled college programmes [1592].
+  status: final
+  affects:
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - ed-predominantly-black-institutions
+  - ed-mseip
+  - ed-hsi-stem-articulation
+  - ed-title-iii-part-f-mandatory
+  sources:
+  - 1592
+  sweep: capacity-B
+- id: ch-cb-ed-statement-on-olc-opinion
+  date: '2025-12-19'
+  what: The Department of Education released the Secretary's statement on the opinion and said it had disbursed about $132
+    million of mandatory funds, did not intend to claw back funds obligated in prior fiscal years, and was assessing the
+    opinion's effect on the programmes [1593].
+  status: announced
+  affects:
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - ed-predominantly-black-institutions
+  - ed-mseip
+  - ed-title-iii-part-f-mandatory
+  sources:
+  - 1593
+  sweep: capacity-B
+- id: ch-cb-fy2026-appropriations
+  date: '2026-02-03'
+  what: The Senate Appropriations Committee reported on February 3, 2026 that Congress had approved the FY 2026 Labor, HHS
+    and Education bill [538]. The committee's summary of the agreement says it increases funding for all Title III and V
+    programmes, gives $15 million for HBCU, TCU and MSI Research and Development Infrastructure Grants, and states that
+    no authority exists for the Department of Education to transfer its fundamental responsibilities to other agencies [63].
+    The House committee's summary says funding to strengthen HBCUs is increased and gives no amounts [1665]. The Department's
+    justification cites the law as the Consolidated Appropriations Act, 2026 (P.L. 119-75) [1405].
+  status: enacted
+  affects:
+  - ed-title-iii-a-strengthening-institutions
+  - ed-title-iii-b-strengthening-hbcus
+  - ed-title-iii-a-tccu
+  - ed-fipse-rdi-hbcu-tccu
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - ed-predominantly-black-institutions
+  - ed-mseip
+  sources:
+  - 538
+  - 63
+  - 1665
+  - 1405
+  sweep: capacity-B
+- id: ch-cb-fy2026-eligibility-notice-section-312
+  date: '2026-03-24'
+  what: The FY 2026 eligibility designation notice covers programmes under section 312 of the Higher Education Act, with
+    a window from March 24 to April 23, 2026; the FY 2025 notice had covered Parts A and F of Title III and Title V [1596]
+    [1597].
+  status: final
+  affects:
+  - ed-title-iii-v-eligible-institution
+  - ed-title-iii-a-strengthening-institutions
+  sources:
+  - 1596
+  - 1597
+  sweep: capacity-B
+- id: ch-cb-sip-fy2026-competition
+  date: '2026-05-21'
+  what: The FY 2026 Strengthening Institutions Program competition opened with an estimated $365,875,512 and 600 awards,
+    run by the Department of Labor for Education, and closed June 23, 2026 [1600]. The FY 2025 discretionary amount shown
+    for the programme is $112,070 thousand [1405].
+  status: final
+  affects:
+  - ed-title-iii-a-strengthening-institutions
+  sources:
+  - 1600
+  - 1405
+  sweep: capacity-B
+- id: ch-cb-rdi-fy2026-competition
+  date: '2026-05-21'
+  what: The FY 2026 Research and Development Infrastructure competition named HBCUs and TCCUs as the eligible applicants,
+    with $15,000,000 and a 1:1 match [1616].
+  status: final
+  affects:
+  - ed-fipse-rdi-hbcu-tccu
+  sources:
+  - 1616
+  sweep: capacity-B
+- id: ch-cb-ed-fy2027-request
+  date: '2026'
+  what: The Department of Education's FY 2027 request proposes no funding for the Strengthening Institutions Program, MSEIP
+    and the Hispanic-serving, ANNH, AANAPISI, NASNTI and PBI programmes, and requests $405,778 thousand for Strengthening
+    HBCUs, $102,501 thousand for HBGIs and $53,807 thousand for tribally controlled colleges in discretionary funds [1405].
+    The budget summary gives $528.6 million for HBCU programmes and $67.8 million for tribally controlled colleges [1404].
+  status: proposed
+  affects:
+  - ed-title-iii-a-strengthening-institutions
+  - ed-title-iii-b-strengthening-hbcus
+  - ed-title-iii-b-hbgi
+  - ed-title-iii-a-tccu
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - ed-predominantly-black-institutions
+  - ed-mseip
+  sources:
+  - 1405
+  - 1404
+  sweep: capacity-B
+- id: ch-cb-olc-opinion-usda
+  date: '2026-06-22'
+  what: The Office of Legal Counsel issued an opinion on Department of Agriculture programmes that use race- or sex-based
+    classifications; as fetched it does not address the Department's programmes for 1890, 1994 or Hispanic-serving institutions
+    [1651].
+  status: final
+  affects:
+  - nifa-hsi-education-grants
+  sources:
+  - 1651
+  sweep: capacity-B
+- id: ch-cb-olc-opinion-nsf-programmes
+  date: '2026-08-12'
+  what: The Office of Legal Counsel concluded that NSF's Hispanic-serving institutions programme, AGEP and LSAMP are unconstitutional
+    and inseverable and that NSF may treat their amounts as residual within the $938,250,000 STEM education appropriation;
+    that TCUP is constitutional; and that ATE and ADVANCE have unconstitutional but severable sex-based elements [876].
+    The opinion does not mention the HBCU programmes or CREST [876]. It is listed on the Office's opinions page with that
+    date [1591].
+  status: final
+  affects:
+  - nsf-hsi-program
+  - nsf-agep
+  - nsf-lsamp
+  - nsf-tcup
+  - nsf-ate
+  - nsf-advance
+  sources:
+  - 876
+  - 1591
+  sweep: capacity-B
+- id: ch-cb-tennessee-summary-judgment-motion
+  date: '2026-08-31'
+  what: A law firm litigation summary dated September 30, 2026 reports that the court in the Tennessee case had not ruled
+    on the intervenor's motions to dismiss and for judgment on the pleadings, and that plaintiffs moved for summary judgment
+    on August 31, 2026 [1650]. A litigation tracker records that the Hispanic Association of Colleges and Universities was
+    admitted as intervenor on October 10, 2025 [1608].
+  status: in-litigation
+  affects:
+  - ed-title-v-developing-hsi
+  - hispanic-serving-institution
+  sources:
+  - 1650
+  - 1608
+  sweep: capacity-B
+- id: ch-cb-dod-equipment-notice-hbcu-tcu
+  date: '2026-08-27'
+  what: The 2026 equipment and instrumentation notice under the Defense Research and Education Program names HBCUs and tribal
+    colleges as the eligible institutions [1627]. The programme page describes the programme as serving HBCUs and minority-serving
+    institutions [1625].
+  status: final
+  affects:
+  - dod-hbcu-tcu-research-education-equipment
+  - dod-covered-educational-institution
+  sources:
+  - 1627
+  - 1625
+  sweep: capacity-B
+- id: ch-cb-nsf-opportunity-page-states
+  date: '2026-10-04'
+  what: On October 4, 2026 NSF's pages showed HBCU-UP, CREST and LSAMP as waiting for a new publication and the Hispanic-serving
+    institutions solicitation, AGEP and ADVANCE as archived; TCUP and HBCU-EiR carried current deadlines [1611] [1612] [881]
+    [1609] [882] [1660] [1613] [1610]. The STEM Education programme list as fetched showed ATE, CREST, HBCU-UP and S-STEM
+    and not TCUP, LSAMP, AGEP, ADVANCE or the Hispanic-serving institutions programme [231]. NSF's priorities page, last
+    updated July 24, 2026, says NSF continues programmes with broadening participation elements that are established in
+    law and does not mention the August 12, 2026 opinion [154].
+  status: final
+  affects:
+  - nsf-hbcu-up
+  - nsf-crest
+  - nsf-lsamp
+  - nsf-hsi-program
+  - nsf-agep
+  - nsf-advance
+  - nsf-tcup
+  - nsf-hbcu-eir
+  sources:
+  - 1611
+  - 1612
+  - 881
+  - 1609
+  - 882
+  - 1660
+  - 1613
+  - 1610
+  - 231
+  - 154
+  sweep: capacity-B
+- id: ch-cb-nsf-fy2027-request
+  date: '2026'
+  what: NSF's FY 2027 request shows STEM Education at $427.68 million against $1,197.00 million for FY 2025, with the HBCU
+    programmes at $56.50 million and TCUP at $7.11 million as returned by the fetch [255].
+  status: proposed
+  affects:
+  - nsf-hbcu-up
+  - nsf-hbcu-eir
+  - nsf-tcup
+  sources:
+  - 255
+  sweep: capacity-B
+- id: ch-cb-nasa-fy2027-request-stem-engagement
+  date: '2026'
+  what: NASA's FY 2027 request shows the STEM Engagement account, which holds MUREP, at $0.0 million against $143.0 million
+    enacted for FY 2026 [396].
+  status: proposed
+  affects:
+  - nasa-murep
+  - nasa-ostem
+  sources:
+  - 396
+  sweep: capacity-B
+- id: ch-cc-fy2025-no-earmarks
+  date: '2025'
+  what: The Full-Year Continuing Appropriations and Extensions Act, 2025 (Public Law 119-4) ran through September 30, 2025,
+    gave prior-year community project and congressionally directed spending language no legal effect for its funds (section
+    1111) and reduced accounts by the FY2024 project amounts [1755] [1705]. Congress designated no such funds in FY 2025,
+    and agency pages list earmark notices for FY 2024 and FY 2026 and none for FY 2025 [1680] [1708] [1686] [1682].
+  status: final
+  affects:
+  - congressionally-directed-spending-process
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - usda-rd-community-facilities-directed-grants
+  - ed-congressionally-funded-community-projects
+  - dol-eta-community-project-funding
+  - samhsa-congressionally-directed-spending-projects
+  - nist-congressionally-identified-projects
+  sources:
+  - 1755
+  - 1705
+  - 1680
+  - 1708
+  - 1686
+  - 1682
+  sweep: capacity-C
+- id: ch-cc-fy2026-earmarks-enacted
+  date: '2026-02-03'
+  what: 'FY2026 earmarked projects were enacted in four laws: P.L. 119-37 (November 12, 2025), P.L. 119-74 (January 23,
+    2026), P.L. 119-75 (February 3, 2026) and P.L. 119-86 (April 30, 2026) [1677]. The Labor-HHS-Education statement set
+    aside $857,793,000 at HRSA, $100,147,000 in Education''s Innovation and Improvement account, $95,501,000 at the Employment
+    and Training Administration, $54,311,000 at SAMHSA, $40,801,000 at ACF and $13,968,000 at ACL; HUD received $3.6 billion
+    and NIST $405,331,366 for 239 projects [1679] [1685] [1709].'
+  status: enacted
+  affects:
+  - congressionally-directed-spending-process
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - ed-congressionally-funded-community-projects
+  - dol-eta-community-project-funding
+  - samhsa-congressionally-directed-spending-projects
+  - nist-congressionally-identified-projects
+  sources:
+  - 1677
+  - 1679
+  - 1685
+  - 1709
+  sweep: capacity-C
+- id: ch-cc-fy2026-agency-steps
+  date: '2026-08-21'
+  what: 'Agencies opened their steps for FY2026 named recipients on different dates: HUD''s first communications went out
+    April 29 to May 8, 2026; HRSA''s application documents were due June 1, 2026; SAMHSA posted its closed announcement
+    June 12, 2026 [1685] [1687] [1688]. The Department of Labor issued its instructions on August 21, 2026, with applications
+    accepted through January 31, 2027 [1690].'
+  status: final
+  affects:
+  - earmark-agency-application-step
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - samhsa-congressionally-directed-spending-projects
+  - dol-eta-community-project-funding
+  sources:
+  - 1685
+  - 1687
+  - 1688
+  - 1690
+  sweep: capacity-C
+- id: ch-cc-fy2027-request-rules
+  date: '2026-04-13'
+  what: For FY27 the House allows 20 requests per Member and takes requests in eight subcommittees, with Labor-HHS-Education
+    limited to one HRSA account; its deadlines ran March 13 to March 27, 2026 [1668] [1669] [1670]. The Senate set a one
+    percent cap, per-Senator limits by subcommittee and deadlines from April 7 to May 7, 2026 [1675].
+  status: final
+  affects:
+  - congressionally-directed-spending-process
+  - earmark-request-rules
+  - earmark-eligible-accounts-fy2027
+  - house-appropriations-committee
+  - senate-appropriations-committee
+  sources:
+  - 1668
+  - 1669
+  - 1670
+  - 1675
+  sweep: capacity-C
+- id: ch-cc-fy2027-house-nonprofit-exclusions
+  date: '2026-03-19'
+  what: The House FY27 guidance excludes non-profits, other than fire stations, from Community Facilities requests and excludes
+    non-profit recipients from Distance Learning and Telemedicine requests [1672]. In the NIST, NASA and NOAA accounts it
+    allows only colleges and universities among non-profits, and its list of eligible recipients for HUD Economic Development
+    Initiatives names governments and certain colleges only [1671] [1673].
+  status: final
+  affects:
+  - usda-rd-community-facilities-directed-grants
+  - nist-congressionally-identified-projects
+  - hud-edi-community-project-funding
+  - earmark-named-recipient
+  sources:
+  - 1672
+  - 1671
+  - 1673
+  sweep: capacity-C
+- id: ch-cc-fy2027-continuing-resolution
+  date: '2026-09-02'
+  what: The Continuing Appropriations and Extensions Act, 2027 (H.R. 6500) was signed in September 2026 and continues appropriations
+    at FY2026 rates through December 11, 2026 [61] [1683]. FY27 earmarked projects are in committee tables and have not
+    been enacted [1666].
+  status: pending-implementation
+  affects:
+  - congressionally-directed-spending-process
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - usda-rd-community-facilities-directed-grants
+  - nist-congressionally-identified-projects
+  sources:
+  - 61
+  - 1683
+  - 1666
+  sweep: capacity-C
+- id: ch-cc-fy2027-budget-request
+  date: 2026-04
+  what: The President's FY2027 Budget carries an entry 'Community Facilities Grant Earmarks' at minus $659 million and an
+    Economic Development Administration entry at minus $449 million, proposes to eliminate the Community Development Block
+    Grant, and reduces FEMA non-disaster grant programmes by $1.3 billion [1710]. The fetched text did not reach the Historic
+    Preservation Fund, NEH, IMLS, AmeriCorps or the CDFI Fund [1710].
+  status: proposed
+  affects:
+  - usda-rd-community-facilities-directed-grants
+  - eda-planning-and-local-technical-assistance
+  - fema-bric
+  sources:
+  - 1710
+  sweep: capacity-C
+- id: ch-cc-house-fy27-thud-bill
+  date: '2026-05-21'
+  what: An article by a Section 4 grantee reports that the House FY27 Transportation-HUD bill provides $42 million for Section
+    4 against $46 million enacted for FY26, and $276 million for the CDFI Fund against $323 million [1753]. The House committee's
+    own bill summary confirms $42 million for Section 4 within $60 million for the Self-Help and Assisted Homeownership
+    Opportunities Program; it does not give the FY26 Section 4 figure or the CDFI Fund figures [1785].
+  status: proposed
+  affects:
+  - hud-section-4-capacity-building
+  - cdfi-fund-technical-assistance-awards
+  sources:
+  - 1753
+  - 1785
+  sweep: capacity-C
+- id: ch-cc-hud-capacity-notices-2026
+  date: '2026-07-06'
+  what: HUD's Section 4 notice (FY 2024 and FY 2025 funds) and FY 2025 Rural Capacity Building notice both closed July 6,
+    2026 [1712] [1714]. HUD forecast the FY2026/2027 Community Compass notice for November 5, 2026 and the Distressed Cities
+    Technical Assistance notice for January 11, 2027 [1715] [1716].
+  status: announced
+  affects:
+  - hud-section-4-capacity-building
+  - hud-rural-capacity-building
+  - hud-community-compass-technical-assistance
+  - hud-distressed-cities-technical-assistance
+  sources:
+  - 1712
+  - 1714
+  - 1715
+  - 1716
+  sweep: capacity-C
+- id: ch-cc-cdfi-fy2025-round-deadline-moved
+  date: '2026-03-10'
+  what: The CDFI Fund moved a deadline in the FY 2025 CDFI Program round from October 27, 2025 to April 10, 2026 for applicants
+    invited to update their applications, citing the lapse in appropriations [1435].
+  status: final
+  affects:
+  - cdfi-fund-technical-assistance-awards
+  sources:
+  - 1435
+  sweep: capacity-C
+- id: ch-cc-eda-university-centers-not-funded
+  date: '2026-10-04'
+  what: EDA's University Center page states that funding is not available to continue support for the programme; the date
+    of that statement is not shown [1722].
+  status: announced
+  affects:
+  - eda-university-centers
+  sources:
+  - 1722
+  sweep: capacity-C
+- id: ch-cc-nps-fy2025-hpf-notices-2026
+  date: '2026-06-11'
+  what: The National Park Service posted its FY2025 Historic Preservation Fund competitive notices between May 15 and June
+    11, 2026, and all had closed by July 28, 2026 [1697]. The Save America's Treasures notice cites the Full-Year Continuing
+    Appropriations and Extensions Act, 2025 (Public Law 119-4) as its appropriation [1705]. The FY2026 act provides $205,059,000
+    for the Fund; no FY2026 competitive notice other than the combined History of Equal Rights notice was posted or forecast
+    on the sweep date [1706] [1697].
+  status: final
+  affects:
+  - nps-save-americas-treasures
+  - nps-hbcu-preservation-grants
+  - nps-african-american-civil-rights-grants
+  - nps-history-of-equal-rights-grants
+  - nps-underrepresented-communities-grants
+  - nps-paul-bruhn-historic-revitalization-grants
+  - nps-stlpg
+  sources:
+  - 1697
+  - 1705
+  - 1706
+  sweep: capacity-C
+- id: ch-cc-nps-sat-notice-terms-2026
+  date: '2026-05-15'
+  what: The 2026 Save America's Treasures notice requires applicants to certify awareness of and compliance with current
+    executive and secretary's orders and encourages projects in support of the country's 250th anniversary [1705].
+  status: final
+  affects:
+  - nps-save-americas-treasures
+  sources:
+  - 1705
+  sweep: capacity-C
+- id: ch-cc-neh-endowments-programme
+  date: '2025-12-12'
+  what: NEH posted the first notice for Endowments for Advancing the Humanities on December 12, 2025, under the challenge
+    grants Assistance Listing 45.130, with a February 10, 2026 deadline [1730]. NEH anticipates the next deadline on January
+    13, 2027 [1729].
+  status: final
+  affects:
+  - neh-endowments-for-advancing-the-humanities
+  - neh-infrastructure-and-capacity-building-challenge-grants
+  sources:
+  - 1730
+  - 1729
+  sweep: capacity-C
+- id: ch-cc-neh-pag-no-notice-since-2025
+  date: '2025-01-10'
+  what: The last Preservation Assistance Grants for Smaller Institutions notice closed January 10, 2025; Grants.gov shows
+    no notice for a later cycle [1726] [1727].
+  status: final
+  affects:
+  - neh-preservation-assistance-grants-smaller-institutions
+  sources:
+  - 1726
+  - 1727
+  sweep: capacity-C
+- id: ch-cc-imls-fy2027-museum-notices
+  date: '2026-11-13'
+  what: The Institute of Museum and Library Services has FY 2027 notices available for Museums Empowered, Museum Grants
+    for African American History and Culture and Museum Grants for American Latino History and Culture, each due November
+    13, 2026 [1732] [1733] [1734].
+  status: announced
+  affects:
+  - imls-museums-empowered
+  - imls-museum-grants-african-american-history-culture
+  - imls-museum-grants-american-latino-history-culture
+  sources:
+  - 1732
+  - 1733
+  - 1734
+  sweep: capacity-C
+- id: ch-cc-nhprc-no-later-cycle
+  date: '2026-08-31'
+  what: The Commission's announcements page, last reviewed August 31, 2026, shows three announcements whose deadlines have
+    passed and no later cycle [694]. The Capacity Building for HBCU Archives notice of 2024 is not on it [694] [1736].
+  status: final
+  affects:
+  - nhprc-state-board-programming-grants
+  - nhprc-capacity-building-hbcu-archives
+  sources:
+  - 694
+  - 1736
+  sweep: capacity-C
+- id: ch-cc-ovw-tta-not-accepting-fy2026
+  date: '2026-10-04'
+  what: The Office on Violence Against Women's FY 2026 list marks the Training and Technical Assistance Initiative, the
+    Campus Program and the Underserved Program, among others, as not currently accepting applications [1263].
+  status: announced
+  affects:
+  - doj-ovw-training-and-technical-assistance-initiative
+  sources:
+  - 1263
+  sweep: capacity-C
+- id: ch-cc-fema-bric-ended-and-resumed
+  date: '2026-03-25'
+  what: 'FEMA announced on April 4, 2025 that it was ending BRIC and cancelling all applications from fiscal years 2020
+    to 2023; twenty states sued in July 2025, and in December 2025 a U.S. District Court ordered FEMA to reverse the termination
+    [1750]. FEMA announced resumption on March 18, 2026 and issued a combined FY 2024 and FY 2025 notice on March 25, 2026
+    [1750]. The court''s own orders give the dates: a preliminary injunction on August 5, 2025 and summary judgment for
+    the States with a permanent injunction on December 11, 2025, in State of Washington v. FEMA, No. 25-12006-RGS (D. Mass.)
+    [1777] [1778]. The combined notice closed July 23, 2026 [1776].'
+  status: in-litigation
+  affects:
+  - fema-bric
+  sources:
+  - 1750
+  - 1777
+  - 1778
+  - 1776
+  sweep: capacity-C
+- id: ch-cc-doe-award-terminations
+  date: '2025-10-01'
+  what: The Department of Energy announced on October 1, 2025 the termination of 321 financial awards supporting 223 projects,
+    worth $7.56 billion, from six offices; the Office of State and Community Energy Programs is not among those named [308].
+    A trade press report says a U.S. District Court for the District of Columbia ruling of June 2026 vacated the cancellation
+    of 11 grants worth $82.1 million [1749].
+  status: in-litigation
+  affects:
+  - doe-renew-americas-nonprofits
+  sources:
+  - 308
+  - 1749
+  sweep: capacity-C
+- id: ch-cc-epa-ggrf-terminated-and-repealed
+  date: '2025-07-04'
+  what: EPA terminated $20 billion in National Clean Investment Fund and Clean Communities Investment Accelerator grants
+    on March 11, 2025; the law signed July 4, 2025 repealed section 134 of the Clean Air Act and rescinded the Greenhouse
+    Gas Reduction Fund's money; EPA announced on August 7, 2025 that it would no longer implement Solar for All [1751].
+    EPA's page reports that on September 2, 2025 the D.C. Circuit, 2-1, vacated a district court injunction [1751].
+  status: rescinded
+  affects:
+  - epa
+  sources:
+  - 1751
+  sweep: capacity-C
+- id: ch-cd-fy2027-earmark-request-windows-closed
+  date: '2026-05-07'
+  what: Every committee deadline for fiscal year 2027 earmark requests has passed. House deadlines for Community Project
+    Funding requests ran from Friday, March 13, 2026 (Military Construction-VA) to Friday, March 27, 2026 (Labor-HHS-Education
+    and Transportation-HUD) [1668]. Senate deadlines for congressionally directed spending requests ran from April 7, 2026
+    (Agriculture) to May 7, 2026 (Military Construction-VA) [1675]. The date shown is the last Senate deadline [1675].
+  status: final
+  affects:
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - usda-rd-community-facilities-directed-grants
+  - ed-congressionally-funded-community-projects
+  - dol-eta-community-project-funding
+  - samhsa-congressionally-directed-spending-projects
+  - nist-congressionally-identified-projects
+  - nps-hpf-congressionally-directed-projects
+  sources:
+  - 1668
+  - 1675
+  sweep: capacity-D
+- id: ch-cd-house-fy27-thud-edi-projects
+  date: '2026'
+  what: The House committee's summary of its FY27 Transportation-HUD bill reports $2.523 billion in Community Project Funding
+    for 2,262 Economic Development Initiative projects requested by 357 Members, and $42 million for Section 4 within $60
+    million for the Self-Help and Assisted Homeownership Opportunities Program [1785]. The summary is undated [1785].
+  status: proposed
+  affects:
+  - hud-edi-community-project-funding
+  - hud-section-4-capacity-building
+  sources:
+  - 1785
+  sweep: capacity-D
+- id: ch-cd-nist-directed-project-route
+  date: '2026-05-18'
+  what: 'NIST''s pages for named recipients, updated May 1 and May 18, 2026, set out the route for directed projects: NIST
+    contacts the designated recipients after the act is signed, publishes a Grants.gov notice open for 30 days to those
+    recipients only, and anticipates issuing awards by September [1757] [1758].'
+  status: final
+  affects:
+  - nist-congressionally-identified-projects
+  sources:
+  - 1757
+  - 1758
+  sweep: capacity-D
+- id: ch-cd-fema-bric-court-orders
+  date: '2025-12-11'
+  what: In State of Washington v. FEMA, No. 25-12006-RGS (D. Mass.), the court on August 5, 2025 preliminarily enjoined
+    the Government from spending funds allocated to BRIC for non-BRIC purposes, and on December 11, 2025 allowed the States'
+    motion for summary judgment, denied the Government's and granted a permanent injunction [1777] [1778].
+  status: final
+  affects:
+  - fema-bric
+  sources:
+  - 1777
+  - 1778
+  sweep: capacity-D
+- id: ch-cd-fema-bric-fy24-25-round-closed
+  date: '2026-07-23'
+  what: FEMA's combined fiscal year 2024 and 2025 BRIC notice, DHS-25-MT-047-00-98, made $1,000,000,000 available, opened
+    March 25, 2026 and closed July 23, 2026 at 3:00 p.m. Eastern Time [1776]. Grants.gov shows it archived on August 22,
+    2026 [1775].
+  status: final
+  affects:
+  - fema-bric
+  sources:
+  - 1776
+  - 1775
+  sweep: capacity-D
+- id: ch-cd-ed-programme-pages-read-2026-10
+  date: '2026-10-04'
+  what: Read on 2026-10-04, the Department of Education's PPOHA page shows Closed and FY 2024 data only (last updated August
+    13, 2026), its HSI STEM and Articulation page shows a FY 2021-FY 2025 cohort and nothing for FY 2026, and its MSEIP
+    page shows funding through FY 2024 [1766] [1767] [1770]. The Federal Register lists no notice inviting applications
+    for these programmes or the Predominantly Black Institutions programmes between September 1, 2025 and October 4, 2026
+    [1768] [1769]. The date shown is the date the pages were read [1766].
+  status: final
+  affects:
+  - ed-title-v-ppoha
+  - ed-hsi-stem-articulation
+  - ed-mseip
+  - ed-predominantly-black-institutions
+  - ed-title-iii-part-f-mandatory
+  sources:
+  - 1766
+  - 1767
+  - 1770
+  - 1768
+  - 1769
+  sweep: capacity-D
+- id: ch-cd-fy2026-enacted-totals-found
+  date: '2026-01-15'
+  what: The Senate committee's release of January 15, 2026 gives $8.75 billion for NSF and $1.85 billion for NIST in the
+    fiscal year 2026 Commerce-Justice-Science bill as approved by Congress; it gives no figure for EPSCoR [173]. The Department
+    of Education's FY 2027 justification shows 2026 totals for the Higher Education account of $3,265,598 thousand discretionary
+    and $240,465 thousand mandatory, and no 2026 figure by programme [1405].
+  status: enacted
+  affects:
+  - nsf-oia
+  - ed-title-iii-a-strengthening-institutions
+  - ed-title-iii-b-strengthening-hbcus
+  sources:
+  - 173
+  - 1405
+  sweep: capacity-D
+- id: ch-cd-doe-sc-fair-renew-no-notice-since-2024
+  date: '2024-07-23'
+  what: The last FAIR and RENEW notices of the Office of Science, DE-FOA-0003207 and DE-FOA-0003280, both closed July 23,
+    2024; Grants.gov shows none since, and the Office's list of open notices on 2026-10-04 has none [1779] [1780] [282].
+  status: final
+  affects:
+  - doe-sc-fair
+  - doe-sc-renew
+  sources:
+  - 1779
+  - 1780
+  - 282
+  sweep: capacity-D
+- id: ch-cd-neh-humanities-initiatives-no-2026-notice
+  date: '2025-05-06'
+  what: The last Humanities Initiatives notice closed May 6, 2025; after six yearly notices, Grants.gov shows none for 2026
+    [1786]. The last Infrastructure and Capacity Building Challenge Grants notice in the listing closed May 17, 2023 [1781].
+  status: final
+  affects:
+  - neh-humanities-initiatives
+  - neh-infrastructure-and-capacity-building-challenge-grants
+  sources:
+  - 1786
+  - 1781
+  sweep: capacity-D
+- id: ch-cd-sba-prime-fy2026-notice
+  date: '2026-07-15'
+  what: The Small Business Administration posted a PRIME notice for FY 2026 on July 15, 2026, closing August 12, 2026; the
+    previous notices on Grants.gov date from 2019 [1797].
+  status: final
+  affects:
+  - sba-prime
+  sources:
+  - 1797
+  sweep: capacity-D

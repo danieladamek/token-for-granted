@@ -1177,3 +1177,676 @@
   sources:
   - 1432
   sweep: service-C
+- id: nih-idea-eligible-state
+  name: NIH IDeA-eligible state
+  applies_to: institution
+  what: 'An institution is IDeA-eligible by its location: it must be in one of the states NIH lists as IDeA-eligible [1546].
+    The IDeA programme was authorised by Congress in 1993 to build biomedical research capacity in states with historically
+    low NIH grant funding success rates [1545].'
+  who_qualifies: Institutions in Alaska, Arkansas, Delaware, Hawaii, Idaho, Kansas, Kentucky, Louisiana, Maine, Mississippi,
+    Montana, Nebraska, Nevada, New Hampshire, New Mexico, North Dakota, Oklahoma, Rhode Island, South Carolina, South Dakota,
+    Vermont, West Virginia, Wyoming and Puerto Rico, as listed on the NIGMS page last updated December 10, 2025 [1543] and
+    in the notices posted in June and August 2026 [1546] [1545]. The list is 23 states and Puerto Rico [1584]. Alabama,
+    for example, is not on it [1543].
+  how_decided: NIH publishes the list; the pages and notices fetched do not state the rule or threshold by which a state
+    enters or leaves it [1543] [1545].
+  opens:
+  - nih-idea-cobre-d
+  - nih-idea-cobre-e-s
+  - nih-idea-inbre
+  - nih-idea-ctr
+  official_url: https://www.nigms.nih.gov/Research/DRCB/IDeA/Pages/default.aspx
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1543
+  - 1545
+  - 1546
+  - 1584
+  sweep: capacity-A
+- id: dod-depscor-eligible-state
+  name: DEPSCoR-eligible state or territory
+  applies_to: institution
+  what: An institution of higher education may apply to DEPSCoR only if it is in a state or territory on the list in the
+    year's notice [1565]. The DEPSCoR list has 36 entries [1565]; the NSF EPSCoR list has 28 [1517].
+  who_qualifies: 'For the FY26 notices posted August 10, 2026: Alabama, Alaska, Arkansas, Connecticut, Delaware, District
+    of Columbia, Guam, Hawaii, Idaho, Iowa, Kansas, Kentucky, Louisiana, Maine, Minnesota, Mississippi, Missouri, Montana,
+    Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, North Dakota, Oklahoma, Oregon, Puerto Rico, Rhode Island,
+    South Carolina, South Dakota, Tennessee, U.S. Virgin Islands, Vermont, West Virginia, Wisconsin and Wyoming [1565] [1566].
+    Alabama, for example, is on this list [1565].'
+  how_decided: The list is published in each year's notice; the listings fetched do not state the rule that produces it
+    [1565].
+  opens:
+  - dod-depscor-capacity-building
+  - dod-depscor-research-collaboration
+  official_url: https://simpler.grants.gov/opportunity/86ea6263-7d76-4576-961b-68f7388bf810
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1565
+  - 1566
+  - 1517
+  sweep: capacity-A
+- id: doe-epscor-jurisdiction
+  name: DOE EPSCoR jurisdiction
+  applies_to: institution
+  what: DOE EPSCoR takes applications only from applicants in designated states and territories, and it currently follows
+    the NSF EPSCoR eligibility criteria [1567].
+  who_qualifies: 'Twenty-five states, Puerto Rico, Guam and the U.S. Virgin Islands: Alabama, Alaska, Arkansas, Delaware,
+    Guam, Hawaii, Idaho, Iowa, Kansas, Kentucky, Louisiana, Maine, Mississippi, Montana, Nebraska, Nevada, New Hampshire,
+    New Mexico, North Dakota, Oklahoma, Puerto Rico, Rhode Island, South Carolina, South Dakota, Vermont, Virgin Islands,
+    West Virginia and Wyoming [1567]. The same 28 are listed in the FY 2026 notice issued February 18, 2026 [1568]. Alabama,
+    for example, is on this list [1567].'
+  how_decided: By reference to the NSF EPSCoR eligibility criteria [1567].
+  opens:
+  - doe-epscor-state-lab-partnerships
+  official_url: https://science.osti.gov/bes/epscor
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1567
+  - 1568
+  sweep: capacity-A
+- id: nasa-epscor-jurisdiction
+  name: NASA EPSCoR jurisdiction
+  applies_to: institution
+  what: NASA EPSCoR is open to institutions in jurisdictions that have not taken part equably in competitive aerospace research;
+    twenty-five states, Puerto Rico, the U.S. Virgin Islands and Guam take part [1570].
+  who_qualifies: 'As listed in the FY 2025 notices (posted October and November 2024): Alabama, Alaska, Arkansas, Delaware,
+    Guam, Hawaii, Idaho, Iowa, Kansas, Kentucky, Louisiana, Maine, Mississippi, Montana, Nebraska, Nevada, New Hampshire,
+    New Mexico, North Dakota, Oklahoma, Puerto Rico, Rhode Island, South Carolina, South Dakota, U.S. Virgin Islands, Vermont,
+    West Virginia and Wyoming [1573] [1574]. Alabama, for example, is on this list [1573].'
+  how_decided: Jurisdiction eligibility is determined by NSF; the FY 2025 notice used the 2023 NSF eligibility table [1574].
+  opens:
+  - nasa-epscor-research
+  - nasa-epscor-r3
+  - nasa-epscor-rid
+  official_url: https://www.nasa.gov/learning-resources/established-program-to-stimulate-competitive-research/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1570
+  - 1573
+  - 1574
+  sweep: capacity-A
+- id: usda-epscor-state
+  name: USDA EPSCoR state (AFRI FASE)
+  applies_to: institution
+  what: State Agricultural Experiment Stations and degree-granting institutions in a USDA EPSCoR state are eligible for
+    AFRI Strengthening Grants [1576]. The list is labelled by fiscal year and is not the NSF list [1576] [1517].
+  who_qualifies: 'For FY 2026, 19 states: Alaska, Connecticut, Delaware, Hawaii, Idaho, Kentucky, Maine, Montana, Nevada,
+    New Jersey, New Mexico, North Dakota, Rhode Island, South Carolina, South Dakota, Utah, Vermont, West Virginia and Wyoming;
+    also the District of Columbia, American Samoa, Guam, Micronesia, Northern Marianas, Puerto Rico and the U.S. Virgin
+    Islands (page last updated March 13, 2026) [1576]. Alabama, for example, is not on the FY 2026 list [1576].'
+  how_decided: A state qualifies when its funding is no higher than the 38th percentile of all states on a three-year rolling
+    average of AFRI funding levels [1576].
+  opens:
+  - nifa-afri-fase-strengthening-grants
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative-afri/afri-fase-epscor-program
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1576
+  - 1517
+  sweep: capacity-A
+- id: nih-sure-eligible-institution
+  name: NIH SuRE-eligible institution
+  applies_to: institution
+  what: The class of higher education institution that may apply for SuRE and SuRE-First (R16) awards, defined by a ceiling
+    on NIH research project grant funding and a floor on the share of students with Pell grants [1555].
+  who_qualifies: A higher education institution that awards undergraduate (B.S. or B.A.) or graduate degrees in biomedical
+    sciences, received no more than $6 million per year (total costs) from NIH Research Project Grants in each of the preceding
+    two fiscal years, and enrols at least 25% of undergraduate students supported by Pell grants, on the most recent two
+    years [1555] [1556].
+  how_decided: By the conditions in the notice; the fetch did not return how the institution documents them [1555].
+  opens:
+  - nih-sure-r16
+  - nih-sure-first-r16
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PAR-25-414.html
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1555
+  - 1556
+  sweep: capacity-A
+- id: ed-title-iii-v-eligible-institution
+  name: Eligible institution under section 312 of the Higher Education Act (Title III and Title V eligibility designation)
+  what: An "eligible institution" is a college that enrols a high share of needy students and has low core expenses per
+    student compared with institutions of its type [1596]. The Department of Education makes the designation each year;
+    a designated institution may apply for the grant programmes that require it and may receive a one-year waiver of certain
+    non-Federal cost-sharing requirements [1595].
+  who_qualifies: 'At least 50 percent of degree-seeking students received Pell, FSEOG or Federal Work-Study aid, or the
+    institution''s Pell percentage exceeds the median for comparable institutions; and Core Expenses per FTE are below the
+    average for the institution type [1596]. For FY 2026 (base year 2023-2024) the thresholds are: 2-year public 44% and
+    $19,004; 2-year non-profit private 48% and $17,453; 4-year public 37% and $39,350; 4-year non-profit private 36% and
+    $50,027 [1596].'
+  how_decided: The Department pre-determines eligibility from IPEDS data in the Eligibility Matrix; an institution checks
+    its status in the Grant Eligibility Application system at HEPIS.ed.gov and, if not shown as eligible, applies for reconsideration
+    or a waiver within the yearly window [1596]. The FY 2026 window ran from March 24 to April 23, 2026 [1596]. The FY 2025
+    Eligibility Matrix, with programme lists for the minority-serving classes, HBCUs and TCCUs, is published as an Excel
+    file on the Department's eligibility page [1595].
+  opens:
+  - ed-title-iii-a-strengthening-institutions
+  - ed-title-v-developing-hsi
+  - ed-title-iii-a-annh
+  - ed-title-iii-a-aanapisi
+  - ed-title-iii-a-nasnti
+  - dod-don-hbcu-mi-program
+  official_url: https://www.ed.gov/grants-and-programs/grants-higher-education/eligibility-designations-higher-education-programs
+  pending_changes:
+  - status: final
+    date: '2026-03-24'
+    text: The FY 2026 notice is titled for programmes under section 312 only, where the FY 2025 notice was titled for Parts
+      A and F of Title III and Title V [1596] [1597].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1596
+  - 1595
+  - 1597
+  sweep: capacity-B
+- id: hbcu
+  name: Historically Black college or university (Part B institution)
+  what: 'A historically Black college or university is an institution established before 1964 whose principal mission was
+    the education of Black Americans, authorised by its state and accredited or preaccredited [1602]. The class is closed:
+    it is fixed by statute and by a list in regulation, not by current enrolment [1649].'
+  who_qualifies: Institutions that satisfy section 322(2) of the Higher Education Act; 34 CFR 608.2 lists them by state
+    (the fetch counted 105) [1649].
+  how_decided: Set by statute and listed in the Department of Education's regulation at 34 CFR 608.2 [1602] [1649]. Executive
+    Order 14283 defines the term by reference to that list, and the Defense and NIH notices read in this sweep use the same
+    statutory definition [1618] [1627] [1656]. The Department's FY 2025 Eligibility Matrix also carries an HBCU list [1595].
+  opens:
+  - ed-title-iii-b-strengthening-hbcus
+  - ed-hbcu-masters
+  - ed-title-iii-part-f-mandatory
+  - ed-fipse-rdi-hbcu-tccu
+  - nsf-hbcu-up
+  - nsf-hbcu-eir
+  - nih-nibib-beita-hbcu
+  - dod-hbcu-tcu-research-education-equipment
+  official_url: https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-608/subpart-A/section-608.2
+  pending_changes:
+  - status: final
+    date: '2025-04-23'
+    text: Executive Order 14283 set up a White House Initiative on HBCUs and directs agencies to file annual plans; it revoked
+      Executive Order 14041 [1618].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1602
+  - 1649
+  - 1618
+  - 1627
+  - 1656
+  - 1595
+  sweep: capacity-B
+- id: ed-historically-black-graduate-institution
+  name: Historically Black Graduate Institution (section 326)
+  what: The 24 institutions and schools named in section 326 of the Higher Education Act, such as Morehouse School of Medicine
+    and Meharry Medical College [1603].
+  who_qualifies: Only the institutions named in the statute; the Department's page lists all 24 [1603].
+  how_decided: Set by statute, 20 U.S.C. 1063b [1603].
+  opens:
+  - ed-title-iii-b-hbgi
+  official_url: https://www.ed.gov/grants-and-programs/grants-higher-education/historically-black-colleges-and-universities-hbcus-and-predominantly-black-institutions-pbis/title-iii-part-b-strengthening
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1603
+  sweep: capacity-B
+- id: hispanic-serving-institution
+  name: Hispanic-serving institution (HSI)
+  what: A Hispanic-serving institution is an eligible institution under Title V whose undergraduate full-time-equivalent
+    enrolment is at least 25 percent Hispanic at the end of the award year before it applies [1647]. The status follows
+    enrolment and is shown when an institution applies; it is not a permanent list [1642].
+  who_qualifies: An institution that meets the eligible-institution tests (needy students, low educational and general expenditures,
+    accreditation) and the 25 percent enrolment test [1647].
+  how_decided: In the Department of Education's last competition the applicant documented the 25 percent at application
+    and the Department checked it against IPEDS and other data, with the burden on the institution to show IPEDS data are
+    inaccurate [1642]. The FY 2025 Eligibility Matrix includes a list of institutions meeting the HSI definition [1595].
+    NSF's archived solicitation required an eligibility letter from the Department of Education, and the agricultural research
+    statute adopts the same definition [1609] [1640].
+  opens:
+  - ed-title-v-developing-hsi
+  - ed-title-v-ppoha
+  - ed-hsi-stem-articulation
+  - nsf-hsi-program
+  - nifa-hsi-education-grants
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2023-title20/html/USCODE-2023-title20-chap28-subchapV-partA-sec1101a.htm
+  pending_changes:
+  - status: announced
+    date: '2025-07-25'
+    text: The Justice Department told Congress it would not defend 20 U.S.C. 1101(c) and the 25 percent definition in 20
+      U.S.C. 1101a(5)(B) in State of Tennessee v. U.S. Department of Education [1606].
+  - status: final
+    date: '2025-12-02'
+    text: The Office of Legal Counsel concluded that the Department of Education's three HSI programmes are unconstitutional
+      and inseverable [1592].
+  - status: in-litigation
+    date: '2026-08-31'
+    text: A law firm summary of September 30, 2026 reports that the court had not ruled on the intervenor's motions and
+      that plaintiffs moved for summary judgment on August 31, 2026 [1650].
+  - status: final
+    date: '2026-03-24'
+    text: The FY 2026 eligibility designation notice covers programmes under section 312 only, and no FY 2026 eligibility
+      process for Title V was found [1596] [1597].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1647
+  - 1642
+  - 1595
+  - 1609
+  - 1640
+  - 1606
+  - 1592
+  - 1650
+  - 1596
+  - 1597
+  sweep: capacity-B
+- id: tribal-college-or-university
+  name: Tribal college or university (TCU / TCCU)
+  what: A tribal college or university is an institution that qualifies under the Tribally Controlled College or University
+    Assistance Act of 1978 or the Navajo Community College Assistance Act of 1978, or is named in section 532 of the Equity
+    in Educational Land-Grant Status Act of 1994 [1617].
+  who_qualifies: Institutions meeting one of those statutory tests; section 532 names 36 colleges in the 2023 edition of
+    the United States Code [1617] [1641].
+  how_decided: Set by statute; for the Department of Education programme a new applicant needs an eligibility determination
+    from the Bureau of Indian Education, and existing grantees no longer apply for eligibility [1617]. NSF uses the section
+    532 list and the 1978 Act for its Tribal Colleges and Universities Program [1613].
+  opens:
+  - ed-title-iii-a-tccu
+  - ed-title-iii-part-f-mandatory
+  - ed-fipse-rdi-hbcu-tccu
+  - nsf-tcup
+  - dod-hbcu-tcu-research-education-equipment
+  official_url: https://www.ed.gov/grants-and-programs/grants-special-populations/grants-native-americans-alaskan-natives-and-pacific-islanders/title-iii-part-programs-american-indian-tribally-controlled
+  pending_changes:
+  - status: final
+    date: '2025-01-20'
+    text: Executive Order 14148 revoked Executive Order 14049 of October 11, 2021, which had set up a White House initiative
+      that included strengthening tribal colleges and universities [1619].
+  - status: final
+    date: '2026-08-12'
+    text: The Office of Legal Counsel concluded that NSF awards to tribal colleges fall within the Morton v. Mancari exception
+      and are constitutional [876].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1617
+  - 1641
+  - 1613
+  - 1619
+  - 876
+  sweep: capacity-B
+- id: alaska-native-native-hawaiian-serving-institution
+  name: Alaska Native-serving or Native Hawaiian-serving institution (ANNH)
+  what: An Alaska Native-serving institution is an eligible institution whose undergraduate enrolment is at least 20 percent
+    Alaska Native at the time of application; a Native Hawaiian-serving institution is one with at least 10 percent Native
+    Hawaiian undergraduates [1646].
+  who_qualifies: Eligible institutions under 20 U.S.C. 1058(b) that meet the enrolment share [1646].
+  how_decided: By enrolment at the time of application, documented in the Department of Education's last notice by an assurance
+    form signed by an official of the applicant [1646]. NSF applies the same percentages for its Tribal Colleges and Universities
+    Program [1613].
+  opens:
+  - ed-title-iii-a-annh
+  - nsf-tcup
+  official_url: https://www.federalregister.gov/documents/2025/07/14/2025-13153/applications-for-new-awards-alaska-native-and-native-hawaiian-serving-institutions-program-part-a
+  pending_changes:
+  - status: final
+    date: '2025-12-02'
+    text: The Office of Legal Counsel concluded that the Department of Education programme for this class is unconstitutional
+      and inseverable [1592].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1646
+  - 1613
+  - 1592
+  sweep: capacity-B
+- id: aanapisi
+  name: Asian American and Native American Pacific Islander-serving institution (AANAPISI)
+  what: An AANAPISI is an eligible institution whose enrolment is at least 10 percent Asian American or Native American
+    Pacific Islander [1644].
+  who_qualifies: Eligible institutions that meet the 10 percent enrolment share [1644].
+  how_decided: By enrolment, certified by the applicant at application in the Department of Education's last notice [1644].
+  opens:
+  - ed-title-iii-a-aanapisi
+  official_url: https://www.federalregister.gov/documents/2025/07/14/2025-13154/applications-for-new-awards-asian-american-and-native-american-pacific-islander-serving-institutions
+  pending_changes:
+  - status: final
+    date: '2025-12-02'
+    text: The Office of Legal Counsel concluded that the Department of Education programme for this class is unconstitutional
+      and inseverable [1592].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1644
+  - 1592
+  sweep: capacity-B
+- id: native-american-serving-nontribal-institution
+  name: Native American-serving nontribal institution (NASNTI)
+  what: A Native American-serving nontribal institution is an eligible institution, not a tribal college, whose enrolment
+    is not less than 10 percent Native American [1645].
+  who_qualifies: Eligible institutions that meet the 10 percent share and are not tribal colleges [1645].
+  how_decided: By enrolment, certified by the applicant at application in the Department of Education's last notice [1645].
+  opens:
+  - ed-title-iii-a-nasnti
+  official_url: https://www.federalregister.gov/documents/2025/07/14/2025-13151/applications-for-new-awards-native-american-serving-nontribal-institutions-program
+  pending_changes:
+  - status: final
+    date: '2025-12-02'
+    text: The Office of Legal Counsel concluded that the Department of Education programme for this class is unconstitutional
+      and inseverable [1592].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1645
+  - 1592
+  sweep: capacity-B
+- id: predominantly-black-institution
+  name: Predominantly Black Institution (PBI)
+  what: A Predominantly Black Institution is an eligible institution with at least 1,000 undergraduates, at least 40 percent
+    Black American students, and at least half of its undergraduates low-income or first-generation and enrolled in bachelor's
+    or associate's degree programmes [1648].
+  who_qualifies: Institutions meeting the tests in 20 U.S.C. 1059e [1648].
+  how_decided: By the statutory tests, on application to the Secretary of Education [1648]. The FY 2025 Eligibility Matrix
+    includes a PBI list [1595].
+  opens:
+  - ed-predominantly-black-institutions
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2023-title20/html/USCODE-2023-title20-chap28-subchapIII-partA-sec1059e.htm
+  pending_changes:
+  - status: final
+    date: '2025-12-02'
+    text: The Office of Legal Counsel concluded that the PBI formula programme is unconstitutional and inseverable [1592].
+  applies_to: institution
+  as_of: '2026-10-04'
+  sources:
+  - 1648
+  - 1595
+  - 1592
+  sweep: capacity-B
+- id: land-grant-1862-institution
+  name: 1862 land-grant institution
+  what: The 1862 land-grant institutions are the public universities eligible for funds under the Act of July 2, 1862 (the
+    First Morrill Act) [1640] [1636].
+  who_qualifies: Institutions eligible to receive funds under the 1862 Act [1640].
+  how_decided: Set by statute; NIFA publishes a directory of land-grant colleges and universities [1640] [1636].
+  opens: []
+  official_url: https://www.nifa.usda.gov/about-nifa/how-we-work/partnerships/land-grant-colleges-universities
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1640
+  - 1636
+  sweep: capacity-B
+- id: land-grant-1890-institution
+  name: 1890 land-grant institution
+  what: The 1890 land-grant institutions are historically Black universities established under the Second Morrill Act of
+    1890, together with Tuskegee University [1637] [1640].
+  who_qualifies: NIFA lists 19 universities, including Central State University and West Virginia State University [1637].
+  how_decided: Set by statute; NIFA publishes the list [1640] [1637].
+  opens:
+  - nifa-1890-capacity-building-grants
+  - nifa-evans-allen-1890-research
+  - nifa-1890-facilities-grants
+  - nifa-1890-centers-of-excellence
+  official_url: https://www.nifa.usda.gov/grants/programs/1890-land-grant-institutions-programs
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1637
+  - 1640
+  sweep: capacity-B
+- id: land-grant-1994-institution
+  name: 1994 land-grant institution (tribal college)
+  what: The 1994 Institutions are the tribal colleges named in section 532 of the Equity in Educational Land-Grant Status
+    Act of 1994, which the Act treats as land-grant colleges [1641].
+  who_qualifies: The colleges named in section 532; the 2023 edition of the Code lists 36 [1641].
+  how_decided: Set by statute; a college is added by amendment of section 532 [1641].
+  opens:
+  - nifa-tribal-colleges-education-equity
+  - nifa-tribal-colleges-research-grants
+  - nifa-tribal-college-endowment
+  - nsf-tcup
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2023-title7/html/USCODE-2023-title7-chap13-subchapI-sec301.htm
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1641
+  sweep: capacity-B
+- id: nifa-certified-nlgca
+  name: Non-land-grant college of agriculture (NLGCA), certified by NIFA
+  what: A non-land-grant college of agriculture is a public institution, outside the land-grant system, that offers a bachelor's
+    or higher degree in agriculture, forestry or a related field [1640].
+  who_qualifies: Institutions certified as NLGCAs by NIFA [1659].
+  how_decided: NIFA certifies institutions and posts the certified list on its site [1659].
+  opens:
+  - nifa-nlgca-capacity-building
+  official_url: https://www.nifa.usda.gov/grants/funding-opportunities/capacity-building-grants-non-land-grant-colleges-agriculture-program
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1640
+  - 1659
+  sweep: capacity-B
+- id: community-college-two-year-institution
+  name: Community college or two-year institution, as programmes define it
+  what: There is no single federal designation of a community college; each programme states its own test [1621] [1615].
+  who_qualifies: The Labor Department's Strengthening Community Colleges grants require a lead applicant that is an institution
+    under section 101(a) of the Higher Education Act at which the associate degree is primarily the highest degree awarded
+    [1621]. NSF's Advanced Technological Education programme names accredited two- and four-year institutions, including
+    community colleges, and centres on two-year institutions [1615] [1614]. The Department of Education's eligibility thresholds
+    are set separately for two-year public and two-year non-profit private institutions [1596].
+  how_decided: By each notice's own definition; no list is published [1621] [1615].
+  opens:
+  - dol-eta-strengthening-community-colleges
+  - nsf-ate
+  official_url: https://www.dol.gov/agencies/eta/grants/apply/find-opportunities
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1621
+  - 1615
+  - 1614
+  - 1596
+  sweep: capacity-B
+- id: dod-covered-educational-institution
+  name: Covered educational institution (Department of Defense HBCU/MI programme)
+  what: The Defense programme for historically Black colleges and universities and minority-serving institutions supports
+    "covered educational institutions" under 10 U.S.C. 4144 [1625].
+  who_qualifies: 'The Navy''s FY 2027 notice defines them as institutions eligible under Title III or V of the Higher Education
+    Act, or accredited postsecondary minority institutions [1628]. The 2026 equipment notice is narrower: Part B institutions
+    and tribal colleges only [1627].'
+  how_decided: By statute and by each notice [1625] [1628].
+  opens:
+  - dod-don-hbcu-mi-program
+  - dod-hbcu-tcu-research-education-equipment
+  official_url: https://basicresearch.defense.gov/Programs/HBCU-MI-Program/
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1625
+  - 1628
+  - 1627
+  sweep: capacity-B
+- id: nih-rcmi-eligible-institution
+  name: RCMI-eligible institution
+  what: For Research Centers in Minority Institutions, NIH set an institutional test that combines degrees awarded, mission
+    and a ceiling on NIH funding [1622].
+  who_qualifies: 'Under RFA-MD-24-012: a domestic higher education institution that awards doctorates in the health professions
+    or health-related sciences, has a documented historical mission or commitment to educating underrepresented students,
+    and received less than $50 million a year of NIH support, or less than $25 million a year of R01 total costs, over the
+    past three fiscal years [1622].'
+  how_decided: Stated in the notice and documented by the applicant; the notice has expired [1622].
+  opens:
+  - nih-rcmi-u54
+  official_url: https://grants.nih.gov/grants/guide/rfa-files/RFA-MD-24-012.html
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1622
+  sweep: capacity-B
+- id: nasa-msi-list
+  name: NASA MSI List
+  what: NASA checks eligibility for its Minority University Research and Education Project against the NASA MSI List on
+    the MSI Exchange site [1629].
+  who_qualifies: Institutions on the list [1629].
+  how_decided: The list is drawn from Department of Education Office of Postsecondary Education data, updated yearly with
+    data from two years before [1629].
+  opens:
+  - nasa-murep
+  official_url: https://msiexchange.nasa.gov/msilist
+  applies_to: institution
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1629
+  sweep: capacity-B
+- id: earmark-named-recipient
+  name: Recipient named by Congress for a Community Project Funding or Congressionally Directed Spending project
+  applies_to: institution
+  sweep: capacity-C
+  what: An organisation has this standing when an enacted appropriations act's joint explanatory statement names it as the
+    recipient of a specific project and amount [1686]. The agency then funds only the named entity, for the named purpose
+    [1687] [1690].
+  who_qualifies: 'State, local and tribal governments and certain eligible non-profits may be named; for-profit entities
+    may not [1667] [1675]. Which non-profits may be named differs by account and by chamber: in FY27 the House names only
+    colleges among non-profits in its science accounts, only certain rural and safety-net health providers at HRSA, and
+    no non-profits other than fire stations in Community Facilities [1671] [1670] [1672].'
+  how_decided: By Congress, on a request from a Member or Senator who certifies no financial interest and posts the request
+    online; the standing lasts for that act's project only [1667] [1675].
+  opens:
+  - hud-edi-community-project-funding
+  - hrsa-cpf-cds-projects
+  - usda-rd-community-facilities-directed-grants
+  - ed-congressionally-funded-community-projects
+  - dol-eta-community-project-funding
+  - samhsa-congressionally-directed-spending-projects
+  - nist-congressionally-identified-projects
+  - nps-hpf-congressionally-directed-projects
+  official_url: https://appropriations.house.gov/fy27-information/fy27-community-project-funding
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1686
+  - 1687
+  - 1690
+  - 1667
+  - 1675
+  - 1671
+  - 1670
+  - 1672
+- id: hud-section-4-named-organization
+  name: Organisation named in Section 4 of the HUD Demonstration Act of 1993
+  applies_to: nonprofit
+  sweep: capacity-C
+  what: Section 4 capacity-building money may go only to the non-profits identified in Section 4 of the HUD Demonstration
+    Act of 1993 [1712].
+  who_qualifies: Enterprise Community Partners, Inc., Local Initiatives Support Corporation and Habitat for Humanity International;
+    their affiliates, local offices and community partners do not qualify [1712] [1713].
+  how_decided: Set by statute [1712].
+  opens:
+  - hud-section-4-capacity-building
+  official_url: https://simpler.grants.gov/opportunity/ef1e04c3-9d68-465b-b0a1-1873ebb1e546
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1712
+  - 1713
+- id: emerging-cdfi
+  name: Emerging CDFI (and NACA Sponsoring Entity)
+  applies_to: nonprofit
+  sweep: capacity-C
+  what: An Emerging CDFI is an organisation not yet certified that shows the CDFI Fund, in its application, an acceptable
+    plan to meet the certification requirements by the end of its period of performance [1434]. In the NACA Program a Sponsoring
+    Entity is an organisation primarily serving Native communities that proposes to create a separate Certified CDFI [1717].
+  who_qualifies: A non-certified entity with such a plan; under the FY 2025 notice an Emerging CDFI that wins a Technical
+    Assistance award must be certified by the date in its Assistance Agreement [1434]. A Sponsoring Entity proposes to create
+    the CDFI within four years [1717].
+  how_decided: By the CDFI Fund, from the application [1434].
+  opens:
+  - cdfi-fund-technical-assistance-awards
+  - cdfi-fund-naca-program
+  official_url: https://www.cdfifund.gov/programs-training/programs/cdfi-program
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1434
+  - 1717
+- id: nps-national-significance
+  name: Nationally significant property or collection (Save America's Treasures)
+  applies_to: institution
+  sweep: capacity-C
+  what: Save America's Treasures preservation grants are for properties listed in the National Register of Historic Places
+    for national significance or designated a National Historic Landmark; collections grants are for nationally significant
+    collections [1695] [1696].
+  who_qualifies: The owner or steward of such a property or collection that has not had a Save America's Treasures grant
+    before [1695].
+  how_decided: By the property's National Register listing or National Historic Landmark designation, and for a collection
+    by the reviewers' score on the national significance criterion, worth 25 of 100 points [1695] [1705].
+  opens:
+  - nps-save-americas-treasures
+  official_url: https://www.nps.gov/subjects/historicpreservationfund/save-americas-treasures-grants.htm
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1695
+  - 1696
+  - 1705
+- id: nps-accredited-hbcu
+  name: Accredited HBCU with a National Register-eligible building
+  applies_to: institution
+  sweep: capacity-C
+  what: Only accredited Historically Black Colleges and Universities may apply for the National Park Service's HBCU preservation
+    grants [1699].
+  who_qualifies: An accredited HBCU whose building is listed in or eligible for the National Register of Historic Places,
+    individually or as contributing to a historic district, or is a National Historic Landmark [1699] [1698].
+  how_decided: By the institution's accreditation and the property's National Register status, as the notice states [1699].
+  opens:
+  - nps-hbcu-preservation-grants
+  official_url: https://www.nps.gov/subjects/historicpreservationfund/historically-black-colleges-and-universities.htm
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1699
+  - 1698
+- id: nhprc-state-historical-records-advisory-board
+  name: State Historical Records Advisory Board (SHRAB)
+  applies_to: institution
+  sweep: capacity-C
+  what: A State Historical Records Advisory Board is the body, authorised by a state, a territory or the District of Columbia,
+    that may apply for the Commission's State Board Programming Grants [700].
+  who_qualifies: Boards authorised by any of the U.S. states or territories and the District of Columbia [700].
+  how_decided: By the state's or territory's authorisation of the board [700].
+  opens:
+  - nhprc-state-board-programming-grants
+  official_url: https://www.archives.gov/nhprc/announcement/state.html
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 700
+- id: hrsa-health-center-program-awardee
+  name: Existing Health Center Program awardee (for capital funding)
+  applies_to: nonprofit
+  sweep: capacity-C
+  what: HRSA's 2021 capital notice was open only to existing health centres receiving Health Center Program operational
+    support under sections 330(e), (g), (h) or (i) at the time of application and award [1738].
+  who_qualifies: A health centre already funded under those sections; the pack's records `hrsa-health-center-service-area-competition`
+    and `hrsa-health-center-new-access-points` are the routes to that funding [1738].
+  how_decided: By holding a Health Center Program award [1738].
+  opens:
+  - hrsa-health-center-capital-development
+  official_url: https://bphc.hrsa.gov/funding/funding-opportunities/capital-development-grants
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1738

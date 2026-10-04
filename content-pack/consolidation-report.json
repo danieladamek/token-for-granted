@@ -14,31 +14,34 @@
   "service-A",
   "service-B",
   "service-C",
-  "service-D"
+  "service-D",
+  "capacity-A",
+  "capacity-B",
+  "capacity-C",
+  "capacity-D"
  ],
- "references": 1512,
+ "references": 1798,
  "references_by_kind": {
-  "primary": 1443,
-  "secondary": 69
+  "primary": 1724,
+  "secondary": 74
  },
  "references_by_tier": {
-  "current": 1225,
-  "seminal": 111,
-  "background": 104,
-  "classic": 72
+  "current": 1464,
+  "seminal": 126,
+  "background": 119,
+  "classic": 89
  },
  "references_by_read": {
-  "partial": 1227,
-  "full": 282,
+  "partial": 1492,
+  "full": 303,
   "not-fetched": 3
  },
- "references_cited": 1490,
+ "references_cited": 1777,
  "references_uncited": [
   511,
   522,
   532,
   575,
-  700,
   705,
   707,
   710,
@@ -187,23 +190,69 @@
   "https://www.justice.gov/ovw/funding-opportunities",
   "https://www.cdc.gov/overdose-prevention/php/drug-free-communities/index.html",
   "https://www.cms.gov/marketplace/in-person-assisters/programs-procedures/in-person-assistance",
-  "https://www.samhsa.gov/grants/about/review-process"
+  "https://www.samhsa.gov/grants/about/review-process",
+  "https://www.nsf.gov/funding/initiatives/epscor",
+  "https://nsf-gov-resources.nsf.gov/files/FY-2027-NSF-Budget-Request-to-Congress.pdf",
+  "https://www.nsf.gov/funding/opportunities/art-accelerating-research-translation",
+  "https://grants.nih.gov/funding/activity-codes",
+  "https://www.onr.navy.mil/work-with-us/funding-opportunities/announcements",
+  "https://www.nsf.gov/about/budget",
+  "https://www.nsf.gov/updates-on-priorities",
+  "https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-foundational-applied-science",
+  "https://www.nifa.usda.gov/sites/default/files/2026-08/FY26-AFRI-FAS-NOFO-P-MOD6.pdf",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-029.html",
+  "https://www.justice.gov/olc/media/1457731/dl",
+  "https://www.dol.gov/agencies/eta/grants/apply/find-opportunities",
+  "https://www.ed.gov/media/document/fy-2027-congressional-justification-higher-education-113541.pdf",
+  "https://www.ed.gov/media/document/fy-2027-budget-summary-113552.pdf",
+  "https://www.nsf.gov/funding/opportunities/lsamp-louis-stokes-alliances-minority-participation",
+  "https://www.nsf.gov/funding/opportunities/agep-alliances-graduate-education-professoriate",
+  "https://www.nsf.gov/edu/programs",
+  "https://nsf-gov-resources.nsf.gov/files/FY-2027-NSF-Budget-Request-to-Congress.pdf",
+  "https://www.ed.gov/about/news/press-release/us-department-of-education-announces-six-new-agency-partnerships-break-federal-bureaucracy",
+  "https://www.nifa.usda.gov/grants/programs/capacity-grants",
+  "https://www.appropriations.senate.gov/imo/media/doc/fy26_lhhs_conference_bill_summary.pdf",
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-labor-hhs-education-appropriations-bill",
+  "https://www.nsf.gov/updates-on-priorities",
+  "https://www.nasa.gov/wp-content/uploads/2026/04/fiscal-year-2027-budget-request-summary.pdf",
+  "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-6500-signed-into-law/",
+  "https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program",
+  "https://www.cdfifund.gov/programs-training/programs/cdfi-program",
+  "https://www.federalregister.gov/documents/2025/01/17/2025-01322/notice-of-funds-availability",
+  "https://www.federalregister.gov/documents/2026/03/10/2026-04682/amendment-of-notice-of-funds-availability-for-community-development-financial-institutions-program",
+  "https://www.imls.gov/find-funding/funding-opportunities/grant-programs",
+  "https://www.archives.gov/nhprc/announcement",
+  "https://www.archives.gov/nhprc/announcement/state.html",
+  "https://bphc.hrsa.gov/funding/funding-opportunities",
+  "https://www.justice.gov/ovw/funding-opportunities",
+  "https://www.energy.gov/articles/energy-department-announces-termination-223-projects-saving-over-75-billion",
+  "https://appropriations.house.gov/fy27-information/fy27-member-requests-guidance",
+  "https://www.appropriations.senate.gov/imo/media/doc/fy_2027_full_committee_general_guidance.pdf",
+  "https://www.nist.gov/cds",
+  "https://www.ed.gov/grants-and-programs/grants-higher-education/improvement-postsecondary-education/higher-education-congressionally-funded-community-projects-program",
+  "https://www.appropriations.senate.gov/fy27-appropriations-requests-and-congressionally-directed-spending",
+  "https://www.appropriations.senate.gov/fy-2026-congressionally-directed-spending",
+  "https://www.nsf.gov/funding/opportunities/mid-scale-ri-1-mid-scale-research-infrastructure-1",
+  "https://www.ed.gov/media/document/fy-2027-congressional-justification-higher-education-113541.pdf",
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-commerce-justice-and-science-appropriations-bill",
+  "https://science.osti.gov/grants/FOAs/Open",
+  "https://americorps.gov/partner/funding-opportunities"
  ],
  "records": {
-  "programs": 401,
-  "funders": 85,
-  "standing": 55,
-  "gates": 54,
-  "help": 69,
-  "mechanics": 158,
-  "changes": 326,
-  "todo": 425
+  "programs": 524,
+  "funders": 94,
+  "standing": 85,
+  "gates": 58,
+  "help": 85,
+  "mechanics": 181,
+  "changes": 411,
+  "todo": 513
  },
  "todo_by_kind": {
-  "conflict": 68,
-  "recheck": 100,
-  "unverified": 80,
-  "gap": 177
+  "conflict": 86,
+  "recheck": 117,
+  "unverified": 89,
+  "gap": 221
  },
  "merged_records": [
   "gates/sam-registration <- research-B",
@@ -226,7 +275,8 @@
   "gates/grants-gov-registration <- research-F",
   "help/grants-gov-support <- research-F",
   "funders/smithsonian <- people-D",
-  "mechanics/pass-through-subaward <- service-C"
+  "mechanics/pass-through-subaward <- service-C",
+  "programs/nih-rcmi-u54 <- capacity-B"
  ],
  "id_clashes": [],
  "overrides_applied": [
@@ -248,9 +298,20 @@
  "programmes_by_family": {
   "research": 131,
   "people": 136,
-  "programme-service": 134
+  "programme-service": 134,
+  "capacity": 123
  },
  "programme_status": {
+  "capacity": {
+   "no-current-notice": 26,
+   "unconfirmed": 3,
+   "open": 34,
+   "closed": 33,
+   "expired": 4,
+   "forecast": 8,
+   "formula": 8,
+   "not-competed": 7
+  },
   "people": {
    "open": 54,
    "unconfirmed": 18,
@@ -279,13 +340,15 @@
  "dangling_cross_references": {},
  "second_person": [
   "programs/acf-csbg",
+  "programs/hrsa-cpf-cds-projects",
   "funders/dod-onr",
   "help/nih-program-official",
   "help/nih-matchmaker",
   "help/find-your-caa",
+  "help/hrsa-cds-program-mailbox",
   "mechanics/nih-modular-budget",
   "mechanics/nih-highlighted-topics",
   "mechanics/samhsa-notice-six-steps"
  ],
- "queries": 392
+ "queries": 450
 }
