@@ -1850,3 +1850,261 @@
   as_of: '2026-10-04'
   sources:
   - 1738
+- id: low-risk-auditee
+  name: Low-risk auditee
+  applies_to: institution
+  what: A low-risk auditee is an organisation whose last two single audits were clean enough to earn reduced audit coverage
+    [1847]. The status also lets a recipient self-certify a higher micro-purchase threshold for its own purchasing [1819].
+  who_qualifies: An auditee that, for each of the two preceding audit periods, had annual single audits filed with the Federal
+    Audit Clearinghouse on time; unmodified auditor's opinions on the financial statements and on the schedule of expenditures
+    of federal awards; no material weaknesses in internal control; no going-concern doubt; and none of the listed findings
+    in its Type A programmes [1847]. An entity audited every two years does not qualify [1847].
+  how_decided: Determined by the auditor against the conditions in 2 CFR 200.520 during each single audit [1847].
+  opens: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.520
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1847
+  - 1819
+  sweep: rules-A
+- id: organisation-without-negotiated-indirect-rate
+  name: Organisation without a current federally negotiated indirect cost rate
+  applies_to: nonprofit
+  what: An organisation in this position may charge indirect costs at the de minimis rate without negotiating, or may submit
+    a proposal to its cognizant agency [1802] [163]. Many small non-profits and first-time recipients are in it [1802].
+  who_qualifies: Any recipient or subrecipient that does not have a current federal negotiated indirect cost rate [1802].
+    The rate is up to 15 percent of modified total direct costs and may be used indefinitely [1802].
+  how_decided: By the organisation's own election under 2 CFR 200.414(f); no documentation is required to justify the rate
+    [1802]. The award document records that the de minimis rate is charged [1810].
+  opens: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.414
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1802
+  - 163
+  - 1810
+  sweep: rules-A
+- id: cognizant-agency-for-indirect-costs
+  name: Cognizant agency for indirect costs
+  applies_to: institution
+  what: Each organisation that negotiates an indirect cost rate has one federal agency that reviews, negotiates and approves
+    its proposal on behalf of all federal agencies [1799]. Which agency it is follows from the kind of organisation and
+    where its federal money comes from [1849] [1850].
+  who_qualifies: 'For an institution of higher education: HHS or the Department of Defense''s Office of Naval Research,
+    normally whichever provided more funds directly to the institution for the most recent three years; the assignment continues
+    for five years [1849]. For a non-profit organisation: the federal agency with the largest dollar value of awards directly
+    funded to the organisation [1850].'
+  how_decided: Set by Appendix III and Appendix IV to 2 CFR part 200 [1849] [1850]. The same agency approves a micro-purchase
+    threshold above $50,000 [1819].
+  opens: []
+  official_url: https://www.ecfr.gov/current/title-2/part-200/appendix-Appendix%20III%20to%20Part%20200
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1849
+  - 1850
+  - 1819
+  sweep: rules-A
+- id: nonprofit-over-10-million-direct-federal-funding
+  name: Non-profit receiving more than $10 million in direct federal funding in a fiscal year
+  applies_to: nonprofit
+  what: A non-profit above this level must state its indirect cost rate in two parts, Facilities and Administration, as
+    universities do [1850] [1802].
+  who_qualifies: An organisation that receives more than $10 million in direct federal funding in a fiscal year [1850].
+    ONR publishes separate guidance for non-profits with less than $10M annual direct federal funding [1861].
+  how_decided: By the amount of direct federal funding in the fiscal year, under Appendix IV to 2 CFR part 200 [1850].
+  opens: []
+  official_url: https://www.ecfr.gov/current/title-2/part-200/appendix-Appendix%20IV%20to%20Part%20200
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1850
+  - 1802
+  - 1861
+  sweep: rules-A
+- id: subrecipient
+  name: Subrecipient (as against contractor)
+  applies_to: institution
+  what: A subrecipient receives a subaward from a pass-through entity to carry out part of a federal award, and the federal
+    terms flow down to it [1799] [1805]. A contractor sells goods or services to the recipient and is not subject to the
+    programme's compliance requirements [1822]. The classification decides whether the money counts toward the single audit
+    threshold [1845].
+  who_qualifies: An entity that determines who is eligible for assistance, has its performance measured against programme
+    objectives, makes programmatic decisions, is responsible for programme requirements, and implements a programme for
+    a public purpose [1822].
+  how_decided: Case by case by the pass-through entity under 2 CFR 200.331, on the substance of the relationship [1822].
+  opens: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.331
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists a revision to 200.331 [1458].
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1805
+  - 1822
+  - 1845
+  sweep: rules-A
+- id: section-501c3-organization
+  name: Organisation recognised as tax-exempt under section 501(c)(3)
+  applies_to: nonprofit
+  what: The standing that federal notices describe as "nonprofits having a 501(c)(3) status with the IRS" [2064]. It is
+    held by an organisation that the IRS has recognised as exempt, normally on an application on Form 1023 or Form 1023-EZ
+    [2046].
+  who_qualifies: 'An organisation formed under state law as a trust, corporation or association that has applied and been
+    recognised [2047] [2046]. A subordinate covered by a central organisation''s group exemption letter holds the status
+    without its own application [2060]. Some agencies ask for this status by name: the Arts Endowment requires a non-profit
+    applicant to be a tax-exempt 501(c)(3) entity, and a 2026 NEH notice requires recognition under section 501(c)(3) [2065]
+    [648].'
+  how_decided: By IRS determination letter [2059]. A funder checks the Tax Exempt Organization Search, which holds the list
+    of organisations eligible for deductible contributions, determination letters, filed returns and the Automatic Revocation
+    List [2059]. An organisation can ask the IRS for an affirmation letter confirming its status [2066]. The status is lost
+    automatically after three consecutive years without an annual return or notice [2057].
+  opens: []
+  official_url: https://www.irs.gov/charities-non-profits/tax-exempt-organization-search
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2064
+  - 2046
+  - 2047
+  - 2060
+  - 2059
+  - 2066
+  - 2057
+  - 2065
+  - 648
+  sweep: rules-C
+- id: nonprofit-without-501c3-status
+  name: Non-profit without 501(c)(3) status (Grants.gov applicant category)
+  applies_to: nonprofit
+  what: 'Grants.gov lists two non-profit applicant categories: those having 501(c)(3) status with the IRS and those that
+    do not, each other than institutions of higher education [2064]. The Grants.gov page gives the second category''s wording
+    and no further definition [2064].'
+  who_qualifies: The IRS states that state law governs non-profit status and federal law governs tax-exempt status, so an
+    organisation can be a non-profit under state law without IRS recognition under section 501(c)(3) [2047]. Organisations
+    exempt under other paragraphs of section 501(c) apply on Form 1024 or Form 1024-A [2046]. Whether a given notice admits
+    the category is stated in that notice's eligibility section [2064].
+  how_decided: By the eligibility list of each notice [2064]. The pack's record nih-nonprofit-other-than-higher-education
+    holds NIH's use of the two categories [2064].
+  opens: []
+  official_url: https://www.grants.gov/learn-grants/grant-eligibility
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2064
+  - 2047
+  - 2046
+  sweep: rules-C
+- id: public-charity-status
+  name: Public charity (as against private foundation)
+  applies_to: nonprofit
+  what: Every section 501(c)(3) organisation is classified as either a private foundation or a public charity [2054]. The
+    classification decides which annual return the organisation files and which restrictions apply to it [2054] [2055].
+  who_qualifies: An organisation is presumed to be a private foundation unless it requests and qualifies for a determination
+    as a public charity [2054]. Public charities include churches, schools, hospitals, medical research organisations, publicly
+    supported organisations that receive a specified portion of their support from public sources, and certain supporting
+    organisations [2054].
+  how_decided: 'By the IRS, on the organisation''s application [2054]. For a grant seeker the difference shows in three
+    places the IRS pages state: a private foundation files Form 990-PF whatever its size, it is subject to operating restrictions
+    and excise taxes, and the short Form 1023-EZ is closed to private operating foundations and supporting organisations
+    [2055] [2054] [2050]. Under the 2026 group exemption procedure, section 501(c)(3) subordinates must be public charities
+    [2061].'
+  opens: []
+  official_url: https://www.irs.gov/charities-non-profits/eo-operational-requirements-private-foundations-and-public-charities
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2054
+  - 2055
+  - 2050
+  - 2061
+  sweep: rules-C
+- id: group-exemption-subordinate
+  name: Subordinate organisation under a group exemption letter
+  applies_to: nonprofit
+  what: A group exemption letter lets a central organisation obtain recognition of exemption for the subordinate organisations
+    under its general supervision or control; a subordinate included in the letter does not file its own application [2060].
+  who_qualifies: Subordinates must all be described in the same paragraph of section 501(c) [2060]. A central organisation
+    needs at least five subordinates to obtain a letter and at least one to keep it [2060]. Under Revenue Procedure 2026-8,
+    as returned by the fetch, section 501(c)(3) subordinates must be public charities with the same foundation classification
+    and foreign subordinates are not permitted [2061].
+  how_decided: By the IRS's group exemption letter to the central organisation, under Revenue Procedure 2026-8, published
+    in Internal Revenue Bulletin 2026-04 on January 20, 2026 [2060] [2061]. The IRS pages read do not say how a funder verifies
+    that a particular subordinate is covered [2060].
+  opens: []
+  official_url: https://www.irs.gov/charities-non-profits/group-exemption-rulings-and-group-returns
+  pending_changes:
+  - status: final
+    date: '2026-01-20'
+    text: Revenue Procedure 2026-8 superseded Revenue Procedure 80-27, and the IRS resumed accepting group exemption applications
+      after January 20, 2026; existing holders have transition periods whose dates were not returned by the fetch [2061].
+  as_of: '2026-10-04'
+  sources:
+  - 2060
+  - 2061
+  sweep: rules-C
+- id: fiscally-sponsored-project
+  name: Project under a fiscal sponsor
+  applies_to: nonprofit
+  what: A fiscal sponsor, in the Arts Endowment's words, is an entity that oversees the fiscal activities of another organisation,
+    company, or group of independent artists or projects [2065]. The two federal pages read in this sweep do not accept
+    an application made that way [2065] [648].
+  who_qualifies: 'Arts Endowment: an organisation without its own non-profit status may not use a fiscal sponsor or agent
+    to submit an application; it may take part in a project submitted by an eligible organisation, and a fiscal sponsor
+    may apply for its own programme activities [2065]. NEH, in a notice of March 12, 2026: a recipient may not function
+    solely as a fiscal agent, fiscal sponsors applying on behalf of an ineligible organisation are not eligible, and fiscal
+    agent fees are unallowable [648].'
+  how_decided: By each agency's eligibility rules [2065] [648]. No IRS page read in this sweep describes fiscal sponsorship,
+    and no page was found in which a federal agency accepts a fiscally sponsored applicant; other agencies' rules were not
+    checked [2047].
+  opens: []
+  official_url: https://www.arts.gov/grants/fiscal-sponsorship
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2065
+  - 648
+  - 2047
+  sweep: rules-C
+- id: research-security-covered-institution
+  name: Covered institution (research security programme)
+  applies_to: institution
+  what: 'The class of institution that must certify a research security programme: an institution of higher education, a
+    federally funded research and development centre or a non-profit research institution receiving in excess of $50 million
+    per year in federal research and development funding [2017].'
+  who_qualifies: The amount is a three-year average of federal research and development obligations in fiscal year 2022
+    constant dollars [2017]. NSPM-33 states the threshold as Federal science and engineering support in excess of 50 million
+    dollars per year [247].
+  how_decided: By the threshold in the OSTP memorandum of July 9, 2024 [2017]. No published list of covered institutions
+    was found in this sweep [2018].
+  opens: []
+  official_url: https://www.nsf.gov/research-security/guidelines
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2017
+  - 247
+  - 2018
+  sweep: rules-C
+- id: ori-small-institution
+  name: Small institution (research misconduct assurance)
+  applies_to: institution
+  what: An institution too small to run a research misconduct inquiry or investigation without a conflict of interest may,
+    with ORI's approval, file a Small Institution Statement in place of its own policies and procedures (42 CFR 93.303)
+    [2007] [2010].
+  who_qualifies: ORI describes small institutions as typically 1 to 50 institutional members [2010].
+  how_decided: By ORI, on the institution's statement, filed as a fillable PDF in the 2026.03 version [2010]. The institution
+    still reports all allegations to ORI and files the annual report [2010] [2007].
+  opens: []
+  official_url: https://ori.hhs.gov/small-institution-statement
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2007
+  - 2010
+  sweep: rules-C

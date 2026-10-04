@@ -326,14 +326,38 @@
   - 162
   sweep: research-B
 - id: nsf-data-management-sharing-plan
-  name: Data Management and Sharing Plan (DMSP)
-  what: From April 27, 2026 the plan is created with a tool in Research.gov, without the former two-page limit; recipients
-    share all data supporting NSF-funded publications at the time of publication, and exceptions are justified in the plan
-    [150].
+  name: NSF Data Management and Sharing Plan (DMSP)
+  what: NSF proposals carry a Data Management and Sharing Plan that describes how the project will meet NSF's policy on
+    dissemination and sharing of research results [150]. Guidance on its content varies by directorate [2032].
+  rule: Under Supplement 2 to PAPPG 24-1, issued and effective January 22, 2026, the plan is created with a tool in Research.gov
+    from April 27, 2026, replacing a document of no more than two pages; proposals submitted before that date upload a PDF
+    [150]. Recipients share all data supporting NSF-funded publications at the time of publication, and any exception is
+    described and justified in the plan [150]. A change to the plan that changes the objectives or scope needs the programme
+    officer's prior written approval [150].
+  figures:
+  - label: Research.gov plan tool in use from
+    value: April 27, 2026
+    cite:
+    - 150
+  - label: supplement applies to financial assistance awarded on or after
+    value: January 22, 2026
+    cite:
+    - 150
+  applies_to: NSF proposals and awards [150].
+  pending_changes: []
   official_url: https://www.nsf.gov/policies/document/pappg24-1-supplement-2
+  as_of: '2026-10-04'
   sources:
   - 150
-  sweep: research-B
+  - 2032
+  sweep: rules-C
+  variants:
+  - what: From April 27, 2026 the plan is created with a tool in Research.gov, without the former two-page limit; recipients
+      share all data supporting NSF-funded publications at the time of publication, and exceptions are justified in the
+      plan [150].
+    sources:
+    - 150
+    sweep: research-B
 - id: nsf-no-cost-extension
   name: No-cost extension
   what: A recipient may extend a grant once by up to 12 months on notice to NSF at least ten calendar days before the end
@@ -461,17 +485,64 @@
   sweep: research-C
 - id: de-minimis-indirect-rate
   name: De minimis indirect cost rate
-  what: An entity that has never had a negotiated indirect cost rate may charge 15% of modified total direct costs under
-    the ONR and MURI announcements [334] [325].
-  official_url: https://www.ecfr.gov/current/title-2
+  what: The de minimis rate lets an organisation with no current federally negotiated rate charge indirect costs at a flat
+    percentage without negotiating [1802]. The rate in force is up to 15 percent of modified total direct costs [1802].
+    This 15 percent is an option for organisations that have no negotiated rate; it is a different thing from the 15 percent
+    caps that four agencies tried to place on negotiated rates in 2025 [1802] [24].
+  rule: Under 2 CFR 200.414(f) a recipient or subrecipient that does not have a current federal negotiated indirect cost
+    rate may elect a de minimis rate of up to 15 percent of modified total direct costs; no documentation is needed to justify
+    it, and it may be used indefinitely [1802]. A pass-through entity may not require a subrecipient that has a federally
+    negotiated rate to use the de minimis rate instead [1823]. The award document states the indirect cost rate, including
+    whether the de minimis rate is charged [1810]. NSF states that recipients may elect the 15% rate for any award executed
+    on or after October 1, 2024 and that the rate must be applied consistently across all of an organisation's federal awards
+    [163]. HHS states the de minimis rate as 15% of modified total direct costs [528]. A second reading of 200.414 on the
+    eCFR on 2026-10-04, in the text current to 10/01/2026, returned the same rate of up to 15 percent of modified total
+    direct costs in paragraph (f) [1802]. OMB's proposed rule would have each award show the indirect cost rate, including
+    whether the de minimis rate is charged under 200.414 [2104].
+  figures:
+  - label: de minimis rate
+    value: up to 15 percent of modified total direct costs
+    cite:
+    - 1802
+    - 1802
+  - label: date from which the 15 percent rate applies, as NSF states it
+    value: awards executed on or after October 1, 2024
+    cite:
+    - 163
+  applies_to: Recipients and subrecipients without a current federal negotiated rate, which includes many small non-profits
+    [1802]. A programme whose statute or notice sets a lower limit, such as the 8 percent HHS limit on training grants,
+    is governed by that limit [1884].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.414
+  as_of: '2026-10-04'
   sources:
+  - 24
+  - 163
   - 325
   - 334
   - 528
   - 529
   - 619
-  sweep: research-C
+  - 1802
+  - 1810
+  - 1823
+  - 1884
+  - 1948
+  - 2070
+  - 2104
+  sweep: rules-A
+  related:
+  - de-minimis-indirect-rate-15
   variants:
+  - what: An entity that has never had a negotiated indirect cost rate may charge 15% of modified total direct costs under
+      the ONR and MURI announcements [334] [325].
+    sources:
+    - 325
+    - 334
+    - 528
+    - 529
+    - 619
+    sweep: research-C
   - what: The rate an organization without a negotiated indirect cost rate may charge. The HHS Grants Policy Statement sets
       it at 15% of modified total direct costs; HRSA records that HHS raised it from 10 to 15 percent effective October
       1, 2024. The OJP guide as fetched gives 10 percent [528] [529] [619].
@@ -480,6 +551,18 @@
     - 529
     - 619
     sweep: research-E
+  - what: A recipient that does not have a current negotiated indirect cost rate may elect to charge a de minimis rate of
+      up to 15 percent of modified total direct costs (2 CFR 200.414(f)) [2070]. NSF's page says the 15% rate may be elected
+      for any award executed on or after October 1, 2024, and that it is applied consistently across all of the organisation's
+      federal awards until the organisation negotiates a rate [163]. The eCFR text of 200.414 current to 10/01/2026 carries
+      the same rate, and USDA's General Terms and Conditions effective December 31, 2025 state it as 15 percent of modified
+      total direct costs [1802] [1948].
+    sources:
+    - 2070
+    - 163
+    - 1802
+    - 1948
+    sweep: rules-C
 - id: doe-epact-cost-share
   name: Energy Policy Act cost share (DOE)
   what: At least 20 percent for research and development and 50 percent for demonstration or commercial application, with
@@ -579,13 +662,58 @@
   sweep: research-D
 - id: senior-appointee-review
   name: Senior appointee review of funding announcements and awards
-  what: Executive Order 14332 requires each agency head to designate a senior appointee to run a review of new funding opportunity
-    announcements and discretionary grants for consistency with agency priorities and the national interest. How each agency
-    in this slice carries this out was not found on the pages read [246].
+  what: Since Executive Order 14332 a senior appointee in each agency reviews new funding opportunity announcements and
+    discretionary grants before they issue [246]. The review sits on top of merit or peer review and checks consistency
+    with agency priorities and the national interest [246].
+  rule: Section 3 of the order requires each agency head to designate a senior appointee to run the review; the order defines
+    a senior appointee as an individual appointed by the President, a non-career member of the Senior Executive Service,
+    or an employee in a Senior Level, Scientific and Professional, or Grade 15 position in Schedule C of the excepted service
+    [246]. The process must include the appointee's approval of announcements, review by subject-matter experts for scientific
+    research, review before awards issue, and coordination between agencies to remove duplication [246]. The appointee also
+    reviews discretionary awards each year for consistency with agency priorities and substantial progress [246]. Section
+    4 says appointees are not to ministerially ratify or routinely defer to what others propose [246]. DOE's implementing
+    procedures of February 19, 2026 cover funding announcements only [314].
+  figures: []
+  applies_to: Discretionary funding announcements and awards at every executive agency [246].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists a revised 200.205 on agency review of the merit of proposals; an association summary
+      says it would write senior appointee review of each notice into the regulation and describe peer review as advisory
+      [1458] [1878].
+  - status: proposed
+    date: '2026-09-22'
+    text: The chair of the Senate Appropriations Committee wrote to the OMB and NIH Directors on September 22, 2026 about
+      an executive order reported to be in preparation that would add a review of NIH grant applications after merit review;
+      no such order was found in this sweep [1892].
+  - status: proposed
+    date: '2026-05-29'
+    text: 'Read in the Federal Register text of OMB''s proposal: proposed 200.205 would establish a pre-issuance review,
+      described as consistent with Executive Order 14332, in which senior appointees review proposals selected for funding
+      against applicable law, agency priorities and the national interest; the review must be described in the notice of
+      funding opportunity and may form the basis of a decision not to select an applicant; peer review remains advisory
+      [2092] [2093] [2104].'
   official_url: https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking
+  as_of: '2026-10-04'
   sources:
   - 246
-  sweep: research-D
+  - 314
+  - 1878
+  - 1458
+  - 1892
+  - 2092
+  - 2093
+  - 2104
+  sweep: rules-A
+  related:
+  - executive-order-14332-grant-oversight
+  variants:
+  - what: Executive Order 14332 requires each agency head to designate a senior appointee to run a review of new funding
+      opportunity announcements and discretionary grants for consistency with agency priorities and the national interest.
+      How each agency in this slice carries this out was not found on the pages read [246].
+    sources:
+    - 246
+    sweep: research-D
 - id: hhs-grants-policy-statement
   name: HHS Grants Policy Statement
   what: The governing policy for awards from HHS agencies other than NIH. Version 2.0 took effect October 1, 2025 and applies
@@ -619,13 +747,46 @@
   sweep: research-E
 - id: doj-two-step-application
   name: DOJ two-step application (Grants.gov, then JustGrants)
-  what: A DOJ applicant submits the SF-424 in Grants.gov by one deadline and the rest of the application in JustGrants by
-    a later one; OJP advises submitting each at least 48 hours early [619] [613].
+  what: 'A Department of Justice application is submitted in two steps with two deadlines: the SF-424 (and the SF-LLL where
+    lobbying is disclosed) in Grants.gov, then the full application in JustGrants [619].'
+  rule: Step one must be complete before step two can begin, because the JustGrants account invitation is sent to the address
+    in section 8F of the SF-424, within 24 hours [619]. A late application is considered only for a documented technical
+    failure of a government system, reported within 24 hours of the deadline concerned [619].
+  figures:
+  - label: time DOJ urges before the Grants.gov deadline
+    value: at least 48 hours
+    cite:
+    - 619
+  - label: time DOJ recommends before the JustGrants deadline
+    value: at least 48 hours
+    cite:
+    - 619
+  - label: SF-LLL required where lobbying is paid for and the award sought exceeds
+    value: $100,000
+    cite:
+    - 619
+  - label: latest start for SAM.gov registration or renewal before the Grants.gov deadline, below which DOJ warns it may
+      not finish
+    value: 10 business days
+    cite:
+    - 619
+  applies_to: Applicants to the Office of Justice Programs, and by the same systems the COPS Office and the Office on Violence
+    Against Women [619] [1924].
+  pending_changes: []
   official_url: https://www.ojp.gov/funding/apply/ojp-grant-application-resource-guide
+  as_of: '2026-10-04'
   sources:
   - 619
+  - 1924
   - 613
-  sweep: research-E
+  sweep: rules-B
+  variants:
+  - what: A DOJ applicant submits the SF-424 in Grants.gov by one deadline and the rest of the application in JustGrants
+      by a later one; OJP advises submitting each at least 48 hours early [619] [613].
+    sources:
+    - 619
+    - 613
+    sweep: research-E
 - id: nij-research-independence-statement
   name: NIJ research independence and integrity statement and data plan
   what: NIJ research applications include a statement on research and evaluation independence and integrity, covering conflicts
@@ -1554,11 +1715,80 @@
   sweep: service-A
 - id: pass-through-subaward
   name: Pass-through funding and subawards
-  what: 'Formula and block grants go to a state, territory, tribe or local government, which then funds local providers.
-    The federal agency takes no application from a non-profit: HUD states this for CDBG, FEMA for NSGP, and ACL describes
-    formula grants as needing no application or competition [1292] [1320] [1259].'
-  official_url: https://www.hud.gov/hud-partners/community-cdbg
+  what: A pass-through entity is a recipient or subrecipient that gives a subaward to another organisation to carry out
+    part of a federal programme [1799]. The organisation that receives the subaward is a subrecipient, and the award terms
+    flow down to it [1799] [1805]. A university that leads a multi-site project and a state that distributes a formula grant
+    are both pass-through entities, and each has the same list of duties toward its subrecipients [1823].
+  rule: Under 2 CFR 200.331 the pass-through entity decides case by case whether the other party is a subrecipient or a
+    contractor; a subrecipient determines eligibility, has its performance measured against programme objectives, makes
+    programmatic decisions and is responsible for programme requirements, while a contractor sells goods or services in
+    its normal business and is not subject to programme compliance requirements [1822]. The substance of the relationship
+    matters more than the form of the agreement [1822]. Under 200.332 the pass-through entity must verify in SAM.gov that
+    the subrecipient is not excluded; identify the subaward as a subaward and give 14 data items, including the federal
+    award number, the Assistance Listing and the indirect cost rate; evaluate the subrecipient's fraud risk and risk of
+    noncompliance; monitor its activities and review its reports; issue management decisions on audit findings; verify that
+    it is audited when subpart F requires; and consider enforcement under 200.339 [1823]. On indirect costs the pass-through
+    entity must accept the subrecipient's federally negotiated rate; where there is none the rate is one negotiated between
+    the two parties or the de minimis rate, and the pass-through entity may not require the de minimis rate of a subrecipient
+    that has a federally negotiated rate [1823] [1802]. Under 200.333 a recipient may, with the federal agency's prior written
+    approval, make fixed amount subawards of up to $500,000 [1824]. A subrecipient submits its final reports and liquidates
+    its obligations within 90 calendar days of the end of the subaward [1830]. Only the first $50,000 of each subaward counts
+    in the pass-through entity's modified total direct cost base [1799]. The eCFR text of 200.332 current to 10/01/2026
+    lists the same 14 data items and the same rule that a pass-through entity must not require the de minimis rate of a
+    subrecipient that has a rate negotiated with the Federal Government [2105]. The eCFR page for 200.344 returned server
+    errors twice on 2026-10-04; the eCFR's version record for part 200 lists no issue of 200.333 or 200.344 after the amendment
+    dated October 1, 2024 [2103]. The eCFR page for 200.333 did load later the same day and shows the same $500,000 ceiling
+    with prior written approval [2116].
+  figures:
+  - label: fixed amount subaward ceiling
+    value: up to $500,000, with prior written approval
+    cite:
+    - 1824
+    - 2116
+  - label: subaward amount counted in MTDC
+    value: up to the first $50,000 of each subaward
+    cite:
+    - 1799
+    - 2102
+  - label: subrecipient final reports and liquidation
+    value: no later than 90 calendar days after the end of the subaward period of performance
+    cite:
+    - 1830
+  - label: data items a subaward must identify
+    value: '14'
+    cite:
+    - 1823
+    - 2105
+  applies_to: Any recipient that makes subawards and any organisation that receives one; a non-profit funded through a state
+    block or formula grant is a subrecipient of the state [1823] [1880].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule would eliminate fixed amount subawards (200.333), revise 200.331 and 200.332, and require
+      pass-through entities to report subawards on SAM.gov [1803].
+  - status: proposed
+    date: '2026-05-29'
+    text: The preamble to OMB's proposed rule says OMB proposes to revise 200.333 to remove the policy allowing recipients
+      to issue fixed amount subawards, and that the change to fixed amount awards is not intended to affect awards or subawards
+      issued before the effective date [2093] [2092].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.332
+  as_of: '2026-10-04'
   sources:
+  - 1799
+  - 1805
+  - 1822
+  - 1823
+  - 1824
+  - 1830
+  - 1802
+  - 1880
+  - 1803
+  - 2105
+  - 2102
+  - 2103
+  - 2093
+  - 2092
+  - 2116
   - 1259
   - 1292
   - 1320
@@ -1566,8 +1796,20 @@
   - 1366
   - 1372
   - 1399
-  sweep: service-B
+  sweep: rules-A
   variants:
+  - what: 'Formula and block grants go to a state, territory, tribe or local government, which then funds local providers.
+      The federal agency takes no application from a non-profit: HUD states this for CDBG, FEMA for NSGP, and ACL describes
+      formula grants as needing no application or competition [1292] [1320] [1259].'
+    sources:
+    - 1259
+    - 1292
+    - 1320
+    - 1360
+    - 1366
+    - 1372
+    - 1399
+    sweep: service-B
   - what: 'In a pass-through programme the federal grant goes to a state body, which makes its own subawards on its own
       calendar: state educational agencies for 21st CCLC, State Library Administrative Agencies for Grants to States, state
       arts agencies for NEA Partnership funds, humanities councils for NEH Federal/State Partnership funds [1399] [1372]
@@ -1641,13 +1883,51 @@
   - 1320
   sweep: service-B
 - id: grants-termination-for-convenience
-  name: Senior appointee review and termination for convenience (Executive Order 14332)
-  what: The executive order of August 7, 2025 requires a senior appointee's review of funding announcements and discretionary
-    awards and directs that discretionary grants permit termination for convenience [246].
+  name: Termination for convenience under Executive Order 14332
+  what: 'Executive Order 14332 directs that discretionary grants permit termination for convenience, meaning termination
+    at the Government''s choice, including when an award no longer advances agency priorities or the national interest [246].
+    The order works through two channels: a revision of the Uniform Guidance by OMB, and new terms that agencies add to
+    their awards [246]. On 2026-10-04 the first channel is a proposal that cannot be finalised before December 11, 2026,
+    and the second depends on each agency''s terms [1480] [65].'
+  rule: Section 5 of the order directs the OMB Director to revise the Uniform Guidance to clarify that discretionary grants
+    permit termination for convenience [246]. Section 6 directs agencies to revise the terms of existing discretionary grants
+    to permit immediate termination for convenience, and to require written explanation for each drawdown of funds [246].
+    The rule in force, 2 CFR 200.340, has no ground called termination for convenience; its fourth ground allows termination
+    under the award terms, including, to the extent authorised by law, where an award no longer effectuates programme goals
+    or agency priorities, and requires every termination provision to be stated clearly and unambiguously in the award [1801].
+    The District of Massachusetts declared on July 17, 2026 that this ground does not reach priorities adopted after the
+    award was made [1869]. OMB's proposed rule would revise 200.340 to clarify termination of discretionary awards for discretionary
+    reasons consistent with law [1803].
+  figures: []
+  applies_to: Discretionary awards whose terms include such a clause; what a particular award allows depends on its own
+    terms and on any court order that covers the recipient [1801] [65].
+  pending_changes:
+  - status: frozen-by-appropriations
+    date: '2026-09-02'
+    text: The proposed revision of 200.340 cannot be issued or take effect through December 11, 2026 [1480].
+  - status: in-litigation
+    date: '2026-07-17'
+    text: Declaratory judgment in New Jersey v. OMB on the meaning of 200.340(a)(4); appeal status not found [1869].
   official_url: https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking
+  as_of: '2026-10-04'
   sources:
   - 246
-  sweep: service-B
+  - 1801
+  - 1869
+  - 1803
+  - 1480
+  - 65
+  sweep: rules-A
+  related:
+  - award-termination
+  - termination-objections-appeals-and-forums
+  - executive-order-14332-grant-oversight
+  variants:
+  - what: The executive order of August 7, 2025 requires a senior appointee's review of funding announcements and discretionary
+      awards and directs that discretionary grants permit termination for convenience [246].
+    sources:
+    - 246
+    sweep: service-B
 - id: ssvf-priorities
   name: SSVF funding priorities
   what: 'The four ranks in which VA funds SSVF applications: existing Priority 1 grantees expanding to rural communities,
@@ -1721,13 +2001,131 @@
   - 1410
   sweep: service-C
 - id: omb-2-cfr-revision-2026
-  name: Proposed revision of the federal grants rules in 2 CFR (2026)
-  what: On May 29, 2026 OMB and the grant-making agencies proposed revisions to the government-wide grants rules, with comments
-    due July 13, 2026; only the preamble was read [1458].
+  name: OMB's proposed "Regulation for Federal Financial Assistance" (91 FR 32198, May 29, 2026)
+  what: 'On May 29, 2026 OMB, with the grant-making agencies as co-proposers, published a proposed rule to revise 2 CFR,
+    including the Uniform Guidance in part 200 [1458]. It would turn the guidance into a regulation that takes effect government-wide
+    on one date, and would change rules on notices, payments, subawards, termination, national policy requirements and cost
+    items [1803] [1458]. On 2026-10-04 it is a proposal: no final rule has been published, and section 157 of Public Law
+    119-103 provides that a rule arising from it shall not be issued, finalised or take effect through December 11, 2026
+    [1858] [1480]. The Uniform Guidance as revised in 2024 remains the rule in force [1857] [1801].'
+  rule: 'Comment period: Comments were due on or before July 13, 2026 in docket OMB-2026-0034; the Federal Register record
+    shows 496,606 comments [1458] [1858]. Status: OMB''s regulatory agenda of August 14, 2026 lists the rule (RIN 0348-AB88)
+    in the proposed rule stage with no date for final action [1859]. Section 157 of the continuing resolution signed September
+    2, 2026 bars a rule "arising out of" the proposal "or a substantially similar rule" from being issued or finalised through
+    December 11, 2026, and says a rule finalised before enactment has no force through that date; the Senate committee summary
+    says the section retains existing guidance through December 11, 2026 [1480] [1857]. NIH states that the resolution prohibits
+    it from implementing the revisions through December 11, 2026 [83]. The chair of the Senate Appropriations Committee
+    stated on September 21, 2026 that the resolution blocks OMB''s proposed rule or any substantially similar one [1891].
+    Stated objectives: improved transparency, accountability and oversight; clarification of regulatory structure; reduced
+    recipient burden [1803]. Section by section, in outline, from the Federal Register text as far as it was read (through
+    200.111) and from its table of contents for the rest: Part 1: "guidance" becomes "regulation", relying on 31 U.S.C.
+    503 and 6307, with a new 1.221 for agencies that implement by policy [1803]. 200.1: definitions of fixed amount award
+    and protected PII removed; Federal award date, improper payment, PII and unobligated balance changed [1803]. 200.101
+    and 200.102: a new paragraph on conflicts with agency regulations, under which subpart F and 200.340 govern [1803].
+    200.110: OMB amendments would apply government-wide on the effective date of a final rule without separate agency rulemakings
+    [1803]. 200.201 and 200.333: fixed amount awards and subawards eliminated [1803]. 200.202: programme design aligned
+    with law and executive branch policy; multi-year awards encouraged [1803]. 200.204 to 200.206: all funding opportunities
+    posted on Grants.gov, with changes to merit review and risk review [1803]. 200.208 and 200.211: specific conditions
+    and award contents revised [1803]. New 200.218, 200.219 and 200.220: prohibitions concerning disparate-impact liability
+    theories, discriminatory event services and covered foreign collaborations; 200.300 revised [1458]. 200.305: justification
+    required for payment requests [1803]. 200.329 to 200.332: subaward reporting on SAM.gov [1803]. 200.339 to 200.343:
+    termination and suspension, to clarify termination of discretionary awards for discretionary reasons consistent with
+    law [1803]. Subpart E: changes to 200.421, 200.429, 200.432, 200.438, 200.442, 200.444, 200.450, 200.454, 200.455, 200.461,
+    200.467 and a new 200.477 [1458]. Subpart F: 200.503, 200.513, 200.514 [1458]. Appendices I, II, VIII and IX revised;
+    agency chapters in Subtitle B of 2 CFR revised or added [1458]. From an association summary, not checked against the
+    Federal Register text: five termination grounds including agency discretion; no hearing required for terminations other
+    than for noncompliance; senior political appointee review of each notice under a new 200.205; advertising, conference,
+    membership and publication costs restricted; no change to negotiated indirect cost rates; an intended effective date
+    of October 1, 2026 for new awards only [1878]. Checked on 2026-10-04 against the Federal Register text, from its HTML
+    version as far as page 32212 and from short passages of the later preamble and regulatory text returned by the Federal
+    Register''s full-text search [2092] [2093] [2104]. Termination: proposed 200.340(a) lists five grounds, (1) noncompliance
+    by the recipient or subrecipient, including a failure to report subawards, (2) a determination by the agency or pass-through
+    entity, to the extent permitted by law, that termination is in its interest, including where the award no longer effectuates
+    programme goals, agency priorities or the national interest as they exist at the time of termination, (3) mutual agreement,
+    (4) notification by the recipient or subrecipient, and (5) additional termination provisions in the award; awards must
+    always include grounds (1) to (4) [2093] [2104]. A new 200.340(d) would allow a written order to stop work, which the
+    preamble likens to a provision of the FAR [2104]. On 200.342 the preamble says hearing rights continue for a remedy
+    for noncompliance and would not be required for other types of termination unless other law expressly requires them
+    [2093]. Review: proposed 200.205 keeps peer review advisory and adds a pre-issuance review, by senior appointees, of
+    proposals selected for funding; the review must be described in the notice of funding opportunity and may form the basis
+    of a decision not to select an applicant [2092] [2093]. New sections: 200.218 bars the use of awards in support of disparate-impact
+    studies, litigation or related activities unless expressly required by law; 200.219 is headed "Prohibition of Discriminatory
+    Event Services" and concerns public entities that are recipients or subrecipients; 200.220 prohibits obligating federal
+    funds for covered foreign collaborations and does not prohibit collaborations paid for with non-federal funds [2104]
+    [2093]. Cost items: advertising and public relations costs unallowable with limited exceptions (200.421); conference
+    attendance allowable only if expressly approved by the agency and included in the award terms (200.432); three new paragraphs
+    in 200.450, one prohibiting the funding of voter registration activities; a new prior approval requirement in 200.454;
+    publication costs unallowable unless expressly required by statute (200.461) [2093]. Indirect costs: part IX of the
+    preamble states that OMB is not proposing updates to the indirect cost rate negotiation system through the document
+    and asks commenters not to comment on that system [2093]. Effective date: part XI states that OMB proposes a final rule
+    effective by October 1, 2026, so that a single set of government-wide requirements applies to Federal awards made during
+    fiscal year 2027, and gives a 45-day comment period [2093] [2104]. The Federal Register record on 2026-10-04 shows no
+    correction and no effective date for the document [1858]. Section 157 was re-read in the public law text on govinfo:
+    subsection (a) bars issuing or finalising a rule to revise the Uniform Guidance through December 11, 2026, and subsection
+    (b) denies force or effect through that date to one issued before enactment [1480].'
+  figures:
+  - label: Federal Register citation
+    value: 91 FR 32198 to 32305; document 2026-10817
+    cite:
+    - 1858
+  - label: comment deadline
+    value: July 13, 2026
+    cite:
+    - 1458
+  - label: comments recorded
+    value: 496,606
+    cite:
+    - 1858
+  - label: date through which a final rule is barred
+    value: December 11, 2026
+    cite:
+    - 1480
+  - label: agencies listed on the proposal
+    value: '44'
+    cite:
+    - 1858
+  - label: effective date OMB proposed for a final rule
+    value: by October 1, 2026
+    cite:
+    - 2093
+    - 2104
+  - label: grounds for termination in proposed 200.340(a)
+    value: five
+    cite:
+    - 2104
+  applies_to: If finalised, every federal agency, recipient and subrecipient; until then, no one [1480] [1803].
+  pending_changes:
+  - status: frozen-by-appropriations
+    date: '2026-09-02'
+    text: 'Section 157 of Public Law 119-103: no rule arising from the May 29, 2026 proposal, or a substantially similar
+      rule, may be issued, finalised or take effect through December 11, 2026 [1480].'
+  - status: proposed
+    date: '2026-05-29'
+    text: The proposal itself, with the comment period closed July 13, 2026 and no final rule published by 2026-10-04 [1458]
+      [1858].
   official_url: https://www.federalregister.gov/documents/2026/05/29/2026-10817/regulation-for-federal-financial-assistance
+  as_of: '2026-10-04'
   sources:
   - 1458
-  sweep: service-C
+  - 1803
+  - 1858
+  - 1859
+  - 1480
+  - 1857
+  - 83
+  - 1878
+  - 1801
+  - 1891
+  - 2092
+  - 2093
+  - 2104
+  sweep: rules-A
+  variants:
+  - what: On May 29, 2026 OMB and the grant-making agencies proposed revisions to the government-wide grants rules, with
+      comments due July 13, 2026; only the preamble was read [1458].
+    sources:
+    - 1458
+    sweep: service-C
 - id: limited-submission-capacity-programmes
   name: Limits on applications per institution in capacity programmes
   what: 'Many capacity programmes cap what one institution may submit, so the institution chooses internally before the
@@ -2027,3 +2425,2480 @@
   - 1746
   - 1743
   sweep: capacity-C
+- id: grant-cooperative-agreement-contract
+  name: Grant, cooperative agreement and procurement contract
+  what: Federal law gives an agency three instruments for giving money to an outside body, and the choice follows from the
+    purpose of the transaction [1851]. A grant agreement and a cooperative agreement both transfer something of value to
+    carry out a public purpose that a law authorises; a procurement contract buys property or services for the Government's
+    own direct benefit or use [1851]. The difference between a grant and a cooperative agreement is whether substantial
+    involvement is expected between the agency and the recipient while the work is carried out [1851].
+  rule: Under 31 U.S.C. 6304 an agency uses a grant agreement when the principal purpose is to transfer a thing of value
+    for a public purpose of support or stimulation and substantial involvement is not expected; under 31 U.S.C. 6305 it
+    uses a cooperative agreement on the same test when substantial involvement is expected; under 31 U.S.C. 6303 it uses
+    a procurement contract when the principal purpose is to acquire property or services for the direct benefit or use of
+    the Government [1851]. 2 CFR 200.201 requires the agency or pass-through entity to decide on the instrument under these
+    sections [1807]. 2 CFR 200.1 defines both instruments in the same terms and adds that a pass-through entity may also
+    be the substantially involved party in a cooperative agreement [1799]. The statute does not define "substantial involvement";
+    Appendix I to Part 200 requires a notice for a cooperative agreement to describe the substantial involvement the agency
+    expects [1848]. 31 U.S.C. 6307 lets the Director of OMB issue interpretative guidelines and exempt a transaction or
+    programme [1851].
+  figures:
+  - label: source of the statute
+    value: Pub. L. 97-258, Sept. 13, 1982, 96 Stat. 1004 (codifying the Federal Grant and Cooperative Agreement Act)
+    cite:
+    - 1851
+  applies_to: Every executive agency that makes awards, and every pass-through entity that makes subawards [1851] [1807].
+    Contracts under the Federal Acquisition Regulation are outside this guide [1851].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule would revise 200.201 and remove fixed amount awards as a form of grant [1803].
+  official_url: https://uscode.house.gov/view.xhtml?path=/prelim@title31/subtitle5/chapter63&edition=prelim
+  as_of: '2026-10-04'
+  sources:
+  - 1851
+  - 1807
+  - 1799
+  - 1848
+  sweep: rules-A
+- id: assistance-listings
+  name: Assistance Listings
+  what: The Assistance Listings are the public catalogue of federal assistance programmes, kept by the General Services
+    Administration at SAM.gov [1799] [1808]. Each programme has a listing and a number, and that number appears in the funding
+    notice and in the award document [1800] [1810]. The Grants.gov glossary calls the listings the authoritative source
+    of information about federal programmes that provide grants, loans, scholarships, insurance and other assistance [1880].
+  rule: 2 CFR 200.203 requires each agency to keep an accurate list of its programmes in the Assistance Listings and to
+    assign a listing before making awards, except in exigent circumstances [1808]. A listing gives the programme's purpose
+    and goals, whether its awards are discretionary or non-discretionary, the projected funds, the source of funds, the
+    general eligibility requirements and whether single audit requirements apply [1808].
+  figures: []
+  applies_to: Every federal financial assistance programme [1808]. A pass-through entity must give the Assistance Listings
+    title and number to each subrecipient [1823].
+  pending_changes: []
+  official_url: https://sam.gov/content/assistance-listings
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1808
+  - 1800
+  - 1810
+  - 1880
+  - 1823
+  sweep: rules-A
+- id: discretionary-formula-and-block-awards
+  name: Discretionary, mandatory, formula and block awards
+  what: Federal awards divide by how the recipient and the amount are chosen [1880]. For a discretionary grant the agency
+    may select the recipient from among all eligible applicants, may decide whether to make an award on the content of an
+    application, and decides the amount [1880]. For a mandatory grant the authorising statute requires an award to each
+    eligible entity in the amount or by the formula the statute sets, and a formula grant is an allocation to states, territories
+    or local governments by a distribution formula in the law or regulations [1880].
+  rule: 2 CFR 200.1 defines a discretionary award as one in which the agency, under statutory authority to exercise judgment,
+    selects the recipient or the amount through a competitive process or on the merit of proposals, and a non-discretionary
+    award as one made to specific recipients under statutory, eligibility and compliance requirements such that the agency
+    cannot exercise judgment [1894]. Each Assistance Listing states whether a programme's awards are discretionary or non-discretionary
+    [1808]. The notice rules in 2 CFR 200.204 apply to discretionary funding opportunities [1800]. 2 CFR 200.101(e) takes
+    block grants authorised by the Omnibus Budget Reconciliation Act of 1981, and certain other listed programmes, out of
+    subparts C, D and E except for specified provisions, and 200.101(f) takes listed entitlement programmes, among them
+    TANF, Medicaid and CHIP, out of subpart C [1805]. Executive Order 14332 applies to discretionary grants only, and takes
+    its definition from 2 CFR 200.1 [246]. The Grants.gov glossary read on 2026-10-04 has no entry for "block grant" [1880].
+  figures: []
+  applies_to: All federal financial assistance; the distinction decides whether an organisation competes with a federal
+    agency or applies to a state or local recipient [1880] [1805]. The pack's record pass-through-subaward describes the
+    second route [1823].
+  pending_changes: []
+  official_url: https://www.grants.gov/learn-grants/grant-terminology
+  as_of: '2026-10-04'
+  sources:
+  - 1880
+  - 1808
+  - 1800
+  - 1805
+  - 246
+  - 1823
+  - 1894
+  sweep: rules-A
+- id: notice-of-funding-opportunity
+  name: 'Notice of funding opportunity: required content and time open'
+  what: A notice of funding opportunity is the formal announcement that federal funding is available through a financial
+    assistance programme [1799]. The Uniform Guidance fixes what a notice must contain, in what order, and how long it is
+    expected to stay open [1800] [1848]. A summary of each notice is displayed on Grants.gov ahead of the full text [1800].
+  rule: '2 CFR 200.204(a) lists the summary items: agency name, opportunity title, announcement type, funding opportunity
+    number, Assistance Listing number, funding details, key dates, an executive summary and agency contact information [1800].
+    2 CFR 200.204(b) sets a standard of at least 60 calendar days open for application, allows a shorter period, and states
+    that no opportunity is to be open for fewer than 30 calendar days unless the agency determines that exigent circumstances
+    justify it; the paragraph is worded as an expectation ("should"), not as a requirement [1800]. Appendix I sets nine
+    sections for the full text: Basic Information; Eligibility; Program Description; Application Contents and Format; Submission
+    Requirements and Deadlines; Application Review Information; Award Notices; Post-Award Requirements and Administration;
+    and Other Information, which is optional [1848]. The notice must state whether cost sharing is required, and say so
+    if it is not; must list every type of eligible applicant; must describe each review criterion and its relative weight
+    where weights differ; must describe the risk review under 200.206; and must state the agency''s policies on indirect
+    cost rate reimbursement [1848] [1802]. The notice must be written in plain language [1848]. The eCFR''s version record
+    for part 200, read on 2026-10-04, lists no issue of 200.204 after the amendment dated October 1, 2024 [2103].'
+  figures:
+  - label: standard period open
+    value: at least 60 calendar days
+    cite:
+    - 1800
+  - label: floor absent exigent circumstances
+    value: 30 calendar days
+    cite:
+    - 1800
+  - label: executive summary
+    value: at most 500 words
+    cite:
+    - 1848
+  - label: Federal share above which the notice must mention appendix XII reporting
+    value: $500,000
+    cite:
+    - 1848
+  applies_to: Discretionary grant and cooperative agreement programmes of every federal agency [1800].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule would require every federal funding opportunity to be posted on Grants.gov, with an exception
+      an agency head may approve where public announcement poses a national security risk, and would revise Appendix I [1803]
+      [1458].
+  - status: final
+    date: '2025-08-07'
+    text: Executive Order 14332 requires a senior appointee to review new funding opportunity announcements before they
+      issue [246].
+  - status: proposed
+    date: '2026-05-29'
+    text: 'Read in the Federal Register text of OMB''s proposal: 200.204 would require agencies to announce funding opportunities
+      publicly for all discretionary awards, not only those openly competed, with opportunities posted for no less than
+      30 days unless exigent circumstances exist; 200.205 would require the merit review process, including a pre-issuance
+      review, to be described in the notice; 200.111 would require announcements and applications to be in English and in
+      U.S. dollars [2092] [2093].'
+  official_url: https://www.ecfr.gov/current/title-2/section-200.204
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1800
+  - 1848
+  - 1802
+  - 1803
+  - 246
+  - 1878
+  - 2103
+  - 2092
+  - 2093
+  sweep: rules-A
+- id: uniform-guidance-2-cfr-200
+  name: The Uniform Guidance (2 CFR part 200)
+  what: The Uniform Guidance is the government-wide set of administrative requirements, cost principles and audit requirements
+    for federal awards, issued by the Office of Management and Budget as 2 CFR part 200 [1799] [1805]. The text in force
+    on 2026-10-04 is the revision published April 22, 2024 at 89 FR 30046, effective October 1, 2024 [1883] [1801]. A proposed
+    replacement was published May 29, 2026 and, under section 157 of Public Law 119-103, may not be issued or take effect
+    through December 11, 2026 [1458] [1480].
+  rule: 'Subpart A holds definitions and subpart B general provisions; both apply to all federal financial assistance [1805].
+    Subparts C (pre-award) and D (post-award) apply to grants and cooperative agreements; subpart E (cost principles) applies
+    to them except fixed amount awards and certain other cases; subpart F (audit) applies to grants and cooperative agreements,
+    cost-type contracts and other assistance under the Single Audit Act [1805]. The part binds federal agencies that make
+    awards and, through the award terms, recipients and subrecipients; the terms flow down to subawards unless a section
+    or the award says otherwise [1805]. A federal statute or regulation governs where it conflicts with the part [1805].
+    An agency may apply subparts A to E to for-profit organisations, foreign public entities and foreign organisations where
+    its regulations or a statute allow [1805]. Under 200.110 the standards take effect once implemented by federal agencies
+    or when an amendment becomes final [1806]. Each agency adopts the part in its own chapter of 2 CFR; HHS, for example,
+    adopts it at 2 CFR 300.106 with additions, and applied it from October 1, 2025 in place of 45 CFR part 75 [1884] [528]
+    [65]. In the text "must" marks a requirement and "should" or "may" a discretionary matter [1805]. Checked on 2026-10-04:
+    the eCFR showed title 2 as up to date as of 10/01/2026 and last amended 8/17/2026 [2102] [1940]. The eCFR''s version
+    record for part 200 gives October 1, 2024 as the latest amendment date of the part and lists four later issues, each
+    marked not substantive: section 200.1, section 200.405, Appendix VII and Appendix XII [2103]. The source note of 200.1
+    reads 89 FR 30136, April 22, 2024, as amended at 89 FR 79732, October 1, 2024 [2102]. The Federal Register index holds
+    two rule documents citing 2 CFR part 200 since April 23, 2024, both from 2024, one of them OMB''s corrections of October
+    1, 2024, and none dated 2025 or 2026 [2094]. Six rule documents citing title 2 were published from January 1, 2025 to
+    2026-10-04, all in agency chapters of Subtitle B; the one effective August 17, 2026 is the Department of Energy''s rule
+    adding subpart C to 2 CFR part 910 [2095] [2096].'
+  figures:
+  - label: revision in force
+    value: 89 FR 30046, published April 22, 2024, effective October 1, 2024
+    cite:
+    - 1883
+  - label: earliest date an agency could apply the 2024 revision
+    value: June 21, 2024
+    cite:
+    - 1883
+  - label: date HHS moved to 2 CFR part 200
+    value: October 1, 2025
+    cite:
+    - 528
+  - label: eCFR currency of title 2 when read on 2026-10-04
+    value: up to date as of 10/01/2026; title 2 last amended 8/17/2026
+    cite:
+    - 2102
+    - 1940
+  - label: latest amendment date of part 200 in the eCFR version record
+    value: '2024-10-01'
+    cite:
+    - 2103
+  applies_to: Federal agencies, recipients and subrecipients of grants and cooperative agreements; universities and non-profits
+    alike [1805]. Block grants under the 1981 reconciliation act and listed entitlement programmes are partly outside it
+    [1805].
+  pending_changes:
+  - status: frozen-by-appropriations
+    date: '2026-09-02'
+    text: OMB's proposed "Regulation for Federal Financial Assistance" (91 FR 32198, May 29, 2026) would replace the guidance
+      with a regulation; section 157 of Public Law 119-103 bars issuing or giving effect to a rule arising from it through
+      December 11, 2026 [1458] [1480]. See omb-2-cfr-revision-2026 [1458].
+  official_url: https://www.ecfr.gov/current/title-2/part-200
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1805
+  - 1806
+  - 1883
+  - 1801
+  - 1458
+  - 1480
+  - 1884
+  - 528
+  - 65
+  - 2102
+  - 1940
+  - 2103
+  - 2094
+  - 2095
+  - 2096
+  sweep: rules-A
+  note: Most sections were read in the annual edition of 2 CFR revised as of January 1, 2025 on govinfo, because eCFR returned
+    rate-limit and server errors; each eCFR section that did load showed 89 FR 30136, April 22, 2024 as its latest source
+    and was current to 10/01/2026 [1801] [1802] [1800].
+- id: pre-award-risk-review
+  name: Pre-award risk review and specific conditions
+  what: Before it makes an award a federal agency reviews the risk the applicant poses [1809]. The review can end in an
+    award with extra conditions attached [1886]. The criteria the agency uses must be described in the funding announcement
+    [1809].
+  rule: 'Under 2 CFR 200.206(a) the agency checks eligibility and financial integrity information in OMB-designated databases,
+    and reviews the non-public segment of SAM.gov where the Federal share is expected to exceed the simplified acquisition
+    threshold over the period of performance [1809]. Under 200.206(b) the agency keeps written procedures for a risk assessment,
+    which may consider financial stability, management systems and standards, history of performance, audit reports and
+    findings, and the ability to implement requirements effectively [1809]. The assessment may be changed at any time during
+    the period of performance [1809]. Under 200.206(d) awards, subawards and contracts with debarred, suspended or excluded
+    parties are restricted under 2 CFR part 180 [1809]. Under 200.208 the agency or pass-through entity may impose specific
+    conditions: payment by reimbursement instead of advance, withholding authority to proceed to the next phase, more detailed
+    financial reports, additional monitoring, required technical or management assistance, or additional prior approvals
+    [1886]. The agency must tell the recipient the nature of the condition, the reason, the action needed, the time allowed
+    and how to ask for reconsideration, and must remove the condition promptly once it is satisfied [1886].'
+  figures: []
+  applies_to: Every applicant for a federal grant or cooperative agreement; a pass-through entity runs a parallel review
+    of each subrecipient under 200.332 [1809] [1823].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists revisions to 200.206 and 200.208 [1458]. An association summary says the revised 200.206
+      would add review of an applicant's practices from publicly available information, of foreign gift disclosure compliance
+      and of affiliations [1878].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.206
+  as_of: '2026-10-04'
+  sources:
+  - 528
+  - 619
+  - 1458
+  - 1809
+  - 1823
+  - 1878
+  - 1886
+  - 2023
+  - 2072
+  sweep: rules-A
+  variants:
+  - what: 'Before making an award a federal agency reviews the risk an applicant poses [2023]. '
+    rule: '2 CFR 200.206: the agency reviews eligibility and financial integrity information in governmentwide databases
+      and, for awards above the simplified acquisition threshold, the responsibility and qualification records in the non-public
+      segment of SAM.gov [2023]. The section lists what an agency is to consider: financial stability, the quality of management
+      systems and the ability to meet management standards, history of performance on federal awards, audit reports and
+      findings, and the ability to implement requirements [2023]. The agency may adjust its assessment during the award
+      and change the award''s terms [2023].'
+    figures: []
+    applies_to: All applicants for federal financial assistance [2023]. HHS describes its review as a cost analysis of the
+      budget, an assessment of management systems, a final review of eligibility and a check of compliance with public policy
+      requirements [528]. NSF asks a prospective new awardee for audited financial statements from the previous two years,
+      income statements, statements of cash flows, federal tax returns and a completed Financial Management System Questionnaire
+      [2072]. The Office of Justice Programs has every applicant other than an individual complete a Financial Management
+      and System of Internal Controls Questionnaire in JustGrants, which asks whether any federal agency has designated
+      the applicant high risk; for awards exceeding $250,000 it also reviews the applicant's records in SAM.gov [619].
+    pending_changes: []
+    sources:
+    - 2023
+    - 528
+    - 2072
+    - 619
+    sweep: rules-C
+- id: financial-management-standards
+  name: Financial management standards for recipients
+  what: A recipient's accounting system has to be able to show, award by award, what federal money came in and how it was
+    spent [1811]. The standard is in 2 CFR 200.302, and the payment rules that go with it are in 200.305 [1811] [1813].
+  rule: '2 CFR 200.302(b) requires a system that provides: identification of every federal award received and expended and
+    its programme; accurate, current and complete disclosure of financial results; records that identify the amount, source
+    and expenditure of federal funds; effective control over and accountability for all funds, property and assets; comparison
+    of expenditures with budget amounts; written procedures to implement the payment rules in 200.305; and written procedures
+    for determining the allowability of costs [1811]. States account for awards under their own laws and procedures [1811].
+    Under 200.305 advance payments are limited to the minimum amounts needed and timed to actual, immediate cash requirements;
+    where payment is by reimbursement the agency or pass-through entity pays within 30 calendar days of receiving the request
+    [1813]. Advances are kept in interest-bearing accounts unless the recipient receives less than $250,000 in federal funding
+    a year or the account would not be expected to earn more than $500 a year, and up to $500 a year of interest may be
+    kept for administrative expenses [1813]. The eCFR''s version record for part 200, read on 2026-10-04, gives October
+    1, 2024 as the latest amendment date of the part; the only later issues are of 200.1, 200.405, Appendix VII and Appendix
+    XII, each marked not substantive [2103].'
+  figures:
+  - label: payment under reimbursement
+    value: within 30 calendar days after receipt of the payment request
+    cite:
+    - 1813
+  - label: federal funding per year below which an interest-bearing account is not required
+    value: $250,000
+    cite:
+    - 1813
+  - label: interest that may be retained per year
+    value: $500
+    cite:
+    - 1813
+  applies_to: Recipients and subrecipients other than States [1811].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule would revise 200.305 so that federal agencies and pass-through entities require a justification
+      for payment requests [1803]. Executive Order 14332 already directs agencies to require written explanation for each
+      drawdown on discretionary grants [246].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.302
+  as_of: '2026-10-04'
+  sources:
+  - 246
+  - 528
+  - 1803
+  - 1811
+  - 1813
+  - 1845
+  - 2068
+  - 2103
+  sweep: rules-A
+  variants:
+  - what: A recipient's accounting system has to be able to do seven things listed in the Uniform Guidance; an agency checks
+      an applicant's system against them before a first award [2068] [528].
+    rule: '2 CFR 200.302(b): the system identifies all federal awards received and expended; gives accurate, current and
+      complete disclosure of the financial results of each award; keeps records that identify the amount, source and expenditure
+      of federal funds; keeps effective control over and accountability for all funds, property and assets; compares expenditures
+      with budget amounts for each award; and has written procedures for payments and for determining the allowability of
+      costs [2068].'
+    figures: []
+    applies_to: Recipients and subrecipients of federal awards [2068]. HHS says its staff look for policies and procedures
+      applied consistently whatever the source of funds, and for systems that meet 2 CFR 200.302 [528].
+    pending_changes: []
+    sources:
+    - 2068
+    - 528
+    sweep: rules-C
+- id: internal-controls
+  name: Internal controls
+  what: Internal controls are the processes that give reasonable assurance that an award is managed in compliance with federal
+    statutes, regulations and the award terms [1812]. 2 CFR 200.303 makes them a duty of every recipient and subrecipient
+    [1812].
+  rule: 2 CFR 200.303 requires a recipient or subrecipient to establish, document and maintain effective internal control
+    over the award; to comply with the Constitution, federal statutes, regulations and the award terms; to evaluate and
+    monitor its own compliance; to take prompt action when noncompliance is identified; and to take reasonable cybersecurity
+    and other measures to safeguard information, including protected personally identifiable information [1812]. The eCFR's
+    version record for part 200, read on 2026-10-04, gives October 1, 2024 as the latest amendment date of the part; the
+    only later issues are of 200.1, 200.405, Appendix VII and Appendix XII, each marked not substantive [2103].
+  figures: []
+  applies_to: Recipients and subrecipients of federal awards [1812].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists a revision to 200.303 [1458].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.303
+  as_of: '2026-10-04'
+  sources:
+  - 1812
+  - 1458
+  - 1877
+  - 2103
+  sweep: rules-A
+- id: cost-sharing-uniform-guidance
+  name: Cost sharing and matching under the Uniform Guidance
+  what: Cost sharing, also called matching, is the part of project cost not paid by federal funds [1880]. Whether a programme
+    requires it is stated in the funding notice, which must also say so when it is not required [1848]. For research grants
+    the Uniform Guidance says voluntary committed cost sharing is not expected [1814].
+  rule: Under 2 CFR 200.306(a) an agency may not use voluntary committed cost sharing as a factor in merit review of research
+    proposals unless a statute or agency regulation authorises it and the notice says so [1814]. Under 200.306(b) a contribution
+    counts as cost sharing only if it is verifiable in the recipient's records, is not counted for any other federal award,
+    is necessary and reasonable, is allowable under subpart E, is not paid by the Federal Government under another award
+    unless a statute allows it, is in the approved budget when the agency requires, and conforms to the rest of the part
+    [1814]. Paragraphs (c) to (k) cover unrecovered indirect costs and the valuation and documentation of donated services,
+    property and volunteer time [1814]. A fixed amount award may not be used in a programme that requires cost sharing [1807].
+    A change in approved cost sharing needs prior approval [1815]. The eCFR page for 200.306 returned rate-limit errors
+    twice on 2026-10-04 and was not re-read there; the eCFR's version record for part 200 gives October 1, 2024 as the latest
+    amendment date of the part and lists no later issue of 200.306 [2103].
+  figures: []
+  applies_to: Any award whose statute, regulation or notice requires a non-federal share; the pack records programme-specific
+    rules under ids such as nsf-cost-sharing, nifa-matching and nea-one-to-one-cost-share [1814].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists a revision to 200.306 [1458].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.306
+  as_of: '2026-10-04'
+  sources:
+  - 1880
+  - 1848
+  - 1814
+  - 1807
+  - 1815
+  - 1458
+  - 2103
+  sweep: rules-A
+- id: period-of-performance-and-pre-award-costs
+  name: Period of performance, budget period and pre-award costs
+  what: The period of performance is the time between the start and end date of an award, and it may contain one or more
+    budget periods [1799]. A budget period is the funded portion during which the recipient is authorised to incur financial
+    obligations [1799]. Both pairs of dates are printed in the award document [1810]. Costs incurred before the start date
+    are pre-award costs and are allowable only on the terms below [1843].
+  rule: Under 2 CFR 200.403(h) costs must be incurred during the approved budget period, except administrative closeout
+    costs, which may be incurred until the due date of the final reports [1831]. Under 200.458 pre-award costs are those
+    incurred before the start date directly pursuant to the negotiation and in anticipation of the award, where necessary
+    for efficient and timely performance; they are allowable only to the extent they would have been allowable after the
+    start date and only with the agency's written approval [1843]. Under 200.308 an agency may waive that approval so that
+    a recipient may incur project costs up to 90 calendar days before the award date, may let a recipient start a one-time
+    extension of the period of performance of up to 12 months on notice at least 10 calendar days before the period ends,
+    and may let unobligated balances be carried forward to later budget periods [1815]. Under 200.309 an extension moves
+    the end date, a termination ends the period on its effective date, and a renewal award begins a new and distinct period
+    of performance [1816]. A funding notice must tell applicants that work begun before the award is at the applicant's
+    own risk [1848]. The eCFR's version record for part 200, read on 2026-10-04, gives October 1, 2024 as the latest amendment
+    date of the part; the only later issues are of 200.1, 200.405, Appendix VII and Appendix XII, each marked not substantive
+    [2103]. The eCFR text of 200.308 current to 10/01/2026 has the same 90-day pre-award period and the same one-time extension
+    of up to 12 months [2118].
+  figures:
+  - label: pre-award costs an agency may authorise without case-by-case approval
+    value: 90 calendar days before the Federal award date
+    cite:
+    - 1815
+    - 2118
+  - label: one-time extension
+    value: up to 12 months, with notice at least 10 calendar days before the end of the period of performance
+    cite:
+    - 1815
+    - 2118
+  applies_to: All awards under Part 200; each agency's terms say which approvals it has waived, as in the pack's record
+    nsf-no-cost-extension [1815].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.308
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1810
+  - 1831
+  - 1843
+  - 1815
+  - 1816
+  - 1848
+  - 2103
+  - 2118
+  sweep: rules-A
+- id: prior-approval-requirements
+  name: Prior approval requirements
+  what: 'Some changes to a funded project, and some kinds of cost, need the agency''s written approval before the recipient
+    acts [1815] [1834]. The Uniform Guidance lists them in two places: 200.308 for changes to the budget and programme,
+    and 200.407 for cost items [1815] [1834].'
+  rule: 2 CFR 200.308 requires prior approval for a change in scope or objective; a change in key personnel; disengagement
+    of the project director for more than three months or a 25 percent reduction in time; costs that need approval under
+    subpart E; transfer of participant support costs to other categories; subawarding work not in the approved application;
+    changes in approved cost sharing; a need for additional federal funds; and a no-cost extension beyond the one-time extension
+    [1815]. An agency may also restrict transfers among cost categories where the Federal share exceeds the simplified acquisition
+    threshold and the cumulative transfer exceeds or is expected to exceed 10 percent of the total budget [1815]. The agency
+    must tell the recipient within 30 days of receipt whether a requested revision is approved [1815]. 2 CFR 200.407 lists
+    sixteen sections where prior written approval is a condition of allowability, among them 200.306 cost sharing, 200.307
+    program income, 200.333 fixed amount subawards, 200.430(h) compensation, 200.431 fringe benefits, 200.439 equipment,
+    200.455 organization costs, 200.458 pre-award costs and 200.475 travel [1834]. For indirect costs the approval comes
+    from the cognizant agency for indirect costs [1834]. Absence of prior approval does not by itself make a cost unreasonable
+    or unallocable unless one of the listed sections requires it [1834]. The eCFR's version record for part 200, read on
+    2026-10-04, gives October 1, 2024 as the latest amendment date of the part; the only later issues are of 200.1, 200.405,
+    Appendix VII and Appendix XII, each marked not substantive [2103]. The eCFR text of 200.308 current to 10/01/2026 has
+    the same figures on project director time, budget transfers and the 30-day agency response [2118].
+  figures:
+  - label: reduction in project director time that needs approval
+    value: 25 percent, or disengagement for more than three months
+    cite:
+    - 1815
+    - 2118
+  - label: budget transfer an agency may restrict
+    value: more than 10 percent of the total budget where the Federal share exceeds the simplified acquisition threshold
+    cite:
+    - 1815
+    - 2118
+  - label: agency response time
+    value: within 30 days of receipt
+    cite:
+    - 1815
+    - 2118
+  - label: special purpose equipment needing prior approval
+    value: unit cost of $10,000 or more
+    cite:
+    - 1839
+  applies_to: Recipients of grants and cooperative agreements; a subrecipient asks its pass-through entity [1815]. During
+    a lapse in appropriations NIH does not review prior approval requests [1872].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.407
+  as_of: '2026-10-04'
+  sources:
+  - 1815
+  - 1834
+  - 1839
+  - 1872
+  - 2103
+  - 2118
+  sweep: rules-A
+- id: recipient-procurement-standards
+  name: Procurement by recipients (2 CFR 200.317 to 200.327)
+  what: 'When a recipient spends award money on goods or services it follows the procurement standards in the Uniform Guidance,
+    not the Federal Acquisition Regulation [1817]. The standards scale with the size of the purchase: micro-purchases, simplified
+    acquisitions, and formal sealed bids or proposals [1819]. This record gives the outline only [1818].'
+  rule: 'A State or Indian Tribe follows the procedures it uses for its own funds; every other recipient and subrecipient,
+    including a subrecipient of a State, follows 200.318 to 200.327 [1817]. Under 200.318 a recipient keeps documented procurement
+    procedures, oversees its contractors, keeps written standards of conduct on conflicts of interest, avoids unnecessary
+    or duplicative purchases, awards only to responsible contractors and keeps records that detail the history of each procurement
+    [1818]. Under 200.320 a micro-purchase may be made without competitive quotations if the price is considered reasonable
+    and that is documented; a simplified acquisition needs price or rate quotations from an adequate number of qualified
+    sources; above the simplified acquisition threshold sealed bids or competitive proposals are used [1819]. The micro-purchase
+    and simplified acquisition thresholds are those set by the Federal Acquisition Regulation at 48 CFR part 2, subpart
+    2.1 [1799]. FAR 2.101, as shown on Acquisition.gov with an effective date of March 13, 2026, sets the micro-purchase
+    threshold at $15,000, with other amounts for construction, services and emergencies; the simplified acquisition threshold
+    figure was not reached in this sweep [1890]. A recipient may self-certify a micro-purchase threshold of up to $50,000
+    if it is a low-risk auditee, has an annual internal institutional risk assessment, or, for a public institution, State
+    law is consistent with it; a higher threshold needs approval from the cognizant agency for indirect costs [1819]. Noncompetitive
+    procurement is allowed in five cases: a micro-purchase; a single source; public exigency or emergency; written approval
+    from the agency or pass-through entity; or inadequate competition after soliciting several sources [1819]. Equipment
+    is tangible personal property with a useful life of more than one year and a unit cost at or above the lesser of the
+    recipient''s own capitalisation level or $10,000 [1799]. The eCFR text of 200.320 current to 10/01/2026 has the same
+    $50,000 ceiling for a self-certified micro-purchase threshold, with approval by the cognizant agency for indirect costs
+    above it [2091]. In the eCFR text of 200.1 the definitions of micro-purchase threshold and simplified acquisition threshold
+    print no dollar figure: they refer to 200.320 and to the amounts set in the FAR at 48 CFR part 2, subpart 2.1, and the
+    recipient or subrecipient sets a simplified acquisition threshold no higher than the FAR value [2102].'
+  figures:
+  - label: micro-purchase threshold (FAR 2.101, effective March 13, 2026)
+    value: $15,000
+    cite:
+    - 1890
+  - label: self-certified micro-purchase threshold
+    value: up to $50,000
+    cite:
+    - 1819
+    - 2091
+  - label: equipment threshold
+    value: $10,000 per unit, or the recipient's lower capitalisation level
+    cite:
+    - 1799
+    - 2102
+  applies_to: Recipients and subrecipients other than States and Indian Tribes, which follow their own procedures plus 200.321,
+    200.322, 200.323 and 200.327 [1817].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists revisions to 200.318, 200.320, 200.321 (contracting with small businesses), 200.322
+      (domestic preferences), 200.323 (recovered materials) and 200.324 (contract cost and price) [1458].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.317
+  as_of: '2026-10-04'
+  sources:
+  - 1817
+  - 1818
+  - 1819
+  - 1799
+  - 1458
+  - 1890
+  - 2091
+  - 2102
+  sweep: rules-A
+- id: reporting-and-record-retention
+  name: Financial and performance reporting, and record retention
+  what: A recipient reports to the agency on money and on progress at intervals the award sets, and keeps its records for
+    a fixed time after the last report [1820] [1821] [1825]. The Uniform Guidance sets the outer limits on frequency and
+    the due dates [1820].
+  rule: Under 2 CFR 200.328 financial reports use OMB-approved data elements such as the Federal Financial Report (SF-425),
+    and are collected no less than annually and no more often than quarterly [1820]. Under 200.329 performance reports follow
+    the same limits unless specific conditions apply; they compare accomplishments with objectives, explain why goals were
+    not met, and explain cost overruns [1821]. For both kinds, an annual report is due no later than 90 calendar days after
+    the reporting period, a quarterly or semiannual report no later than 30 calendar days after, and the final report no
+    later than 120 calendar days after the period of performance, or 90 calendar days for a subrecipient [1820] [1821].
+    A recipient must tell the agency of a significant development between reports [1821]. Under 200.334 records are kept
+    for three years from the date the final financial report is submitted [1825]. The period runs longer while litigation,
+    a claim or an audit finding is unresolved, or when the agency extends it in writing; property and equipment records
+    are kept for three years after final disposition [1825]. Financial reports and payment requests carry a signed certification
+    under 200.415 [1885]. The eCFR's version record for part 200, read on 2026-10-04, gives October 1, 2024 as the latest
+    amendment date of the part; the only later issues are of 200.1, 200.405, Appendix VII and Appendix XII, each marked
+    not substantive [2103]. The eCFR text of 200.328 current to 10/01/2026 has the same 90-day, 30-day and 120-day deadlines
+    [2117].
+  figures:
+  - label: annual interim report due
+    value: no later than 90 calendar days after the reporting period
+    cite:
+    - 1820
+    - 2117
+  - label: quarterly or semiannual report due
+    value: no later than 30 calendar days after the reporting period
+    cite:
+    - 1820
+    - 2117
+  - label: final report due (recipient)
+    value: no later than 120 calendar days after the period of performance
+    cite:
+    - 1820
+    - 2117
+  - label: final report due (subrecipient)
+    value: no later than 90 calendar days after the period of performance
+    cite:
+    - 1820
+    - 2117
+  - label: record retention
+    value: three years from submission of the final financial report
+    cite:
+    - 1825
+  applies_to: Recipients and subrecipients; each agency's terms name the forms and the system used [1820].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists revisions to 200.329, 200.336 and 200.338 [1458].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.328
+  as_of: '2026-10-04'
+  sources:
+  - 1820
+  - 1821
+  - 1825
+  - 1885
+  - 1458
+  - 2103
+  - 2117
+  sweep: rules-A
+- id: award-closeout
+  name: Closeout
+  what: Closeout is the process by which the agency or pass-through entity determines that the administrative work of an
+    award is complete [1830]. It follows the end of the period of performance, including an end brought about by termination
+    [1801] [1816].
+  rule: Under 2 CFR 200.344 a recipient must submit all financial, performance and other reports, and liquidate all financial
+    obligations, no later than 120 calendar days after the end of the period of performance; a subrecipient has 90 calendar
+    days [1830]. Funds paid and not authorised to be retained must be refunded promptly [1830]. The agency must make every
+    effort to complete closeout actions no later than one year after the end of the period of performance [1830]. Where
+    a recipient does not comply, the agency must report the material failure in SAM.gov [1830]. Administrative closeout
+    costs may be incurred until the due date of the final reports [1831]. After a termination both parties remain responsible
+    for closeout under 200.344 and for later adjustments under 200.345 [1801]. The eCFR page for 200.344 returned server
+    errors twice on 2026-10-04 and was not re-read there; the eCFR's version record for part 200 gives October 1, 2024 as
+    the latest amendment date of the part and lists no later issue of 200.344 [2103].
+  figures:
+  - label: recipient reports and liquidation
+    value: no later than 120 calendar days after the period of performance
+    cite:
+    - 1830
+  - label: subrecipient reports and liquidation
+    value: no later than 90 calendar days
+    cite:
+    - 1830
+  - label: agency closeout target
+    value: no later than one year after the end of the period of performance
+    cite:
+    - 1830
+  applies_to: Every award and subaward under Part 200 [1830].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.344
+  as_of: '2026-10-04'
+  sources:
+  - 1830
+  - 1801
+  - 1816
+  - 1831
+  - 2103
+  sweep: rules-A
+- id: cost-principles
+  name: 'Cost principles: allowable, reasonable, allocable'
+  what: The cost principles in subpart E of the Uniform Guidance decide what an award may pay for [1831]. A cost charged
+    to an award has to be allowable, and to be allowable it has to be reasonable and allocable, among other tests [1831].
+    Subpart E then gives rules for named items of cost, of which a few are outlined here [1834].
+  rule: 'Under 2 CFR 200.403 a cost must be necessary and reasonable and allocable to the award; conform to limits in the
+    principles or the award; be consistent with policies the organisation applies to its non-federal activities; be treated
+    consistently as direct or indirect; follow generally accepted accounting principles; not be used as cost sharing for
+    another federal programme; be adequately documented; and be incurred in the approved budget period [1831]. Under 200.404
+    a cost is reasonable if it does not exceed what a prudent person would incur in the circumstances when the decision
+    was made [1832]. Under 200.405 a cost is allocable to an award according to the relative benefits received, and a cost
+    allocable to one federal award may not be moved to another to overcome a funding shortfall [1833]. Under 200.413 direct
+    costs are those identified specifically with a final cost objective such as an award; salaries of administrative and
+    clerical staff may be charged directly only if the services are integral to the award, the individuals can be specifically
+    identified with it, and the costs are not also recovered as indirect costs [1835]. Selected items: compensation (200.430)
+    is allowable when reasonable, consistent with the organisation''s policy and supported by records that reflect the work
+    performed, and budget estimates alone do not qualify as support [1837]; alcoholic beverages are unallowable (200.423)
+    [1836]; entertainment is unallowable unless it has a specific and direct programmatic purpose and is in the award (200.438)
+    [1838]; equipment and other capital expenditures are unallowable as indirect costs, and special purpose equipment with
+    a unit cost of $10,000 or more needs prior written approval (200.439) [1839]; organised fundraising is unallowable (200.442)
+    [1840]; lobbying costs are unallowable, with further restrictions for non-profits and institutions of higher education
+    (200.450) [1841]; participant support costs are allowable and are left out of the indirect cost base (200.456, 200.1)
+    [1842] [1799]; travel is allowable within the organisation''s written policy, and airfare above the least expensive
+    unrestricted class is unallowable with five exceptions (200.475) [1844]. The eCFR''s version record for part 200, read
+    on 2026-10-04, gives October 1, 2024 as the latest amendment date of the part; the only later issues are of 200.1, 200.405,
+    Appendix VII and Appendix XII, each marked not substantive [2103].'
+  figures:
+  - label: special purpose equipment needing prior approval
+    value: unit cost of $10,000 or more
+    cite:
+    - 1839
+  - label: sections where prior approval conditions allowability
+    value: 16, listed in 200.407
+    cite:
+    - 1834
+  applies_to: Grants and cooperative agreements to universities, non-profits, states, local governments and tribes; not
+    fixed amount awards (with limited exceptions) or awards to hospitals, which have their own principles [1805].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists revisions to 200.400, 200.401, 200.421, 200.429, 200.432, 200.438, 200.442, 200.444,
+      200.450, 200.454, 200.455, 200.461 and 200.467, and a new 200.477 headed Abortion [1458]. An association summary says
+      advertising and public relations costs would become unallowable with limited exceptions, conference costs allowable
+      only if expressly approved, membership costs subject to prior approval, and publication costs unallowable unless a
+      statute expressly requires them [1878].
+  official_url: https://www.ecfr.gov/current/title-2/part-200/subpart-E
+  as_of: '2026-10-04'
+  sources:
+  - 1831
+  - 1832
+  - 1833
+  - 1834
+  - 1835
+  - 1836
+  - 1837
+  - 1838
+  - 1839
+  - 1840
+  - 1841
+  - 1842
+  - 1844
+  - 1799
+  - 1805
+  - 1458
+  - 1878
+  - 2103
+  sweep: rules-A
+- id: remedies-for-noncompliance
+  name: Remedies for noncompliance
+  what: When a recipient fails to comply with the Constitution, a federal statute or regulation, or the award terms, the
+    agency or pass-through entity has a graded set of remedies short of and including termination [1826]. The first step
+    is specific conditions under 200.208 [1826] [1886].
+  rule: 'Under 2 CFR 200.339 the agency or pass-through entity may impose specific conditions, and where noncompliance cannot
+    be remedied that way it may: temporarily withhold payments until corrective action is taken; disallow costs for all
+    or part of the activity; suspend or terminate the award in part or in its entirety; initiate suspension or debarment
+    proceedings under 2 CFR part 180; withhold further federal funds, whether new awards or continuation funding, for the
+    project or programme; or pursue other legally available remedies [1826]. Under 200.342, on initiating a remedy the agency
+    must give the recipient an opportunity to object and to provide information challenging the action [1828]. Under 200.343
+    costs from obligations incurred during a suspension or after termination are unallowable unless expressly authorised,
+    except obligations properly incurred before the effective date and not in anticipation of it [1829]. The eCFR''s version
+    record for part 200, read on 2026-10-04, gives October 1, 2024 as the latest amendment date of the part; the only later
+    issues are of 200.1, 200.405, Appendix VII and Appendix XII, each marked not substantive [2103].'
+  figures: []
+  applies_to: Recipients and subrecipients under Part 200 [1826].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists revisions to 200.339 and 200.343, and retitles 200.340 "Termination and Suspension"
+      [1458].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.339
+  as_of: '2026-10-04'
+  sources:
+  - 1826
+  - 1886
+  - 1828
+  - 1829
+  - 1458
+  - 2103
+  sweep: rules-A
+- id: award-termination
+  name: Termination of an award (2 CFR 200.340)
+  what: Termination is the action an agency or pass-through entity takes to end an award, in whole or in part, before the
+    planned end of the period of performance [1799]. 2 CFR 200.340 lists four ways an award may be terminated and requires
+    every termination provision to be stated in the award terms [1801]. The fourth ground, for an award that "no longer
+    effectuates the program goals or agency priorities", is the ground that NSF's public statements and NIH's award terms
+    use for priority-based terminations, and it is the subject of a July 2026 court ruling [1801] [154] [65] [1869].
+  rule: 'Under 2 CFR 200.340(a) an award may be terminated: (1) by the agency or pass-through entity if the recipient fails
+    to comply with the terms and conditions; (2) by the agency or pass-through entity with the recipient''s consent, on
+    agreed conditions; (3) by the recipient, on written notice giving the reasons and effective date; or (4) by the agency
+    or pass-through entity pursuant to the terms and conditions of the award, including, to the extent authorised by law,
+    if an award no longer effectuates the programme goals or agency priorities [1801]. Under 200.340(b) the agency or pass-through
+    entity must clearly and unambiguously specify all termination provisions in the award terms [1801]. Under 200.341 the
+    agency must give written notice, which is to state the reasons, the effective date and the portion terminated [1827].
+    Where termination is for material failure to comply, the agency reports it in SAM.gov, where it stays available for
+    five years, and the recipient may post comments there [1801] [1827]. Under 200.343 costs after termination are allowable
+    only if they result from obligations properly incurred before the effective date and not in anticipation of it, or are
+    expressly authorised [1829]. After termination both sides remain responsible for closeout [1801]. The District of Massachusetts
+    declared on July 17, 2026 that 200.340(a)(4), and its 2021 predecessor 200.340(a)(2), do not allow termination based
+    on new programme goals or agency priorities identified after the award was made [1869]. A second reading of 200.340
+    on the eCFR on 2026-10-04, in the text current to 10/01/2026, returned the same four grounds; paragraph (c) has a termination
+    for material noncompliance reported in SAM.gov only after the recipient has exhausted its opportunities to object or
+    30 calendar days have passed without notice of an appeal [1801].'
+  figures:
+  - label: termination information kept in SAM.gov
+    value: five years from the date of termination, then archived
+    cite:
+    - 1827
+  applies_to: 'All awards that incorporate Part 200 [1801]. Agency terms restate the clause: NIH''s terms from October 1,
+    2025 cite 200.340(a)(4), and say a term NIH is enjoined from imposing does not apply to recipients a court order covers
+    [65].'
+  pending_changes:
+  - status: in-litigation
+    date: '2026-07-17'
+    text: In State of New Jersey v. U.S. Office of Management and Budget the District of Massachusetts granted a declaratory
+      judgment that the clause does not allow terminations based on new programme goals or agency priorities; it granted
+      no vacatur or injunction, and whether the judgment was appealed was not found [1869] [722].
+  - status: final
+    date: '2025-08-07'
+    text: Executive Order 14332 directs OMB to revise the Uniform Guidance so that discretionary grants permit termination
+      for convenience, including when an award no longer advances agency priorities or the national interest, and directs
+      agencies to add such terms to existing discretionary grants [246].
+  - status: frozen-by-appropriations
+    date: '2026-05-29'
+    text: OMB's proposed rule would revise 200.340 to 200.343 to clarify agencies' ability to terminate discretionary awards
+      for discretionary reasons consistent with law [1803]. An association summary says the proposal lists five grounds,
+      including federal agency discretion [1878]. Section 157 of Public Law 119-103 bars a final rule through December 11,
+      2026 [1480].
+  - status: proposed
+    date: '2026-05-29'
+    text: 'Read in the Federal Register text of OMB''s proposal: proposed 200.340(a) lists five grounds, numbered (1) noncompliance
+      by the recipient or subrecipient, (2) a determination by the agency or pass-through entity, to the extent permitted
+      by law, that termination is in its interest, including where the award no longer effectuates programme goals, agency
+      priorities or the national interest as they exist at the time of termination, (3) mutual agreement, (4) notification
+      by the recipient or subrecipient and (5) additional termination provisions in the award; a new paragraph (d) would
+      allow a written order to stop work [2093] [2104]. Section 157 of Public Law 119-103 keeps a rule arising from the
+      proposal from being issued or taking effect through December 11, 2026 [1480].'
+  official_url: https://www.ecfr.gov/current/title-2/section-200.340
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1801
+  - 1827
+  - 1829
+  - 154
+  - 1869
+  - 65
+  - 246
+  - 1803
+  - 1878
+  - 1480
+  - 1801
+  - 2093
+  - 2104
+  - 1480
+  sweep: rules-A
+  related:
+  - termination-objections-appeals-and-forums
+  - grants-termination-for-convenience
+  - remedies-for-noncompliance
+  - nih-termination-terms
+  - nsf-termination-terms
+- id: termination-objections-appeals-and-forums
+  name: 'Challenging a termination: objections, agency appeals and the courts'
+  what: 'A recipient whose award is terminated has two kinds of recourse: the procedures of the agency itself, and a suit
+    in federal court [1828] [28]. Agency procedures differ by agency and by the reason given for the termination [1888]
+    [154]. For a court challenge the question since 2025 has been which court: the Supreme Court has twice indicated that
+    a claim to be paid under a terminated grant belongs in the Court of Federal Claims, while a challenge to an agency-wide
+    policy may be heard in a district court [1804] [28].'
+  rule: 'Agency procedures: 2 CFR 200.342 requires each federal agency to keep written procedures for objections, hearings
+    and appeals; on initiating a remedy for noncompliance the agency must give the recipient an opportunity to object and
+    to provide information challenging the action, and must follow any hearing or appeal a statute or regulation provides
+    [1828]. At HHS the Departmental Appeals Board hears, among discretionary grant disputes, a termination for failure to
+    comply with the terms of an award, a disallowance, a denial of a noncompeting continuation for failure to comply, and
+    a voiding, with a 30-day period for the notice of appeal [1888]. NSF states that terminations on the ground that an
+    award no longer effectuates programme goals or agency priorities are the final agency decision and are not appealable
+    to NSF [154]. Supreme Court: In Department of Education v. California (April 4, 2025) the Court stayed a district court
+    order that had required continued payment of terminated teacher-training grants, stating that the APA''s waiver of sovereign
+    immunity does not extend to orders to enforce a contractual obligation to pay money and that the Tucker Act gives the
+    Court of Federal Claims jurisdiction over suits based on a contract with the United States [1804]. In National Institutes
+    of Health v. American Public Health Association (August 21, 2025) the Court stayed the district court judgments that
+    vacated NIH grant terminations and declined to stay the judgments that vacated the NIH guidance documents; Justice Barrett,
+    whose vote decided each part, wrote that the challenge to the guidance belongs in district court and the challenges
+    to the terminations belong in the Court of Federal Claims [28]. Both are orders on stay applications, not final rulings
+    on the merits [1804] [28]. Courts of appeals in 2026: The Fourth Circuit (The Sustainability Institute v. Trump, January
+    21, 2026) vacated injunctions restoring 32 grants, holding that the district court lacked jurisdiction to order relief
+    designed to enforce obligations to pay money under the grants and that the plaintiffs'' constitutional claims were statutory
+    claims [1879]. The First Circuit (Massachusetts v. NIH, January 5, 2026) kept a challenge to NIH''s agency-wide indirect
+    cost policy in district court and affirmed its vacatur [24]. The Ninth Circuit (Thakur v. Trump, May 26, 2026) reversed
+    a class injunction for researchers whose grants were ended by form letter, as an APA claim that is in essence a contract
+    action, and affirmed the injunction for the class whose grants were ended under the DEI executive orders, on a First
+    Amendment claim the Tucker Act does not bar [1867]. District court: In New Jersey v. OMB (July 17, 2026) the District
+    of Massachusetts held that a claim about future terminations under the regulation was properly before it and that challenges
+    to past terminations belong in the Court of Federal Claims [1869]. Court of Federal Claims: The opinions describe that
+    court as able to award money damages for breach and not to reinstate a grant; the Ninth Circuit concurrence notes that
+    a researcher who is not a party to the grant agreement faces a separate obstacle there [28] [1867]. The Federal Circuit
+    held on February 4, 2026 that a grant statute with mandatory "shall award" language was money-mandating under the Tucker
+    Act, in a case about the Restaurant Revitalization Fund [1868].'
+  figures:
+  - label: HHS Departmental Appeals Board notice of appeal
+    value: 30-day period
+    cite:
+    - 1888
+  - label: grants at issue in The Sustainability Institute v. Trump
+    value: '32'
+    cite:
+    - 1879
+  - label: grants at issue in Department of Education v. California
+    value: more than 100 grants, about $65 million remaining (as returned by the fetch)
+    cite:
+    - 1804
+  applies_to: 'Any recipient or subrecipient whose award is terminated [1828]. A court order protects only the parties and
+    classes it names: the Ninth Circuit ruling covers University of California researchers funded by EPA, NSF and NEH; the
+    Fourth Circuit ruling the plaintiffs in that case; the New Jersey v. OMB declaration was sought by twenty States, three
+    governors and the District of Columbia [1867] [1879] [1869].'
+  pending_changes:
+  - status: on-appeal
+    date: '2026-05-26'
+    text: The pack records a petition to the Supreme Court in Thakur v. Trump under c-nsf-2026-05-thakur-ninth-circuit;
+      no Supreme Court merits decision on the forum question was found in this sweep [1867].
+  - status: proposed
+    date: '2026-05-29'
+    text: An association summary says OMB's proposed 200.342 would not require hearing procedures for terminations other
+      than for noncompliance unless a separate law requires them [1878].
+  official_url: https://www.supremecourt.gov/opinions/24pdf/25a103_kh7p.pdf
+  as_of: '2026-10-04'
+  sources:
+  - 1828
+  - 1888
+  - 154
+  - 1804
+  - 28
+  - 1879
+  - 24
+  - 1867
+  - 1869
+  - 1868
+  - 1878
+  sweep: rules-A
+  related:
+  - award-termination
+  - nih-termination-terms
+  - nsf-termination-terms
+  - ch-nih-dab-termination-appeals-2025
+  - nasa-termination-appeal-2025
+  - ch-nih-grant-terminations-litigation
+  - c-nsf-2026-05-thakur-ninth-circuit
+  - ch-re-2025-08-21-scotus-grant-termination-jurisdiction
+- id: single-audit
+  name: Single audit (2 CFR part 200, subpart F)
+  what: A single audit is the audit a non-federal entity must have for any fiscal year in which its spending of federal
+    awards reaches a set amount [1845]. The threshold in force is $1,000,000 in federal awards expended in the entity's
+    fiscal year [1845]. The audit is filed with the Federal Audit Clearinghouse, which GSA runs [1846] [1881].
+  rule: Under 2 CFR 200.501(a) and (b) a non-federal entity that expends $1,000,000 or more in federal awards during its
+    fiscal year must have a single audit, or a programme-specific audit where it qualifies, for that year [1845]. Under
+    200.501(e) an entity that expends less than $1,000,000 is exempt from federal audit requirements for that year, except
+    as 200.503 provides [1845]. A programme-specific audit may be elected where the entity spends under only one federal
+    programme, excluding research and development, and no financial statement audit is required [1845]. Money received as
+    a subrecipient counts as federal awards expended; payments received as a contractor do not [1845]. Under 200.512 the
+    audit, data collection form and reporting package are submitted electronically to the Federal Audit Clearinghouse within
+    30 calendar days after the auditee receives the auditor's report or nine months after the end of the audit period, whichever
+    is earlier [1846]. A pass-through entity must verify that each subrecipient is audited when the rule requires [1823].
+    An auditee that meets the conditions in 200.520 for two audit periods is a low-risk auditee with reduced audit coverage
+    [1847]. Audit reports and findings are among the factors in an agency's pre-award risk review [1809]. The eCFR text
+    of 200.501 current to 10/01/2026 carries the same $1,000,000 threshold, and the same exemption below it, with the source
+    note 89 FR 30136, April 22, 2024 [1940]. The eCFR's version record for part 200 lists no issue of 200.512 or 200.520
+    after the amendment dated October 1, 2024 [2103]. The eCFR text of 200.512 current to 10/01/2026 has the same filing
+    deadline [1939].
+  figures:
+  - label: single audit threshold
+    value: $1,000,000 or more in Federal awards expended during the fiscal year
+    cite:
+    - 1845
+    - 1940
+  - label: filing deadline
+    value: 30 calendar days after receipt of the auditor's report or nine months after the end of the audit period, whichever
+      is earlier
+    cite:
+    - 1846
+    - 1939
+  applies_to: Non-federal entities, which 2 CFR 200.1 defines as States, local governments, Indian Tribes, institutions
+    of higher education and non-profit organisations that carry out a federal award as a recipient or subrecipient [1894]
+    [1845].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: OMB's proposed rule lists revisions to 200.503, 200.513 and 200.514; 200.501 is not among the sections its table
+      of contents lists [1458].
+  official_url: https://www.ecfr.gov/current/title-2/part-200/subpart-F
+  as_of: '2026-10-04'
+  sources:
+  - 1845
+  - 1846
+  - 1847
+  - 1823
+  - 1809
+  - 1881
+  - 1805
+  - 1458
+  - 1894
+  - 1940
+  - 2103
+  - 1939
+  sweep: rules-A
+- id: required-certifications
+  name: Certifications on reports, payment requests and rate proposals (2 CFR 200.415)
+  what: The Uniform Guidance itself requires an authorised official to sign a certification on each financial report and
+    payment request [1885]. The certification names the federal false-statement and false-claims statutes, so the tie between
+    grant paperwork and the False Claims Act predates the certifications added in 2025 [1885].
+  rule: Under 2 CFR 200.415(a) the official certifies that the report is true, complete and accurate and that the expenditures,
+    disbursements and cash receipts are for the purposes set out in the award, and acknowledges that false, fictitious or
+    fraudulent information may bring criminal, civil or administrative penalties under 18 U.S.C. 1001 and 31 U.S.C. 3729-3730
+    and 3801-3812 [1885]. Under 200.415(b) a subrecipient makes a parallel certification to the pass-through entity when
+    it applies for funds, requests payment and reports [1885]. Under 200.415(c) an indirect cost rate proposal is certified
+    by an official no lower than vice president or chief financial officer; without it the agency may disallow indirect
+    costs or set a rate itself [1885]. The eCFR's version record for part 200, read on 2026-10-04, gives October 1, 2024
+    as the latest amendment date of the part; the only later issues are of 200.1, 200.405, Appendix VII and Appendix XII,
+    each marked not substantive [2103].
+  figures: []
+  applies_to: Recipients and subrecipients of awards under Part 200 [1885].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.415
+  as_of: '2026-10-04'
+  sources:
+  - 1885
+  - 2103
+  sweep: rules-A
+- id: indirect-costs-facilities-and-administrative
+  name: Indirect (facilities and administrative) costs
+  what: Indirect costs are costs incurred for a common or joint purpose that benefit more than one cost objective and cannot
+    readily be assigned to the award that benefits [1799]. For major institutions of higher education and major non-profits
+    they are classified in two groups, Facilities and Administration, which is why they are also called F&A costs [1802].
+    An award pays them as a percentage, the indirect cost rate, applied to a base of direct costs [1849] [1850].
+  rule: 'For institutions of higher education Appendix III lists the F&A categories: depreciation, interest, operation and
+    maintenance, general administration and general expenses, departmental administration, sponsored projects administration,
+    library, and student administration and services [1849]. Appendix III, section C.8, limits the administrative categories
+    at a university to 26% of modified total direct costs [1849]. For non-profits Appendix IV sets three allocation methods
+    (simplified, multiple allocation base, direct allocation) and requires an organisation that receives more than $10 million
+    in direct federal funding in a fiscal year to break its rate into Facilities and Administration [1850]. The base is
+    normally modified total direct costs: salaries and wages, fringe benefits, materials and supplies, services, travel
+    and up to the first $50,000 of each subaward, leaving out equipment, capital expenditures, patient care charges, rental
+    costs, tuition remission, scholarships and fellowships, participant support costs and the part of each subaward above
+    $50,000 [1799]. An organisation gets its rate in one of two ways: a negotiated indirect cost rate agreement with its
+    cognizant federal agency, or the de minimis rate [1802]. The rate used for an award is printed in the award document
+    [1810]. A cost may not be charged as direct if the same kind of cost in like circumstances is treated as indirect [1831].'
+  figures:
+  - label: administrative cost limit at institutions of higher education
+    value: 26% of modified total direct costs
+    cite:
+    - 1849
+  - label: subaward amount counted in the MTDC base
+    value: up to the first $50,000 of each subaward
+    cite:
+    - 1799
+    - 2102
+  - label: direct federal funding above which a non-profit breaks out Facilities and Administration
+    value: more than $10 million in a fiscal year
+    cite:
+    - 1850
+  - label: utility cost adjustment for organized research
+    value: up to 1.3 percentage points
+    cite:
+    - 1849
+  applies_to: Every recipient and subrecipient of a cost-reimbursement award; programme notices state any limit that applies
+    to a particular programme [1802].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/section-200.414
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1802
+  - 1849
+  - 1850
+  - 1810
+  - 1831
+  - 2102
+  sweep: rules-A
+  related:
+  - modified-total-direct-costs
+  - negotiated-indirect-cost-rate
+  - de-minimis-indirect-rate
+  - negotiated-rate-acceptance-rule
+  - indirect-cost-rate-caps-2025
+  - nih-f-and-a-costs
+  - nsf-indirect-costs
+- id: modified-total-direct-costs
+  name: Modified total direct costs (MTDC)
+  what: Modified total direct costs are the base to which an indirect cost rate is usually applied [1799]. The definition
+    decides which direct costs carry indirect costs and which do not [1799].
+  rule: 2 CFR 200.1 defines MTDC as all direct salaries and wages, applicable fringe benefits, materials and supplies, services,
+    travel, and up to the first $50,000 of each subaward, regardless of the period of performance of the subawards under
+    the award [1799]. MTDC excludes equipment, capital expenditures, charges for patient care, rental costs, tuition remission,
+    scholarships and fellowships, participant support costs, and the portion of each subaward in excess of $50,000 [1799].
+    Equipment for this purpose is property with a useful life of more than one year and a unit cost at or above the lesser
+    of the organisation's capitalisation level or $10,000 [1799]. The $50,000 and $10,000 figures date from the revision
+    effective October 1, 2024; a negotiated rate agreed before a revision stays in place until it expires and the revised
+    definitions apply when the rate is renegotiated [1883] [1806]. A second reading of 200.1 on the eCFR on 2026-10-04,
+    in the text current to 10/01/2026, returned the same $50,000 subaward figure and the same $10,000 equipment figure [2102].
+  figures:
+  - label: subaward amount included
+    value: up to the first $50,000 of each subaward
+    cite:
+    - 1799
+    - 2102
+  - label: equipment threshold
+    value: $10,000 per unit or the organisation's lower capitalisation level
+    cite:
+    - 1799
+    - 2102
+  applies_to: Any award on which indirect costs are charged on an MTDC base, including every award using the de minimis
+    rate [1802].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/part-200/section-200.1
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1802
+  - 1883
+  - 1806
+  - 2102
+  sweep: rules-A
+- id: negotiated-indirect-cost-rate
+  name: Negotiated indirect cost rate agreement (NICRA)
+  what: A negotiated indirect cost rate agreement records the rate, or rates, that one federal agency has negotiated with
+    an organisation on behalf of all federal agencies [1799]. The agency that negotiates is the organisation's cognizant
+    agency for indirect costs [1799]. Once a rate is negotiated every federal agency must accept it, with the exceptions
+    in negotiated-rate-acceptance-rule [1802].
+  rule: 'Who negotiates: For an institution of higher education the cognizant agency is HHS or the Department of Defense''s
+    Office of Naval Research, normally whichever of the two provided more funds directly to the institution over the most
+    recent three years, and the assignment lasts five years [1849]. For a non-profit it is the federal agency with the largest
+    dollar value of awards made directly to the organisation [1850]. HHS negotiates through Cost Allocation Services, which
+    handles colleges and universities, non-profits, hospitals and state and local governments; ONR negotiates for the domestic
+    universities and non-profits for which it has cognizance; NSF''s Cost Analysis and Pre-Award Branch negotiates for about
+    100 organisations [1860] [1861] [163]. What is submitted and when: A non-profit with no established rate submits its
+    first indirect cost proposal immediately after it is told an award will be made and no later than three months after
+    the effective date of the award; an organisation with an established rate submits a new proposal within six months after
+    the close of each fiscal year [1850]. Universities use the standard format in Appendix III, and those with no more than
+    $10 million a year in covered direct costs may use a simplified method [1849]. HHS takes all proposals through its Indirect
+    Cost Allocation System portal [1860]. The proposal is certified by an official no lower than vice president or chief
+    financial officer [1885]. How long a rate lasts: The appendices define predetermined, fixed, provisional and final rates;
+    a predetermined rate at a university may cover two to four years [1849] [1850]. An organisation with a current negotiated
+    rate may ask once for an extension of up to four years, subject to the cognizant agency''s approval, and must then renegotiate
+    [1802]. For a university award, the rates in effect at the time of the initial award apply for the life of each competitive
+    segment [1849].'
+  figures:
+  - label: cognizance period for a university
+    value: five years
+    cite:
+    - 1849
+  - label: first proposal from a non-profit
+    value: no later than three months after the effective date of the Federal award
+    cite:
+    - 1850
+  - label: later proposals
+    value: within six months after the close of each fiscal year
+    cite:
+    - 1850
+  - label: one-time extension of a negotiated rate
+    value: up to four years
+    cite:
+    - 1802
+    - 1802
+  - label: simplified method for small institutions
+    value: total direct cost of covered work not above $10 million in a fiscal year
+    cite:
+    - 1849
+  applies_to: Organisations that receive federal awards directly; a subrecipient with no federal rate may negotiate one
+    with its pass-through entity or use the de minimis rate [1823]. ONR does not negotiate rates for foreign entities [1861].
+  pending_changes: []
+  official_url: https://www.hhs.gov/about/agencies/asa/psc/indirect-cost-negotiations/index.html
+  as_of: '2026-10-04'
+  sources:
+  - 1799
+  - 1802
+  - 1849
+  - 1850
+  - 1860
+  - 1861
+  - 163
+  - 1885
+  - 1823
+  - 1802
+  sweep: rules-A
+  time: No official page read in this sweep states how long a negotiation takes [1860].
+  cost: No fee is stated on the HHS, ONR or NSF pages read [1860] [1861] [163].
+- id: negotiated-rate-acceptance-rule
+  name: Rule that agencies must accept a negotiated rate, and its exceptions
+  what: 'A negotiated indirect cost rate binds every federal agency, not only the one that negotiated it [1802]. The rule
+    has two exceptions: a statute or regulation that requires a different rate, and a deviation the awarding agency approves
+    under a published procedure [1802]. The courts that set aside the 2025 rate caps relied on this rule [1854] [1853] [1855].'
+  rule: 'Under 2 CFR 200.414(c)(1) negotiated indirect cost rates must be accepted by all federal agencies; an agency may
+    use a different rate for a class of awards or a single award only when a federal statute or regulation requires it or
+    when the awarding agency approves it under paragraph (c)(3) [1802]. The agency must notify OMB of any approved deviation,
+    must make public the policies, procedures and decision criteria it follows for deviations, and must state its indirect
+    cost policies in the notice of funding opportunity [1802]. Under 200.414(d) a pass-through entity must accept a subrecipient''s
+    federally negotiated rate [1802]. For universities, Appendix III requires agencies to use the negotiated rates in effect
+    at the time of the initial award throughout each competitive segment [1849]. Limits set by statute or regulation: HHS
+    regulations limit indirect costs on training grants to 8% of modified total direct costs and allow foreign organisations
+    an 8% rate [1884] [528]. Appropriations provisions: Section 224 of the Labor-HHS division of Public Law 119-75 keeps
+    the indirect cost provisions of 45 CFR part 75, including approval of deviations from negotiated rates, applying to
+    NIH as in the third quarter of fiscal year 2017 and bars spending to develop or implement a modified approach [1856].
+    DOE describes section 313 of the fiscal year 2026 Energy and Water act as requiring it to apply 2 CFR 200.414, including
+    approval of deviations, as in fiscal year 2024 [289]. Public Law 119-103 continues the fiscal year 2026 acts under their
+    authority and conditions through December 11, 2026 [1480]. A second reading of 200.414(c) on the eCFR on 2026-10-04
+    returned the same rule that negotiated rates must be accepted by all Federal agencies [1802]. Part IX of the preamble
+    to OMB''s proposed rule states that OMB is not proposing updates to the indirect cost rate negotiation system through
+    that document and may consider a request for information later [2093].'
+  figures:
+  - label: HHS limit on training grants
+    value: 8% of modified total direct costs
+    cite:
+    - 1884
+  - label: HHS rate for foreign organisations
+    value: 8%
+    cite:
+    - 1884
+  applies_to: All federal agencies and pass-through entities, for every organisation that holds a negotiated rate [1802].
+  pending_changes:
+  - status: final
+    date: '2025-08-07'
+    text: Executive Order 14332 directs OMB to revise the Uniform Guidance to limit the use of discretionary grant funds
+      for facilities and administration, and says that, all else being equal, preference for discretionary awards goes to
+      institutions with lower indirect cost rates [246].
+  - status: proposed
+    date: '2026-05-29'
+    text: The proposed rule's table of contents does not list 200.414 among the sections revised and its preamble has a
+      part headed "IX. Indirect Cost Rates" that was not read; an association summary says the proposal makes no change
+      to the negotiated indirect cost system [1458] [1878].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.414
+  as_of: '2026-10-04'
+  sources:
+  - 1802
+  - 1849
+  - 1884
+  - 528
+  - 1856
+  - 289
+  - 1480
+  - 1854
+  - 1853
+  - 1855
+  - 246
+  - 1878
+  - 1458
+  - 1802
+  - 2093
+  sweep: rules-A
+  related:
+  - nifa-indirect-cost-limit
+  - nih-training-indirect-cost-rate
+  - training-grant-indirect-cost-limit-8-percent
+  - nih-instrument-awards-no-indirect-costs
+- id: indirect-cost-rate-caps-2025
+  name: 'The 2025 attempts to cap indirect cost rates at 15 percent (NIH, NSF, DOE, DoD): position on 2026-10-04'
+  what: 'In 2025 four agencies announced that they would pay universities indirect costs at 15 percent in place of negotiated
+    rates: NIH on February 7, DOE on April 11, NSF on May 2 and the Department of Defense on May 14 [24] [1852] [237] [1855].
+    Each policy was set aside by the District of Massachusetts, and none is in effect on 2026-10-04 [24] [237] [289] [1855].
+    NSF and DOE state that they apply negotiated rates, an appropriations provision keeps the earlier rules in place at
+    NIH, and the Department of Defense policy is vacated and enjoined [154] [289] [1856] [1855].'
+  rule: 'NIH: NOT-OD-25-068, issued February 7, 2025 and effective February 10, 2025, set a 15 percent rate on all NIH grants;
+    the district court enjoined it on March 5, 2025 and later made the injunction permanent and vacated the notice; the
+    First Circuit affirmed on January 5, 2026, on the appropriations rider and on 45 CFR 75.414(c) [24]. Section 224 of
+    the fiscal year 2026 Labor-HHS act repeats the rider [1856]. NSF: Policy notice NSF 25-034, issued May 2, 2025 for new
+    awards to institutions of higher education from May 5, 2025, was vacated and declared invalid on June 20, 2025 [1854]
+    [237]. NSF states that since May 19, 2025 it issues awards at the institution''s negotiated rate, and that new awards
+    carry a term applying NSF 25-034 for the whole award if a later court decision permits it [154] [237]. DOE: Policy Flash
+    2025-22 of April 11, 2025 set 15 percent for institutions of higher education; the court enjoined it on May 15, 2025
+    and vacated it on June 30, 2025 [1853] [1852]. DOE issued further limits for state and local governments, non-profits
+    and for-profit organisations (PF 2025-25, 2025-26, 2025-27) and a limit on indirect and fringe benefit reimbursement
+    (PF 2025-38) [289]. On January 27, 2026 DOE declared all of them no longer in effect from January 23, 2026, citing section
+    313 of the fiscal year 2026 appropriations act [289]. DoD: Memoranda of May 14 and June 12, 2025 capped rates at 15
+    percent on new and existing assistance awards to institutions of higher education; the court enjoined the policy on
+    July 18, 2025 and on October 10, 2025 vacated it and made the injunction permanent for the university plaintiffs and
+    the member universities of the plaintiff associations [1855]. A plaintiff association reports that the First Circuit
+    dismissed the Government''s appeal on February 18, 2026 [292]. Grounds: Each ruling found a conflict with the rule that
+    agencies accept negotiated rates (2 CFR 200.414(c), or its HHS counterpart 45 CFR 75.414(c)), and each found the district
+    court had jurisdiction because the suit challenged an agency-wide policy and did not seek payment under particular grants
+    [24] [1854] [1853] [1855]. Appropriations: Public Law 119-103 continues the fiscal year 2026 acts, with their conditions,
+    through December 11, 2026 [1480].'
+  figures:
+  - label: rate announced by each of the four agencies
+    value: 15 percent
+    cite:
+    - 24
+    - 237
+    - 1852
+    - 1855
+  - label: 'NIH: First Circuit affirmance'
+    value: January 5, 2026
+    cite:
+    - 24
+  - label: 'NSF: vacatur'
+    value: June 20, 2025
+    cite:
+    - 1854
+  - label: 'DOE: vacatur; withdrawal of all limits'
+    value: June 30, 2025; effective January 23, 2026
+    cite:
+    - 1852
+    - 289
+  - label: 'DoD: vacatur and permanent injunction'
+    value: October 10, 2025
+    cite:
+    - 1855
+  applies_to: The caps were written for institutions of higher education; DOE's further limits also reached non-profits,
+    state and local governments and for-profit organisations until withdrawn [289]. The DoD injunction names the university
+    plaintiffs and member universities of the plaintiff associations [1855].
+  pending_changes:
+  - status: final
+    date: '2025-08-07'
+    text: Executive Order 14332 directs OMB to revise the Uniform Guidance to limit the use of discretionary grant funds
+      for facilities and administration; no such revision has taken effect [246] [1480].
+  - status: frozen-by-appropriations
+    date: '2026-09-02'
+    text: The fiscal year 2026 appropriations conditions on indirect cost rates continue under Public Law 119-103 through
+      December 11, 2026; what follows depends on the fiscal year 2027 acts [1480] [83].
+  official_url: https://www.ecfr.gov/current/title-2/section-200.414
+  as_of: '2026-10-04'
+  sources:
+  - 24
+  - 1856
+  - 237
+  - 154
+  - 1854
+  - 1852
+  - 289
+  - 1853
+  - 1855
+  - 292
+  - 1480
+  - 246
+  sweep: rules-A
+  related:
+  - ch-nih-indirect-cost-guidance-2025
+  - ch-nih-indirect-cost-rider-fy2026
+  - c-nsf-2025-05-idc-15-percent
+  - c-nsf-2025-09-idc-appeal-dismissed
+  - doe-15pct-indirect-ihe-2025
+  - doe-indirect-flashes-withdrawn-2026
+  - dod-15pct-indirect-2025
+  - fy2026-appropriations-indirect-nasa
+  - ch-ca-nsf-indirect-cost-cap-vacated
+- id: executive-order-14332-grant-oversight
+  name: Executive Order 14332, Improving Oversight of Federal Grantmaking (August 7, 2025)
+  what: Executive Order 14332 changes how federal agencies decide on and manage discretionary grants [246]. It puts a senior
+    appointee's review ahead of every new funding announcement and discretionary award, sets principles those awards are
+    to follow, and directs changes to the Uniform Guidance and to award terms on termination, indirect costs and drawdowns
+    [246]. It was signed August 7, 2025 and published at 90 FR 38929 [246].
+  rule: 'Scope: The order applies to discretionary grants, which it defines by reference to "discretionary award" in 2 CFR
+    200.1; one fetch of the order returned that the term excludes entitlement, formula-based and disaster recovery awards
+    [246]. Section 3: each agency head designates a senior appointee to review new funding opportunity announcements and
+    discretionary grants for consistency with agency priorities and the national interest; the process includes subject-matter
+    expert review for scientific research, pre-issuance review, interagency coordination, and a yearly review of discretionary
+    awards [246]. Section 4: senior appointees use independent judgment and do not ministerially ratify or routinely defer
+    to what others propose; awards are to demonstrably advance the President''s policy priorities; listed uses of funds
+    are excluded; and, all else being equal, preference goes to institutions with lower indirect cost rates [246]. Section
+    5: the OMB Director revises the Uniform Guidance to streamline application requirements, to clarify that discretionary
+    grants permit termination for convenience, with listed exceptions, and to limit the use of discretionary grant funds
+    for facilities and administrative costs [246]. Section 6: within 30 days each agency head reviews the agency''s standard
+    grant terms and reports to OMB; agencies revise the terms of existing discretionary grants to permit immediate termination
+    for convenience and add terms requiring written explanation for each drawdown [246]. Section 7: the order creates no
+    enforceable rights and is to be implemented consistent with applicable law [246]. Implementation read in this sweep:
+    DOE issued procedures for review of funding announcements on February 19, 2026 (Policy Flash 2026-33), with review of
+    discretionary awards left to a later directive [314]. NIH''s award terms from October 1, 2025 state the priority-based
+    termination ground [65]. OMB''s proposed rule of May 29, 2026 is the revision of the Uniform Guidance that section 5
+    calls for; it has not been finalised and section 157 of Public Law 119-103 bars a final rule through December 11, 2026
+    [1803] [1480]. The Uniform Guidance in force still requires agencies to accept negotiated indirect cost rates and limits
+    termination to the four grounds in 200.340 [1802] [1801].'
+  figures:
+  - label: agency report on grant terms due
+    value: within 30 days of the order
+    cite:
+    - 246
+  - label: Federal Register citation
+    value: 90 FR 38929, August 12, 2025
+    cite:
+    - 246
+  applies_to: Discretionary grants and cooperative agreements of every executive agency, as the order defines them by reference
+    to 2 CFR 200.1 [246].
+  pending_changes:
+  - status: frozen-by-appropriations
+    date: '2026-09-02'
+    text: The Uniform Guidance revision the order directs was proposed on May 29, 2026 and cannot be issued or take effect
+      through December 11, 2026 [1458] [1480].
+  official_url: https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking
+  as_of: '2026-10-04'
+  sources:
+  - 246
+  - 314
+  - 65
+  - 1803
+  - 1480
+  - 1802
+  - 1801
+  sweep: rules-A
+  related:
+  - senior-appointee-review
+  - grants-termination-for-convenience
+  - c-2025-08-eo-14332
+  - eo-14332-grant-oversight-2025
+  - c-rd-2025-08-07-eo-14332
+  - ch-pc-eo-14332-grantmaking
+  - ch-sa-2025-08-07-eo-14332-grant-oversight
+  - ch-sb-eo-14332-grant-oversight
+  - ch-pe-doe-policy-flash-2026-33
+  - c-nsf-2026-07-grant-general-conditions
+  - nasa-termination-payment-terms-2026
+- id: anti-discrimination-certification-false-claims-act
+  name: Anti-discrimination certification tied to the False Claims Act (2025-26)
+  what: 'Executive Order 14173 of January 21, 2025 directs every agency to put two terms in each grant award: an agreement
+    that the recipient''s compliance with federal anti-discrimination laws is material to the Government''s payment decisions
+    for purposes of the False Claims Act, and a certification that the recipient does not operate any programmes promoting
+    DEI that violate those laws [1862]. A false certification can therefore be pursued as a false claim, by the Government
+    or by a private party suing on its behalf [1863]. Agencies have carried the term into their own award conditions in
+    different words and at different times [1870] [528].'
+  rule: 'The order: Section 3(b)(iv)(A) requires a term that compliance "in all respects with all applicable Federal anti-discrimination
+    laws" is material for purposes of 31 U.S.C. 3729(b)(4); section 3(b)(iv)(B) requires the certification [1862]. Enforcement:
+    A Deputy Attorney General memorandum of May 19, 2025 set up the Civil Rights Fraud Initiative, led by the Civil Division''s
+    Fraud Section and the Civil Rights Division, to use the False Claims Act where a recipient of federal funds knowingly
+    violates civil rights laws and falsely certifies compliance, and encouraged private suits under 31 U.S.C. 3730 [1863].
+    An Attorney General memorandum of July 29, 2025 to all agencies lists five kinds of practice the department treats as
+    unlawful and adds a list of practices it describes as non-binding suggestions [1864]. Agency terms: NIH added a civil
+    rights term on April 21, 2025 (certification that the recipient does not operate programmes that advance or promote
+    DEI, DEIA or discriminatory equity ideology in violation of federal anti-discrimination laws, and does not engage in
+    a discriminatory prohibited boycott) and rescinded it on June 12, 2025, saying it awaited federal-wide guidance [1870]
+    [1871]. The HHS Grants Policy Statement effective October 1, 2025 states that by applying for or accepting HHS funds
+    a recipient certifies compliance with all federal antidiscrimination laws, and that a knowing false statement may bring
+    False Claims Act liability [528]. SAM.gov: On January 28, 2026 GSA proposed to revise the financial assistance representations
+    and certifications that every prime recipient makes when it registers or renews in SAM.gov, citing the Attorney General''s
+    guidance and Executive Order 14173; comments closed March 30, 2026, and no later notice was found [1866]. Existing rules:
+    2 CFR 200.300 already requires awards to be administered in accordance with statutes prohibiting discrimination, and
+    200.415 already ties signed certifications on reports to the False Claims Act [1887] [1885]. Court rulings: The District
+    of Maryland enjoined the certification provision nationwide; the Fourth Circuit vacated that injunction on February
+    6, 2026, holding the plaintiffs unlikely to succeed on a facial First Amendment challenge because the provision requires
+    certification of compliance with existing law, and noting that a recipient may contest an interpretation of that law
+    in a specific enforcement action [1865].'
+  figures:
+  - label: SAM.gov registrants the GSA proposal would reach
+    value: 222,760 respondents a year
+    cite:
+    - 1866
+  - label: GSA burden estimate
+    value: 2.75 hours per response; 612,590 hours a year
+    cite:
+    - 1866
+  applies_to: Recipients of grants and cooperative agreements from any agency that has put the term in its awards; the wording
+    that binds a recipient is the wording in its own award or in the agency's policy statement [1862] [528]. A court order
+    against a condition covers the plaintiffs and agencies it names [65].
+  pending_changes:
+  - status: proposed
+    date: '2026-01-28'
+    text: GSA's proposed revision of the SAM.gov financial assistance certifications (91 FR 3726, OMB control number 3090-0290)
+      [1866].
+  - status: in-litigation
+    date: '2026-02-06'
+    text: The Fourth Circuit vacated the preliminary injunction against the certification provision and remanded; later
+      proceedings were not read [1865].
+  - status: frozen-by-appropriations
+    date: '2026-05-29'
+    text: OMB's proposed rule would revise 200.300 and add 200.218 to 200.220 on national policy requirements; it cannot
+      be finalised through December 11, 2026 [1458] [1480].
+  official_url: https://www.federalregister.gov/documents/2025/01/31/2025-02097/ending-illegal-discrimination-and-restoring-merit-based-opportunity
+  as_of: '2026-10-04'
+  sources:
+  - 1862
+  - 1863
+  - 1864
+  - 1870
+  - 1871
+  - 528
+  - 1866
+  - 1887
+  - 1885
+  - 1865
+  - 65
+  - 1458
+  sweep: rules-A
+  related:
+  - required-certifications
+  - ch-sb-hhs-hud-new-grant-conditions-vacated
+  - ch-sb-hud-conditions-ninth-circuit
+  - ch-sb-head-start-deia-certification-enjoined
+  - ch-sc-nea-certification-ruling
+  - c-rf-nea-dei-certification
+  - ch-sb-dhs-immigration-conditions-vacated
+  - ovw-out-of-scope-certification
+  - ojp-unallowable-activities
+- id: continuing-resolution-and-grants
+  name: 'Continuing resolutions: what they mean for notices and awards'
+  what: When a fiscal year starts without full-year appropriations, Congress may pass a continuing resolution that keeps
+    agencies funded at a set rate for a limited time [1480]. Fiscal year 2027 began on October 1, 2026 under Public Law
+    119-103, which continues the fiscal year 2026 acts through December 11, 2026 [1480] [83]. Under a continuing resolution
+    agencies keep operating and keep making awards, with limits on how much and how fast [1480] [1874].
+  rule: 'Section 101 of Public Law 119-103 provides amounts at the rate for operations in the fiscal year 2026 appropriations
+    acts, under the authority and conditions of those acts [1480]. Section 104 bars using the funds to start or resume a
+    project or activity for which funds were not available in fiscal year 2026 [1480]. Section 109 bars the complete distribution
+    of a programme''s appropriation at the start of the year and says no grants shall be awarded for such programmes that
+    would impinge on final funding prerogatives; section 110 requires the most limited funding action [1480]. The Senate
+    committee summary describes section 109 as prohibiting agencies from spending money on grant programmes too quickly
+    [1857]. OMB Circular A-11, section 123, apportions funds automatically at the rate for operations multiplied by the
+    share of the year the resolution covers, and requires a new apportionment within 10 calendar days after a full-year
+    act [1874]. Conditions in the prior year''s acts carry over: NIH states that all legislative mandates and fiscal policies
+    in effect in fiscal year 2026 remain in effect, and that its institutes may issue non-competing awards below the level
+    on the most recent Notice of Award [83]. Public Law 119-103 also bars a final rule from OMB''s proposed revision of
+    the Uniform Guidance through December 11, 2026 [1480].'
+  figures:
+  - label: end date of the fiscal year 2027 continuing resolution
+    value: December 11, 2026, or earlier enactment of the applicable appropriation
+    cite:
+    - 1480
+  - label: example of automatic apportionment in Circular A-11
+    value: 76 days of 365, or 20.82% of the rate for operations
+    cite:
+    - 1874
+  - label: reapportionment after a full-year act
+    value: within 10 calendar days of enactment
+    cite:
+    - 1874
+  applies_to: All agencies funded by annual appropriations and their applicants and recipients; each agency announces its
+    own practice [1480] [83].
+  pending_changes: []
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-119publ103/html/PLAW-119publ103.htm
+  as_of: '2026-10-04'
+  sources:
+  - 1480
+  - 1857
+  - 1874
+  - 83
+  sweep: rules-A
+  related:
+  - lapse-in-appropriations-and-grants
+  - fy2027-appropriations-status
+- id: lapse-in-appropriations-and-grants
+  name: 'Lapse in appropriations (shutdown): what it means for notices and awards'
+  what: 'A lapse in appropriations occurs when neither a full-year act nor a continuing resolution is in force [1875]. The
+    Antideficiency Act then bars an agency from incurring obligations, with limited exceptions, so an agency in a lapse
+    does not process new awards; at NIH extramural staff and help desks are unavailable [1875] [1872]. Money already awarded
+    is a different matter: at NIH, work under active awards may continue [1872].'
+  rule: 'OMB Circular A-11, section 124, directs agencies to carry out an orderly shutdown under their plans and lists the
+    excepted functions: those authorised by statute or court order, those necessarily implied by law, and those needed for
+    the safety of human life or protection of property [1875]. The section as read gives no specific rule for grants; each
+    agency publishes its own guidance [1875]. NIH''s guidance for the lapse that began January 31, 2026: work under active
+    awards may continue; recipients may draw funds through the Payment Management System unless a restriction applies; applications
+    are still submitted through Grants.gov by the original due dates and are reviewed after operations resume; no awards
+    are processed; peer review and council meetings do not take place; prior approval requests are not reviewed; progress
+    reports are still due on time; staff and help desks are unavailable [1872]. After the lapse that began October 1, 2025
+    NIH accepted applications for due dates between October 1 and December 5, 2025 through December 8, 2025, and reported
+    cancelling over 370 peer review meetings affecting over 24,000 applications [1889]. Under Circular A-11, section 123,
+    funding provided by a continuing resolution and not obligated is not available once appropriations lapse [1874].'
+  figures:
+  - label: lapses recorded by NIH in fiscal year 2026
+    value: beginning October 1, 2025 and beginning January 31, 2026
+    cite:
+    - 1873
+    - 1872
+  - label: NIH peer review meetings cancelled in the October 2025 lapse
+    value: over 370, affecting over 24,000 applications
+    cite:
+    - 1889
+  applies_to: Applicants to and recipients from any agency whose appropriation has lapsed; the practice above is NIH's,
+    and other agencies' guidance was not read in this sweep [1872].
+  pending_changes: []
+  official_url: https://www.whitehouse.gov/wp-content/uploads/2025/08/s124.pdf
+  as_of: '2026-10-04'
+  sources:
+  - 1875
+  - 1874
+  - 1872
+  - 1889
+  - 1873
+  sweep: rules-A
+  related:
+  - continuing-resolution-and-grants
+  - ch-nih-lapse-and-review-modifications
+- id: fy2027-appropriations-status
+  name: Status of fiscal year 2027 appropriations on 2026-10-04
+  what: On 2026-10-04 the Government is funded by a continuing resolution, Public Law 119-103, approved September 2, 2026,
+    which runs until December 11, 2026 or the earlier enactment of a fiscal year 2027 appropriation [1480]. NIH's notice
+    of September 28, 2026 states that it operates under that resolution at the fiscal year 2026 enacted level [83]. No enacted
+    fiscal year 2027 appropriations act was found in this sweep [1873].
+  rule: Public Law 119-103 continues the twelve fiscal year 2026 appropriations acts, which it lists as divisions of Public
+    Laws 119-37, 119-74 and 119-75 and Public Law 119-86 [1480]. The House Appropriations Committee majority stated on July
+    17, 2026 that all twelve fiscal year 2027 bills had advanced through full committee and three had passed the House [1876].
+    The Senate Appropriations Committee majority's release list, read to September 24, 2026, shows the continuing resolution
+    and no release on committee or floor action on the twelve regular bills in the part read [1893]. A status table for
+    the two chambers on 2026-10-04 could not be read because congress.gov refuses automated reading [1893].
+  figures:
+  - label: continuing resolution end date
+    value: December 11, 2026
+    cite:
+    - 1480
+  - label: House position on July 17, 2026
+    value: twelve bills through full committee; three passed the House
+    cite:
+    - 1876
+  applies_to: Every programme funded by annual appropriations; award amounts and new competitions for fiscal year 2027 depend
+    on acts not yet enacted [1480].
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-12-11'
+    text: The continuing resolution expires on December 11, 2026 unless full-year appropriations or a further resolution
+      are enacted first [1480].
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-119publ103/html/PLAW-119publ103.htm
+  as_of: '2026-10-04'
+  sources:
+  - 1480
+  - 83
+  - 1873
+  - 1876
+  - 1893
+  sweep: rules-A
+  related:
+  - continuing-resolution-and-grants
+  - ch-sd-fy2027-continuing-resolution-pl-119-103
+  - ch-nih-fy2027-continuing-resolution
+  - ch-sa-2026-06-09-house-fy2027-lhhs
+  - ch-re-2026-05-13-fy2027-house-cjs
+  - fy2027-budget-requests
+- id: sam-uei-only-versus-full-registration
+  name: Unique Entity ID only, or full SAM.gov registration
+  what: SAM.gov offers two things that newcomers confuse. 'Get a Unique Entity ID' gives an identifier only; 'Register Entity'
+    is the full registration that lets an organisation apply for federal awards as a prime awardee [1897].
+  rule: Under 2 CFR 25.200 an applicant must be registered in SAM.gov before submitting an application and include its UEI
+    in it; under 2 CFR 25.300 a subrecipient must have a UEI and is not required to complete full registration [1899] [1900].
+    The eCFR showed title 2 as last amended 8/17/2026 when read on 2026-10-04 [2102]. Of the six rule documents citing title
+    2 published since January 1, 2025, the one effective August 17, 2026 is the Department of Energy's rule adding subpart
+    C to 2 CFR part 910; all six are in agency chapters of Subtitle B and none is an OMB rule on parts 25, 170 or 200 [2095]
+    [2096].
+  figures:
+  - label: data needed for a UEI only
+    value: legal business name and physical address
+    cite:
+    - 1897
+  - label: parts of a registration for financial assistance awards only
+    value: Unique Entity ID, Core Data, Representations and Certifications, Points of Contact
+    cite:
+    - 1898
+  - label: exemption for a foreign entity
+    value: an award under $25,000 performed outside the United States, at the agency's discretion
+    cite:
+    - 1899
+  applies_to: Prime applicants (full registration) and subrecipients (UEI only) under any federal financial assistance award
+    [1899] [1900].
+  pending_changes: []
+  official_url: https://sam.gov/entity-registration
+  as_of: '2026-10-04'
+  sources:
+  - 1897
+  - 1898
+  - 1899
+  - 1900
+  - 2102
+  - 2095
+  - 2096
+  sweep: rules-B
+- id: sam-financial-assistance-certifications
+  name: Financial assistance representations and certifications in SAM.gov
+  what: 'As part of a SAM.gov registration an entity that seeks financial assistance completes a set of certifications once,
+    in place of signing them application by application [1898]. SAM.gov''s checklist lists them in its Appendix I: authority
+    to apply, access to records, conflicts of interest, compliance with federal law, trafficking, drug-free workplace and
+    civil rights [1898].'
+  rule: The certifications are collected under OMB control number 3090-0290, 'System for Award Management Registration Requirements
+    for Financial Assistance Recipients' [1866]. They are renewed with the registration every 365 days [1897].
+  figures:
+  - label: respondents per year, GSA estimate (January 2026)
+    value: 222,760
+    cite:
+    - 1866
+  - label: hours per response, GSA estimate (January 2026)
+    value: '2.75'
+    cite:
+    - 1866
+  applies_to: Entities that receive grants, cooperative agreements, loans, insurance and direct appropriations [1866].
+  pending_changes:
+  - status: proposed
+    date: '2026-01-28'
+    text: GSA proposed to update the Financial Assistance General Representations and Certifications to align with the Department
+      of Justice 'Guidance for Recipients of Federal Funding Regarding Unlawful Discrimination' of July 29, 2025 and Executive
+      Order 14173 of January 21, 2025; comments closed March 30, 2026 and the notice gives no effective date [1866]. A secondary
+      source describes three new certifications and one revised one [1970].
+  - status: proposed
+    date: '2026-10-04'
+    text: 'Checked on 2026-10-04: the Federal Register index holds no later GSA document on the collection than the notice
+      of January 28, 2026, and OMB''s record for control number 3090-0290 shows no request received in 2025 or 2026; its
+      latest entry is an extension without change received November 27, 2023 and concluded March 12, 2024 [2099] [2100].
+      The raw text of the January notice does not list the certifications, does not say where their wording is posted and
+      gives no effective date [2098]. A public comment filed in GSA''s docket quotes four proposed certifications: compliance
+      with law prohibiting unlawful discrimination on the basis of race or color in federally funded programmes; not knowingly
+      bringing, transporting, concealing, harboring, hiring or recruiting for a fee an illegal alien; not funding, subsidising
+      or facilitating violence, terrorism or other illegal activities that threaten public safety or national security;
+      and promoting freedom of speech and religious liberty [2109]. GSA''s own posting of the wording was not read [2109].'
+  official_url: https://www.federalregister.gov/documents/2026/01/28/2026-01676/information-collection-system-for-award-management-registration-requirements-for-financial
+  as_of: '2026-10-04'
+  sources:
+  - 1898
+  - 1897
+  - 1866
+  - 1970
+  - 2098
+  - 2099
+  - 2100
+  - 2109
+  sweep: rules-B
+- id: sam-entity-validation
+  name: SAM.gov entity validation
+  what: Before SAM.gov assigns a Unique Entity ID it validates the entity's legal business name and physical address; an
+    entity it cannot validate may open a help ticket [1898]. NSF notes that a registration becomes active only after SAM
+    completes entity validation [156].
+  rule: The name, physical address, start year and state of incorporation entered must match the documents attached; GSA's
+    guide for government entities lists bank statements, utility bills, charters and similar records as documents [1968].
+    GSA's 2022 forum slides add that a P.O. box is not accepted as a physical address, that bank statements and utility
+    bills must be less than five years old, and that documents not in English need a certified translation [1979]. For U.S.
+    entities the Taxpayer Identification Number and the CAGE code are also validated, and a failure produces an email with
+    instructions [1898].
+  figures:
+  - label: time for a registration to become active after submission
+    value: up to 10 business days
+    cite:
+    - 1897
+  - label: time to resolve a validation incident with correct documents, as GSA stated in August 2022
+    value: 7 calendar days
+    cite:
+    - 1979
+  applies_to: Every entity that requests a UEI or registers in SAM.gov [1898].
+  pending_changes: []
+  official_url: https://sam.gov/entity-registration
+  as_of: '2026-10-04'
+  sources:
+  - 1898
+  - 156
+  - 1968
+  - 1979
+  - 1897
+  sweep: rules-B
+- id: grants-gov-roles
+  name: 'Grants.gov roles: EBiz POC, Authorized Organization Representative, Workspace Manager'
+  what: Grants.gov lets an organisation decide who may do what through roles [1916]. The Electronic Business Point of Contact
+    (EBiz POC) is the person named in the organisation's SAM.gov registration; that person holds the Expanded AOR role automatically
+    and assigns roles to others [1895] [1916].
+  rule: An Expanded AOR manages the organisation's profile and roles and may submit any of its applications; a Standard
+    AOR may create workspaces and submit; a Workspace Manager, the minimum role needed to create a workspace, may not submit;
+    custom roles combine privileges as the organisation chooses [1916] [1965].
+  figures:
+  - label: date the EBiz POC was given the Expanded AOR role automatically
+    value: January 21, 2023
+    cite:
+    - 1916
+  applies_to: Organisation applicants on Grants.gov; an individual applicant has no roles to manage [1896].
+  pending_changes: []
+  official_url: https://www.grants.gov/applicants/workspace-overview/workspace-roles
+  as_of: '2026-10-04'
+  sources:
+  - 1916
+  - 1895
+  - 1965
+  - 1896
+  sweep: rules-B
+- id: grants-gov-workspace
+  name: Grants.gov Workspace
+  what: 'Workspace is the standard way to apply in Grants.gov: a shared space in which members of a team fill in the forms
+    of one application package, online or as downloaded PDFs, before an AOR submits it [1915] [1965].'
+  rule: An application can be submitted when all required forms are complete and pass error checks, the organisation's SAM.gov
+    registration is active, the deadline has not passed, and the user has an AOR role or an equivalent submit privilege
+    [1965]. Submitted packages are kept for 5 years [1966].
+  figures:
+  - label: workflow sizes described by Grants.gov
+    value: Basic 1-2 users; Intermediate 3-5 users; Advanced with outside users
+    cite:
+    - 1915
+  applies_to: Organisations and individuals applying through Grants.gov [1915].
+  pending_changes: []
+  official_url: https://www.grants.gov/applicants/workspace-overview
+  as_of: '2026-10-04'
+  sources:
+  - 1915
+  - 1965
+  - 1966
+  sweep: rules-B
+- id: simpler-grants-gov-transition
+  name: The move from Grants.gov to Simpler.Grants.gov
+  what: Simpler.Grants.gov is the site on which HHS is building the next generation of Grants.gov [1967]. On 2026-10-04
+    its search is the default search for opportunities, and its home page says a user may need to visit Grants.gov to apply
+    for most opportunities [1920] [1967]. Sign-in is through Login.gov [1967].
+  rule: 'The roadmap gives three stages: ''Early 2026'', with Simpler Search as the default and a simpler application workflow
+    tested with partner agencies; ''Mid-2026'', with new budget forms piloted and support scaled for all agencies; and ''2027'',
+    when Simpler.Grants.gov replaces legacy Grants.gov and becomes the default experience [1919]. What is already delivered:
+    Login.gov sign-in (early 2025), an end-to-end application pilot (mid-2025), two opportunities open for application through
+    the site and a repository of 15 forms (late 2025), default search (December 23, 2025), and saving opportunities to an
+    organisation (May 18, 2026) [1919] [1920].'
+  figures:
+  - label: share of Grants.gov competitions the form work aims to cover
+    value: 35%
+    cite:
+    - 1919
+  - label: forms in the repository, late 2025
+    value: '15'
+    cite:
+    - 1919
+  - label: opportunities open for application through Simpler.Grants.gov, late 2025
+    value: two
+    cite:
+    - 1919
+  applies_to: Everyone who searches for or applies to federal funding opportunities; for most opportunities the application
+    itself is still made in Grants.gov Workspace [1967].
+  pending_changes:
+  - status: announced
+    date: '2027'
+    text: The roadmap states that in 2027 Simpler.Grants.gov replaces legacy Grants.gov; no day or month is given [1919].
+  official_url: https://simpler.grants.gov/roadmap
+  as_of: '2026-10-04'
+  sources:
+  - 1967
+  - 1919
+  - 1920
+  sweep: rules-B
+- id: sf-424-form-families
+  name: SF-424 form families
+  what: The SF-424 is the standard federal application form, issued in several sets for different kinds of applicant and
+    programme [1918]. Grants.gov publishes the current versions in its forms repository, and the forms an opportunity requires
+    are loaded into its Workspace package [1918] [1915].
+  rule: The repository is divided into the SF-424 Family, the R&R (Research and Related) Family, the SF-424 Individual Family,
+    the SF-424 Mandatory Family, the SF-424 Short Organization Family, Post-Award Reporting Forms and Retired Forms [1918].
+    The PDFs shown there are samples and cannot be submitted with an application [1918]. The NEA's Part 1 uses the Short
+    Organization form, and DOJ's first step uses the SF-424 with the SF-LLL lobbying disclosure where it applies [1934]
+    [619].
+  figures: []
+  applies_to: Every application made through Grants.gov [1918].
+  pending_changes: []
+  official_url: https://www.grants.gov/forms/forms-repository/sf-424-family
+  as_of: '2026-10-04'
+  sources:
+  - 1918
+  - 1915
+  - 1934
+  - 619
+  sweep: rules-B
+- id: ffata-subaward-reporting
+  name: Subaward and executive compensation reporting under the Transparency Act
+  what: A recipient that makes subawards reports each one to the public record, under the Federal Funding Accountability
+    and Transparency Act as carried into award terms by 2 CFR part 170 [1908]. Since March 8, 2025 the reports are made
+    in SAM.gov, because FSRS.gov was retired on that date [1903] [1904]. The text of 2 CFR part 170 read on 2026-10-04 still
+    names FSRS as the reporting site [1908].
+  rule: The recipient reports each subaward that equals or exceeds $30,000 in federal funds, no later than the end of the
+    month following the month in which the subaward was issued (2 CFR part 170, Appendix A, I(a)) [1908]. Executive compensation
+    is reported, in the recipient's SAM.gov registration profile, where the entity received 80 percent or more of its annual
+    gross revenue and $25,000,000 or more from federal contracts and awards [1908]. A recipient with gross income under
+    $300,000 in the previous tax year is exempt from subaward reporting [1908].
+  figures:
+  - label: subaward reporting threshold
+    value: equals or exceeds $30,000 in Federal funds
+    cite:
+    - 1908
+  - label: deadline
+    value: no later than the end of the month following the month in which the subaward was issued
+    cite:
+    - 1908
+  - label: executive compensation test
+    value: 80 percent or more of annual gross revenue, and $25,000,000 or more, from federal contracts and awards
+    cite:
+    - 1908
+  - label: exemption
+    value: gross income under $300,000 in the previous tax year
+    cite:
+    - 1908
+  - label: date FSRS.gov was retired
+    value: March 8, 2025
+    cite:
+    - 1903
+  applies_to: Prime recipients of federal financial assistance that make subawards; the person who reports needs a Data
+    Entry role or a subaward reporting permission for the entity in SAM.gov [1904]. USDA's award terms point recipients
+    to https://sam.gov/fsrs with the same threshold and deadline [1948].
+  pending_changes:
+  - status: proposed
+    date: '2026-05-29'
+    text: The preamble to OMB's proposed rule of May 29, 2026 says that in part 170 OMB proposes revisions to reflect that
+      FSRS.gov was retired as of March 8, 2025 and that all subaward reporting data and functionality are on SAM.gov, replacing
+      certain references to FSRS with references to SAM.gov [2104]. Section 157 of Public Law 119-103 bars a rule to revise
+      the Uniform Guidance from being issued or finalised through December 11, 2026 [1480].
+  official_url: https://sam.gov/fsrs
+  as_of: '2026-10-04'
+  sources:
+  - 1908
+  - 1903
+  - 1904
+  - 1902
+  - 1948
+  - 2104
+  - 1480
+  sweep: rules-B
+- id: research-performance-progress-report
+  name: Research Performance Progress Report (RPPR)
+  what: 'The Research Performance Progress Report is the government-wide standard format for progress reports on research
+    awards [1955]. Each agency collects it in its own system: NIH in eRA Commons, NSF in Research.gov, and NASA as annual
+    performance reports built on the RPPR data elements [1954] [1955] [1947].'
+  rule: 'NIH has three types: annual, interim (filed with a renewal application) and final (part of closeout) [1954]. At
+    NIH only the PD/PI or a delegate can start an RPPR, and only a Signing Official, or a PI the Signing Official has delegated,
+    can submit it [1954]. At NSF late reports delay further funding, no-cost extensions and the processing of pending proposals
+    for the PIs and co-PIs named [1955].'
+  figures:
+  - label: NIH annual RPPR, SNAP awards
+    value: approximately 45 days before the next budget period start date
+    cite:
+    - 1954
+  - label: NIH annual RPPR, non-SNAP awards
+    value: approximately 60 days before the next budget period start date
+    cite:
+    - 1954
+  - label: NIH interim and final RPPR
+    value: 120 days from the period of performance end date for the competitive segment
+    cite:
+    - 1954
+  - label: NSF annual project report
+    value: no later than 90 days prior to the end of the current budget period
+    cite:
+    - 1955
+  - label: NSF final annual project report and Project Outcomes Report
+    value: no later than 120 days following the end date of the award
+    cite:
+    - 1955
+  - label: NASA final reports
+    value: within 120 days of award expiration
+    cite:
+    - 1947
+  applies_to: Recipients of research and research-related awards; at NIH the Common Forms rule also covers RPPRs submitted
+    on or after January 25, 2026 [31].
+  pending_changes: []
+  official_url: https://grants.nih.gov/grants-process/post-award-monitoring-and-reporting/reporting-requirements/research-performance-progress-report-rppr
+  as_of: '2026-10-04'
+  sources:
+  - 1954
+  - 1955
+  - 1947
+  - 31
+  sweep: rules-B
+- id: bayh-dole-invention-reporting
+  name: Invention reporting deadlines (Bayh-Dole)
+  what: An organisation that makes an invention with federal funds may keep title to it if it reports and acts within fixed
+    periods set by the standard patent rights clause [1952]. The reports are made in iEdison where the funding agency uses
+    it [1951].
+  rule: Under 37 CFR 401.14 the recipient discloses each subject invention within two months after the inventor discloses
+    it in writing, elects whether to retain title within two years of disclosure, files the initial patent application within
+    one year after election, and reports on utilization on request, no more often than annually [1952].
+  figures:
+  - label: disclosure of a subject invention
+    value: within two months after the inventor discloses it in writing
+    cite:
+    - 1952
+  - label: election of title
+    value: within two years of disclosure
+    cite:
+    - 1952
+  - label: initial patent application
+    value: within one year after election of title
+    cite:
+    - 1952
+  applies_to: Recipients whose funding agreements carry the standard patent rights clause, which calls the recipient the
+    contractor [1952].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-37/section-401.14
+  as_of: '2026-10-04'
+  sources:
+  - 1952
+  - 1951
+  sweep: rules-B
+- id: single-audit-submission-to-fac
+  name: Submitting a single audit to the Federal Audit Clearinghouse
+  what: An organisation above the federal expenditure threshold has a single audit each year and files it, with a data collection
+    form, at the Federal Audit Clearinghouse [1940] [1939].
+  rule: 2 CFR 200.501 sets the threshold at $1,000,000 or more expended in federal awards in the entity's fiscal year; the
+    FAC applies $750,000 to fiscal years that began before October 1, 2024 [1940] [1938]. 2 CFR 200.512(a) sets the filing
+    deadline [1939].
+  figures:
+  - label: threshold, fiscal years starting on or after October 1, 2024
+    value: $1,000,000 or more
+    cite:
+    - 1938
+    - 1940
+  - label: threshold, fiscal years starting before October 1, 2024
+    value: $750,000 or more
+    cite:
+    - 1938
+  - label: deadline
+    value: within 30 calendar days after the auditee receives the auditor's report(s) or nine months after the end of the
+      audit period (whichever is earlier)
+    cite:
+    - 1939
+  applies_to: Non-Federal entities, which include universities and non-profits; the subpart does not apply to for-profit
+    organisations [1940].
+  pending_changes: []
+  official_url: https://www.fac.gov/audit-resources/submission-guide/about/
+  as_of: '2026-10-04'
+  sources:
+  - 1940
+  - 1939
+  - 1938
+  sweep: rules-B
+- id: federal-system-sign-in-requirements
+  name: Sign-in requirements across the federal grant systems
+  what: Between 2023 and 2026 the grant systems moved from their own passwords to Login.gov or another verified credential
+    with a second factor, each on its own date [1971] [1926] [1932]. The practical effect is that each person needs a personal
+    Login.gov account whose email address matches the one on each system account [1972] [1951] [1960].
+  rule: 'Research.gov: multifactor authentication at every sign-in from October 27, 2024, with a phishing-resistant method
+    for administrative and financial roles [1971] [1972]. HRSA Electronic Handbooks: identity-verified Login.gov or ID.me
+    with two-factor authentication from August 28, 2025 [1926]. eRA Commons: two-factor authentication through Login.gov
+    or an InCommon federated account, required of PIs and key personnel 45 days after a competing application or RPPR is
+    submitted [1914]. eGMS Reach at NEH and IMLS: Login.gov from January 20, 2023 [1932] [1960]. Federal Audit Clearinghouse,
+    iEdison, SAM.gov, Grants.gov and Simpler.Grants.gov: Login.gov [1881] [1951] [1897] [1965] [1967]. PAMS: DOE OneID,
+    with Login.gov suggested for international users [1922]. Payment Management System: ID.me is the partner named on its
+    access page [1974]. ezFedGrants: Login.gov linked to USDA eAuthentication, with a verified identity [1929]. G6: Login.gov
+    or existing G5 credentials [1963].'
+  figures:
+  - label: Research.gov multifactor authentication required from
+    value: October 27, 2024
+    cite:
+    - 1971
+  - label: HRSA EHBs identity-verified sign-in required from
+    value: August 28, 2025
+    cite:
+    - 1926
+  - label: eGMS Reach (NEH, IMLS) Login.gov sign-in from
+    value: January 20, 2023
+    cite:
+    - 1932
+    - 1960
+  - label: eRA two-factor requirement for PIs and key personnel
+    value: 45 days after submission of a competing application (Type 1 or 2) or an RPPR
+    cite:
+    - 1914
+  applies_to: Every person who uses these systems for an applicant or recipient organisation [1953].
+  pending_changes: []
+  official_url: https://www.login.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 1971
+  - 1972
+  - 1926
+  - 1914
+  - 1932
+  - 1960
+  - 1881
+  - 1951
+  - 1897
+  - 1965
+  - 1967
+  - 1922
+  - 1974
+  - 1929
+  - 1963
+  - 1953
+  sweep: rules-B
+- id: sam-entity-administrator-and-notarized-letter
+  name: SAM.gov Entity Administrator and the notarized letter
+  what: The person who registers and renews an organisation in SAM.gov is its entity administrator; NIH describes the role
+    as held by the chief financial officer or an authorising official [1909]. In April 2018 GSA began requiring an original,
+    signed, notarized letter naming the Entity Administrator with every request to register, renew or change a SAM account
+    [1978].
+  rule: 'As of June 29, 2018 an entity no longer needed an approved notarized letter before its registration was activated
+    [1978]. The SAM.gov entity registration page and the Entity Registration Checklist read on 2026-10-04 do not mention
+    a notarized letter [1897] [1898]. Whether a letter is still required in any case could not be settled from the pages
+    read, because the Federal Service Desk articles could not be fetched [1901]. A second pass on 2026-10-04 did not settle
+    it either: GSA''s guide to SAM.gov for state and local governments applying for financial assistance mentions neither
+    the Entity Administrator role nor a notarized letter [1968]. The Grants.gov applicant registration page, read the same
+    day, likewise mentions no notarized letter; it says to allow up to 10 business days for a SAM registration to become
+    active and that it could take weeks or months if information is not available or verified [1895].'
+  figures:
+  - label: date the notarized letter requirement began
+    value: April 2018
+    cite:
+    - 1978
+  - label: date activation no longer waited on the letter
+    value: June 29, 2018
+    cite:
+    - 1978
+  applies_to: Organisations registering in or renewing a SAM.gov registration [1978].
+  pending_changes: []
+  official_url: https://sam.gov/entity-registration
+  as_of: '2026-10-04'
+  sources:
+  - 1909
+  - 1978
+  - 1897
+  - 1898
+  - 1901
+  - 1968
+  - 1895
+  sweep: rules-B
+- id: common-rule
+  name: The Common Rule (45 CFR part 46, subpart A)
+  what: The Common Rule is the federal policy for the protection of human subjects, codified for HHS at 45 CFR part 46 and
+    in identical language by the other agencies that follow it [1992]. Twenty departments and agencies follow the revised
+    rule [1992].
+  rule: The revised Common Rule was published in January 2017, amended in January 2018 and took effect in July 2018 [1992].
+    It requires an assurance from each institution engaged in covered non-exempt research (45 CFR 46.103) and review by
+    a registered IRB (45 CFR part 46, subpart E) [1981] [1983].
+  figures:
+  - label: departments and agencies following the revised Common Rule
+    value: twenty
+    cite:
+    - 1992
+  applies_to: Research with human subjects conducted or supported by a federal department or agency that follows the rule
+    [1981].
+  pending_changes: []
+  official_url: https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html
+  as_of: '2026-10-04'
+  sources:
+  - 1992
+  - 1981
+  - 1983
+  - 1993
+  note: No amendment or proposed amendment of the Common Rule dated 2025 or 2026 appears on OHRP's Common Rule page or in
+    its announcements list, which for those years holds a reporting reminder, a draft guidance and an FAQ [1992] [1993].
+  sweep: rules-C
+- id: single-irb-requirement
+  name: Single IRB for multi-site research
+  what: 'When several United States institutions take part in one federally supported study, they rely on one institutional
+    review board, not one each [1982]. Two requirements say this and they are separate: the Common Rule''s cooperative research
+    provision and NIH''s own single IRB policy [1990].'
+  rule: '45 CFR 46.114(b)(1): any institution located in the United States that is engaged in cooperative research must
+    rely upon approval by a single IRB for the portion of the research conducted in the United States [1982]. The reviewing
+    IRB is identified by the supporting federal agency or proposed by the lead institution [1982]. The exceptions are research
+    for which law, including tribal law, requires more than single IRB review, and research for which the agency determines
+    and documents that a single IRB is not appropriate [1982].'
+  figures:
+  - label: NIH single IRB policy applies to applications submitted on or after
+    value: January 25, 2018
+    cite:
+    - 1990
+  - label: Common Rule cooperative research provision applies to studies initially approved on or after
+    value: January 20, 2020
+    cite:
+    - 1990
+  applies_to: The NIH policy applies to multi-site non-exempt studies using the same protocol; the Common Rule provision
+    reaches further, including K awards, F awards and Other Transaction awards [1990]. An NIH applicant does not submit
+    a single IRB plan with the application; it names the single IRB of record at Just-in-Time and includes the costs in
+    the budget [1990]. Since the end of the COVID-19 public health emergency NIH has no authority to approve exceptions
+    to the Common Rule provision (NOT-OD-23-097) [1990].
+  pending_changes: []
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/human-subjects/single-irb-policy-multi-site-research
+  as_of: '2026-10-04'
+  sources:
+  - 1982
+  - 1990
+  sweep: rules-C
+- id: research-misconduct-rule
+  name: PHS research misconduct rule (42 CFR part 93) and its 2025-2026 dates
+  what: 42 CFR part 93 sets how institutions that receive Public Health Service research support handle allegations of fabrication,
+    falsification or plagiarism [2006]. HHS revised the whole part by a final rule published September 17, 2024 at 89 FR
+    76280 [2008].
+  rule: The final rule was effective January 1, 2025, and all of its requirements apply on or after January 1, 2026 [2008].
+    Institutions follow the revised part for allegations received on or after January 1, 2026 and implement the required
+    policies and procedures by the due date of the annual report covering the 2025 reporting year [2006]. ORI takes annual
+    reports between January 1 and April 30 [2009].
+  figures:
+  - label: effective date of the final rule
+    value: January 1, 2025
+    cite:
+    - 2008
+  - label: applicability date
+    value: January 1, 2026
+    cite:
+    - 2008
+  - label: time limit on allegations
+    value: six years, with exceptions (93.104)
+    cite:
+    - 2006
+  - label: inquiry
+    value: within 90 days of its initiation unless circumstances warrant a longer period (93.307(h))
+    cite:
+    - 2006
+  - label: investigation
+    value: within 180 days of beginning it (93.311(a))
+    cite:
+    - 2006
+  - label: record retention
+    value: seven years after completion of the proceeding (93.318(a))
+    cite:
+    - 2006
+  applies_to: Institutions that receive PHS support for biomedical or behavioural research [2007]. ORI issued guidance for
+    the revised part during 2025, on generative artificial intelligence in misconduct proceedings (August 14, 2025) and
+    on conflicts of interest, institutional committees and research integrity officers (September 29, 2025), and a sample
+    policy titled for 2025 [2011].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-42/chapter-I/subchapter-H/part-93
+  as_of: '2026-10-04'
+  sources:
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 2011
+  sweep: rules-C
+- id: foreign-support-disclosure
+  name: Disclosure of foreign and other support
+  what: Senior/key personnel disclose their appointments, affiliations and sources of support, foreign ones included, in
+    the Biographical Sketch and the Current and Pending (Other) Support forms [247] [31]. NIH requires institutions to keep
+    internal controls for disclosure, including training for senior/key personnel on those policies [31].
+  rule: At NSF, undisclosed current support or in-kind contributions are reported within 30 calendar days of being identified
+    (PAPPG Chapter IX.C) [2004]. From December 2, 2025 NSF may assess proposals and awards and ask recipients for supporting
+    documentation on senior/key personnel disclosures [2014]. At NIH each person, not a delegate, certifies in SciENcv that
+    the forms are current, accurate and complete [31].
+  figures:
+  - label: NSF post-award reporting of undisclosed support
+    value: within 30 calendar days of identification
+    cite:
+    - 2004
+  applies_to: Senior/key personnel on NSF and NIH applications and awards [2004] [31]. The forms themselves are in the pack's
+    records common-forms-sciencv and sciencv [31].
+  pending_changes: []
+  official_url: https://www.nsf.gov/research-security
+  as_of: '2026-10-04'
+  sources:
+  - 247
+  - 2004
+  - 2014
+  - 31
+  sweep: rules-C
+- id: confucius-institute-certification
+  name: Certification regarding Confucius Institutes (NSF)
+  what: No NSF funds may be awarded to an institution of higher education that maintains a contract or agreement with a
+    Confucius Institute, under section 10339A of the CHIPS and Science Act (42 U.S.C. 19039) [2014].
+  rule: From December 2, 2025 the Authorized Organizational Representative certifies that the institution maintains no such
+    contract or agreement, absent a waiver [2014].
+  figures:
+  - label: effective date
+    value: December 2, 2025
+    cite:
+    - 2014
+  applies_to: Institutions of higher education proposing to NSF [2014].
+  pending_changes: []
+  official_url: https://www.nsf.gov/notices/important/important-notice-no-149-updates-nsf-research-security/in149
+  as_of: '2026-10-04'
+  sources:
+  - 2014
+  sweep: rules-C
+- id: export-controls-pointer
+  name: Export controls (pointer only)
+  what: 'Export control rules can reach research carried out inside the United States: the Bureau of Industry and Security
+    defines a deemed export as the sharing or release of controlled technology or source code to a foreign person within
+    the United States [2028]. Export control training is one of the four elements of a research security programme at a
+    covered institution [2017].'
+  rule: 'The Export Administration Regulations define export, reexport and release at 15 CFR 734.13, 734.14 and 734.15 [2028]. '
+  figures: []
+  applies_to: Institutions and investigators handling controlled technology or source code [2028].
+  pending_changes: []
+  official_url: https://www.bis.gov/learn-support/deemed-exports
+  as_of: '2026-10-04'
+  sources:
+  - 2028
+  - 2017
+  sweep: rules-C
+- id: nsf-public-access-requirement
+  name: NSF public access to publications
+  what: NSF awardees deposit peer-reviewed publications and juried conference papers in the NSF Public Access Repository
+    (par.nsf.gov) [2032]. The requirement has applied to awards from proposals submitted, or due, on or after January 25,
+    2016 [2032].
+  rule: 'Supplement 2 to PAPPG 24-1, effective January 22, 2026, removed the 12-month publication embargo: the author''s
+    accepted manuscript is deposited in the repository at or before the time of publication [150]. Deposit is required for
+    a publication to be included in annual project reporting [150]. Paying a publisher for access to the version of record
+    is an allowable cost and is not required [150].'
+  figures:
+  - label: embargo before January 22 2026
+    value: 12 months
+    cite:
+    - 150
+  - label: embargo from January 22 2026
+    value: none; deposit at or before publication
+    cite:
+    - 150
+  applies_to: Financial assistance awarded by NSF on or after January 22, 2026 [150].
+  pending_changes: []
+  official_url: https://www.nsf.gov/public-access
+  as_of: '2026-10-04'
+  sources:
+  - 2032
+  - 150
+  note: NSF's public access page, last updated September 18, 2025, does not yet describe the removal of the embargo [2032].
+  sweep: rules-C
+- id: ostp-2022-public-access-memorandum
+  name: 2022 OSTP public access memorandum
+  what: The Office of Science and Technology Policy memorandum of August 25, 2022, "Ensuring Free, Immediate, and Equitable
+    Access to Federally Funded Research", directed agencies to make peer-reviewed publications from federally funded research
+    freely available without embargo, and the scientific data behind them available at the time of publication [2033].
+  rule: Agencies were to publish their policies by December 31, 2024 and bring them into effect no later than one year after
+    publication, December 31, 2025 [2033]. NIH's policy applies to manuscripts accepted on or after July 1, 2025 [125].
+    NSF removed its 12-month embargo for awards made on or after January 22, 2026 [150].
+  figures:
+  - label: agency policies to be published by
+    value: December 31, 2024
+    cite:
+    - 2033
+  - label: agency policies to be effective no later than
+    value: December 31, 2025
+    cite:
+    - 2033
+  applies_to: Federal agencies with research and development expenditures [2033].
+  pending_changes: []
+  official_url: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf
+  as_of: '2026-10-04'
+  sources:
+  - 2033
+  - 125
+  - 150
+  note: The memorandum was read on the National Archives copy of the earlier White House site [2033]. No OSTP statement
+    on its present status was found in this sweep; the two agency policies above are in force on their own terms [125] [150].
+  sweep: rules-C
+- id: civil-rights-obligations
+  name: Civil rights obligations of recipients (outline)
+  what: Title VI of the Civil Rights Act of 1964 prohibits discrimination on the basis of race, color and national origin
+    in programmes and activities receiving federal financial assistance [2040]. Title IX of the Education Amendments of
+    1972 prohibits sex discrimination in any education program or activity receiving federal financial assistance [2045].
+    Section 504 of the Rehabilitation Act prohibits discrimination on the basis of disability [2043]. An HHS applicant agrees
+    to all of these, with the Age Discrimination Act of 1975, on Form HHS-690 [2036].
+  rule: 'Agencies may begin fund termination proceedings or refer a matter to the Department of Justice, and individuals
+    may file complaints or sue [2040]. The Justice Department''s own Title VI regulation no longer carries its paragraph
+    on criteria or methods of administration with a discriminatory effect: 28 CFR 42.104(b)(2) is shown as reserved after
+    a final rule of December 10, 2025 (90 FR 57148) [2041] [2086]. HHS''s section 504 rule requires recipients'' web content
+    and mobile apps to meet WCAG 2.1 Level A and Level AA, beginning May 11, 2027 for recipients with fifteen or more employees
+    and May 10, 2028 for smaller recipients (45 CFR 84.84(b)), as amended May 11, 2026 [2044].'
+  figures:
+  - label: HHS web and mobile accessibility, recipients with fifteen or more employees
+    value: beginning May 11, 2027
+    cite:
+    - 2044
+  - label: HHS web and mobile accessibility, recipients with fewer than fifteen employees
+    value: beginning May 10, 2028
+    cite:
+    - 2044
+  - label: technical standard
+    value: WCAG 2.1 Level A and Level AA
+    cite:
+    - 2044
+  applies_to: Recipients of federal financial assistance [2040]. On language access, the executive order of March 1, 2025
+    revoked Executive Order 13166, and the Justice Department has suspended lep.gov pending new guidance [2040] [2042].
+    The Title IX regulations in force were not read in this sweep [2045].
+  pending_changes:
+  - status: final
+    date: '2025-12-10'
+    text: A Justice Department final rule removed the disparate-impact provisions of its Title VI regulation; paragraph
+      (b)(2) of 28 CFR 42.104 is now reserved [2086] [2041].
+  - status: final
+    date: '2026-05-11'
+    text: An amendment published at 91 FR 25507 changed 45 CFR 84.84; the section now gives compliance dates of May 11,
+      2027 and May 10, 2028 [2044].
+  - status: pending-implementation
+    date: '2025-07-17'
+    text: The Justice Department page to which lep.gov redirects says the site is suspended pending an internal review under
+      Executive Order 14224 and that materials will be replaced when new guidance is issued [2042].
+  official_url: https://www.justice.gov/crt/fcs/TitleVI
+  as_of: '2026-10-04'
+  sources:
+  - 2040
+  - 2045
+  - 2043
+  - 2036
+  - 2041
+  - 2086
+  - 2044
+  - 2042
+  sweep: rules-C
+- id: audit-below-single-audit-threshold
+  name: Audit requirement below the single-audit threshold
+  what: 'An organisation that spends less than the single-audit threshold in federal awards in its fiscal year is exempt
+    from federal audit requirements for that year [2069]. An agency may still ask for financial statements before a first
+    award: NSF asks prospective new awardees for audited financial statements from the previous two years [2072].'
+  rule: '2 CFR 200.501: a non-federal entity that expends $1,000,000 or more in federal awards during its fiscal year must
+    have a single or programme-specific audit; one that expends less is exempt, but its records must be available for review
+    or audit by the federal agency, the pass-through entity and the Government Accountability Office [2069].'
+  figures:
+  - label: single-audit threshold (federal awards expended in the entity's fiscal year)
+    value: $1,000,000
+    cite:
+    - 2069
+  applies_to: Non-federal entities that expend federal awards [2069].
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-F
+  as_of: '2026-10-04'
+  sources:
+  - 2069
+  - 2072
+  sweep: rules-C
+- id: nonprofit-indirect-cost-rate-negotiation
+  name: Where a non-profit gets an indirect cost rate
+  what: 'A non-profit with no negotiated indirect cost rate has two routes: charge the de minimis rate, which needs no negotiation,
+    or negotiate a rate with its cognizant federal agency [2070] [2071].'
+  rule: '2 CFR 200.414(f): a recipient without a current negotiated rate may elect a de minimis rate of up to 15 percent
+    of modified total direct costs, without documentation, and may use it indefinitely [2070]. Appendix IV to part 200,
+    section C.2.a: the cognizant agency for a non-profit is the federal agency with the largest dollar value of federal
+    awards directly funded to it, unless agencies agree otherwise, and the assignment changes only after a shift in dollar
+    volume lasting at least three years [2071]. An organisation without established rates sends its first indirect cost
+    proposal no later than three months after the effective date of the award, and a new proposal within six months after
+    the close of each fiscal year [2071].'
+  figures:
+  - label: de minimis rate
+    value: up to 15 percent of modified total direct costs
+    cite:
+    - 2070
+  - label: first indirect cost proposal due
+    value: no later than three months after the effective date of the Federal award
+    cite:
+    - 2071
+  - label: later proposals due
+    value: within six months after the close of each fiscal year
+    cite:
+    - 2071
+  - label: one-time extension of a current negotiated rate
+    value: up to four years
+    cite:
+    - 2070
+  applies_to: 'Non-profit organisations receiving federal awards directly [2071]. The offices that negotiate: where HHS
+    is cognizant, Cost Allocation Services in the HHS Program Support Center, through the Indirect Cost Allocation System
+    portal [1860]; the Interior Business Center''s Indirect Cost Services, for Interior and as a shared service for other
+    cognizant agencies [2073]; and at NSF the Cost Analysis and Pre-Award Branch, for about 100 organisations [163]. NSF
+    does not negotiate rates for subrecipients or foreign organisations [163].'
+  pending_changes: []
+  official_url: https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/appendix-Appendix%20IV%20to%20Part%20200
+  as_of: '2026-10-04'
+  sources:
+  - 2070
+  - 2071
+  - 1860
+  - 2073
+  - 163
+  sweep: rules-C
+- id: automatic-revocation-of-exemption
+  name: Automatic revocation of tax exemption and reinstatement
+  what: An exempt organisation that files no annual return or notice for three consecutive years loses its tax-exempt status
+    automatically [2057]. A funder that checks the IRS Tax Exempt Organization Search will find the organisation on the
+    Automatic Revocation List [2057] [2059].
+  rule: Revocation is effective on the original filing due date of the third annual return or notice [2057]. A revoked organisation
+    must apply to be reinstated, on Form 1023, 1023-EZ, 1024 or 1024-A with the user fee, by one of four procedures in Revenue
+    Procedure 2014-11 [2058].
+  figures:
+  - label: consecutive years without filing before revocation
+    value: three
+    cite:
+    - 2057
+  - label: window for streamlined or reasonable-cause-for-one-year retroactive reinstatement
+    value: no later than 15 months after the later of the revocation letter or the listing
+    cite:
+    - 2058
+  applies_to: Organisations required to file Form 990, 990-EZ, 990-PF or 990-N [2057].
+  pending_changes: []
+  official_url: https://www.irs.gov/charities-non-profits/automatic-revocation-of-exemption
+  as_of: '2026-10-04'
+  sources:
+  - 2057
+  - 2058
+  - 2059
+  sweep: rules-C
+- id: agency-specific-certifications
+  name: Certifications an agency adds to the governmentwide set
+  what: Beside the certifications made in SAM.gov, an applicant certifies to agency-specific statements by signing the application
+    or accepting the award [257] [528] [656].
+  rule: 'NSF: the Authorized Organizational Representative makes nine certifications under PAPPG Chapter II.D.1.d, among
+    them conflict of interest, responsible and ethical conduct of research, malign foreign talent recruitment programmes,
+    and safe and inclusive working environments for off-campus research [257]. NIH: section 4.1 of the Grants Policy Statement,
+    revised March 2026, lists the public policy requirements that attach to every award; its civil rights section, as read,
+    carries no certification about DEI programmes or executive orders [2081] [2088]. Office of Justice Programs: applicants
+    file Certified Standard Assurances and certifications on lobbying, debarment and suspension, and drug-free workplace
+    [619]. HHS agencies other than NIH: Version 2.0 of the HHS Grants Policy Statement, effective October 1, 2025, says
+    that by accepting an award the recipient certifies compliance with Title IX, including requirements in Executive Order
+    14168, and with Title VI [528]. Arts Endowment: by signing and submitting an application the applicant certifies compliance
+    with the nondiscrimination statutes, the debarment, federal debt, labor standards and drug-free workplace rules, and
+    Executive Order 14173 [656]. USDA: a deviation to its General Terms and Conditions effective July 8, 2026 follows a
+    preliminary injunction in City of Seattle v. Trump [2020].'
+  figures: []
+  applies_to: Applicants to and recipients from each agency named [257] [528].
+  pending_changes: []
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation
+  as_of: '2026-10-04'
+  sources:
+  - 257
+  - 2081
+  - 2088
+  - 528
+  - 656
+  - 2020
+  - 619
+  sweep: rules-C

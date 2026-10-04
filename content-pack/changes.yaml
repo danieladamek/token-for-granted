@@ -5792,3 +5792,761 @@
   sources:
   - 1797
   sweep: capacity-D
+- id: ch-ga-2025-01-21-eo-14173-certification-term
+  date: '2025-01-21'
+  what: Executive Order 14173 directed every agency to include in each grant award a term making compliance with federal
+    anti-discrimination laws material for False Claims Act purposes and a certification that the recipient does not operate
+    DEI programmes that violate those laws [1862]. The Fourth Circuit vacated a nationwide preliminary injunction against
+    the provision on February 6, 2026 and remanded [1865].
+  status: in-litigation
+  affects:
+  - anti-discrimination-certification-false-claims-act
+  sources:
+  - 1862
+  - 1865
+  sweep: rules-A
+- id: ch-ga-2025-04-04-scotus-ed-v-california
+  date: '2025-04-04'
+  what: In Department of Education v. California the Supreme Court stayed a district court order that had required continued
+    payment of terminated Teacher Quality Partnership and SEED grants, stating that the Government was likely to show the
+    district court lacked jurisdiction to order payment of money under the APA and pointing to the Court of Federal Claims
+    under the Tucker Act [1804]. The ledger's ch-re-2025-08-21-scotus-grant-termination-jurisdiction records the second
+    order, of August 21, 2025 [28].
+  status: final
+  affects:
+  - termination-objections-appeals-and-forums
+  - award-termination
+  sources:
+  - 1804
+  - 28
+  sweep: rules-A
+- id: ch-ga-2025-04-21-nih-civil-rights-term-issued-and-rescinded
+  date: '2025-04-21'
+  what: NIH added a civil rights term and condition of award on April 21, 2025, under which accepting an award certified
+    that the recipient does not operate DEI programmes in violation of federal anti-discrimination laws and does not engage
+    in a prohibited boycott [1870]. NIH rescinded the term on June 12, 2025, saying it awaited federal-wide guidance [1871].
+  status: rescinded
+  affects:
+  - anti-discrimination-certification-false-claims-act
+  - nih
+  sources:
+  - 1870
+  - 1871
+  sweep: rules-A
+- id: ch-ga-2025-05-19-doj-civil-rights-fraud-initiative
+  date: '2025-05-19'
+  what: The Deputy Attorney General established the Civil Rights Fraud Initiative to bring False Claims Act cases against
+    recipients of federal funds that knowingly violate civil rights laws while certifying compliance, co-led by the Civil
+    Division's Fraud Section and the Civil Rights Division [1863].
+  status: final
+  affects:
+  - anti-discrimination-certification-false-claims-act
+  - required-certifications
+  sources:
+  - 1863
+  sweep: rules-A
+- id: ch-ga-2025-07-29-ag-guidance-unlawful-discrimination
+  date: '2025-07-29'
+  what: The Attorney General issued "Guidance for Recipients of Federal Funding Regarding Unlawful Discrimination" to all
+    federal agencies, listing five kinds of practice the department treats as unlawful and a list of practices it describes
+    as non-binding suggestions [1864]. GSA later cited it as a basis for revising SAM.gov certifications [1866].
+  status: final
+  affects:
+  - anti-discrimination-certification-false-claims-act
+  sources:
+  - 1864
+  - 1866
+  sweep: rules-A
+- id: ch-ga-2025-10-01-hhs-adopts-2-cfr-200
+  date: '2025-10-01'
+  what: On October 1, 2025 HHS began applying 2 CFR part 200, with its own additions at 2 CFR part 300, in place of 45 CFR
+    part 75; NIH's award terms cite 2 CFR 200 from that date [528] [1884] [65]. The ledger's ch-re-2025-10-01-hhs-gps-v2
+    records the policy statement that took effect the same day [528].
+  status: final
+  affects:
+  - uniform-guidance-2-cfr-200
+  - hhs-grants-policy-statement
+  - nih
+  - hrsa
+  - samhsa
+  - cdc
+  - acf
+  sources:
+  - 528
+  - 1884
+  - 65
+  sweep: rules-A
+- id: ch-ga-2026-01-21-ca4-sustainability-institute
+  date: '2026-01-21'
+  what: In The Sustainability Institute v. Trump the Fourth Circuit vacated injunctions that had ordered 32 frozen or terminated
+    environmental and agricultural grants restored, holding that the district court lacked jurisdiction to order relief
+    designed to enforce obligations to pay money under the grants and that the plaintiffs' constitutional claims were statutory
+    claims [1879].
+  status: final
+  affects:
+  - termination-objections-appeals-and-forums
+  - award-termination
+  - epa
+  sources:
+  - 1879
+  sweep: rules-A
+- id: ch-ga-2026-01-28-gsa-sam-certifications-proposed
+  date: '2026-01-28'
+  what: GSA published a 60-day notice (91 FR 3726) proposing to revise the financial assistance representations and certifications
+    made in SAM.gov, citing the Attorney General's July 29, 2025 guidance and Executive Order 14173; comments were due March
+    30, 2026 [1866]. No later Federal Register notice for the collection was found on 2026-10-04 [1866].
+  status: proposed
+  affects:
+  - anti-discrimination-certification-false-claims-act
+  - sam-registration
+  sources:
+  - 1866
+  sweep: rules-A
+- id: ch-ga-2026-01-31-lapse-in-appropriations
+  date: '2026-01-31'
+  what: 'NIH recorded a lapse of federal funding beginning January 31, 2026 and issued guidance on February 2, 2026: work
+    under active awards could continue, applications were still submitted by their due dates, and no awards were processed
+    [1872]. The appropriations act NIH later cited for fiscal year 2026 was enacted February 3, 2026 [1856].'
+  status: final
+  affects:
+  - lapse-in-appropriations-and-grants
+  - nih
+  sources:
+  - 1872
+  - 1856
+  sweep: rules-A
+- id: ch-ga-2026-02-06-ca4-nadohe-certification-injunction-vacated
+  date: '2026-02-06'
+  what: In National Association of Diversity Officers in Higher Education v. Trump the Fourth Circuit vacated the District
+    of Maryland's nationwide preliminary injunction against the termination and certification provisions of Executive Orders
+    14151 and 14173 and remanded, holding the plaintiffs unlikely to succeed on their facial challenges [1865].
+  status: in-litigation
+  affects:
+  - anti-discrimination-certification-false-claims-act
+  sources:
+  - 1865
+  sweep: rules-A
+- id: ch-ga-2026-07-13-omb-proposal-comment-period-closed
+  date: '2026-07-13'
+  what: The comment period on OMB's proposed "Regulation for Federal Financial Assistance" closed; the Federal Register
+    record shows 496,606 comments in docket OMB-2026-0034 [1858]. This adds to the ledger's ch-sc-omb-2cfr-proposed [1458].
+  status: proposed
+  affects:
+  - omb-2-cfr-revision-2026
+  - uniform-guidance-2-cfr-200
+  sources:
+  - 1858
+  - 1458
+  sweep: rules-A
+- id: ch-ga-2026-07-17-new-jersey-v-omb-declaratory-judgment
+  date: '2026-07-17'
+  what: In State of New Jersey v. U.S. Office of Management and Budget the District of Massachusetts declared that 2 CFR
+    200.340(a)(4) (2024) and 200.340(a)(2) (2021) do not allow terminations of awards based on new programme goals or agency
+    priorities; it granted no vacatur or injunction and did not address grants already terminated [1869]. A law firm note
+    says the order may be appealed; whether it was appealed was not found [722].
+  status: in-litigation
+  affects:
+  - award-termination
+  - grants-termination-for-convenience
+  - termination-objections-appeals-and-forums
+  - nih-termination-terms
+  - nsf-termination-terms
+  sources:
+  - 1869
+  - 722
+  sweep: rules-A
+- id: ch-ga-2026-08-14-omb-agenda-proposed-rule-stage
+  date: '2026-08-14'
+  what: OMB's 2026 regulatory agenda (91 FR 53072) listed the Regulation for Federal Financial Assistance, RIN 0348-AB88,
+    in the proposed rule stage, with no date for final action [1859].
+  status: proposed
+  affects:
+  - omb-2-cfr-revision-2026
+  sources:
+  - 1859
+  sweep: rules-A
+- id: ch-ga-2026-09-02-cr-section-157-bars-uniform-guidance-rule
+  date: '2026-09-02'
+  what: Section 157 of Public Law 119-103, approved September 2, 2026, provides that through December 11, 2026 a rule to
+    revise the Uniform Guidance arising out of the May 29, 2026 proposal, or a substantially similar rule, shall not be
+    issued or finalised, and that a rule finalised before enactment shall not have force or take effect [1480]. NIH states
+    that the resolution prohibits it from implementing the revisions through that date [83]. The ledger's ch-sd-fy2027-continuing-resolution-pl-119-103
+    records the resolution itself [1480].
+  status: frozen-by-appropriations
+  affects:
+  - omb-2-cfr-revision-2026
+  - uniform-guidance-2-cfr-200
+  - award-termination
+  - grants-termination-for-convenience
+  - executive-order-14332-grant-oversight
+  sources:
+  - 1480
+  - 83
+  - 1857
+  sweep: rules-A
+- id: ch-ga-2026-09-22-senate-letter-on-reported-nih-grant-review-order
+  date: '2026-09-22'
+  what: The chair of the Senate Appropriations Committee released a statement on September 21, 2026 and a letter to the
+    OMB and NIH Directors on September 22, 2026 about an executive order reported to be in preparation that would add a
+    review of NIH grant applications after merit review; the letter cites 42 U.S.C. 289a [1891] [1892]. No such order was
+    found in this sweep, and the releases do not name or date one [1892]. On 2026-10-04 the Federal Register's list of presidential
+    documents published from August 15 to September 16, 2026 showed no order on NIH, grants or peer review, and the ten
+    actions on the first page of the White House list, dated September 17 to October 2, 2026, showed none either [2097]
+    [2108].
+  status: proposed
+  affects:
+  - senior-appointee-review
+  - executive-order-14332-grant-oversight
+  - nih
+  - nih-study-section
+  - nih-advisory-council
+  sources:
+  - 1891
+  - 1892
+  - 2097
+  - 2108
+  sweep: rules-A
+- id: ch-gb-2025-03-08-fsrs-retired
+  date: '2025-03-08'
+  what: FSRS.gov was retired on March 8, 2025 and all subaward reporting moved into SAM.gov, as GSA had announced on December
+    31, 2024 [1903] [1902]. A reporter now needs a role for the entity in SAM.gov [1904].
+  status: final
+  affects:
+  - ffata-subaward-reporting
+  - sam-registration
+  sources:
+  - 1903
+  - 1902
+  - 1904
+  sweep: rules-B
+- id: ch-gb-2025-05-21-sam-records-retention
+  date: '2025-05-21'
+  what: GSA announced that SAM.gov registration data more than ten years past its expiration date is destroyed, and told
+    users to download older data before June 19, 2025 [1906].
+  status: final
+  affects:
+  - sam-registration
+  - unique-entity-identifier
+  sources:
+  - 1906
+  sweep: rules-B
+- id: ch-gb-2025-09-12-sam-registration-screens
+  date: '2025-09-12'
+  what: GSA rebuilt the SAM.gov registration screens in four releases on June 20, July 18, August 15 and September 12, 2025,
+    and stated that the data collected did not change [1905].
+  status: final
+  affects:
+  - sam-registration
+  sources:
+  - 1905
+  sweep: rules-B
+- id: ch-gb-2026-01-28-sam-financial-assistance-certifications
+  date: '2026-01-28'
+  what: GSA published a notice (91 FR 3726) proposing to update the Financial Assistance General Representations and Certifications
+    in SAM.gov to align with the Department of Justice guidance of July 29, 2025 and Executive Order 14173, with comments
+    due March 30, 2026 [1866]. No later notice or effective date was found in this sweep [1866].
+  status: proposed
+  affects:
+  - sam-registration
+  - sam-financial-assistance-certifications
+  sources:
+  - 1866
+  - 1970
+  sweep: rules-B
+- id: ch-gb-2026-02-25-fpds-search-into-sam
+  date: '2026-02-25'
+  what: GSA moved contract award data and search from FPDS.gov into SAM.gov, retired the FPDS.gov ezSearch feature, and
+    said the FPDS.gov ATOM feed is to be retired later in FY 2026; the announcement concerns contracts and does not address
+    financial assistance data [1907] [1901].
+  status: final
+  affects:
+  - sam-registration
+  sources:
+  - 1907
+  - 1901
+  sweep: rules-B
+- id: ch-gb-2025-12-23-simpler-search-default
+  date: '2025-12-23'
+  what: Simpler.Grants.gov became the default for searching for funding opportunities [1920].
+  status: final
+  affects:
+  - simpler-grants-gov-transition
+  - grants-gov-registration
+  sources:
+  - 1920
+  - 1919
+  sweep: rules-B
+- id: ch-gb-2025-simpler-application-pilot
+  date: '2025'
+  what: The Simpler.Grants.gov roadmap lists an end-to-end application pilot launched in mid-2025 and two opportunities
+    open for application through the site in late 2025, with Login.gov sign-in delivered in early 2025 [1919]. Release notes
+    began on December 10, 2025 [1920].
+  status: final
+  affects:
+  - simpler-grants-gov-transition
+  sources:
+  - 1919
+  - 1920
+  sweep: rules-B
+- id: ch-gb-2027-simpler-replaces-grants-gov
+  date: '2027'
+  what: The roadmap states that in 2027 Simpler.Grants.gov replaces legacy Grants.gov and becomes the default experience;
+    the stage before it, mid-2026, is the piloting of new budget forms and scaling to all agencies [1919].
+  status: announced
+  affects:
+  - simpler-grants-gov-transition
+  - grants-gov-registration
+  - grants-gov-workspace
+  sources:
+  - 1919
+  sweep: rules-B
+- id: ch-gb-2025-08-28-hrsa-ehbs-verified-sign-in
+  date: '2025-08-28'
+  what: From August 28, 2025 applicants, grantees and other outside users of HRSA's Electronic Handbooks sign in with an
+    identity-verified Login.gov or ID.me account and two-factor authentication [1926].
+  status: final
+  affects:
+  - hrsa-ehbs
+  - login-gov
+  - federal-system-sign-in-requirements
+  sources:
+  - 1926
+  sweep: rules-B
+- id: ch-gb-2025-08-29-ed-common-instructions
+  date: '2025-08-29'
+  what: The Department of Education published new common instructions for applicants to its discretionary grant programmes
+    (90 FR 42234), superseding the version of December 23, 2024 (89 FR 104528) [1928]. They direct applications to Grants.gov
+    and state that the use of AI in developing application materials is allowable [1928].
+  status: final
+  affects:
+  - grants-gov-registration
+  - ed-g6
+  - sam-registration
+  sources:
+  - 1928
+  sweep: rules-B
+- id: ch-gb-2025-12-03-doe-common-forms
+  date: '2025-12-03'
+  what: DOE issued FAL 2026-02, effective on issuance and superseding FAL 2022-04, requiring the Common Forms in SciENcv
+    across its financial assistance; DOE's public page applies it to funding opportunities published on or after January
+    1, 2026 [1944] [1945].
+  status: final
+  affects:
+  - common-forms-sciencv
+  - orcid-id
+  - doe-pams
+  sources:
+  - 1944
+  - 1945
+  sweep: rules-B
+- id: ch-gb-2025-12-31-usda-common-forms
+  date: '2025-12-31'
+  what: USDA's General Terms and Conditions for Federal Awards, effective December 31, 2025, require the Common Forms for
+    Biographical Sketch and Current and Pending (Other) Support, completed in SciENcv, at application and annually (section
+    10.8) [1948].
+  status: final
+  affects:
+  - common-forms-sciencv
+  - nifa-application-route
+  sources:
+  - 1948
+  - 1949
+  sweep: rules-B
+- id: ch-gb-2026-05-08-nih-common-forms-enforced
+  date: '2026-05-08'
+  what: 'A later development to ch-nih-common-forms-sciencv: NIH required the Common Forms from January 25, 2026 but only
+    warned of non-compliance through May 7, 2026; from May 8, 2026 system errors stop any submission that does not use compliant
+    Common Forms [1941] [31].'
+  status: final
+  affects:
+  - common-forms-sciencv
+  - orcid-id
+  - era-commons
+  sources:
+  - 1941
+  - 31
+  sweep: rules-B
+- id: ch-gb-2026-09-01-nasa-sciencv-forms
+  date: '2026-09-01'
+  what: Under Grant Notice GN 26-01 of June 29, 2026, NASA accepts only NASA-specific biographical sketch and current and
+    pending (other) support forms produced in SciENcv from September 1, 2026, after a period from June 25 to August 31,
+    2026 in which Word templates were also accepted [1946] [1947].
+  status: final
+  affects:
+  - common-forms-sciencv
+  - nspires
+  sources:
+  - 1946
+  - 1947
+  sweep: rules-B
+- id: ch-gb-2026-03-06-era-two-factor
+  date: '2026-03-06'
+  what: eRA's sign-in page, as updated March 6, 2026, requires PIs and key personnel to move to two-factor authentication
+    (Login.gov or an InCommon federated account) 45 days after submitting a competing application or an RPPR, and told users
+    with multiple accounts to wait until April 2026 [1914]. The date is that of the page, not of the rule's start, which
+    the page does not give [1914].
+  status: final
+  affects:
+  - era-commons
+  - login-gov
+  - federal-system-sign-in-requirements
+  sources:
+  - 1914
+  sweep: rules-B
+- id: ch-gb-2026-iedison-agencies-added
+  date: 2026-09
+  what: 'NIST''s iEdison page lists agencies that joined the system in 2026: USACE/ERDC in July, DLA in August and MDA in
+    September [1951].'
+  status: final
+  affects:
+  - iedison
+  sources:
+  - 1951
+  sweep: rules-B
+- id: ch-gc-misconduct-rule-effective
+  date: '2025-01-01'
+  what: The revised Public Health Service research misconduct rule (42 CFR part 93; 89 FR 76280, September 17, 2024) took
+    effect January 1, 2025, with its requirements applicable from January 1, 2026 [2008].
+  status: final
+  affects:
+  - research-misconduct-assurance
+  - research-misconduct-rule
+  sources:
+  - 2008
+  sweep: rules-C
+- id: ch-gc-misconduct-rule-applicable
+  date: '2026-01-01'
+  what: From January 1, 2026 institutions follow the revised 42 CFR part 93 for allegations received on or after that date,
+    and implement the required policies and procedures by the due date of the annual report covering the 2025 reporting
+    year [2006]. ORI's annual report window runs January 1 to April 30 [2009].
+  status: final
+  affects:
+  - research-misconduct-assurance
+  - research-misconduct-rule
+  - ori-small-institution
+  sources:
+  - 2006
+  - 2009
+  - 2008
+  sweep: rules-C
+- id: ch-gc-ori-guidance-2025
+  date: '2025-09-29'
+  what: ORI posted guidance for the revised 42 CFR part 93 on conflicts of interest, institutional committees and research
+    integrity officers, after guidance of August 14, 2025 on generative artificial intelligence in misconduct proceedings
+    [2011].
+  status: final
+  affects:
+  - research-misconduct-rule
+  sources:
+  - 2011
+  sweep: rules-C
+- id: ch-gc-nsf-in-149-effective-dates
+  date: '2025-12-02'
+  what: NSF's Important Notice No. 149, on a page marked updated November 24, 2025, gives December 2, 2025 as the effective
+    date of the research security training certification, the research security assessment and the Confucius Institute certification
+    [2014]. NSF's training page gives the notice date as July 10, 2025 and the effective date as October 10, 2025 [2015].
+    This adds a later development to the ledger entry c-nsf-2025-07-important-notice-149 [2014].
+  status: final
+  affects:
+  - research-security-training
+  - confucius-institute-certification
+  - foreign-support-disclosure
+  sources:
+  - 2014
+  - 2015
+  sweep: rules-C
+- id: ch-gc-nsf-ffdr-2025
+  date: '2025-10-31'
+  what: NSF's Foreign Financial Disclosure Report for July 1, 2024 through June 30, 2025 was due October 31, 2025, the Research.gov
+    portal having opened September 1, 2025 [2014].
+  status: final
+  affects:
+  - nsf-foreign-financial-disclosure-report
+  sources:
+  - 2014
+  sweep: rules-C
+- id: ch-gc-nih-research-security-program-notice-rescinded
+  date: '2025-09-29'
+  what: NIH's notice of September 11, 2025, which would have required research security programme certification from covered
+    institutions and training certification for applications from January 25, 2026, was rescinded on September 29, 2025
+    [2016] [127]. NIH's later notice of December 2, 2025 set the training certification for due dates on or after May 25,
+    2026 and set no date for the programme certification [33]. The ledger entries ch-nih-research-security-policies-rescinded
+    and ch-nih-research-security-training-2026 record the same notices [127].
+  status: pending-implementation
+  affects:
+  - research-security-program
+  - research-security-training
+  sources:
+  - 2016
+  - 127
+  - 33
+  sweep: rules-C
+- id: ch-gc-nih-common-forms-leniency
+  date: '2026-02-04'
+  what: 'NIH extended the leniency period for the Common Forms through May 2026 (NOT-OD-26-033) [129]. A notice of April
+    21, 2026 ended it on May 7, 2026: from May 8, 2026 NIH''s systems stop submissions that do not use compliant Common
+    Forms, and they enforce the research security training certification for due dates on or after May 25, 2026 [32]. These
+    are later developments to the ledger entry ch-nih-common-forms-sciencv [32].'
+  status: final
+  affects:
+  - mftrp-certification
+  - foreign-support-disclosure
+  - research-security-training
+  sources:
+  - 129
+  - 32
+  sweep: rules-C
+- id: ch-gc-usda-research-security-deviation
+  date: '2026-06-03'
+  what: USDA issued an optional deviation to its General Terms and Conditions, 2026-USDA-0001-F, effective June 3, 2026,
+    updating terms on research security, foreign ownership, control and influence, and malign foreign talent recruitment
+    programmes [2020].
+  status: final
+  affects:
+  - research-security-training
+  - mftrp-certification
+  sources:
+  - 2020
+  sweep: rules-C
+- id: ch-gc-usda-terms-injunction-deviation
+  date: '2026-07-08'
+  what: USDA issued deviation 2026-USDA-0002-F to its General Terms and Conditions, effective July 8, 2026, following a
+    preliminary injunction in City of Seattle v. Trump, No. 2:25-cv-1435 [2020]. The terms the deviation alters and the
+    parties the order covers were not read in this sweep [2020].
+  status: final
+  affects:
+  - agency-specific-certifications
+  sources:
+  - 2020
+  sweep: rules-C
+- id: ch-gc-dow-fundamental-research-security
+  date: '2026-01-08'
+  what: The Under Secretary of War for Research and Engineering announced a memorandum, "Fundamental Research Security Initiatives
+    and Implementation", that bars fundamental research assistance funding to companies listed under section 1260H of the
+    National Defense Authorization Act and sets up a department-wide risk review repository; the announcement states no
+    effective dates [2084].
+  status: announced
+  affects:
+  - research-security-training
+  - foreign-support-disclosure
+  sources:
+  - 2084
+  sweep: rules-C
+- id: ch-gc-section-117-portal
+  date: '2026-01-02'
+  what: A new Section 117 Foreign Gifts and Contracts Reporting Portal at ForeignFundingHigherEd.gov went live January 2,
+    2026; the earlier portal closed December 16, 2025 [2026].
+  status: final
+  affects:
+  - section-117-foreign-gift-reporting
+  sources:
+  - 2026
+  sweep: rules-C
+- id: ch-gc-section-117-state-agreement
+  date: '2026-02-23'
+  what: 'A law firm alert reports that the Departments of Education and State announced an interagency agreement under which
+    the State Department assists with section 117 reporting, public inspection and enforcement [2027]. The ledger entry
+    ch-sc-ed-interagency-agreements-2026-02 carries the same date [2027]. The Department of Education''s own press release
+    of February 23, 2026 announces the partnership: State will support Education in managing the section 117 reporting portal,
+    assess compliance, share data and identify potential threats [1397].'
+  status: announced
+  affects:
+  - section-117-foreign-gift-reporting
+  sources:
+  - 2027
+  - 1397
+  sweep: rules-C
+- id: ch-gc-nih-publication-cost-limit
+  date: '2025-07-08'
+  what: The NIH Director stated that NIH will implement a cap on allowable publication costs starting in FY 2026 [2030].
+    A request for information of July 30, 2025 gave five options and an intended effective date of January 1, 2026 [2031].
+  status: announced
+  affects:
+  - public-access-compliance
+  sources:
+  - 2030
+  - 2031
+  sweep: rules-C
+- id: ch-gc-gsa-sam-certifications-proposed
+  date: '2026-01-28'
+  what: GSA proposed to revise the Financial Assistance General Representations and Certifications made in SAM.gov, citing
+    Executive Order 14173 and a Department of Justice memorandum of July 29, 2025; comments were due March 30, 2026 (91
+    FR 3726) [1866].
+  status: proposed
+  affects:
+  - sam-financial-assistance-certifications
+  sources:
+  - 1866
+  - 1970
+  - 2083
+  sweep: rules-C
+- id: ch-gc-doj-title-vi-regulation-amended
+  date: '2025-12-10'
+  what: A Department of Justice final rule, published and effective December 10, 2025 (90 FR 57148), removed the disparate-impact
+    provisions from its Title VI regulation, including 28 CFR 42.104(b)(2), which is now reserved [2086] [2041]. The rule
+    states that the Department will not pursue Title VI disparate-impact liability against its funding recipients; it amends
+    the Department's own regulation, and other agencies' Title VI regulations were not read in this sweep [2086].
+  status: final
+  affects:
+  - civil-rights-obligations
+  sources:
+  - 2086
+  - 2041
+  sweep: rules-C
+- id: ch-gc-lep-gov-suspended
+  date: '2025-07-17'
+  what: The Justice Department's Civil Rights Division suspended the operations of lep.gov pending an internal review under
+    Executive Order 14224, and says materials will be replaced when new guidance is issued [2042]. The executive order of
+    March 1, 2025 revoked Executive Order 13166 [2040].
+  status: pending-implementation
+  affects:
+  - civil-rights-obligations
+  sources:
+  - 2042
+  - 2040
+  sweep: rules-C
+- id: ch-gc-hhs-504-web-accessibility-dates
+  date: '2026-05-11'
+  what: An amendment at 91 FR 25507 changed 45 CFR 84.84, HHS's rule on web and mobile accessibility for recipients; the
+    section now sets compliance from May 11, 2027 for recipients with fifteen or more employees and from May 10, 2028 for
+    smaller recipients [2044].
+  status: final
+  affects:
+  - civil-rights-obligations
+  sources:
+  - 2044
+  sweep: rules-C
+- id: ch-gc-irs-group-exemption-procedure
+  date: '2026-01-20'
+  what: Revenue Procedure 2026-8, in Internal Revenue Bulletin 2026-04, replaced Revenue Procedure 80-27 as the procedure
+    for group exemption letters, and the IRS resumed accepting group exemption applications [2061] [2060].
+  status: final
+  affects:
+  - group-exemption-subordinate
+  - public-charity-status
+  sources:
+  - 2061
+  - 2060
+  sweep: rules-C
+- id: ch-gc-nih-ibc-minutes-public
+  date: '2025-06-01'
+  what: Under NOT-OD-25-082, minutes of Institutional Biosafety Committee meetings held on or after June 1, 2025 must be
+    posted on a public-facing institutional website [2001].
+  status: final
+  affects:
+  - institutional-biosafety-committee
+  sources:
+  - 2001
+  sweep: rules-C
+- id: ch-gc-nih-draft-biosafety-policy
+  date: '2026-08-19'
+  what: NIH released a Draft NIH Biosafety Policy for Research Involving Biohazards for comment through October 19, 2026
+    (NOT-OD-26-112) [2001].
+  status: proposed
+  affects:
+  - institutional-biosafety-committee
+  sources:
+  - 2001
+  sweep: rules-C
+- id: ch-gc-olaw-prompt-reporting-guidance
+  date: '2026-01-20'
+  what: NOT-OD-25-148 replaced OLAW's 2005 guidance on prompt reporting under the PHS Policy, rescinding NOT-OD-05-034 [2082].
+    The PHS Policy itself is unchanged in its 2015 edition [1999].
+  status: final
+  affects:
+  - animal-welfare-assurance
+  sources:
+  - 2082
+  - 1999
+  sweep: rules-C
+- id: ch-gd-2026-08-17-doe-conflict-of-interest-rule
+  date: '2026-08-17'
+  what: DOE's final rule adding conflict of interest and conflict of commitment requirements to 2 CFR part 910 (subpart
+    C), published July 16, 2026 at 91 FR 43511, took effect August 17, 2026 and superseded the interim policy FAL No. 2022-02
+    [2096]. It is the newest of the six rule documents citing title 2 published since January 1, 2025, all of them in agency
+    chapters of Subtitle B; none is an OMB rule on 2 CFR parts 25, 170 or 200 [2095].
+  status: final
+  affects:
+  - doe-conflict-of-interest-policy
+  - doe
+  - uniform-guidance-2-cfr-200
+  sources:
+  - 2096
+  - 2096
+  - 2095
+  sweep: rules-D
+- id: ch-gd-2025-04-23-eo-14282-section-117
+  date: '2025-04-23'
+  what: Executive Order 14282, "Transparency Regarding Foreign Influence at American Universities", signed April 23, 2025
+    and published at 90 FR 17541, directs the Secretary of Education to enforce section 117 of the Higher Education Act
+    and says federal grant funds are not to be provided in cases of noncompliance [2106]. The order as read sets no deadline
+    [2106].
+  status: final
+  affects:
+  - section-117-foreign-gift-reporting
+  sources:
+  - 2106
+  sweep: rules-D
+- id: ch-gd-2025-05-01-doe-research-security-training-mandatory
+  date: '2025-05-01'
+  what: Under DOE Financial Assistance Letter FAL 2025-02, research security training for covered individuals on research
+    and development financial assistance applications was optional until May 1, 2025 and mandatory thereafter [2107].
+  status: final
+  affects:
+  - research-security-training
+  - doe
+  sources:
+  - 2107
+  sweep: rules-D
+- id: ch-gd-2025-12-31-usda-research-security-training-term
+  date: '2025-12-31'
+  what: USDA's General Terms and Conditions effective December 31, 2025 require the recipient to certify, and recertify
+    annually, that each individual it employs to work on the award has completed research security training (section 10.6)
+    [1948]. Deviation 2026-USDA-0001-F, effective June 3, 2026, updates the research security and malign foreign talent
+    recruitment programme terms [2110]. The earlier ledger entry ch-gc-usda-research-security-deviation records the deviation
+    from USDA's index page [2110].
+  status: final
+  affects:
+  - research-security-training
+  - mftrp-certification
+  sources:
+  - 1948
+  - 2110
+  sweep: rules-D
+- id: ch-gd-2026-06-18-section-117-amendments-in-portal
+  date: '2026-06-18'
+  what: The Department of Education announced that institutions can amend, modify and correct all their section 117 submissions
+    in the ForeignFundingHigherEd.gov portal, including those made before January 2, 2026, and gave foreignsourcereporting@ed.gov
+    as the contact [2113].
+  status: final
+  affects:
+  - section-117-foreign-gift-reporting
+  sources:
+  - 2113
+  sweep: rules-D
+- id: ch-gd-2026-07-24-section-117-foreign-source-names
+  date: '2026-07-24'
+  what: An update to the Department of Education's reminder of the July 31, 2026 section 117 deadline says the Department
+    delayed by two weeks, until August 12, 2026, its planned publication of the names of all foreign sources from prior
+    reporting cycles [2112]. Whether the names were published on that date was not read [2112].
+  status: announced
+  affects:
+  - section-117-foreign-gift-reporting
+  sources:
+  - 2112
+  sweep: rules-D
+- id: ch-gd-2026-10-04-omb-proposal-status-check
+  date: '2026-10-04'
+  what: When read on 2026-10-04 the Federal Register record for OMB's proposed "Regulation for Federal Financial Assistance"
+    showed no correction and no effective date, and the date OMB had proposed for a final rule, October 1, 2026, had passed
+    with section 157 of Public Law 119-103 barring a final rule through December 11, 2026 [1858] [2093] [1480]. This adds
+    a later check to ch-ga-2026-09-02-cr-section-157-bars-uniform-guidance-rule [1480].
+  status: frozen-by-appropriations
+  affects:
+  - omb-2-cfr-revision-2026
+  - uniform-guidance-2-cfr-200
+  sources:
+  - 1858
+  - 2093
+  - 1480
+  sweep: rules-D

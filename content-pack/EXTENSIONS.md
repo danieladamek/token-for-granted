@@ -1,4 +1,4 @@
-# Taken for Granted content pack — extension schema (draft v0.5, 2026-10-04)
+# Taken for Granted content pack — extension schema (draft v0.6, 2026-10-04)
 
 Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -222,7 +222,7 @@ applicant_types:          # more Grants.gov codes, needed to say who is shut out
 pending_status: … | in-litigation | rescinded | enacted
 ```
 
-Records that share an id across sweep slices (the same gate met at six agencies) are merged by the consolidation script. The longest statement stays as the record and the others are kept, cited, under `variants`, each with the slice it came from, until the author reconciles them.
+Records that share an id across sweep slices (the same gate met at six agencies) are merged by the consolidation script. The first statement met stays as the record and the others are kept, cited, under `variants`, each with the slice it came from, until the author reconciles them. (From v0.6: where the rules sweep wrote the record, that one is the main record.)
 
 Every record carries `sweep: <family>-<slice>` and every reference `sweep_ids`, the ids it had in the sweep files under `source/sweeps/`.
 
@@ -292,3 +292,47 @@ match: '… [n]'
 A programme recorded in two slices of one family is merged like a gate: one record, the other wording under `variants`.
 
 Standing records now carry the jurisdiction lists (NSF, DOE and NASA EPSCoR, DEPSCoR, NIH IDeA, USDA) and the institution designations, each with the date of the list it was read from.
+
+## Added in v0.6, after the rules and gates sweep
+
+The rules sweep gave gates and rules their full treatment. Its layouts are fuller than the short form above.
+
+```yaml
+# gates.yaml
+- id: sam-registration
+  name: SAM.gov entity registration
+  what: >                         # 2–4 plain sentences, each cited
+  applies_when: '… [n]'           # which applicants and which funders need it
+  who_does_it: organisation       # organisation | person | both
+  steps: ['… [n]']                # the official steps, in order
+  time: '… [n]'                   # how long the official page says it takes
+  cost: '… [n]'                   # fees, or that it is free
+  renewal: '… [n]'                # how often, and what lapses if it is missed
+  common_problems: '… [n]'        # only what an official page itself warns about
+  official_url: https://…
+  pending_changes: [{status: proposed, date: '2026-01-28', text: '… [n]'}]
+  as_of: '2026-10-04'
+  sources: [n, n]
+  same_as: other-gate-id          # set by an override where two ids name one gate; the other holds the full record
+
+# mechanics.yaml — a rule or a process, as against a thing to obtain
+- id: de-minimis-indirect-rate
+  name: De minimis indirect cost rate
+  what: >
+  rule: '… [n]'                   # the rule in force, with its section
+  figures:                        # thresholds and rates exactly as the text gives them
+  - {label: de minimis rate, value: 'up to 15 percent of modified total direct costs', cite: [n]}
+  applies_to: '… [n]'
+  pending_changes: []
+  related: [other-record-id]      # cross-references, uncited
+  official_url: https://…
+  as_of: '2026-10-04'
+  sources: [n]
+
+# help.yaml
+- {id, name, what, who_it_is_for, cost, official_url, sources}
+```
+
+Where an earlier sweep had written a gate, mechanics, standing or help record in passing and the rules sweep wrote the same id, the rules record is the main record and the earlier statements sit beneath it under `variants`.
+
+Statuses still missing from the vocabulary and recorded in prose: a declaratory judgment with no injunction or vacatur (recorded as `in-litigation`).

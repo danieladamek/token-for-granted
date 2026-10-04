@@ -3225,6 +3225,686 @@
     The agency's own window for organisations named in the FY 2026 act is open until January 31, 2027; the author may want
     a way to show both.
   sweep: capacity-D
+- id: t-ga-01
+  kind: gap
+  about: records-rules-A.yaml/omb-2-cfr-revision-2026
+  text: 'Narrowed by slice D on 2026-10-04. The HTML text of 91 FR 32198 was read as far as page 32212 (discussion of 200.206),
+    and short passages of parts IX and XI of the preamble, of the discussion of 200.333, 200.340, 200.342 and several cost
+    items, and of the proposed regulatory text of 200.205, 200.211, 200.218, 200.339 and 200.340 were read through the Federal
+    Register''s full-text search (gd-fr-2026-10817-html, gd-fr-api-2026-10817-excerpts, gd-fr-api-2026-10817-excerpts-2).
+    Still not read end to end: the preamble from page 32212, part VIII (severability), part X (request for comments), the
+    full regulatory text, the appendices and the agency chapters. The section list still comes from the table of contents.'
+  sweep: rules-A
+- id: t-ga-02
+  kind: unverified
+  about: records-rules-A.yaml/omb-2-cfr-revision-2026
+  text: 'Narrowed by slice D on 2026-10-04. Confirmed against Federal Register text (short passages; see gd-fr-api-2026-10817-excerpts
+    and gd-fr-api-2026-10817-excerpts-2): five termination grounds in proposed 200.340; no hearing procedures required for
+    terminations other than for noncompliance (200.342); the pre-issuance review and advisory peer review in 200.205; 200.218,
+    200.219 and 200.220; 200.421, 200.432, 200.450, 200.454 and 200.461; no change proposed to the indirect cost rate negotiation
+    system; a final rule proposed to be effective by October 1, 2026. Still resting on the association summary (ga-ace-omb-proposal-summary)
+    alone: that the rule would apply only to awards made after the effective date and not retroactively (the Federal Register
+    text read says this only of fixed amount awards and subawards); the content of proposed 200.206 beyond an expanded list
+    of risk factors; the content of 200.300, 200.341 and 200.343. See also the conflict todo t-gd-02 on what the senior
+    appointee reviews.'
+  sweep: rules-A
+- id: t-ga-04
+  kind: gap
+  about: records-rules-A.yaml/indirect-cost-rate-caps-2025
+  text: The enrolled text of the fiscal year 2026 appropriations acts could not be read past Title II of Division A of H.R.
+    6938 (fetch truncation). Section 224 (Labor-HHS) is quoted from NIH's notice and section 313 (Energy and Water) is taken
+    from DOE's description. The provision the ledger records as section 542 of the Commerce-Justice-Science division (NSF,
+    NASA, Commerce) and any Defense provision were not read.
+  sweep: rules-A
+- id: t-ga-05
+  kind: unverified
+  about: records-rules-A.yaml/indirect-cost-rate-caps-2025
+  text: The dismissal of the Government's appeal in the Department of Defense indirect cost case on February 18, 2026 rests
+    on a plaintiff association's page (ga-aau-dod-appeal-dismissed); the First Circuit order was not read.
+  sweep: rules-A
+- id: t-ga-06
+  kind: conflict
+  about: records-rules-A.yaml/indirect-cost-rate-caps-2025
+  text: DOE's page for PF 2025-22 still says the department is appealing the June 30, 2025 vacatur [1852], while the ledger
+    (doe-indirect-flashes-withdrawn-2026) cites an association timeline saying the First Circuit dismissed that appeal on
+    March 16, 2026. The NSF appeal dismissal of September 30, 2025 is likewise in the ledger from a case summary only. Court
+    orders not read.
+  sweep: rules-A
+- id: t-ga-07
+  kind: recheck
+  about: records-rules-A.yaml/award-termination
+  text: The July 17, 2026 opinion in New Jersey v. OMB was read from a copy on the New York Attorney General's website (the
+    New Jersey copy returned 403; govinfo had no entry). Check the text and the operative declaration against the court's
+    docket, and find whether the Government appealed.
+  sweep: rules-A
+- id: t-ga-08
+  kind: gap
+  about: records-rules-A.yaml/termination-objections-appeals-and-forums
+  text: No Court of Federal Claims opinion on a terminated grant was found; that court's role is described from the Supreme
+    Court, Fourth Circuit, Ninth Circuit and District of Massachusetts opinions. No First Circuit merits opinion in American
+    Public Health Association v. NIH was found (a guessed URL returned 404). No Supreme Court merits decision on the forum
+    question was found.
+  sweep: rules-A
+- id: t-ga-09
+  kind: gap
+  about: records-rules-A.yaml/fy2027-appropriations-status
+  text: congress.gov and crsreports.congress.gov refuse automated reading, so the CRS appropriations status table for fiscal
+    year 2027 was not read. The record rests on Public Law 119-103, NIH's September 28, 2026 notice and a House committee
+    release of July 17, 2026; Senate action and any floor action after July 17, 2026 are not recorded.
+  sweep: rules-A
+- id: t-ga-10
+  kind: gap
+  about: records-rules-A.yaml/recipient-procurement-standards
+  text: The simplified acquisition threshold figure in FAR 2.101 was not returned by the fetch. The micro-purchase threshold
+    of $15,000 is as shown on Acquisition.gov under FAC 2026-01 (effective 03/13/2026); when that figure was set was not
+    established. Sections 200.319 and 200.321 to 200.327 were not read.
+  sweep: rules-A
+- id: t-ga-11
+  kind: gap
+  about: records-rules-A.yaml/award-closeout
+  text: 2 CFR 200.345 (post-closeout adjustments), 200.307 (program income), 200.431, 200.432 and 200.461 were not read.
+  sweep: rules-A
+- id: t-ga-12
+  kind: recheck
+  about: sources-rules-A.yaml
+  text: Quotes from court opinions returned by the fetch read like paraphrase, so few are kept; every quote in the sources
+    file needs checking against the document, in particular those from ga-scotus-24a910-ed-v-california, ga-scotus-25a103-nih-v-apha
+    and ga-dmass-new-jersey-v-omb. Figures marked "as returned by the fetch" (the senior appointee definition in EO 14332,
+    140 Stat. 987, the public law numbers of the twelve FY 2026 acts, "two to four years" for predetermined rates) need
+    the same check.
+  sweep: rules-A
+- id: t-ga-13
+  kind: conflict
+  about: records-rules-A.yaml/omb-2-cfr-revision-2026
+  text: OMB's regulatory agenda of August 14, 2026 shows the timetable line "NPRM 07/00/26" for RIN 0348-AB88 [1859], while
+    the NPRM was published May 29, 2026 [1458]. The Federal Register gives the comment deadline as July 13, 2026 and the
+    regulations.gov record shows the period closed 2026-07-14 [1858]. Both are kept.
+  sweep: rules-A
+- id: t-ga-14
+  kind: gap
+  about: records-rules-A.yaml/lapse-in-appropriations-and-grants
+  text: Only NIH's lapse guidance was read. OMB Circular A-11 section 124 as returned says nothing specific about grants;
+    no OMB lapse FAQ, Grants.gov notice or other agency's guidance was read. The end dates of the lapses that began October
+    1, 2025 and January 31, 2026 are not stated in the notices read.
+  sweep: rules-A
+- id: t-ga-15
+  kind: gap
+  about: records-rules-A.yaml/anti-discrimination-certification-false-claims-act
+  text: GSA's notice does not print the proposed SAM.gov certification text, and whether the revision was approved or took
+    effect was not found. District court rulings on the certification (for example in the Northern District of Illinois)
+    and proceedings after the Fourth Circuit's remand were not read; govinfo had no entry for the Illinois case.
+  sweep: rules-A
+- id: t-ga-16
+  kind: gap
+  about: records-rules-A.yaml/termination-objections-appeals-and-forums
+  text: The termination and appeals part of the HHS Grants Policy Statement was beyond what the fetch returned, and the
+    appeal procedures of the Department of Education, DOE, NASA and USDA were not read. 45 CFR part 16 was read in the October
+    1, 2024 annual edition.
+  sweep: rules-A
+- id: t-ga-17
+  kind: gap
+  about: records-rules-A.yaml/executive-order-14332-grant-oversight
+  text: No OMB memorandum implementing Executive Order 14332 was found. The fetch of the order returned no deadline for
+    the Uniform Guidance revision in section 5. DOE's FAL 2026-06 and OTL 2026-04 were not opened.
+  sweep: rules-A
+- id: t-ga-18
+  kind: gap
+  about: records-rules-A.yaml/discretionary-formula-and-block-awards
+  text: No official page read defines "block grant"; the Grants.gov glossary has no entry. 2 CFR 200.101(e) names the 1981
+    block grants without defining the term.
+  sweep: rules-A
+- id: t-ga-19
+  kind: gap
+  about: records-rules-A.yaml/negotiated-indirect-cost-rate
+  text: No official page read states how long a rate negotiation takes or how many organisations HHS and ONR each serve.
+    Appendix III section C.11 and C.12 were read only in summary; the full list of what a proposal contains was not extracted.
+  sweep: rules-A
+- id: t-ga-20
+  kind: recheck
+  about: records-rules-A.yaml/indirect-cost-rate-caps-2025
+  text: NSF's policy page still states that new awards carry a term applying NSF 25-034 if a later court decision permits
+    it, although the ledger records the appeal as dismissed on September 30, 2025. Check whether NSF award terms issued
+    in 2026 still carry that term.
+  sweep: rules-A
+- id: t-ga-21
+  kind: unverified
+  about: records-rules-A.yaml/ch-ga-2026-09-22-senate-letter-on-reported-nih-grant-review-order
+  text: The executive order on NIH grant review is known here only from a Senate committee chair's statement and letter,
+    which describe it as reported to be in preparation. Slice D read, on 2026-10-04, the Federal Register's list of presidential
+    documents published August 15 to September 16, 2026 and the first page of the White House list of presidential actions
+    (September 17 to October 2, 2026); neither shows such an order. No draft was read. The status value "proposed" is the
+    nearest in the list; the event is a reported plan, not a published proposal.
+  sweep: rules-A
+- id: t-ga-22
+  kind: recheck
+  about: records-rules-A.yaml/executive-order-14332-grant-oversight
+  text: Two fetches of the Federal Register text of Executive Order 14332 returned different accounts of the definition
+    of "discretionary grant" (one by reference to 2 CFR 200.1, one listing exclusions for entitlement, formula and disaster
+    recovery awards) and of the exceptions to termination for convenience in section 5. 2 CFR 200.1 does define "discretionary
+    award" (read in the January 1, 2025 edition). Read sections 2 and 5 of the order directly.
+  sweep: rules-A
+- id: t-gb-sam-time-estimates
+  kind: conflict
+  about: records-rules-B.yaml/sam-registration
+  text: 'Official pages give different times for SAM.gov registration: SAM.gov up to 10 business days; NIH three weeks or
+    more; NSF at least 90 days before submission; SAMHSA start six weeks before; DOJ 30 days before; Education approximately
+    7 to 10 business days; CDMRP several weeks; HRSA two weeks for SAM and Grants.gov together. All are kept in the record.
+    Some are processing times and some are planning margins; the site needs to say which is which.'
+  sweep: rules-B
+- id: t-gb-sam-notarized-letter
+  kind: gap
+  about: records-rules-B.yaml/sam-entity-administrator-and-notarized-letter
+  text: 'Not found: whether a notarized Entity Administrator letter is still required in 2026 and in which cases. The only
+    primary statement read is NIH''s 2018 notice. Slice D tried again on 2026-10-04: fsd.gov is disallowed by robots.txt
+    (second refusal); a SAM.gov notice page returned no content; two guessed gsa.gov addresses returned 404; the legacy
+    SAM user guide timed out; GSA''s state and local guide mentions neither the role nor the letter.'
+  sweep: rules-B
+- id: t-gb-sam-fsd-articles
+  kind: gap
+  about: records-rules-B.yaml/sam-registration
+  text: 'Not fetched: two SAM.gov announcements link to Federal Service Desk articles, ''Entity Validation Review Time''
+    (Feb 4, 2025, KB0064315) and ''Revolutionary FAR Overhaul Impacts to SAM.gov'' (Aug 15, 2025, KB0010640). Their content
+    is unknown; either may record a 2025 change to validation times or to the representations and certifications.'
+  sweep: rules-B
+- id: t-gb-sam-third-party-warning
+  kind: gap
+  about: records-rules-B.yaml/sam-registration
+  text: 'Not found on a fetched page: an explicit official warning about third parties that charge for SAM.gov registration.
+    The record carries only the statements that SAM.gov is free.'
+  sweep: rules-B
+- id: t-gb-sam-exclusions
+  kind: gap
+  about: records-rules-B.yaml/sam-registration
+  text: 'Not researched from a primary page: SAM.gov exclusions (suspension and debarment records) and the responsibility
+    and integrity information, beyond the $10,000,000 proceedings-reporting rule quoted from SAMHSA''s guide. The governing
+    text is 2 CFR part 180 and 2 CFR 200 Appendix XII.'
+  sweep: rules-B
+- id: t-gb-sam-certifications-status
+  kind: recheck
+  about: records-rules-B.yaml/sam-financial-assistance-certifications
+  text: 'Narrowed by slice D on 2026-10-04. reginfo.gov shows no request to OMB for control number 3090-0290 in 2025 or
+    2026 (latest: an extension received 11/27/2023, concluded 03/12/2024), and the Federal Register index shows no GSA notice
+    on the collection after January 28, 2026 (gd-reginfo-3090-0290, gd-fr-api-3090-0290-search). Still to check: the certification
+    text now shown inside SAM.gov itself, which renders by script and was not read.'
+  sweep: rules-B
+- id: t-gb-sam-certifications-content
+  kind: unverified
+  about: records-rules-B.yaml/sam-financial-assistance-certifications
+  text: 'The description of three new certifications and one revised certification comes from BDO, a secondary source; the
+    Federal Register notice, re-read in raw text by slice D, does not list them. Slice D found a public comment in docket
+    GSA-GSA-2026-0001 that quotes four proposed certifications (gd-regs-gov-hufg-comment-gsa-2026-0001); it is a commenter''s
+    document, so the wording is still not taken from GSA. GSA''s own posting was not found: two guessed downloads.regulations.gov
+    addresses returned 403 and the regulations.gov API returned 429.'
+  sweep: rules-B
+- id: t-gb-part-170-names-fsrs
+  kind: recheck
+  about: records-rules-B.yaml/ffata-subaward-reporting
+  text: '2 CFR part 170 Appendix A, as returned on 2026-10-04, still names www.fsrs.gov as the reporting site, while FSRS.gov
+    was retired on March 8, 2025. Slice D confirmed from the Federal Register text that OMB''s proposed rule of May 29,
+    2026 would replace references to FSRS in part 170 with references to SAM.gov. Still to recheck: the exact wording of
+    the appendix now in force.'
+  sweep: rules-B
+- id: t-gb-grants-gov-cost
+  kind: gap
+  about: records-rules-B.yaml/grants-gov-registration
+  text: No fetched Grants.gov page states that Grants.gov registration itself is free; the cost field reports only that
+    no fee is stated.
+  sweep: rules-B
+- id: t-gb-grants-gov-validation-time
+  kind: gap
+  about: records-rules-B.yaml/grants-gov-workspace
+  text: 'Not found on a fetched Grants.gov page: how long Grants.gov takes to validate a submitted package. Agencies'' margins
+    (48 hours, 24-72 hours, five business days) are recorded instead.'
+  sweep: rules-B
+- id: t-gb-sf424-versions
+  kind: gap
+  about: records-rules-B.yaml/sf-424-form-families
+  text: The forms repository tables (form names, version numbers, OMB expiration dates) did not render in the fetch, so
+    no version is recorded.
+  sweep: rules-B
+- id: t-gb-simpler-apply-conflict
+  kind: conflict
+  about: records-rules-B.yaml/simpler-grants-gov-transition
+  text: The roadmap lists two opportunities open for application through Simpler.Grants.gov (late 2025), while the home
+    page says a user may need to visit Grants.gov to apply for most opportunities and, as summarised by the fetch, that
+    the team is still working with agencies on a simpler application process. Which opportunities and agencies are in the
+    pilot was not found.
+  sweep: rules-B
+- id: t-gb-simpler-roadmap-stage-labels
+  kind: recheck
+  about: records-rules-B.yaml/simpler-grants-gov-transition
+  text: The roadmap's stage labels ('Early 2026', 'Mid-2026', '2027') and the 35% figure were read through the fetch layer;
+    re-read the page for exact wording, and for whether the mid-2026 stage is marked as delivered.
+  sweep: rules-B
+- id: t-gb-era-agency-list
+  kind: recheck
+  about: records-rules-B.yaml/era-commons
+  text: The list of agencies eRA supports was returned as including 'Department of Defense' and 'Uniformed Services University';
+    confirm the list on the About eRA page.
+  sweep: rules-B
+- id: t-gb-era-two-factor-start
+  kind: gap
+  about: records-rules-B.yaml/era-commons
+  text: The eRA page gives the 45-day rule for two-factor authentication without a start date, and an April 2026 date for
+    users with multiple accounts whose meaning was not clear from the fetch.
+  sweep: rules-B
+- id: t-gb-assist-overview
+  kind: gap
+  about: records-rules-B.yaml/nih-assist
+  text: eRA's own ASSIST overview page returned 404 at two addresses; the record rests on SAMHSA's guide and the eRA Service
+    Desk page. NIH's page on the three submission routes was not found.
+  sweep: rules-B
+- id: t-gb-research-gov-blocked
+  kind: gap
+  about: records-rules-B.yaml/research-gov
+  text: 'research.gov pages still cannot be fetched (robots.txt could not be read; tried again by slice D on 2026-10-04).
+    The steps by which a person registers for an NSF ID are now in the record from NSF''s account management guide on resources.research.gov.
+    Still not found: how an organisation and its first administrator are registered in Research.gov; the guide as returned
+    does not describe it.'
+  sweep: rules-B
+- id: t-gb-research-gov-2025-validation
+  kind: unverified
+  about: records-rules-B.yaml/research-gov
+  text: 'University pages report that NSF required Research.gov users to validate credentials by signing in on or before
+    July 25, 2025. Slice D re-read NSF''s sign-in questions and answers (revised April 25, 2025): it gives October 27, 2024
+    for multifactor authentication and April 26, 2025 for the Login.gov email rule, and carries no July 25, 2025 date. A
+    search found an NSF advisory at https://www.research.gov/research-web/content/iamadvisory5759, which could not be fetched
+    (robots.txt could not be read). The July 2025 date is still not in the record.'
+  sweep: rules-B
+- id: t-gb-nspires-time-and-blocked
+  kind: gap
+  about: records-rules-B.yaml/nspires
+  text: nspires.nasaprs.com was not fetched (robots, per the brief). No NASA page read states how long NSPIRES organisation
+    registration takes, nor whether a CAGE code is asked for.
+  sweep: rules-B
+- id: t-gb-pams-name-and-oneid
+  kind: recheck
+  about: records-rules-B.yaml/doe-pams
+  text: The PAMS site expands the name as Portfolio Analysis and Management System; the fetch of the FY 2027 notice returned
+    'Proposal and Award Management System'. The OneID sign-in step was read from the landing page only; how a PI is tied
+    to an institution in PAMS was not found. No successor system to PAMS was found.
+  sweep: rules-B
+- id: t-gb-fema-go-hours
+  kind: conflict
+  about: records-rules-B.yaml/fema-go-help-desk
+  text: 'FEMA GO Help Desk hours: 9 a.m. to 6 p.m. ET in the FAQ document (January 2023 in the text) versus 8 a.m. to 5
+    p.m. ET in the November 2021 account guide. Both kept.'
+  sweep: rules-B
+- id: t-gb-fema-go-current
+  kind: gap
+  about: records-rules-B.yaml/fema-go
+  text: The FEMA pages and documents read date from 2020 to 2023. A current list of programmes on FEMA GO, and whether FEMA
+    GO now requires Login.gov (a trade site reports a move on July 2, 2024), were not found on a primary page; one fema.gov
+    page returned 403.
+  sweep: rules-B
+- id: t-gb-grantsolutions-blocked
+  kind: gap
+  about: records-rules-B.yaml/grantsolutions
+  text: 'grantsolutions.gov is disallowed by robots.txt. The record rests on ACF''s and CDC''s pages. Not found: the full
+    list of agencies using GrantSolutions (the earlier pack names the Department of Labor), its sign-in requirement, and
+    help desk telephone and hours.'
+  sweep: rules-B
+- id: t-gb-ed-g6-current
+  kind: gap
+  about: records-rules-B.yaml/ed-g6
+  text: 'g6.ed.gov could not be fetched (robots.txt timed out, twice). The record rests on 2023 documents. Not found: how
+    a new grantee gets a G6 account, whether Login.gov is now mandatory, and which FY 2026 or FY 2027 notices take applications
+    in G6 instead of Grants.gov.'
+  sweep: rules-B
+- id: t-gb-neh-egms-help-number
+  kind: recheck
+  about: records-rules-B.yaml/neh-egms-reach
+  text: 'The fetch of NEH''s eGMS Reach page returned ''Federal Service Desk: U.S. 866-606-8220'' as a help contact; that
+    number is the SAM.gov help desk in Grants.gov''s guide. It is left out of the NEH record until re-read.'
+  sweep: rules-B
+- id: t-gb-nea-portal-details
+  kind: gap
+  about: records-rules-B.yaml/nea-applicant-portal
+  text: 'Not found on the page as fetched: how an applicant receives Applicant Portal credentials, when the portal opens,
+    and the Login.gov requirement that the earlier sweep recorded from NEA.'
+  sweep: rules-B
+- id: t-gb-ezfedgrants-scope
+  kind: gap
+  about: records-rules-B.yaml/ezfedgrants
+  text: 'Not found: how an organisation (as against a person) is set up in ezFedGrants, how long it takes, and which NIFA
+    actions, if any, run through ezFedGrants as against Grants.gov, ASAP and NIFA''s reporting system.'
+  sweep: rules-B
+- id: t-gb-pms-hours
+  kind: recheck
+  about: records-rules-B.yaml/pms-help-desk
+  text: 'The fetch returned PMS system hours of ''Monday through Friday: 5 a.m. until 4 p.m. Eastern Time'', which looks
+    wrong for a payment system; re-read. No date was found for when ID.me sign-in became required for PMS, and the list
+    of agencies paying through PMS was not found.'
+  sweep: rules-B
+- id: t-gb-asap-time
+  kind: gap
+  about: records-rules-B.yaml/asap-enrolment
+  text: Treasury's getting-started page gives no time for ASAP enrolment or for bank account verification. Three different
+    ASAP telephone numbers appear on Treasury, NIFA and DOJ pages; all are kept in the help record.
+  sweep: rules-B
+- id: t-gb-login-gov-cost
+  kind: gap
+  about: records-rules-B.yaml/login-gov
+  text: No fetched Login.gov page states the cost to the user.
+  sweep: rules-B
+- id: t-gb-cage-dla
+  kind: gap
+  about: records-rules-B.yaml/cage-code
+  text: 'cage.dla.mil returned only navigation text on two tries. Not found from DLA: what a CAGE code is, its expiration
+    and renewal rule, and processing time. The NCAGE request process (NATO tool) was not read either.'
+  sweep: rules-B
+- id: t-gb-common-forms-dod
+  kind: gap
+  about: records-rules-B.yaml/common-forms-sciencv
+  text: 'Not found: whether and from what date the Department of Defense research offices require the Common Forms or SciENcv.
+    The National Library of Medicine page (April 28, 2026) names only NIH, USDA, DOE and NSF; NASA''s SciENcv forms are
+    NASA-specific.'
+  sweep: rules-B
+- id: t-gb-common-forms-nsf-date
+  kind: recheck
+  about: records-rules-B.yaml/common-forms-sciencv
+  text: NSF's start date for the Common Forms (May 20, 2024, with PAPPG 24-1) is in the existing ledger entry c-nsf-2024-05-pappg-24-1-common-forms
+    and was not re-read here; the PAPPG chapter fetched confirms only that SciENcv is mandatory.
+  sweep: rules-B
+- id: t-gb-doe-common-forms-dates
+  kind: conflict
+  about: records-rules-B.yaml/common-forms-sciencv
+  text: 'DOE gives two dates: FAL 2026-02 is effective on issuance, December 3, 2025, for notices issued after that date;
+    DOE''s public page says funding opportunities published on or after January 1, 2026. Both kept.'
+  sweep: rules-B
+- id: t-gb-fac-roles
+  kind: gap
+  about: records-rules-B.yaml/federal-audit-clearinghouse
+  text: The FAC pages read name certifying officials and editors without defining the auditee and auditor certifying official
+    roles; the date GSA took the clearinghouse over from the Census Bureau was not found.
+  sweep: rules-B
+- id: t-gb-single-audit-overlap
+  kind: recheck
+  about: records-rules-B.yaml/single-audit-submission-to-fac
+  text: The single audit requirement itself probably belongs to another slice of this family; this record covers only the
+    submission system and deadline. Merge at consolidation.
+  sweep: rules-B
+- id: t-gb-esrs-fpds
+  kind: gap
+  about: sweep-rules-B-registrations-systems.md
+  text: 'Not found: the status of eSRS (subcontract reporting). The FPDS search move into SAM.gov is recorded; both concern
+    contracts, not grants.'
+  sweep: rules-B
+- id: t-gb-hrsa-old-page
+  kind: recheck
+  about: records-rules-B.yaml/hrsa-ehbs
+  text: HRSA's mandatory-registrations page was last reviewed March 2022 and its apply-for-a-grant hub July 2022. When an
+    applicant must first register in the EHBs (for a two-phase application, or only after award) was not stated on the pages
+    read.
+  sweep: rules-B
+- id: t-gb-e-snaps-changes
+  kind: gap
+  about: records-rules-B.yaml/e-snaps
+  text: The e-snaps page read gives no dates; no 2025-2026 change to the system was found.
+  sweep: rules-B
+- id: t-gb-uei-duplicate-id
+  kind: recheck
+  about: records-rules-B.yaml/unique-entity-identifier
+  text: The existing pack has two ids for the same gate, 'unique-entity-identifier' and 'uei'. This sweep writes the full
+    record under 'unique-entity-identifier'; 'uei' and 'sciencv' (against 'common-forms-sciencv') and 'nsf-id' (covered
+    inside 'research-gov') need merging at consolidation.
+  sweep: rules-B
+- id: t-gc-001
+  kind: conflict
+  about: records-rules-C.yaml/animal-welfare-assurance
+  text: OLAW's assurance pages say Domestic and Foreign Assurances are approved for up to 4 years; the PHS Policy page,
+    as returned by the fetch, says approval is for no longer than five years. Both are kept. Check the Policy text (section
+    IV.A) and OLAW's current practice.
+  sweep: rules-C
+- id: t-gc-002
+  kind: conflict
+  about: records-rules-C.yaml/research-security-training
+  text: 'NSF Important Notice No. 149: the notice page shows "Published June 30, 2025", "Updated Nov. 24, 2025" and an effective
+    date of December 2, 2025; NSF''s training page says the notice was issued July 10, 2025 with updates effective October
+    10, 2025; the existing ledger entry is dated 2025-07-10. Both sets of dates are kept. Establish whether the effective
+    date was moved from October 10 to December 2, 2025 and by what document.'
+  sweep: rules-C
+- id: t-gc-004
+  kind: gap
+  about: records-rules-C.yaml/research-security-program
+  text: 'No agency page read states a date or mechanism for the research security programme certification by covered institutions.
+    Slice D found two agency statements on the point: IARPA''s undated page says the certification deadline has yet to be
+    finalised (gd-iarpa-nspm-33-implementation), and NIST''s page of March 24, 2025 says it does not at present require
+    applicants to show a programme (gd-nist-research-security-faq). NSF''s page (updated August 6, 2026), NIH''s training
+    notice and USDA''s terms give none. Still not found: DOE''s, DoD''s and NASA''s implementing policies and their effective
+    dates; any governmentwide system for collecting certifications; a dated 2026 statement that the deadline is open.'
+  sweep: rules-C
+- id: t-gc-005
+  kind: gap
+  about: records-rules-C.yaml/federalwide-assurance
+  text: OHRP's pages state no processing time and no fee for an FWA or an IRB registration. The time field is left out of
+    both gate records.
+  sweep: rules-C
+- id: t-gc-006
+  kind: gap
+  about: records-rules-C.yaml/animal-welfare-assurance
+  text: OLAW's pages state no time for negotiating an Assurance and no fee. Whether an institution with a pending NSF or
+    NASA award (not PHS) is contacted by OLAW in the same way was not read.
+  sweep: rules-C
+- id: t-gc-007
+  kind: recheck
+  about: records-rules-C.yaml/research-misconduct-rule
+  text: Section numbers in the revised 42 CFR part 93 (the definition at 93.234 as returned by the fetch; 93.104; 93.307(h);
+    93.311(a); 93.318(a)) and the wording on the January 1, 2026 applicability and the 2025-reporting-year deadline are
+    to be checked against the eCFR text; the fetch layer returned a summary.
+  sweep: rules-C
+- id: t-gc-008
+  kind: gap
+  about: records-rules-C.yaml/research-misconduct-assurance
+  text: ORI's assurance page states no consequence for a missed annual report and no fee. ORI's own page on the 2024 final
+    rule was not found (two guessed URLs returned 404); the dates come from the Federal Register document and the eCFR.
+  sweep: rules-C
+- id: t-gc-010
+  kind: gap
+  about: records-rules-C.yaml/nsf-foreign-financial-disclosure-report
+  text: The reporting window for the period July 1, 2025 through June 30, 2026 was not found; the notice read gives only
+    the 2025 dates.
+  sweep: rules-C
+- id: t-gc-011
+  kind: recheck
+  about: records-rules-C.yaml/public-access-compliance
+  text: NIH announced a cap on allowable publication costs for FY 2026 and asked for comment on five options with an intended
+    effective date of January 1, 2026. No final notice was found in this sweep. Check the NIH Guide for a final policy and
+    its amount.
+  sweep: rules-C
+- id: t-gc-012
+  kind: gap
+  about: records-rules-C.yaml/ostp-2022-public-access-memorandum
+  text: No OSTP statement on the present status of the August 25, 2022 memorandum was found; the memorandum was read on
+    the National Archives copy of the earlier White House site. Other agencies' public access policies (DOE, NASA, USDA,
+    DoD) were not read.
+  sweep: rules-C
+- id: t-gc-013
+  kind: recheck
+  about: records-rules-C.yaml/sam-financial-assistance-certifications
+  text: 'Narrowed by slice D on 2026-10-04: reginfo.gov shows no request to OMB for control number 3090-0290 in 2025 or
+    2026 and the Federal Register index shows no later notice (gd-reginfo-3090-0290, gd-fr-api-3090-0290-search). Still
+    to check: the certification text now shown in SAM.gov, and court orders that bear on the proposal.'
+  sweep: rules-C
+- id: t-gc-014
+  kind: gap
+  about: records-rules-C.yaml/sam-financial-assistance-certifications
+  text: The current text of the SAM.gov Financial Assistance General Certifications and Representations was not read (SAM.gov
+    and the Grants.gov forms repository render by script and returned no form list). The status of the SF-424B and SF-424D
+    on Grants.gov, and the form number and expiry of the Grants.gov lobbying form and the SF-LLL, were not found.
+  sweep: rules-C
+- id: t-gc-015
+  kind: recheck
+  about: records-rules-C.yaml/hhs-690-assurance-of-compliance
+  text: The copy of Form HHS-690 read is dated 11/2019 with an OMB expiry of 04/30/2026. Check whether a renewed form is
+    posted and whether its list of statutes changed. The HHS Office for Civil Rights page for the form returned 404 at the
+    address tried.
+  sweep: rules-C
+- id: t-gc-016
+  kind: recheck
+  about: records-rules-C.yaml/agency-specific-certifications
+  text: 'The HHS Grants Policy Statement''s Title IX and Title VI certification on acceptance of award is recorded as the
+    text reads. The ledger holds a court order on new HHS grant conditions (ch-sb-hhs-hud-new-grant-conditions-vacated,
+    2026-08-14); whom that order covers and whether it reaches this certification was not read here. The same applies to
+    USDA''s July 8, 2026 deviation under City of Seattle v. Trump and to the Arts Endowment''s Executive Order 14173 certification
+    (ledger: c-rf-nea-dei-certification, ch-sc-nea-certification-ruling).'
+  sweep: rules-C
+- id: t-gc-017
+  kind: gap
+  about: records-rules-C.yaml/civil-rights-obligations
+  text: The Title IX regulations in force, the Department of Education's and HHS's Title VI regulations, and any replacement
+    language-access guidance were not read. The Justice Department's Title IX page dates from 2015. The reason for and content
+    of the May 11, 2026 amendment to 45 CFR 84.84 (91 FR 25507) were not read; only the dates now in the section are recorded.
+  sweep: rules-C
+- id: t-gc-018
+  kind: gap
+  about: records-rules-C.yaml/recognition-of-exemption-501c3
+  text: 'Whether the Form 1023 and 1023-EZ user fees ($600 and $275 on the IRS page reviewed June 28, 2026) changed in 2025
+    or 2026 was not established: the text of Revenue Procedure 2026-5 was not returned by the fetch and the IRS fee page
+    gives no history. No change to Form 1023 or 1023-EZ themselves in 2025-2026 appears on the IRS product pages (instructions
+    dated 12/2024 and 01/2025).'
+  sweep: rules-C
+- id: t-gc-019
+  kind: gap
+  about: records-rules-C.yaml/fiscally-sponsored-project
+  text: No IRS page describing fiscal sponsorship was found. Only the Arts Endowment and one NEH notice were read on whether
+    a federal agency accepts a fiscally sponsored applicant; both say no. NIH, NSF, HHS operating divisions, IMLS, DOJ and
+    others were not checked.
+  sweep: rules-C
+- id: t-gc-020
+  kind: recheck
+  about: records-rules-C.yaml/group-exemption-subordinate
+  text: The transition dates for existing group exemption holders under Revenue Procedure 2026-8, and the exact wording
+    of the public-charity and classification-matching requirements, were not returned by the fetch. Read the revenue procedure
+    itself.
+  sweep: rules-C
+- id: t-gc-021
+  kind: gap
+  about: records-rules-C.yaml/state-charitable-solicitation-registration
+  text: The number of states that require charitable solicitation registration is not stated on the IRS or NASCO pages read
+    ("many states"). Not researched state by state, by design.
+  sweep: rules-C
+- id: t-gc-022
+  kind: gap
+  about: records-rules-C.yaml/nonprofit-indirect-cost-rate-negotiation
+  text: 'rates.psc.gov does not resolve; the current home of HHS Cost Allocation Services is the hhs.gov page already cited
+    in the record, with the ICAS portal. Slice D re-read the Interior Business Center page: it names no client agency other
+    than Interior and gives no deadline or review time; a guessed address for its non-profit instructions returned 404.
+    Still not established: which agency negotiates for a non-profit whose largest funder has no negotiating office. The
+    Department of Labor''s and other agencies'' cost negotiation offices were not read.'
+  sweep: rules-C
+- id: t-gc-023
+  kind: gap
+  about: records-rules-C.yaml/pre-award-risk-review
+  text: The Department of Justice questionnaire is recorded from the OJP Grant Application Resource Guide; the form itself
+    (ojp.gov/financialcapability.pdf) was not read. NIH's practice for organisations new to NIH was not read. The NSF Prospective
+    New Awardee Guide (NSF 20-032) was not read in full; the NSF page does not define "new awardee" or give a review time.
+  sweep: rules-C
+- id: t-gc-024
+  kind: recheck
+  about: records-rules-C.yaml/common-rule
+  text: '"No change to the Common Rule in 2025-2026" rests on two OHRP pages. The Federal Register was not searched for
+    a proposed rule by another Common Rule agency. OHRP''s Federal Register notices index stops at 2018.'
+  sweep: rules-C
+- id: t-gc-025
+  kind: gap
+  about: records-rules-C.yaml/human-subjects-training
+  text: Only NIH's human subjects education and Good Clinical Practice training pages were read. The expectations of NSF
+    and other funders were not. The three-year refresh for Good Clinical Practice is as returned by the fetch.
+  sweep: rules-C
+- id: t-gc-026
+  kind: recheck
+  about: sources-rules-C.yaml/gc-irs-wheres-my-application
+  text: The IRS processing-time page changes often; the figures (22 days for Form 1023-EZ, 191 days for Form 1023, 80% of
+    determinations) and the assignment dates are as returned for the page updated June 28, 2026.
+  sweep: rules-C
+- id: t-gc-027
+  kind: recheck
+  about: records-rules-C.yaml/institutional-biosafety-committee
+  text: Biosafety is recorded in outline from one NIH index page. The notices on potential dangerous gain-of-function research
+    (NOT-OD-25-112, NOT-OD-25-127), the executive order they follow, the IBC minutes notice (NOT-OD-25-082) and the August
+    2026 draft policy (NOT-OD-26-112) were not read individually.
+  sweep: rules-C
+- id: t-gc-028
+  kind: unverified
+  about: records-rules-C.yaml/sam-financial-assistance-certifications
+  text: 'The subjects and wording of the certifications GSA proposed for SAM.gov come from two secondary sources and, since
+    slice D, from a public comment in docket GSA-GSA-2026-0001 that quotes four of them (gd-regs-gov-hufg-comment-gsa-2026-0001).
+    The Federal Register notice gives only the purpose and the documents it relies on. GSA''s own posting of February 18,
+    2026 was still not read: two guessed downloads.regulations.gov addresses returned 403 and the regulations.gov API returned
+    429.'
+  sweep: rules-C
+- id: t-gd-01
+  kind: recheck
+  about: records-rules-A.yaml/award-closeout
+  text: The eCFR pages for 2 CFR 200.204, 200.306 and 200.344 returned HTTP 429 or 503 twice each on 2026-10-04 and were
+    not re-read by slice D (slice A had read 200.204 on the eCFR earlier the same day). For 200.306 and 200.344 the statement
+    that the January 1, 2025 text is unchanged rests on the eCFR version record (gd-ecfr-versions-part-200), which shows
+    no issue of either section after the amendment dated October 1, 2024. Read the two pages when the eCFR allows. The eCFR
+    API address for the section XML is disallowed by robots.txt.
+  sweep: rules-D
+- id: t-gd-02
+  kind: conflict
+  about: records-rules-A.yaml/omb-2-cfr-revision-2026
+  text: The association summary (ga-ace-omb-proposal-summary) says proposed 200.205 requires a senior political appointee
+    to review each notice of funding opportunity. The Federal Register text read by slice D describes a pre-issuance review
+    of proposals selected for funding, to be described in the notice (gd-fr-2026-10817-html, gd-fr-api-2026-10817-excerpts).
+    Executive Order 14332 itself has the appointee approve announcements. Both statements are kept in the records omb-2-cfr-revision-2026
+    and senior-appointee-review; read proposed 200.204 and 200.205 in full to settle what the appointee reviews.
+  sweep: rules-D
+- id: t-gd-03
+  kind: conflict
+  about: records-rules-C.yaml/research-security-training
+  text: 'DOE FAL 2025-02: the PDF as returned gives the issue date as October 7, 2024 (gd-doe-fal-2025-02-pdf); DOE''s landing
+    page shows October 8, 2024 (gc-doe-fal-2025-02-page). Both are kept.'
+  sweep: rules-D
+- id: t-gd-04
+  kind: conflict
+  about: records-rules-B.yaml/research-gov
+  text: 'NSF gives two margins for SAM.gov registration: its submitting-a-proposal page recommends starting at least 90
+    days before submission (gb-nsf-submitting-proposal); its Research.gov account management guide says completion may take
+    up to one month (gd-nsf-rgov-account-management-guide). Both are kept; this adds to t-gb-sam-time-estimates.'
+  sweep: rules-D
+- id: t-gd-05
+  kind: recheck
+  about: sources-rules-D.yaml/gd-ecfr-200-501
+  text: The fetch of the eCFR text of 200.501 returned the exemption for entities spending less than $1,000,000 as paragraph
+    (e) and the for-profit paragraph as (i); slice A's reading of the January 1, 2025 edition gives no paragraph letters.
+    The eCFR version record shows no change to the section, so check the lettering against the page.
+  sweep: rules-D
+- id: t-gd-06
+  kind: recheck
+  about: sources-rules-D.yaml/gd-fr-api-2026-10817-excerpts-2
+  text: The later parts of 91 FR 32198 were read as passages of a few sentences returned by the Federal Register search
+    API, one passage per search. The headings of proposed 200.340(a)(2), (4) and (5) were not returned verbatim; the five
+    grounds are stated from the preamble's list and from fragments of the regulatory text. One passage was returned on two
+    reads as applying to awards "made" and to awards "made and amended" during fiscal year 2027; the second read's wording
+    is used. Check every quote against the document.
+  sweep: rules-D
+- id: t-gd-07
+  kind: gap
+  about: records-rules-D.yaml/doe-conflict-of-interest-policy
+  text: 'The gate record rests on the fetch layer''s reading of a long final rule; section numbers (910.200, 910.210, 910.230,
+    910.240, 910.260) are as returned and need checking against 2 CFR part 910 on the eCFR, which was not read. Not found:
+    how long DOE expects adoption to take, any cost, whether the policy must be public, and the text of the Appendix A certification
+    statement. No time or cost field is given.'
+  sweep: rules-D
+- id: t-gd-08
+  kind: gap
+  about: records-rules-C.yaml/section-117-foreign-gift-reporting
+  text: The Department of Education's section 117 page returned HTTP 403 again and the State Department's release of February
+    2026 returned 403. The Education press release of February 23, 2026 does not give the date of the interagency agreement,
+    its legal basis, or the date State takes up the work, and the Department's section 117 announcements of June and July
+    2026 do not mention State. What State now does in practice, and whether the list of foreign source names was published
+    on August 12, 2026, were not established.
+  sweep: rules-D
+- id: t-gd-09
+  kind: recheck
+  about: records-rules-B.yaml/sam-financial-assistance-certifications
+  text: Sentences added to the two sam-financial-assistance-certifications records quote proposed certification wording
+    from a public comment in GSA's docket (gd-regs-gov-hufg-comment-gsa-2026-0001), a secondary source. The unverified todos
+    t-gb-sam-certifications-content and t-gc-028 stay open until GSA's own document is read.
+  sweep: rules-D
 - id: t-merge-gates-sam-registration
   kind: recheck
   about: gates/sam-registration
@@ -3283,5 +3963,180 @@
 - id: t-merge-programs-nih-rcmi-u54
   kind: recheck
   about: programs/nih-rcmi-u54
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-omb-2-cfr-revision-2026
+  kind: recheck
+  about: mechanics/omb-2-cfr-revision-2026
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-senior-appointee-review
+  kind: recheck
+  about: mechanics/senior-appointee-review
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-grants-termination-for-convenience
+  kind: recheck
+  about: mechanics/grants-termination-for-convenience
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-login-gov
+  kind: recheck
+  about: gates/login-gov
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-cage-code
+  kind: recheck
+  about: gates/cage-code
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-ncage-code
+  kind: recheck
+  about: gates/ncage-code
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-grants-gov-individual-registration
+  kind: recheck
+  about: gates/grants-gov-individual-registration
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-nih-assist
+  kind: recheck
+  about: gates/nih-assist
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-era-commons-samhsa
+  kind: recheck
+  about: gates/era-commons-samhsa
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-research-gov
+  kind: recheck
+  about: gates/research-gov
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-nspires
+  kind: recheck
+  about: gates/nspires
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-doe-pams
+  kind: recheck
+  about: gates/doe-pams
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-ebrap
+  kind: recheck
+  about: gates/ebrap
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-justgrants
+  kind: recheck
+  about: gates/justgrants
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-hrsa-ehbs
+  kind: recheck
+  about: gates/hrsa-ehbs
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-grantsolutions
+  kind: recheck
+  about: gates/grantsolutions
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-ed-g6
+  kind: recheck
+  about: gates/ed-g6
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-imls-egms-reach
+  kind: recheck
+  about: gates/imls-egms-reach
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-nea-applicant-portal
+  kind: recheck
+  about: gates/nea-applicant-portal
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-fema-go
+  kind: recheck
+  about: gates/fema-go
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-e-snaps
+  kind: recheck
+  about: gates/e-snaps
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-payment-management-system
+  kind: recheck
+  about: gates/payment-management-system
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-orcid-id
+  kind: recheck
+  about: gates/orcid-id
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-common-forms-sciencv
+  kind: recheck
+  about: gates/common-forms-sciencv
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-help-research-gov-help-desk
+  kind: recheck
+  about: help/research-gov-help-desk
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-help-nspires-helpdesk
+  kind: recheck
+  about: help/nspires-helpdesk
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-help-doe-pams-helpdesk
+  kind: recheck
+  about: help/doe-pams-helpdesk
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-help-ebrap-helpdesk
+  kind: recheck
+  about: help/ebrap-helpdesk
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-doj-two-step-application
+  kind: recheck
+  about: mechanics/doj-two-step-application
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-mftrp-certification
+  kind: recheck
+  about: gates/mftrp-certification
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-data-management-sharing-plan
+  kind: recheck
+  about: gates/data-management-sharing-plan
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-gates-public-access-compliance
+  kind: recheck
+  about: gates/public-access-compliance
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-nsf-data-management-sharing-plan
+  kind: recheck
+  about: mechanics/nsf-data-management-sharing-plan
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-pre-award-risk-review
+  kind: recheck
+  about: mechanics/pre-award-risk-review
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-financial-management-standards
+  kind: recheck
+  about: mechanics/financial-management-standards
   text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
   sweep: consolidation
