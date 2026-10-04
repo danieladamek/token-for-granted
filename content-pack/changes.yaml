@@ -1990,3 +1990,1308 @@
   - 692
   - 718
   sweep: research-F
+- id: ch-pa-f-diversity-notices-closed-2025
+  date: '2025-02-21'
+  what: 'Grants.gov records show three NIH notices with a close date of February 21, 2025 and archived status: PA-23-271
+    (F31 diversity fellowship), PAR-24-225 (MOSAIC K99/R00) and PA-23-189 (diversity supplements); the MARC T34 notice PAR-24-138
+    has the same close date [800] [799] [801] [802]. No NIH notice explaining the closings was found in this sweep, and
+    the F31 diversity listing gives no reason [800].'
+  status: final
+  affects:
+  - nih-f31-diversity
+  - nih-mosaic-k99-r00
+  - nih-diversity-supplements
+  - nih-nigms-marc-t34
+  sources:
+  - 800
+  - 799
+  - 801
+  - 802
+  sweep: people-A
+- id: ch-pa-t32-childcare-procedure
+  date: '2025-04-25'
+  what: 'NIH changed how childcare costs are provided on institutional NRSA training grants: the $3,000 per trainee is now
+    provided for 25% of full-time trainee slots, with administrative supplements for more [788].'
+  status: final
+  affects:
+  - nih-t32
+  - nih-nrsa-childcare-costs
+  sources:
+  - 788
+  sweep: people-A
+- id: ch-pa-nrsa-stipends-fy2025
+  date: '2025-05-16'
+  what: 'NIH set FY 2025 NRSA stipends: predoctoral $28,788; postdoctoral $62,232 at 0 years of experience to $75,564 at
+    7 or more; the notice applied to awards made on or after October 1, 2024 [733].'
+  status: final
+  affects:
+  - nih-nrsa-stipend-levels
+  - nih-f31
+  - nih-f32
+  - nih-t32
+  sources:
+  - 733
+  sweep: people-A
+- id: ch-pa-esi-extension-2025
+  date: '2025-05-20'
+  what: NIH automatically extended early-stage investigator status by one to three receipt cycles for people affected by
+    disruptions between January 1 and May 31, 2025, with October 2025 as the last submission under the extension [787].
+  status: final
+  affects:
+  - nih-esi-status-and-training-awards
+  sources:
+  - 787
+  sweep: people-A
+- id: ch-pa-k-early-end-exception
+  date: '2025-05-28'
+  what: NIH made a temporary exception to NIH Grants Policy Statement section 12.3.7 so that a person whose mentored career
+    development award ended early on or after January 1, 2025 could apply for another; the notice said the exception would
+    remain in effect until July 31, 2026 [786].
+  status: final
+  affects:
+  - nih-k-prior-award-exclusions
+  - nih-k01
+  - nih-k08
+  - nih-k23
+  - nih-k25
+  sources:
+  - 786
+  sweep: people-A
+- id: ch-pa-fellowship-parents-reissued
+  date: '2025-06-13'
+  what: NIH reissued the five parent fellowship notices (F31 PA-25-422, F32 PA-25-423, F33 PA-25-424, F30 PA-25-425 and
+    PA-25-426), open July 8, 2025 and expiring May 8, 2028 [736] [737] [739] [738] [784]. A correction four days later changed
+    the citizenship sentence to read 'a citizen or a non-citizen national of the United States' [757].
+  status: final
+  affects:
+  - nih-f31
+  - nih-f32
+  - nih-f33
+  - nih-f30
+  - nih-nrsa-citizenship
+  sources:
+  - 736
+  - 737
+  - 739
+  - 738
+  - 784
+  - 757
+  sweep: people-A
+- id: ch-pa-k99-window-extension-2025
+  date: '2025-06-13'
+  what: NIH automatically extended K99/R00 eligibility by one to three receipt cycles for candidates whose window would
+    have ended between October 2024 and January 2026, with a last submission in October/November 2025 [791].
+  status: final
+  affects:
+  - nih-k99-r00
+  - nih-k99-postdoctoral-window
+  sources:
+  - 791
+  sweep: people-A
+- id: ch-pa-six-application-limit
+  date: '2025-07-17'
+  what: NIH limited each principal investigator to six new, renewal, resubmission or revision applications per calendar
+    year from the September 25, 2025 receipt date; the policy covers all activity codes except T codes and R13, so fellowship
+    and career applications count [12].
+  status: final
+  affects:
+  - nih-six-application-limit-fellowships-careers
+  - nih-f31
+  - nih-f32
+  - nih-k01
+  - nih-k99-r00
+  sources:
+  - 12
+  sweep: people-A
+- id: ch-pa-nofos-leave-nih-guide
+  date: '2025-08-14'
+  what: NIH announced that from fiscal year 2026 it posts funding notices only on Grants.gov and no longer in the NIH Guide
+    [9]. The 2026 parent notices for F99/K00, K12 and R25 were found on Grants.gov [740] [752] [755].
+  status: final
+  affects:
+  - nih-nofos-only-on-grants-gov
+  - nih-f99-k00
+  - nih-k12
+  - nih-r25
+  sources:
+  - 9
+  - 740
+  - 752
+  - 755
+  sweep: people-A
+- id: ch-pa-reentry-notice-expired
+  date: '2025-09-09'
+  what: The notice offering research supplements for re-entry, re-integration and re-training (NOT-OD-23-170) expired on
+    September 9, 2025; the page records a prior expiration date of October 09, 2026 [793].
+  status: final
+  affects:
+  - nih-reentry-supplements
+  sources:
+  - 793
+  sweep: people-A
+- id: ch-pa-ahrq-k01-expired
+  date: '2025-11-10'
+  what: AHRQ's K01 notice PA-22-255 reached its expiration date of November 10, 2025 and is marked expired; no reissue was
+    found [782] [812].
+  status: final
+  affects:
+  - ahrq-k01
+  sources:
+  - 782
+  - 812
+  sweep: people-A
+- id: ch-pa-lrp-due-date-2025
+  date: '2025-11-19'
+  what: NIH moved the closing date of the loan repayment cycle that opened September 1, 2025 from November 20 to December
+    4, 2025 [766].
+  status: final
+  affects:
+  - nih-extramural-lrp
+  - nih-lrp-application-cycle
+  sources:
+  - 766
+  sweep: people-A
+- id: ch-pa-burt-posted
+  date: '2025-12-29'
+  what: NIGMS posted the Institutional Biomedical Undergraduate Research Training (BURT) Program (T34), PAR-26-033, a new
+    notice with first due date February 25, 2026 [796] [797].
+  status: final
+  affects:
+  - nih-nigms-burt-t34
+  sources:
+  - 796
+  - 797
+  sweep: people-A
+- id: ch-pa-k99-window-extension-2026
+  date: '2026-01-30'
+  what: 'NIH gave a second automatic extension of K99/R00 eligibility: windows ending September to November 2025 run to
+    February/March 2026, and windows ending January to March 2026 run to June/July 2026 [790].'
+  status: final
+  affects:
+  - nih-k99-r00
+  - nih-k99-postdoctoral-window
+  sources:
+  - 790
+  sweep: people-A
+- id: ch-pa-ahrq-r36-early-expiration
+  date: '2026-03-06'
+  what: AHRQ declared its dissertation grant notice PA-23-196 (R36) expired effective immediately; the notice states that
+    no further applications will be accepted [513].
+  status: final
+  affects:
+  - ahrq-r36
+  sources:
+  - 513
+  sweep: people-A
+- id: ch-pa-ahrq-pcor-k-expired
+  date: '2026-03-13'
+  what: AHRQ's PCOR K01 and K08 notices, PA-22-049 and PA-22-050, reached the expiration date of March 13, 2026 set by a
+    one-year extension in January 2025; Grants.gov shows both archived with close date March 12, 2026 [811] [812].
+  status: final
+  affects:
+  - ahrq-pcor-k-awards
+  sources:
+  - 811
+  - 812
+  sweep: people-A
+- id: ch-pa-ahrq-k08-early-expiration
+  date: '2026-03-17'
+  what: AHRQ declared its K08 notice PA-22-232 expired effective immediately; its original expiration date was February
+    14, 2027 [770] [783].
+  status: final
+  affects:
+  - ahrq-k08
+  sources:
+  - 770
+  - 783
+  sweep: people-A
+- id: ch-pa-nrsa-stipends-fy2026
+  date: '2026-03-18'
+  what: 'NIH set FY 2026 NRSA stipends for awards made on or after October 1, 2025: predoctoral $29,364; postdoctoral $63,480
+    at 0 years of experience to $77,076 at 7 or more; tuition and fees, training-related expenses and institutional allowances
+    were unchanged [732]. The fiscal policy notice of the same day describes the increase as approximately 2 percent [21].'
+  status: final
+  affects:
+  - nih-nrsa-stipend-levels
+  - nih-f30
+  - nih-f31
+  - nih-f32
+  - nih-f33
+  - nih-t32
+  - nih-t35
+  sources:
+  - 732
+  - 21
+  sweep: people-A
+- id: ch-pa-nigms-joins-parent-f31
+  date: '2026-03-19'
+  what: NIGMS joined the parent F31 notice PA-25-422 [792].
+  status: final
+  affects:
+  - nih-f31
+  sources:
+  - 792
+  - 736
+  sweep: people-A
+- id: ch-pa-ahrq-k18-and-supplements-early-expiration
+  date: '2026-03-20'
+  what: AHRQ declared its K18 notice PA-22-051 and its administrative supplements notice PA-22-168 expired effective immediately
+    [771] [772]. Other AHRQ notices of early expiration between March 10 and March 20, 2026 covered research and conference
+    notices [515] [516] [773] [774] [517] [775] [776] [777] [778] [779].
+  status: final
+  affects:
+  - ahrq-k18
+  sources:
+  - 771
+  - 772
+  - 515
+  - 516
+  - 773
+  - 774
+  - 517
+  - 775
+  - 776
+  - 777
+  - 778
+  - 779
+  sweep: people-A
+- id: ch-pa-diversity-supplement-guide-expiration
+  date: '2026-05-08'
+  what: The NIH Guide page for the diversity supplement notice PA-23-189 gives May 8, 2026 as its expiration date, while
+    Grants.gov shows the notice archived with close date February 21, 2025 [759] [801]. NIH's table of parent announcements
+    lists no diversity supplement on 2026-10-04 [1].
+  status: final
+  affects:
+  - nih-diversity-supplements
+  sources:
+  - 759
+  - 801
+  - 1
+  sweep: people-A
+- id: ch-pa-foreign-component-reminder
+  date: '2026-05-27'
+  what: NIH issued a reminder of its definition of a foreign component; the notice does not mention fellows, trainees or
+    training abroad [785].
+  status: final
+  affects:
+  - nih-foreign-training-justification
+  sources:
+  - 785
+  sweep: people-A
+- id: ch-pa-r25-parent-notices
+  date: '2026-06-08'
+  what: 'NIH posted three NIH-wide parent R25 research education notices: PA-27-034 (courses, curriculum and methods), PA-27-035
+    (mentoring activities and networks) and PA-27-036 (research experiences), with first due date September 25, 2026 [1]
+    [754] [756].'
+  status: final
+  affects:
+  - nih-r25
+  sources:
+  - 1
+  - 754
+  - 756
+  sweep: people-A
+- id: ch-pa-f99-k00-parent-notice
+  date: '2026-06-16'
+  what: NIH posted an NIH-wide parent notice for the F99/K00 Predoctoral to Postdoctoral Transition Award, PA-27-037, marked
+    as a new announcement, with first due date August 08, 2026 [741] [740].
+  status: final
+  affects:
+  - nih-f99-k00
+  sources:
+  - 741
+  - 740
+  sweep: people-A
+- id: ch-pa-k12-parent-notice
+  date: '2026-06-22'
+  what: NIH posted an NIH-wide parent notice for the K12 Institutional Mentored Career Development Award, PA-27-030, marked
+    as a new announcement, with first due date October 12, 2026 [753] [752].
+  status: final
+  affects:
+  - nih-k12
+  sources:
+  - 753
+  - 752
+  sweep: people-A
+- id: ch-pa-lrp-2026-notices
+  date: '2026-07-13'
+  what: 'NIH released three loan repayment notices for the cycle of September 1 to November 19, 2026: clinical research
+    (NOT-OD-26-081), pediatric research (NOT-OD-26-082) and FOCUS (NOT-OD-26-083), the last replacing the 2025 LRP-REACH
+    notice [763] [764] [765]. The 2025 cycle had six programme notices, NOT-OD-25-091 to NOT-OD-25-096 [766].'
+  status: final
+  affects:
+  - nih-extramural-lrp
+  sources:
+  - 763
+  - 764
+  - 765
+  - 766
+  sweep: people-A
+- id: ch-pa-k-early-end-exception-lapsed
+  date: '2026-07-31'
+  what: The temporary exception allowing a second mentored K application after an award ended early was stated to remain
+    in effect until July 31, 2026; no notice extending it was found in NIH's list of policy notices [786] [80].
+  status: final
+  affects:
+  - nih-k-prior-award-exclusions
+  sources:
+  - 786
+  - 80
+  sweep: people-A
+- id: ch-pa-k-award-reorganization
+  date: '2026-08-12'
+  what: NIH announced that for due dates on or after October 12, 2027 individual K awards are consolidated into KR1, KC1,
+    KS1 and KT1/R00; K applications will no longer need a Data Management and Sharing Plan; and K funds may not support
+    the conduct of a clinical trial [742]. Active notices under the current codes, except K00, K12, K43 and K76, expire
+    by July 13, 2027 [742] [758].
+  status: announced
+  affects:
+  - nih-k01
+  - nih-k02
+  - nih-k08
+  - nih-k23
+  - nih-k24
+  - nih-k25
+  - nih-k99-r00
+  - nih-k22
+  - nih-k-award-reorganization-2027
+  sources:
+  - 742
+  - 758
+  sweep: people-A
+- id: ch-pa-fy2027-continuing-resolution
+  date: '2026-09-28'
+  what: NIH's list of policy notices shows NOT-OD-26-131, 'NIH Operates Under a Continuing Resolution', dated September
+    28, 2026 [80]. No FY 2027 NRSA stipend notice was listed on 2026-10-04, so the FY 2026 levels are the latest published
+    [731].
+  status: pending-implementation
+  affects:
+  - nih-nrsa-stipend-levels
+  sources:
+  - 80
+  - 731
+  sweep: people-A
+- id: ch-pa-aids-due-dates-removed
+  date: '2026-01-28'
+  what: NIH's list of policy notices shows NOT-OD-26-029, 'NIH Removing AIDS Application Due Dates from NOFOs', dated January
+    28, 2026; the parent fellowship, career and training notices list it as a related notice [80] [736] [744] [750].
+  status: final
+  affects:
+  - nih-f31
+  - nih-f32
+  - nih-k01
+  - nih-t32
+  sources:
+  - 80
+  - 736
+  - 744
+  - 750
+  sweep: people-A
+- id: ch-pb-early-2025-archives
+  date: '2025-02-25'
+  what: 'Pages last updated between January 21 and February 25, 2025 show these people-family opportunities as archived:
+    the Career-Life Balance supplement letter (January 21), BRC-BIO (January 22), the high-school research assistantship
+    letter (January 23), MPS-Ascend (February 7), and the two STEM Education postdoctoral fellowships (February 25) [846]
+    [845] [889] [838] [851] [852]. The dates are page-update dates; the pages do not say when or why each was archived [845]
+    [838].'
+  status: final
+  affects:
+  - nsf-clb-supplement
+  - nsf-brc-bio
+  - nsf-rahss-supplement
+  - nsf-mps-ascend
+  - nsf-stem-ed-prf
+  sources:
+  - 846
+  - 845
+  - 838
+  - 851
+  - 852
+  - 889
+  sweep: people-B
+- id: ch-pb-grfp-2025-award-count
+  date: '2025-04-08'
+  what: The FY 2025 solicitation said NSF would support up to 2,300 new fellowships per fiscal year [885]. News reports
+    say NSF named 1,000 fellows in April 2025, against about 2,000 in earlier years, and added about 500 in June 2025 from
+    the Honorable Mention list [864] [863]. The NSF pages read give no 2025 count [860] [861].
+  status: final
+  affects:
+  - nsf-grfp
+  sources:
+  - 885
+  - 864
+  - 863
+  - 860
+  - 861
+  sweep: people-B
+- id: ch-pb-priorities-and-terminations
+  date: '2025-04-18'
+  what: NSF's priorities page, published April 18, 2025 and last updated July 24, 2026, says awards not aligned with agency
+    priorities have been terminated, that terminations are not appealable to NSF, and that outreach and participation activities
+    must be open to all Americans [154]. It says 114 awards to 45 institutions were being reinstated as of June 30, 2025
+    under a preliminary injunction of June 23, 2025 in N.D. Cal. Case No. 25-cv-04737 [154]. The page names no fellowship
+    or training programme [154]. The research sweep's ledger holds the court history of the Thakur and AAPT cases; no court
+    document was read in this sweep [154].
+  status: in-litigation
+  affects:
+  - nsf-mca
+  - nsf-nrt
+  - nsf-noyce
+  - nsf-s-stem
+  sources:
+  - 154
+  sweep: people-B
+- id: ch-pb-lsamp-agep-page-status
+  date: '2025-05-22'
+  what: The LSAMP page, last updated May 22, 2025, shows "waiting for new publication" and no due dates; LSAMP's Bridge
+    tracks had paid stipends and cost of education to cohorts of graduate students [881]. The AGEP page, last updated May
+    16, 2025, is marked archived [882]. Both programmes belong to the capacity sweep; they are noted here because they carried
+    graduate and postdoctoral support [881] [882].
+  status: final
+  affects: []
+  sources:
+  - 881
+  - 882
+  sweep: people-B
+- id: ch-pb-training-programmes-waiting
+  date: '2025-06-27'
+  what: The Research Traineeship and Noyce pages, both last updated June 27, 2025, show "waiting for new publication" and
+    no upcoming due dates; the SBE postdoctoral fellowship page shows the same and was last updated January 5, 2026 [827]
+    [857] [826]. The last NRT solicitation had set a September 8 deadline each year and the last Noyce solicitation a late-August
+    deadline [828] [858]. On the sweep date the EDU home page's list of recent funding opportunities held four items, of
+    which GRFP was the only fellowship or training programme [230].
+  status: final
+  affects:
+  - nsf-nrt
+  - nsf-noyce
+  - nsf-sprf
+  sources:
+  - 827
+  - 857
+  - 826
+  - 828
+  - 858
+  - 230
+  sweep: people-B
+- id: ch-pb-grfp-fy2026-eligibility
+  date: '2025-09-26'
+  what: NSF posted the FY 2026 GRFP solicitation, NSF 25-547, on September 26, 2025, with deadlines of November 10 to 14,
+    2025; its revision notes say eligibility criteria were revised [859]. The FY 2025 solicitation had admitted graduate
+    students who had completed no more than one academic year; NSF 25-547 limits the graduate category to first-year students
+    with less than one academic year completed [885] [859]. NSF 25-547 stated no number of awards [859].
+  status: final
+  affects:
+  - nsf-grfp
+  - nsf-grfp-eligible-applicant
+  sources:
+  - 859
+  - 885
+  sweep: people-B
+- id: ch-pb-late-2025-archives
+  date: '2025-12-12'
+  what: 'Pages last updated between November 25 and December 12, 2025 show these opportunities as archived: the Cultural
+    Anthropology, Archaeology and Biological Anthropology dissertation grants (November 25), BCSER (December 3) and LEAPS-MPS
+    (December 12) [871] [872] [875] [868] [844]. NSF announced its organisational realignment on December 15, 2025 [168].
+    The pages do not link the two [168] [844].'
+  status: final
+  affects:
+  - nsf-sbe-ddrig
+  - nsf-bcser
+  - nsf-leaps-mps
+  sources:
+  - 871
+  - 872
+  - 875
+  - 868
+  - 844
+  - 168
+  sweep: people-B
+- id: ch-pb-realignment-2025-12
+  date: '2025-12-15'
+  what: NSF announced an organisational realignment that reduces the number of layers in the organisation [168]. The announcement
+    names no programme; solicitations written before it still name divisions as owners [828] [858].
+  status: final
+  affects:
+  - nsf-nrt
+  - nsf-noyce
+  - nsf-career
+  sources:
+  - 168
+  - 828
+  - 858
+  sweep: people-B
+- id: ch-pb-geo-postdoc-archived
+  date: '2026-01-22'
+  what: The Earth Sciences postdoctoral fellowship page, last updated January 22, 2026, shows NSF 25-500 as archived; the
+    Ocean Sciences fellowship page is labelled archived; and the Office of Polar Programs announced that its fellowship
+    was archived and would not accept proposals for 2025 [849] [848] [862]. The atmospheric and geospace fellowship page
+    carries no archive notice and accepts proposals at any time [879].
+  status: final
+  affects:
+  - nsf-geo-postdoctoral-fellowships
+  sources:
+  - 849
+  - 848
+  - 862
+  - 850
+  - 879
+  sweep: people-B
+- id: ch-pb-fy2026-appropriation
+  date: '2026-01-23'
+  what: Congress approved $8.75 billion for NSF for FY 2026 [173]. For the STEM Education account the request was $288.4
+    million and the Senate committee reported $1,000.0 million; for GRFP the request was $127.3 million and the Senate report
+    directed $285.0 million [884]. A society summary reports $938 million for STEM Education and $285 million for GRFP in
+    the final bill, signed January 23, 2026 [174]. The Senate committee release gives no STEM Education or GRFP figure [173].
+  status: enacted
+  affects:
+  - nsf-grfp
+  - nsf-nrt
+  - nsf-noyce
+  - nsf-s-stem
+  sources:
+  - 173
+  - 884
+  - 174
+  sweep: people-B
+- id: ch-pb-prfb-2026-solicitation
+  date: '2026-02-05'
+  what: 'NSF 26-504 replaced NSF 24-593 for the biology postdoctoral fellowships: three competitive areas became one focus
+    area on artificial intelligence and biological sciences, the fellowship rose to $110,000 a year, and the length became
+    24 continuous months [837].'
+  status: final
+  affects:
+  - nsf-prfb
+  sources:
+  - 837
+  - 836
+  sweep: people-B
+- id: ch-pb-fy2027-request
+  date: '2026-04-03'
+  what: NSF's FY 2027 request proposes to consolidate the STEM Education directorate within the Research and Related Activities
+    account, with an EDU line of $427.68 million against $1,197.00 million in the FY 2025 current plan [255]. It asks for
+    $246.54 million for GRFP, $150.0 million for CAREER, $18.22 million for Noyce and $15.0 million for REU, and says NSF
+    will close out the SBE directorate [255].
+  status: proposed
+  affects:
+  - nsf-grfp
+  - nsf-career
+  - nsf-noyce
+  - nsf-reu
+  - nsf-sprf
+  - nsf-sbe-ddrig
+  - nsf-mca
+  sources:
+  - 255
+  - 171
+  sweep: people-B
+- id: ch-pb-grfp-2026-offers
+  date: '2026-04-13'
+  what: NSF announced 2,500 fellowship offers for the 2026-2027 academic year from nearly 14,000 applicants, and named 1,470
+    Honorable Mentions [860] [861].
+  status: final
+  affects:
+  - nsf-grfp
+  sources:
+  - 860
+  - 861
+  sweep: people-B
+- id: ch-pb-olc-opinion-stem-programmes
+  date: '2026-08-12'
+  what: The Department of Justice Office of Legal Counsel issued an opinion to NSF's General Counsel on nine statutory NSF
+    STEM programmes [876]. It concludes that NSF must cease administering LSAMP and IUSE-HSI and may not continue to fund
+    AGEP, that sex-based preferences in ATE and ADVANCE are severable, and that GRFP, Noyce, Advancing Informal STEM Learning
+    and the Tribal Colleges and Universities Program may continue, the first three without regard to race or sex [876].
+    It says NSF may treat the amounts earmarked for the three programmes as unencumbered by the suballocation provisions
+    [876]. It is a legal opinion of the executive branch, not a court ruling [876].
+  status: final
+  affects:
+  - nsf-grfp
+  - nsf-noyce
+  sources:
+  - 876
+  sweep: people-B
+- id: ch-pb-foundational-nofos-no-career-stage
+  date: '2026-08-17'
+  what: NSF posted twelve foundational-research notices in BIO, CISE, ENG, GEO and MPS; none is a fellowship, early-career
+    or training notice [192]. The BIO Core and MPS Chemistry solicitations among them send early-career investigators to
+    the CAREER solicitation and have no track of their own for new investigators [185] [214].
+  status: final
+  affects:
+  - nsf-career
+  - nsf-brc-bio
+  - nsf-leaps-mps
+  - nsf-crii
+  sources:
+  - 192
+  - 185
+  - 214
+  sweep: people-B
+- id: ch-pb-grfp-fy2027-solicitation
+  date: '2026-08-25'
+  what: 'NSF posted the FY 2027 GRFP solicitation, NSF 26-526: an estimated 1,500 awards, deadlines moved to October 19-23,
+    2026 at 8:00 p.m. Eastern Time, and the statement that second-year graduate students are not eligible [818] [817]. The
+    organisations listed at its head do not include the SBE directorate, and the Assistance Listings omit 47.075; Psychology
+    and Social Sciences remain major fields [818]. Association reports say nine subfields were removed, among them STEM
+    Education and Learning Research [228] [227].'
+  status: final
+  affects:
+  - nsf-grfp
+  - nsf-grfp-eligible-applicant
+  sources:
+  - 818
+  - 817
+  - 228
+  - 227
+  sweep: people-B
+- id: ch-pb-crii-archived
+  date: unknown
+  what: The CRII page is labelled "Archived funding opportunity"; the page as read gives no date [843]. The CISE core solicitation
+    of July 25, 2025 has no early-career track [189].
+  status: final
+  affects:
+  - nsf-crii
+  sources:
+  - 843
+  - 189
+  sweep: people-B
+- id: ch-pc-eo-14332-grantmaking
+  date: '2025-08-07'
+  what: Executive Order 14332, signed August 7, 2025, requires senior appointees to review funding opportunity announcements
+    and discretionary awards and directs that awards permit termination for convenience [246]. No provision specific to
+    fellowships or early-career awards was found in the part read [246].
+  status: final
+  affects:
+  - doe-sc-early-career
+  - dod-onr-yip
+  - dod-afosr-yip
+  - nasa-finesst
+  - noaa-knauss-fellowship
+  - nifa-nnf
+  sources:
+  - 246
+  sweep: people-C
+- id: ch-pc-notices-cite-executive-orders
+  date: '2026-06-08'
+  what: The 2027 Knauss fellowship notice cites Executive Orders 14173, 14303 and 14281 as requirements on applicants and
+    recipients [965]. The ONR FY 2027 Young Investigator Program notice refers to Executive Order 14303 (Gold Standard Science),
+    and no reference to Executive Order 14332 was found in it [922].
+  status: final
+  affects:
+  - noaa-knauss-fellowship
+  - dod-onr-yip
+  - dod-afosr-yip
+  sources:
+  - 965
+  - 922
+  - 924
+  sweep: people-C
+- id: ch-pc-sea-grant-deia-excluded-fy25
+  date: '2025'
+  what: The National Sea Grant Office states that it is excluding statements and factors related to diversity, equity, inclusion
+    and accessibility from the evaluation of FY25 proposals [436].
+  status: final
+  affects:
+  - noaa-knauss-fellowship
+  - noaa-nmfs-sea-grant-fellowship
+  sources:
+  - 436
+  sweep: people-C
+- id: ch-pc-knauss-2027-calendar
+  date: '2026-06-08'
+  what: The notice for the 2027 Knauss class was posted June 8, 2026 with a state deadline of July 1, 2026 and a national
+    deadline of August 26, 2026 [964] [436]. The notice for the previous class had a state deadline of February 19, 2025
+    and a national deadline of April 16, 2025 [436].
+  status: final
+  affects:
+  - noaa-knauss-fellowship
+  sources:
+  - 964
+  - 436
+  - 965
+  sweep: people-C
+- id: ch-pc-noaa-fy27-sea-grant-termination-proposed
+  date: 2026-04
+  what: 'NOAA''s FY 2027 budget justification proposes to terminate the National Sea Grant College Program: FY 2026 enacted
+    $80,328 thousand; FY 2027 request $0 [445].'
+  status: proposed
+  affects:
+  - noaa-knauss-fellowship
+  - noaa-nmfs-sea-grant-fellowship
+  sources:
+  - 445
+  sweep: people-C
+- id: ch-pc-noaa-fy27-office-of-education-termination-proposed
+  date: 2026-04
+  what: 'NOAA''s FY 2027 budget justification proposes to terminate NOAA''s Office of Education, listed with the Hollings
+    Scholarship: FY 2026 enacted $34,950 thousand; FY 2027 request $0 [445].'
+  status: proposed
+  affects:
+  - noaa-hollings-scholarship
+  - noaa-epp-msi-undergraduate-scholarship
+  sources:
+  - 445
+  sweep: people-C
+- id: ch-pc-noaa-fy27-climate-research-reductions-proposed
+  date: 2026-04
+  what: NOAA's FY 2027 budget justification shows reductions of $71,504,000 for Climate Competitive Research and $104,964,000
+    for Climate Laboratories and Cooperative Institutes [445]. The Climate and Global Change postdoctoral fellowship is
+    not named in the part read [445].
+  status: proposed
+  affects:
+  - noaa-cgc-postdoctoral-fellowship
+  - noaa-cpo-mapp-early-career-award
+  sources:
+  - 445
+  sweep: people-C
+- id: ch-pc-nasa-fy27-stem-engagement-request
+  date: 2026-04
+  what: NASA's FY 2027 budget request shows the STEM Engagement account at $0.0 million, against $143.0 million enacted
+    for FY 2026 [396]. The summary does not itemise FINESST, the postdoctoral programme, the Hubble fellowships or the Space
+    Technology Research Grants [396].
+  status: proposed
+  affects:
+  - nasa
+  sources:
+  - 396
+  sweep: people-C
+- id: ch-pc-nasa-roses-2026-timing
+  date: '2026-01-22'
+  what: NASA said on January 22, 2026 that it planned to release ROSES-2026 in July 2026, as it had released ROSES-2025
+    in July 2025 rather than February [956]. On 2026-10-04 NASA's solicitations page still named ROSES-2025 as the current
+    notice, and ROSES-2025 was still being amended [371] [373].
+  status: announced
+  affects:
+  - nasa-finesst
+  - nasa-ecip-earth-science
+  - nasa-roman-technology-fellowship
+  sources:
+  - 956
+  - 371
+  - 373
+  sweep: people-C
+- id: ch-pc-nasa-finesst25-released-april-2026
+  date: '2026-04-14'
+  what: The FINESST element of ROSES-2025, previously listed as to be determined, was released by Amendment 52 with proposals
+    due July 14, 2026 [949] [948]. The Earth Science Division lists FINESST26 as still to be determined [950].
+  status: final
+  affects:
+  - nasa-finesst
+  sources:
+  - 949
+  - 948
+  - 950
+  sweep: people-C
+- id: ch-pc-nasa-ecip-es-renamed-and-solicited
+  date: '2026-04-17'
+  what: Amendment 53 to ROSES-2025 added the Early Career Investigator Program in Earth Science, formerly the New Investigator
+    Program, with proposals due June 17, 2026 [952] [950].
+  status: final
+  affects:
+  - nasa-ecip-earth-science
+  sources:
+  - 952
+  - 950
+  - 951
+  sweep: people-C
+- id: ch-pc-hubble-2027-application-changes
+  date: '2026-09-14'
+  what: For the 2027 class the Hubble fellowship announcement requires applicants to disclose any use of AI in application
+    materials, limits host justifications to 250 words each and restates the cap of two new fellows per host a year [946].
+    NASA posted its notice of the 2027 round on September 14, 2026 [947].
+  status: final
+  affects:
+  - nasa-hubble-fellowship
+  sources:
+  - 946
+  - 947
+  sweep: people-C
+- id: ch-pc-doe-ecrp-fy26-notice-dates
+  date: '2026-03-03'
+  what: The FY 2026 Early Career Research Program notice, DE-FOA-0003602, was posted March 3, 2026 and closed June 2, 2026;
+    the two notices before it were posted January 17, 2025 and December 15, 2023 [909]. No FY 2027 notice was on the Office
+    of Science open list on 2026-10-04 [282].
+  status: final
+  affects:
+  - doe-sc-early-career
+  sources:
+  - 909
+  - 282
+  sweep: people-C
+- id: ch-pc-doe-wdts-fy27-request
+  date: '2026'
+  what: DOE's FY 2027 request for Workforce Development for Teachers and Scientists is $30,000,000; FY 2026 enacted is $32,000,000
+    and FY 2025 enacted $31,000,000 [296].
+  status: proposed
+  affects:
+  - doe-sc-scgsr
+  - doe-wdts-suli
+  - doe-wdts-cci
+  - doe-wdts-vfp
+  sources:
+  - 296
+  sweep: people-C
+- id: ch-pc-darpa-yfa-2027-announcement-expected
+  date: '2026-06-11'
+  what: DARPA stated on June 11, 2026 that the Young Faculty Award research announcement for 2027 would be available in
+    early fall 2026 [926]. A Grants.gov search on 2026-10-04 showed the 2026 announcement as the latest [927].
+  status: announced
+  affects:
+  - dod-darpa-yfa
+  sources:
+  - 926
+  - 927
+  sweep: people-C
+- id: ch-pc-nifa-nnf-fy26-no-postdoctoral
+  date: '2026-08-13'
+  what: The FY 2026 National Needs Fellowship notice, posted August 13, 2026, states that postdoctoral fellowships will
+    not be awarded under it [962] [961].
+  status: final
+  affects:
+  - nifa-nnf
+  sources:
+  - 962
+  - 961
+  sweep: people-C
+- id: ch-pc-nifa-ewd-fy26-updates
+  date: '2026-01-20'
+  what: The FY 2026 AFRI Education and Workforce Development notice requires a Mentoring Plan for all applications except
+    workshop grants, and accepts workshop grant applications year-round after a letter of intent [960].
+  status: final
+  affects:
+  - nifa-afri-ewd-predoctoral
+  - nifa-afri-ewd-postdoctoral
+  - nifa-afri-ewd-workforce
+  sources:
+  - 960
+  sweep: people-C
+- id: ch-pc-nist-nrc-notification-held
+  date: unknown
+  what: NIST's page for its NRC postdoctoral associateships states that application materials have been received and that
+    NIST is waiting for more guidance before notifying selected applicants [978]. The page gives no date for the statement
+    [978].
+  status: announced
+  affects:
+  - nist-nrc-postdoc
+  sources:
+  - 978
+  sweep: people-C
+- id: ch-pc-department-of-war-name-on-pages
+  date: unknown
+  what: 'Pages read in this sweep use the name Department of War (DoW) for the defence department: the SMART programme site,
+    the STEM site (dodstem.us redirects to dowstem.us) and the titles of ONR''s FY 2027 MURI and DURIP notices [918] [917]
+    [335]. The NDSEG site still names the Office of the Under Secretary of Defense for Research & Engineering [911].'
+  status: final
+  affects:
+  - dod-smart
+  - dod-ndseg
+  - dod-vbff
+  sources:
+  - 918
+  - 917
+  - 335
+  - 911
+  sweep: people-C
+- id: ch-pc-usda-fy27-request-nifa
+  date: '2026'
+  what: USDA's FY 2027 budget summary proposes a cut of $510 million to NIFA formula grants [426]. No FY 2027 line for AFRI
+    Education and Workforce Development or the National Needs Fellowships was found in the part read [426].
+  status: proposed
+  affects:
+  - nifa-nnf
+  - nifa-afri-ewd-predoctoral
+  - nifa-afri-ewd-postdoctoral
+  - nifa-afri-ewd-workforce
+  sources:
+  - 426
+  sweep: people-C
+- id: ch-pd-neh-terminations-2025-04
+  date: '2025-04-01'
+  what: On April 1 to 3, 2025 NEH terminated more than 1,400 grants, representing over $100 million, among them awards to
+    individual scholars of $30,000 to $60,000 [642].
+  status: vacated
+  affects:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  - neh-summer-stipends
+  sources:
+  - 642
+  sweep: people-D
+- id: ch-pd-neh-individuals-injunction-2025-08
+  date: '2025-08-01'
+  what: In Authors Guild v. NEH the district court stayed the terminations for all individual NEH grant recipients terminated
+    on April 1 to 3, 2025 and barred NEH from re-obligating the funds; a docket summary dates the decision July 25, 2025
+    and the order August 1, 2025 [643] [642].
+  status: final
+  affects:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  sources:
+  - 643
+  - 642
+  sweep: people-D
+- id: ch-pd-neh-summary-judgment-2026-05
+  date: '2026-05-07'
+  what: The Southern District of New York granted summary judgment to the plaintiffs on First Amendment, equal protection
+    and ultra vires claims and vacated the terminations [642]. A docket summary dates the judgment and a permanent injunction
+    May 7, 2026 and records an appeal to the Second Circuit filed July 6, 2026 (26-1829) [643].
+  status: on-appeal
+  affects:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  sources:
+  - 642
+  - 643
+  sweep: people-D
+- id: ch-pd-neh-2026-subject-limit
+  date: '2026-03-02'
+  what: The 2026 competitions for NEH Fellowships, Public Scholars and Awards for Faculty at HBCUs accepted only projects
+    in American history and culture and Western civilization [986] [1003] [1004]. The Fellowships announcement was published
+    March 2, 2026 and amended April 1, 2026 [988].
+  status: final
+  affects:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  sources:
+  - 986
+  - 1003
+  - 1004
+  - 988
+  sweep: people-D
+- id: ch-pd-neh-2026-individual-notice
+  date: '2026-04-01'
+  what: NEH's 2026 notice for awards to individuals covers four programmes (Awards for Faculty at HBCUs, Fellowships, Fellowships
+    for Advanced Social Science Research on Japan, Public Scholars) and lists the promotion of gender ideology, the promotion
+    of discriminatory equity ideology and support for DEI or DEIA initiatives among unallowable activities [987]. Summer
+    Stipends and the faculty awards for Hispanic-serving institutions and tribal colleges are not among the four [987] [635].
+  status: final
+  affects:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  - neh-fellowships-advanced-social-science-research-japan
+  - neh-summer-stipends
+  sources:
+  - 987
+  - 635
+  sweep: people-D
+- id: ch-pd-neh-2027-calendar
+  date: '2026-10-04'
+  what: NEH's programme pages give the next cycle for its four individual awards as opening January 15, 2027 and closing
+    April 14, 2027, with notification January 31, 2028; the 2026 Fellowships deadline was April 22, 2026 [986] [1003] [1004]
+    [1005] [988].
+  status: announced
+  affects:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  - neh-fellowships-advanced-social-science-research-japan
+  sources:
+  - 986
+  - 1003
+  - 1004
+  - 1005
+  - 988
+  sweep: people-D
+- id: ch-pd-nea-creative-writing-withdrawn
+  date: unknown
+  what: A trade publication reports that the NEA told applicants to the FY 2026 Creative Writing Fellowships that the category
+    was withdrawn as the agency updated its grantmaking policy priorities [1010]. No NEA page read states this; the competition
+    had closed March 12, 2025 [1009].
+  status: rescinded
+  affects:
+  - nea-creative-writing-fellowships
+  sources:
+  - 1010
+  - 1009
+  sweep: people-D
+- id: ch-pd-nea-literature-fellowships-not-listed
+  date: '2026-10-04'
+  what: On the sweep date the NEA's grants page listed six categories and neither Creative Writing Fellowships nor Translation
+    Projects; both programme pages still carried FY 2026 guidelines with 2025 deadlines [653] [1006] [1008].
+  status: announced
+  affects:
+  - nea-creative-writing-fellowships
+  - nea-translation-projects
+  sources:
+  - 653
+  - 1006
+  - 1008
+  sweep: people-D
+- id: ch-pd-fulbright-hays-cancelled-2025
+  date: '2025-05-09'
+  what: The Department of Education withdrew its fiscal year 2025 notices and cancelled the Fulbright-Hays Group Projects
+    Abroad, Doctoral Dissertation Research Abroad and Faculty Research Abroad competitions (90 FR 19688), stating that it
+    was reviewing recently published FY 2025 notices [1011].
+  status: final
+  affects:
+  - ed-fulbright-hays-ddra
+  - ed-fulbright-hays-fra
+  - ed-fulbright-hays-gpa
+  sources:
+  - 1011
+  sweep: people-D
+- id: ch-pd-ed-interagency-agreements-2025-11
+  date: '2025-11-18'
+  what: 'The Department of Education announced six interagency agreements: the Department of State administers the Fulbright-Hays
+    grant programmes, and the Department of Labor administers most postsecondary grant programmes under the Higher Education
+    Act [672]. The release does not name GAANN, McNair, graduate fellowships or the Institute of Education Sciences [672].'
+  status: announced
+  affects:
+  - ed-fulbright-hays-ddra
+  - ed-fulbright-hays-fra
+  - ed-fulbright-hays-gpa
+  - ed-gaann
+  - ed-trio-mcnair
+  - ed-ope
+  - state-eca
+  sources:
+  - 672
+  sweep: people-D
+- id: ch-pd-ed-dol-first-competition-2026
+  date: '2026-03-17'
+  what: The Departments of Education and Labor announced the first competition under the postsecondary partnership, FY 2026
+    Talent Search in the Federal TRIO Programs, with awards issued on Labor's GrantSolutions platform [1015].
+  status: final
+  affects:
+  - ed-trio-mcnair
+  - ed-ope
+  sources:
+  - 1015
+  sweep: people-D
+- id: ch-pd-fulbright-disbursement-pause-2025
+  date: '2025-02-12'
+  what: An alumni association's tracker records a 15-day temporary pause on all disbursements of State Department grant
+    funding beginning February 12, 2025, affecting Fulbright and other exchange programmes [1021]. No Department of State
+    page on the pause was read.
+  status: final
+  affects:
+  - state-fulbright-us-student
+  - state-fulbright-us-scholar
+  - state-eca
+  sources:
+  - 1021
+  sweep: people-D
+- id: ch-pd-fulbright-board-resignation-2025
+  date: '2025-06-11'
+  what: Members of the J. William Fulbright Foreign Scholarship Board resigned; their statement says awards were denied
+    to a substantial number of people selected for 2025-2026 and that a further 1,200 foreign Fulbright recipients were
+    put through a review [1020].
+  status: final
+  affects:
+  - state-fulbright-us-student
+  - state-fulbright-us-scholar
+  - state-eca
+  - ed-fulbright-hays-ddra
+  sources:
+  - 1020
+  sweep: people-D
+- id: ch-pd-ies-training-fy27
+  date: '2026-08-06'
+  what: IES opened its FY 2027 research training competitions (84.305B and 84.324B) with two topics each, Early Career Development
+    and Mentoring and Methods Training; predoctoral and postdoctoral training are not competed [995] [997]. Applications
+    closed October 1, 2026, and no FY 2026 training competition appears on the IES funding page [996] [660].
+  status: final
+  affects:
+  - ies-research-training-education-sciences
+  - ies-research-training-special-education
+  sources:
+  - 995
+  - 997
+  - 996
+  - 660
+  sweep: people-D
+- id: ch-pd-nij-grf-fy25-notice
+  date: '2026-03-25'
+  what: NIJ posted its fiscal year 2025 Graduate Research Fellowship notice on March 25, 2026, with deadlines of May 19
+    and May 27, 2026, $1 million for 8 anticipated awards, a required statement on Gold Standard Science under Executive
+    Order 14303, and research doctorates in the humanities and the visual and performing arts excluded [992] [991].
+  status: final
+  affects:
+  - doj-nij-graduate-research-fellowship
+  sources:
+  - 992
+  - 991
+  sweep: people-D
+- id: ch-pd-hrsa-nrsa-fy26-notice
+  date: '2026-06-08'
+  what: HRSA competed its primary care National Research Service Award (HRSA-26-035, $9,566,800 for 20 expected awards);
+    the previous listing found was posted September 10, 2020. The notice limits applicants to institutions with earlier
+    funding under Public Health Service Act sections 736, 739 or 747 and stating policy conditions on what awards may fund
+    [1046] [1027] [1028].
+  status: final
+  affects:
+  - hrsa-nrsa-primary-care
+  sources:
+  - 1046
+  - 1027
+  - 1028
+  sweep: people-D
+- id: ch-pd-nidilrr-fy27-forecasts
+  date: '2026-09-25'
+  what: ACL posted 15 forecasts for fiscal year 2027, among them three ARRT competitions (Health and Function, Employment,
+    Community Living and Participation) and no Switzer fellowship; the last Switzer notices were for fiscal year 2025 [1044]
+    [1041].
+  status: announced
+  affects:
+  - acl-nidilrr-arrt
+  - acl-nidilrr-switzer-fellowships
+  sources:
+  - 1044
+  - 1041
+  sweep: people-D
+- id: ch-pd-imls-lb21-fy27-notice
+  date: 2026-09
+  what: IMLS issued the FY 2027 Laura Bush 21st Century Librarian notice with a deadline of November 13, 2026, $8,500,000
+    anticipated for 35 awards, and a Director's letter encouraging proposals tied to the 250th anniversary and to Executive
+    Orders 14277 and 14278 [990].
+  status: final
+  affects:
+  - imls-laura-bush-21st-century-librarian
+  sources:
+  - 990
+  sweep: people-D
+- id: ch-pe-neh-awards-faculty-2026-hbcu-only
+  date: '2026-03-02'
+  what: NEH's 2026 Awards for Faculty notice, 20260422-HB, posted March 2, 2026, is titled Awards for Faculty at HBCUs;
+    the notice before it, 20250409-HB, covered Hispanic-Serving Institutions, historically Black colleges and tribal colleges
+    together [1053] [1055]. The programme pages for the two other awards give no reason and no return date [1051] [1052].
+  status: final
+  affects:
+  - neh-awards-for-faculty-hsi
+  - neh-awards-for-faculty-tcu
+  - neh-awards-for-faculty-hbcu
+  sources:
+  - 1053
+  - 1055
+  sweep: people-E
+- id: ch-pe-neh-awards-faculty-2025-modified
+  date: '2025-02-10'
+  what: NEH modified the 2025 Awards for Faculty notice on February 10 and March 6, 2025, in its sections on background
+    and funding restrictions [1055].
+  status: final
+  affects:
+  - neh-awards-for-faculty-hsi
+  - neh-awards-for-faculty-tcu
+  - neh-awards-for-faculty-hbcu
+  sources:
+  - 1055
+  sweep: people-E
+- id: ch-pe-neh-fpiri-no-notice-2025-2026
+  date: '2026-10-04'
+  what: Grants.gov shows no notice for Fellowship Programs at Independent Research Institutions after the one that closed
+    August 14, 2024; the programme had a notice every year or two from 2008 [1048]. This is an absence observed on the sweep
+    date; the programme page carries no announcement [1047].
+  status: announced
+  affects:
+  - neh-fpiri
+  sources:
+  - 1048
+  sweep: people-E
+- id: ch-pe-niosh-training-notices-updated-2025-03
+  date: '2025-03-31'
+  what: NIOSH updated its Education and Research Centers notice on March 31, 2025 to align with agency priorities, and its
+    Training Project Grants notice carries an update of the same date [1061] [1063]. Both notices stayed open with yearly
+    due dates to October 2028 [1059].
+  status: final
+  affects:
+  - cdc-niosh-erc-t42
+  - cdc-niosh-tpg-t03
+  sources:
+  - 1061
+  - 1063
+  - 1059
+  sweep: people-E
+- id: ch-pe-niosh-fy27-forecasts
+  date: '2026-09-01'
+  what: Between July 2 and September 1, 2026 NIOSH posted fifteen forecasts on Grants.gov for fiscal year 2027 notices,
+    among them two mentored career awards, RFA-OH-27-078 and RFA-OH-27-031 [1059] [1064].
+  status: announced
+  affects:
+  - cdc-niosh-k01
+  sources:
+  - 1059
+  - 1064
+  sweep: people-E
+- id: ch-pe-nih-lrp-fy27-consolidation
+  date: '2026-09-01'
+  what: NIH opened the FY27 extramural loan repayment cycle on September 1, 2026 with three subcategories, saying the programme
+    had been consolidated; FOCUS (L70) is marked as new [1085] [762].
+  status: final
+  affects:
+  - nih-extramural-lrp
+  sources:
+  - 1085
+  - 762
+  sweep: people-E
+- id: ch-pe-nigms-par-24-040-early-expiration
+  date: '2025-08-14'
+  what: NIGMS ended PAR-24-040, an R25 notice for modules to enhance research workforce training, effective immediately,
+    and pointed applicants to PAR-24-252 [1089].
+  status: final
+  affects:
+  - nih-r25
+  sources:
+  - 1089
+  sweep: people-E
+- id: ch-pe-cdmrp-fy26-appropriation
+  date: '2026-02-04'
+  what: CDMRP reported a fiscal year 2026 appropriation of $1.27 billion for 34 research programmes under the Consolidated
+    Appropriations Act, 2026, signed February 3, 2026 [295].
+  status: enacted
+  affects:
+  - dod-cdmrp-career-development-mechanisms
+  sources:
+  - 295
+  sweep: people-E
+- id: ch-pe-doe-policy-flash-2026-33
+  date: '2026-02-19'
+  what: DOE issued Policy Flash 2026-33, sending out its procedure for reviewing funding announcements under Executive Order
+    14332; review of discretionary awards is left to a later letter and NNSA is excluded [314].
+  status: final
+  affects:
+  - doe-sc-early-career
+  - doe-sc-scgsr
+  - doe-arpa-e-igniite
+  sources:
+  - 314
+  sweep: people-E
+- id: ch-pe-ies-fy27-competitions-launched
+  date: '2026-08-06'
+  what: The Acting Director of IES launched the fiscal year 2027 research competitions in three groups; Research Training
+    Programs (84.305B and 84.324B) are in the first group, and the main research grants follow in December [661].
+  status: announced
+  affects:
+  - ies-research-training-education-sciences
+  - ies-research-training-special-education
+  sources:
+  - 661
+  sweep: people-E
+- id: ch-pe-nasa-strg-2026-notices
+  date: '2025-12-19'
+  what: NASA posted the NSTGRO appendix for autumn 2026 on December 19, 2025, about four months later in the year than the
+    two before it, and it closed January 29, 2026 [1082] [1081]. No Early Career Faculty notice after ECF25 and no NSTGRO
+    notice for autumn 2027 was on Grants.gov on 2026-10-04 [1080] [1082].
+  status: final
+  affects:
+  - nasa-stmd-nstgro
+  - nasa-stmd-early-career-faculty
+  sources:
+  - 1082
+  - 1081
+  - 1080
+  sweep: people-E
+- id: ch-pe-orise-dhs-pages-removed
+  date: '2026-10-04'
+  what: On the sweep date the ORISE addresses for the DHS HS-POWER programme and the DHS Summer Research Team Program returned
+    ORISE's page-not-found page [1104] [1105]. Neither page says whether the programmes ended or moved [1104] [1105].
+  status: announced
+  affects:
+  - dhs-st-workforce-programs
+  sources:
+  - 1104
+  - 1105
+  sweep: people-E

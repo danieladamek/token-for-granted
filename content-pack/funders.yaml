@@ -2307,3 +2307,283 @@
   - 703
   - 704
   sweep: research-F
+- id: nasa
+  name: National Aeronautics and Space Administration (agency-wide programmes)
+  funder_kind: federal
+  what: |
+    NASA at agency level, recorded here for the NASA Postdoctoral Program, which places fellows at NASA centres and facilities and is administered for NASA by Oak Ridge Associated Universities [941].
+  how_it_decides: Not stated on the pages read for the postdoctoral programme [941].
+  cycle: The postdoctoral programme runs named application cycles; the November 2026 cycle closes November 1, 2026 [941].
+  who_to_talk_to: The programme administrator, ORAU, through the programme site [941].
+  where_it_posts: The postdoctoral programme is posted on the administrator's site, npp.orau.org [941].
+  budget:
+  - amount: $143.0 million (STEM Engagement account)
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 396
+  - amount: $0.0 million (STEM Engagement account)
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 396
+  programs:
+  - nasa-npp
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY 2027 budget request shows the STEM Engagement account at $0.0 million, against $143.0 million enacted for
+      FY 2026 [396].
+  official_url: https://www.nasa.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 941
+  - 396
+  sweep: people-C
+- id: nasa-stmd
+  name: NASA Space Technology Mission Directorate — Space Technology Research Grants
+  funder_kind: federal
+  parent: NASA
+  what: |
+    The NASA directorate whose Space Technology Research Grants programme funds university research on space technology through five opportunities: graduate research opportunities (NSTGRO), Early Career Faculty, Early Stage Innovations, Lunar Surface Technology Research and Space Technology Research Institutes [953].
+  how_it_decides: Not stated on the pages read [953].
+  cycle: Each opportunity has its own solicitation; the programme pages list the 2025 Early Career Faculty awards and the
+    2026 NSTGRO awards as the most recent [954] [955].
+  who_to_talk_to: The Early Career Faculty page gives hq-ecf-call@mail.nasa.gov as its contact [954].
+  where_it_posts: The NSTGRO page points to NSPIRES for solicitation details [955].
+  budget: []
+  programs:
+  - nasa-stmd-early-career-faculty
+  - nasa-stmd-nstgro
+  pending_changes: []
+  official_url: https://www.nasa.gov/directorates/stmd/space-tech-research-grants/
+  as_of: '2026-10-04'
+  sources:
+  - 953
+  - 954
+  - 955
+  sweep: people-C
+- id: dod-ousd-re
+  name: Office of the Under Secretary of Defense for Research & Engineering (NDSEG Program Office)
+  funder_kind: federal
+  parent: Department of Defense
+  what: |
+    The defence office under which the NDSEG fellowship sits [911]. The Air Force Office of Scientific Research, the Army Research Office and the Office of Naval Research sponsor the fellowship, and a contractor, Systems Plus Inc., runs the application site for the DoD NDSEG Program Office [911] [913].
+  how_it_decides: Applicants' research is to align with topics in DoD Broad Agency Announcements; the selection process
+    itself was not on the pages read [914].
+  cycle: One NDSEG application period a year; for FY 2027 it runs August 3 through October 30, 2026 [913].
+  who_to_talk_to: The programme office at NDSEG.PMO@sysplus.com or (301) 948-4232 [913].
+  where_it_posts: On ndseg.org and the application site ndseg.sysplus.com [910] [913].
+  budget: []
+  programs:
+  - dod-ndseg
+  pending_changes: []
+  official_url: https://ndseg.org/
+  as_of: '2026-10-04'
+  sources:
+  - 910
+  - 911
+  - 913
+  - 914
+  sweep: people-C
+- id: dod-smart-program
+  name: SMART Scholarship-for-Service Program, U.S. Department of War
+  funder_kind: federal
+  parent: Department of War
+  what: |
+    The department's scholarship-for-service programme, set up to add civilian scientists, engineers and researchers to its workforce [918]. It pays tuition and a stipend to students and employs them at department facilities after graduation [917].
+  how_it_decides: Not stated on the pages that loaded [917].
+  cycle: Applications are taken between August and December each year [917].
+  who_to_talk_to: Not stated on the pages that loaded [917].
+  where_it_posts: On the programme site, smartscholarship.org, and the department's STEM site, dowstem.us [918] [917].
+  budget: []
+  governing_terms: A 2019 Federal Register document cites 10 U.S.C. 2192a as the programme's authority and sets out the
+    service obligation and default rules as they stood then [919].
+  programs:
+  - dod-smart
+  pending_changes: []
+  official_url: https://www.smartscholarship.org/smart
+  as_of: '2026-10-04'
+  sources:
+  - 918
+  - 917
+  - 919
+  sweep: people-C
+- id: smithsonian
+  name: Smithsonian Institution
+  funder_kind: federal
+  what: |
+    The Smithsonian offers fellowships to individuals who propose independent research in residence, tied to its collections, facilities and research interests [984]. Its main programme is the Smithsonian Institution Fellowship Program [984].
+  how_it_decides: Not stated on the page read; decisions are announced in mid-March [984].
+  cycle: 'One deadline a year for the main fellowship programme: October 15, 2026 for the current round [984].'
+  who_to_talk_to: Not stated on the page read [984].
+  where_it_posts: On fellowships.si.edu, with applications through the SOLAA system [984].
+  budget: []
+  programs:
+  - smithsonian-sifp
+  - smithsonian-institution-fellowship-program
+  - smithsonian-museum-fellowships-humanities-arts
+  pending_changes: []
+  official_url: https://fellowships.si.edu/
+  as_of: '2026-10-04'
+  sources:
+  - 984
+  - 998
+  sweep: people-C
+  variants:
+  - funder_kind: federal
+    what: The Smithsonian offers fellowships to individuals who propose independent research in residence, through one central
+      competition and through fellowships run by single museums, libraries and research centres [984] [998]. This record
+      covers the humanities and arts side only.
+    how_it_decides: Decisions on the central competition come in mid-March after the October 15 deadline; the pages read
+      do not describe the review [984].
+    cycle: The central competition has one deadline a year, October 15; museum-based fellowships keep their own dates [984]
+      [998].
+    where_it_posts: On the Smithsonian fellowships site, with applications in the Smithsonian Online Academic Appointment
+      System [998] [984].
+    programs:
+    - smithsonian-institution-fellowship-program
+    - smithsonian-museum-fellowships-humanities-arts
+    pending_changes: []
+    sources:
+    - 984
+    - 998
+    sweep: people-D
+- id: state-eca
+  name: U.S. Department of State, Bureau of Educational and Cultural Affairs
+  funder_kind: federal
+  parent: Department of State
+  what: The Bureau of Educational and Cultural Affairs runs the Department of State's educational, professional and cultural
+    exchanges [1026]. The Fulbright U.S. Student and U.S. Scholar programmes are Department of State programmes, funded
+    by the U.S. Government and administered by the Institute of International Education (IIE) [1022] [1025]. Under an interagency
+    agreement announced November 18, 2025 the Department of State also administers the Fulbright-Hays grant programmes of
+    the Department of Education [672]. The Fulbright Program's own question-and-answer page says its primary funding is
+    an annual appropriation by Congress to the Department of State, that the programme awards approximately 9,000 grants
+    annually, and that the Fulbright Foreign Scholarship Board has 12 members appointed by the President [1102].
+  how_it_decides: For the U.S. Student Program, IIE checks eligibility, a National Screening Committee of U.S. faculty reviews,
+    and recommended applications go to U.S. embassies or binational Fulbright Commissions, the Department of State and the
+    Fulbright Foreign Scholarship Board [1024].
+  cycle: 'One competition a year for each programme: the U.S. Scholar deadline for 2027-2028 was September 15, 2026 and
+    the U.S. Student deadline is October 6, 2026; student decisions are released from March to June [1025] [1022] [1024].'
+  who_to_talk_to: An enrolled student starts with the Fulbright Program Adviser on campus [1023].
+  where_it_posts: Fulbright awards for U.S. applicants are posted on the IIE-run programme sites, us.fulbrightonline.org
+    and fulbrightscholars.org, not on Grants.gov [1022] [1025].
+  budget:
+  - amount: $287.8 million for the Fulbright Program in a draft House appropriations bill
+    fiscal_year: 2026
+    status: house-mark
+    cite:
+    - 1021
+  programs:
+  - state-fulbright-us-student
+  - state-fulbright-us-scholar
+  pending_changes:
+  - status: final
+    date: '2025-06-11'
+    text: Members of the Fulbright Foreign Scholarship Board resigned, stating that the administration had taken actions
+      they believed impermissible under the law [1020].
+  - status: announced
+    date: '2025-11-18'
+    text: The Department of State is to administer the Fulbright-Hays grant programmes under an interagency agreement with
+      the Department of Education [672].
+  official_url: https://www.state.gov/bureaus-offices/under-secretary-for-public-diplomacy/bureau-of-educational-and-cultural-affairs/
+  as_of: '2026-10-04'
+  sources:
+  - 1026
+  - 1022
+  - 1024
+  - 1023
+  - 1025
+  - 672
+  - 1020
+  - 1021
+  - 1102
+  sweep: people-D
+- id: ed-ope
+  name: U.S. Department of Education, Office of Postsecondary Education
+  funder_kind: federal
+  parent: Department of Education
+  what: The Office of Postsecondary Education is the Department of Education office whose notices carry the Fulbright-Hays
+    programmes (through International and Foreign Language Education), GAANN (through Higher Education Programs) and the
+    Federal TRIO Programs, including McNair [1014] [1018] [1019]. In November 2025 the Department announced agreements under
+    which the Department of State administers the Fulbright-Hays grant programmes and the Department of Labor administers
+    most postsecondary grant programmes under the Higher Education Act [672].
+  how_it_decides: Each competition is governed by a notice inviting applications and by programme regulations; for the dissertation
+    fellowships the Secretary scores applications and the Fulbright Foreign Scholarship Board approves fellows [1012] [1013].
+  cycle: Competitions are announced in the Federal Register; GAANN and McNair are competed at intervals of several years,
+    not annually [1018] [1019].
+  where_it_posts: Federal Register notices and Grants.gov listings; the first competition under the Education-Labor partnership
+    issued its awards on the Department of Labor's GrantSolutions platform [1016] [1018] [1015].
+  budget:
+  - amount: $8,249,000 for Fulbright-Hays overseas programmes, as stated in the fiscal year 2025 notice before its withdrawal
+    fiscal_year: 2025
+    cite:
+    - 1012
+  - amount: $20,479,535 estimated available for new GAANN awards
+    fiscal_year: 2024
+    cite:
+    - 1016
+  governing_terms: Programme regulations in title 34 of the Code of Federal Regulations, for example part 662 for the dissertation
+    fellowships and part 648 for GAANN, with 2 CFR part 200 [1013] [1017] [1012].
+  programs:
+  - ed-fulbright-hays-ddra
+  - ed-fulbright-hays-fra
+  - ed-fulbright-hays-gpa
+  - ed-gaann
+  - ed-trio-mcnair
+  pending_changes:
+  - status: final
+    date: '2025-05-09'
+    text: The three fiscal year 2025 Fulbright-Hays notices were withdrawn and the competitions cancelled [1011].
+  - status: announced
+    date: '2025-11-18'
+    text: Six interagency agreements were announced, moving administration of Fulbright-Hays to State and most Higher Education
+      Act grant programmes to Labor [672].
+  official_url: https://www.ed.gov/about/news/press-release/us-department-of-education-announces-six-new-agency-partnerships-break-federal-bureaucracy
+  as_of: '2026-10-04'
+  sources:
+  - 1014
+  - 1018
+  - 1019
+  - 672
+  - 1015
+  - 1012
+  - 1016
+  - 1011
+  - 1013
+  - 1017
+  sweep: people-D
+- id: loc-kluge-center
+  name: Library of Congress, John W. Kluge Center
+  funder_kind: federal
+  parent: Library of Congress
+  what: The Kluge Center offers residential fellowships and chairs at the Library of Congress for research in the humanities
+    and social sciences [1000] [999]. Its pages name five fellowships and two chairs [1000].
+  cycle: The last cycle shown on the pages read ran from April 15, 2024 to September 15, 2024 [999] [1000].
+  who_to_talk_to: The fellowship page gives scholarly@loc.gov for technical problems with the application [999].
+  where_it_posts: On the Kluge Center's pages at loc.gov [1000].
+  programs:
+  - loc-kluge-fellowship
+  pending_changes: []
+  official_url: https://www.loc.gov/programs/john-w-kluge-center/chairs-fellowships/
+  as_of: '2026-10-04'
+  sources:
+  - 1000
+  - 999
+  sweep: people-D
+- id: wilson-center
+  name: Woodrow Wilson International Center for Scholars
+  funder_kind: federal
+  what: The Wilson Center runs a Research Fellowship for scholars, practitioners, journalists and public intellectuals,
+    held in residence for twelve months [1001].
+  cycle: One competition a year; the 2027-2028 competition closed September 30, 2026 and the 2028-2029 competition begins
+    in summer 2027 [1001].
+  where_it_posts: On its own site [1001].
+  programs:
+  - wilson-center-research-fellowship
+  pending_changes: []
+  official_url: https://www.wilsoncenter.org/fellowship-application-guidelines
+  as_of: '2026-10-04'
+  sources:
+  - 1001
+  sweep: people-D

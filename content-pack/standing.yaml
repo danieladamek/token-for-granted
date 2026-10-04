@@ -563,3 +563,428 @@
   - 716
   - 662
   sweep: research-F
+- id: nih-nrsa-citizenship
+  name: NRSA citizenship and residency requirement
+  applies_to: investigator
+  what: |
+    To hold a Kirschstein-NRSA fellowship or a trainee place on an NRSA training grant, a person must be a citizen or a non-citizen national of the United States, or lawfully admitted for permanent residence [736] [750]. The notices name no other status [741]. The mentored K awards read in this sweep use the same wording, while the K99 has no citizenship requirement [744] [743].
+  who_qualifies: U.S. citizens, non-citizen nationals and lawful permanent residents; a permanent resident holds a currently
+    valid Permanent Resident Card (USCIS Form I-551) or other legal verification of status [741].
+  how_decided: Set in each notice. For fellowships the status must be held by the time of award; for training grants, at
+    the time of appointment [736] [750]. A June 2025 correction fixed the wording of the five parent fellowship notices
+    to read 'non-citizen national' [757].
+  opens:
+  - nih-f30
+  - nih-f31
+  - nih-f32
+  - nih-f33
+  - nih-f99-k00
+  - nih-t32
+  - nih-t35
+  - nih-nigms-burt-t34
+  - nih-k01
+  - nih-k02
+  - nih-k08
+  - nih-k23
+  - nih-k24
+  - nih-k25
+  - nih-k12
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-126.html
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 736
+  - 750
+  - 741
+  - 744
+  - 743
+  - 757
+  sweep: people-A
+- id: nih-k99-postdoctoral-window
+  name: K99/R00 eligibility window (no more than 4 years of postdoctoral research experience)
+  applies_to: investigator
+  what: |
+    A K99/R00 candidate must have no more than 4 years of postdoctoral research experience on the application due date [743]. There is no citizenship requirement, and the notice says a candidate may be a non-U.S. citizen [743].
+  who_qualifies: Holders of a clinical or research doctorate with no more than 4 years of postdoctoral research experience;
+    NIH approves a one-year extension for childbirth, and parental, medical or military leave is typically not counted [743].
+  how_decided: Counted against the due date of the application; set in the notice [743]. NIH issued automatic extensions
+    in June 2025 and January 2026 for windows that closed during delays in 2025 and early 2026 [791] [790].
+  opens:
+  - nih-k99-r00
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-24-194.html
+  pending_changes:
+  - status: announced
+    date: '2026-08-12'
+    text: The K99 code is to be replaced by KT1/R00 for due dates on or after October 12, 2027; the pages read do not say
+      whether the 4-year window changes [742] [758].
+  as_of: '2026-10-04'
+  sources:
+  - 743
+  - 791
+  - 790
+  - 742
+  - 758
+  sweep: people-A
+- id: nih-domestic-organization-for-training
+  name: Domestic organization (required for NIH career, training and research education awards)
+  applies_to: institution
+  what: |
+    The parent K, K12, T32, T35, R25 and F99/K00 notices read in this sweep are open only to domestic organizations: foreign organizations and non-domestic components of U.S. organizations may not apply [744] [753] [750] [751] [756] [741]. The NRSA fellowships F31, F32 and F33 differ: foreign organizations are on their eligible lists [736] [737] [739]. Within the domestic group, non-profits other than institutions of higher education, with or without 501(c)(3) status, are listed as eligible in every one of these notices [744] [750] [753] [756].
+  who_qualifies: U.S. higher education institutions, non-profits with or without 501(c)(3) status, and the other domestic
+    organization types each notice lists [744] [750].
+  how_decided: Set in Section III of each notice [744].
+  opens:
+  - nih-k01
+  - nih-k02
+  - nih-k08
+  - nih-k23
+  - nih-k24
+  - nih-k25
+  - nih-k99-r00
+  - nih-k12
+  - nih-t32
+  - nih-t35
+  - nih-r25
+  - nih-f99-k00
+  official_url: https://grants.nih.gov/funding/funding-categories/research-training-and-career-development
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 744
+  - 753
+  - 750
+  - 751
+  - 756
+  - 741
+  - 736
+  - 737
+  - 739
+  sweep: people-A
+- id: nih-lrp-eligible-researcher
+  name: Researcher eligible for NIH extramural loan repayment
+  applies_to: investigator
+  what: |
+    A researcher qualifies for the Extramural Loan Repayment Program by meeting tests of degree, citizenship, research time, debt and employer, not by holding an NIH grant [762].
+  who_qualifies: A holder of a doctoral-level health or research degree who is a U.S. citizen, national or permanent resident,
+    does qualified research at least 20 hours a week, has educational debt of at least 20 percent of institutional base
+    salary, and whose research is supported by a domestic non-profit institution or a U.S. government agency [762]. Federal
+    employees working more than 20 hours a week and employees of for-profit institutions are excluded [763].
+  how_decided: The applicant states the facts and an Institutional Business Official certifies them [763].
+  opens:
+  - nih-extramural-lrp
+  official_url: https://grants.nih.gov/funding/funding-categories/lrp/extramural-lrp
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 762
+  - 763
+  sweep: people-A
+- id: nih-burt-eligible-institution
+  name: Institution eligible for the NIGMS BURT undergraduate training programme
+  applies_to: institution
+  what: |
+    BURT is limited to organizations that enroll undergraduates and have had modest NIH research funding [797].
+  who_qualifies: An organization that enrolls undergraduates and has received NIH Research Project Grant funding averaging
+    less than $50 million in total costs (direct and indirect) a year over the last three fiscal years [797].
+  how_decided: By the funding test written into the notice [797].
+  opens:
+  - nih-nigms-burt-t34
+  official_url: https://simpler.grants.gov/opportunity/d88aea72-290a-4396-83ba-139886a6ffc8
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 797
+  - 796
+  sweep: people-A
+- id: nih-f30-dual-degree-programme-status
+  name: Institution with or without an NIH-funded dual-degree training programme (F30 split)
+  applies_to: institution
+  what: |
+    Which F30 notice a student uses depends on the institution: one parent notice is limited to applicant organizations with an NIH-funded institutional predoctoral dual-degree training programme, such as a Medical Scientist Training Program or Dental Scientist Training Program, and the other to organizations without one [784] [738].
+  who_qualifies: Organizations with such a programme use PA-25-426; organizations without one use PA-25-425 [784] [738].
+  how_decided: By whether the organization holds an NIH-funded dual-degree training grant; some institutes fund only one
+    side, for example NIBIB and NINDS do not fund F30 applications from institutions that hold such programmes [804].
+  opens:
+  - nih-f30
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-426.html
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 784
+  - 738
+  - 804
+  sweep: people-A
+- id: nsf-career-eligible-pi
+  name: CAREER-eligible principal investigator
+  applies_to: investigator
+  sweep: people-B
+  what: The set of conditions a person must meet to be the investigator on a CAREER proposal [815].
+  who_qualifies: A person who holds a doctoral degree in a field NSF supports, holds at least a 50% tenure-track or tenure-track-equivalent
+    position as an assistant professor or equivalent, is untenured, has not received a CAREER award, and has taken part
+    in fewer than three CAREER competitions [815]. A tenure-track-equivalent post is a continuing appointment expected to
+    last the five years of the grant, with substantial research and educational duties, where the project fits the person's
+    job and the organisation's mission [815]. Associate professors are not eligible, with or without tenure [816].
+  how_decided: The department head's letter in the proposal confirms eligibility; the rules are set by the solicitation
+    [815].
+  opens:
+  - nsf-career
+  official_url: https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 815
+  - 816
+- id: nsf-grfp-eligible-applicant
+  name: GRFP-eligible applicant
+  applies_to: investigator
+  sweep: people-B
+  what: The academic levels, citizenship and field rules a person must meet to apply for a Graduate Research Fellowship
+    in the FY 2027 competition [818].
+  who_qualifies: A U.S. citizen, national or permanent resident who is a final-year undergraduate, a bachelor's degree holder
+    never enrolled in a graduate degree programme, a joint bachelor's-master's student in the final undergraduate or first
+    graduate year, or a first-year graduate student in a first graduate programme with less than one academic year completed
+    [818] [820]. Second-year graduate students do not qualify [818]. The degree sought must be a research-based master's
+    or doctorate in an eligible STEM field, not a professional or practice-oriented degree [818] [820].
+  how_decided: Set each year by the solicitation; NSF checks academic status against the registrar's transcript at the application
+    deadline and may return an application without review if the applicant, degree programme, field or proposed research
+    is ineligible [818] [861].
+  opens:
+  - nsf-grfp
+  official_url: https://www.nsf.gov/funding/initiatives/grfp/eligibility
+  pending_changes:
+  - status: final
+    date: '2025-09-26'
+    text: The FY 2025 solicitation let a graduate student apply who had completed no more than one academic year; the FY
+      2026 solicitation limited the graduate category to first-year students with less than one academic year completed;
+      the FY 2027 solicitation adds that second-year graduate students are not eligible [885] [859] [818].
+  as_of: '2026-10-04'
+  sources:
+  - 818
+  - 820
+  - 821
+  - 861
+  - 859
+  - 885
+- id: nsf-postdoctoral-fellowship-applicant
+  name: NSF postdoctoral fellowship applicant
+  applies_to: investigator
+  sweep: people-B
+  what: 'NSF does not fund unaffiliated individuals, with one stated exception: a person who submits to an NSF postdoctoral
+    fellowship solicitation is not treated as unaffiliated [156].'
+  who_qualifies: Each fellowship solicitation sets its own career window [837] [840] [842] [880]. All those read require
+    U.S. citizenship, nationality or permanent residence [837] [840] [842] [880] [833]. Biology allows no more than 15 full-time
+    months in posts requiring a doctorate; mathematical sciences allows the doctorate to have been held no more than two
+    years; astronomy allows five years since the doctorate; atmospheric and geospace sciences allows a PhD held for no more
+    than two years or less than 18 months of full-time employment [837] [840] [842] [880].
+  how_decided: Set by each fellowship solicitation [837] [840] [842].
+  opens:
+  - nsf-prfb
+  - nsf-msprf
+  - nsf-aapf
+  - nsf-ags-prf
+  - nsf-sprf
+  official_url: https://www.nsf.gov/funding/postdocs
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 156
+  - 833
+  - 837
+  - 840
+  - 842
+  - 880
+- id: nsf-non-r1-institution
+  name: Institution not classified R1 (NSF research-initiation and traineeship rules)
+  applies_to: institution
+  sweep: people-B
+  what: Several NSF career-stage and training programmes are open only to institutions that the Carnegie Classification
+    does not place among Doctoral Universities with Very High Research Activity (R1) [832] [828].
+  who_qualifies: An institution of higher education not currently classified R1 [832]. The rule opens Engineering Research
+    Initiation and Track 2 of the Research Traineeship [832] [828]. The archived CRII, LEAPS-MPS and BRC-BIO programmes
+    used similar tests [843] [844] [845].
+  how_decided: By the institution's Carnegie Classification, as each solicitation states [832] [828].
+  opens:
+  - nsf-eri
+  - nsf-nrt
+  official_url: https://www.nsf.gov/funding/opportunities/eri-engineering-research-initiation/nsf24-590/solicitation
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 832
+  - 828
+  - 843
+  - 844
+  - 845
+- id: nsf-epscor-jurisdiction
+  name: NSF EPSCoR jurisdiction
+  applies_to: institution
+  sweep: people-B
+  what: EPSCoR is NSF's programme to raise the research competitiveness of targeted jurisdictions, each a state, territory
+    or commonwealth [866]. An institution's location in an eligible jurisdiction decides whether it can apply to the EPSCoR
+    Graduate Fellowship Program and EPSCoR Research Fellows [825] [867].
+  who_qualifies: 'An institution with a campus in an eligible EPSCoR jurisdiction at the time of submission [825]. NSF lists
+    28 eligible jurisdictions: Alabama, Alaska, Arkansas, Delaware, Guam, Hawaii, Idaho, Iowa, Kansas, Kentucky, Louisiana,
+    Maine, Mississippi, Montana, Nebraska, Nevada, New Hampshire, New Mexico, North Dakota, Oklahoma, Puerto Rico, Rhode
+    Island, South Carolina, South Dakota, Vermont, U.S. Virgin Islands, West Virginia and Wyoming [878] [877].'
+  how_decided: NSF's eligibility page says the CHIPS and Science Act of 2022 in effect freezes jurisdiction eligibility
+    through FY 2027, and that no new jurisdictions will be considered eligible through FY 2027 [878]. The percentage rule
+    behind the list was not in the text returned [878].
+  opens:
+  - nsf-egfp
+  - nsf-epscor-research-fellows
+  official_url: https://www.nsf.gov/funding/initiatives/epscor/criteria-eligibility
+  pending_changes:
+  - status: final
+    date: unknown
+    text: The eligibility freeze runs through FY 2027; what applies after that was not stated on the page read [878].
+  as_of: '2026-10-04'
+  sources:
+  - 866
+  - 825
+  - 867
+  - 878
+  - 877
+- id: doe-sc-early-career-eligible-investigator
+  name: Investigator eligible for the DOE Office of Science Early Career Research Program
+  applies_to: investigator
+  what: |
+    The career-stage rule that decides who may lead an Early Career Research Program application [890].
+  who_qualifies: An untenured, tenure-track assistant or associate professor at a U.S. academic institution, or a full-time
+    employee at a DOE national laboratory or Office of Science user facility, within 10 years of the doctorate [890].
+  how_decided: Set by the programme and stated in each year's notice; the FY 2026 notice was not read [890] [909].
+  opens:
+  - doe-sc-early-career
+  official_url: https://science.osti.gov/early-career
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 890
+  - 909
+  sweep: people-C
+- id: doe-vfp-eligible-institution
+  name: Institution whose faculty may apply to the DOE Visiting Faculty Program
+  applies_to: institution
+  what: |
+    The institution test for the Visiting Faculty Program: it turns on the Carnegie research classification of the college or university where the faculty member teaches [902].
+  who_qualifies: An institution that is not classed Research 1 or Research 2 in the 2025 Carnegie Classification; faculty
+    at Historically Black Colleges and Universities qualify whatever the classification [902].
+  how_decided: By the 2025 Carnegie Classification, as the programme's eligibility page applies it [902].
+  opens:
+  - doe-wdts-vfp
+  official_url: https://science.osti.gov/wdts/vfp/Eligibility
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 902
+  sweep: people-C
+- id: nifa-nnf-eligible-institution
+  name: Institution eligible for NIFA National Needs Fellowship grants
+  applies_to: institution
+  what: |
+    The kind of institution that may apply for a National Needs Graduate and Postgraduate Fellowship grant [962].
+  who_qualifies: Land-grant institutions and other colleges and universities with a demonstrable capacity to carry out the
+    teaching of food and agricultural sciences, which confer graduate degrees [962]. The opportunity page also lists Hispanic-serving
+    institutions, colleges with significant minority enrolments and research foundations maintained by eligible institutions
+    [961].
+  how_decided: Stated in the notice of funding opportunity [962].
+  opens:
+  - nifa-nnf
+  official_url: https://www.nifa.usda.gov/grants/funding-opportunities/national-needs-graduate-postgraduate-fellowship-grants-program-funding
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 962
+  - 961
+  sweep: people-C
+- id: neh-individual-applicant
+  name: Individual eligible for NEH awards to individuals
+  applies_to: investigator
+  what: NEH's fellowship-type awards are made to people, not organisations, and one notice sets who counts as an eligible
+    person [987].
+  who_qualifies: A U.S. citizen living in the United States or abroad, or a foreign national who has lived in the United
+    States or its jurisdictions for at least the three years before the deadline; not currently enrolled in a degree-granting
+    programme; no institutional affiliation needed [987].
+  how_decided: Set by the NEH notice of funding opportunity for awards to individuals, amended April 1, 2026 [987].
+  opens:
+  - neh-fellowships
+  - neh-public-scholars
+  - neh-awards-for-faculty-hbcu
+  - neh-fellowships-advanced-social-science-research-japan
+  official_url: https://www.neh.gov/sites/default/files/2026-04/Individual%20NOFO%20combined_040126.pdf
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 987
+  sweep: people-D
+- id: ies-early-career-researcher
+  name: IES early career researcher
+  applies_to: investigator
+  what: The condition a principal investigator must meet for an IES Early Career Development and Mentoring award [995] [997].
+  who_qualifies: 'For FY 2027: a doctorate completed no earlier than April 1, 2019 and no later than the start of the award;
+    a faculty or research scientist post; no tenure at the application deadline for faculty; U.S. citizen or permanent resident;
+    never principal or co-principal investigator on an IES grant [995] [997].'
+  how_decided: Set in each year's request for applications; citizenship and prior IES roles are checked if the application
+    is recommended for funding [995].
+  opens:
+  - ies-research-training-education-sciences
+  - ies-research-training-special-education
+  official_url: https://ies.ed.gov/sites/default/files/ies/document/2026/08/2027_84305B.pdf
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 995
+  - 997
+  sweep: people-D
+- id: hrsa-prior-title-vii-recipient
+  name: Institution with earlier HRSA funding under Public Health Service Act sections 736, 739 or 747
+  applies_to: institution
+  what: The FY 2026 HRSA primary care National Research Service Award is open only to institutions of higher education that
+    already held certain HRSA training awards [1028].
+  who_qualifies: A domestic public or private nonprofit institution of higher education that received funding between 2011
+    and 2025 under section 736, 739 or 747 of the Public Health Service Act [1028].
+  how_decided: Stated in the notice of funding opportunity [1028].
+  opens:
+  - hrsa-nrsa-primary-care
+  official_url: https://simpler.grants.gov/opportunity/f127f2ac-9ac0-461e-8890-e4831560afe1
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1028
+  sweep: people-D
+- id: samhsa-national-professional-organization
+  name: Nationally representative behavioral health professional organization (SAMHSA Minority Fellowship Program)
+  applies_to: nonprofit
+  what: The class of organisation that could apply for a Minority Fellowship Program grant in the FY 2024 notice [1037].
+  who_qualifies: Nationally representative mental health or substance use disorder treatment professional organizations
+    in psychiatry, nursing, social work, psychology, marriage and family therapy, mental health counseling, substance use
+    disorder and addictions counseling, or addiction medicine [1037].
+  how_decided: Stated in the notice of funding opportunity [1037].
+  opens:
+  - samhsa-minority-fellowship-program
+  official_url: https://simpler.grants.gov/opportunity/d77d8b7d-e7ae-44f5-a055-1cccb01fc03a
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1037
+  sweep: people-D
+- id: neh-independent-research-institution
+  name: Independent research institution (NEH Fellowship Programs at Independent Research Institutions)
+  applies_to: nonprofit
+  sweep: people-E
+  what: The class of organisation that could apply for NEH's grant to run its own humanities fellowships - a research body
+    that is not a university [1047] [1050].
+  who_qualifies: Independent centers for advanced study, libraries and museums in the United States, American overseas research
+    centers, and American organizations that promote humanities research abroad [1047]. The 2021 and 2022 terms required
+    501(c)(3) status and excluded institutions of higher education; a centre affiliated with a university qualified only
+    if financed, governed and administered independently [1050]. The 2023 listing also names state, local and tribal governments
+    as applicant types [1049].
+  how_decided: Set by NEH in each notice of funding opportunity; the 2023 and 2024 notice itself could not be read [1049].
+  opens:
+  - neh-fpiri
+  official_url: https://www.neh.gov/grants/research/fellowship-programs-independent-research-institutions
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 1047
+  - 1050
+  - 1049

@@ -1,4 +1,4 @@
-# Taken for Granted content pack — extension schema (draft v0.2, 2026-10-04)
+# Taken for Granted content pack — extension schema (draft v0.3, 2026-10-04)
 
 Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -225,3 +225,29 @@ pending_status: … | in-litigation | rescinded | enacted
 Records that share an id across sweep slices (the same gate met at six agencies) are merged by the consolidation script. The longest statement stays as the record and the others are kept, cited, under `variants`, each with the slice it came from, until the author reconciles them.
 
 Every record carries `sweep: <family>-<slice>` and every reference `sweep_ids`, the ids it had in the sweep files under `source/sweeps/`.
+
+## Added in v0.3, after the people sweep
+
+```yaml
+# programs.yaml — family: people
+applicant: institution        # person | institution | either: who submits the application.
+applicant_note: '… [n]'       # for routes the three values cannot express: an institution applying for a named person,
+                              # a state programme nominating to a national one, an outside administrator taking applications
+citizenship: '… [n]'
+career_window: '… [n]'        # years since degree, tenure-track status, attempts allowed
+stipend: '… [n]'              # amount with its fiscal year
+obligation: '… [n]'           # service or payback
+kind: fellowship | training | program | mechanism
+funds: … | loan-repayment | appointment     # a federal appointment or a loan repayment is not a grant
+
+status: open | closed | expired | not-competed | no-current-notice | forecast | unconfirmed
+#   not-competed       the funder says the competition is cancelled or will not be held
+#   no-current-notice  no notice for the current cycle was found on the funder's page or Grants.gov, and the funder
+#                      has not said the programme has ended. Reported as an absence, with the listing cited.
+#   closed             the current competition's deadline has passed; the programme continues
+#   expired            the announcement lapsed or was ended early
+```
+
+Funders met in two slices are merged like gates: one record, the other wording kept under `variants`.
+
+`source/sweeps/overrides.yaml` holds rulings made at consolidation (so far: relabelling fourteen statuses to `no-current-notice`). Each override writes its reason into the record under `consolidation_notes`.

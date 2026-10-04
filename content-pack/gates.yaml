@@ -421,3 +421,125 @@
   sources:
   - 677
   sweep: research-F
+- id: ncage-code
+  name: NATO Commercial and Government Entity (NCAGE) code
+  what: A foreign organization needs an NCAGE code, in place of a CAGE code, to register in SAM; the NIH fellowship, career
+    and training notices list it among the required registrations [784] [744].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-426.html
+  sources:
+  - 784
+  - 744
+  sweep: people-A
+- id: nih-assist
+  name: NIH ASSIST (Application Submission System and Interface for Submission Tracking)
+  what: ASSIST is NIH's online system for preparing, submitting and tracking an application; it is one of three routes to
+    Grants.gov named in the fellowship notices, and it is where loan repayment applications are submitted [784] [763].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-426.html
+  sources:
+  - 784
+  - 763
+  sweep: people-A
+- id: nrsa-payback-agreement
+  name: NRSA Payback Agreement (PHS 6031)
+  what: For a person's first 12 months of postdoctoral NRSA support, a signed Payback Agreement Form (PHS 6031) must accompany
+    the activation notice; people with an obligation file Annual Payback Activities Certification Forms (PHS 6031-1) until
+    it is met [737] [736].
+  official_url: https://grants.nih.gov/grants/policy/nihgps/html5/section_11/11.4.3_payback.htm
+  sources:
+  - 737
+  - 736
+  - 769
+  sweep: people-A
+- id: nsf-grfp-research-gov-module
+  name: Research.gov GRFP application module
+  what: GRFP applications are prepared and submitted only through the GRFP module of Research.gov; materials sent any other
+    way are not accepted [818].
+  official_url: https://www.research.gov/grfp/Login.do
+  sources:
+  - 818
+  sweep: people-B
+- id: nsf-reference-letter-system
+  name: NSF reference letter system in Research.gov
+  what: Reference writers for GRFP submit letters through the NSF reference letter system by a deadline earlier than the
+    application deadline; for the mathematical sciences postdoctoral fellowship, letter authors need an NSF account in Research.gov
+    [818] [840].
+  official_url: https://www.research.gov/
+  sources:
+  - 818
+  - 840
+  sweep: people-B
+- id: wdts-online-application
+  name: DOE WDTS online application system
+  what: SCGSR applications go into an online system run by ORAU, with two letters of support [894]. The CCI page points
+    applicants to an application portal to check status [900].
+  official_url: https://science.osti.gov/wdts/scgsr/How-to-Apply
+  sources:
+  - 894
+  - 900
+  sweep: people-C
+- id: ndseg-application-portal
+  name: NDSEG application portal (Systems Plus)
+  what: NDSEG applicants register and apply at applyndseg.sysplus.com, run by Systems Plus Inc. for the DoD NDSEG Program
+    Office [913].
+  official_url: https://ndseg.sysplus.com/
+  sources:
+  - 913
+  sweep: people-C
+- id: usajobs-application
+  name: USAJOBS application
+  what: NIST SURF students apply themselves through USAJOBS, with all documents as PDFs [979]. USGS Mendenhall applicants
+    submit through the USAJOBS link for the research opportunity, in PDF format [981].
+  official_url: https://www.usajobs.gov/
+  sources:
+  - 979
+  - 981
+  sweep: people-C
+- id: smithsonian-solaa
+  name: Smithsonian SOLAA application system
+  what: Smithsonian fellowship applications are made in the SOLAA system [984].
+  official_url: https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp
+  sources:
+  - 984
+  sweep: people-C
+- id: grants-gov-individual-registration
+  name: Grants.gov registration as an individual applicant
+  what: A person applying for an NEH award to individuals submits through Grants.gov Workspace with a Login.gov account
+    and an individual applicant profile; the notice read does not ask individuals for SAM.gov registration [987]. Individuals
+    applying for Switzer fellowships also apply through Grants.gov [1040].
+  official_url: https://www.grants.gov/
+  sources:
+  - 987
+  - 1040
+  sweep: people-D
+- id: ed-g6
+  name: Department of Education G6 application system
+  what: The fiscal year 2025 Fulbright-Hays dissertation notice required electronic submission in the Department's G6 system,
+    with paper applications only by prior written approval [1012].
+  official_url: https://www.federalregister.gov/documents/2024/10/30/2024-25127/applications-for-new-awards-fulbright-hays-doctoral-dissertation-research-abroad-fellowship-program
+  sources:
+  - 1012
+  sweep: people-D
+- id: solaa
+  name: Smithsonian Online Academic Appointment System (SOLAA)
+  what: Applications to the Smithsonian Institution Fellowship Program are made in SOLAA [984].
+  official_url: https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp
+  sources:
+  - 984
+  sweep: people-D
+- id: ies-letter-of-intent-site
+  name: IES letter of intent site
+  what: IES asks for a letter of intent through its peer review site (iesreview.ed.gov) before the Grants.gov application;
+    for the FY 2027 training competitions it was due September 3, 2026 [995] [997].
+  official_url: https://iesreview.ed.gov/LOI/LOISubmit
+  sources:
+  - 995
+  - 997
+  sweep: people-D
+- id: grantsolutions
+  name: GrantSolutions (Department of Labor)
+  what: Awards in the first competition under the Education-Labor postsecondary partnership are issued on the Department
+    of Labor's GrantSolutions platform [1015].
+  official_url: https://www.ed.gov/about/news/press-release/us-department-of-education-and-us-department-of-labor-announce-first-grant-competition-under-postsecondary-education-partnership
+  sources:
+  - 1015
+  sweep: people-D

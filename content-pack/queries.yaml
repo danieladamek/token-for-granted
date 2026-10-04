@@ -1320,3 +1320,472 @@
   hits: '0, not performed: session search budget exhausted'
   date: '2026-10-04'
   slice: research-F
+- text: NIH notice early expiration F31 diversity fellowship PA-23-271 "Promote Diversity in Health-Related Research" NOT-OD-25
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-A
+- text: NIH MOSAIC K99/R00 PAR-24-225 expired terminated notice 2025 "NOT-GM" OR "NOT-OD" diversity funding opportunities
+    rescinded
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-A
+- text: NIH "PA-23-271" F31 diversity "expired" OR "expiration" notice 2025 grants.nih.gov NOT-OD-25 "no longer accepting
+    applications
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-A
+- text: NIGMS notice early expiration MARC T34 IMSD T32 Bridges PREP IRACDA "NOT-GM-25" expiration of funding opportunities
+    2025
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-A
+- text: NIH "research supplements to promote diversity in health-related research" PA-23-189 status 2025 2026 expired grants.nih.gov
+    diversity supplements no longer
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-A
+- text: grants.nih.gov nihgps HTML5 section_11 "11.4" payback "service payback" Kirschstein NRSA "11.4.3
+  engine: WebSearch
+  hits: '1'
+  date: '2026-10-04'
+  slice: people-A
+- text: AHRQ early expiration notice March 2026 K01 K08 F32 T32 R36 "NOT-HS-26" training career development funding opportunities
+    expire
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-A
+- text: Notice of Early Expiration" AHRQ "Mentored Research Scientist Research Career Development Award (K01)" OR "Individual
+    Postdoctoral Fellowship" OR "K99/R00" NOT-HS-26
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-A
+- text: NIH research supplements "re-entry" "re-integration" "re-training" administrative supplement NOT-OD-23-170 OR PA
+    2025 2026 status grants.nih.gov
+  engine: WebSearch
+  hits: '3'
+  date: '2026-10-04'
+  slice: people-A
+- text: NIGMS MARC U-RISE G-RISE IMSD Bridges PREP IRACDA MOSAIC "no longer" OR "discontinued" OR "expired" funding opportunities
+    2025 nigms.nih.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-A
+- text: NIH 2026 notice "Re-entry" supplements "Continuity of Biomedical and Behavioral Research" OR "re-entry" administrative
+    supplement NOT-OD-26 OR NOT-OD-25 primary caregiving critical life events childcare
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-A
+- text: NIH 2026 T32 training grants reduce number of trainee slots OR "training positions" notice policy change NRSA budget
+    FY2026 FY2027 congressional justification trainees
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-A
+- text: AHRQ "Individual Postdoctoral Fellowship" F32 OR "Institutional Research Training" T32 NRSA 2026 notice AHRQ participation
+    ended OR expiration "NOT-HS-25" OR "NOT-HS-26
+  engine: WebSearch
+  hits: '4'
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=PA-27-037&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=PA-27-030&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=NIH%20Research%20Education%20Program%20R25&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 7 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=AHRQ&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 0 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=T34&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 2 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=PAR-24-225&status=posted,closed,archived,forecasted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=PA-23-271&status=posted,closed,archived,forecasted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=PA-23-189&status=posted,closed,archived,forecasted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=Maximizing%20Access%20to%20Research%20Careers&status=posted,closed,archived,forecasted
+  engine: WebFetch of the Grants.gov search page
+  hits: 5 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=IRACDA&status=posted,closed,archived,forecasted
+  engine: WebFetch of the Grants.gov search page
+  hits: 7 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=T90%2FR90&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 0 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=K22&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 6 results
+  date: '2026-10-04'
+  slice: people-A
+- text: https://simpler.grants.gov/search?query=AHRQ%20career%20development&status=posted,closed,archived,forecasted
+  engine: WebFetch of the Grants.gov search page
+  hits: 10 results
+  date: '2026-10-04'
+  slice: people-A
+- text: nsf.gov funding opportunities "Postdoctoral Fellowships" Earth Sciences EAR-PF OR "GEO postdoctoral" 2026 solicitation"
+    (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov "STEM Education Postdoctoral Research Fellowships" OR "STEM Ed PRF" OR "STEM Ed IPRF" funding opportunity"
+    (nsf.gov only)
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov funding opportunities "Research Experiences for Teachers" RET engineering computer science sites supplements"
+    (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov funding opportunities S-STEM "Scholarships in Science, Technology, Engineering, and Mathematics" solicitation"
+    (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: NSF FY2026 appropriations "STEM Education" enacted amount GRFP joint explanatory statement January 2026 "Graduate
+    Research Fellowship
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov news "Graduate Research Fellowship Program" 2025 award offers announced 1,000 fellows additional 500 June
+    2025
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: NSF postdoctoral research fellowship 2026 solicitation nsf26 new "postdoctoral" fellowships geosciences OR engineering
+    OR "computer and information science" site:nsf.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov funding opportunities "Doctoral Dissertation Research Improvement" DDRIG 2026 SBE cultural anthropology
+    linguistics economics archaeology status" (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: NSF terminated awards STEM Education directorate 2025 court ruling "National Science Foundation" terminations education
+    grants lawsuit decision 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: NSF EPSCoR eligibility table jurisdictions FY 2026 eligible "0.75 percent" nsf.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: NSF CAREER program 2026 changes deadline July 2026 new solicitation OR "Dear Colleague" CAREER proposals limit eligibility
+    update
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: National Science Foundation" FY2026 joint explanatory statement "STEM Education" "$938" OR "938,000,000" "Graduate
+    Research Fellowship" congress.gov OR appropriations.house.gov OR docs.house.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: American Association of Physics Teachers v. National Science Foundation memorandum opinion 2026 summary judgment
+    STEM education grant terminations D.D.C. ruling
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: Office of Legal Counsel opinion August 2026 National Science Foundation STEM education programs unconstitutional
+    LSAMP AGEP justice.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov funding opportunities LSAMP "Louis Stokes Alliances for Minority Participation" AGEP "Alliances for Graduate
+    Education and the Professoriate" opportunity page" (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov CSGrad4US "CISE Graduate Fellowships" funding opportunity solicitation 2026" (nsf.gov only)
+  engine: WebSearch
+  hits: ~2
+  date: '2026-10-04'
+  slice: people-B
+- text: NSF 26-" solicitation 2026 new fellowship OR traineeship OR "early career" OR "research initiation" program announced
+    nsf.gov" (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov update August 2026 Office of Legal Counsel opinion LSAMP AGEP "Hispanic-Serving Institutions" NSF will no
+    longer statement awards
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: nsf.gov "Research Assistantships for High School Students" RAHSS supplemental funding Dear Colleague Letter" (nsf.gov
+    only)
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-B
+- text: DARPA Young Faculty Award 2027 research announcement DARPA-RA executive summary deadline eligibility
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: Vannevar Bush Faculty Fellowship FY2027 OR "Class of 2027" notice of funding opportunity ONR white paper deadline
+    2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: NDSEG fellowship 2027 application opens closes stipend eligibility ndseg.org
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: SMART Scholarship-for-Service application 2026 2027 window August December eligibility stipend service commitment
+    smartscholarship.org
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-C
+- text: FINESST 2026 NASA Future Investigators in NASA Earth and Space Science and Technology solicitation status ROSES-2026
+    F.5
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: NASA Hubble Fellowship Program 2027 announcement of opportunity application deadline fall 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-C
+- text: Vannevar Bush Faculty Fellowship" 2026 class announced OR "FY26" OR "FY27" funding opportunity N00014 basicresearch.defense.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: SMART scholarship "service commitment" "one year" for each year eligibility citizens Australia Canada New Zealand
+    United Kingdom minimum GPA 3.0 smartscholarship.org about
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: ROSES-2026 released NASA Research Opportunities in Space and Earth Sciences 2026 NNH26ZDA001N FINESST early career
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: Nancy Grace Roman Technology Fellowship ROSES 2026 D.9 early career astrophysics eligibility status
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: USGS Mendenhall Research Fellowship Program qualifications how to apply 2026 round opportunities closing date usgs.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: DHS Science and Technology Office of University Programs workforce development MSI Summer Research Team Scientific
+    Leadership Awards 2026 status dhs.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: EPA STAR graduate fellowship GRO undergraduate fellowship status 2026 "no longer" OR "not currently" epa.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-C
+- text: Knauss fellowship 2027 notice of funding opportunity NOAA-OAR-SG-2027-32433 award amount stipend per fellow eligibility
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-C
+- text: NMFS-Sea Grant Joint Fellowship 2026 OR 2027 notice of funding opportunity population ecosystem dynamics marine
+    resource economics deadline award per year
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-C
+- text: NOAA Climate and Global Change Postdoctoral Fellowship 2027 application salary two-year cpaess.ucar.edu eligibility
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-C
+- text: NASA Space Technology Research Grants Early Career Faculty ECF 2026 solicitation OR appendix NSTGRO 2027 release
+    date nasa.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-C
+- text: NIJ FY25 Graduate Research Fellowship O-NIJ-2025-172575 eligible applicants degree-granting institutions award amount
+    stipend
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-D
+- text: arts.gov Creative Writing Fellowships cancelled 2025 FY2027 poetry fellowships "Creative Writing Fellowships" National
+    Endowment for the Arts announcement
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: federalregister.gov "Fulbright-Hays" "Doctoral Dissertation Research Abroad" applications for new awards fiscal
+    year 2026 OR 2027
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: Fulbright-Hays 2025 competition cancelled Department of Education notice "Fulbright-Hays" fiscal year 2025 not competed
+    DDRA FRA GPA
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: Fulbright-Hays" fiscal year 2026 notice inviting applications OR "notice of funding opportunity" Department of State
+    OR Education "Doctoral Dissertation Research Abroad" 2026 competition
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: Graduate Assistance in Areas of National Need" fiscal year 2026 applications for new awards Federal Register GAANN
+    competition
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-D
+- text: Fulbright Foreign Scholarship Board resignation statement June 11 2025 members resign State Department response
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: Department of Education 2026 GAANN OR "McNair" OR "Javits" competition fiscal year 2026 "Department of Labor" postsecondary
+    partnership graduate fellowships notice inviting applications
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: Fulbright-Hays 2026 Department of State administers competition "Fulbright-Hays" FY 2026 notice applications Doctoral
+    Dissertation Research Abroad State Department ECA
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: National Archives fellowship program researchers archives.gov "fellowship" National Archives Foundation OR "Legislative
+    Archives Fellowship" 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: Kluge Center fellowship applications 2026 loc.gov Kluge Fellowship deadline 2026 OR 2027 "Kluge
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-D
+- text: IES predoctoral interdisciplinary research training program postdoctoral training 84.305B status 2026 not competed
+    ies.ed.gov training programs
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-D
+- text: NEH "Fellowship Programs at Independent Research Institutions" 2026 deadline OR discontinued OR "not be offered
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-E
+- text: NEH "Summer Stipends" 2026 OR 2027 program discontinued OR "no longer" OR "will not" site:neh.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-E
+- text: National Archives fellowships archives.gov research fellowship program 2026 Legislative Archives Fellowship OR "Regional
+    Residency Fellowship" OR "Cokie Roberts
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-E
+- text: Jacob K. Javits Fellowship" program ed.gov status funding "no longer" OR "not been funded" OR consolidated GAANN
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-E
+- text: ed.gov "Graduate Assistance in Areas of National Need" GAANN 84.200A funding status FY 2026 OR FY 2027 competition
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-E
+- text: Javits Fellowships" ed.gov "grants-and-programs" Jacob K. Javits Fellowships Program 84.170 last funded
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-E
+- text: Javits" fellowship GAANN "consolidated" OR "no funds" OR "not funded" Department of Education budget justification
+    higher education "Javits Fellowships" fiscal year 2012
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-E
+- text: CRS "Javits Fellowship" "since FY2011" OR "since FY2012" OR "last funded" Higher Education Act primer Title VII
+    graduate programs appropriations
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-E
+- text: arts.gov Creative Writing Fellowships cancelled 2025 "Translation Projects" FY 2027 NEA literature fellowships status
+    statement
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: people-E
+- text: NEH "Summer Stipends" program ended OR eliminated OR paused 2025 2026 NEH announcement "Summer Stipends" not offered
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: people-E

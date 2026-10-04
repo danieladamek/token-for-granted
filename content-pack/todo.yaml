@@ -1177,6 +1177,918 @@
   text: All quotes came through the WebFetch extraction layer and need checking against the raw pages, in particular quotes
     from PDFs (NEH notices, IMLS notices, court opinions).
   sweep: research-F
+- id: t-pa-success-rates
+  kind: gap
+  about: records-people-A.yaml/nih-training-success-rate-tables
+  text: No success rate is recorded for any F, K or T code. NIH's tables (report.nih.gov reports rId=548 to 551) returned
+    binary data to the fetch tool and the NIH Data Book page rendered empty. The figures need to be read from the files.
+  sweep: people-A
+- id: t-pa-diversity-closings-no-notice
+  kind: gap
+  about: records-people-A.yaml/ch-pa-f-diversity-notices-closed-2025
+  text: The closings of PA-23-271, PAR-24-225, PA-23-189 and PAR-24-138 are recorded from Grants.gov close dates only. No
+    NIH notice, page or statement giving the reason, the treatment of pending applications, or the position of existing
+    awards was found. The NIH Guide pages for PA-23-271 and PAR-24-225 returned 404.
+  sweep: people-A
+- id: t-pa-diversity-supplement-dates
+  kind: conflict
+  about: records-people-A.yaml/nih-diversity-supplements
+  text: 'PA-23-189: Grants.gov shows close date February 21, 2025 and archived; the NIH Guide page shows expiration date
+    May 8, 2026 with no expired banner returned. Both are kept.'
+  sweep: people-A
+- id: t-pa-other-nigms-programmes
+  kind: gap
+  about: records-people-A.yaml/nih-nigms-marc-t34
+  text: 'IMSD, Bridges to the Baccalaureate and to the Doctorate, PREP, U-RISE, G-RISE, IRACDA and BUILD have no record.
+    The only evidence read is that they are absent from NIGMS''s list of current programmes (September 17, 2026) and that
+    the last IRACDA notice, PAR-22-212, closed October 3, 2024. Each needs its Grants.gov record read. The NIGMS BURT page
+    and NOT-GM-25-023 were read in the gap-filling pass: the BURT page names none of these programmes (source pe-nigms-burt-page),
+    and NOT-GM-25-023 concerns a different notice, the early expiration of PAR-24-040, an NIGMS R25 (source pe-not-gm-25-023).'
+  sweep: people-A
+- id: t-pa-lrp-landing-and-nexus
+  kind: gap
+  about: records-people-A.yaml/nih-extramural-lrp
+  text: 'The LRP landing page and the September 2026 news item on the FY27 cycle were read in the gap-filling pass (sources
+    pe-nih-lrp-landing, pe-nih-nexus-lrp-fy27); they give the FY27 label and say the extramural programme was consolidated
+    into three subcategories. Still not found on any page read: tax payments on repayments, Assistance Listing numbers,
+    success rates, and a statement naming the three subcategories that were dropped between the 2025 cycle (six notices)
+    and the 2026 cycle (three notices). The intramural programme is out of scope.'
+  sweep: people-A
+- id: t-pa-lrp-funds-vocabulary
+  kind: recheck
+  about: records-people-A.yaml/nih-extramural-lrp
+  text: 'The record uses funds: loan-repayment, which is outside the schema vocabulary (grant, cooperative-agreement, fellowship,
+    contract, gift). The pages read do not say what legal instrument an LRP award is.'
+  sweep: people-A
+- id: t-pa-lrp-fy-label
+  kind: conflict
+  about: records-people-A.yaml/nih-lrp-application-cycle
+  text: NOT-OD-26-010 as returned calls the cycle that opened September 1, 2025 the 'Fiscal Year 2025 application cycle';
+    NIH's news item of September 8, 2026 (source pe-nih-nexus-lrp-fy27 in the gap-filling pass) calls the cycle that opened
+    September 1, 2026 'FY27'. The two labels do not line up by one year each; the 2025 label needs checking against NOT-OD-26-010.
+  sweep: people-A
+- id: t-pa-k-salary-table
+  kind: recheck
+  about: records-people-A.yaml/nih-k-salary-and-research-support
+  text: The institute-by-institute K salary and research support figures came back as a compressed table that mixes salary
+    and research support (for example NHLBI K25 $40k, K99 $25k). Only the range $75,000 to $125,000 and three quoted research-support
+    figures are used. The page needs a full read before any institute figure is published.
+  sweep: people-A
+- id: t-pa-esi-list
+  kind: recheck
+  about: records-people-A.yaml/nih-esi-status-and-training-awards
+  text: The fetch said F awards and mentored K awards (K01, K08, K23, K25, K99/R00) keep early-stage status, but it did
+    not return NIH's list itself. The record states only that a list exists. The list needs to be read.
+  sweep: people-A
+- id: t-pa-registrations-assumed
+  kind: recheck
+  about: records-people-A.yaml/programs
+  text: 'Required registrations were read in four notices: PA-25-426 (F30), PA-24-176 (K01), PA-25-168 (T32, where ORCID
+    was not named for the programme director) and PA-27-030 (K12). The gates lists on the sibling records (F31, F32, F33,
+    F99/K00, K02, K08, K23, K24, K25, K99/R00, T35, R25, BURT) copy the matching notice and were not read in each notice.'
+  sweep: people-A
+- id: t-pa-k02-k24-org-types
+  kind: recheck
+  about: records-people-A.yaml/nih-k02
+  text: The eligible-organization lists for PA-24-179 (K02) and PA-24-188 (K24) were not returned; applicant_types on those
+    two records follow the companion K notices and are flagged in eligibility_note.
+  sweep: people-A
+- id: t-pa-posted-date-offsets
+  kind: conflict
+  about: records-people-A.yaml/programs
+  text: Posted dates differ by one day between notices and NIH's parent-announcement table for the 2025 fellowship notices
+    (June 13 vs 06-12-2025), PA-25-280 (January 03 vs 01-02-2025) and PA-24-179 (April 26 vs 04-24-2024). End dates differ
+    by one day between NIH (expiration) and Grants.gov (close) for PA-27-037, PA-27-030 and PAR-26-033. Both are kept in
+    each record.
+  sweep: people-A
+- id: t-pa-pa-27-036-dates
+  kind: conflict
+  about: records-people-A.yaml/nih-r25
+  text: 'PA-27-036: the full announcement as returned gives posted August 25, 2026 and expiration May 26, 2029; Grants.gov
+    gives posted June 8, 2026 and close May 5, 2029; NIH''s table gives 06-08-2026 and 05-06-2029. The May 26, 2029 date
+    matches PA-27-034 in the table, so the extraction may have mixed notices.'
+  sweep: people-A
+- id: t-pa-burt-dates
+  kind: conflict
+  about: records-people-A.yaml/nih-nigms-burt-t34
+  text: 'PAR-26-033: the full announcement as returned gives posted and open January 25, 2025; Grants.gov gives posted December
+    29, 2025. A first due date of February 25, 2026 fits the later date.'
+  sweep: people-A
+- id: t-pa-k22-end-dates
+  kind: conflict
+  about: records-people-A.yaml/nih-k22
+  text: NOT-OD-26-098 says all active notices using current K codes (except K00, K12, K43, K76) expire by July 13, 2027;
+    Grants.gov on 2026-10-04 still shows K22 notices with close dates in November 2027 and January 2028. The same check
+    was not made for institute-specific K01, K08, K23 or K99 notices.
+  sweep: people-A
+- id: t-pa-k-reorganization-details
+  kind: gap
+  about: records-people-A.yaml/nih-k-award-reorganization-2027
+  text: 'Not stated on the pages read: salary and research support under KR1, KC1, KS1 and KT1/R00; whether the K99 four-year
+    window or its absence of a citizenship requirement carries over to KT1/R00; when the new notices will be posted; what
+    happens to K notices that require an independent clinical trial before October 2027.'
+  sweep: people-A
+- id: t-pa-reentry-status
+  kind: conflict
+  about: records-people-A.yaml/nih-reentry-supplements
+  text: NOT-OD-23-170 is expired as of September 9, 2025, yet NIH's administrative supplements page (April 9, 2026) and
+    NIGMS's programme list (September 17, 2026) still name re-entry supplements. Whether requests are taken under the parent
+    notice PA-26-001 without a dedicated notice was not settled. In the gap-filling pass the NIGMS re-entry page redirected
+    to NIH's general administrative supplements page (source pe-nigms-reentry-redirect), which names the purpose and no
+    dedicated notice (source pe-nih-admin-supplements-reread). The status is recorded as unconfirmed.
+  sweep: people-A
+- id: t-pa-continuity-supplements
+  kind: gap
+  about: records-people-A.yaml/nih-reentry-supplements
+  text: The supplements for continuity of research during critical life events (NOT-OD-23-031 and NOT-OD-23-032 in 2023)
+    have no record. Their present notices and status were not read.
+  sweep: people-A
+- id: t-pa-ahrq-f32-t32-k99
+  kind: gap
+  about: records-people-A.yaml/ahrq-t32-f32
+  text: 'No current AHRQ page states the position of its F32, T32 and K99/R00 awards. The AHRQ training index and its individual
+    and institutional sub-pages were read in the gap-filling pass (sources pe-ahrq-training-index, pe-ahrq-training-individual,
+    pe-ahrq-training-institutional): all three were last reviewed December 2022 and give no status. The other two AHRQ pages
+    read were last reviewed in 2021 and 2023. The record rests on AHRQ''s absence from the participating organizations returned
+    for PA-25-423 and on AHRQ''s funding page showing no open programme announcements. The status stays unconfirmed.'
+  sweep: people-A
+- id: t-pa-ahrq-k01-no-notice
+  kind: recheck
+  about: records-people-A.yaml/ahrq-k01
+  text: PA-22-255 is marked expired with expiration date November 10, 2025 and shows no early-expiration notice, unlike
+    the K08. Whether November 10, 2025 was its original date was not stated on the page as returned.
+  sweep: people-A
+- id: t-pa-ahrq-k08-close-date
+  kind: conflict
+  about: records-people-A.yaml/ahrq-k08
+  text: 'PA-22-232: expiration March 17, 2026 on the NIH Guide page and in NOT-HS-26-012; close date March 25, 2026 on Grants.gov.'
+  sweep: people-A
+- id: t-pa-nihgps-sections
+  kind: gap
+  about: records-people-A.yaml/nih-nrsa-payback
+  text: 'Only section 11.4.3 (payback) of the NIH Grants Policy Statement was read. Section 11.2 returned a blank heading
+    page; section 11.3, read in the gap-filling pass, is also a blank heading page whose content sits in sub-pages that
+    were not fetched (source pe-nihgps-11-3); section 12 (career development awards) was not fetched. Not read from the
+    policy statement: leave rules, stipend supplementation and compensation, part-time training, activation deadlines, the
+    rule in 12.3.7, and the forms for trainee appointment.'
+  sweep: people-A
+- id: t-pa-t32-slots
+  kind: gap
+  about: records-people-A.yaml/nih-t32
+  text: The lead about a cut in the number of training slots or other 2025-2026 changes to T32 policy was not confirmed.
+    The only T32 changes found on primary pages are the December 2024 correction to the parent notice, the April 2025 childcare
+    procedure and the statement on trainee selection. No NIH figure for trainee numbers in FY 2025 or FY 2026 was read.
+  sweep: people-A
+- id: t-pa-f31-diversity-secondary
+  kind: unverified
+  about: sources-people-A.yaml/pa-rutgers-not-gm-24-013
+  text: The December 2023 notice by which NIGMS left PA-23-271 (NOT-GM-24-013) was read only as a university repost. It
+    is not used in any record.
+  sweep: people-A
+- id: t-pa-assistance-listing-placeholders
+  kind: recheck
+  about: records-people-A.yaml/nih-f99-k00
+  text: The Grants.gov listings for PA-27-037, PA-27-030 and PA-27-036 include the codes 93.T21 and 93.THR among Assistance
+    Listing numbers. They are not standard five-digit listings and are left out of assistance_listings.
+  sweep: people-A
+- id: t-pa-reference-letter-count
+  kind: gap
+  about: records-people-A.yaml/nih-fellowship-reference-letters
+  text: The number of reference letters required for NIH fellowships and K awards is in NIH's application guide, which was
+    not read.
+  sweep: people-A
+- id: t-pa-besh-k-notices
+  kind: gap
+  about: records-people-A.yaml/nih-k08
+  text: A search result title shows PA-24-183 (parent K08, independent basic experimental studies with humans required)
+    as expired. The K notices of that type and the notices NOT-OD-26-032 and NOT-OD-26-067 were not read.
+  sweep: people-A
+- id: t-pa-unread-parent-notices
+  kind: gap
+  about: records-people-A.yaml/programs
+  text: 'Read only in NIH''s table, not as notices: PA-24-175, PA-24-178, PA-24-181, PA-24-184, PA-24-187, PA-24-190, PA-24-193
+    (clinical-trial-required K notices), PA-27-034 and PA-27-035 (R25). None of the six open K22 notices, the TURTLE notice
+    PAR-24-236, the SEPA notice PAR-27-077, or D43, D71, R38, K43, K76, K38, UE5 or DP7 notices was read.'
+  sweep: people-A
+- id: t-pb-grfp-deadline-pairing
+  kind: conflict
+  about: records-people-B.yaml/nsf-grfp
+  text: The solicitation and the opportunity page, as fetched, pair the October 19-23, 2026 deadlines with different fields.
+    Re-read both pages directly.
+  sweep: people-B
+- id: t-pb-grfp-2025-counts
+  kind: unverified
+  about: records-people-B.yaml/ch-pb-grfp-2025-award-count
+  text: The 2025 award counts (1,000 in April, about 500 more in June) rest on Nature and AIP only. Find the NSF announcement
+    or the Research.gov awardee list.
+  sweep: people-B
+- id: t-pb-fy2026-edu-figure
+  kind: unverified
+  about: records-people-B.yaml/ch-pb-fy2026-appropriation
+  text: FY 2026 STEM Education ($938 million) and GRFP ($285 million) come from an AAS summary only. Check the joint explanatory
+    statement and the public law.
+  sweep: people-B
+- id: t-pb-fy2027-table-columns
+  kind: conflict
+  about: sources-people-B.yaml/pb-nsf-fy2027-request-pdf
+  text: Three reads of the FY 2027 summary table assigned $427.68 million for EDU to different columns (FY 2026 Enacted
+    in two reads, FY 2027 Request in one). The row's own change figure (-769.32, -64.3% over FY 2025) fits the FY 2027 Request.
+    One read gave the NSF FY 2027 total as $3,963.15 million; the research sweep recorded $4,863.15 million. Read the PDF
+    or the spreadsheets directly.
+  sweep: people-B
+- id: t-pb-egfp-next-deadline
+  kind: conflict
+  about: records-people-B.yaml/nsf-egfp
+  text: EDU's programme list shows a next EGFP due date of June 1, 2027; the solicitation's last printed deadline is June
+    1, 2026 and the opportunity page showed none. Confirm whether a 2027 competition exists.
+  sweep: people-B
+- id: t-pb-eri-page-wording
+  kind: recheck
+  about: records-people-B.yaml/nsf-eri
+  text: The fetched summary of the ERI opportunity page said principal investigators must be affiliated with R1 institutions;
+    the solicitation says non-R1. Likely a fetch-layer error; check the page wording.
+  sweep: people-B
+- id: t-pb-career-citizenship
+  kind: gap
+  about: records-people-B.yaml/nsf-career
+  text: No citizenship or residency rule for the CAREER award itself was returned from NSF 22-586. Confirm that the solicitation
+    states none.
+  sweep: people-B
+- id: t-pb-career-2026-changes
+  kind: gap
+  about: records-people-B.yaml/nsf-career
+  text: 'The lead that CAREER''s deadline or limits changed in 2025-26 was not borne out by the pages read: NSF 22-586 still
+    governs, with the fourth-Wednesday-in-July deadline and the three-competition limit. The CAREER page was updated September
+    10, 2026; what changed on that date was not found.'
+  sweep: people-B
+- id: t-pb-mca-participating-programmes
+  kind: gap
+  about: records-people-B.yaml/nsf-mca
+  text: The MCA update page listing participating programmes (updates/111193) was read in the gap-filling pass (source pe-nsf-mca-update-111193).
+    It was last updated January 10, 2025 and describes the fiscal year 2025 window. Which programmes in BIO, GEO, SBE and
+    EDU take part in the 2027 window is still not recorded; no later update page was found.
+  sweep: people-B
+- id: t-pb-asee-fellowships
+  kind: gap
+  about: records-people-B.yaml/nsf-asee-postdoctoral-fellowships
+  text: efellows.asee.org and iperf.asee.org were read in the gap-filling pass (sources pe-asee-efellows, pe-asee-iperf).
+    Engineering Fellows - cohort four window closed, salary $75,000 a year for two years; no date for a fifth cohort. I-PERF
+    - description only. Still not recorded - whether either programme will recruit again, I-PERF dates, and host rules.
+    The record's status stays unconfirmed because it covers both fellowships.
+  sweep: people-B
+- id: t-pb-intern-dcl
+  kind: recheck
+  about: records-people-B.yaml/nsf-intern-supplement
+  text: The INTERN Dear Colleague Letter page was read in the gap-filling pass (source pe-nsf-intern-dcl-page) and the record
+    now carries its number (NSF 21-013), date, student eligibility and target date; status was changed from unconfirmed
+    to open because the page is not marked archived. Recheck that a letter dated October 2020 is still the one in force
+    and whether a citizenship rule applies; the page stated none.
+  sweep: people-B
+- id: t-pb-noyce-match
+  kind: gap
+  about: records-people-B.yaml/nsf-noyce
+  text: Whether Noyce Tracks 2 and 3 require matching funds was not answered in the text returned from NSF 23-586.
+  sweep: people-B
+- id: t-pb-ddrig-coverage
+  kind: gap
+  about: records-people-B.yaml/nsf-sbe-ddrig
+  text: 'Five SBE dissertation-grant pages were read. Others (for example Economics, Sociology, Political Science, Geography,
+    Science and Technology Studies) and any dissertation grants outside SBE were not checked. The record''s `applicant:
+    institution` is not confirmed: no page read says who submits a dissertation-grant proposal.'
+  sweep: people-B
+- id: t-pb-archive-dates
+  kind: recheck
+  about: records-people-B.yaml/ch-pb-early-2025-archives
+  text: Archive dates in the ledger are page last-updated dates, not stated archive dates. No NSF page read explains when
+    or why each programme was archived.
+  sweep: people-B
+- id: t-pb-edu-terminations-courts
+  kind: gap
+  about: records-people-B.yaml/ch-pb-priorities-and-terminations
+  text: 'Court rulings on terminated STEM-education and training awards (for example AAPT v. NSF in D.D.C.) could not be
+    read: the case page and the press release were refused by the fetch proxy. Only NSF''s own priorities page is cited.'
+  sweep: people-B
+- id: t-pb-clb-status
+  kind: conflict
+  about: records-people-B.yaml/nsf-clb-supplement
+  text: The Career-Life Balance letter NSF 21-021 is archived, but PAPPG 24-1 section II.F.13 still lists the request type.
+    Whether NSF still accepts these requests is not settled by the pages read.
+  sweep: people-B
+- id: t-pb-olc-quotes
+  kind: recheck
+  about: sources-people-B.yaml/pb-doj-olc-nsf-stem-2026
+  text: The OLC opinion was read through two extractions of the PDF. Re-check each quote, the list of nine programmes, and
+    the wording on GRFP and Noyce against the slip opinion. No NSF statement on how it is applying the opinion was found.
+  sweep: people-B
+- id: t-pb-epscor-threshold
+  kind: gap
+  about: records-people-B.yaml/nsf-epscor-jurisdiction
+  text: The percentage rule behind EPSCoR eligibility, and what happens after the FY 2027 freeze, were not in the text returned.
+    The capacity sweep should supply them.
+  sweep: people-B
+- id: t-pb-grfp-eligibility-wording
+  kind: recheck
+  about: records-people-B.yaml/nsf-grfp-eligible-applicant
+  text: 'Three solicitations word the graduate-student rule differently (24-591: no more than one academic year completed;
+    25-547: less than one academic year completed; 26-526: second-year students not eligible), and the FAQ NSF 26-205 uses
+    the older wording. Read the three Section IV texts side by side.'
+  sweep: people-B
+- id: t-pb-grfp-reference-letters
+  kind: recheck
+  about: records-people-B.yaml/nsf-grfp
+  text: The how-to-apply page says two reference letters must be received; the solicitation says applicants must provide
+    three reference writers and the top three letters are included. Confirm the minimum number of letters.
+  sweep: people-B
+- id: t-pb-fy2026-crs-version
+  kind: recheck
+  about: sources-people-B.yaml/pb-crs-r48783
+  text: The CRS report was read in its January 6, 2026 version, before enactment. A later version (R48783.2 on congress.gov)
+    may give enacted figures for STEM Education and GRFP.
+  sweep: people-B
+- id: t-pc-001
+  kind: conflict
+  about: records-people-C.yaml/doe-sc-scgsr
+  text: 'SCGSR deadline: November 4, 2026 on the SCGSR pages; May 6, 2026 on the WDTS home page. Both kept.'
+  sweep: people-C
+- id: t-pc-002
+  kind: conflict
+  about: records-people-C.yaml/doe-sc-early-career
+  text: The programme page said the FY 2026 solicitation was open; Grants.gov shows DE-FOA-0003602 archived after June 2,
+    2026. Both kept.
+  sweep: people-C
+- id: t-pc-003
+  kind: conflict
+  about: records-people-C.yaml/dod-ndseg
+  text: Stage-of-study rule differs between ndseg.org (first two years of graduate study) and ndseg.sysplus.com (at least
+    three remaining years). Both kept.
+  sweep: people-C
+- id: t-pc-004
+  kind: conflict
+  about: records-people-C.yaml/dod-afosr-yip
+  text: Number of awards and total funding differ between the announcement PDF and the Grants.gov listing. Both kept.
+  sweep: people-C
+- id: t-pc-005
+  kind: conflict
+  about: records-people-C.yaml/noaa-nmfs-sea-grant-fellowship
+  text: Programme page banner says the application period is open; the prospective-fellows page says the 2025 period is
+    closed and no later notice is listed. Status set to unconfirmed.
+  sweep: people-C
+- id: t-pc-006
+  kind: conflict
+  about: records-people-C.yaml/doe-nnsa-ssgf
+  text: SSGF and LRGF how-to-apply pages take applications for 2027-2028; their home pages offer a notification for when
+    the application opens. Applies to doe-nnsa-lrgf and doe-csgf as well.
+  sweep: people-C
+- id: t-pc-007
+  kind: conflict
+  about: records-people-C.yaml/noaa-cgc-postdoctoral-fellowship
+  text: Recruitment announcement read as "2026 appointments"; criteria page gives a July 2027 start. Recheck which class
+    the October 16, 2026 deadline serves.
+  sweep: people-C
+- id: t-pc-010
+  kind: unverified
+  about: records-people-C.yaml/dod-vbff
+  text: No Vannevar Bush Faculty Fellowship notice after the Class of 2025 (posted July 29, 2024) was found on ONR's announcements
+    page, Grants.gov or the Basic Research Office news list. A second Grants.gov search in the gap-filling pass (source
+    pe-grants-gov-vbff-search) again shows none posted in 2025 or 2026, so the status is now not-competed. No Department
+    statement of why, or of whether a later class is planned, was found; that part stays unverified.
+  sweep: people-C
+- id: t-pc-011
+  kind: unverified
+  about: records-people-C.yaml/dod-smart
+  text: smartscholarship.org returned only a loading shell. The current application window dates, citizenship rule, age
+    and GPA rules and the service-commitment formula are not confirmed on a 2026 primary page; the record uses dowstem.us
+    and a 2019 Federal Register document. Status unconfirmed.
+  sweep: people-C
+- id: t-pc-012
+  kind: unverified
+  about: records-people-C.yaml/dhs-st-workforce-programs
+  text: dhs.gov returned 403 on two workforce pages. The two ORISE programme pages, tried again in the gap-filling pass,
+    now return ORISE's page-not-found page (sources pe-orise-dhs-hs-power-404, pe-orise-dhs-srt-404); whether the pages
+    moved or the programmes ended is not stated anywhere read. No dates, stipends or status for HS-POWER or the Summer Research
+    Team Program were read. Status unconfirmed.
+  sweep: people-C
+- id: t-pc-013
+  kind: recheck
+  about: records-people-C.yaml/nasa-stmd-early-career-faculty
+  text: The Grants.gov listings for ECF25 and NSTGRO26 were read in the gap-filling pass (sources pe-grants-gov-nasa-ecf25,
+    pe-grants-gov-nasa-nstgro26) and both records are now status closed - the last notice of each has closed and no later
+    one is forecast or posted. NSPIRES is still blocked, so the solicitation texts were not read. Recheck Grants.gov for
+    an ECF26 or NSTGRO27 notice. Applies to nasa-stmd-nstgro too.
+  sweep: people-C
+- id: t-pc-014
+  kind: unverified
+  about: records-people-C.yaml/nasa-roman-technology-fellowship
+  text: The current ROSES status of the Roman Technology Fellowship was not found; the newest pages read date from 2023
+    and 2024. Status unconfirmed.
+  sweep: people-C
+- id: t-pc-015
+  kind: unverified
+  about: records-people-C.yaml/nist-nrc-postdoc
+  text: The NIST page says selected applicants have not been notified pending guidance; whether the February 1, 2027 cycle
+    will run is not stated. Status unconfirmed.
+  sweep: people-C
+- id: t-pc-016
+  kind: unverified
+  about: records-people-C.yaml/noaa-epp-msi-undergraduate-scholarship
+  text: The page gives a yearly September-to-January window and no dated deadline or open/closed statement for the current
+    round. Status unconfirmed.
+  sweep: people-C
+- id: t-pc-017
+  kind: unverified
+  about: records-people-C.yaml/doe-csgf
+  text: The closing date (January 7, 2027) is published, but whether the application was open on 2026-10-04 is not stated.
+    Status unconfirmed.
+  sweep: people-C
+- id: t-pc-020
+  kind: gap
+  about: records-people-C.yaml/doe-sc-early-career
+  text: 'The FY 2026 notice PDF (DE-FOA-0003602) and its Grants.gov listing were read in the gap-filling pass (sources pe-doe-foa-0003602,
+    pe-grants-gov-doe-ecrp-fy26) and the record now carries eligible applicants, citizenship, application limits, cost sharing,
+    registrations and the Assistance Listing. Still not recorded: the merit review criteria and the indirect cost terms,
+    which the extraction did not return.'
+  sweep: people-C
+- id: t-pc-021
+  kind: gap
+  about: records-people-C.yaml/doe-arpa-e-igniite
+  text: 'The IGNIITE 2026 notice PDF returned unreadable data, its modification was refused by the fetch proxy and arpa-e.energy.gov/igniite
+    was refused. Not recorded: the early-career definition, award ceiling and period, funding instrument, concept paper
+    dates, indirect cost rule.'
+  sweep: people-C
+- id: t-pc-022
+  kind: gap
+  about: records-people-C.yaml/dod-darpa-yfa
+  text: 'The YFA 2026 announcement itself was not read. Not recorded: years-in-post window, citizenship, award amount and
+    period, executive summary stage, whether a non-university non-profit qualifies in detail.'
+  sweep: people-C
+- id: t-pc-023
+  kind: gap
+  about: records-people-C.yaml/nasa-ecip-earth-science
+  text: 'NSPIRES is blocked to the fetch tool. Not recorded for ECIP-ES and FINESST: years-since-degree window, citizenship,
+    award size (ECIP-ES), participating divisions, expected number of awards.'
+  sweep: people-C
+- id: t-pc-024
+  kind: gap
+  about: records-people-C.yaml/nasa-hubble-fellowship
+  text: No stipend or research allowance figure is on the pages read.
+  sweep: people-C
+- id: t-pc-025
+  kind: gap
+  about: records-people-C.yaml/noaa-cgc-postdoctoral-fellowship
+  text: No salary figure, fellowship length or number of fellows is on the pages read.
+  sweep: people-C
+- id: t-pc-026
+  kind: gap
+  about: records-people-C.yaml/usgs-mendenhall
+  text: Closing dates of the current research opportunities, the grade and salary, and the number of opportunities were
+    not on the pages read.
+  sweep: people-C
+- id: t-pc-027
+  kind: gap
+  about: records-people-C.yaml/doe-wdts-cci
+  text: CCI eligibility, stipend and key dates pages, and VFP stipend and key dates pages, were not read.
+  sweep: people-C
+- id: t-pc-028
+  kind: gap
+  about: records-people-C.yaml/programs
+  text: 'Funding instrument (funds) is left out where no page stated it: dod-onr-yip, dod-afosr-yip, dod-aro-early-career-program,
+    dod-darpa-yfa, dod-vbff, dod-cdmrp-career-development-mechanisms, nasa-finesst, doe-arpa-e-igniite, noaa-cpo-mapp-early-career-award,
+    nist-nrc-postdoc, usgs-mendenhall. Who submits (applicant) is left out where no page stated it: noaa-cpo-mapp-early-career-award,
+    dhs-st-workforce-programs, nasa-roman-technology-fellowship. Registrations (gates) are recorded only where a page named
+    the portal.'
+  sweep: people-C
+- id: t-pc-029
+  kind: gap
+  about: records-people-C.yaml/funders
+  text: No budget figure was found on a primary page for NDSEG, SMART, the Space Technology Research Grants or the Smithsonian
+    fellowships. No FY 2026 or FY 2027 figure specific to any fellowship in this slice was found, apart from the account-level
+    figures recorded.
+  sweep: people-C
+- id: t-pc-030
+  kind: gap
+  about: records-people-C.yaml/dod-cdmrp-career-development-mechanisms
+  text: Only five FY26 programme pages were read (PRCRP, BCRP, PRP, TBDRP, ATRP). Fourteen programmes are shown as invited-only
+    or letter-of-intent; their mechanisms were not listed. The FY26 appropriations release was read in the gap-filling pass
+    (source pe-cdmrp-fy26-appropriations); it lists 34 funded programmes and does not say which offer career-development
+    mechanisms.
+  sweep: people-C
+- id: t-pc-031
+  kind: gap
+  about: records-people-C.yaml/nifa-afri-ewd-predoctoral
+  text: Which institution types may submit AFRI predoctoral and postdoctoral fellowship applications (Part III, A of the
+    notice), the review criteria and the registrations were not extracted.
+  sweep: people-C
+- id: t-pc-032
+  kind: gap
+  about: sweep-people-C-science-agencies.md
+  text: 'Not researched: NASA Planetary and Heliophysics early-career elements, Jack Eddy, Sagan and Einstein fellowship
+    detail, AFOSR Summer Faculty Fellowship Program, ONR and Army summer faculty programmes, DoD HBCU/MI programmes, Albert
+    Einstein Distinguished Educator Fellowship, NSF INTERN at EPA, ORISE research participation programmes.'
+  sweep: people-C
+- id: t-pc-040
+  kind: recheck
+  about: records-people-C.yaml/dod-smart
+  text: The 2019 Federal Register document cites 10 U.S.C. 2192a; check the current statutory citation and whether the obligated-service
+    rule is unchanged.
+  sweep: people-C
+- id: t-pc-041
+  kind: recheck
+  about: records-people-C.yaml/nasa-finesst
+  text: Recheck for the release of ROSES-2026 and of FINESST26; neither was found on 2026-10-04.
+  sweep: people-C
+- id: t-pc-042
+  kind: recheck
+  about: records-people-C.yaml/dod-darpa-yfa
+  text: Recheck Grants.gov and sam.gov for the YFA 2027 announcement, which DARPA said would appear in early fall 2026.
+  sweep: people-C
+- id: t-pc-043
+  kind: recheck
+  about: records-people-C.yaml/smithsonian-sifp
+  text: The Smithsonian is recorded with funder_kind federal; the author may want a different class. Citizenship rule for
+    SIFP was not stated on the page read.
+  sweep: people-C
+- id: t-pc-044
+  kind: recheck
+  about: sources-people-C.yaml/pc-noaa-fy27-cj
+  text: The NOAA budget justification is a long PDF read in part; the page labels (OAR-41, MS-30, OAR-11) and amounts come
+    from the fetch layer and need checking against the PDF.
+  sweep: people-C
+- id: t-pc-045
+  kind: recheck
+  about: records-people-C.yaml/dod-ndseg
+  text: ndseg.org and ndseg.sysplus.com both present themselves as the programme site; confirm which is current and whether
+    Systems Plus is still the administrator for the FY 2027 class.
+  sweep: people-C
+- id: t-pd-neh-summer-stipends-status
+  kind: unverified
+  about: records-people-D.yaml/neh-summer-stipends
+  text: 'No NEH page read says whether Summer Stipends has ended. Evidence is indirect: the last Grants.gov notice closed
+    September 18, 2024, the programme is absent from the Division of Research page and from the 2026 notice for individuals.
+    The gap-filling pass set the status to not-competed, because Grants.gov shows no notice posted in 2025 or 2026 (source
+    pe-grants-gov-neh-summer-stipends-search). Whether NEH has ended the programme or will compete it again is still unverified.
+    Confirm with NEH.'
+  sweep: people-D
+- id: t-pd-neh-summer-stipends-nomination
+  kind: gap
+  about: records-people-D.yaml/neh-summer-stipends
+  text: The nomination rule was returned only as one sentence (one faculty nominee per institution at a deadline). The exemptions
+    and the last notice's terms were not returned; the 2024 notice was not read. The award maximum of $8,000 now in the
+    record comes from the Grants.gov search result, not from the notice.
+  sweep: people-D
+- id: t-pd-neh-2027-subject-limit
+  kind: recheck
+  about: records-people-D.yaml/neh-fellowships
+  text: The American history and Western civilization limit is stated for the 2026 competition. Check the 2027 guidelines
+    when posted (application opens January 15, 2027).
+  sweep: people-D
+- id: t-pd-neh-start-dates
+  kind: recheck
+  about: sources-people-D.yaml/pd-neh-fellowships-page
+  text: The programme page extraction returned project start dates of April 1, 2028 or September 1, 2029 for the next cycle;
+    the second looks like a range end and needs checking against the page.
+  sweep: people-D
+- id: t-pd-neh-terminations-dates
+  kind: unverified
+  about: records-people-D.yaml/ch-pd-neh-summary-judgment-2026-05
+  text: The dates of the preliminary injunction (August 1, 2025), judgment (May 7, 2026) and appeal (July 6, 2026) come
+    from a docket summary, a secondary source; the opinion extraction returned no date. Check the docket.
+  sweep: people-D
+- id: t-pd-neh-reorganisation
+  kind: gap
+  about: records-people-D.yaml/changes
+  text: NEH's 2025 reorganisation and staffing changes are not in this slice's ledger because no NEH page on them was read
+    here; the research sweep has them (slice F).
+  sweep: people-D
+- id: t-pd-nea-cwf-cancellation
+  kind: unverified
+  about: records-people-D.yaml/nea-creative-writing-fellowships
+  text: The withdrawal of the Creative Writing category is carried by a trade publication alone, with no date returned.
+    Find the NEA's own notice or a later NEA statement, and the date. The gap-filling pass set the status to not-competed
+    from Grants.gov, which shows no notice for FY 2027 or later (source pe-grants-gov-nea-literature-fellowships-search);
+    the NEA's page, read again, still carries no statement (source pe-nea-cwf-page-reread).
+  sweep: people-D
+- id: t-pd-nea-translation-status
+  kind: unverified
+  about: records-people-D.yaml/nea-translation-projects
+  text: No NEA page says whether Translation Projects continues. The page shows only the January 16, 2025 deadline and the
+    programme is not on the NEA grants page. The gap-filling pass set the status to not-competed from Grants.gov, which
+    shows no translation notice posted in 2025 or 2026 (source pe-grants-gov-nea-literature-fellowships-search). Whether
+    the NEA has ended the programme is still unverified.
+  sweep: people-D
+- id: t-pd-nea-heritage-jazz
+  kind: gap
+  about: records-people-D.yaml/programs
+  text: NEA National Heritage Fellowships (application deadline August 7, 2026, per the NEA grants page) and Jazz Masters
+    were in the leads but are honours by nomination; no record written. Decide whether they belong in this family.
+  sweep: people-D
+- id: t-pd-fulbright-hays-fy26-fy27
+  kind: unverified
+  about: records-people-D.yaml/ed-fulbright-hays-ddra
+  text: Whether any Fulbright-Hays competition was run for fiscal year 2026 or is planned for 2027, and by which department,
+    is not confirmed. Grants.gov shows no listing after October 2024 and the State bureau page does not mention the programmes.
+    The interagency agreement text itself was not read.
+  sweep: people-D
+- id: t-pd-fulbright-hays-fra-gpa-terms
+  kind: gap
+  about: records-people-D.yaml/ed-fulbright-hays-fra
+  text: The Faculty Research Abroad and Group Projects Abroad records carry only status and Assistance Listings. Their regulations
+    (34 CFR parts 663 and 664) and last notices were not read.
+  sweep: people-D
+- id: t-pd-gaann-status
+  kind: unverified
+  about: records-people-D.yaml/ed-gaann
+  text: No page read says whether GAANN will be competed for fiscal year 2027 or which department now runs it. The last
+    notice found is fiscal year 2024. The gap-filling pass set the status to not-competed, because Grants.gov shows no notice
+    in 2025 or 2026 (source pe-grants-gov-gaann-search); the Department's own GAANN page and its budget documents returned
+    403 and were not read.
+  sweep: people-D
+- id: t-pd-gaann-areas
+  kind: recheck
+  about: records-people-D.yaml/ed-gaann
+  text: The list of designated areas of national need and the 2024-25 institutional payment ($19,051) are from an extraction
+    of the fiscal year 2024 notice; check both against the notice. The regulation still prints the 1998-1999 payment of
+    $10,222.
+  sweep: people-D
+- id: t-pd-mcnair
+  kind: gap
+  about: records-people-D.yaml/ed-trio-mcnair
+  text: The McNair record has status only. Its terms, its last notice (2022) and the date of the next competition were not
+    read. It may belong to programme-service.
+  sweep: people-D
+- id: t-pd-ed-budget-status
+  kind: gap
+  about: records-people-D.yaml/ed-ope
+  text: The two budget figures in the funder record are estimates printed in notices; neither notice extraction says whether
+    the figure was enacted or requested, so budget status is left out.
+  sweep: people-D
+- id: t-pd-ies-predoc-postdoc
+  kind: unverified
+  about: records-people-D.yaml/ies-research-training-education-sciences
+  text: That predoctoral and postdoctoral training are not competed for FY 2027 rests on the extraction of the two requests
+    for applications. No IES page was read on whether those topics have ended or on the state of existing training grants.
+    The IES post on planned FY 2027 grantmaking was read in the gap-filling pass (source pe-ies-fy27-grantmaking-post);
+    it names Research Training Programs among the first competitions and says nothing about predoctoral or postdoctoral
+    topics.
+  sweep: people-D
+- id: t-pd-ies-fy26
+  kind: gap
+  about: records-people-D.yaml/ies-research-training-education-sciences
+  text: Whether IES ran any training competition for FY 2026, and whether IES is covered by any interagency agreement, was
+    not found.
+  sweep: people-D
+- id: t-pd-ies-applicant
+  kind: recheck
+  about: records-people-D.yaml/ies-research-training-special-education
+  text: One extraction described the Early Career applicant as the individual researcher with the institution receiving
+    funds; the other as the institution applying for the researcher. The record says institution. Check the request for
+    applications. Also check indirect cost terms, which were not returned.
+  sweep: people-D
+- id: t-pd-ies-status-page
+  kind: recheck
+  about: records-people-D.yaml/ies-research-training-education-sciences
+  text: The IES funding page still listed both training competitions on October 4, 2026, three days after the deadline.
+    Records say closed, from the deadline.
+  sweep: people-D
+- id: t-pd-fulbright-scholar-open-text
+  kind: conflict
+  about: records-people-D.yaml/state-fulbright-us-scholar
+  text: The U.S. Scholar page gives a deadline of September 15, 2026 and also reads that the 2027-2028 competition is now
+    open. Both are kept; the record says closed.
+  sweep: people-D
+- id: t-pd-fulbright-scholar-numbers
+  kind: conflict
+  about: records-people-D.yaml/state-fulbright-us-scholar
+  text: The same page gives more than 380 awards in more than 120 countries and more than 800 awards annually to 135+ countries.
+    Both are kept.
+  sweep: people-D
+- id: t-pd-fulbright-board
+  kind: unverified
+  about: records-people-D.yaml/ch-pd-fulbright-board-resignation-2025
+  text: The resignation is recorded from the members' own statement on a publishing platform. The number who resigned, the
+    Department of State's account and the Board's present membership were not found on a government page.
+  sweep: people-D
+- id: t-pd-fulbright-pause
+  kind: unverified
+  about: records-people-D.yaml/ch-pd-fulbright-disbursement-pause-2025
+  text: The February 2025 disbursement pause and the draft House figure of $287.8 million for fiscal year 2026 rest on an
+    alumni association's tracker. Find the State Department notice and the enacted appropriation.
+  sweep: people-D
+- id: t-pd-iie-status
+  kind: gap
+  about: records-people-D.yaml/state-eca
+  text: No page read states what kind of organisation the Institute of International Education is. The Fulbright Program
+    FAQ page was read in the gap-filling pass (source pe-fulbright-faq); it says IIE administers parts of the programme
+    and does not say what kind of organisation IIE is.
+  sweep: people-D
+- id: t-pd-fulbright-stipends
+  kind: gap
+  about: records-people-D.yaml/state-fulbright-us-student
+  text: No stipend or benefit amounts were read for either Fulbright programme; they vary by country and award.
+  sweep: people-D
+- id: t-pd-hrsa-nrsa-applicants
+  kind: conflict
+  about: records-people-D.yaml/hrsa-nrsa-primary-care
+  text: The Grants.gov applicant-type field includes other nonprofit organisations; the notice names only domestic public
+    or private nonprofit institutions of higher education. Both kept.
+  sweep: people-D
+- id: t-pd-hrsa-nrsa-payback
+  kind: gap
+  about: records-people-D.yaml/hrsa-nrsa-primary-care
+  text: The extraction returned no payback or service obligation and no stipend figures (the notice points to the NRSA stipend
+    notice). Check the notice for both.
+  sweep: people-D
+- id: t-pd-hrsa-bhwet
+  kind: gap
+  about: records-people-D.yaml/hrsa-bhwet-professionals
+  text: The Grants.gov listing (355772) was read in the gap-filling pass (source pe-grants-gov-hrsa-bhwet-pro-fy25) and
+    the record now carries the notice number, dates, award ceiling and Assistance Listing, with status closed. Still missing
+    - trainee stipend levels, the project period and the indirect cost rule, which are in the notice file HRSA-25-068_Final.pdf,
+    not read.
+  sweep: people-D
+- id: t-pd-hrsa-nflp
+  kind: gap
+  about: records-people-D.yaml/hrsa-nurse-faculty-loan-program
+  text: The Grants.gov search and listing were read in the gap-filling pass (sources pe-grants-gov-hrsa-nflp-search, pe-grants-gov-hrsa-nflp-fy26)
+    and the record now carries the notice number HRSA-26-079, its dates, the award ceiling, the Assistance Listing and the
+    85% cancellation rule in outline. Still missing - the terms of the cost-sharing requirement and the loan amount per
+    student, which are in the notice, not read. The page still read as accepting applications after its July 10, 2026 date.
+  sweep: people-D
+- id: t-pd-hrsa-flrp-details
+  kind: gap
+  about: records-people-D.yaml/hrsa-faculty-loan-repayment-program
+  text: Citizenship, the list of eligible degrees and schools, and the exact service term were not returned. The schema's
+    funds vocabulary has no value for loan repayment, so the field is left out.
+  sweep: people-D
+- id: t-pd-samhsa-mfp-status
+  kind: unverified
+  about: records-people-D.yaml/samhsa-minority-fellowship-program
+  text: No SAMHSA page read states whether the Minority Fellowship Program continues after the FY 2024 awards. The eight
+    grantee organisations' names, the project period and what a fellow receives were not returned.
+  sweep: people-D
+- id: t-pd-switzer-status
+  kind: unverified
+  about: records-people-D.yaml/acl-nidilrr-switzer-fellowships
+  text: No Switzer notice was found for fiscal year 2026 or among the fiscal year 2027 forecasts. Whether the fiscal year
+    2025 competition made awards, and whether the programme continues, is not confirmed. The split of the $80,000 to $90,000
+    range between Merit and Distinguished levels was not returned.
+  sweep: people-D
+- id: t-pd-arrt-fy26
+  kind: gap
+  about: records-people-D.yaml/acl-nidilrr-arrt
+  text: Whether ARRT was competed for fiscal year 2026 was not checked. Stipend levels for trainees and the indirect cost
+    rule were not returned. The forecast gives a 36-month period where the 2025 notice gave 60 months.
+  sweep: people-D
+- id: t-pd-nij-citizenship
+  kind: gap
+  about: records-people-D.yaml/doj-nij-graduate-research-fellowship
+  text: The extraction returned no citizenship rule and gave the indirect cost rule in general terms. Check the notice.
+    No FY 2026 or FY 2027 notice was found.
+  sweep: people-D
+- id: t-pd-kluge-status
+  kind: unverified
+  about: records-people-D.yaml/loc-kluge-fellowship
+  text: The Library's pages show only the 2024 application window. A search located an application information page and
+    third-party notices of a 2026 cycle; none was fetched. Confirm the current cycle and the stipend.
+  sweep: people-D
+- id: t-pd-wilson-fields
+  kind: gap
+  about: records-people-D.yaml/wilson-center-research-fellowship
+  text: The subject areas the Wilson Center funds, how it reviews, and any 2025-2026 change to the Center were not on the
+    page read. The fields tag is left out.
+  sweep: people-D
+- id: t-pd-smithsonian-overlap
+  kind: recheck
+  about: records-people-D.yaml/smithsonian-institution-fellowship-program
+  text: The central Smithsonian competition covers science as well as humanities; the science-agencies slice may have written
+    the same programme and funder. Merge on consolidation. Museum-based fellowships were read from the index only, and several
+    show 2025 dates.
+  sweep: people-D
+- id: t-pd-funder-kind
+  kind: gap
+  about: records-people-D.yaml/funders
+  text: funder_kind is set to federal for the Smithsonian, the Wilson Center and the Library of Congress as the slice groups
+    them; no page read states the legal status of the first two.
+  sweep: people-D
+- id: t-pd-imls-lb21-nonprofit
+  kind: recheck
+  about: records-people-D.yaml/imls-laura-bush-21st-century-librarian
+  text: The seven qualifying entity types were returned in summary. Check the exact wording, above all for a non-profit
+    that is not itself a library or archives.
+  sweep: people-D
+- id: t-pe-not-competed-basis
+  kind: recheck
+  about: sweep-people-E-gaps.md
+  text: Nine programme statuses in this pass are not-competed on the strength of Grants.gov alone - no notice posted in
+    2025 or 2026 where one used to appear on a regular rhythm. Edited in other slices - neh-summer-stipends, nea-creative-writing-fellowships,
+    nea-translation-projects, ed-gaann, dod-vbff. New here - neh-fpiri, neh-awards-for-faculty-hsi, neh-awards-for-faculty-tcu,
+    ed-javits-fellowship. In no case did a funder page say why, or whether the programme has ended. The author should confirm
+    that this is the intended reading of not-competed; the alternative is to return them to unconfirmed.
+  sweep: people-E
+- id: t-pe-neh-fpiri-status
+  kind: unverified
+  about: records-people-E.yaml/neh-fpiri
+  text: No NEH statement on the programme was found. The 2023 and 2024 notice PDF on files.simpler.grants.gov returned unreadable
+    binary data, so stipend, tenure, the 10% management cost cap and the selection rule come from the 2021 and 2022 question-and-answer
+    document and may differ from the last notice. The programme page returned an empty snapshot box. NEH's grants listing
+    page (neh.gov/grants/listing) returned four programmes with 2020 dates and was not used.
+  sweep: people-E
+- id: t-pe-neh-hsi-tcu-status
+  kind: unverified
+  about: records-people-E.yaml/neh-awards-for-faculty-hsi
+  text: No NEH page says whether the awards for faculty at Hispanic-Serving Institutions and at Tribal Colleges and Universities
+    have ended. The Hispanic-serving page still carries the between-cycles banner; the tribal page links a 2022 notice.
+    Applies to neh-awards-for-faculty-tcu too. NEH's April 2026 notice was read by slice D, not here.
+  sweep: people-E
+- id: t-pe-neh-hbi-institutional
+  kind: gap
+  about: records-people-E.yaml/programs
+  text: Grants.gov lists a separate NEH notice, Awards for Faculty Institutional Support - HBCUs and TCUs (20250203-HBI,
+    posted October 4, 2024, closed May 1, 2025; an earlier one closed May 1, 2024). It was not read and has no record; it
+    may belong to the capacity sweep.
+  sweep: people-E
+- id: t-pe-javits-funding
+  kind: gap
+  about: records-people-E.yaml/ed-javits-fellowship
+  text: No primary page was read that says whether the Javits fellowship is still funded, when its last appropriation was,
+    or what became of it. www2.ed.gov/programs/jacobjavits/funding.html returned 403, as did two other ed.gov addresses.
+    The record rests on Grants.gov (last notice August 2010) and on the regulations still being in 34 CFR part 650. Read
+    the Department's funding-status page or a budget justification.
+  sweep: people-E
+- id: t-pe-niosh-erc-instrument
+  kind: conflict
+  about: records-people-E.yaml/cdc-niosh-erc-t42
+  text: The notice RFA-OH-25-002 and its Grants.gov listing give the funding instrument as a grant; NIOSH's workforce development
+    page, as returned, speaks of 18 Centers as cooperative agreements. Both are kept. The Grants.gov award floor ($4,500,000)
+    and the notice's three-year figure ($5.4 million) also differ.
+  sweep: people-E
+- id: t-pe-niosh-tpg-funds
+  kind: conflict
+  about: records-people-E.yaml/cdc-niosh-tpg-t03
+  text: RFA-OH-25-003 gives approximately $4-4.8 million each year for 20 to 30 awards; Grants.gov gives $24,000,000, 29
+    awards and a $550,000 ceiling, which may be totals over the life of the notice. Posted and end dates differ by two days
+    and by a month between the notice and the listing. Both are kept.
+  sweep: people-E
+- id: t-pe-niosh-other-training
+  kind: gap
+  about: records-people-E.yaml/programs
+  text: Not read - the Commercial Fishing Occupational Safety Training Project Grants (RFA-OH-22-006, open to January 31,
+    2028), the World Trade Center Health Program K01 forecast (RFA-OH-27-031), the March 31, 2025 changes to the two NIOSH
+    training notices in detail, and any CDC training award to institutions outside NIOSH. The NIOSH K01 record rests on
+    a forecast alone.
+  sweep: people-E
+- id: t-pe-nara-fellowships
+  kind: gap
+  about: records-people-E.yaml/programs
+  text: No National Archives or NHPRC fellowship record was written. NHPRC's announcements page lists three project-grant
+    programmes and no fellowship. The National Archives regional residency fellowship page was last reviewed in 2016, describes
+    2011 awards and says the money came from the Foundation for the National Archives. The one current fellowship found,
+    the Cokie Roberts Fellowship for Women's History, is funded by the National Archives Foundation and belongs to the foundations
+    sweep. archives.gov/research/fellowships returned 404.
+  sweep: people-E
+- id: t-pe-nasa-ecf-award-size
+  kind: conflict
+  about: records-people-C.yaml/nasa-stmd-early-career-faculty
+  text: NASA's programme page gives $200,000 per year and $600,000 in total; the ECF25 Grants.gov listing gives an award
+    floor of $750,000. The listing also shows a posted date (July 11, 2025) after its proposal due date (July 10, 2025),
+    and the search result shows a close date of July 12, 2025. All are kept in the record.
+  sweep: people-E
+- id: t-pe-doe-ecrp-window
+  kind: recheck
+  about: records-people-C.yaml/doe-sc-early-career
+  text: The FY 2026 notice as returned gives the doctorate test as "on or after January 1, 2015" under a ten-year rule.
+    Check the date against the PDF. The merit review criteria and indirect cost terms were not returned.
+  sweep: people-E
+- id: t-pe-nsf-intern-status
+  kind: recheck
+  about: records-people-B.yaml/nsf-intern-supplement
+  text: Status changed from unconfirmed to open because the letter NSF 21-013 (October 8, 2020) is not marked archived and
+    gives a yearly target date. A letter of that age may have been replaced; check NSF's TIP page.
+  sweep: people-E
+- id: t-pe-public-scholars-quote
+  kind: recheck
+  about: sources-people-E.yaml/pe-neh-public-scholars-announcement-2026
+  text: The extraction of the Public Scholars announcement returned a sentence about the "2026 Awards for Faculty competition"
+    as a quote, which does not belong in a Public Scholars document. It was not used. Recheck the subject-limit wording
+    and the criteria against the PDF.
+  sweep: people-E
+- id: t-pe-status-not-settled
+  kind: gap
+  about: sweep-people-E-gaps.md
+  text: Status could not be settled and the records were left as they were for - samhsa-minority-fellowship-program (landing
+    page returned no body text; last modified September 18, 2025), acl-nidilrr-switzer-fellowships (page last modified September
+    12, 2024, no statement), loc-kluge-fellowship (application information page returned 403), ed-trio-mcnair (ed.gov returned
+    403), doe-csgf (no open or closed statement), dod-smart (host exhausted by slice C), nasa-roman-technology-fellowship
+    (not tried), noaa-nmfs-sea-grant-fellowship (search inconclusive), noaa-epp-msi-undergraduate-scholarship (page unchanged),
+    nist-nrc-postdoc (notice unchanged), dhs-st-workforce-programs (pages now 404), nih-reentry-supplements, nih-t90-r90,
+    ahrq-t32-f32, nsf-egfp, nsf-clb-supplement, nsf-asee-postdoctoral-fellowships and smithsonian-museum-fellowships-humanities-arts.
+  sweep: people-E
+- id: t-pe-nih-fellowships-page
+  kind: gap
+  about: records-people-A.yaml/programs
+  text: https://grants.nih.gov/funding/funding-categories/fellowships was refused again by the fetch layer (HTTP 429) in
+    this pass and was not retried, because the refusal said not to fetch the page again. The NIH Grants Policy Statement
+    sub-pages of sections 11.2, 11.3 and 12 were not fetched.
+  sweep: people-E
 - id: t-merge-gates-sam-registration
   kind: recheck
   about: gates/sam-registration
@@ -1220,5 +2132,10 @@
 - id: t-merge-help-grants-gov-support
   kind: recheck
   about: help/grants-gov-support
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-funders-smithsonian
+  kind: recheck
+  about: funders/smithsonian
   text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
   sweep: consolidation

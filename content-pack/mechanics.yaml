@@ -757,3 +757,561 @@
   - 698
   - 696
   sweep: research-F
+- id: nih-nrsa-stipend-levels
+  name: NRSA stipend levels
+  what: 'NIH sets Kirschstein-NRSA stipends once a fiscal year in a Guide notice, after its appropriation. For awards made
+    with FY 2026 funds: undergraduates $14,916; predoctoral $29,364; postdoctoral $63,480 at 0 years of experience, $63,900
+    at 1, $64,380 at 2, $66,948 at 3, $69,180 at 4, $71,748 at 5, $74,424 at 6 and $77,076 at 7 or more [732]. The levels
+    apply only to awards made with that year''s funds, and earlier awards are not adjusted [732]. FY 2025 levels were $28,788
+    predoctoral and $62,232 to $75,564 postdoctoral [733]. No FY 2027 notice was listed on 2026-10-04 [731].'
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/nih-fiscal-policies/stipends-summary
+  sources:
+  - 732
+  - 733
+  - 731
+  - 21
+  sweep: people-A
+- id: nih-nrsa-tuition-and-fees
+  name: NRSA tuition and fees
+  what: 'NIH pays 60% of actual tuition up to a yearly ceiling: $16,000 for predoctoral trainees and fellows ($21,000 in
+    dual-degree programmes) and $4,500 for postdoctoral ($16,000 for formal degree-granting training); the FY 2026 notice
+    left these unchanged [732].'
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-044.html
+  sources:
+  - 732
+  sweep: people-A
+- id: nih-nrsa-institutional-allowance
+  name: NRSA institutional allowance and training-related expenses
+  what: An individual fellowship carries an institutional allowance, and a training grant carries training-related expenses,
+    to cover health insurance, supplies, equipment, books and travel. For FY 2026 both are $4,750 predoctoral and $12,400
+    postdoctoral, or $3,650 and $11,300 for fellows at federal and for-profit institutions [732] [736]. A fellowship pays
+    no indirect costs; the allowance covers the cost of administering it [736].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-044.html
+  sources:
+  - 732
+  - 736
+  sweep: people-A
+- id: nih-nrsa-childcare-costs
+  name: NRSA childcare costs
+  what: An NRSA fellow may request $3,000 per budget period toward care by a licensed provider for children under 13, or
+    disabled and under 18 [810]. On institutional training grants NIH has, since April 25, 2025, provided the $3,000 for
+    25% of the full-time trainee slots, and institutions with more eligible trainees ask for an administrative supplement
+    [788].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-100.html
+  sources:
+  - 810
+  - 788
+  sweep: people-A
+- id: nih-nrsa-payback
+  name: NRSA service payback obligation
+  what: A person incurs a service payback obligation for the first 12 months of postdoctoral NRSA support [737]. It is discharged
+    by an equal number of months of further postdoctoral NRSA support, or of health-related research, research training
+    or teaching averaging at least 20 hours a week; service must start within 2 years of the end of support [769]. NIH may
+    extend the time, waive the obligation where compliance is impossible or a substantial hardship, or require repayment
+    with interest within 3 years [769].
+  official_url: https://grants.nih.gov/grants/policy/nihgps/html5/section_11/11.4.3_payback.htm
+  sources:
+  - 737
+  - 769
+  - 750
+  sweep: people-A
+- id: nih-nrsa-support-limits
+  name: Limits on years of NRSA support
+  what: An individual may receive up to 5 years of aggregate NRSA support at the predoctoral level (6 for dual-degree training)
+    and up to 3 years at the postdoctoral level, counting training grant appointments and individual fellowships together
+    [736] [737].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html
+  sources:
+  - 736
+  - 737
+  sweep: people-A
+- id: nih-nrsa-full-time-and-concurrent-support
+  name: NRSA full-time training and concurrent awards
+  what: NRSA fellows and trainees train full time, normally 40 hours a week, and may not hold the award together with another
+    federally sponsored fellowship or similar federal award that provides a stipend [737] [750].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-423.html
+  sources:
+  - 737
+  - 750
+  sweep: people-A
+- id: nih-fellowship-review-criteria
+  name: Fellowship review criteria (three criteria since January 25, 2025)
+  what: 'Fellowship applications are scored on three criteria: Candidate''s Goals, Preparedness and Potential; Research
+    Training Plan; and Commitment to Candidate, Mentoring and Training Environment [736]. The three replaced five scored
+    criteria for due dates on or after January 25, 2025; grades are no longer required or allowed, and the sponsor''s section
+    was restructured [794].'
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-107.html
+  sources:
+  - 736
+  - 794
+  sweep: people-A
+- id: nih-fellowship-reference-letters
+  name: Reference letters for fellowships and career awards
+  what: Referees submit letters directly through eRA Commons, not through Grants.gov, and a fellowship application without
+    the required letters is not reviewed [784] [736]. The parent K01 notice routes letters the same way [744]. The number
+    of letters is given in NIH's application guide, which this sweep did not read [784].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-426.html
+  sources:
+  - 784
+  - 736
+  - 744
+  sweep: people-A
+- id: nih-foreign-training-justification
+  name: Fellowship training abroad
+  what: A fellowship candidate may ask to train abroad but must justify in detail why the foreign setting is more appropriate
+    than a domestic one; NIH funds foreign training only when the scientific advantages are clear [736] [737]. The May 2026
+    reminder on foreign components does not mention fellows or trainees [785]. The 2026 notices for F99/K00 and K12 state
+    that NIH no longer issues awards that involve foreign subawards [741] [753].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-084.html
+  sources:
+  - 736
+  - 737
+  - 785
+  - 741
+  - 753
+  sweep: people-A
+- id: nih-k-effort-requirement
+  name: K award effort requirement
+  what: A mentored K awardee commits a minimum of 75% of full-time professional effort, 9 person-months, to the career development
+    programme; the rest may go to other duties that do not interfere [744]. The K99/R00 allows 50% for certain surgical
+    specialties, and the mid-career K24 is set at 25 to 50% [743] [747].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html
+  sources:
+  - 744
+  - 743
+  - 747
+  sweep: people-A
+- id: nih-k-salary-and-research-support
+  name: K award salary and research development support (set by each institute)
+  what: 'The parent K notices do not state one NIH-wide salary figure: each participating institute provides salary, fringe
+    benefits and research development support at its own level, published in a Table of IC-Specific Information [744]. NIH''s
+    page of institute considerations, as returned, shows salary figures from $75,000 to $125,000 [805]. Total salary from
+    federal sources may not exceed the legislated maximum, the Executive Level II rate of $228,000 from January 1, 2026
+    [744] [21]. Salary for mentors is not allowed [744].'
+  official_url: https://grants.nih.gov/funding/funding-categories/research-training-and-career-development/individual-career/ico-funding-considerations
+  sources:
+  - 744
+  - 805
+  - 21
+  sweep: people-A
+- id: nih-k-prior-award-exclusions
+  name: Prior awards that end eligibility for a mentored K award
+  what: Current and former principal investigators of an NIH R01, P01 or P50, and holders of another major individual career
+    award, are not eligible for a mentored K award; holders of R03, R21/R33, R34/U34, R36 and SBIR/STTR awards, and scholars
+    on institutional K12 or KL2 programmes, remain eligible [744]. From May 28, 2025 to July 31, 2026 NIH excepted people
+    whose mentored K award ended early on or after January 1, 2025 [786].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-115.html
+  sources:
+  - 744
+  - 786
+  sweep: people-A
+- id: nih-k-one-pending-application
+  name: One career development application under review at a time
+  what: An individual may not have two or more competing NIH career development applications pending review at the same
+    time, though a research project grant application without substantial overlap may be submitted alongside [744] [743].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-24-176.html
+  sources:
+  - 744
+  - 743
+  sweep: people-A
+- id: nih-six-application-limit-fellowships-careers
+  name: Six-application limit as it applies to fellowships and career awards
+  what: NIH accepts six new, renewal, resubmission or revision applications per principal investigator per calendar year;
+    the policy applies to all activity codes except T codes and R13, and names no exception for F or K codes [12]. A training
+    grant (T) application therefore does not count against its programme director's six [12].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html
+  sources:
+  - 12
+  sweep: people-A
+- id: nih-training-indirect-cost-rate
+  name: Indirect costs on training and career awards (8 percent)
+  what: K awards, K12 programmes, T32 and T35 training grants and R25 research education grants are reimbursed for indirect
+    costs at 8% of modified total direct costs, not at the organization's negotiated rate [744] [753] [750] [756]. On training
+    grants the base excludes tuition and fees, consortium costs in excess of $25,000 and equipment [750]. Individual fellowships
+    pay none [736]. The R00 phase of the K99/R00 uses the institution's own rate, inside the $249,000 yearly total [743].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-168.html
+  sources:
+  - 744
+  - 753
+  - 750
+  - 756
+  - 736
+  - 743
+  sweep: people-A
+- id: nih-k-award-reorganization-2027
+  name: Reorganization of K awards into KR1, KC1, KS1 and KT1/R00
+  what: 'For due dates on or after October 12, 2027 NIH replaces most individual K codes with four: KR1 (from K01, K21,
+    K25, K32), KC1 (from K08, K23, K38), KS1 (from K02, K07, K18, K24, K26) and KT1/R00 (from K99, K22); K00, K12, K43 and
+    K76 are unchanged [742]. From then K applications need no Data Management and Sharing Plan and K funds may not pay for
+    the conduct of a clinical trial [742] [758]. Active notices under the current codes expire by July 13, 2027 [742].'
+  official_url: https://grants.nih.gov/node/1329
+  sources:
+  - 742
+  - 758
+  sweep: people-A
+- id: nih-two-phase-transition-awards
+  name: Two-phase transition awards (F99/K00 and K99/R00)
+  what: Both awards have a mentored first phase and a second phase that starts only after a step NIH must approve. For the
+    K99/R00 the awardee must have accepted a tenure-track, full-time assistant professor position or equivalent by the end
+    of the K99 period [743]. For the F99/K00 the fellow must finish the PhD and take a postdoctoral position at a different
+    institution with a different mentor, and the new institution files K00 materials at least 4 months ahead [741].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-24-194.html
+  sources:
+  - 743
+  - 741
+  sweep: people-A
+- id: nih-training-selection-statement
+  name: Statement on trainee and scholar selection in training notices
+  what: The parent T32 notice, the 2026 parent K12 notice and the NIGMS BURT notice each state that funded programmes may
+    not use the race, ethnicity or sex of a trainee, scholar or faculty candidate as an eligibility or selection criterion,
+    and that NIH does not use them in review or funding decisions [750] [753] [797]. The 2026 parent R25 notice carries
+    the second half of that statement [756].
+  official_url: https://grants.nih.gov/grants/guide/pa-files/PA-25-168.html
+  sources:
+  - 750
+  - 753
+  - 797
+  - 756
+  sweep: people-A
+- id: nih-nofos-only-on-grants-gov
+  name: NIH funding notices posted only on Grants.gov from FY 2026
+  what: From fiscal year 2026 NIH no longer posts notices of funding opportunity in the NIH Guide; Grants.gov is the single
+    official source, and the Guide carries policy and informational notices [9]. The 2026 parent notices for F99/K00, K12
+    and R25 were found on Grants.gov, and the NIH Guide address tried for PA-27-037 returned 'not found' on 2026-10-04 [740]
+    [752] [755].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-143.html
+  sources:
+  - 9
+  - 740
+  - 752
+  - 755
+  sweep: people-A
+- id: nih-esi-status-and-training-awards
+  name: Early-stage investigator status and training awards
+  what: The standing record nih-early-stage-investigator gives the rule. For this family the point is that NIH keeps a list
+    of grants a person can hold and still count as an early-stage investigator, since the status ends only with a substantial
+    independent NIH research award [138]. In May 2025 NIH extended the status automatically for people whose window ran
+    out during the first half of 2025, with October 2025 as the last submission [787].
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/early-stage-investigators
+  sources:
+  - 138
+  - 787
+  sweep: people-A
+- id: nih-training-success-rate-tables
+  name: Published success rates for fellowships, career awards and training grants
+  what: NIH publishes competing applications, awards, success rates and funding for fellowships, career development awards
+    and training grants by activity code and institute, as downloadable report files [26]. The files could not be read in
+    this sweep, so no rate is recorded [26].
+  official_url: https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/success-rates
+  sources:
+  - 26
+  sweep: people-A
+- id: nih-lrp-application-cycle
+  name: Loan repayment application cycle
+  what: The Extramural Loan Repayment Program takes applications once a year from September 1; the current cycle closes
+    November 19, 2026 [763]. In the previous cycle the closing date was moved from November 20 to December 4, 2025, with
+    peer review in February to April and awards in June to August [766].
+  official_url: https://grants.nih.gov/funding/funding-categories/lrp/extramural-lrp
+  sources:
+  - 763
+  - 766
+  sweep: people-A
+- id: nsf-fellowship-to-individual-or-institution
+  name: Who receives an NSF fellowship award
+  what: NSF fellowships differ in who applies and who is paid [837] [818] [825]. In the biology, mathematical sciences,
+    astronomy, and atmospheric and geospace postdoctoral fellowships the person applies and the award is made to the individual
+    [837] [840] [842] [880]. In GRFP the person applies but the funds are awarded to the institution where the fellow enrols
+    [818]. In EGFP, NRT, S-STEM and Noyce the institution applies and chooses the people [825] [828] [856] [858]. The last
+    Earth sciences fellowship solicitation moved from paying individuals to paying the host institution [850].
+  official_url: https://www.nsf.gov/funding/postdocs
+  sources:
+  - 837
+  - 840
+  - 842
+  - 818
+  - 825
+  - 828
+  - 856
+  - 858
+  - 850
+  - 880
+  sweep: people-B
+- id: nsf-grfp-fellowship-period
+  name: GRFP fellowship period and tenure
+  what: A Graduate Research Fellowship gives three years of financial support inside a five-year fellowship period [818].
+    Funds are paid for fellows who are "on tenure"; the institution administers the award, and the fellowship can move to
+    another institution after the first fellowship year [818].
+  official_url: https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation
+  sources:
+  - 818
+  sweep: people-B
+- id: nsf-cost-of-education-allowance
+  name: Cost-of-education allowance
+  what: 'Beside the stipend, NSF pays the fellow''s institution a cost-of-education allowance: $16,000 per tenure year in
+    GRFP and EGFP, and not less than $16,000 per stipend-funded trainee in NRT [818] [825] [828]. In GRFP the institution
+    must exempt the fellow from tuition and required fees and bears any tuition and fees above the allowance [818].'
+  official_url: https://www.nsf.gov/funding/initiatives/grfp
+  sources:
+  - 818
+  - 825
+  - 828
+  - 819
+  sweep: people-B
+- id: nsf-grfp-honorable-mention
+  name: GRFP Honorable Mention
+  what: NSF gives Honorable Mention to meritorious GRFP applicants who do not receive a fellowship offer [818]. In the FY
+    2026 competition 1,470 applicants were named [861]. An Honorable Mention within the last three years is what makes a
+    person eligible to be an EGFP fellow [825].
+  official_url: https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation
+  sources:
+  - 818
+  - 861
+  - 825
+  sweep: people-B
+- id: nsf-grfp-return-without-review
+  name: GRFP applications returned without review
+  what: NSF may return a GRFP application without review for formatting failures, missing documents, or because the applicant
+    does not meet the rules on academic status, degree programme, field of study or proposed research [861]. The FY 2027
+    solicitation tells applicants to read the lists of ineligible degree programmes, areas of study and proposed research
+    [818].
+  official_url: https://www.nsf.gov/funding/information/faq-nsf-graduate-research-fellowship-program-nsf-grfp-return
+  sources:
+  - 861
+  - 818
+  sweep: people-B
+- id: nsf-career-three-competition-limit
+  name: CAREER one-per-year and three-competition limit
+  what: An investigator may submit one CAREER proposal per annual competition and may not take part in more than three CAREER
+    competitions [815].
+  official_url: https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation
+  sources:
+  - 815
+  - 814
+  sweep: people-B
+- id: nsf-career-departmental-letter
+  name: CAREER departmental letter
+  what: A CAREER proposal must contain one, and only one, letter from the investigator's department head or equivalent official;
+    it confirms eligibility and states the department's support for the integrated research and education plan and for mentoring
+    [815].
+  official_url: https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation
+  sources:
+  - 815
+  sweep: people-B
+- id: nsf-career-minimum-award
+  name: CAREER minimum award size
+  what: 'CAREER sets a floor, not a ceiling: at least $400,000 over five years including indirect costs, and at least $500,000
+    in BIO, ENG and the Office of Polar Programs [815] [816].'
+  official_url: https://www.nsf.gov/funding/information/faq-faculty-early-career-development-career-program
+  sources:
+  - 815
+  - 816
+  sweep: people-B
+- id: nsf-pecase-nomination
+  name: PECASE nomination from CAREER awardees
+  what: Each year NSF picks its nominees for the Presidential Early Career Awards for Scientists and Engineers from the
+    most meritorious recent CAREER awardees; a nominee must be a U.S. citizen, national or permanent resident by the time
+    of nomination [814] [815].
+  official_url: https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program
+  sources:
+  - 814
+  - 815
+  sweep: people-B
+- id: nsf-reu-participant-support-no-indirect
+  name: No indirect costs on REU participant support
+  what: In REU Site proposals and Supplement requests, indirect costs may not be recovered on participant support costs,
+    the budget category that holds student stipends, housing and travel [830].
+  official_url: https://www.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates/nsf23-601/solicitation
+  sources:
+  - 830
+  sweep: people-B
+- id: nsf-person-supplements
+  name: Supplements that add a person to an NSF award
+  what: 'Several NSF routes pay for a person through an existing award, not through a new proposal: REU Supplements for
+    undergraduates, RET Supplements for teachers on ENG and CISE awards, and INTERN for a graduate student''s non-academic
+    internship [830] [854] [870]. The awardee asks for the supplement; the student or teacher does not apply to NSF [830]
+    [870]. The Career-Life Balance supplement letter is archived, though the PAPPG still lists that request type in section
+    II.F.13, beside Facilitation Awards for Scientists and Engineers with Disabilities in II.F.7 [846] [257]. The most recent
+    letter for research assistantships for high-school students on BIO awards is also archived [889].'
+  official_url: https://www.nsf.gov/funding/initiatives/reu
+  sources:
+  - 830
+  - 854
+  - 870
+  - 846
+  - 257
+  - 889
+  sweep: people-B
+- id: nsf-limited-submission-people
+  name: Institutional limits on NSF training and fellowship proposals
+  what: 'Some institutional people awards cap what one organisation may send: one EGFP proposal per competition, two NRT
+    proposals per competition, and two S-STEM proposals per deadline [825] [828] [856]. CAREER, REU, RET and Noyce state
+    no limit per organisation [815] [830] [854] [858].'
+  official_url: https://www.nsf.gov/funding
+  sources:
+  - 825
+  - 828
+  - 856
+  - 815
+  - 830
+  - 854
+  - 858
+  sweep: people-B
+- id: nsf-opportunity-page-status-labels
+  name: How NSF opportunity pages show that a programme is not open
+  what: NSF opportunity pages use two labels for programmes with no open call [838] [827]. "This document has been archived"
+    or "Archived funding opportunity" marks a solicitation that is no longer in force [838] [843]. "Waiting for new publication"
+    with "no upcoming due dates" marks a programme whose last solicitation has run out of deadlines and has not been replaced
+    [827] [857] [826]. NSF's priorities page says it continues to accept proposals to all open funding opportunities [154].
+  official_url: https://www.nsf.gov/updates-on-priorities
+  sources:
+  - 838
+  - 843
+  - 827
+  - 857
+  - 826
+  - 154
+  sweep: people-B
+- id: state-sea-grant-two-step-application
+  name: Two-step application through a state Sea Grant programme
+  what: For the Knauss fellowship the student applies to a state Sea Grant programme by a state deadline; the programme
+    then sends NOAA a letter of intent and applies through Grants.gov on behalf of the students it puts forward [965]. The
+    NMFS-Sea Grant fellowship is also applied for through the state programme [966].
+  official_url: https://seagrant.noaa.gov/knauss-fellowship-program/
+  sources:
+  - 965
+  - 966
+  sweep: people-C
+- id: institutional-allowance-in-lieu-of-indirect-costs
+  name: Institutional allowance in place of indirect costs
+  what: NIFA's AFRI predoctoral and postdoctoral fellowships pay the institution a $3,000 per year allowance and do not
+    permit indirect costs [960]. The National Needs Fellowship grants pay an institutional allowance per fellow and do not
+    authorise indirect costs [962]. The Knauss fellowship allows no indirect costs [965].
+  official_url: https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development
+  sources:
+  - 960
+  - 962
+  - 965
+  sweep: people-C
+- id: laboratory-practicum
+  name: Laboratory practicum or residency
+  what: 'The three DOE fellowships administered by the Krell Institute each require time at a DOE laboratory: at least 12
+    weeks for the CSGF, a 12-week on-site practicum for the SSGF, and two 12-week residencies for the LRGF [903] [905] [907].'
+  official_url: https://www.krellinst.org/csgf/
+  sources:
+  - 903
+  - 905
+  - 907
+  sweep: people-C
+- id: scholarship-for-service-obligation
+  name: Scholarship-for-service obligation
+  what: The SMART scholarship leads to civilian employment at a department facility after the degree [917]. A 2019 Federal
+    Register document sets the period of obligated service at the total period of degree study covered by the assistance,
+    and lets the DoD component head set the amount to be recouped on default [919].
+  official_url: https://www.smartscholarship.org/smart
+  sources:
+  - 917
+  - 919
+  sweep: people-C
+- id: student-authored-proposal-with-faculty-pi
+  name: Student-authored proposal submitted by the university with a faculty principal investigator
+  what: In NASA's FINESST the university submits, a faculty mentor is the principal investigator and the student must be
+    the primary author [949]. In NSTGRO the grant goes to the university on behalf of the student and the faculty advisor
+    is the principal investigator [955].
+  official_url: https://science.nasa.gov/earth-science/early-career-opportunities/
+  sources:
+  - 949
+  - 955
+  sweep: people-C
+- id: fellow-as-sole-project-director
+  name: Fellow named as sole project director on an institutional application
+  what: In NIFA's AFRI predoctoral and postdoctoral fellowships the institution submits the application and the fellow is
+    the only project director on the Key Personnel form [960].
+  official_url: https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development
+  sources:
+  - 960
+  sweep: people-C
+- id: neh-individual-monthly-rate
+  name: NEH monthly rate for awards to individuals
+  what: NEH pays individual awards at $5,000 per month of full-time work, prorated for part-time work, to a maximum of $60,000,
+    in the 2026 notice; the period must start on the first day of a month and end on the last day of a month [987] [986].
+  official_url: https://www.neh.gov/sites/default/files/2026-04/Individual%20NOFO%20combined_040126.pdf
+  sources:
+  - 987
+  - 986
+  sweep: people-D
+- id: neh-summer-stipends-nomination
+  name: NEH Summer Stipends institutional nomination
+  what: The Summer Stipends page states that institutions may nominate only one faculty member at a deadline [989]. The
+    exemptions from nomination were not returned by the extraction, and the programme's status is unconfirmed [989] [1002].
+  official_url: https://www.neh.gov/grants/research/summer-stipends
+  sources:
+  - 989
+  - 1002
+  sweep: people-D
+- id: training-grant-indirect-cost-limit-8-percent
+  name: Eight percent indirect cost limit on a training grant
+  what: HRSA's FY 2026 primary care National Research Service Award limits indirect costs to 8% of modified total direct
+    costs, whatever the institution's negotiated rate [1028].
+  official_url: https://simpler.grants.gov/opportunity/f127f2ac-9ac0-461e-8890-e4831560afe1
+  sources:
+  - 1028
+  sweep: people-D
+- id: gaann-institutional-match
+  name: GAANN institutional matching contribution
+  what: A GAANN grantee must add, from non-Federal funds, at least 25 percent of the grant amount [1017] [1016].
+  official_url: https://www.ecfr.gov/current/title-34/subtitle-B/chapter-VI/part-648
+  sources:
+  - 1017
+  - 1016
+  sweep: people-D
+- id: fulbright-selection-chain
+  name: Fulbright U.S. Student selection chain
+  what: Technical review by IIE, review by the National Screening Committee, then review by U.S. embassies or binational
+    Fulbright Commissions, the Department of State and the Fulbright Foreign Scholarship Board [1024].
+  official_url: https://us.fulbrightonline.org/about/competition-selection
+  sources:
+  - 1024
+  sweep: people-D
+- id: institution-applies-for-named-person
+  name: Institution applies on behalf of a named person
+  what: 'In several fellowships the person never applies to the agency: the university applies for its doctoral student
+    (NIJ Graduate Research Fellowship; Fulbright-Hays dissertation fellowships) or for its early-career researcher (IES
+    Early Career) and receives the money [991] [1012] [995].'
+  official_url: https://www.ojp.gov/funding/opportunities/O-NIJ-2025-172575.pdf
+  sources:
+  - 991
+  - 1012
+  - 995
+  sweep: people-D
+- id: hrsa-workforce-award-pattern
+  name: How HRSA's health workforce awards are arranged
+  what: The Bureau of Health Workforce describes over 60 grant programmes, made to organizations such as schools and universities,
+    hospitals and health departments, which train students, residents and faculty [1030]. Beside these it runs awards to
+    individuals in return for service, such as the Faculty Loan Repayment Program and the National Health Service Corps
+    Loan Repayment Program, and loan funds that schools administer, such as the Nurse Faculty Loan Program [1029]. A person
+    in training is normally reached through the school that holds the grant, not by applying to HRSA [1030] [1029].
+  official_url: https://bhw.hrsa.gov/programs
+  sources:
+  - 1030
+  - 1029
+  sweep: people-D
+- id: niosh-trainee-cost-floor
+  name: NIOSH 70 percent trainee-cost rule
+  what: In NIOSH training awards at least 70% of direct costs must go to trainee costs - stipends, tuition and fees, and
+    trainee travel - and indirect costs are limited to 8% of modified total direct costs [1061] [1063].
+  official_url: https://www.cdc.gov/niosh/extramural-programs/php/funding/workforce-development.html
+  sources:
+  - 1061
+  - 1063
+  sweep: people-E
+- id: niosh-one-training-application-per-institution
+  name: One NIOSH training application per institution
+  what: An institution may hold or apply for an Education and Research Center or Training Project Grants, not both; for
+    a Center only one application per institution is allowed, and a current T03 recipient is not eligible for a Center award
+    or sub-award [1060]. For Training Project Grants an institution may send two academic applications or one non-academic
+    application [1063].
+  official_url: https://www.cdc.gov/niosh/extramural-programs/php/funding/workforce-development.html
+  sources:
+  - 1060
+  - 1063
+  sweep: people-E

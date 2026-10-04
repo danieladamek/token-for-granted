@@ -276,3 +276,155 @@
   - 696
   - 725
   sweep: research-F
+- id: nih-division-of-biomedical-research-workforce
+  name: NIH Division of Biomedical Research Workforce
+  what: The office in NIH's Office of Extramural Research named as the contact for the August 2026 changes to K awards;
+    its address is dbrw@nih.gov [742].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-098.html
+  sources:
+  - 742
+  sweep: people-A
+- id: nih-training-ico-considerations
+  name: NIH institute-by-institute considerations and contacts for fellowships and career awards
+  what: NIH keeps one page for individual fellowships and one for individual career development awards that set out, institute
+    by institute, which codes are funded, the extra limits and support levels each sets, and staff contacts [804] [805].
+    A third page does the same for institutional training grants [813].
+  official_url: https://grants.nih.gov/funding/funding-categories/research-training-and-career-development/individual-fellowships/ico-funding-considerations
+  sources:
+  - 804
+  - 805
+  - 813
+  sweep: people-A
+- id: nih-lrp-scientific-liaison
+  name: Institute LRP scientific liaisons and programme officers
+  what: Loan repayment applicants are encouraged to contact the awarding institute's LRP scientific liaison; NIH lists LRP
+    programme officers on its extramural LRP pages [763] [762].
+  official_url: https://grants.nih.gov/funding/funding-categories/lrp/extramural-lrp/program-officers
+  sources:
+  - 763
+  - 762
+  sweep: people-A
+- id: nih-training-and-career-development-pages
+  name: NIH Research Training and Career Development pages
+  what: NIH's landing page sorts its training and career programmes into those an individual applies for (fellowships, individual
+    career development) and those an institution applies for (institutional training, research education, institutional
+    career development); the old address researchtraining.nih.gov redirects to it [727]. The policy statement's section
+    on individual fellowships is reached through subsection pages, the heading page being blank [768].
+  official_url: https://grants.nih.gov/funding/funding-categories/research-training-and-career-development
+  sources:
+  - 727
+  - 768
+  sweep: people-A
+- id: nsf-grfp-contact
+  name: GRFP help (grfp@nsf.gov and the GRF Operations Center)
+  what: GRFP questions go to grfp@nsf.gov [817]. Applicants and reference writers who need accessibility accommodation are
+    asked to tell the GRF Operations Center at least three weeks before the deadline [818].
+  official_url: https://www.nsf.gov/funding/initiatives/grfp
+  sources:
+  - 817
+  - 818
+  sweep: people-B
+- id: nsf-career-contact
+  name: CAREER programme contact
+  what: The CAREER opportunity page gives one contact for the programme, nsf-ccc@nsf.gov, (703) 292-5111, and links a question-and-answer
+    document, NSF 22-100 [814] [816].
+  official_url: https://www.nsf.gov/funding/information/faq-faculty-early-career-development-career-program
+  sources:
+  - 814
+  - 816
+  sweep: people-B
+- id: nsf-reu-site-directory
+  name: NSF directory of REU Sites
+  what: Students look for an REU Site in NSF's directory and apply to the Site itself, not to NSF [869] [829].
+  official_url: https://www.nsf.gov/funding/initiatives/reu/search
+  sources:
+  - 869
+  - 829
+  sweep: people-B
+- id: nsf-career-stage-landing-pages
+  name: NSF funding pages by career stage
+  what: NSF keeps landing pages for undergraduates, graduate students, postdoctoral researchers and early-career researchers
+    that list opportunities with headline amounts [835] [834] [833] [251]. On 2026-10-04 these pages still listed programmes
+    whose own pages were archived, so the status of a programme is the one shown on its own page [251] [843] [845] [838].
+  official_url: https://www.nsf.gov/funding/early-career-researchers
+  sources:
+  - 835
+  - 834
+  - 833
+  - 251
+  - 843
+  - 845
+  - 838
+  sweep: people-B
+- id: scgsr-applicant-workshops
+  name: SCGSR applicant workshops and office hours
+  what: For the open SCGSR solicitation the programme listed workshops on September 3, 2026 and October 1, 2026, and weekly
+    office hours from September 4, 2026 [892].
+  official_url: https://science.osti.gov/wdts/scgsr
+  sources:
+  - 892
+  sweep: people-C
+- id: aro-technical-point-of-contact
+  name: Army Research Office technical point of contact
+  what: The ARL announcement strongly recommends a discussion with the cognizant ARO technical point of contact before an
+    Early Career Program proposal is submitted [341].
+  official_url: https://arl.devcom.army.mil/collaborate-with-us/opportunity/arl-baa/
+  sources:
+  - 341
+  sweep: people-C
+- id: ndseg-program-office-contact
+  name: NDSEG programme office
+  what: The NDSEG application site gives NDSEG.PMO@sysplus.com and (301) 948-4232 as the programme contact [913].
+  official_url: https://ndseg.sysplus.com/
+  sources:
+  - 913
+  sweep: people-C
+- id: sea-grant-fellowships-contact
+  name: National Sea Grant Office fellowships contact
+  what: Sea Grant gives oar.sg.fellows@noaa.gov for fellowship questions, and directs students to the Sea Grant programme
+    in their state [436] [966].
+  official_url: https://seagrant.noaa.gov/inside-sea-grant/funding-opportunities/
+  sources:
+  - 436
+  - 966
+  sweep: people-C
+- id: nasa-ecip-es-information-sessions
+  name: NASA ECIP-ES information sessions and programme contacts
+  what: For the ROSES-2025 round NASA held two virtual information sessions, on May 14 and May 26, 2026, and named two programme
+    contacts [952].
+  official_url: https://science.nasa.gov/amendment-53-new-opportunity-early-career-investigator-program-in-earth-science/
+  sources:
+  - 952
+  sweep: people-C
+- id: cgc-applicant-question-session
+  name: C&GC fellowship question-and-answer session
+  what: The fellowship administrator held a question-and-answer session for applicants on September 3, 2026 [971].
+  official_url: https://cpaess.ucar.edu/cgc
+  sources:
+  - 971
+  sweep: people-C
+- id: fulbright-program-adviser
+  name: Campus Fulbright Program Adviser
+  what: A student enrolled at a U.S. college or university applies to the Fulbright U.S. Student Program through that institution
+    and is told to find the Fulbright Program Adviser on campus [1023].
+  official_url: https://us.fulbrightonline.org/applicants/getting-started
+  sources:
+  - 1023
+  sweep: people-D
+- id: neh-division-of-research-contacts
+  name: NEH Division of Research programme mailboxes
+  what: 'NEH gives a mailbox for each individual award: fellowships@neh.gov, publicscholar@neh.gov and FacultyAwards@neh.gov,
+    with the Division of Research telephone 202-606-8200 [986] [1003] [1004].'
+  official_url: https://www.neh.gov/divisions/research
+  sources:
+  - 986
+  - 1003
+  - 1004
+  sweep: people-D
+- id: hrsa-nrsa-mailbox
+  name: HRSA primary care NRSA mailbox
+  what: The Grants.gov listing for HRSA-26-035 gives HRSANRSA@hrsa.gov as the programme contact [1027].
+  official_url: https://simpler.grants.gov/opportunity/f127f2ac-9ac0-461e-8890-e4831560afe1
+  sources:
+  - 1027
+  sweep: people-D

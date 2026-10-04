@@ -5,24 +5,29 @@
   "research-C",
   "research-D",
   "research-E",
-  "research-F"
+  "research-F",
+  "people-A",
+  "people-B",
+  "people-C",
+  "people-D",
+  "people-E"
  ],
- "references": 726,
+ "references": 1106,
  "references_by_kind": {
-  "primary": 683,
-  "secondary": 43
+  "primary": 1058,
+  "secondary": 48
  },
  "references_by_tier": {
-  "current": 568,
-  "seminal": 59,
-  "background": 66,
-  "classic": 33
+  "current": 901,
+  "seminal": 65,
+  "background": 75,
+  "classic": 65
  },
  "references_by_read": {
-  "partial": 584,
-  "full": 142
+  "partial": 919,
+  "full": 187
  },
- "references_cited": 714,
+ "references_cited": 1086,
  "references_uncited": [
   511,
   522,
@@ -35,28 +40,110 @@
   709,
   710,
   722,
-  723
+  723,
+  1056,
+  1057,
+  1072,
+  1083,
+  1090,
+  1096,
+  1098,
+  1106
  ],
  "merged_urls": [
   "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
   "https://www.supremecourt.gov/opinions/24pdf/25a103_kh7p.pdf",
-  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-commerce-justice-and-science-appropriations-bill"
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-commerce-justice-and-science-appropriations-bill",
+  "https://grants.nih.gov/funding/nih-guide-for-grants-and-contracts/parent-announcements",
+  "https://grants.nih.gov/funding/activity-codes",
+  "https://grants.nih.gov/policy-and-compliance/notice-of-policy-changes",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-HS-26-004.html",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-HS-26-006.html",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-HS-26-007.html",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-HS-26-010.html",
+  "https://www.ahrq.gov/funding/process/dates/index.html",
+  "https://www.ahrq.gov/funding/fund-opps/index.html",
+  "https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/success-rates",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-059.html",
+  "https://grants.nih.gov/policy-and-compliance/policy-topics/early-stage-investigators",
+  "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-143.html",
+  "https://www.nsf.gov/funding/early-career-researchers",
+  "https://www.nsf.gov/updates-on-priorities",
+  "https://cossa.org/nsf-skips-sbe-funding-opportunity-limits-grfp-eligibility/",
+  "https://fabbs.org/news/2026/09/grfp-solicitation-sbe/",
+  "https://www.nsf.gov/od/updates/nsf-announces-organizational-realignment",
+  "https://www.nsf.gov/edu",
+  "https://www.nsf.gov/edu/programs",
+  "https://nsf-gov-resources.nsf.gov/files/FY-2027-NSF-Budget-Request-to-Congress.pdf",
+  "https://www.nsf.gov/about/budget/fy2027",
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-commerce-justice-and-science-appropriations-bill",
+  "https://aas.org/posts/news/2026/01/congress-passes-fiscal-year-2026-spending-bills-nsf-nasa-and-doe",
+  "https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission",
+  "https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences/nsf26-517/solicitation",
+  "https://www.nsf.gov/funding/opportunities/mps-chem-mps-chemistry-research-programs/nsf26-519/solicitation",
+  "https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing/nsf25-543/solicitation",
+  "https://www.nsf.gov/news/foundational-research-nofos",
+  "https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation",
+  "https://science.osti.gov/grants/FOAs/Open",
+  "https://simpler.grants.gov/opportunity/b672fee6-acbc-4034-a1fa-5be7a212a02d",
+  "https://www.energy.gov/documents/fy-2027-office-science-budget-request-overview",
+  "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
+  "https://www.onr.navy.mil/work-with-us/funding-opportunities/announcements",
+  "https://www.afrl.af.mil/About-Us/Fact-Sheets/Fact-Sheet-Display/Article/2282103/afosr-funding-opportunities/",
+  "https://files.simpler.grants.gov/opportunities/5e185327-5f25-4c09-889a-43615e1f54da/attachments/22f435ec-d57c-4199-b36d-e9959abb0033/DEVCOM_ARL_BAA_W911NF23S0001.pdf",
+  "https://arl.devcom.army.mil/collaborate-with-us/opportunity/arl-baa/",
+  "https://cdmrp.health.mil/funding/default",
+  "https://cdmrp.health.mil/funding/bcrp",
+  "https://science.nasa.gov/researchers/sara/grant-solicitations/",
+  "https://science.nasa.gov/researchers/solicitations/roses-2025/",
+  "https://www.nasa.gov/wp-content/uploads/2026/04/fiscal-year-2027-budget-request-summary.pdf",
+  "https://www.nifa.usda.gov/grants/funding-opportunities",
+  "https://www.usda.gov/sites/default/files/documents/fy-2027-budget-summary.pdf",
+  "https://seagrant.noaa.gov/inside-sea-grant/funding-opportunities/",
+  "https://cpo.noaa.gov/funding-opportunities/",
+  "https://www.noaa.gov/sites/default/files/2026-04/FY2027-NOAA-CJ-Submission.pdf",
+  "https://www.dhs.gov/science-and-technology/office-university-programs",
+  "https://www.neh.gov/divisions/research",
+  "https://www.imls.gov/find-funding/funding-opportunities/grant-programs/laura-bush-21st-century-librarian-program",
+  "https://ies.ed.gov/funding",
+  "https://fellowships.si.edu/opportunity/smithsonian-institution-fellowship-program-sifp",
+  "https://www.nysd.uscourts.gov/sites/default/files/2026-05/NEH.sj_.pdf",
+  "https://clearinghouse.net/case/46593/",
+  "https://www.arts.gov/grants",
+  "https://www.ed.gov/about/news/press-release/us-department-of-education-announces-six-new-agency-partnerships-break-federal-bureaucracy",
+  "https://acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research",
+  "https://www.archives.gov/nhprc/announcement",
+  "https://www.cdc.gov/niosh/extramural-programs/php/funding/index.html",
+  "https://www.federalregister.gov/documents/2024/04/24/2024-08771/applications-for-new-awards-graduate-assistance-in-areas-of-national-need-gaann",
+  "https://www.neh.gov/grants/research/summer-stipends",
+  "https://www.arts.gov/grants/creative-writing-fellowships",
+  "https://simpler.grants.gov/opportunity/d77d8b7d-e7ae-44f5-a055-1cccb01fc03a",
+  "https://www.acl.gov/node/421",
+  "https://cdmrp.health.mil/pubs/press/2026/FY26_Appropriations",
+  "https://www.energy.gov/management/pf-2026-33-funding-announcement-reviews-implementation-executive-order-14332-improving",
+  "https://grants.nih.gov/funding/funding-categories/lrp/extramural-lrp",
+  "https://grants.nih.gov/funding/funding-categories/supplemental-funding/administrative-supplements",
+  "https://nces.ed.gov/learn/blog/announcing-iess-planned-fy27-grantmaking",
+  "https://basicresearch.defense.gov/Programs/Vannevar-Bush-Faculty-Fellowship/",
+  "https://www.nist.gov/iaao/academic-affairs-office/nist-nrc-postdoctoral-research-associateships-program",
+  "https://www.noaa.gov/office-education/epp-msi/undergraduate-scholarship"
  ],
  "records": {
-  "programs": 131,
-  "funders": 51,
-  "standing": 25,
-  "gates": 29,
-  "help": 32,
-  "mechanics": 75,
-  "changes": 140,
-  "todo": 196
+  "programs": 267,
+  "funders": 60,
+  "standing": 44,
+  "gates": 43,
+  "help": 49,
+  "mechanics": 126,
+  "changes": 237,
+  "todo": 334
  },
  "todo_by_kind": {
-  "conflict": 28,
-  "recheck": 43,
-  "unverified": 42,
-  "gap": 83
+  "conflict": 53,
+  "recheck": 76,
+  "unverified": 66,
+  "gap": 139
  },
  "merged_records": [
   "gates/sam-registration <- research-B",
@@ -77,9 +164,44 @@
   "mechanics/de-minimis-indirect-rate <- research-E",
   "gates/sam-registration <- research-F",
   "gates/grants-gov-registration <- research-F",
-  "help/grants-gov-support <- research-F"
+  "help/grants-gov-support <- research-F",
+  "funders/smithsonian <- people-D"
  ],
  "id_clashes": [],
+ "overrides_applied": [
+  "programs/neh-summer-stipends: {'status': 'no-current-notice'}",
+  "programs/nea-creative-writing-fellowships: {'status': 'no-current-notice'}",
+  "programs/nea-translation-projects: {'status': 'no-current-notice'}",
+  "programs/ed-gaann: {'status': 'no-current-notice'}",
+  "programs/dod-vbff: {'status': 'no-current-notice'}",
+  "programs/neh-fpiri: {'status': 'no-current-notice'}",
+  "programs/neh-awards-for-faculty-hsi: {'status': 'no-current-notice'}",
+  "programs/neh-awards-for-faculty-tcu: {'status': 'no-current-notice'}",
+  "programs/ed-javits-fellowship: {'status': 'no-current-notice'}",
+  "programs/nsf-sprf: {'status': 'no-current-notice'}",
+  "programs/nsf-sbe-ddrig: {'status': 'no-current-notice'}",
+  "programs/nsf-nrt: {'status': 'no-current-notice'}",
+  "programs/nsf-noyce: {'status': 'no-current-notice'}",
+  "programs/noaa-cpo-mapp-early-career-award: {'status': 'no-current-notice'}"
+ ],
+ "programmes_by_family": {
+  "research": 131,
+  "people": 136
+ },
+ "programme_status": {
+  "people": {
+   "open": 54,
+   "unconfirmed": 18,
+   "closed": 30,
+   "expired": 14,
+   "no-current-notice": 14,
+   "forecast": 3,
+   "not-competed": 3
+  },
+  "research": {
+   "None": 131
+  }
+ },
  "unresolved_source_ids": {},
  "unknown_reference_numbers": {},
  "dangling_cross_references": {},
@@ -90,5 +212,5 @@
   "mechanics/nih-modular-budget",
   "mechanics/nih-highlighted-topics"
  ],
- "queries": 244
+ "queries": 328
 }
