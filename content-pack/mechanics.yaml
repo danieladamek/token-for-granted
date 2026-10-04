@@ -1,0 +1,759 @@
+# mechanics.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- id: nih-standard-due-dates
+  name: Standard due dates and the three review cycles
+  what: Each activity code has three due dates a year; applications are due by 5:00 PM local time of the applicant organization,
+    and dedicated AIDS due dates no longer exist [2] [17].
+  official_url: https://grants.nih.gov/grants-process/submit/submission-policies/standard-due-dates
+  sources:
+  - 2
+  - 17
+  sweep: research-A
+- id: nih-modular-budget
+  name: Modular budget
+  what: A simplified budget format for requests up to $250,000 in direct costs a year, built in $25,000 modules; consortium
+    F&A is left out when testing the threshold, and foreign organizations use a detailed budget instead [36].
+  official_url: https://grants.nih.gov/grants-process/write-application/advice-on-application-sections/develop-your-budget
+  sources:
+  - 36
+  sweep: research-A
+- id: nih-salary-cap
+  name: Salary limitation (salary cap)
+  what: 'NIH grant funds may not pay an individual''s salary above Executive Level II of the federal pay scale: $225,700
+    from October 1 to December 31, 2025 and $228,000 from January 1, 2026 [20] [19] [21].'
+  official_url: https://grants.nih.gov/grants/policy/salcap_summary.htm
+  sources:
+  - 20
+  - 18
+  - 19
+  - 21
+  - 62
+  sweep: research-A
+- id: nih-large-budget-prior-approval
+  name: Requests of $500,000 or more in direct costs
+  what: Since December 3, 2025 an unsolicited application asking $500,000 or more in direct costs in any year needs no prior
+    agreement from the institute and no cover letter naming a programme official [37] [36].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-019.html
+  sources:
+  - 37
+  - 36
+  sweep: research-A
+- id: nih-f-and-a-costs
+  name: Facilities and administrative (F&A, indirect) costs
+  what: F&A costs are paid on top of direct costs at the organization's federally negotiated rate, fixed for the competitive
+    segment; foreign organizations receive 8 percent, conference grants none, and an organization with no negotiated rate
+    may elect a de minimis rate, given as 10% in the fetched policy text [64] [36].
+  official_url: https://grants.nih.gov/grants/policy/nihgps/HTML5/section_7/7.4_reimbursement_of_indirect_costs.htm
+  sources:
+  - 64
+  - 36
+  - 62
+  sweep: research-A
+- id: nih-simplified-review-framework
+  name: Simplified peer review framework
+  what: For due dates from January 25, 2025, reviewers of most research project applications score Importance of the Research
+    and Rigor and Feasibility from 1 to 9 and rate Expertise and Resources as sufficient or insufficient [39] [41].
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework
+  sources:
+  - 39
+  - 41
+  sweep: research-A
+- id: nih-study-section
+  name: Study section (scientific review group)
+  what: The first level of review; study sections are organized by the Center for Scientific Review and grouped into review
+    branches by discipline [38] [40].
+  official_url: https://public.csr.nih.gov/AboutCSR
+  sources:
+  - 38
+  - 40
+  - 54
+  sweep: research-A
+- id: nih-competitive-not-discussed
+  name: '''Competitive but not discussed'' designation'
+  what: Under the modified review practices in force through the January 2027 council round, about 30-35 percent of applications
+    are discussed and the committee's middle third is labelled 'competitive but not discussed' [16] [84] [85].
+  official_url: https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-26-114.html
+  sources:
+  - 126
+  - 16
+  - 84
+  - 85
+  sweep: research-A
+- id: nih-advisory-council
+  name: Advisory council review (second level)
+  what: The national advisory council or board of the institute gives the second level of review and makes recommendations
+    to the director, who decides [38] [15].
+  official_url: https://grants.nih.gov/grants-process/review
+  sources:
+  - 38
+  - 15
+  - 91
+  sweep: research-A
+- id: nih-unified-funding-strategy
+  name: Unified funding strategy (no paylines)
+  what: From the January 2026 council round, institutes do not rely on paylines; funding policies follow six tenets and
+    each institute publishes the factors it weighs [123] [15].
+  official_url: https://grants.nih.gov/grants-process/award/funding-decisions
+  sources:
+  - 123
+  - 15
+  - 13
+  - 95
+  sweep: research-A
+- id: nih-just-in-time
+  name: Just-in-time information
+  what: Extra information NIH may request when an application is under consideration for funding; a request is not an indicator
+    of an award decision [122].
+  official_url: https://grants.nih.gov/grants-process/award
+  sources:
+  - 122
+  - 91
+  sweep: research-A
+- id: nih-notice-of-award
+  name: Notice of Award (NoA)
+  what: The official award document; the recipient accepts by drawing down or requesting funds and is then bound by the
+    NIH Grants Policy Statement unless the notice says otherwise [122] [118].
+  official_url: https://grants.nih.gov/grants-process/award
+  sources:
+  - 122
+  - 118
+  - 35
+  sweep: research-A
+- id: nih-highlighted-topics
+  name: Highlighted Topics
+  what: 'Research areas an institute, center or office wants to see; they are not funding opportunities and carry no guaranteed
+    funds, and nobody applies ''to'' a topic: the application goes in through a parent announcement or another broad notice
+    [11] [142] [94].'
+  official_url: https://grants.nih.gov/funding/find-a-fit-for-your-research/highlighted-topics
+  sources:
+  - 11
+  - 142
+  - 94
+  - 10
+  sweep: research-A
+- id: nih-six-application-limit
+  name: Six applications per investigator per calendar year
+  what: NIH accepts six new, renewal, resubmission or revision applications from one PD/PI or multiple PD/PI per calendar
+    year, for all activity codes except T codes and R13, for applications submitted on or after September 25, 2025 [12].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html
+  sources:
+  - 12
+  - 140
+  sweep: research-A
+- id: nih-ai-originality-rule
+  name: AI use in applications
+  what: NIH does not treat an application substantially developed by AI, or with sections substantially developed by AI,
+    as the applicant's original ideas; AI found after award may lead to referral to the Office of Research Integrity and
+    enforcement actions [12] [140].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html
+  sources:
+  - 12
+  - 140
+  sweep: research-A
+- id: nih-multi-year-funding
+  name: Multi-year (up-front) funding of awards
+  what: A multi-year funded award is paid in full at the start of the project period from one fiscal year's appropriation;
+    section 240 of the FY 2026 appropriations act limits FY 2026 obligations for such awards to no more than the FY 2025
+    amount [137] [21].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-059.html
+  sources:
+  - 137
+  - 21
+  - 63
+  - 68
+  sweep: research-A
+- id: nih-late-application-window
+  name: Late applications
+  what: A late application may be considered case by case if submitted within two calendar weeks of the due date; continuous
+    submission ended May 25, 2026 [130].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-064.html
+  sources:
+  - 130
+  sweep: research-A
+- id: nih-phs-assignment-request-form
+  name: PHS Assignment Request Form
+  what: The optional form an applicant uses to ask for assignment to a particular institute and review group [94] [97].
+  official_url: https://grants.nih.gov/news-events/nih-extramural-nexus-news/2026/06/what-is-the-difference-between-an-nih-institute-center-or-offices-highlighted-topic-and-general-interest-area
+  sources:
+  - 94
+  - 97
+  sweep: research-A
+- id: nih-cooperative-agreement
+  name: Cooperative agreement (U codes)
+  what: Financial assistance in which NIH staff are substantially involved after award; the terms of each notice name the
+    NIH roles and a dispute panel [106] [116].
+  official_url: https://grants.nih.gov/grants/policy/nihgps/HTML5/section_1/1.2_definition_of_terms.htm
+  sources:
+  - 106
+  - 116
+  sweep: research-A
+- id: nih-foreign-component
+  name: Foreign component (and the end of foreign subawards)
+  what: A foreign component is any significant scientific element of a project performed outside the United States; NIH
+    no longer makes awards that include a subaward to a foreign entity, and paid foreign collaborators are funded through
+    linked awards [106] [22] [86].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-155.html
+  sources:
+  - 106
+  - 22
+  - 86
+  - 144
+  sweep: research-A
+- id: nih-termination-terms
+  name: Termination terms
+  what: Award terms effective October 1, 2025 and the March 2026 Grants Policy Statement say NIH may terminate an award,
+    to the extent authorized by law, if it determines the award no longer effectuates programme goals or agency priorities
+    [65] [139].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-009.html
+  sources:
+  - 65
+  - 139
+  - 132
+  sweep: research-A
+- id: nsf-funding-opportunity-types
+  name: Programme description, programme announcement, solicitation, Dear Colleague Letter
+  what: A programme description is a broad, general description of a programme that uses the PAPPG's generic eligibility
+    and preparation rules [156]. A programme announcement is a formal NSF publication announcing a programme, also on the
+    generic rules [156]. A programme solicitation is more focused, applies for a limited period, and is used when NSF departs
+    from the generic rules — limiting who may submit or how many proposals, restricting indirect costs, requiring preliminary
+    proposals, adding review criteria or requiring cost sharing [156] [158]. A Dear Colleague Letter gives information,
+    clarifies policy, or announces interest in planning, RAPID, EAGER, RAISE or conference proposals or supplements on a
+    topic [156] [158]. In August 2026 NSF called its twelve new solicitations Notices of Funding Opportunity [192].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  sources:
+  - 156
+  - 158
+  - 192
+  sweep: research-B
+- id: nsf-concept-outline
+  name: Concept outline
+  what: A concise summary of a project idea sent before certain proposal types so that a programme officer can judge fit;
+    it goes by email or through the ProSPCT tool and is generally limited to two pages or 6000 characters [156] [250].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  sources:
+  - 156
+  - 250
+  sweep: research-B
+- id: nsf-letter-of-intent
+  name: Letter of intent
+  what: A non-binding notice some solicitations require so that staff can gauge the size of a competition; if a required
+    letter is missing the full proposal is not accepted [156].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  sources:
+  - 156
+  sweep: research-B
+- id: nsf-preliminary-proposal
+  name: Preliminary proposal
+  what: A short first-stage proposal some solicitations require; the outcome is either a binding invite or not-invite decision,
+    or an advisory encourage or discourage [156]. Expeditions in Computing uses one [191].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  sources:
+  - 156
+  - 191
+  sweep: research-B
+- id: nsf-target-date-deadline-window
+  name: Target date, deadline date, submission window, accepted anytime
+  what: After a target date a proposal is still accepted but may miss a panel; after a deadline date it is not accepted;
+    the end of a submission window is treated as a deadline [156]. Deadlines are 5 p.m. submitting organisation's local
+    time [156].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  sources:
+  - 156
+  sweep: research-B
+- id: nsf-merit-review
+  name: Merit review
+  what: Review against Intellectual Merit and Broader Impacts, with five elements considered under each; reviewers are ad
+    hoc, panel or both, and since December 8, 2025 at least two reviewers, who may be NSF staff, are required [157] [149].
+    The National Science Board recommended in 2025 pursuing a rename of Broader Impacts to Societal Benefits [271].
+  official_url: https://www.nsf.gov/funding/merit-review
+  sources:
+  - 157
+  - 149
+  - 271
+  - 160
+  - 270
+  sweep: research-B
+- id: nsf-return-without-review
+  name: Return without review
+  what: NSF returns a proposal unreviewed for listed reasons, among them missing sections, a missed deadline, duplication,
+    and not being responsive to the funding opportunity; Supplement 1 added lacking sufficient content to permit effective
+    merit review [258] [149]. NSF also uses the mechanism for proposals it judges not aligned with agency priorities [154].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-4-non-award-decisions-transactions
+  sources:
+  - 258
+  - 149
+  - 154
+  sweep: research-B
+- id: nsf-reconsideration
+  name: Reconsideration of a declined proposal
+  what: A PI may ask the Assistant Director for reconsideration within 90 days of a declination, and the Deputy Director
+    within 60 days after that answer; fellowship, RAPID and EAGER declinations are excluded [258].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-4-non-award-decisions-transactions
+  sources:
+  - 258
+  sweep: research-B
+- id: nsf-two-month-salary-rule
+  name: 'Senior personnel salary: the two-month limit'
+  what: Salary requested for each senior/key person is limited to two months of regular salary in any one year [257].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation
+  sources:
+  - 257
+  sweep: research-B
+- id: nsf-indirect-costs
+  name: Indirect (F&A) costs
+  what: Indirect costs are budgeted at the organisation's federally negotiated rate unless a solicitation says otherwise
+    [257]. The 15 percent cap NSF announced in May 2025 was vacated by a court and is not in effect [237] [238]. The Grant
+    General Conditions of July 31, 2026 hold an institution of higher education to the negotiated rate in effect at the
+    time of the initial award [263]. The PAPPG states that recipients are entitled to reimbursement of indirect costs allocable
+    to the NSF share of allowable direct costs [260].
+  official_url: https://www.nsf.gov/funding/proposal-budget/indirect-costs
+  sources:
+  - 257
+  - 237
+  - 238
+  - 263
+  - 163
+  - 260
+  sweep: research-B
+- id: nsf-cost-sharing
+  name: Cost sharing
+  what: Voluntary committed cost sharing is prohibited [257]. NSF's cost-sharing page says only a small number of programmes
+    require cost sharing [164] [162].
+  official_url: https://www.nsf.gov/funding/proposal-budget/cost-sharing
+  sources:
+  - 257
+  - 164
+  - 162
+  sweep: research-B
+- id: nsf-data-management-sharing-plan
+  name: Data Management and Sharing Plan (DMSP)
+  what: From April 27, 2026 the plan is created with a tool in Research.gov, without the former two-page limit; recipients
+    share all data supporting NSF-funded publications at the time of publication, and exceptions are justified in the plan
+    [150].
+  official_url: https://www.nsf.gov/policies/document/pappg24-1-supplement-2
+  sources:
+  - 150
+  sweep: research-B
+- id: nsf-no-cost-extension
+  name: No-cost extension
+  what: A recipient may extend a grant once by up to 12 months on notice to NSF at least ten calendar days before the end
+    date; a further extension needs NSF approval requested at least 45 days before the end date [259].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-6-nsf-awards
+  sources:
+  - 259
+  sweep: research-B
+- id: nsf-termination-terms
+  name: Termination terms
+  what: NSF may terminate an award for failure to comply with its terms or because it no longer effectuates the programme
+    goals or agency priorities [261] [263]. The PAPPG gives 30 days to ask for review, and the 2026 General Conditions include
+    a termination review procedure [261] [263]. NSF's priorities page states that appeals of the 2025 terminations will
+    not be reviewed or considered [154].
+  official_url: https://www.nsf.gov/awards/terms-conditions
+  sources:
+  - 261
+  - 263
+  - 154
+  sweep: research-B
+- id: nsf-other-proposal-types
+  name: Other proposal types listed in PAPPG Chapter II.F
+  what: Besides planning, RAPID, EAGER, RAISE, GOALI and conference proposals, Chapter II.F lists Ideas Lab, FASED, equipment,
+    travel, centre and research infrastructure proposals, and supplemental requests for Career-Life Balance and for Research
+    Opportunity Awards [257]. Supplement 1 added the SBIR/STTR Project Pitch as a type of submission [149].
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation
+  sources:
+  - 257
+  - 149
+  sweep: research-B
+- id: broad-agency-announcement
+  name: Broad agency announcement (BAA)
+  what: A standing defence notice that invites research proposals across an office's interests and can lead to a grant,
+    cooperative agreement, contract or other transaction [334] [323].
+  official_url: https://www.onr.navy.mil/work-with-us/funding-opportunities
+  sources:
+  - 334
+  - 323
+  - 344
+  sweep: research-C
+- id: white-paper
+  name: White paper (DoD)
+  what: A short description sent before a proposal so that a programme officer can encourage or discourage it. ONR limits
+    it to 5 pages [334]; ARL strongly encourages but does not require it [341]; MURI calls it optional but strongly recommended
+    [325].
+  official_url: https://www.onr.navy.mil/work-with-us/how-to-apply/submit-grant-application
+  sources:
+  - 334
+  - 341
+  - 325
+  - 336
+  sweep: research-C
+- id: doe-pre-application
+  name: Pre-application (DOE Office of Science)
+  what: A preliminary research description sent through PAMS; required for certain review panels and optional otherwise
+    in the FY 2027 annual notice [277] [278].
+  official_url: https://science.osti.gov/grants/FOAs/FOAs/2027/DE-FOA-0003665
+  sources:
+  - 277
+  - 278
+  - 281
+  sweep: research-C
+- id: arpa-e-concept-paper
+  name: Concept paper and reply to reviewer comments (ARPA-E)
+  what: ARPA-E's first stage is a concept paper; after the full application ARPA-E releases reviewer comments and the applicant
+    may reply by a set date [301]. A 'discourage' notice on a concept paper does not bar a full application [302].
+  official_url: https://exchange.energy.gov/
+  sources:
+  - 301
+  - 302
+  sweep: research-C
+- id: cdmrp-pre-application
+  name: Pre-application and letter of intent (CDMRP)
+  what: Every CDMRP application starts with a pre-application in eBRAP; in the two FY26 announcements read it is a letter
+    of intent [330] [356].
+  official_url: https://ebrap.org/
+  sources:
+  - 330
+  - 356
+  sweep: research-C
+- id: cdmrp-two-tier-review
+  name: Two-tier review (CDMRP)
+  what: Peer review for merit and impact, then programmatic review that compares meritorious applications against the programme's
+    goals; consumer reviewers vote [352].
+  official_url: https://cdmrp.health.mil/about/2tierRevProcess
+  sources:
+  - 352
+  sweep: research-C
+- id: cdmrp-verification-period
+  name: Application verification period (CDMRP)
+  what: A short period after the deadline when the applicant checks the application in eBRAP; for the FY26 BCRP Breakthrough
+    Award it ends November 25, 2026 [356].
+  official_url: https://ebrap.org/
+  sources:
+  - 356
+  - 359
+  sweep: research-C
+- id: dual-anonymous-peer-review
+  name: Dual-anonymous peer review (NASA)
+  what: Reviewers are not told who the proposers are until rating is complete; the proposer writes an anonymized proposal
+    and a separate document on expertise and resources [375].
+  official_url: https://science.nasa.gov/researchers/dual-anonymous-peer-review/
+  sources:
+  - 375
+  - 387
+  sweep: research-C
+- id: nasa-step-1-proposal
+  name: Notice of intent and Step-1 proposal (NASA)
+  what: Many ROSES elements require a notice of intent or a Step-1 proposal before the full proposal; a proposal without
+    a required on-time notice is returned without review [377] [374].
+  official_url: https://science.nasa.gov/researchers/sara/library-and-useful-links/
+  sources:
+  - 377
+  - 374
+  - 392
+  sweep: research-C
+- id: no-exchange-of-funds
+  name: No exchange of funds (NASA)
+  what: Research by a non-U.S. organisation within a U.S. proposal is normally supported without NASA money passing to the
+    foreign organisation [380].
+  official_url: https://www.nasa.gov/wp-content/uploads/2025/03/gcam-mar-2025.pdf
+  sources:
+  - 380
+  - 377
+  sweep: research-C
+- id: de-minimis-indirect-rate
+  name: De minimis indirect cost rate
+  what: An entity that has never had a negotiated indirect cost rate may charge 15% of modified total direct costs under
+    the ONR and MURI announcements [334] [325].
+  official_url: https://www.ecfr.gov/current/title-2
+  sources:
+  - 325
+  - 334
+  - 528
+  - 529
+  - 619
+  sweep: research-C
+  variants:
+  - what: The rate an organization without a negotiated indirect cost rate may charge. The HHS Grants Policy Statement sets
+      it at 15% of modified total direct costs; HRSA records that HHS raised it from 10 to 15 percent effective October
+      1, 2024. The OJP guide as fetched gives 10 percent [528] [529] [619].
+    sources:
+    - 528
+    - 529
+    - 619
+    sweep: research-E
+- id: doe-epact-cost-share
+  name: Energy Policy Act cost share (DOE)
+  what: At least 20 percent for research and development and 50 percent for demonstration or commercial application, with
+    an exclusion for basic or fundamental research [299].
+  official_url: https://www.ecfr.gov/current/title-2/subtitle-B/chapter-IX/part-910/subpart-B/section-910.130
+  sources:
+  - 299
+  - 278
+  sweep: research-C
+- id: dod-grant-regulations
+  name: DoD Grant and Agreement Regulations (DoDGARs)
+  what: The rules for DoD grants and cooperative agreements. 2 CFR part 1104 carries the governmentwide Uniform Guidance
+    into DoD awards on an interim basis [332]; 32 CFR part 22 requires merit-based competitive procedures and impartial
+    review against the criteria in the notice [333]. Award terms are in the DoD Research and Development General Terms and
+    Conditions with each office's addendum [338].
+  official_url: https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-C/part-22
+  sources:
+  - 332
+  - 333
+  - 338
+  sweep: research-C
+- id: doe-rtes-review
+  name: DOE research, technology and economic security review
+  what: DOE reviews technical descriptions, biographical sketches, current and pending support and foreign-connection disclosures
+    for risk, and may require certifications, mitigation agreements, reporting or special terms [368]. The Office of Science
+    notice bars Entities of Concern from projects [278].
+  official_url: https://www.energy.gov/sites/default/files/2024-11/DOE%20RTES%20Framework%20Memorandum%2011.26.2024.pdf
+  sources:
+  - 368
+  - 278
+  - 311
+  sweep: research-C
+- id: nasa-grant-regulations
+  name: 'NASA grant rules: 2 CFR 1800, the GCAM and the terms and conditions'
+  what: NASA adopts the Uniform Guidance in 2 CFR part 1800 [385]; the Grant and Cooperative Agreement Manual of March 2025
+    is the governing guide and the January 2026 terms and conditions apply to awards [379] [380] [381].
+  official_url: https://www.nasa.gov/grants-policy-and-compliance-team/
+  sources:
+  - 385
+  - 379
+  - 380
+  - 381
+  sweep: research-C
+- id: letter-of-intent
+  name: Letter of intent
+  what: A short notice sent before the application. AFRI workshop grants require one; AFRI Strengthening Agricultural Systems,
+    the 2025 University Transportation Centers recompetition and the 2026 NCCOS notice each set a letter of intent deadline;
+    the FY 2026 RISA notice made it optional [412] [404] [493] [477] [434].
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative/afri-funding-opportunities-resources
+  sources:
+  - 412
+  - 404
+  - 493
+  - 477
+  - 434
+  sweep: research-D
+- id: pre-application
+  name: Pre-application
+  what: A first-stage application that decides who is invited to submit in full. The Specialty Crop Research Initiative
+    judges pre-applications by industry relevance; NIST's Precision Measurement Grant Program reviews pre-applications before
+    full applications [414] [471].
+  official_url: https://www.nifa.usda.gov/grants/funding-opportunities/specialty-crop-research-initiative
+  sources:
+  - 414
+  - 471
+  sweep: research-D
+- id: nifa-indirect-cost-limit
+  name: NIFA statutory indirect cost limit
+  what: NIFA competitive awards carry a statutory limit on indirect costs. The FY 2026 AFRI and Specialty Crop notices state
+    it as 30 percent of Total Federal Funds Awarded under section 1462 of NARETPA (7 U.S.C. 3310), applied as the lesser
+    of the negotiated rate or that limit and counting sub-awardee indirect costs [412] [414] [407].
+  official_url: https://www.nifa.usda.gov/grants/regulations-and-guidelines/indirect-costs
+  sources:
+  - 412
+  - 414
+  - 407
+  sweep: research-D
+- id: nifa-matching
+  name: NIFA matching requirements
+  what: 'Several NIFA programmes require a non-federal match: at least equal to the award for the Specialty Crop Research
+    Initiative (waivable in two cases), 100% as listed for Organic Agriculture Research and Extension, and for AFRI only
+    for equipment grants and commodity-specific applied research not of national scope [414] [415] [417].'
+  official_url: https://www.ecfr.gov/current/title-7/subtitle-B/chapter-XXXIV/part-3430
+  sources:
+  - 414
+  - 415
+  - 417
+  - 416
+  sweep: research-D
+- id: nifa-mentoring-plan
+  name: AFRI mentoring plan
+  what: 'New in FY 2026: a mentoring plan is required for AFRI applications that involve education, training or mentoring
+    of students or others; workshop, equipment and sabbatical grants are excluded [404].'
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative/afri-funding-opportunities-resources
+  sources:
+  - 404
+  sweep: research-D
+- id: senior-appointee-review
+  name: Senior appointee review of funding announcements and awards
+  what: Executive Order 14332 requires each agency head to designate a senior appointee to run a review of new funding opportunity
+    announcements and discretionary grants for consistency with agency priorities and the national interest. How each agency
+    in this slice carries this out was not found on the pages read [246].
+  official_url: https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking
+  sources:
+  - 246
+  sweep: research-D
+- id: hhs-grants-policy-statement
+  name: HHS Grants Policy Statement
+  what: The governing policy for awards from HHS agencies other than NIH. Version 2.0 took effect October 1, 2025 and applies
+    to awards and funded modifications made on or after that date; on the same date HHS adopted 2 CFR 200 with modifications
+    at 2 CFR 300 [527] [528].
+  official_url: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  sources:
+  - 527
+  - 528
+  - 529
+  sweep: research-E
+- id: ahrq-special-emphasis-notice
+  name: AHRQ special emphasis notice
+  what: A notice in which AHRQ announces interest in a research topic to be pursued through its standing announcements,
+    such as NOT-HS-25-012 on emergency department boarding. With the standing announcements expired in March 2026, no open
+    mechanism was found for responding to one [519] [509] [518].
+  official_url: https://www.ahrq.gov/funding/policies/polnotice/index.html
+  sources:
+  - 519
+  - 509
+  - 518
+  sweep: research-E
+- id: early-expiration-notice
+  name: Notice of early expiration
+  what: A notice that ends a funding announcement before its stated expiration date. AHRQ's March 2026 notices took effect
+    immediately and stated that no further applications would be accepted [515] [512].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-HS-26-006.html
+  sources:
+  - 515
+  - 512
+  sweep: research-E
+- id: doj-two-step-application
+  name: DOJ two-step application (Grants.gov, then JustGrants)
+  what: A DOJ applicant submits the SF-424 in Grants.gov by one deadline and the rest of the application in JustGrants by
+    a later one; OJP advises submitting each at least 48 hours early [619] [613].
+  official_url: https://www.ojp.gov/funding/apply/ojp-grant-application-resource-guide
+  sources:
+  - 619
+  - 613
+  sweep: research-E
+- id: nij-research-independence-statement
+  name: NIJ research independence and integrity statement and data plan
+  what: NIJ research applications include a statement on research and evaluation independence and integrity, covering conflicts
+    of interest, and a Data Management, Sharing, and Archiving Plan of no more than two pages [605] [619].
+  official_url: https://nij.ojp.gov/funding/guidance-applicants-and-awardees
+  sources:
+  - 605
+  - 619
+  sweep: research-E
+- id: invited-to-apply-notice
+  name: Invited to apply notice (DOJ)
+  what: A DOJ notice open only to recipients the agency has invited, such as those named in the congressional joint explanatory
+    statement or a single named organization. It is not an open competition [611] [617].
+  official_url: https://www.ojp.gov/funding/docs/nij-2026-172643.pdf
+  sources:
+  - 611
+  - 617
+  sweep: research-E
+- id: pcori-letter-of-intent
+  name: PCORI letter of intent
+  what: PCORI requires a letter of intent by a fixed deadline; applicants are notified of its status and only then may submit
+    a full application [599] [591].
+  official_url: https://www.pcori.org/funding-opportunities
+  sources:
+  - 599
+  - 591
+  sweep: research-E
+- id: objective-review
+  name: Objective review with point scores (FDA, HRSA, ACL, ACF)
+  what: HHS agencies other than NIH and AHRQ score research applications against criteria with points fixed in each notice,
+    by a panel the agency convenes, in place of NIH-style study sections [564] [574] [578] [628].
+  official_url: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  sources:
+  - 564
+  - 574
+  - 578
+  - 628
+  sweep: research-E
+- id: neh-outright-and-matching-funds
+  name: NEH outright funds and federal matching funds
+  what: Most NEH programmes award outright funds only [644] [634]. Where a notice offers federal matching funds, the applicant
+    budgets the outright request, the federal match and any required cost share separately; cost sharing is required only
+    when matching funds are requested [644] [634].
+  official_url: https://www.neh.gov/sites/default/files/NEH%20General%20Application%20Guide%2002-24-2026.pdf
+  sources:
+  - 644
+  - 634
+  sweep: research-F
+- id: neh-review-chain
+  name: 'NEH review chain: panel, staff, National Council, Chair'
+  what: Seven steps from preparation to notification; panelists rate Excellent, Very Good, Good, Some Merit or Not Competitive;
+    the Council must by law review applications; the Chair decides [638].
+  official_url: https://www.neh.gov/grants/application-process
+  sources:
+  - 638
+  sweep: research-F
+- id: de-minimis-indirect-rate-15
+  name: De minimis indirect cost rate of 15 percent
+  what: NEH, IMLS and IES each let an applicant without a negotiated rate charge a de minimis indirect cost rate of 15 percent
+    of modified total direct costs [644] [677] [663]. NHPRC does not allow grant funds to be used for indirect costs at
+    all [698].
+  official_url: https://www.neh.gov/sites/default/files/NEH%20General%20Application%20Guide%2002-24-2026.pdf
+  sources:
+  - 644
+  - 677
+  - 663
+  - 698
+  sweep: research-F
+- id: nea-two-part-application
+  name: NEA two-part application
+  what: Part 1 is submitted through Grants.gov and Part 2 through the NEA Applicant Portal; in the FY27 cycle the two deadlines
+    were March 23 and April 2, 2026 [651] [650].
+  official_url: https://www.arts.gov/grants/research-awards
+  sources:
+  - 651
+  - 650
+  sweep: research-F
+- id: nea-one-to-one-cost-share
+  name: NEA 1:1 nonfederal cost share
+  what: An NEA award cannot exceed 50% of total project cost; every award requires a nonfederal cost share of at least 1
+    to 1 [651] [652].
+  official_url: https://www.arts.gov/grants/research-awards
+  sources:
+  - 651
+  - 652
+  sweep: research-F
+- id: imls-cost-share-by-project-type
+  name: IMLS cost share by project type
+  what: 'IMLS sets cost share by project type: research projects in both National Leadership Grants programmes need none;
+    non-research museum projects need 1:1; library National Implementation requests above $299,999 need 1:1 [677] [681].'
+  official_url: https://www.imls.gov/find-funding/funding-opportunities/grant-programs
+  sources:
+  - 677
+  - 681
+  sweep: research-F
+- id: ies-letter-of-intent
+  name: IES letter of intent
+  what: IES sets a letter of intent date ahead of the deadline, with submission at iesreview.ed.gov; for the FY 2027 first
+    tranche the letter was due September 3, 2026 and the application October 1, 2026 [663] [715].
+  official_url: https://iesreview.ed.gov/
+  sources:
+  - 663
+  - 715
+  sweep: research-F
+- id: ies-peer-review-scoring
+  name: IES peer review scoring and triage
+  what: Each application has at least two reviewers; criteria are scored 1 (poor) to 7 (excellent); the overall score runs
+    from 1.0 (outstanding) to 5.0 (poor) and is not an average; only the most competitive applications are discussed by
+    the full panel [667].
+  official_url: https://ies.ed.gov/what-we-do/peer-review
+  sources:
+  - 667
+  - 666
+  sweep: research-F
+- id: ies-public-access-and-data-sharing
+  name: IES public access and data sharing
+  what: IES grantees upload accepted manuscripts to ERIC and share data no later than publication or five years after the
+    award end date [663].
+  official_url: https://ies.ed.gov/funding
+  sources:
+  - 663
+  sweep: research-F
+- id: nhprc-weighted-criteria
+  name: NHPRC weighted review criteria
+  what: NHPRC announcements publish the percentage weight of each review criterion, and editions applicants may respond
+    to anonymous reviewer comments before the Commission considers the proposal [698] [696].
+  official_url: https://www.archives.gov/nhprc/announcement
+  sources:
+  - 698
+  - 696
+  sweep: research-F

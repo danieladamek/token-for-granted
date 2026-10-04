@@ -1,0 +1,423 @@
+# gates.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- id: sam-registration
+  name: System for Award Management (SAM) registration
+  what: The applicant organization registers in SAM and renews yearly; a domestic organization gets a CAGE code and a foreign
+    one an NCAGE code [4] [117].
+  official_url: https://sam.gov/
+  sources:
+  - 4
+  - 117
+  - 156
+  - 161
+  - 279
+  - 330
+  - 336
+  - 421
+  - 447
+  - 507
+  - 564
+  - 618
+  - 644
+  - 651
+  - 665
+  - 677
+  sweep: research-A
+  variants:
+  - what: NSF requires an organisation to hold a valid and active SAM registration to use its systems and to keep it current
+      while a proposal is pending or an award is active; subrecipients need not register in SAM [156].
+    sources:
+    - 156
+    - 161
+    sweep: research-B
+  - what: An active SAM registration is required before submitting to the DOE, DoD and CDMRP notices read in this sweep
+      [279] [336] [330].
+    sources:
+    - 279
+    - 336
+    - 330
+    sweep: research-C
+  - what: Required before applying to every programme in this slice. NIFA says to allow 4-6 weeks; NOAA Fisheries says 2
+      weeks or longer [421] [447].
+    sources:
+    - 421
+    - 447
+    sweep: research-D
+  - what: HHS research notices require an active System for Award Management registration, renewed at least annually, and
+      the UEI issued with it; DOJ requires an active SAM.gov registration of every entity seeking its grant funding [507]
+      [618].
+    sources:
+    - 507
+    - 618
+    - 564
+    sweep: research-E
+  - what: NEH, NEA, IMLS and IES each require an active SAM.gov registration; NEH says a first registration may take several
+      weeks, IES says up to 2 weeks plus 5 more if an EIN is needed, and IMLS says several weeks [644] [665] [677] [651].
+    sources:
+    - 644
+    - 665
+    - 677
+    - 651
+    sweep: research-F
+- id: unique-entity-identifier
+  name: Unique Entity Identifier (UEI)
+  what: The identifier an organization obtains through SAM before doing business with the federal government; NIH uses it
+    to count institutional limits such as the two-application limit on the DP5 [117] [104].
+  official_url: https://sam.gov/
+  sources:
+  - 104
+  - 117
+  - 325
+  - 358
+  sweep: research-A
+  variants:
+  - what: The identifier issued through SAM that each application must carry [325] [358].
+    sources:
+    - 325
+    - 358
+    sweep: research-C
+- id: grants-gov-registration
+  name: Grants.gov registration
+  what: The organization registers in Grants.gov, where NIH applications are submitted and where all NIH funding opportunities
+    are now posted [4] [121] [9].
+  official_url: https://www.grants.gov/
+  sources:
+  - 4
+  - 9
+  - 121
+  - 161
+  - 185
+  - 272
+  - 279
+  - 336
+  - 409
+  - 447
+  - 464
+  - 507
+  - 550
+  - 619
+  - 644
+  - 665
+  - 677
+  - 695
+  sweep: research-A
+  variants:
+  - what: Grants.gov is the alternative submission route; the authorised organisational representative signs and submits,
+      and NSF recommends starting at least five business days before a deadline [161]. Collaborative proposals submitted
+      separately by several organisations must use Research.gov [185].
+    sources:
+    - 161
+    - 185
+    - 272
+    sweep: research-B
+  - what: The organisation needs a Grants.gov account whose representative holds the AOR role; ONR says to allow at least
+      21 days for SAM and Grants.gov together [336] [279].
+    sources:
+    - 336
+    - 279
+    sweep: research-C
+  - what: The submission portal for NIFA, NOAA, EPA, NIST and USGS notices in this slice. NOAA Fisheries gives 2-4 weeks
+      for registration [447] [409] [464].
+    sources:
+    - 447
+    - 409
+    - 464
+    sweep: research-D
+  - what: Needed to submit applications to AHRQ, CDC, FDA, HRSA, ACL and ACF, and to submit the SF-424 that is step one
+      of a DOJ application; an active SAM registration comes first [507] [619] [550].
+    sources:
+    - 507
+    - 619
+    - 550
+    sweep: research-E
+  - what: All five funders in this slice take applications through Grants.gov; IES notes that only a user with the Authorized
+      Organization Representative role can submit, and NEH grants no deadline extension for late registration [665] [644]
+      [695] [677].
+    sources:
+    - 665
+    - 644
+    - 695
+    - 677
+    sweep: research-F
+- id: era-commons
+  name: eRA Commons registration
+  what: The organization and each PD/PI hold eRA Commons accounts; the application image is viewed there, and early stage
+    investigator status is computed from the investigator's profile [4] [121] [138].
+  official_url: https://www.era.nih.gov/
+  sources:
+  - 4
+  - 121
+  - 138
+  - 432
+  - 447
+  - 507
+  - 564
+  sweep: research-A
+  variants:
+  - what: NOAA applicants must register the organisation in eRA Commons before submitting in Grants.gov, and the Project
+      Director or Principal Investigator needs an eRA Commons account linked on the SF-424. This applies to applications
+      submitted after January 1, 2024, when eRA replaced Grants Online; registration can take up to 4 weeks [447].
+    sources:
+    - 447
+    - 432
+    sweep: research-D
+  - what: AHRQ and FDA research notices require the organization to register in eRA Commons with a Signing Official, and
+      each principal investigator to hold an account [507] [564].
+    sources:
+    - 507
+    - 564
+    sweep: research-E
+- id: orcid-id
+  name: ORCID iD linked to eRA Commons
+  what: Every individual who submits a biographical sketch or current and pending (other) support form to NIH obtains an
+    ORCID iD and links it to the eRA Commons account [31].
+  official_url: https://orcid.org/
+  sources:
+  - 31
+  - 4
+  sweep: research-A
+- id: common-forms-sciencv
+  name: Common Forms for Biographical Sketch and Current and Pending (Other) Support, prepared in SciENcv
+  what: For due dates on or after January 25, 2026 senior/key personnel use the Common Forms and the NIH Biographical Sketch
+    Supplement, completed in SciENcv; since May 8, 2026 the system stops a submission that does not use them [31] [32].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-018.html
+  sources:
+  - 31
+  - 129
+  - 32
+  sweep: research-A
+- id: research-security-training
+  name: Research security training certification
+  what: For applications due on or after May 25, 2026, each senior/key person certifies research security training completed
+    within the 12 months before submission, through the biographical sketch in SciENcv; the institution's authorized representative
+    certifies as well [33].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-017.html
+  sources:
+  - 33
+  - 149
+  - 247
+  - 279
+  - 310
+  - 383
+  sweep: research-A
+  variants:
+  - what: Senior/key personnel on NSF proposals and awards must have completed research security training; the requirement
+      took effect under Important Notice 149 on December 2, 2025, and the SECURE Center's condensed module satisfies it
+      [247].
+    sources:
+    - 247
+    - 149
+    sweep: research-B
+  - what: 'Covered individuals certify training completed within the 12 months before applying: at DOE mandatory after May
+      1, 2025 [310]; at NASA effective August 5, 2026 for PIs, Co-PIs and Co-Is at ten percent time or more [383].'
+    sources:
+    - 310
+    - 383
+    - 279
+    sweep: research-C
+- id: other-support-disclosure-training
+  name: Training on other support disclosure
+  what: From October 1, 2025 recipient institutions train senior/key personnel on disclosing other support and keep a written,
+    enforced policy [128].
+  official_url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-133.html
+  sources:
+  - 128
+  sweep: research-A
+- id: data-management-sharing-plan
+  name: Data Management and Sharing (DMS) Plan
+  what: Research that generates scientific data carries a DMS Plan, reviewed by programme staff rather than scored by peer
+    reviewers; for due dates on or after May 25, 2026 the plan uses a new format page [124] [100].
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/policy-overview
+  sources:
+  - 124
+  - 100
+  - 99
+  sweep: research-A
+- id: public-access-compliance
+  name: NIH Public Access Policy compliance
+  what: An author accepted manuscript from NIH-funded work, accepted on or after July 1, 2025, is submitted to PubMed Central
+    and made public without embargo on the official date of publication [34] [125].
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/public-access/nih-public-access-policy-overview
+  sources:
+  - 34
+  - 125
+  sweep: research-A
+- id: uei
+  name: Unique Entity Identifier (UEI)
+  what: Every proposer provides a UEI with a new or renewal proposal; subrecipients named in a proposal also need one [156].
+  official_url: https://sam.gov/
+  sources:
+  - 156
+  sweep: research-B
+- id: nsf-id
+  name: NSF ID
+  what: Each person who uses NSF systems has one NSF ID, used as login and identity check [156].
+  official_url: https://www.research.gov/
+  sources:
+  - 156
+  - 161
+  sweep: research-B
+- id: research-gov
+  name: Research.gov organisation registration
+  what: Research.gov is NSF's own system for preparing, submitting and tracking proposals; the organisation registers there,
+    and proposals sent through Grants.gov are transferred to it [161].
+  official_url: https://www.research.gov/
+  sources:
+  - 161
+  - 252
+  sweep: research-B
+- id: sciencv
+  name: SciENcv (biographical sketch and current and pending support)
+  what: NSF requires the biographical sketch and the current and pending (other) support document to be prepared in SciENcv
+    [248]. Government-wide Common Forms exist for both documents [249].
+  official_url: https://www.ncbi.nlm.nih.gov/sciencv/
+  sources:
+  - 248
+  - 249
+  - 279
+  - 377
+  - 379
+  sweep: research-B
+  variants:
+  - what: Office of Science applicants generate biographical sketches in SciENcv [279]; ROSES-2025 requires the SciENcv
+      format for PIs and for Co-Is above 10% time [377].
+    sources:
+    - 279
+    - 377
+    - 379
+    sweep: research-C
+- id: mftrp-certification
+  name: Malign foreign talent recruitment programme certification
+  what: A person who is a current party to a malign foreign talent recruitment programme may not be senior/key personnel
+    on an NSF proposal [156]. From June 7, 2025 PIs and co-PIs on awards made on or after May 20, 2024 certify each year
+    in Research.gov that they are not party to one [247].
+  official_url: https://www.nsf.gov/research-security
+  sources:
+  - 156
+  - 247
+  - 263
+  sweep: research-B
+- id: cage-code
+  name: CAGE code
+  what: A code that the ONR and AFOSR announcements list among required registrations [334] [339].
+  official_url: https://sam.gov/
+  sources:
+  - 334
+  - 339
+  sweep: research-C
+- id: doe-pams
+  name: DOE Office of Science Portfolio Analysis and Management System (PAMS)
+  what: The Office of Science system for pre-applications, letters of intent and certain submissions, with a public award
+    search [279] [366] [365].
+  official_url: https://pamspublic.science.energy.gov/
+  sources:
+  - 279
+  - 366
+  - 365
+  - 283
+  sweep: research-C
+- id: fedconnect
+  name: FedConnect
+  what: Named among the systems an Office of Science applicant registers with, and recommended by ARPA-E for notices of
+    modifications [364] [301].
+  official_url: https://science.osti.gov/grants/Applicant-and-Awardee-Resources/Grants-Process
+  sources:
+  - 364
+  - 301
+  sweep: research-C
+- id: doe-exchange
+  name: DOE eXCHANGE
+  what: DOE's platform for publishing funding opportunities and managing applications; ARPA-E's separate site was folded
+    into it [306] [305].
+  official_url: https://exchange.energy.gov/
+  sources:
+  - 306
+  - 305
+  sweep: research-C
+- id: ebrap
+  name: eBRAP (Electronic Biomedical Research Application Portal)
+  what: The portal for CDMRP pre-applications; investigators and organisations register there, and the organisation profile
+    carries the UEI [358] [330].
+  official_url: https://ebrap.org/
+  sources:
+  - 358
+  - 330
+  sweep: research-C
+- id: nspires
+  name: NSPIRES (NASA proposal system)
+  what: NASA's proposal system; every named team member must be registered and confirm participation before a proposal is
+    submitted [388].
+  official_url: https://nspires.nasaprs.com/
+  sources:
+  - 388
+  - 389
+  sweep: research-C
+- id: onr-submission-portal
+  name: ONR Submission Portal
+  what: Where ONR white papers are submitted unless an announcement says otherwise [336] [334].
+  official_url: https://submissions.nre.navy.mil/
+  sources:
+  - 336
+  - 334
+  sweep: research-C
+- id: valid-eval
+  name: Valid Eval application system (DOT University Transportation Centers)
+  what: The 2025 University Transportation Centers recompetition took applications through Valid Eval, an online application
+    evaluation system, with a hard copy to follow by mail [493].
+  official_url: https://usg.valideval.com/teams/usdot_utc_2025/signup
+  sources:
+  - 493
+  sweep: research-D
+- id: justgrants
+  name: JustGrants (Justice Grants System)
+  what: The Department of Justice grants management system used by the Office of Justice Programs, the COPS Office and the
+    Office on Violence Against Women; the full application is submitted there after the SF-424 is filed in Grants.gov [618]
+    [619].
+  official_url: https://justicegrants.usdoj.gov/
+  sources:
+  - 618
+  - 619
+  sweep: research-E
+- id: pcori-connect
+  name: PCORI Connect
+  what: PCORI's application portal from Cycle 3 2026; a new or resubmitting applicant registers its organization and contact
+    details before creating a login. PCORI Online remains for existing applicants and awardees [595].
+  official_url: https://www.pcori.org/funding-announcement-notice/2026/new-application-portal-pcori-connect
+  sources:
+  - 595
+  sweep: research-E
+- id: login-gov
+  name: Login.gov account
+  what: The NEA lists Login.gov with SAM.gov and Grants.gov as required registrations; NEH notes that a Login.gov account
+    must be linked to Grants.gov [651] [644].
+  official_url: https://login.gov/
+  sources:
+  - 651
+  - 644
+  sweep: research-F
+- id: nea-applicant-portal
+  name: NEA Applicant Portal
+  what: The second part of an NEA application is completed in the NEA Applicant Portal after Part 1 is filed through Grants.gov
+    [652] [650].
+  official_url: https://www.arts.gov/grants/research-awards
+  sources:
+  - 652
+  - 650
+  sweep: research-F
+- id: ies-primo
+  name: IES PRIMO application tracking (iesreview.ed.gov)
+  what: IES tracks applications in its PRIMO system at iesreview.ed.gov, where letters of intent are also submitted [665]
+    [663].
+  official_url: https://iesreview.ed.gov/
+  sources:
+  - 665
+  - 663
+  sweep: research-F
+- id: imls-egms-reach
+  name: IMLS eGMS Reach
+  what: IMLS award recipients manage and report on awards in eGMS Reach, where the award notification, approved budget and
+    anonymised reviewer feedback are delivered [677].
+  official_url: https://www.imls.gov/
+  sources:
+  - 677
+  sweep: research-F

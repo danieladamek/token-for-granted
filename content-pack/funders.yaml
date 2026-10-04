@@ -1,0 +1,2309 @@
+# funders.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- id: nih
+  name: National Institutes of Health
+  funder_kind: federal
+  parent: HHS
+  what: |
+    NIH describes itself as the largest public funder of biomedical research in the world [117]. It is made up of 27 institutes and centers, each with its own research agenda [143]. Its public budget page says nearly 82 percent of its funding goes out as extramural awards to universities, medical schools and other research institutions, a share computed on FY 2023 figures [56]. In FY 2025 it spent more than $26.5 billion on research project grants [27]. Organizations that receive NIH grants can be domestic or foreign, public or private, non-profit or for-profit [117].
+  how_it_decides: |
+    Review has two levels: a scientific review group (study section) first, then the national advisory council or board of the institute that would pay [38]. Since 2025 the Center for Scientific Review (CSR) organizes first-level review of all NIH applications; before that, 23 institute review branches handled about 22 percent of them [55] [54] [40]. For most research project codes, reviewers use the simplified framework in force for due dates from January 25, 2025: Importance of the Research and Rigor and Feasibility are each scored 1 to 9, and Expertise and Resources is rated sufficient or insufficient [39] [41]. Under modifications that began after the October 2025 lapse in appropriations and now run through the January 2027 council round, about 30-35 percent of applications are discussed, a middle third is labelled 'competitive but not discussed', and summary statements are shortened [126] [16] [84]. The council makes recommendations and the institute or center director decides [38] [15]. Under the unified funding strategy, effective with the January 2026 council round, institutes do not rely on paylines; each weighs mission alignment, scientific merit read from the whole review, breadth of topics, career stage, broad distribution and geographic balance of funding, and available funds, and each publishes the factors it uses [123] [13] [67].
+  cycle: |
+    NIH runs three review cycles a year [2]. Cycle I applications are due January 25 to May 7, reviewed in June-July, go to council in August or October and start in September or December at the earliest; Cycle II applications are due May 25 to September 7, reviewed in October-November, go to council in January and start in April; Cycle III applications are due September 25 to January 7, reviewed in February-March, go to council in May and start in July [2]. The federal fiscal year starts October 1, and NIH began FY 2027 under a continuing resolution that runs through December 11, 2026 [83]. NIH's yearly fiscal-policy and legislative-mandate notices follow the full-year appropriation; for FY 2026 they came out on March 18, 2026 [21] [62].
+  who_to_talk_to: |
+    Applicants are sent first to their own organization's sponsored programmes office [146] [119]. At NIH, programme officials handle the scientific and programmatic side and can say whether a plan fits their institute; scientific review officers manage peer review; grants management officers and specialists handle the business side [117] [120] [106]. A programme official is found through the Matchmaker tool, Section VII of a funding notice, or an institute's profile page [120]. Programme officials do not co-write applications or discuss receipt, referral or review details [92]. System problems go to the eRA Service Desk [146].
+  where_it_posts: |
+    From fiscal year 2026 Grants.gov is NIH's single official source for grant and cooperative agreement funding opportunities; NIH no longer posts them in the NIH Guide for Grants and Contracts, which continues for policy and informational notices [9] [10]. NIH's Explore NIH Opportunities tool searches Grants.gov with NIH-specific filters [93] [105]. The parent announcements are listed on one NIH page [1]. Highlighted Topics name research areas an institute wants to see; they are not funding opportunities, and an application answering one goes in through a parent announcement or another broad notice [11] [142].
+  budget:
+  - amount: $47.5 billion (program level)
+    fiscal_year: 2026
+    status: enacted
+    note: Consolidated Appropriations Act, 2026, Public Law 119-75, signed February 3, 2026; NIH states a 1 percent increase
+      over FY 2025, including $226 million under the 21st Century Cures Act [21].
+    cite:
+    - 21
+  - amount: $46.5 billion (program level); $44.870 billion (discretionary budget authority)
+    fiscal_year: 2026
+    status: enacted, as shown in the FY 2027 budget request
+    note: The FY 2027 congressional justification gives this figure for FY 2026 enacted [57].
+    cite:
+    - 57
+  - amount: $48.7 billion (discretionary), $415 million over FY 2025
+    fiscal_year: 2026
+    status: enacted, as counted in the Senate committee summary
+    note: The Senate Appropriations Committee's summary of the final bill gives this figure [63].
+    cite:
+    - 63
+  - amount: $41.5 billion (program level); $41.164 billion (discretionary budget authority)
+    fiscal_year: 2027
+    status: requested
+    note: President's Budget request, $5.0 billion (10.8%) below the FY 2026 level the document uses [57].
+    cite:
+    - 57
+  - amount: FY 2026 enacted level, continued through December 11, 2026
+    fiscal_year: 2027
+    status: continuing resolution
+    note: Public Law 119-103; non-competing awards are issued below the level on the most recent Notice of Award [83].
+    cite:
+    - 83
+  policy_guide: https://grants.nih.gov/policy-and-compliance/nihgps
+  programs:
+  - nih-parent-announcements
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-r15-area
+  - nih-r15-reap
+  - nih-r34
+  - nih-r61-r33
+  - nih-r35
+  - nih-p01
+  - nih-u01
+  - nih-dp1-pioneer
+  - nih-dp2-new-innovator
+  - nih-dp5-early-independence
+  - nih-tr01-transformative
+  - nih-r13
+  - nih-pf5
+  pending_changes:
+  - status: proposed
+    date: '2026-08-14'
+    text: NIH asked for comment on replacing final overall impact scores and percentiles with three reported categories
+      ('Most competitive', 'Competitive', 'Not discussed'); responses are due October 13, 2026 [14].
+  - status: proposed
+    date: '2026-06-08'
+    text: NIH asked for comment on capping at 2, 3 or 4 the research project grants one investigator may lead at once; it
+      reported nearly 3,300 responses and no decision [89] [88].
+  - status: proposed
+    date: '2026'
+    text: The FY 2027 budget request proposes a 15 percent cap on F&A costs, full funding of all competing research project
+      grants at award, merging NIDA and NIAAA, eliminating NCCIH, the Fogarty International Center and NIMHD, and moving
+      NIEHS to CDC; it projects 5,145 competing research project grants and a 7.8% success rate [57] [58] [59].
+  - status: pending-implementation
+    date: '2026-07-27'
+    text: Letters of support are to be replaced by letters of collaboration of at most 100 words in fiscal year 2027, with
+      the Forms J application package [131].
+  official_url: https://grants.nih.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 117
+  - 143
+  - 56
+  - 27
+  - 38
+  - 40
+  - 41
+  - 123
+  - 15
+  - 2
+  - 9
+  - 21
+  - 83
+  - 57
+  - 35
+  - 80
+  - 136
+  - 79
+  sweep: research-A
+- id: nih-niaid
+  name: National Institute of Allergy and Infectious Diseases
+  funder_kind: federal
+  parent: NIH
+  what: |
+    NIAID is one of NIH's institutes [143]. Its funding-policy page states rules that go beyond the NIH-wide ones [68].
+  how_it_decides: NIAID says it no longer uses a score cut-off as the basis for funding; it weighs the peer review assessment,
+    investigator status, balance across its strategic plan, and the investigator's other active funding, and aims for a
+    success rate for early stage and new investigators at or above that of established investigators [68].
+  cycle: Select R01s are multi-year funded for a maximum of 4 years, and all unsolicited domestic R21 and R03 awards are
+    multi-year funded for the full project period; applicants request costs without increases for inflation [68].
+  who_to_talk_to: NIAID strongly encourages consultation with its staff at least 15 weeks before a P01 due date and at least
+    10 weeks before a clinical trial U01 submission [113] [116].
+  where_it_posts: On Grants.gov, like all NIH institutes [9].
+  programs:
+  - nih-p01
+  - nih-u01
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  pending_changes: []
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/nih-fiscal-policies/ico-funding-policies-and-considerations/NIAID
+  as_of: '2026-10-04'
+  sources:
+  - 68
+  - 113
+  - 116
+  sweep: research-A
+- id: nih-nci
+  name: National Cancer Institute
+  funder_kind: federal
+  parent: NIH
+  what: |
+    NCI is one of NIH's institutes [143]. It follows the NIH Unified Funding Strategy and publishes the reductions it applies to requested budgets [66] [69].
+  how_it_decides: NCI no longer uses paylines to choose competing grants; it weighs scientific merit, public health significance,
+    novelty, portfolio representation, career stage and the investigator's funding level [69].
+  cycle: New R01 and U01 awards at or under $250,000 in direct costs are reduced by 6.5% (at or under $175,000) or 8.5%
+    (over $175,000); new R01 and U01 awards over $250,000 are reduced by 17%; R21 awards by 6.5% or 8.5%; new P01, UM1 and
+    R33 awards by 13% or 17%; renewals are funded at an NCI cap [69].
+  where_it_posts: NCI states that all notices of funding opportunity are posted by NIH on Grants.gov [66].
+  programs:
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-p01
+  - nih-u01
+  pending_changes: []
+  official_url: https://www.cancer.gov/grants-training/grants-funding/funding-strategy/current-funding-policy
+  as_of: '2026-10-04'
+  sources:
+  - 69
+  - 66
+  sweep: research-A
+- id: nih-nhlbi
+  name: National Heart, Lung, and Blood Institute
+  funder_kind: federal
+  parent: NIH
+  what: |
+    NHLBI is one of NIH's institutes [143]. Its funding-policy page sets a shorter funded period for most competing R01s than the five-year maximum in the parent notice [70] [4].
+  how_it_decides: NHLBI states it has no payline or strict score cut-off; decisions rest on scientific and technical merit,
+    its advisory council's recommendations, relevance to its strategic priorities, portfolio balance, workforce development
+    and potential public health impact [70].
+  cycle: NHLBI funds approved investigator-initiated competing R01 applications for up to four years, with exceptions that
+    include early stage investigators, clinical studies and clinical trials; it gives no inflationary increases for future
+    years [70].
+  where_it_posts: On Grants.gov, like all NIH institutes [9].
+  programs:
+  - nih-r01
+  - nih-r34
+  - nih-r61-r33
+  - nih-r35
+  - nih-p01
+  pending_changes: []
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/nih-fiscal-policies/ico-funding-policies-and-considerations/NHLBI
+  as_of: '2026-10-04'
+  sources:
+  - 70
+  - 115
+  - 114
+  sweep: research-A
+- id: nih-nigms
+  name: National Institute of General Medical Sciences
+  funder_kind: federal
+  parent: NIH
+  what: |
+    NIGMS is one of NIH's institutes [143]. It runs the Maximizing Investigators' Research Award (MIRA), an R35 that supports an investigator's whole NIGMS-relevant programme through one grant [72] [73].
+  how_it_decides: NIGMS generally prioritises funding MIRA over R01 awards, is unlikely to award more than one NIGMS R01
+    to a PI, and needs council approval when an investigator's total annual costs exceed $1.5 million; early stage investigator
+    status is one of the factors it lists [71].
+  cycle: MIRA has its own due dates in January and May (established and new investigators) and in October and February (early
+    stage investigators) [73] [74].
+  who_to_talk_to: NIGMS gives two MIRA mailboxes, one for established and new investigators and one for early stage investigators
+    [72].
+  where_it_posts: On Grants.gov, like all NIH institutes [9].
+  programs:
+  - nih-r35
+  - nih-r01
+  pending_changes: []
+  official_url: https://www.nigms.nih.gov/Research/mechanisms/MIRA
+  as_of: '2026-10-04'
+  sources:
+  - 71
+  - 72
+  - 73
+  - 74
+  sweep: research-A
+- id: nsf
+  name: U.S. National Science Foundation
+  funder_kind: federal
+  parent: none stated on the pages read
+  what: 'NSF funds research and education across science and engineering through grants, cooperative agreements and fellowships
+    [155]. It is organised in eight directorates: BIO, CISE, ENG, GEO, MPS, SBE, STEM Education (EDU) and TIP [167]. NSF
+    states that it receives approximately 43,000 proposals a year and makes roughly 8,300 awards [152].'
+  how_it_decides: Every proposal is judged on two criteria approved by the National Science Board, Intellectual Merit and
+    Broader Impacts [157] [160]. A programme officer checks the proposal, obtains reviews from ad hoc reviewers, a panel
+    or both, and recommends award or decline; the PAPPG as printed places final programmatic approval at division or office
+    level, followed by a business review in the Division of Grants and Agreements [157]. Since December 8, 2025 a full proposal
+    must have at least two reviewers, who may be NSF staff [149]. In December 2025 NSF realigned its divisions into sections,
+    clusters or thematic areas to reduce layers, and the pages read do not name the post that now gives programmatic approval
+    [168] [177]. Executive Order 14332 requires senior-appointee review of funding announcements and discretionary awards
+    at every agency [246]. NSF returns without review proposals it judges not aligned with agency priorities [154].
+  cycle: NSF aims to give a decision within six months of submission and generally issues an award to an academic institution
+    within 30 days of the recommendation [160] [165]. Twelve foundational-research notices posted in August 2026 mostly
+    accept proposals at any time; other solicitations keep deadlines, target dates or windows [192] [156] [189]. MPS Materials
+    counts its one-proposal limit by fiscal year, beginning October 1 [215].
+  who_to_talk_to: Each funding opportunity lists one or more programme officers, and NSF staff hold webinars and office
+    hours [158]. The 2026 core solicitations give a mailbox for each programme, for example bio-fl@nsf.gov and eccs-epmqd@nsf.gov
+    [183] [200]. Policy questions go to policy@nsf.gov and system questions to the Research.gov help desk [165].
+  where_it_posts: 'NSF posts opportunities in its Funding Search at nsf.gov/funding/opportunities, on directorate pages,
+    and on Grants.gov [155]. It publishes four kinds of notice: programme descriptions, programme announcements, programme
+    solicitations and Dear Colleague Letters; it also uses Broad Agency Announcements for some use-inspired work [156] [158].'
+  budget:
+  - amount: $8,750.00 million (enacted, discretionary)
+    fiscal_year: 2026
+    cite:
+    - 255
+    - 173
+  - amount: $4,863.15 million requested, of which $3,963.15 million discretionary and $900.0 million mandatory (request
+      of April 3, 2026; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+    - 171
+  - amount: $8,826.00 million (FY 2025 current plan, as NSF states it)
+    fiscal_year: 2025
+    cite:
+    - 255
+    - 170
+  - amount: $9,060.0 million (FY2025 enacted, as CRS states it)
+    fiscal_year: 2025
+    cite:
+    - 172
+  funding_rates:
+  - rate: 19%
+    fiscal_year: 2025
+    note: 'competitive awards, FY 2025 plan: 38,700 proposals, 7,400 awards'
+    cite:
+    - 255
+  - rate: 18%
+    fiscal_year: 2025
+    note: 'research grants, FY 2025 plan: 32,200 proposals, 5,800 awards'
+    cite:
+    - 255
+  - rate: 8%
+    fiscal_year: 2027
+    note: 'competitive awards under the FY 2027 request (NSF''s estimate): 37,800 proposals, 2,900 awards'
+    cite:
+    - 255
+  - rate: 7%
+    fiscal_year: 2027
+    note: 'research grants under the FY 2027 request (NSF''s estimate): 31,100 proposals, 2,100 awards'
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  policy_guide_note: The Proposal and Award Policies and Procedures Guide NSF 24-1 has applied to proposals submitted or
+    due on or after May 20, 2024, as amended by Supplement 1 (NSF 26-200, awards from December 8, 2025) and Supplement 2
+    (NSF 26-202, awards from January 22, 2026) [147] [149] [150]. Grants also carry the Grant General Conditions dated July
+    31, 2026 [262]. The guide has twelve chapters in two parts, proposals (I–V) and awards (VI–XII) [148].
+  funding_rates_note: NSF publishes proposal, award and funding-rate data by state and institution in dashboards linked
+    from its NSF by the Numbers page, which this sweep could not read [256].
+  programs:
+  - nsf-research-proposal
+  - nsf-rapid
+  - nsf-eager
+  - nsf-raise
+  - nsf-goali
+  - nsf-planning
+  - nsf-conference
+  - nsf-rui-roa
+  - nsf-gcr
+  pending_changes:
+  - status: proposed
+    date: '2026-06-24'
+    text: NSF has proposed to replace the PAPPG with a Guidance on Financial Assistance; comments closed August 24, 2026
+      and NSF's stated goal is to issue it for use in early to mid FY2027 [152] [151].
+  - status: proposed
+    date: '2026-04-03'
+    text: The FY 2027 request asks for $4,863.15 million, proposes to close out SBE and to move the STEM Education account
+      into Research and Related Activities [255]. A secondary source reported in August 2026 that Congress was considering
+      a continuing resolution into December [229].
+  - status: on-appeal
+    date: '2026-08-18'
+    text: The government has asked the Supreme Court to review the Ninth Circuit's May 26, 2026 decision in Thakur v. Trump
+      on terminated NSF, NEH and EPA grants [243] [242].
+  official_url: https://www.nsf.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 155
+  - 167
+  - 152
+  - 157
+  - 160
+  - 149
+  - 168
+  - 246
+  - 154
+  - 165
+  - 192
+  - 158
+  - 156
+  - 255
+  - 173
+  - 172
+  - 147
+  - 150
+  - 262
+  - 169
+  - 177
+  - 189
+  - 215
+  - 183
+  - 200
+  - 170
+  - 171
+  - 229
+  - 243
+  - 242
+  - 151
+  - 148
+  - 256
+  conflicts:
+  - 'FY 2025 appropriation: $8,826.00 million (FY 2025 current plan) [255] [170] vs $9,060.0 million (FY2025 enacted) [172].'
+  sweep: research-B
+- id: nsf-bio
+  name: NSF Directorate for Biological Sciences (BIO)
+  funder_kind: federal
+  parent: nsf
+  what: BIO supports research and education on all forms of life at all scales, from molecules to ecosystems [182].
+  how_it_decides: BIO presents its research in three thematic areas — Foundations of Life, Living Systems, and Bioinnovation
+    and Infrastructure — and its About page lists no divisions [183]. Decisions follow NSF merit review [157].
+  cycle: Core research proposals are accepted at any time under NSF 26-517 [185].
+  who_to_talk_to: 'Each thematic area has a mailbox: bio-fl@nsf.gov, bio-ls@nsf.gov and bio-bi@nsf.gov [183].'
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [182] [155].
+  budget:
+  - amount: $224.89 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-bio-core
+  pending_changes: []
+  official_url: https://www.nsf.gov/bio
+  as_of: '2026-10-04'
+  sources:
+  - 182
+  - 183
+  - 185
+  - 186
+  - 175
+  - 255
+  - 155
+  - 157
+  sweep: research-B
+- id: nsf-cise
+  name: NSF Directorate for Computer and Information Science and Engineering (CISE)
+  funder_kind: federal
+  parent: nsf
+  what: CISE supports fundamental research and education across computer science, information science and computer engineering,
+    including research cyberinfrastructure [188].
+  how_it_decides: CISE presents its work in six thematic science areas, one of them the Office of Advanced Cyberinfrastructure;
+    its pages no longer list divisions [187] [188]. Decisions follow NSF merit review [157].
+  cycle: Core research proposals go to Future CoRe (NSF 25-543), accepted at any time with target dates in February and
+    September [189]. Expeditions runs every other year [191].
+  who_to_talk_to: Programme officers are listed on each opportunity page [158].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [187] [155].
+  budget:
+  - amount: $346.27 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-cise-future-core
+  - nsf-cise-expeditions
+  - nsf-satc
+  - nsf-crcns
+  pending_changes: []
+  official_url: https://www.nsf.gov/cise
+  as_of: '2026-10-04'
+  sources:
+  - 187
+  - 188
+  - 189
+  - 191
+  - 158
+  - 255
+  - 155
+  - 157
+  sweep: research-B
+- id: nsf-eng
+  name: NSF Directorate for Engineering (ENG)
+  funder_kind: federal
+  parent: nsf
+  what: ENG invests in new engineering knowledge and technologies across engineering disciplines [194].
+  how_it_decides: ENG's notice of February 23, 2026 states that four divisions were changed into four sections — Chemical,
+    Biological, Environmental and Transport Systems; Civil, Mechanical and Manufacturing Innovation; Electrical, Communications
+    and Computing Systems; Engineering Education and Centers — beside the Office of Emerging Frontiers and Multidisciplinary
+    Activities [179]. ENG's About page, updated August 27, 2026, still lists six divisions [194]. Decisions follow NSF merit
+    review [157].
+  cycle: The three core solicitations (CBET, CMMI, ECCS) accept proposals at any time [195]. ENG says most of its funding
+    is awarded through these core programmes [195].
+  who_to_talk_to: Each core sub-programme has a mailbox, for example eccs-epmqd@nsf.gov [200]. For RAPID and EAGER the PI
+    first sends a concept outline to the programme director [166].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [193] [155].
+  budget:
+  - amount: $185.20 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-eng-cbet
+  - nsf-eng-cmmi
+  - nsf-eng-eccs
+  - nsf-efri-wbc
+  - nsf-frr
+  - nsf-trailblazer
+  pending_changes: []
+  official_url: https://www.nsf.gov/eng
+  as_of: '2026-10-04'
+  sources:
+  - 193
+  - 194
+  - 179
+  - 195
+  - 166
+  - 200
+  - 255
+  - 155
+  - 157
+  conflicts:
+  - 'Organisation: four sections [179] vs six divisions [194].'
+  sweep: research-B
+- id: nsf-geo
+  name: NSF Directorate for Geosciences (GEO)
+  funder_kind: federal
+  parent: nsf
+  what: GEO invests in research, education and infrastructure on the Earth, oceans, atmosphere and geospace, and in polar
+    research [203] [207].
+  how_it_decides: GEO's notice of February 10, 2026 refers to its realignment from divisions to sections [180]. Its About
+    page names three core areas — atmospheric and geospace sciences, Earth sciences, ocean sciences — and polar programmes
+    have Arctic and Antarctic sections [203] [207]. Decisions follow NSF merit review [157].
+  cycle: Core research proposals are accepted at any time under NSF 26-516 [206].
+  who_to_talk_to: Programme officers are listed on each opportunity page [158].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [202] [155].
+  budget:
+  - amount: $426.32 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-geo-core
+  pending_changes: []
+  official_url: https://www.nsf.gov/geo
+  as_of: '2026-10-04'
+  sources:
+  - 202
+  - 203
+  - 180
+  - 206
+  - 207
+  - 204
+  - 158
+  - 255
+  - 155
+  - 157
+  sweep: research-B
+- id: nsf-mps
+  name: NSF Directorate for Mathematical and Physical Sciences (MPS)
+  funder_kind: federal
+  parent: nsf
+  what: MPS supports fundamental research in astronomical sciences, chemistry, materials, mathematical sciences and physics,
+    with centres and facilities [208] [209].
+  how_it_decides: MPS's five divisions were realigned into five sections — Astronomical Sciences, Chemistry, Materials Research,
+    Mathematical Sciences, Physics — each with a section head [177] [178]. MPS says the merit-review changes keep the existing
+    criteria and give programme officers new flexibilities [177].
+  cycle: Five research-programme solicitations posted August 13, 2026 accept proposals at any time; chemistry from September
+    1, 2026 [208] [213].
+  who_to_talk_to: Each programme has a mailbox, for example chem-cat@nsf.gov and astro-core@nsf.gov [213] [219].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [208] [155].
+  budget:
+  - amount: $515.28 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-mps-astro
+  - nsf-mps-chem
+  - nsf-mps-materials
+  - nsf-mps-mathsci
+  - nsf-mps-physics
+  - nsf-cdse
+  - nsf-dmref
+  pending_changes: []
+  official_url: https://www.nsf.gov/mps
+  as_of: '2026-10-04'
+  sources:
+  - 208
+  - 209
+  - 177
+  - 178
+  - 210
+  - 213
+  - 219
+  - 255
+  - 155
+  - 157
+  sweep: research-B
+- id: nsf-sbe
+  name: NSF Directorate for Social, Behavioral and Economic Sciences (SBE)
+  funder_kind: federal
+  parent: nsf
+  what: SBE supports basic research on people and society and houses the National Center for Science and Engineering Statistics
+    [221]. Its About page, last updated September 15, 2025, says it provides 63% of the funding for all academic research
+    in the social and psychological sciences in the U.S. [222].
+  how_it_decides: SBE's own pages still show the Behavioral and Cognitive Sciences and Social and Economic Sciences groupings
+    [222] [223]. Secondary sources report a move to sections in December 2025 and give different counts of them [175] [176].
+    Decisions follow NSF merit review [157].
+  cycle: On 2026-10-04 the SBE programme pages read showed no upcoming due dates and said each programme was waiting for
+    a new publication [224] [226] [225].
+  who_to_talk_to: Programme pages give a contact, for example sbe-pac@nsf.gov [225].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [221] [155].
+  budget:
+  - amount: $0 (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-sbe-core-programs
+  pending_changes:
+  - status: proposed
+    date: '2026-04-03'
+    text: The FY 2027 request states that NSF will close out the directorate in FY 2027 and transfer continuing grants that
+      align with Administration priorities to other parts of the agency [255].
+  official_url: https://www.nsf.gov/sbe
+  as_of: '2026-10-04'
+  sources:
+  - 221
+  - 222
+  - 223
+  - 224
+  - 226
+  - 225
+  - 175
+  - 176
+  - 227
+  - 228
+  - 255
+  - 155
+  - 157
+  conflicts:
+  - 'Number of SBE sections after December 2025: five sections plus NCSES [175] vs four named sections [176].'
+  sweep: research-B
+- id: nsf-edu
+  name: NSF Directorate for STEM Education (EDU)
+  funder_kind: federal
+  parent: nsf
+  what: EDU funds STEM education and education research for all age groups, including scholarships, fellowships and informal
+    learning [230] [167].
+  how_it_decides: EDU's notice of February 17, 2026 states that its four divisions were realigned into two clusters, STEM
+    Workforce and Talent Development and STEM Education Research and Innovation [181]. Decisions follow NSF merit review
+    [157].
+  cycle: EDU programmes keep their own deadlines; EDU Core Research showed no upcoming due date on 2026-10-04 [231] [232].
+  who_to_talk_to: Programme officers are listed on each opportunity page [158].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [230] [155].
+  budget:
+  - amount: $427.68 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs:
+  - nsf-edu-ecr-core
+  pending_changes:
+  - status: proposed
+    date: '2026-04-03'
+    text: The FY 2027 request proposes to consolidate the STEM Education appropriation account into Research and Related
+      Activities [255].
+  official_url: https://www.nsf.gov/edu
+  as_of: '2026-10-04'
+  sources:
+  - 230
+  - 181
+  - 231
+  - 232
+  - 167
+  - 158
+  - 255
+  - 155
+  - 157
+  sweep: research-B
+- id: nsf-tip
+  name: NSF Directorate for Technology, Innovation and Partnerships (TIP)
+  funder_kind: federal
+  parent: nsf
+  what: TIP funds use-inspired and translational work in critical and emerging technologies, regional innovation and workforce
+    development [234] [235]. The programmes it names — America's Seed Fund, I-Corps, Regional Innovation Engines, Accelerating
+    Research Translation — fall outside the research-project family [234] [236].
+  how_it_decides: TIP's pages present three strategies and no internal divisions [235]. Decisions follow NSF merit review
+    [157].
+  cycle: TIP programmes keep their own deadlines [236].
+  who_to_talk_to: Programme officers are listed on each opportunity page [158].
+  where_it_posts: Opportunities appear on the directorate's pages and in the NSF Funding Search [234] [155].
+  budget:
+  - amount: $350.00 million (FY 2027 request; not enacted)
+    fiscal_year: 2027
+    cite:
+    - 255
+  policy_guide: https://www.nsf.gov/policies/pappg
+  programs: []
+  pending_changes: []
+  official_url: https://www.nsf.gov/tip/latest
+  as_of: '2026-10-04'
+  sources:
+  - 234
+  - 235
+  - 236
+  - 276
+  - 158
+  - 255
+  - 155
+  - 157
+  sweep: research-B
+- id: doe
+  name: U.S. Department of Energy (as a research grant-maker)
+  funder_kind: federal
+  parent: none (cabinet department)
+  what: DOE makes research grants and cooperative agreements through several offices that work differently. The Office of
+    Science funds basic research under its own regulation [287]; ARPA-E funds technology programmes by notice [301]; the
+    applied offices post notices on eXCHANGE with cost share [307] [299]; and NNSA funds academic research through its academic
+    programmes [312].
+  how_it_decides: Each office reviews against the criteria in its own notice. DOE's 2 CFR 910 implements the governmentwide
+    rules, and 10 CFR 605 adds the Office of Science's own [285]. Under a February 19, 2026 policy flash, funding announcements
+    are reviewed as Executive Order 14332 requires [314] [315].
+  cycle: 'No single cycle: the Office of Science posts its annual notice at the end of September; other notices are issued
+    as needed [277] [282].'
+  who_to_talk_to: For the Office of Science, the programme manager contact listed in the notice [281]. ARPA-E takes questions
+    by the dates in each notice [301].
+  where_it_posts: Office of Science notices on science.osti.gov and Grants.gov [282] [364]; ARPA-E and applied-office notices
+    on the consolidated DOE eXCHANGE and office eXCHANGE sites [305] [307].
+  budget:
+  - amount: $8,250,000,000 (Office of Science, shown as FY 2026 enacted)
+    fiscal_year: 2026
+    cite:
+    - 297
+  - amount: $7,138,815,000 (Office of Science, request)
+    fiscal_year: 2027
+    cite:
+    - 297
+  - amount: $350,000,000 (ARPA-E, enacted)
+    fiscal_year: 2026
+    cite:
+    - 297
+  - amount: $200,292,000 (ARPA-E, request)
+    fiscal_year: 2027
+    cite:
+    - 297
+  policy_guide: https://www.ecfr.gov/current/title-2/subtitle-B/chapter-IX/part-910
+  programs:
+  - doe-sc-annual-foa
+  - doe-sc-targeted-notices
+  - doe-arpa-e-program-notices
+  - doe-applied-office-notices
+  - doe-nnsa-ssaa
+  pending_changes:
+  - status: final
+    date: '2026-01-27'
+    text: DOE withdrew its 2025 policy flashes that set indirect cost rates at 15 percent or capped them, citing Section
+      313 of the FY 2026 appropriations act [289].
+  - status: pending-implementation
+    date: '2026-02-19'
+    text: DOE said a later letter would cover its review of discretionary awards under Executive Order 14332 [314].
+  official_url: https://www.energy.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 287
+  - 299
+  - 285
+  - 289
+  - 314
+  - 315
+  - 297
+  - 307
+  - 305
+  - 301
+  - 312
+  - 282
+  - 364
+  - 277
+  - 278
+  sweep: research-C
+- id: doe-sc
+  name: DOE Office of Science
+  funder_kind: federal
+  parent: DOE
+  what: The Office of Science funds basic research in the physical sciences, computing, biology and environment, fusion,
+    high energy physics, nuclear physics and isotopes, at universities, non-profits, firms and its national laboratories
+    [277] [287]. DOE describes it as the nation's largest supporter of basic research in the physical sciences and the steward
+    of 10 national laboratories [367].
+  how_it_decides: A programme manager screens each application and sends it to at least three reviewers; a selection official
+    decides, weighing the reviews, relevance to the mission, available funds and cost [286]. The criteria are fixed by 10
+    CFR 605.10 in descending order of importance [287].
+  cycle: The annual open notice is posted at the end of September and stays open for the fiscal year; individual topics
+    may hold scheduled review panels [277]. Targeted notices carry their own dates [282].
+  who_to_talk_to: The programme manager for the topic; the notice lists programme manager contacts by programme office and
+    strongly encourages pre-applications [281].
+  where_it_posts: science.osti.gov/grants/FOAs/Open and Grants.gov [282] [364].
+  budget:
+  - amount: $8,240,000 thousand (enacted)
+    fiscal_year: 2025
+    cite:
+    - 296
+  - amount: $8,250,000 thousand (shown as enacted)
+    fiscal_year: 2026
+    cite:
+    - 296
+  - amount: $8.40 billion (enacted, as reported by an association)
+    fiscal_year: 2026
+    cite:
+    - 298
+  - amount: $7,138,815 thousand (request)
+    fiscal_year: 2027
+    cite:
+    - 296
+  policy_guide: https://www.ecfr.gov/current/title-10/chapter-II/subchapter-H/part-605
+  programs:
+  - doe-sc-annual-foa
+  - doe-sc-targeted-notices
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: 'FY 2027 request by programme, in thousands, against FY 2026 enacted: ASCR 1,104,446 against 1,116,328; BES 2,146,137
+      against 2,528,486; BER 395,967 against 854,000; FES 755,251 against 805,657; HEP 1,120,458 against 1,235,156; NP 791,434
+      against 866,141 [296].'
+  official_url: https://science.osti.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 277
+  - 278
+  - 281
+  - 287
+  - 286
+  - 282
+  - 364
+  - 296
+  - 298
+  - 367
+  - 363
+  sweep: research-C
+- id: doe-arpa-e
+  name: Advanced Research Projects Agency–Energy (ARPA-E)
+  funder_kind: federal
+  parent: DOE
+  what: ARPA-E funds energy technology research through programme notices, mostly by cooperative agreement, with teams that
+    may include universities, non-profits, firms and laboratories [301]. Its own web pages returned no readable text in
+    this sweep, so this record rests on its notices [301] [302].
+  how_it_decides: 'In stages: concept paper, full application, reviewer comments and the applicant''s reply, then selection
+    and negotiation [301]. Notices print weighted criteria; in OPEN 2018 impact, merit and team each carried 30% and the
+    management plan 10% [303].'
+  cycle: By programme; no fixed yearly calendar was found [301].
+  who_to_talk_to: Questions go to ARPA-E by the dates in each notice, and answers are published in a question-and-answer
+    file [301] [302].
+  where_it_posts: The consolidated DOE eXCHANGE at exchange.energy.gov; the former ARPA-E eXCHANGE address shows a decommission
+    notice [305] [306]. Notices also appear on Grants.gov [304].
+  budget:
+  - amount: $350,000,000 (enacted)
+    fiscal_year: 2026
+    cite:
+    - 297
+  - amount: $200,292,000 (request)
+    fiscal_year: 2027
+    cite:
+    - 297
+  programs:
+  - doe-arpa-e-program-notices
+  pending_changes:
+  - status: final
+    date: '2025-10-01'
+    text: DOE named ARPA-E among the offices whose awards were in the termination of 321 financial awards announced October
+      1, 2025 [308].
+  official_url: https://arpa-e.energy.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 301
+  - 302
+  - 303
+  - 305
+  - 306
+  - 304
+  - 297
+  - 308
+  sweep: research-C
+- id: dod-onr
+  name: Office of Naval Research (ONR)
+  funder_kind: federal
+  parent: Department of the Navy, Department of Defense (styled Department of War on some pages)
+  what: ONR, founded in 1946, funds science and technology research for the Navy and Marine Corps through five science departments
+    [337]. Universities, non-profits and commercial entities may receive its grants [336].
+  how_it_decides: Programme officers assess white papers and proposals against scientific and technical merit, Naval relevance
+    and available funds, stated as equally important [334].
+  cycle: The long-range announcement is open continuously; special announcements such as MURI have yearly dates [316] [335].
+  who_to_talk_to: The cognizant ONR programme officer for the technology area, before a white paper is written [334].
+  where_it_posts: SAM.gov and Grants.gov, with a running list on ONR's own announcements page [318] [335].
+  budget: []
+  policy_guide: https://www.onr.navy.mil/work-with-us/manage-your-award/manage-grant-award/grants-terms-conditions
+  programs:
+  - dod-onr-long-range-baa
+  - dod-muri
+  pending_changes: []
+  official_url: https://www.onr.navy.mil/
+  as_of: '2026-10-04'
+  sources:
+  - 337
+  - 336
+  - 334
+  - 316
+  - 335
+  - 318
+  - 338
+  - 402
+  sweep: research-C
+- id: dod-afosr
+  name: Air Force Office of Scientific Research (AFOSR)
+  funder_kind: federal
+  parent: Air Force Research Laboratory, Department of the Air Force
+  what: AFOSR plans and runs the Air Force Research Laboratory's basic research programme [320]. It reports 1,200 grants
+    at more than 200 academic institutions [340].
+  how_it_decides: Programme officers in two science departments manage the research areas and review proposals under the
+    open announcement [320] [339].
+  cycle: One open announcement, replaced when superseded; the FY 2025 announcement closed on March 23, 2026 and the next
+    was posted June 4, 2026 [319] [320].
+  who_to_talk_to: The programme officer for the research area named in the announcement; the announcement mailbox is afosr.baa@us.af.mil
+    [339] [320].
+  where_it_posts: Grants.gov [322].
+  budget: []
+  programs:
+  - dod-afosr-open-baa
+  - dod-muri
+  pending_changes: []
+  official_url: https://www.afrl.af.mil/AFOSR/
+  as_of: '2026-10-04'
+  sources:
+  - 340
+  - 320
+  - 339
+  - 319
+  - 322
+  sweep: research-C
+- id: dod-aro
+  name: Army Research Office (ARO), DEVCOM Army Research Laboratory
+  funder_kind: federal
+  parent: U.S. Army Combat Capabilities Development Command, Department of the Army
+  what: ARO is the Army's extramural basic research arm; it was founded in 1951 and works with more than 7,000 researchers
+    and 300 institutions of higher learning [342]. Its awards are made mainly as grants and cooperative agreements [341].
+  how_it_decides: Against scientific and technical merit, contribution to the Army mission, and the qualifications of the
+    investigators [341].
+  cycle: Year-round under the ARL broad agency announcement, open to November 20, 2027 [324] [342].
+  who_to_talk_to: An ARL technical point of contact or ARO programme manager, before a whitepaper [341] [342].
+  where_it_posts: Grants.gov and the ARL announcement page [324] [323].
+  budget: []
+  programs:
+  - dod-aro-arl-baa
+  - dod-muri
+  pending_changes: []
+  official_url: https://arl.devcom.army.mil/who-we-are/aro/
+  as_of: '2026-10-04'
+  sources:
+  - 342
+  - 341
+  - 324
+  - 323
+  sweep: research-C
+- id: dod-darpa
+  name: Defense Advanced Research Projects Agency (DARPA)
+  funder_kind: federal
+  parent: Department of Defense (DARPA writes Department of War)
+  what: DARPA describes itself as an independent research and development agency within the U.S. Department of War, with
+    six technical offices [343]. It funds universities among others, through programme solicitations and office-wide announcements
+    [345] [344].
+  how_it_decides: Programme managers define programmes and choose performers; office-wide announcements take ideas outside
+    current programmes [343] [344].
+  cycle: Each office keeps an office-wide announcement open for about a year or more; programme solicitations appear as
+    programmes start [347] [344].
+  who_to_talk_to: Programme managers, reached at Proposers Day events; DARPAConnect offers proposal support [345].
+  where_it_posts: SAM.gov and Grants.gov, linked from DARPA's site [344] [347].
+  budget:
+  - amount: $4.322 billion (enacted)
+    fiscal_year: 2026
+    cite:
+    - 343
+  - amount: $5.039 billion (request)
+    fiscal_year: 2027
+    cite:
+    - 343
+  programs:
+  - dod-darpa-office-wide-baa
+  pending_changes: []
+  official_url: https://www.darpa.mil/
+  as_of: '2026-10-04'
+  sources:
+  - 343
+  - 345
+  - 344
+  - 347
+  sweep: research-C
+- id: dod-basic-research-office
+  name: Basic Research Office, Office of the Under Secretary of Defense for Research and Engineering
+  funder_kind: federal
+  parent: Department of Defense (styled Department of War on some pages)
+  what: The Basic Research Office describes itself as working with academia, industry and government partners to shape priorities
+    in scientific investment areas, and as overseeing programmes across the components and universities [349]. The cross-service
+    university programmes in this sweep, MURI and Minerva, sit under it; the service research offices issue the MURI announcement
+    and make the awards [325] [329].
+  how_it_decides: For MURI, each topic's Research Topic Chief in ONR, ARO or AFOSR assesses white papers and proposals against
+    the announcement's criteria [325].
+  cycle: MURI runs once a year; the FY 2027 announcement was posted September 21, 2026 [326].
+  who_to_talk_to: The Research Topic Chief named for the MURI topic [325].
+  where_it_posts: Grants.gov, under the announcement numbers of the three service offices [325] [326].
+  budget: []
+  programs:
+  - dod-muri
+  - dod-minerva
+  pending_changes: []
+  official_url: https://basicresearch.defense.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 349
+  - 327
+  - 325
+  - 326
+  - 329
+  sweep: research-C
+- id: dod-cdmrp
+  name: Congressionally Directed Medical Research Programs (CDMRP)
+  funder_kind: federal
+  parent: Defense Health Agency Research and Development – Medical Research and Development Command, Department of Defense
+    (styled Department of War in FY26 announcements)
+  what: CDMRP began in 1992 with a congressional appropriation and funds biomedical research in programmes named by Congress
+    [350]. Its money is added by Congress each year and is not in the President's budget request [351]. Universities, medical
+    schools, non-profits, firms and foreign organisations may apply as extramural organisations [330].
+  how_it_decides: 'Two tiers: peer review for scientific merit and impact, then programmatic review for fit with the programme''s
+    vision and portfolio; consumer reviewers vote in both [352].'
+  cycle: 'Yearly, following the defense appropriation. FY 2025: $650 million for 12 programmes under a full-year continuing
+    resolution signed March 15, 2025 [353]. FY 2026: $1.27 billion for 34 programmes under an act signed February 3, 2026
+    [295].'
+  who_to_talk_to: The eBRAP help desk, (301) 682-5507 or help@eBRAP.org, for questions on announcements and submission [358]
+    [331].
+  where_it_posts: The CDMRP website, Grants.gov and eBRAP [295].
+  budget:
+  - amount: $650 million (12 programmes)
+    fiscal_year: 2025
+    cite:
+    - 353
+  - amount: $1.27 billion (34 programmes)
+    fiscal_year: 2026
+    cite:
+    - 295
+  policy_guide: https://ebrap.org/eBRAP/public/gai.htm?version=CD26_01
+  programs:
+  - dod-cdmrp-program-announcements
+  - dod-cdmrp-prmrp
+  pending_changes: []
+  official_url: https://cdmrp.health.mil/
+  as_of: '2026-10-04'
+  sources:
+  - 350
+  - 351
+  - 352
+  - 353
+  - 295
+  - 330
+  - 358
+  - 331
+  - 355
+  sweep: research-C
+- id: nasa-smd
+  name: NASA Science Mission Directorate (SMD)
+  funder_kind: federal
+  parent: NASA
+  what: The directorate funds research in Earth science, planetary science, astrophysics, heliophysics, and biological and
+    physical sciences [399] [390]. Most research grants come through the yearly ROSES solicitation [371]. Awards are issued
+    and managed by the NASA Shared Services Center [379].
+  how_it_decides: Peer review by subject experts against intrinsic merit, programmatic relevance and cost reasonableness,
+    with a selection official deciding [386]. Dual-anonymous peer review is the default under ROSES-2025 [375]. NASA posts
+    ROSES selection statistics; the newest files are dated July 2025 [378].
+  cycle: One ROSES a year, amended through the year. ROSES-2025 was released July 10, 2025; ROSES-2026 was announced for
+    July 2026 and had not been found released on the sweep date [372] [294] [395].
+  who_to_talk_to: The programme officer for the programme element, from the directorate's list, last updated September 18,
+    2026 [390].
+  where_it_posts: NSPIRES, with a running page on science.nasa.gov and listings on Grants.gov [371] [394].
+  budget:
+  - amount: $7,334.2 million (Science, enacted)
+    fiscal_year: 2025
+    cite:
+    - 396
+  - amount: $7,250.0 million (Science, enacted)
+    fiscal_year: 2026
+    cite:
+    - 396
+  - amount: $3,893.9 million (Science, request)
+    fiscal_year: 2027
+    cite:
+    - 396
+    - 397
+    - 398
+  policy_guide: https://www.nasa.gov/wp-content/uploads/2025/03/gcam-mar-2025.pdf
+  programs:
+  - nasa-roses
+  - nasa-roses-flexible-due-date
+  pending_changes:
+  - status: final
+    date: '2026-01-14'
+    text: 'NASA changed its award terms under Executive Order 14332: an award may be terminated when it no longer effectuates
+      programme goals or agency priorities, and recipients justify each payment request [382].'
+  - status: final
+    date: '2026-08-05'
+    text: Research security training became a condition of proposing on August 5, 2026 [383].
+  official_url: https://science.nasa.gov/researchers/
+  as_of: '2026-10-04'
+  sources:
+  - 399
+  - 390
+  - 371
+  - 379
+  - 386
+  - 375
+  - 372
+  - 294
+  - 395
+  - 394
+  - 396
+  - 382
+  - 383
+  - 380
+  sweep: research-C
+- id: usda-nifa
+  name: National Institute of Food and Agriculture
+  funder_kind: federal
+  parent: USDA
+  what: 'USDA''s extramural funding agency for agricultural research, education and extension. It has three kinds of funding:
+    competitive grants; capacity grants to land-grant institutions, schools of forestry and schools of veterinary medicine;
+    and non-competitive grants directed by Congress. Its largest competitive programme is the Agriculture and Food Research
+    Initiative [422] [406].'
+  how_it_decides: Peer review panels rank applications against criteria published with each notice; NIFA's regulation requires
+    scientific peer review or merit review and gives applicants their reviews without reviewer names. After review the Project
+    Director is told of a recommendation, a pre-award administrative review follows, Awards Management approves the award
+    and sets terms, and Financial Management approves the funding. FY 2026 notices add that projects are to align with the
+    five priorities in Secretary's Memorandum 1078-020 [422] [416] [409] [412] [418].
+  cycle: One notice per programme per fiscal year. For FY 2026 the AFRI Foundational and Applied Science notice was posted
+    August 1, 2025 with December 2025 deadlines; Strengthening Agricultural Systems was posted January 29, 2026; Organic
+    Agriculture Research and Extension March 11, 2026; Specialty Crop Research Initiative April 13, 2026. FY 2027 AFRI deadlines
+    are to be announced in the FY 2027 notices [408] [424].
+  who_to_talk_to: Each programme area priority has its own contact address (for example A1102@usda.gov), and each notice
+    names programme contacts; the AFRI Coordination Team is the general AFRI contact. Application questions go to GrantApplicationQuestions@usda.gov
+    [404] [403] [421].
+  where_it_posts: On its own funding opportunities page and on Grants.gov, through which applications are submitted [408]
+    [409].
+  budget:
+  - amount: $445.2 million for AFRI (Consolidated Appropriations Act of 2024, as shown on the AFRI page)
+    fiscal_year: 2024
+    cite:
+    - 406
+  - amount: approximately $300,000,000 offered in the AFRI Foundational and Applied Science notice and approximately $140,000,000
+      in the Strengthening Agricultural Systems notice (notice totals, not appropriations)
+    fiscal_year: 2026
+    cite:
+    - 404
+    - 412
+  policy_guide: https://www.nifa.usda.gov/grants/regulations-and-guidelines/terms-conditions
+  programs:
+  - nifa-afri-fas
+  - nifa-afri-sas
+  - nifa-scri
+  - nifa-orei
+  pending_changes:
+  - status: proposed
+    date: '2026'
+    text: USDA's FY 2027 Budget Summary proposes a cut of $510 million to NIFA formula grants, described as a move to a
+      more competitive funding model [426].
+  official_url: https://www.nifa.usda.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 422
+  - 406
+  - 416
+  - 409
+  - 408
+  - 424
+  - 425
+  - 418
+  - 426
+  - 421
+  - 404
+  - 412
+  - 403
+  sweep: research-D
+- id: usda-ars
+  name: Agricultural Research Service
+  funder_kind: federal
+  parent: USDA
+  what: 'USDA''s in-house research agency. It is not a grant competition funder in the usual sense: it works with outside
+    institutions mainly through non-assistance cooperative agreements under 7 CFR part 550, entered without competition
+    where a cooperator and the agency share an interest in the research [428] [427].'
+  how_it_decides: By agreement between the agency and a cooperator rather than by a public competition; the rule exempts
+    these agreements from competition requirements [428].
+  who_to_talk_to: The Financial Management and Agreements Division publishes partnership resources for cooperators and points
+    of contact [427].
+  programs:
+  - usda-ars-non-assistance-cooperative-agreement
+  pending_changes:
+  - status: announced
+    date: '2025-07-24'
+    text: Secretary's Memorandum 1078-015 states that ARS will eliminate its Area Offices, with residual functions performed
+      by its Office of National Programs, and that the Beltsville Agricultural Research Center will be vacated over multiple
+      years [419].
+  official_url: https://www.ars.usda.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 428
+  - 427
+  - 419
+  sweep: research-D
+- id: usda-forest-service-rd
+  name: Forest Service Research and Development
+  funder_kind: federal
+  parent: USDA
+  what: Recorded in outline only. The Forest Service's grants and agreements page sends applicants to Grants.gov and to
+    regional contacts and does not describe a research grant programme for outside institutions; no such programme was confirmed
+    on a primary page in this sweep [429].
+  where_it_posts: Grants.gov [429].
+  programs: []
+  pending_changes:
+  - status: announced
+    date: '2025-07-24'
+    text: Secretary's Memorandum 1078-015 states that the Forest Service's stand-alone Research Stations will be consolidated
+      into a single location in Fort Collins, Colorado [419].
+  official_url: https://www.fs.usda.gov/working-with-us/grants
+  as_of: '2026-10-04'
+  sources:
+  - 429
+  - 419
+  sweep: research-D
+- id: noaa
+  name: National Oceanic and Atmospheric Administration
+  funder_kind: federal
+  parent: Department of Commerce
+  what: 'NOAA funds outside research through several offices: the Office of Oceanic and Atmospheric Research (the Climate
+    Program Office, the Weather Program Office, Sea Grant, Ocean Exploration and the Cooperative Institutes), the National
+    Ocean Service (the NCCOS Competitive Research Program) and NOAA Fisheries. The research office works through ten laboratories,
+    16 Cooperative Institutes and 34 Sea Grant programmes [444] [430] [442] [437].'
+  how_it_decides: 'Each notice sets its own merit review. The two 2026 research notices read differ: the Climate Program
+    Office notice uses a peer panel of 4-7 NOAA employees, while the NCCOS notice uses mail review by individual experts
+    followed by an independent peer panel. In both, a Selection Official awards in rank order unless a published selection
+    factor (funding, balance, duplication, programme priorities, past performance) justifies another order. Both notices
+    cite Executive Orders 14173, 14281 and 14303 [432] [477].'
+  cycle: No single calendar. In 2026 the research notices found were posted on May 5-6 (RISA), September 11 (Earth System
+    Science and Services Partnership), August 24 (bycatch reduction) and September 25 (NCCOS). The annual Climate Program
+    Office and Weather Program Office programme competitions last posted in 2024 [434] [431] [475] [480].
+  who_to_talk_to: Each notice names a competition or programme manager and a grants specialist. The research office's broad
+    agency announcement told applicants to contact programme staff in the relevant line office before submitting [431] [478].
+  where_it_posts: On Grants.gov, with office pages (Climate Program Office, Sea Grant, NCCOS, NOAA Fisheries) carrying their
+    own notices. Applicants register in SAM.gov, Grants.gov and eRA Commons, which replaced Grants Online for applications
+    submitted after January 1, 2024 [448] [447].
+  budget:
+  - amount: $5,634,615 thousand NOAA discretionary appropriations (enacted)
+    fiscal_year: 2026
+    cite:
+    - 445
+  - amount: $6.171 billion total NOAA funding (enacted, H.R. 6938, signed January 23, 2026), as stated on the NOAA Research
+      budget page
+    fiscal_year: 2026
+    cite:
+    - 443
+  - amount: $649 million for Oceanic and Atmospheric Research (enacted), as stated in the House hearing charter
+    fiscal_year: 2026
+    cite:
+    - 444
+  - amount: $604,691 thousand for Oceanic and Atmospheric Research (enacted), as returned from the FY 2027 justification
+    fiscal_year: 2026
+    cite:
+    - 445
+  - amount: $4,540,824 thousand NOAA discretionary request; $0 for Oceanic and Atmospheric Research (requested, not enacted)
+    fiscal_year: 2027
+    cite:
+    - 445
+    - 444
+  policy_guide: https://www.noaa.gov/organization/acquisition-grants/financial-assistance
+  programs:
+  - noaa-cpo-esssp
+  - noaa-cpo-risa
+  - noaa-oar-programme-competitions
+  - noaa-oar-baa
+  - noaa-sea-grant-research
+  - noaa-cooperative-institutes
+  - noaa-nccos-crp
+  - noaa-ocean-exploration-grants
+  - noaa-fisheries-saltonstall-kennedy
+  - noaa-fisheries-brep
+  pending_changes:
+  - status: proposed
+    date: '2026-04-28'
+    text: The FY 2027 budget request proposes to end the Office of Oceanic and Atmospheric Research as a line office, moving
+      ocean and coastal research to the National Ocean Service and weather research to the National Weather Service, and
+      lists terminations of Climate Competitive Research, Climate and Ocean Laboratories and Cooperative Institutes, and
+      the National Sea Grant College Program. This is a request, not enacted law [445] [444].
+  official_url: https://www.noaa.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 444
+  - 445
+  - 443
+  - 430
+  - 432
+  - 477
+  - 448
+  - 447
+  - 475
+  - 480
+  - 434
+  - 431
+  - 478
+  - 442
+  - 437
+  sweep: research-D
+- id: epa-ord
+  name: Environmental Protection Agency research grants (Office of Research and Development and successor)
+  funder_kind: federal
+  parent: EPA
+  what: EPA has funded outside research mainly through the Science to Achieve Results (STAR) programme and the P3 student
+    design competition. On the sweep date its research funding page lists no open opportunity. EPA announced on July 18,
+    2025 a reduction in force affecting the Office of Research and Development and a new Office of Applied Science and Environmental
+    Solutions. EPA's page about the Office of Research and Development (updated October 15, 2025) still describes it, while
+    the headquarters office list updated September 9, 2026 shows neither office as returned by the fetch. Which EPA office
+    now runs research grants was not found on a primary page [451] [452] [454] [455] [456].
+  how_it_decides: EPA describes STAR as competitive and peer-reviewed; the review procedure is not set out on the pages
+    read [453].
+  cycle: Topic-specific requests for applications when issued. The last STAR research notice on Grants.gov was posted July
+    31, 2024; none is open or forecast [461] [503].
+  who_to_talk_to: Past STAR notices named a technical contact, an eligibility contact and an electronic submissions contact
+    [462].
+  where_it_posts: On its Research Funding Opportunities page and on Grants.gov [452] [461].
+  budget:
+  - amount: $744,195 thousand for the Science and Technology account (enacted operating plan)
+    fiscal_year: 2026
+    cite:
+    - 458
+  - amount: $508,385 thousand for the Science and Technology account (requested, not enacted)
+    fiscal_year: 2027
+    cite:
+    - 458
+  - amount: $8.8 billion EPA total (enacted)
+    fiscal_year: 2026
+    cite:
+    - 459
+  - amount: $4.203 billion EPA total (requested, not enacted)
+    fiscal_year: 2027
+    cite:
+    - 459
+  policy_guide: https://www.epa.gov/grants/grant-terms-and-conditions
+  programs:
+  - epa-star
+  pending_changes:
+  - status: announced
+    date: '2025-07-18'
+    text: EPA announced a reduction in force affecting the Office of Research and Development and the creation of the Office
+      of Applied Science and Environmental Solutions [454].
+  official_url: https://www.epa.gov/research-grants
+  as_of: '2026-10-04'
+  sources:
+  - 451
+  - 452
+  - 453
+  - 454
+  - 455
+  - 456
+  - 458
+  - 459
+  - 473
+  - 461
+  - 503
+  - 462
+  - 457
+  sweep: research-D
+- id: nist
+  name: National Institute of Standards and Technology
+  funder_kind: federal
+  parent: Department of Commerce
+  what: NIST's laboratories fund outside research in measurement science and standards as grants or cooperative agreements,
+    mainly through one multi-laboratory notice (the Measurement Science and Engineering Research Grant Programs) and small
+    named programmes such as the Precision Measurement Grant Program [465] [471].
+  how_it_decides: Each laboratory or programme reviews applications against criteria in the notice, with a named selecting
+    official. The Precision Measurement notice uses at least three and up to eight independent reviewers and names a division
+    chief as selecting official; the Information Technology Laboratory scores on four criteria for 30 points [471] [467].
+  cycle: The measurement science notice took applications on a rolling basis until an amendment of June 9, 2026 set a final
+    deadline of September 15, 2026. The Precision Measurement notice is annual (posted February 23, 2026). No research grant
+    notice from NIST is open or forecast on the sweep date [464] [471] [470].
+  who_to_talk_to: The measurement science notice names a contact for each laboratory and office, and each named programme
+    notice names a technical contact [465] [471].
+  where_it_posts: On Grants.gov; NIST states that official notices of solicitations are found there [468] [470].
+  budget:
+  - amount: $1,460.0 million total NIST discretionary; $1,080.0 million Scientific and Technical Research and Services (enacted)
+    fiscal_year: 2024
+    cite:
+    - 469
+  programs:
+  - nist-mse
+  - nist-pmgp
+  pending_changes: []
+  official_url: https://www.nist.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 465
+  - 464
+  - 471
+  - 467
+  - 468
+  - 470
+  - 469
+  sweep: research-D
+- id: usgs
+  name: US Geological Survey
+  funder_kind: federal
+  parent: Department of the Interior
+  what: USGS funds outside research that complements its own programmes. The competitive lines found are the Earthquake
+    Hazards Program's external research support, the Water Resources Research Act Program run through 54 state institutes,
+    host agreements for the Climate Adaptation Science Centers, and agreements with partners of the Cooperative Ecosystem
+    Studies Units [490] [481] [483] [489] [487].
+  how_it_decides: For earthquake hazards research, panels review proposals and sort them into funded, recommended but unfunded,
+    and not recommended. Review for the other programmes is not described on the pages read [481].
+  cycle: The earthquake hazards announcement is annual (posted April 29, 2026 for FY 2027, due June 4, 2026). Water resources
+    notices post when approved; the FY2026 general competitive notice posted September 30, 2026 [482] [486] [484].
+  who_to_talk_to: For earthquake hazards, the External Research Manager and the regional and topical coordinators. For water
+    resources, the director of the state Water Resources Research Institute [481] [485].
+  where_it_posts: On Grants.gov [481] [487].
+  policy_guide: https://www.usgs.gov/office-of-acquisition-and-grants/financial-assistance
+  programs:
+  - usgs-ehp-external-grants
+  - usgs-wrri-104g
+  - usgs-casc-host
+  pending_changes: []
+  official_url: https://www.usgs.gov/
+  as_of: '2026-10-04'
+  sources:
+  - 490
+  - 481
+  - 483
+  - 484
+  - 485
+  - 482
+  - 486
+  - 489
+  - 487
+  sweep: research-D
+- id: dot
+  name: Department of Transportation research grants (Office of the Assistant Secretary for Research and Technology and
+    operating administrations)
+  funder_kind: federal
+  parent: Department of Transportation
+  what: DOT's main university research programme is the University Transportation Centers Program, run by the Office of
+    the Assistant Secretary for Research and Technology under 49 U.S.C. 5505. The Federal Aviation Administration keeps
+    a standing aviation research grants announcement [493] [498].
+  how_it_decides: For University Transportation Centers, subject matter experts from the research community and DOT rate
+    applications against five statutory criteria, and the Secretary of Transportation makes the final selection [493].
+  cycle: University Transportation Centers are competed once per authorization, with re-opened competitions for vacant slots;
+    the latest closed in February 2026 [492] [493].
+  who_to_talk_to: The University Transportation Centers office (UTCgrants@dot.gov; the Grants.gov record names the Acting
+    Director) [493] [494].
+  where_it_posts: On Grants.gov and the DOT University Transportation Centers pages; applications for the 2025 recompetition
+    went through Valid Eval [492] [493].
+  programs:
+  - dot-utc
+  - dot-faa-aviation-research-grants
+  pending_changes: []
+  official_url: https://www.transportation.gov/content/university-transportation-centers
+  as_of: '2026-10-04'
+  sources:
+  - 491
+  - 492
+  - 493
+  - 494
+  - 495
+  - 496
+  - 498
+  - 497
+  sweep: research-D
+- id: dhs-st
+  name: Department of Homeland Security Science and Technology Directorate, Office of University Programs
+  funder_kind: federal
+  parent: Department of Homeland Security
+  what: The office that has run the Centers of Excellence, a Minority Serving Institutions programme and workforce initiatives.
+    Its pages were last updated in 2023, and no DHS university research notice is open or forecast on the sweep date; the
+    current status of its programmes could not be confirmed on a primary page [500] [499] [501].
+  how_it_decides: Not described on the pages read [499].
+  where_it_posts: Past Centers of Excellence notices were posted on Grants.gov [501].
+  programs:
+  - dhs-coe
+  pending_changes: []
+  official_url: https://www.dhs.gov/science-and-technology/office-university-programs
+  as_of: '2026-10-04'
+  sources:
+  - 500
+  - 499
+  - 501
+  - 502
+  sweep: research-D
+- id: ahrq
+  name: Agency for Healthcare Research and Quality
+  funder_kind: federal
+  parent: HHS
+  what: 'AHRQ is the HHS agency for health services research: quality and safety, delivery and practice improvement, and
+    whole-person care are the priorities its funding page names. In March 2026 it ended its standing R01, R03 and R18 announcements
+    and several topic-specific ones early, and on 2026-10-04 its announcement index showed no open opportunities. HHS announced
+    in March 2025 that AHRQ would merge with ASPE into an Office of Strategy, and the FY2027 budget places AHRQ in that
+    office [504] [515] [518] [530] [536].'
+  how_it_decides: Applications were assigned to a peer review group or special emphasis panel; AHRQ has one chartered Health
+    Services Research Initial Review Group with four study sections, working under 42 CFR Part 67, Subpart A. Funding decisions
+    were described as based on merit, priorities and available funds [506] [520] [507].
+  cycle: The standing calendar had three receipt cycles a year by mechanism (R01 on February 5, June 5 and October 5). No
+    AHRQ announcement was open on 2026-10-04, so the calendar is not in use [505] [518].
+  who_to_talk_to: AHRQ's contact page lists programme staff by research priority, a Grants Management Officer and a peer
+    review contact, and states that it welcomes inquiries about current areas of research interest. Whether the listed staff
+    remain after the 2025 reductions was not confirmed [521] [523].
+  where_it_posts: In the NIH Guide for Grants and Contracts, with an index on ahrq.gov; special emphasis notices and policy
+    notices carry NOT-HS numbers [518] [519].
+  budget:
+  - amount: $369M
+    fiscal_year: 2025
+    cite:
+    - 533
+  - amount: $345M
+    fiscal_year: 2026
+    cite:
+    - 533
+  - amount: $458,070,000 requested for the Office of Strategy (ASPE, AHRQ and NCHS combined); no separate AHRQ line
+    fiscal_year: 2027
+    cite:
+    - 536
+    - 533
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs:
+  - ahrq-r01
+  - ahrq-r03
+  - ahrq-r18
+  - ahrq-primary-care-r01
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY2027 budget describes an Office of Strategy as a new staff division consolidating ASPE, AHRQ and NCHS, with
+      one combined budget line [536].
+  - status: final
+    date: '2026-03-17'
+    text: Between March 6 and March 17, 2026 AHRQ issued early expiration notices for its R01, R03, R18, R36 and topic-specific
+      announcements [512] [513] [514] [515] [516] [517].
+  official_url: https://www.ahrq.gov/funding/index.html
+  as_of: '2026-10-04'
+  sources:
+  - 504
+  - 518
+  - 505
+  - 506
+  - 520
+  - 521
+  - 519
+  - 523
+  - 533
+  - 536
+  - 530
+  - 527
+  sweep: research-E
+- id: cdc
+  name: Centers for Disease Control and Prevention (extramural research, including NIOSH and the Injury Center)
+  funder_kind: federal
+  parent: HHS
+  what: CDC funds extramural research through its centres and institutes. The two research lines read are the National Institute
+    for Occupational Safety and Health, which uses NIH-style activity codes, and the Injury Center, which issues single-year
+    research requests for applications. NIOSH's standing R01 and R21 announcements expired on November 21, 2025; its pages
+    of 2026 show only World Trade Center Health Program research as open [552] [556] [551] [560].
+  how_it_decides: At NIOSH, scientists from outside the agency carry out initial review in the Safety and Occupational Health
+    Study Section or special emphasis panels, and the NIOSH Secondary Review Committee then reviews for programme relevance
+    and portfolio balance [552].
+  cycle: NIOSH programme announcements typically had three receipt dates a year and requests for applications one. The Injury
+    Center's FY2026 research notice was posted May 29, 2026 [552] [560].
+  who_to_talk_to: NIOSH routes questions through a web form to three teams; Scientific Program Officials are the primary
+    contact for grantees and Scientific Review Officers answer questions on review. Contacts for each notice are in its
+    Agency Contacts section [553] [552].
+  where_it_posts: All CDC grant and cooperative agreement opportunities are posted on Grants.gov; NIOSH research announcements
+    also appear in the NIH Guide for Grants and Contracts [550] [552].
+  budget:
+  - amount: $5.8B budget authority (whole agency)
+    fiscal_year: 2026
+    cite:
+    - 533
+  - amount: $5.3B budget authority requested (whole agency)
+    fiscal_year: 2027
+    cite:
+    - 533
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs:
+  - cdc-niosh-r01
+  - cdc-niosh-r21
+  - cdc-niosh-wtc-research
+  - cdc-injury-violence-r01
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY2027 budget proposes a new National Center for Chemicals and Toxins within CDC [533].
+  - status: enjoined
+    date: '2025-07-01'
+    text: A district court enjoined further reductions in force and restructuring under the March 27, 2025 announcement
+      at CDC and three other HHS components; the First Circuit denied a stay on September 17, 2025 [542] [543].
+  official_url: https://www.cdc.gov/grants/applying/find-nofo.html
+  as_of: '2026-10-04'
+  sources:
+  - 550
+  - 552
+  - 553
+  - 551
+  - 554
+  - 556
+  - 560
+  - 533
+  - 542
+  - 543
+  sweep: research-E
+- id: fda
+  name: Food and Drug Administration (extramural research grants and cooperative agreements)
+  funder_kind: federal
+  parent: HHS
+  what: FDA awards research grants and cooperative agreements in support of its regulatory work. The lines read are the
+    orphan products clinical trials and natural history grants, the Centers of Excellence in Regulatory Science and Innovation,
+    and single-topic regulatory science cooperative agreements issued by FDA centres [561] [566] [564].
+  how_it_decides: An objective review committee convened by FDA scores applications against criteria with points set in
+    each notice; the number of awards depends on appropriations and on enough meritorious applications [564] [561].
+  cycle: The orphan products clinical trials grants have one new-application date each October through 2027; topic-specific
+    notices can open and close within a month [561] [564].
+  who_to_talk_to: Each notice names a scientific contact in the sponsoring FDA centre and a grants management contact in
+    the Office of Acquisitions and Grants Services; the rare disease programmes have a contact page [564] [567] [563].
+  where_it_posts: On Grants.gov and in the NIH Guide for Grants and Contracts under RFA-FD numbers; applications go through
+    Grants.gov and eRA Commons [561] [564].
+  budget:
+  - amount: $3.4B budget authority (whole agency)
+    fiscal_year: 2026
+    cite:
+    - 533
+  - amount: $3.3B budget authority requested (whole agency)
+    fiscal_year: 2027
+    cite:
+    - 533
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs:
+  - fda-orphan-clinical-trials
+  - fda-orphan-natural-history
+  - fda-cersi
+  - fda-regulatory-science-u01
+  pending_changes: []
+  official_url: https://www.fda.gov/about-fda/doing-business-fda/about-oags-and-additional-resources
+  as_of: '2026-10-04'
+  sources:
+  - 561
+  - 562
+  - 566
+  - 565
+  - 564
+  - 567
+  - 563
+  - 533
+  sweep: research-E
+- id: hrsa
+  name: Health Resources and Services Administration (maternal and child health research line)
+  funder_kind: federal
+  parent: HHS
+  what: HRSA is mainly a service and workforce funder. Its research grant line sits in the Maternal and Child Health Bureau's
+    Office of Epidemiology and Research, which has funded field-initiated studies, secondary data analysis studies, research
+    networks and consortia. No open research notice was found on 2026-10-04 [569] [568].
+  how_it_decides: Subject matter experts score applications against point-weighted criteria published in each notice [574].
+  cycle: The Bureau states that not all research projects are competed annually; past field-initiated competitions opened
+    in August 2019, November 2022 and early 2024 [568] [571] [570] [574].
+  who_to_talk_to: Each notice names programme contacts; the SDAR page gives a programme contact and past notices give programme
+    mailboxes [572] [570].
+  where_it_posts: On Grants.gov and HRSA's find-funding pages; the Bureau points to its open opportunities list and its
+    epidemiology and research mailing lists [568] [570].
+  budget:
+  - amount: $8.9B budget authority (whole agency, as returned by the fetch)
+    fiscal_year: 2026
+    cite:
+    - 533
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs:
+  - hrsa-mch-first
+  - hrsa-mch-sdar
+  - hrsa-autism-first
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY2027 budget proposes to fold HRSA into an Administration for a Healthy America, which the justification
+      describes as planned [535] [533].
+  official_url: https://mchb.hrsa.gov/research/about-mission.asp
+  as_of: '2026-10-04'
+  sources:
+  - 569
+  - 568
+  - 574
+  - 570
+  - 571
+  - 572
+  - 529
+  - 533
+  - 535
+  sweep: research-E
+- id: samhsa
+  name: Substance Abuse and Mental Health Services Administration (no research grant line found)
+  funder_kind: federal
+  parent: HHS
+  what: SAMHSA funds services, training and capacity through block and discretionary grants. Its FY2026 application guide
+    states that it expects most recipients will not fall under the human subjects regulations, and its grants page as fetched
+    does not mention research grants. No SAMHSA research project grant line was found in this sweep [548] [549].
+  where_it_posts: SAMHSA lists its 2026 notices of funding opportunity on its grants pages [549].
+  budget:
+  - amount: $7.3B budget authority (whole agency, as returned by the fetch)
+    fiscal_year: 2026
+    cite:
+    - 533
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs: []
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY2027 budget proposes to fold SAMHSA into an Administration for a Healthy America [533] [535].
+  official_url: https://www.samhsa.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 548
+  - 549
+  - 533
+  - 535
+  sweep: research-E
+- id: acl-nidilrr
+  name: National Institute on Disability, Independent Living, and Rehabilitation Research (Administration for Community
+    Living)
+  funder_kind: federal
+  parent: HHS
+  what: NIDILRR is the research institute inside the Administration for Community Living. It funds disability and rehabilitation
+    research through Field Initiated Projects, Disability and Rehabilitation Research Projects, rehabilitation engineering
+    research centres, research and training centres and other programmes, under Title II of the Rehabilitation Act. It ran
+    competitions in FY2026 [576] [582] [581].
+  how_it_decides: An independent panel of at least three reviewers scores each application against point-weighted criteria
+    set under 45 CFR 1330.24; the ACL Administrator makes final decisions [579] [578].
+  cycle: Notices are posted by programme through the fiscal year; in FY2026 the notices read were due between April and
+    August 2026. The Field Initiated Projects research competition was due in December in FY2025 [579] [582] [581] [578].
+  who_to_talk_to: NIDILRR gives a general mailbox and telephone line, and holds informational calls for some notices [576]
+    [579].
+  where_it_posts: On Grants.gov and in the grants section of ACL.gov [576].
+  budget:
+  - amount: $119,000,000 (final)
+    fiscal_year: 2025
+    cite:
+    - 537
+  - amount: $119,000,000 (enacted)
+    fiscal_year: 2026
+    cite:
+    - 537
+  - amount: $100,000,000 (requested)
+    fiscal_year: 2027
+    cite:
+    - 537
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs:
+  - acl-nidilrr-fip-research
+  - acl-nidilrr-fip-msi
+  - acl-nidilrr-drrp
+  - acl-nidilrr-rerc
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY2027 budget presents a planned integration of ACL and ACF within an Administration for Children, Families,
+      and Communities and carries the NIDILRR line there [537].
+  official_url: https://acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research
+  as_of: '2026-10-04'
+  sources:
+  - 576
+  - 578
+  - 579
+  - 581
+  - 582
+  - 580
+  - 577
+  - 537
+  - 530
+  sweep: research-E
+- id: va-ord
+  name: Department of Veterans Affairs, Office of Research and Development
+  funder_kind: federal
+  parent: VA
+  what: The VA research programme is intramural. VA pages state that investigators must hold a VA appointment, that a principal
+    investigator needs at least a 5/8ths VA-paid appointment, and that no funds or subcontracts can be awarded directly
+    to a non-VA institution. An outside university or non-profit cannot apply for VA research funding in its own name [583]
+    [584] [585].
+  how_it_decides: Merit Review proposals are approved by the local Research and Development Committee before submission
+    to the Office of Research and Development [585].
+  cycle: Deadlines and submission cycles are posted on the Office of Research and Development site, which could not be fetched
+    in this sweep [585].
+  who_to_talk_to: The research office of the VA medical centre where the investigator holds an appointment [585] [583].
+  where_it_posts: On research.va.gov, under requests for applications and programme announcements [585].
+  programs:
+  - va-ord-merit-review
+  pending_changes: []
+  official_url: https://www.va.gov/houston-health-care/research-and-development-rd/research-request-for-applications-and-program-announcements/
+  as_of: '2026-10-04'
+  sources:
+  - 583
+  - 584
+  - 585
+  sweep: research-E
+- id: pcori
+  name: Patient-Centered Outcomes Research Institute
+  funder_kind: independent-nonprofit
+  what: PCORI funds patient-centered comparative clinical effectiveness research. Congress authorized it in 2010 and reauthorized
+    it in December 2019. It is paid for by the Patient-Centered Outcomes Research Trust Fund, which receives appropriations
+    from the Treasury general fund and a fee on private insurance and self-insured health plans for fiscal years 2020 through
+    2029. PCORI receives 80 percent of the Trust Fund and HHS 20 percent. Its awards are contracts [586] [587] [599].
+  how_it_decides: A required letter of intent is screened first. Invited full applications go to merit review panels of
+    scientific, patient and other stakeholder reviewers whose scores are weighted equally, against six merit review criteria
+    [591] [597] [598].
+  cycle: 'Three research cycles a year. Cycle 2 2026: letters of intent April 28, applications September 1, 2026. Cycle
+    3 2026: letters of intent September 9, 2026, applications January 12, 2027. Cycle 1 2027 opens November 17, 2026, with
+    letters of intent due January 6 and applications May 4, 2027 [590].'
+  who_to_talk_to: PCORI holds an applicant town hall for each announcement and answers questions at pfa@pcori.org [593]
+    [591].
+  where_it_posts: On its own funding opportunities page; from Cycle 3 2026 applications go through the PCORI Connect portal
+    [590] [595].
+  budget:
+  - amount: Trust Fund appropriations stream rising from $275,500,000 in FY 2020 to $399 million in FY 2029; PCORI receives
+      80 percent of Trust Fund monies
+    fiscal_year: 2029
+    cite:
+    - 587
+  programs:
+  - pcori-broad-pragmatic-studies
+  - pcori-placer
+  - pcori-science-of-engagement
+  pending_changes:
+  - status: final
+    date: '2026-08-04'
+    text: PCORI Connect replaced PCORI Online for new and resubmitted applications from Cycle 3 2026 [595].
+  official_url: https://www.pcori.org/funding-opportunities
+  as_of: '2026-10-04'
+  sources:
+  - 586
+  - 587
+  - 589
+  - 590
+  - 591
+  - 592
+  - 593
+  - 596
+  - 597
+  - 598
+  - 595
+  - 599
+  - 588
+  sweep: research-E
+- id: doj-nij
+  name: National Institute of Justice
+  funder_kind: federal
+  parent: DOJ
+  what: NIJ is the research, development and evaluation institute of the Department of Justice, inside the Office of Justice
+    Programs. It funds physical and social science research on criminal justice through competitive notices. Its FY2026
+    enacted line is $22 million, down from $30 million in FY2025. On 2026-10-04 it listed no open and no forthcoming notices
+    [600] [620] [602] [603].
+  how_it_decides: Applications pass a basic minimum requirements review, then external peer review, then review by NIJ staff
+    and the Director. Peer review ratings are advisory; the Director weighs them with NIJ's strategic priorities, existing
+    investments and available funding [604].
+  cycle: NIJ states that most notices are typically released December through May, subject to appropriations, and that forthcoming
+    notices are listed in late fall. In 2026 the notices read were released between May and July, including one labelled
+    FY25 [601] [610] [607].
+  who_to_talk_to: The OJP Response Center takes questions about open notices [602].
+  where_it_posts: On its own funding pages and Grants.gov; applications are submitted in two steps, the SF-424 in Grants.gov
+    and the full application in JustGrants [601] [619].
+  budget:
+  - amount: $30,000 thousand (enacted)
+    fiscal_year: 2025
+    cite:
+    - 620
+  - amount: $22,000 thousand (enacted)
+    fiscal_year: 2026
+    cite:
+    - 620
+  - amount: $22,000 thousand (President's Budget)
+    fiscal_year: 2027
+    cite:
+    - 620
+  policy_guide: https://www.ojp.gov/funding/apply/ojp-grant-application-resource-guide
+  programs:
+  - doj-nij-research-evaluation
+  pending_changes:
+  - status: proposed
+    date: '2026-05-13'
+    text: A secondary source reports that the House Appropriations Committee reported a FY2027 bill on May 13, 2026 with
+      NIJ at $22.0 million and a direction to cut the research and statistics set-aside from 2% to 1% [625].
+  official_url: https://nij.ojp.gov/funding
+  as_of: '2026-10-04'
+  sources:
+  - 600
+  - 601
+  - 602
+  - 603
+  - 604
+  - 605
+  - 607
+  - 610
+  - 611
+  - 619
+  - 612
+  - 620
+  - 540
+  - 625
+  sweep: research-E
+- id: doj-bjs
+  name: Bureau of Justice Statistics
+  funder_kind: federal
+  parent: DOJ
+  what: BJS is the statistical agency of the Department of Justice, inside the Office of Justice Programs. It funds data
+    collections and statistical studies, mostly through cooperative agreements, some open to competition and some by invitation
+    to a named organization. Four FY2026 notices were open in early October 2026 [613] [615] [617].
+  how_it_decides: Applications are scored against weighted criteria in each notice; under the OJP guide reviewers' scores
+    are advisory and the Assistant Attorney General makes award decisions unless a statute names another official [615]
+    [619].
+  cycle: FY2026 notices were posted in mid-August 2026 with deadlines from late September to October 20, 2026 [612] [616].
+  where_it_posts: On its own funding pages, the OJP current opportunities page and Grants.gov; applications are submitted
+    in two steps, each with its own deadline [613] [612].
+  budget:
+  - amount: $35,000 thousand (enacted)
+    fiscal_year: 2025
+    cite:
+    - 620
+  - amount: $33,000 thousand (enacted)
+    fiscal_year: 2026
+    cite:
+    - 620
+  - amount: $33,000 thousand (President's Budget)
+    fiscal_year: 2027
+    cite:
+    - 620
+  policy_guide: https://www.ojp.gov/funding/apply/ojp-grant-application-resource-guide
+  programs:
+  - doj-bjs-chrarp
+  pending_changes: []
+  official_url: https://bjs.ojp.gov/funding/current
+  as_of: '2026-10-04'
+  sources:
+  - 613
+  - 615
+  - 614
+  - 616
+  - 617
+  - 612
+  - 619
+  - 620
+  sweep: research-E
+- id: acf-opre
+  name: Administration for Children and Families, Office of Planning, Research, and Evaluation
+  funder_kind: federal
+  parent: HHS
+  what: OPRE is ACF's research and evaluation office. It makes research grants to organizations, including small grants
+    for secondary analyses of existing data, and states that it does not fund individuals or direct services. Its grants
+    page as fetched still refers to forecasts for 2025 [627] [628].
+  how_it_decides: A review panel scores applications against point-weighted criteria in the notice [628].
+  where_it_posts: On its grants page with links to Grants.gov; it advises registering at Grants.gov and subscribing to the
+    opportunity [627].
+  budget:
+  - amount: $75,313,000 (enacted, Social Services Research and Demonstration line)
+    fiscal_year: 2026
+    cite:
+    - 537
+  - amount: $27,510,000 (requested, Social Services Research and Demonstration line)
+    fiscal_year: 2027
+    cite:
+    - 537
+  policy_guide: https://www.hhs.gov/grants-contracts/grants/grants-policies-regulations/grants-policy-statement/index.html
+  programs:
+  - acf-opre-secondary-analyses
+  pending_changes:
+  - status: proposed
+    date: 2026-04
+    text: The FY2027 budget presents a planned integration of ACF and ACL within an Administration for Children, Families,
+      and Communities [537].
+  official_url: https://acf.gov/opre/grants
+  as_of: '2026-10-04'
+  sources:
+  - 627
+  - 628
+  - 537
+  sweep: research-E
+- id: ssa
+  name: Social Security Administration (research cooperative agreements)
+  funder_kind: federal
+  what: SSA funded outside research centres through the Retirement and Disability Research Consortium cooperative agreements.
+    It announced the termination of those agreements on February 21, 2025. No current SSA research grant programme was found
+    [626].
+  programs:
+  - ssa-rdrc
+  pending_changes: []
+  official_url: https://www.ssa.gov/news/en/press/releases/2025-02-21.html
+  as_of: '2026-10-04'
+  sources:
+  - 626
+  sweep: research-E
+- id: dol-ceo
+  name: Department of Labor, Chief Evaluation Office
+  funder_kind: federal
+  what: The Chief Evaluation Office states that it supports academic research to build evidence on labor issues. The page
+    read names no open grant competition [629].
+  where_it_posts: The office invites researchers to register to receive updates on new funding opportunities [629].
+  programs:
+  - dol-ceo-academic-research
+  pending_changes: []
+  official_url: https://www.dol.gov/agencies/oasp/evaluation/topic-areas/research-scholars-grants
+  as_of: '2026-10-04'
+  sources:
+  - 629
+  sweep: research-E
+- id: neh
+  name: National Endowment for the Humanities
+  funder_kind: federal
+  what: 'NEH describes itself as the largest federal funder of the humanities; it makes grants to colleges, universities,
+    museums, libraries, historic sites, research institutions, independent scholars and other nonprofits [630]. Since August
+    20, 2025 its grantmaking sits in four divisions: Federal/State Partnership, Collections & Infrastructure, Lifelong Learning,
+    and Research [641]. On the sweep date the Division of Research listed Collaborative Research and Scholarly Editions
+    and Translations for organisations, alongside four programmes for individuals [635].'
+  how_it_decides: Outside evaluators sit on peer review panels and rate each application; NEH staff recommend applications
+    in light of those ratings; the National Council on the Humanities, up to twenty-six members nominated by the President
+    and confirmed by the Senate, reviews the recommendations; the Chair makes all final funding decisions [638]. The 2026
+    notices state that the Chairman has the sole authority to make final funding decisions [634].
+  cycle: Each programme has its own annual deadline [632] [648] [630]. In 2026 the two research programmes for organisations
+    closed on September 16, 2026, Collections Stewardship had deadlines on May 11 and December 15, 2026, and the three deadlines
+    listed as upcoming on the grants page were all December 9, 2026 in the Division of Lifelong Learning [632] [648] [630].
+    The National Council meets at least twice a year [634]. Notification for the September 2026 deadline is expected in
+    July 2027 [632].
+  who_to_talk_to: 'Programme questions go to the division named in the notice: the Division of Research at research@neh.gov
+    or (202) 606-8200, with programme mailboxes collaborative@neh.gov and editions@neh.gov; the Division of Collections
+    & Infrastructure at collections@neh.gov or (202) 606-8570 [635] [631] [633] [645]. Administrative and cost questions
+    go to the Office of Grant Management at grantmanagement@neh.gov or 202-606-8494 [644].'
+  where_it_posts: NEH posts each programme page and its Notice of Funding Opportunity on neh.gov and the application package
+    on Grants.gov; the grants landing page lists upcoming deadlines [630] [631] [646].
+  budget:
+  - amount: $207 million (reported by secondary sources; not confirmed on a primary page in this sweep)
+    fiscal_year: 2026
+    status: enacted, as reported
+    cite:
+    - 718
+    - 719
+  - amount: $38 million, described as for shutdown (reported by one trade press source)
+    fiscal_year: 2027
+    status: requested, as reported
+    cite:
+    - 692
+  policy_guide: https://www.neh.gov/sites/default/files/NEH%20General%20Application%20Guide%2002-24-2026.pdf
+  governing_terms: All NEH awards are subject to 2 CFR Part 200, the General Terms and Conditions for Awards to Organizations,
+    and any specific terms in the Notice of Action; the General Application Guide (Version 1.0, published February 27, 2026)
+    governs applications across programmes [644].
+  programs:
+  - neh-collaborative-research
+  - neh-scholarly-editions-translations
+  - neh-collections-stewardship
+  - neh-rediscovering-our-revolutionary-tradition
+  - neh-humanities-collections-reference-resources
+  - neh-preservation-research-and-development
+  - neh-digital-humanities-advancement-grants
+  pending_changes:
+  - status: on-appeal
+    date: '2026-07-06'
+    text: A district court on May 7, 2026 granted summary judgment against the April 2025 grant terminations; a docket summary
+      reports that the Government appealed to the Second Circuit on July 6, 2026 [642] [643].
+  - status: proposed
+    date: 2026-04
+    text: A trade press source reports that the FY 2027 budget request proposes $38 million for NEH for shutdown purposes;
+      the status of FY 2027 appropriations on the sweep date was not found on a primary page [692].
+  official_url: https://www.neh.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 630
+  - 641
+  - 635
+  - 645
+  - 638
+  - 644
+  - 632
+  - 634
+  - 648
+  - 708
+  - 642
+  - 643
+  - 718
+  - 719
+  - 692
+  sweep: research-F
+- id: nea
+  name: National Endowment for the Arts
+  funder_kind: federal
+  what: 'The NEA funds arts projects by organisations and, through two research programmes, studies of the value and impact
+    of the arts: Research Grants in the Arts and NEA Research Labs [650]. Its main project grant to organisations is Grants
+    for Arts Projects, with awards of $10,000 to $100,000 for standard applicants and a 1:1 cost share; Challenge America
+    and Our Town are now part of that application process; this guide lists it for the programme-and-service family [654]
+    [653]. The NEA does not accept applications from individuals in these programmes [651] [654].'
+  how_it_decides: Staff check eligibility; advisory panelists review applications in closed session; the National Council
+    on the Arts votes on the panel's recommendations in an open, public session; the Chair makes the final decision on all
+    awards [652]. The Council has 18 presidentially appointed members and 6 congressional ex-officio non-voting members
+    [712].
+  cycle: 'Research awards have one two-part deadline a year: for FY27, Part 1 on March 23, 2026 and Part 2 on April 2, 2026,
+    with notification in November 2026 and an earliest start of January 1, 2027 [651]. Grants for Arts Projects had February
+    and July 2026 cycles; new guidelines are anticipated by late December 2026 [654]. The Council usually meets in March,
+    July and October [712].'
+  who_to_talk_to: No named programme contact for the research awards was captured from the pages read; this is recorded
+    as a gap [650].
+  where_it_posts: The NEA posts guidelines as PDFs on arts.gov and the opportunity on Grants.gov; the second part of each
+    application is filed in the NEA Applicant Portal [650] [652].
+  budget:
+  - amount: $207,000,000
+    fiscal_year: 2026
+    status: appropriation, as shown in the NEA appropriations history table
+    cite:
+    - 655
+  - amount: $207,000,000
+    fiscal_year: 2025
+    status: appropriation
+    cite:
+    - 655
+  - amount: $29 million, described as for shutdown (reported by one trade press source)
+    fiscal_year: 2027
+    status: requested, as reported
+    cite:
+    - 692
+  policy_guide: https://www.arts.gov/grants/legal-requirements-and-assurance-of-compliance
+  governing_terms: Applicants sign an Assurance of Compliance covering civil rights and other statutes; on the sweep date
+    it included a certification, citing Executive Order 14173, that the applicant operates no DEI programmes that violate
+    federal anti-discrimination law [656]. The NEA general terms and conditions were not read in this sweep [656].
+  programs:
+  - nea-research-grants-in-the-arts
+  - nea-research-labs
+  pending_changes:
+  - status: on-appeal
+    date: '2025-11-17'
+    text: The September 19, 2025 judgment vacating the NEA's April 30, 2025 Final Notice is reported by a docket summary
+      to be on appeal to the First Circuit [657] [658].
+  - status: announced
+    date: '2026-10-04'
+    text: New Grants for Arts Projects guidelines are anticipated by late December 2026 [653].
+  official_url: https://www.arts.gov/grants
+  as_of: '2026-10-04'
+  sources:
+  - 650
+  - 651
+  - 652
+  - 653
+  - 654
+  - 712
+  - 655
+  - 656
+  - 657
+  - 658
+  - 692
+  sweep: research-F
+- id: imls
+  name: Institute of Museum and Library Services
+  funder_kind: federal
+  what: IMLS states its mission as advancing, supporting and empowering museums, libraries and related organisations through
+    grantmaking, research and policy development [684]. It listed fifteen grant programmes on the sweep date; National Leadership
+    Grants for Libraries and National Leadership Grants for Museums both carry research project types, and the Laura Bush
+    21st Century Librarian Program, a workforce programme, also has Applied Research and Early Career Research types [683]
+    [677] [681] [685]. Its authority is 20 U.S.C. 9101 et seq. [677].
+  how_it_decides: IMLS screens for eligibility; peer reviewers who are professionals in the field score applications; the
+    Director considers the peer review and makes the final funding decisions [677] [681]. In announcing FY 2026 awards IMLS
+    said each project went through competitive peer review and a review by agency leadership [682].
+  cycle: The FY 2026 discretionary cycle opened January 13, 2026 with a March 13, 2026 deadline, and awards began to be
+    announced on September 2, 2026 [679] [682]. The FY 2027 notices have a November 13, 2026 deadline, with notification
+    in July 2027 for libraries [677] [680].
+  who_to_talk_to: 'Library programmes: imls-librarygrants@imls.gov [676]. National Leadership Grants for Museums: Helen
+    Wechsler, hwechsler@imls.gov, 202-653-4779, with a booking calendar on the programme page [680].'
+  where_it_posts: IMLS posts each programme page and its Notice of Funding Opportunity on imls.gov, the opportunity on Grants.gov,
+    and announcements by GovDelivery bulletin [676] [678] [679].
+  budget:
+  - amount: $294,800,000
+    fiscal_year: 2025
+    status: appropriated, as stated in a court opinion and a GAO decision
+    cite:
+    - 687
+    - 690
+  - amount: $291.8 million (reported by one trade press source; not confirmed on a primary page in this sweep)
+    fiscal_year: 2026
+    status: enacted, as reported
+    cite:
+    - 692
+  - amount: $6 million, described as for winding down operations (reported by one trade press source)
+    fiscal_year: 2027
+    status: requested, as reported
+    cite:
+    - 692
+  policy_guide: https://www.imls.gov/sites/default/files/2026-09/fy27-ols-nlgl-NOFO.pdf
+  governing_terms: Awards are governed by 2 C.F.R. 200, 2 C.F.R. 3187, 45 C.F.R. Chapter XI and the IMLS General Terms and
+    Conditions, which the notice says IMLS may update before making awards [677].
+  programs:
+  - imls-national-leadership-grants-libraries
+  - imls-national-leadership-grants-museums
+  pending_changes:
+  - status: enjoined
+    date: '2025-11-21'
+    text: A district court vacated the actions implementing Executive Order 14238 at IMLS and permanently enjoined further
+      implementation [687]. An association FAQ reports that the appeal was withdrawn on April 6, 2026 [691].
+  - status: final
+    date: '2026-04-09'
+    text: IMLS agreed in a settlement to continue awarding grants to the full extent of Congressional appropriation, using
+      merit-based competitive peer review, and rescinded its 2025 reduction-in-force notices [689].
+  - status: proposed
+    date: 2026-04
+    text: A trade press source reports a FY 2027 request of $6 million for IMLS to wind down; IMLS states that all grant
+      programmes are subject to the availability of funds and IMLS discretion [692] [676].
+  official_url: https://www.imls.gov/find-funding/funding-opportunities/grant-programs
+  as_of: '2026-10-04'
+  sources:
+  - 684
+  - 683
+  - 685
+  - 676
+  - 677
+  - 680
+  - 681
+  - 679
+  - 682
+  - 678
+  - 687
+  - 690
+  - 689
+  - 691
+  - 692
+  - 688
+  sweep: research-F
+- id: ed-ies
+  name: Institute of Education Sciences
+  funder_kind: federal
+  parent: U.S. Department of Education
+  what: 'IES describes itself as the statistics, research, and evaluation arm of the U.S. Department of Education, established
+    by the Education Sciences Reform Act of 2002, with four centres: NCER, NCES, NCEE and NCSER [669]. Research grant competitions
+    are run by the National Center for Education Research (ALNs beginning 84.305) and the National Center for Special Education
+    Research (ALNs beginning 84.324) [661]. On the sweep date IES''s own pages still placed it inside the Department of
+    Education; the Department''s November 18, 2025 interagency agreements moved the administration of elementary and secondary,
+    most postsecondary, Indian education and international education programmes to Labor, Interior, HHS and State, and did
+    not name IES [669] [672].'
+  how_it_decides: External experts review applications on panels managed by an office that the IES peer review page calls
+    the Office of Science and the board-approved procedures call the Standards and Review Office [666] [667]. Panels score
+    Significance, Research Plan, Personnel and Resources on a 7-point scale and give an overall score from 1.0 (outstanding)
+    to 5.0 (poor); only the most competitive applications are discussed by the full panel [667]. Programme officers, kept
+    separate from the reviewers, make funding decisions using the scientific merit scores [666].
+  cycle: 'For FY 2027 IES is releasing requests for applications in three tranches: August 6, 2026 (deadline October 1,
+    2026), late September or early October 2026, and December 2026 [661] [662]. Start dates for the first tranche run from
+    July 1, 2027 to September 1, 2027 [663]. No FY 2026 competitions were displayed on the funding page [660].'
+  who_to_talk_to: Each request for applications names a programme officer, and IES holds drop-in virtual office hours for
+    each open competition; IES says programme officers have limited capacity for detailed individual feedback outside those
+    sessions [724] [662]. IES was not considering unsolicited prospectus submissions on the sweep date [660].
+  where_it_posts: Requests for applications are posted on ies.ed.gov/funding, announced in the Federal Register, and applied
+    to through Grants.gov [660] [662] [665].
+  budget:
+  - amount: $793,106,000
+    fiscal_year: 2025
+    status: appropriation (IES account)
+    cite:
+    - 675
+  - amount: $261,300,000
+    fiscal_year: 2026
+    status: requested
+    cite:
+    - 675
+  - amount: approximately $790 million (reported by a policy organisation; not confirmed on a primary page in this sweep)
+    fiscal_year: 2026
+    status: enacted, as reported
+    cite:
+    - 717
+  policy_guide: https://ies.ed.gov/application-submission-guide
+  governing_terms: The FY 2025 notice cites 34 CFR parts 75, 77, 81, 82, 84, 86, 97, 98 and 99 and 2 CFR parts 180, 200,
+    3474 and 3485; the FY 2027 notice cites 20 U.S.C. 9501 et seq. [668] [662]. The IES Application Submission Guide, last
+    updated July 30, 2026, governs submission [665].
+  programs:
+  - ies-education-research-grants
+  - ies-special-education-research-grants
+  - ies-statistical-research-methodology
+  - ies-longitudinal-data-state-policymaking
+  pending_changes:
+  - status: announced
+    date: '2026-08-06'
+    text: 'Second and third tranches of FY 2027 competitions are planned: From Seedlings to Scale (84.305J) and Transformational
+      Research in Special Education (84.324T) in late September or early October 2026; Education Research Grants (84.305A,
+      84.324A), Research and Development Centers (84.305C, 84.324C) and Research Networks (84.305N, 84.324N) in December
+      2026 [661].'
+  - status: proposed
+    date: '2026-02-27'
+    text: The report Reimagining the Institute of Education Sciences recommends topic-focused funding, multi-state awards
+      and one-year rapid-response microgrants; the Department said it would consider the recommendations [673] [674].
+  official_url: https://ies.ed.gov/funding
+  as_of: '2026-10-04'
+  sources:
+  - 669
+  - 660
+  - 661
+  - 662
+  - 668
+  - 666
+  - 667
+  - 665
+  - 724
+  - 663
+  - 672
+  - 670
+  - 675
+  - 717
+  - 673
+  - 674
+  sweep: research-F
+- id: nara-nhprc
+  name: National Historical Publications and Records Commission
+  funder_kind: federal
+  parent: National Archives and Records Administration
+  what: 'NHPRC is the grantmaking office of the National Archives; it funds projects that promote access to historical records,
+    in three lines: Archival Projects, State Historical Records Advisory Boards, and Historical Editions [693]. All three
+    lines were closed on the sweep date and no announcement for the next fiscal year was listed [694]. Its Assistance Listing
+    is 89.003 [697].'
+  how_it_decides: Up to five outside peer reviewers evaluate each proposal against weighted criteria; NHPRC staff implement
+    Commission policy and make recommendations on proposals; the Commission, a 15-member board chaired by the Archivist
+    of the United States, meets to review grant proposals and approve grant announcements [698] [701] [702]. Who signs the
+    final award was not stated on the pages read [701].
+  cycle: In the last cycle found, editions proposals were due May 7, 2025 for grants starting January 1, 2026, and Archival
+    Projects proposals were due November 5, 2025 for grants starting July 1, 2026, each with an optional draft deadline
+    earlier (February 18, 2025 and August 15, 2025) [698] [696]. Commission meeting dates after November 2024 were not posted
+    [702].
+  who_to_talk_to: 'Programme directors by line: Julie Fisher for publishing (julie.fisher@nara.gov), Nancy Melley for access
+    (nancy.melley@nara.gov), Jacob Lusk for state programmes; general contact nhprc@nara.gov, 202-357-5010 [725] [695].'
+  where_it_posts: Announcements are posted on archives.gov/nhprc/announcement and on Grants.gov, which all applicants must
+    use [694] [695].
+  budget:
+  - amount: $10,000 thousand
+    fiscal_year: 2025
+    status: actual
+    cite:
+    - 703
+  - amount: $19,344 thousand
+    fiscal_year: 2026
+    status: enacted
+    cite:
+    - 703
+  - amount: $0
+    fiscal_year: 2027
+    status: requested
+    cite:
+    - 703
+  policy_guide: https://www.archives.gov/nhprc/apply
+  governing_terms: NHPRC announcements cite 2 CFR 2600.101 for the rule that grant funds may not be used for indirect costs
+    [698].
+  programs:
+  - nhprc-publishing-historical-records-editions
+  - nhprc-archival-projects
+  pending_changes:
+  - status: proposed
+    date: '2026'
+    text: NARA's FY 2027 request eliminates NHPRC grant funding and keeps $1,645 thousand in operating expenses to administer
+      grants awarded in earlier years [703].
+  official_url: https://www.archives.gov/nhprc
+  as_of: '2026-10-04'
+  sources:
+  - 693
+  - 694
+  - 701
+  - 702
+  - 725
+  - 695
+  - 698
+  - 696
+  - 697
+  - 703
+  - 704
+  sweep: research-F

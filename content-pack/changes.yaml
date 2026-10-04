@@ -1,0 +1,1992 @@
+# changes.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- id: ch-nih-simplified-review-2025
+  date: '2025-01-25'
+  what: 'The simplified peer review framework took effect for due dates from January 25, 2025: two factors scored 1 to 9
+    and a third rated sufficient or insufficient, for most research project activity codes [39] [41].'
+  status: final
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-r15-area
+  - nih-r15-reap
+  - nih-r34
+  - nih-r61-r33
+  - nih-u01
+  sources:
+  - 39
+  - 41
+  sweep: research-A
+- id: ch-nih-indirect-cost-guidance-2025
+  date: '2025-02-07'
+  what: NIH issued NOT-OD-25-068 announcing a standard 15% indirect cost rate on all grants in place of negotiated rates
+    [25]. A district court enjoined it on March 5, 2025 and later made the injunction permanent and vacated the guidance;
+    the First Circuit affirmed on January 5, 2026, holding that the guidance violates the appropriations rider and HHS regulations
+    [24].
+  status: vacated
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-r15-area
+  - nih-r15-reap
+  - nih-p01
+  - nih-u01
+  - nih-r35
+  sources:
+  - 25
+  - 24
+  - 134
+  sweep: research-A
+- id: ch-nih-indirect-cost-rider-fy2026
+  date: '2026-02-03'
+  what: The FY 2026 appropriations act (Public Law 119-75) carries section 224, under which the indirect cost provisions
+    of 45 CFR part 75 continue to apply to NIH grants [62]. The FY 2027 budget request proposes a 15 percent cap on F&A
+    costs for each award [57].
+  status: final
+  affects:
+  - nih
+  sources:
+  - 62
+  - 63
+  - 57
+  sweep: research-A
+- id: ch-nih-centralized-peer-review-2025
+  date: '2025-03-06'
+  what: NIH announced that peer review of all applications for grants, cooperative agreements and R&D contracts would be
+    centralized in the Center for Scientific Review; CSR took over first-level review from 23 institute review branches
+    during 2025 [55] [54].
+  status: final
+  affects:
+  - nih
+  - nih-p01
+  - nih-u01
+  - nih-r35
+  sources:
+  - 55
+  - 54
+  - 40
+  sweep: research-A
+- id: ch-nih-foreign-subawards-2025
+  date: '2025-05-01'
+  what: NOT-OD-25-104 stated that NIH will not issue awards that include a subaward to a foreign entity, effective on release;
+    direct awards to foreign organizations continue [22]. Guidance of July 18, 2025 let institutes convert foreign subawards
+    on ongoing human subjects research into separate supplements for the current competitive segment [101].
+  status: final
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-p01
+  - nih-u01
+  - nih-pf5
+  - nih-foreign-organization
+  sources:
+  - 22
+  - 101
+  - 144
+  sweep: research-A
+- id: ch-nih-international-structure-2025
+  date: '2025-09-12'
+  what: 'NOT-OD-25-155 set out the replacement: a domestic organization submits a PF5 (or UF5) application and each foreign
+    collaborator receives a linked RF2 (or UL2) award [86]. NIH said competing applications with paid foreign collaborators
+    use the new grant type for due dates on or after January 25, 2026; the parent PF5 notice, PA-26-002, was posted January
+    20, 2026 with a first due date of May 25, 2026 [141] [23].'
+  status: final
+  affects:
+  - nih
+  - nih-pf5
+  - nih-r01
+  - nih-p01
+  - nih-foreign-organization
+  sources:
+  - 86
+  - 141
+  - 23
+  - 87
+  sweep: research-A
+- id: ch-nih-public-access-2025
+  date: '2025-07-01'
+  what: The 2024 NIH Public Access Policy took effect on July 1, 2025, a date set by NOT-OD-25-101 of April 30, 2025; manuscripts
+    accepted on or after that date go to PubMed Central and are public without embargo on the official date of publication
+    [34] [125].
+  status: final
+  affects:
+  - nih
+  - public-access-compliance
+  sources:
+  - 34
+  - 125
+  sweep: research-A
+- id: ch-nih-ai-and-application-limit-2025
+  date: '2025-07-17'
+  what: NOT-OD-25-132 limited each PD/PI to six new, renewal, resubmission or revision applications per calendar year, excluding
+    T codes and R13, and stated that applications substantially developed by AI are not considered the applicant's original
+    ideas; both apply to applications submitted on or after September 25, 2025 [12] [140].
+  status: final
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-r15-area
+  - nih-r15-reap
+  - nih-r34
+  - nih-r61-r33
+  - nih-r35
+  - nih-p01
+  - nih-u01
+  sources:
+  - 12
+  - 140
+  sweep: research-A
+- id: ch-nih-other-support-training-2025
+  date: '2025-07-17'
+  what: NOT-OD-25-133 required recipient institutions, from October 1, 2025, to train senior/key personnel on other support
+    disclosure and keep a written, enforced policy [128].
+  status: final
+  affects:
+  - nih
+  - other-support-disclosure-training
+  sources:
+  - 128
+  sweep: research-A
+- id: ch-nih-grant-terminations-litigation
+  date: '2025-07-02'
+  what: A district court judgment of July 2, 2025 declared challenged NIH directives and the resulting grant terminations
+    unlawful and vacated both; the First Circuit denied a stay on July 18, 2025 [30]. On August 21, 2025 the Supreme Court
+    stayed the judgments vacating the grant terminations and left in place the vacatur of the guidance documents, citing
+    the Tucker Act and the Court of Federal Claims [28].
+  status: on-appeal
+  affects:
+  - nih
+  - nih-termination-terms
+  sources:
+  - 30
+  - 28
+  - 29
+  - 133
+  sweep: research-A
+- id: ch-nih-termination-terms-2025
+  date: '2025-11-18'
+  what: 'NOT-OD-26-009 updated award terms effective October 1, 2025: an award may be terminated, to the extent authorized
+    by law, if the agency determines it no longer effectuates programme goals or agency priorities, citing 2 CFR 200.340(a)(4);
+    a term a court has enjoined is not enforced against those the order covers [65]. The March 2026 Grants Policy Statement
+    lists the same ground [139].'
+  status: final
+  affects:
+  - nih
+  - nih-termination-terms
+  sources:
+  - 65
+  - 139
+  sweep: research-A
+- id: ch-nih-dab-termination-appeals-2025
+  date: '2025-12-30'
+  what: The HHS Departmental Appeals Board ruled that it has no jurisdiction under 45 CFR Part 16 and 42 CFR Part 50, Subpart
+    D to hear an appeal of an NIH termination based on non-alignment with agency priorities, and rejected the appeal [132].
+  status: final
+  affects:
+  - nih
+  - nih-termination-terms
+  sources:
+  - 132
+  sweep: research-A
+- id: ch-nih-nofos-grants-gov-only
+  date: '2025-08-14'
+  what: NOT-OD-25-143 announced that from fiscal year 2026 NIH no longer posts notices of funding opportunity in the NIH
+    Guide; Grants.gov is the single official source, and the Guide continues for policy and informational notices [9] [10].
+  status: final
+  affects:
+  - nih
+  - nih-parent-announcements
+  - grants-gov-registration
+  sources:
+  - 9
+  - 10
+  - 93
+  sweep: research-A
+- id: ch-nih-highlighted-topics-2025
+  date: '2025-08-29'
+  what: NIH introduced Highlighted Topics, descriptions of research areas of interest that are not funding opportunities;
+    applications go in through parent announcements or other broad notices [142] [11]. NIH reported more than 30 topics
+    posted by March 23, 2026 [90].
+  status: final
+  affects:
+  - nih
+  - nih-parent-announcements
+  - nih-highlighted-topics
+  sources:
+  - 142
+  - 11
+  - 90
+  - 94
+  sweep: research-A
+- id: ch-nih-fewer-nofos-2025
+  date: '2025'
+  what: NIH reported that active funding opportunities fell from over 800 at the start of 2025 to fewer than 500 at the
+    end of 2025, as it shifted toward parent announcements and other broad notices [90].
+  status: final
+  affects:
+  - nih
+  - nih-parent-announcements
+  sources:
+  - 90
+  - 10
+  sweep: research-A
+- id: ch-nih-research-security-policies-rescinded
+  date: '2025-09-29'
+  what: NOT-OD-25-161 rescinded NOT-OD-25-154 of September 11, 2025, which had announced NIH research security policies,
+    and said updated guidance would follow [127] [80].
+  status: final
+  affects:
+  - nih
+  - research-security-training
+  sources:
+  - 127
+  - 80
+  sweep: research-A
+- id: ch-nih-research-security-training-2026
+  date: '2025-12-02'
+  what: NOT-OD-26-017 requires senior/key personnel to certify research security training completed within 12 months before
+    submission, for applications due on or after May 25, 2026, implementing section 10634 of the CHIPS and Science Act [33].
+  status: final
+  affects:
+  - nih
+  - research-security-training
+  sources:
+  - 33
+  sweep: research-A
+- id: ch-nih-common-forms-sciencv
+  date: '2025-12-02'
+  what: NOT-OD-26-018 required the Common Forms for the biographical sketch and current and pending (other) support, prepared
+    in SciENcv with an ORCID iD, for due dates on or after January 25, 2026 [31]. A leniency period was extended on February
+    4, 2026 and ended May 7, 2026; since May 8, 2026 the system rejects submissions without the forms [129] [32].
+  status: final
+  affects:
+  - nih
+  - common-forms-sciencv
+  - orcid-id
+  sources:
+  - 31
+  - 129
+  - 32
+  sweep: research-A
+- id: ch-nih-lapse-and-review-modifications
+  date: '2025-11-24'
+  what: 'After the lapse in appropriations that began October 1, 2025, NIH cancelled 370 review meetings affecting more
+    than 24,000 applications and changed review practice: 30-35% of applications discussed, a ''competitive but not discussed''
+    middle third, and shorter summary statements [126]. Notices of April 15, 2026 and September 8, 2026 continued the changes
+    through the January 2027 council round [16] [84].'
+  status: final
+  affects:
+  - nih
+  - nih-competitive-not-discussed
+  sources:
+  - 126
+  - 16
+  - 84
+  - 85
+  - 96
+  sweep: research-A
+- id: ch-nih-unified-funding-strategy
+  date: '2025-11-21'
+  what: 'NIH adopted a unified funding strategy effective with the January 2026 council round: institutes do not rely on
+    paylines, follow six tenets, and publish the factors they weigh; about half of institutes had used paylines before [13]
+    [123] [15].'
+  status: final
+  affects:
+  - nih
+  - nih-nci
+  - nih-niaid
+  - nih-nhlbi
+  - nih-nigms
+  - nih-unified-funding-strategy
+  sources:
+  - 13
+  - 123
+  - 15
+  - 69
+  - 68
+  - 70
+  sweep: research-A
+- id: ch-nih-loi-and-500k-removed
+  date: '2025-12-03'
+  what: NOT-OD-26-019 ended letters of intent and removed the requirement to obtain an institute's agreement before submitting
+    an unsolicited application requesting $500,000 or more in direct costs in any year, effective immediately [37].
+  status: final
+  affects:
+  - nih
+  - nih-r01
+  - nih-p01
+  - nih-large-budget-prior-approval
+  sources:
+  - 37
+  - 36
+  sweep: research-A
+- id: ch-nih-multi-year-funding
+  date: '2025'
+  what: NIH council slides state that NIH was required to use 50% of remaining competing research project grant funds for
+    awards funded in full at the start, from one fiscal year's appropriation [137]. The Senate committee's summary of the
+    FY 2026 bill says about 2,000 fewer grants resulted in FY 2025 and describes a new limiting provision; NIH's FY 2026
+    fiscal notice cites Division B, section 240, which holds FY 2026 obligations for multi-year awards to no more than the
+    FY 2025 amount [63] [21].
+  status: final
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-multi-year-funding
+  sources:
+  - 137
+  - 63
+  - 21
+  - 68
+  - 70
+  sweep: research-A
+- id: ch-nih-fy2026-appropriation
+  date: '2026-02-03'
+  what: The Consolidated Appropriations Act, 2026 (Public Law 119-75) was signed February 3, 2026; NIH states a program
+    level of $47.5 billion, a 1 percent increase over FY 2025 [21]. NIH's notice list shows a notice on a lapse in appropriations
+    dated February 2, 2026, the day before [80].
+  status: final
+  affects:
+  - nih
+  sources:
+  - 21
+  - 62
+  - 63
+  - 80
+  sweep: research-A
+- id: ch-nih-salary-cap-fy2026
+  date: '2026-01-28'
+  what: The salary limitation rose to $228,000 (Executive Level II); NOT-OD-26-034 first gave January 11, 2026 as the effective
+    date and NOT-OD-26-038 corrected it on February 9, 2026 to January 1, 2026 [18] [19].
+  status: final
+  affects:
+  - nih
+  - nih-salary-cap
+  sources:
+  - 18
+  - 19
+  - 20
+  - 21
+  sweep: research-A
+- id: ch-nih-aids-due-dates-removed
+  date: '2026-01-28'
+  what: NOT-OD-26-029 ended separate AIDS application due dates, in place since 1988, beginning with applications for the
+    January 2027 advisory council round; HIV/AIDS applications use the standard dates [17] [2].
+  status: final
+  affects:
+  - nih
+  - nih-standard-due-dates
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-r15-area
+  - nih-r15-reap
+  sources:
+  - 17
+  - 2
+  sweep: research-A
+- id: ch-nih-r13-permission-removed
+  date: '2026-02-10'
+  what: NOT-OD-26-040 ended the requirement to obtain an institute's written permission before submitting a conference grant
+    application; the parent R13 notice applies this to due dates on or after April 12, 2026 [97] [52].
+  status: final
+  affects:
+  - nih-r13
+  sources:
+  - 97
+  - 52
+  sweep: research-A
+- id: ch-nih-dms-plan-format-2026
+  date: '2026-02-25'
+  what: NOT-OD-26-046 revised the elements of a Data Management and Sharing Plan and required a new format page for due
+    dates on or after May 25, 2026 [100]. NOT-OD-26-100 of July 29, 2026 ended prior approval for plan changes from October
+    1, 2026 and moves active awards to the new format by the FY 2027 progress report [99].
+  status: final
+  affects:
+  - nih
+  - data-management-sharing-plan
+  sources:
+  - 100
+  - 99
+  - 124
+  sweep: research-A
+- id: ch-nih-gps-march-2026
+  date: '2026-03-25'
+  what: NIH published the March 2026 revision of the Grants Policy Statement, which folds in Guide notices in effect as
+    of March 17, 2026, supersedes the April 2024 version, and applies to budget periods beginning in fiscal year 2026 [98]
+    [35].
+  status: final
+  affects:
+  - nih
+  sources:
+  - 98
+  - 35
+  sweep: research-A
+- id: ch-nih-late-policy-2026
+  date: '2026-03-31'
+  what: NOT-OD-26-064 ended the continuous submission policy and restated the two-week late window, effective May 25, 2026
+    [130].
+  status: final
+  affects:
+  - nih
+  - nih-late-application-window
+  sources:
+  - 130
+  sweep: research-A
+- id: ch-nih-rpg-cap-rfi
+  date: '2026-06-08'
+  what: NOT-OD-26-086 asked for comment, by August 3, 2026, on capping at 2, 3 or 4 the research project grants a person
+    may hold at once as PI or multiple PI, across 46 activity codes [89]. NIH reported nearly 3,300 responses on August
+    19, 2026 and announced no decision [88].
+  status: proposed
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  - nih-p01
+  - nih-u01
+  - nih-dp1-pioneer
+  - nih-dp2-new-innovator
+  - nih-dp5-early-independence
+  sources:
+  - 89
+  - 88
+  sweep: research-A
+- id: ch-nih-letters-of-collaboration
+  date: '2026-07-27'
+  what: NOT-OD-26-094 replaces letters of support with letters of collaboration of at most 100 words each, to take effect
+    in fiscal year 2027 with the Forms J application package [131].
+  status: pending-implementation
+  affects:
+  - nih
+  sources:
+  - 131
+  sweep: research-A
+- id: ch-nih-impact-score-rfi
+  date: '2026-08-14'
+  what: 'NOT-OD-26-088 asks for comment, by October 13, 2026, on a proposal to stop reporting final overall impact scores
+    and percentiles and to report three categories: ''Most competitive'' (top 25%), ''Competitive'' (26-50%) and ''Not discussed''
+    (over 50%) [14].'
+  status: proposed
+  affects:
+  - nih
+  - nih-study-section
+  - nih-unified-funding-strategy
+  sources:
+  - 14
+  sweep: research-A
+- id: ch-nih-fy2027-budget-request
+  date: '2026'
+  what: The FY 2027 President's Budget requests $41.5 billion for NIH and proposes merging NIDA and NIAAA, eliminating NCCIH,
+    the Fogarty International Center and NIMHD, moving NIEHS to CDC, capping F&A at 15 percent, and funding all competing
+    research project grants in full at award [57] [59]. The FY 2026 request had proposed consolidating the institutes into
+    eight; NIH's own list still showed 27 institutes and centers on July 7, 2026 [135] [143].
+  status: proposed
+  affects:
+  - nih
+  sources:
+  - 57
+  - 58
+  - 59
+  - 135
+  - 143
+  - 60
+  sweep: research-A
+- id: ch-nih-fy2027-continuing-resolution
+  date: '2026-09-28'
+  what: NOT-OD-26-131 states that NIH operates under Public Law 119-103, the Continuing Appropriations and Extensions Act,
+    2027, through December 11, 2026 at the FY 2026 enacted level, and issues non-competing awards below the level on the
+    most recent Notice of Award [83] [61].
+  status: final
+  affects:
+  - nih
+  sources:
+  - 83
+  - 61
+  sweep: research-A
+- id: ch-nih-success-rate-fy2025
+  date: '2026-03-12'
+  what: NIH reported that the research project grant success rate fell from 18.5% in FY 2024 to 13.0% in FY 2025, with applications
+    up from 55,418 to 62,592 and new and renewal awards down from 10,265 to 8,161 [81].
+  status: final
+  affects:
+  - nih
+  - nih-r01
+  - nih-r21
+  sources:
+  - 81
+  - 82
+  sweep: research-A
+- id: c-nsf-2024-05-pappg-24-1-common-forms
+  date: '2024-05-20'
+  status: final
+  affects:
+  - nsf
+  - nsf-research-proposal
+  what: PAPPG 24-1 took effect on May 20, 2024 with the bar on parties to malign foreign talent recruitment programmes,
+    no page limit on the biographical sketch, and synergistic activities as a separate document [250]. NSF hosts the government-wide
+    Common Forms for the biographical sketch and current and pending (other) support, with a disclosure table of the same
+    date [249].
+  sources:
+  - 250
+  - 249
+  - 248
+  sweep: research-B
+- id: c-nsf-2025-04-priorities-terminations
+  date: '2025-04-18'
+  status: final
+  affects:
+  - nsf
+  what: NSF published its Updates on NSF Priorities page and terminated awards it judged not aligned with agency priorities,
+    naming diversity, equity and inclusion, environmental justice, and misinformation and disinformation; it states that
+    appeals will not be reviewed or considered [154]. The page was last updated July 24, 2026 and says NSF continues to
+    examine awards [154].
+  sources:
+  - 154
+  sweep: research-B
+- id: c-nsf-2025-05-idc-15-percent
+  date: '2025-05-02'
+  status: vacated
+  affects:
+  - nsf
+  - nsf-research-proposal
+  what: Policy Notice NSF 25-034 capped indirect costs at 15 percent of modified total direct costs on new awards to institutions
+    of higher education from May 5, 2025 [237]. The District of Massachusetts vacated it on June 20, 2025 and NSF states
+    it will not implement the policy at this time [238] [237].
+  sources:
+  - 237
+  - 238
+  - 154
+  sweep: research-B
+- id: c-nsf-2025-09-idc-appeal-dismissed
+  date: '2025-09-30'
+  status: final
+  affects:
+  - nsf
+  what: A case summary records that NSF appealed the judgment on August 14, 2025 and that the First Circuit dismissed the
+    appeal on NSF's own motion on September 30, 2025 [239]. NSF awards issued on or after May 5, 2025 still carry a term
+    applying the 15 percent policy if NSF is later permitted to apply it [154].
+  sources:
+  - 239
+  - 154
+  sweep: research-B
+- id: c-nsf-2025-06-mftrp-annual-certification
+  date: '2025-06-07'
+  status: final
+  affects:
+  - nsf
+  what: From June 7, 2025 PIs and co-PIs on NSF awards made on or after May 20, 2024 certify each year that they are not
+    party to a malign foreign talent recruitment programme [247].
+  sources:
+  - 247
+  sweep: research-B
+- id: c-nsf-2025-06-thakur-injunction
+  date: '2025-06-23'
+  status: on-appeal
+  affects:
+  - nsf
+  what: The Northern District of California ordered NSF, EPA and NEH to reinstate grants to University of California researchers
+    terminated by form letter or under Executive Orders 14151 or 14173 [240]. NSF reinstated 114 awards to 45 institutions
+    as of June 30, 2025, and the Ninth Circuit denied a stay on August 21, 2025 [154] [241].
+  sources:
+  - 240
+  - 154
+  - 241
+  sweep: research-B
+- id: c-nsf-2026-05-thakur-ninth-circuit
+  date: '2026-05-26'
+  status: on-appeal
+  affects:
+  - nsf
+  what: The Ninth Circuit reversed the injunction for the form-termination class on Tucker Act grounds and affirmed it for
+    the class terminated under the DEI executive orders [242]. The government petitioned the Supreme Court for review in
+    August 2026 [243].
+  sources:
+  - 242
+  - 243
+  sweep: research-B
+- id: c-nsf-2025-09-aapt-v-nsf
+  date: '2025-09-10'
+  status: final
+  affects:
+  - nsf
+  what: In American Association of Physics Teachers v. NSF (D.D.C., 1:25-cv-01923) the court denied a preliminary injunction
+    against NSF's terminations on September 10, 2025 [244] [245]. A case summary records a partial dismissal on March 25,
+    2026 and summary-judgment briefing complete on September 3, 2026, with no ruling yet [245].
+  sources:
+  - 244
+  - 245
+  sweep: research-B
+- id: c-nsf-2025-07-important-notice-149
+  date: '2025-07-10'
+  status: final
+  affects:
+  - nsf
+  what: Important Notice 149, issued July 10, 2025 and effective December 2, 2025, put in place research security training
+    for senior/key personnel, the annual malign-foreign-talent certification, a bar on funding institutions with Confucius
+    Institute contracts, and a revised timetable for the foreign financial disclosure report [247].
+  sources:
+  - 247
+  - 149
+  sweep: research-B
+- id: c-2025-08-eo-14332
+  date: '2025-08-07'
+  status: final
+  affects:
+  - nsf
+  what: Executive Order 14332 requires each agency to have senior appointees review funding opportunity announcements and
+    discretionary awards, to write termination-for-convenience terms into grants, and to use plain language in announcements
+    [246]. NSF's Supplement 1 cites the order [149].
+  sources:
+  - 246
+  - 149
+  sweep: research-B
+- id: c-nsf-2025-12-pappg-supplement-1
+  date: '2025-12-08'
+  status: final
+  affects:
+  - nsf
+  - nsf-rapid
+  - nsf-eager
+  - nsf-planning
+  - nsf-research-proposal
+  what: PAPPG Supplement 1 (NSF 26-200) raised the ceilings for planning proposals to $200,000 per year, RAPID to $300,000
+    and EAGER to $400,000, set a minimum of two reviewers who may be NSF staff, added a return-without-review ground, and
+    raised the equipment threshold to $10,000 [149].
+  sources:
+  - 149
+  sweep: research-B
+- id: c-nsf-2025-12-merit-review-two-reviewers
+  date: '2025-12-08'
+  status: final
+  affects:
+  - nsf
+  - nsf-research-proposal
+  what: The PAPPG as printed in 2024 says proposals are reviewed usually by three to ten persons outside NSF [157]. Supplement
+    1 states that full proposals, unless excepted, must be reviewed by at least two reviewers and that review can be conducted
+    internally by NSF staff [149].
+  sources:
+  - 157
+  - 149
+  - 176
+  sweep: research-B
+- id: c-nsf-2025-12-realignment
+  date: '2025-12-15'
+  status: final
+  affects:
+  - nsf
+  - nsf-bio
+  - nsf-cise
+  - nsf-eng
+  - nsf-geo
+  - nsf-mps
+  - nsf-sbe
+  - nsf-edu
+  what: NSF announced an organisational realignment to reduce the number of layers; the chart dated 12/14/2025 shows eight
+    directorates with no divisions beneath them [168] [169]. MPS, ENG and GEO state that their divisions became sections,
+    and EDU that its four divisions became two clusters [177] [179] [180] [181].
+  sources:
+  - 168
+  - 169
+  - 177
+  - 179
+  - 180
+  - 181
+  sweep: research-B
+- id: c-nsf-2026-01-pappg-supplement-2
+  date: '2026-01-22'
+  status: final
+  affects:
+  - nsf
+  - nsf-research-proposal
+  what: PAPPG Supplement 2 (NSF 26-202) requires accepted manuscripts in the NSF Public Access Repository at or before publication,
+    removes the 12-month embargo, and requires data supporting publications to be shared at publication [150]. From April
+    27, 2026 the Data Management and Sharing Plan is built with a Research.gov tool [150].
+  sources:
+  - 150
+  sweep: research-B
+- id: c-nsf-2026-01-fy2026-appropriation
+  date: '2026-01-23'
+  status: final
+  affects:
+  - nsf
+  what: Congress passed the FY 2026 Commerce-Justice-Science bill with $8.75 billion for NSF on January 15, 2026 [173].
+    A secondary source reports signature on January 23, 2026, $7.2 billion for Research and Related Activities and $938
+    million for STEM Education; NSF's FY 2027 request shows FY 2026 enacted as $8,750.00 million [174] [255].
+  sources:
+  - 173
+  - 174
+  - 255
+  sweep: research-B
+- id: c-nsf-2026-04-fy2027-request
+  date: '2026-04-03'
+  status: proposed
+  affects:
+  - nsf
+  - nsf-sbe
+  - nsf-edu
+  - nsf-sbe-core-programs
+  what: NSF's FY 2027 request asks for $4,863.15 million, requests $0 for SBE and states that NSF will close out that directorate
+    in FY 2027, and proposes to move STEM Education into the Research and Related Activities account [255]. Its Funding
+    Profile shows a research-grant funding rate of 18% in the FY 2025 plan and 7% under the request [255].
+  sources:
+  - 255
+  - 171
+  sweep: research-B
+- id: c-nsf-2026-06-gfa-draft
+  date: '2026-06-24'
+  status: proposed
+  affects:
+  - nsf
+  what: NSF published for comment a draft Guidance on Financial Assistance to replace the PAPPG (91 FR 38030); comments
+    closed August 24, 2026 [152] [147]. NSF's goal is to issue it for use in early to mid FY2027 [151].
+  sources:
+  - 152
+  - 153
+  - 151
+  - 147
+  sweep: research-B
+- id: c-nsf-2026-07-grant-general-conditions
+  date: '2026-07-31'
+  status: final
+  affects:
+  - nsf
+  what: NSF issued new Grant General Conditions (GC-1) and cooperative agreement conditions dated July 31, 2026 [262]. They
+    include articles on termination, a termination review procedure, the malign-foreign-talent certification and the foreign
+    financial disclosure report [263].
+  sources:
+  - 262
+  - 263
+  sweep: research-B
+- id: c-nsf-2026-08-foundational-nofos
+  date: '2026-08-17'
+  status: final
+  affects:
+  - nsf-bio-core
+  - nsf-cise-expeditions
+  - nsf-eng-cbet
+  - nsf-eng-cmmi
+  - nsf-eng-eccs
+  - nsf-efri-wbc
+  - nsf-geo-core
+  - nsf-mps-astro
+  - nsf-mps-chem
+  - nsf-mps-materials
+  - nsf-mps-mathsci
+  - nsf-mps-physics
+  - nsf-sbe-core-programs
+  - nsf-edu-ecr-core
+  what: NSF released twelve Notices of Funding Opportunity for foundational research worth over $1.5 billion, in BIO, CISE,
+    ENG, GEO and MPS; most accept proposals at any time [192] [185]. They consolidate earlier publications — CBET replaces
+    fourteen programme descriptions, CMMI ten, and BIO Core three solicitations — and none is for SBE, EDU or TIP [197]
+    [199] [192].
+  sources:
+  - 192
+  - 185
+  - 197
+  - 199
+  - 227
+  - 228
+  sweep: research-B
+- id: c-nsf-2026-09-sbe-programmes-waiting
+  date: '2026-09-30'
+  status: announced
+  affects:
+  - nsf-sbe
+  - nsf-sbe-core-programs
+  - nsf-crcns
+  what: SBE programme pages updated in July and September 2026 show no upcoming due dates and state that each programme
+    is waiting for a new publication [224] [226] [225]. The CRCNS page carries the same notice [274].
+  sources:
+  - 224
+  - 226
+  - 225
+  - 274
+  sweep: research-B
+- id: doe-15pct-indirect-ihe-2025
+  date: '2025-04-11'
+  what: DOE Policy Flash 2025-22 set a standardized 15 percent indirect cost rate for grants to institutions of higher education
+    [288]. The U.S. District Court for the District of Massachusetts enjoined it on May 15, 2025 and, per DOE's own page,
+    vacated it on June 30, 2025 [360] [288].
+  status: vacated
+  affects:
+  - doe
+  - doe-sc
+  - doe-sc-annual-foa
+  - doe-arpa-e-program-notices
+  sources:
+  - 288
+  - 360
+  - 291
+  sweep: research-C
+- id: doe-indirect-flashes-withdrawn-2026
+  date: '2026-01-27'
+  what: DOE Policy Flash 2026-30 states that PF 2025-22, 2025-25, 2025-26, 2025-27 and PF 2025-38/FAL 2025-05 are no longer
+    in effect as of January 23, 2026, citing Section 313 of H.R. 6938, which requires DOE to apply negotiated indirect cost
+    rates as in fiscal year 2024 [289]. An association timeline reports that the First Circuit dismissed the government's
+    appeal on March 16, 2026 [291].
+  status: final
+  affects:
+  - doe
+  - doe-sc
+  - doe-arpa-e
+  - doe-sc-annual-foa
+  - doe-arpa-e-program-notices
+  - doe-applied-office-notices
+  sources:
+  - 289
+  - 291
+  - 290
+  sweep: research-C
+- id: arpa-e-notices-drop-15pct-cap-2026
+  date: '2026-02-06'
+  what: ARPA-E removed a 15% indirect cost cap from open notices by modification; in the CATALCHEM-E notice this was Modification
+    03 of February 6, 2026 [301] [302].
+  status: final
+  affects:
+  - doe-arpa-e-program-notices
+  sources:
+  - 301
+  - 302
+  sweep: research-C
+- id: dod-15pct-indirect-2025
+  date: '2025-05-14'
+  what: A May 14, 2025 memorandum from the Secretary of Defense and a June 12, 2025 memorandum from the Under Secretary
+    for Research and Engineering capped indirect costs at 15% on assistance awards to institutions of higher education [293].
+    The District of Massachusetts vacated the policy on October 10, 2025 [293]; plaintiff associations report that the government's
+    appeal was dismissed on February 18, 2026 [292] [291].
+  status: vacated
+  affects:
+  - dod-onr
+  - dod-afosr
+  - dod-aro
+  - dod-darpa
+  - dod-onr-long-range-baa
+  - dod-afosr-open-baa
+  - dod-aro-arl-baa
+  - dod-muri
+  sources:
+  - 293
+  - 292
+  - 291
+  sweep: research-C
+- id: eo-14332-grant-oversight-2025
+  date: '2025-08-07'
+  what: Executive Order 14332 requires senior appointee review of funding announcements and discretionary awards and directs
+    that award terms permit termination when an award no longer effectuates programme goals or agency priorities [315].
+    DOE issued an implementing policy flash on February 19, 2026 and NASA changed its award terms on January 14, 2026 [314]
+    [382].
+  status: final
+  affects:
+  - doe
+  - nasa-smd
+  - dod-afosr
+  - dod-afosr-open-baa
+  - dod-muri
+  - nasa-roses
+  sources:
+  - 315
+  - 314
+  - 382
+  sweep: research-C
+- id: afosr-baa-closed-reissued-2026
+  date: '2026-03-23'
+  what: AFOSR's open announcement FA955025S0001 closed on March 23, 2026 with a notice citing Executive Order 14332; proposals
+    sent March 18–23 were to be resubmitted [319]. Its successor, FA955026S0001, was posted June 4, 2026 [320].
+  status: final
+  affects:
+  - dod-afosr
+  - dod-afosr-open-baa
+  sources:
+  - 319
+  - 320
+  - 339
+  sweep: research-C
+- id: department-of-war-secondary-title-2025
+  date: '2025-09-05'
+  what: Executive Order 14347 authorises 'Department of War' as a secondary title for the Department of Defense and states
+    that statutory references to the Department of Defense remain controlling [348]. FY 2026 CDMRP announcements, the FY
+    2027 MURI announcement and DARPA's site use the new title [330] [325] [343].
+  status: final
+  affects:
+  - dod-onr
+  - dod-afosr
+  - dod-aro
+  - dod-darpa
+  - dod-cdmrp
+  - dod-muri
+  sources:
+  - 348
+  - 330
+  - 325
+  - 343
+  sweep: research-C
+- id: doe-award-terminations-2025
+  date: '2025-10-01'
+  what: DOE announced the termination of 321 financial awards supporting 223 projects, naming six offices that include ARPA-E;
+    the Office of Science is not named [308]. Recipients had 30 days to appeal [308].
+  status: final
+  affects:
+  - doe
+  - doe-arpa-e
+  sources:
+  - 308
+  - 309
+  sweep: research-C
+- id: cdmrp-fy25-reduced-funding
+  date: '2025-03-15'
+  what: Under the full-year continuing resolution signed March 15, 2025, CDMRP received $650 million for 12 programmes in
+    FY 2025 [353].
+  status: final
+  affects:
+  - dod-cdmrp
+  - dod-cdmrp-program-announcements
+  - dod-cdmrp-prmrp
+  sources:
+  - 353
+  sweep: research-C
+- id: cdmrp-fy26-appropriation
+  date: '2026-02-03'
+  what: Under the appropriations act signed February 3, 2026, CDMRP received $1.27 billion for 34 programmes in FY 2026,
+    including $370.0 million for PRMRP across 52 topics [295].
+  status: final
+  affects:
+  - dod-cdmrp
+  - dod-cdmrp-program-announcements
+  - dod-cdmrp-prmrp
+  sources:
+  - 295
+  sweep: research-C
+- id: nasa-roses-2025-july-release
+  date: '2025-07-10'
+  what: ROSES-2025 was released on July 10, 2025 rather than in February [372] [294]. It made dual-anonymous peer review
+    the default, removed inclusion plans, solicited fewer programme elements and required SciENcv biographical sketches
+    [377].
+  status: final
+  affects:
+  - nasa-smd
+  - nasa-roses
+  sources:
+  - 372
+  - 294
+  - 377
+  - 375
+  sweep: research-C
+- id: nasa-roses-2026-release-status
+  date: '2026-01-23'
+  what: NASA announced on January 23, 2026 that ROSES-2026 would be released in July 2026 [294]. On the sweep date a Grants.gov
+    search for NNH26ZDA001N returned nothing and ROSES-2025 received a new programme element on October 2, 2026 [395] [374].
+  status: announced
+  affects:
+  - nasa-smd
+  - nasa-roses
+  - nasa-roses-flexible-due-date
+  sources:
+  - 294
+  - 395
+  - 374
+  - 373
+  - 371
+  sweep: research-C
+- id: nasa-termination-payment-terms-2026
+  date: '2026-01-14'
+  what: 'GIC 26-01 revised NASA''s award terms: an award may be terminated when it no longer effectuates programme goals
+    or agency priorities, and recipients need NASA''s authorisation and a written justification for each payment request
+    [382] [381].'
+  status: final
+  affects:
+  - nasa-smd
+  - nasa-roses
+  sources:
+  - 382
+  - 381
+  sweep: research-C
+- id: nasa-termination-appeal-2025
+  date: '2025-06-09'
+  what: GIC 25-02 gives a recipient 30 calendar days from NASA's written notice of intent to terminate to appeal [384].
+  status: final
+  affects:
+  - nasa-smd
+  sources:
+  - 384
+  sweep: research-C
+- id: research-security-training-doe-2025
+  date: '2025-05-01'
+  what: DOE's research security training certification, set by FAL 2025-02 of October 7, 2024, became mandatory after May
+    1, 2025 [310].
+  status: final
+  affects:
+  - doe
+  - doe-sc-annual-foa
+  - doe-arpa-e-program-notices
+  sources:
+  - 310
+  - 279
+  sweep: research-C
+- id: research-security-training-nasa-2026
+  date: '2026-08-05'
+  what: NASA's research security training certification, set by GIC 26-02 of February 5, 2026, took effect August 5, 2026
+    [383].
+  status: final
+  affects:
+  - nasa-smd
+  - nasa-roses
+  - nasa-roses-flexible-due-date
+  sources:
+  - 383
+  - 393
+  sweep: research-C
+- id: fy2027-budget-requests
+  date: 2026-04
+  what: 'FY 2027 requests against FY 2026 enacted: Office of Science $7,138,815,000 against $8,250,000,000; ARPA-E $200,292,000
+    against $350,000,000 [297]; NASA Science $3,893.9 million against $7,250.0 million [396]; DARPA $5.039 billion against
+    $4.322 billion [343].'
+  status: proposed
+  affects:
+  - doe-sc
+  - doe-arpa-e
+  - nasa-smd
+  - dod-darpa
+  sources:
+  - 297
+  - 396
+  - 343
+  - 296
+  sweep: research-C
+- id: doe-applied-offices-renamed
+  date: 2026-04
+  what: DOE's FY 2027 budget brief shows the Office of Energy Efficiency and Renewable Energy as the Office of Critical
+    Minerals and Energy Innovation and the Office of Fossil Energy as the Hydrocarbons and Geothermal Energy Office [297].
+  status: final
+  affects:
+  - doe
+  - doe-applied-office-notices
+  sources:
+  - 297
+  - 307
+  sweep: research-C
+- id: arpa-e-exchange-consolidated
+  date: unknown
+  what: The ARPA-E eXCHANGE site was decommissioned and its notices moved to the consolidated DOE eXCHANGE; the date of
+    the move is not stated on the notice [305].
+  status: final
+  affects:
+  - doe-arpa-e
+  - doe-arpa-e-program-notices
+  sources:
+  - 305
+  - 306
+  sweep: research-C
+- id: fy2026-appropriations-indirect-nasa
+  date: '2026-01-23'
+  what: A consultant's note says Section 542 of Division A of the FY 2026 appropriations act (H.R. 6938) prohibits NASA,
+    the Department of Commerce and NSF from limiting indirect cost rates [361]. The statutory text was not reached in this
+    sweep.
+  status: final
+  affects:
+  - nasa-smd
+  - nasa-roses
+  sources:
+  - 361
+  sweep: research-C
+- id: onr-lrbaa-extended-2026
+  date: 2026-09
+  what: Amendment 0008 moved the proposal deadline of ONR's long-range announcement to 31 December 2026 [334].
+  status: final
+  affects:
+  - dod-onr
+  - dod-onr-long-range-baa
+  sources:
+  - 334
+  - 316
+  sweep: research-C
+- id: c-rd-2025-04-08-doc-princeton
+  date: '2025-04-08'
+  what: The Department of Commerce announced the end of funding under three NOAA cooperative agreements with Princeton University,
+    nearly $4 million, with funding ending June 30, 2025, stating that the awards were no longer aligned with the program
+    objectives of NOAA [450].
+  status: final
+  affects:
+  - noaa
+  - noaa-cooperative-institutes
+  sources:
+  - 450
+  sweep: research-D
+- id: c-rd-2025-05-02-dot-utc-terminations
+  date: '2025-05-02'
+  what: DOT announced the termination of seven university grants totalling $54 million. DOT's list of centres marks grants
+    terminated on May 2, 2025 on the stated ground that the grant "no longer effectuates the program goals or agency priorities"
+    [496] [495].
+  status: final
+  affects:
+  - dot
+  - dot-utc
+  sources:
+  - 496
+  - 495
+  sweep: research-D
+- id: c-rd-2025-07-18-epa-reorg
+  date: '2025-07-18'
+  what: EPA announced a reduction in force affecting the Office of Research and Development and the establishment of an
+    Office of Applied Science and Environmental Solutions [454].
+  status: announced
+  affects:
+  - epa-ord
+  - epa-star
+  sources:
+  - 454
+  - 455
+  - 456
+  sweep: research-D
+- id: c-rd-2025-07-24-usda-reorg
+  date: '2025-07-24'
+  what: Secretary's Memorandum 1078-015 set out a USDA reorganization with five hub locations, the end of ARS Area Offices
+    and consolidation of Forest Service research stations in Fort Collins, Colorado. As returned by the fetch, the memorandum
+    does not name NIFA [419].
+  status: announced
+  affects:
+  - usda-ars
+  - usda-forest-service-rd
+  - usda-nifa
+  sources:
+  - 419
+  sweep: research-D
+- id: c-rd-2025-08-07-eo-14332
+  date: '2025-08-07'
+  what: Executive Order 14332, Improving Oversight of Federal Grantmaking, was signed (90 FR 38929, August 12, 2025). It
+    requires senior appointee review of new funding announcements and discretionary awards, and directs revisions to the
+    Uniform Guidance on termination for convenience and on facilities and administrative costs [246].
+  status: pending-implementation
+  affects:
+  - usda-nifa
+  - noaa
+  - epa-ord
+  - nist
+  - usgs
+  - dot
+  - dhs-st
+  sources:
+  - 246
+  sweep: research-D
+- id: c-rd-2025-11-14-afri-deadline-extension
+  date: '2025-11-14'
+  what: NIFA modified the FY 2026 AFRI Foundational and Applied Science request for applications to extend the application
+    deadline for various programme area priorities, to December 4, 11 and 18, 2025 [404] [424].
+  status: final
+  affects:
+  - nifa-afri-fas
+  sources:
+  - 404
+  - 424
+  sweep: research-D
+- id: c-rd-2025-12-22-dot-utc-recompetition
+  date: '2025-12-22'
+  what: DOT opened a re-opened competition for five vacant University Transportation Center slots (one Regional, four Tier
+    1), with applications due in February 2026 [492] [493].
+  status: final
+  affects:
+  - dot-utc
+  sources:
+  - 492
+  - 493
+  sweep: research-D
+- id: c-rd-2025-12-30-usda-rd-priorities
+  date: '2025-12-30'
+  what: Secretary's Memorandum 1078-020 named five USDA research and development priorities, effective immediately. NIFA's
+    FY 2026 notices for Strengthening Agricultural Systems and the Specialty Crop Research Initiative tell applicants that
+    projects are to align with it [418] [412] [414].
+  status: final
+  affects:
+  - usda-nifa
+  - nifa-afri-sas
+  - nifa-scri
+  - nifa-afri-fas
+  sources:
+  - 418
+  - 412
+  - 414
+  sweep: research-D
+- id: c-rd-2025-12-usda-terms
+  date: 2025-12
+  what: NIFA lists a December 2025 version of the USDA General Award Terms and Conditions and a March 2026 version of NIFA's
+    General Terms and Conditions as current; what changed in them was not read [425].
+  status: final
+  affects:
+  - usda-nifa
+  sources:
+  - 425
+  sweep: research-D
+- id: c-rd-2026-01-23-noaa-fy26-appropriation
+  date: '2026-01-23'
+  what: FY 2026 appropriations for NOAA were enacted in H.R. 6938, signed January 23, 2026. NOAA's FY 2027 justification
+    gives FY 2026 enacted discretionary appropriations of $5,634,615 thousand [443] [445].
+  status: final
+  affects:
+  - noaa
+  sources:
+  - 443
+  - 445
+  - 444
+  sweep: research-D
+- id: c-rd-2026-04-noaa-fy27-request
+  date: '2026-04-28'
+  what: NOAA's FY 2027 budget request proposes $0 for the Office of Oceanic and Atmospheric Research, with research moved
+    to other line offices, and lists terminations of Climate Competitive Research, Climate and Ocean Laboratories and Cooperative
+    Institutes, and the National Sea Grant College Program. The date given is that of the House hearing on the request [445]
+    [444].
+  status: proposed
+  affects:
+  - noaa
+  - noaa-cpo-esssp
+  - noaa-oar-programme-competitions
+  - noaa-sea-grant-research
+  - noaa-cooperative-institutes
+  sources:
+  - 445
+  - 444
+  sweep: research-D
+- id: c-rd-2026-04-epa-fy27-request
+  date: 2026-04
+  what: EPA's FY 2027 request asks $508,385 thousand for Science and Technology against $744,195 thousand in the FY 2026
+    enacted operating plan, with each of the four research programme lines reduced [458].
+  status: proposed
+  affects:
+  - epa-ord
+  - epa-star
+  sources:
+  - 458
+  - 459
+  sweep: research-D
+- id: c-rd-2026-usda-fy27-request
+  date: '2026'
+  what: USDA's FY 2027 Budget Summary proposes a cut of $510 million to NIFA formula grants; the research agency tables
+    were not returned by the fetch [426].
+  status: proposed
+  affects:
+  - usda-nifa
+  sources:
+  - 426
+  sweep: research-D
+- id: c-rd-2026-06-09-nist-mse-deadline
+  date: '2026-06-09'
+  what: NIST amended its measurement science and engineering notice (2025-NIST-MSE-01) to replace rolling acceptance of
+    applications with a single deadline of September 15, 2026; the notice is now closed [464] [463].
+  status: final
+  affects:
+  - nist
+  - nist-mse
+  sources:
+  - 464
+  - 463
+  sweep: research-D
+- id: c-rd-2026-epa-star-no-notices
+  date: '2026-04-29'
+  what: EPA's research funding opportunities page, last updated April 29, 2026, states that there are no open funding opportunities;
+    the last STAR research notice on Grants.gov was posted July 31, 2024 [452] [461].
+  status: final
+  affects:
+  - epa-star
+  - epa-ord
+  sources:
+  - 452
+  - 461
+  sweep: research-D
+- id: c-rd-2026-08-afri-commodity-topics-withdrawn
+  date: '2026-08-24'
+  what: 'NIFA modified the FY 2026 AFRI Foundational and Applied Science notice to withdraw commodity board co-funding topics:
+    American Egg Board topics 2, 3, 4 and 5 (8/18/26) and Nebraska Corn Development, Utilization, and Marketing Board topic
+    19 (8/24/26) [405].'
+  status: final
+  affects:
+  - nifa-afri-fas
+  sources:
+  - 405
+  sweep: research-D
+- id: c-rd-2026-09-21-usgs-wrri-notices
+  date: '2026-09-21'
+  what: USGS reported that the FY26 104(b) Base and 104(g) PFAS water resources notices were at their final level of approval
+    with no timeline, and that the 104(g) General notice was approved; it posted on September 30, 2026 [484] [486].
+  status: pending-implementation
+  affects:
+  - usgs-wrri-104g
+  - usgs
+  sources:
+  - 484
+  - 486
+  sweep: research-D
+- id: c-rd-2026-09-30-noaa-oar-baa-closed
+  date: '2026-09-30'
+  what: NOAA's research office broad agency announcement for FY 2024-2026 closed; no successor was found on Grants.gov on
+    the sweep date [478] [475].
+  status: final
+  affects:
+  - noaa-oar-baa
+  sources:
+  - 478
+  - 475
+  sweep: research-D
+- id: c-rd-2026-10-01-epa-terms
+  date: '2026-10-01'
+  what: EPA General Terms and Conditions effective October 1, 2026 or later replaced the version effective October 1, 2025;
+    the text was not read [473].
+  status: final
+  affects:
+  - epa-ord
+  sources:
+  - 473
+  sweep: research-D
+- id: ch-re-2025-02-21-ssa-rdrc-terminated
+  date: '2025-02-21'
+  what: The Social Security Administration announced that it was terminating its Retirement and Disability Research Consortium
+    cooperative agreements, citing an executive order on diversity, equity and inclusion programmes, and stated about $15
+    million in FY2025 savings [626].
+  status: final
+  affects:
+  - ssa-rdrc
+  - ssa
+  sources:
+  - 626
+  sweep: research-E
+- id: ch-re-2025-03-24-hhs-public-health-grant-terminations
+  date: '2025-03-24'
+  what: HHS terminated about $11 billion in CDC and SAMHSA public health grants effective March 24-25, 2025, stating that
+    the end of the pandemic was cause. On May 16, 2025 a district court granted the plaintiff states a preliminary injunction
+    against the terminations [544].
+  status: enjoined
+  affects:
+  - cdc
+  - samhsa
+  sources:
+  - 544
+  sweep: research-E
+- id: ch-re-2025-03-27-hhs-reorganisation-announced
+  date: '2025-03-27'
+  what: 'HHS announced a reorganisation: about 10,000 staff to be cut, 28 divisions consolidated into 15, a new Administration
+    for a Healthy America combining OASH, HRSA, SAMHSA, ATSDR and NIOSH, AHRQ merged with ASPE into an Office of Strategy,
+    and ACL programmes moved to ACF, ASPE and CMS [530].'
+  status: announced
+  affects:
+  - ahrq
+  - cdc
+  - hrsa
+  - samhsa
+  - acl-nidilrr
+  - acf-opre
+  sources:
+  - 530
+  - 531
+  sweep: research-E
+- id: ch-re-2025-03-31-notices-updated-agency-priorities
+  date: '2025-03-31'
+  what: AHRQ and NIOSH standing research announcements carry a related notice dated March 31, 2025 stating that the funding
+    opportunity was updated to align with agency priorities [507] [556] [558].
+  status: final
+  affects:
+  - ahrq-r01
+  - ahrq-r03
+  - cdc-niosh-r01
+  - cdc-niosh-r21
+  sources:
+  - 507
+  - 508
+  - 556
+  - 558
+  sweep: research-E
+- id: ch-re-2025-04-01-hhs-reductions-in-force
+  date: '2025-04-01'
+  what: Reduction-in-force notices went to NIOSH and Center for Tobacco Products staff on April 1, 2025, as a government
+    filing records. Plaintiffs in a suit over AHRQ state that about 123 AHRQ staff received notices that day and that AHRQ
+    grants management staff were separated on July 14, 2025; an HHS plan published September 25, 2025 gives AHRQ's total
+    staff as 91 [541] [524] [523].
+  status: final
+  affects:
+  - ahrq
+  - cdc
+  sources:
+  - 541
+  - 524
+  - 523
+  sweep: research-E
+- id: ch-re-2025-04-doj-ojp-terminations
+  date: '2025-04-22'
+  what: In April 2025 the Office of Justice Programs terminated 376 grant awards to 219 recipients, worth over $820 million,
+    with notices stating the awards no longer effectuated programme goals or agency priorities. On July 7, 2025 the district
+    court denied a preliminary injunction and dismissed the recipients' suit [621] [622].
+  status: final
+  affects:
+  - doj-nij
+  - doj-bjs
+  - doj-nij-research-evaluation
+  sources:
+  - 621
+  - 622
+  - 623
+  - 624
+  sweep: research-E
+- id: ch-re-2025-07-01-ny-v-kennedy-injunction
+  date: '2025-07-01'
+  what: A district court enjoined HHS from carrying out further reductions in force and restructuring under the March 27,
+    2025 announcement at CDC, the Center for Tobacco Products, the Office of Head Start and ASPE. The First Circuit denied
+    a stay pending appeal on September 17, 2025 [542] [543].
+  status: enjoined
+  affects:
+  - cdc
+  sources:
+  - 542
+  - 543
+  sweep: research-E
+- id: ch-re-2025-08-21-scotus-grant-termination-jurisdiction
+  date: '2025-08-21'
+  what: The Supreme Court stayed district court judgments that had vacated NIH grant terminations, while leaving in place
+    the vacatur of agency guidance. The order addresses which court hears claims to enforce payment under terminated grants,
+    a question that reaches every HHS agency in this slice [28].
+  status: on-appeal
+  affects:
+  - ahrq
+  - cdc
+  - fda
+  - hrsa
+  - samhsa
+  - acl-nidilrr
+  - acf-opre
+  sources:
+  - 28
+  sweep: research-E
+- id: ch-re-2025-ahrq-grant-making-halt-and-suit
+  date: '2025-09-30'
+  what: Plaintiffs in Society of General Internal Medicine v. Kennedy state that AHRQ issued no new-project awards from
+    April 1 to mid-August 2025 and approved 67 continuation awards by September 30, 2025, spending about $94 million of
+    a $369 million FY2025 appropriation; defendants moved to dismiss the suit as moot. These are a party's statements, not
+    court findings, and no ruling on the motion was read [524].
+  status: final
+  affects:
+  - ahrq
+  - ahrq-r01
+  - ahrq-r03
+  - ahrq-r18
+  sources:
+  - 524
+  - 525
+  - 526
+  sweep: research-E
+- id: ch-re-2025-10-01-hhs-gps-v2
+  date: '2025-10-01'
+  what: Version 2.0 of the HHS Grants Policy Statement took effect, replacing the April 2025 statement. On the same date
+    HHS adopted 2 CFR 200 with HHS modifications at 2 CFR 300 in place of 45 CFR 75. A technical edit followed on December
+    18, 2025 [527] [528] [529].
+  status: final
+  affects:
+  - ahrq
+  - cdc
+  - fda
+  - hrsa
+  - samhsa
+  - acl-nidilrr
+  - acf-opre
+  sources:
+  - 527
+  - 528
+  - 529
+  sweep: research-E
+- id: ch-re-2025-11-21-niosh-parent-announcements-expired
+  date: '2025-11-21'
+  what: The NIOSH standing R01 and R21 announcements (PAR-18-812 and PAR-18-798) expired on November 21, 2025. No reissue
+    was found, and the R01 record on Grants.gov is archived [556] [558] [557].
+  status: final
+  affects:
+  - cdc-niosh-r01
+  - cdc-niosh-r21
+  - cdc
+  sources:
+  - 556
+  - 558
+  - 557
+  sweep: research-E
+- id: ch-re-2026-01-samhsa-terminations-reversed
+  date: '2026-01-14'
+  what: Members of Congress state that SAMHSA sent termination notices for more than 2,000 active grants in mid-January
+    2026 and rescinded them within 24 hours, with $2 billion in grants reinstated. No HHS or SAMHSA page recording the event
+    was found [547] [546].
+  status: final
+  affects:
+  - samhsa
+  sources:
+  - 547
+  - 546
+  sweep: research-E
+- id: ch-re-2026-01-23-fy2026-cjs-enacted
+  date: '2026-01-23'
+  what: Public Law 119-74, which funds the Department of Justice for FY2026, was approved on January 23, 2026. DOJ's budget
+    table gives FY2026 enacted amounts of $22,000 thousand for NIJ and $33,000 thousand for BJS, against $30,000 thousand
+    and $35,000 thousand in FY2025 [540] [620].
+  status: final
+  affects:
+  - doj-nij
+  - doj-bjs
+  sources:
+  - 540
+  - 620
+  - 173
+  sweep: research-E
+- id: ch-re-2026-02-03-fy2026-lhhs-enacted
+  date: '2026-02-03'
+  what: Public Law 119-75, the Consolidated Appropriations Act, 2026, was approved on February 3, 2026; HHS budget documents
+    cite it for FY2026. HHS shows FY2026 enacted amounts of $119,000,000 for NIDILRR and $576,020,000 for the lines now
+    grouped as the Office of Strategy [539] [537] [536].
+  status: final
+  affects:
+  - ahrq
+  - acl-nidilrr
+  - acf-opre
+  - cdc
+  - fda
+  - hrsa
+  - samhsa
+  sources:
+  - 539
+  - 538
+  - 537
+  - 536
+  - 533
+  sweep: research-E
+- id: ch-re-2026-03-ahrq-early-expirations
+  date: '2026-03-10'
+  what: Between March 6 and March 17, 2026 AHRQ ended its standing R18, R01 and R03 announcements, its dissertation announcement
+    and topic-specific R01 announcements by notices of early expiration, effective immediately. The notices give no reason
+    and no reissue date [512] [515] [516] [513] [514] [517].
+  status: final
+  affects:
+  - ahrq
+  - ahrq-r01
+  - ahrq-r03
+  - ahrq-r18
+  - ahrq-primary-care-r01
+  sources:
+  - 512
+  - 513
+  - 514
+  - 515
+  - 516
+  - 517
+  - 510
+  - 518
+  sweep: research-E
+- id: ch-re-2026-04-fy2027-budget-reorganisation-proposals
+  date: 2026-04
+  what: The FY2027 President's Budget presents the Administration for a Healthy America and the Administration for Children,
+    Families, and Communities as planned bodies, and an Office of Strategy consolidating ASPE, AHRQ and NCHS. The justification
+    says the administration plans to establish the Administration for a Healthy America; a January 2026 news report says
+    it did not yet exist [535] [537] [536] [545].
+  status: proposed
+  affects:
+  - ahrq
+  - hrsa
+  - samhsa
+  - cdc
+  - acl-nidilrr
+  - acf-opre
+  sources:
+  - 535
+  - 537
+  - 536
+  - 533
+  - 534
+  - 545
+  sweep: research-E
+- id: ch-re-2026-nij-fy2026-notice-terms
+  date: '2026-07-22'
+  what: NIJ's FY2026 research notices list agency funding priorities, among them directly supporting law enforcement operations
+    and combatting violent crime, and unallowable uses, among them programmes that violate federal immigration law [607].
+  status: final
+  affects:
+  - doj-nij-research-evaluation
+  - doj-nij
+  sources:
+  - 607
+  sweep: research-E
+- id: ch-re-2026-08-04-pcori-connect
+  date: '2026-08-04'
+  what: PCORI moved new and resubmitted applications to a new portal, PCORI Connect, starting with Cycle 3 2026 research
+    and dissemination awards and the Fall 2026 engagement awards [595].
+  status: final
+  affects:
+  - pcori
+  - pcori-broad-pragmatic-studies
+  - pcori-placer
+  - pcori-science-of-engagement
+  sources:
+  - 595
+  sweep: research-E
+- id: ch-re-2026-05-13-fy2027-house-cjs
+  date: '2026-05-13'
+  what: A secondary source reports that the House Appropriations Committee reported its FY2027 Commerce-Justice-Science
+    bill on May 13, 2026, with NIJ at $22.0 million and BJS at $33.0 million and a direction to lower the research and statistics
+    set-aside from 2% to 1%. The DOJ budget table shows the same FY2027 request amounts [625] [620].
+  status: proposed
+  affects:
+  - doj-nij
+  - doj-bjs
+  sources:
+  - 625
+  - 620
+  sweep: research-E
+- id: c-rf-eo-14238
+  date: '2025-03-14'
+  what: Executive Order 14238 directed that the non-statutory components and functions of seven entities, among them the
+    Institute of Museum and Library Services, be eliminated and their statutory functions reduced to the minimum required
+    by law [688]. A district court later vacated the implementing actions at IMLS [687].
+  status: enjoined
+  affects:
+  - imls
+  - imls-national-leadership-grants-libraries
+  - imls-national-leadership-grants-museums
+  sources:
+  - 688
+  - 687
+  sweep: research-F
+- id: c-rf-imls-withholding-gao
+  date: '2025-06-16'
+  what: GAO decided that IMLS violated the Impoundment Control Act when it withheld appropriated funds; it counted approximately
+    $78.5 million in terminated competitive grants and $4-5 million in terminated contracts [690]. The court record states
+    that all 77 IMLS employees had been placed on paid administrative leave [687].
+  status: final
+  affects:
+  - imls
+  sources:
+  - 690
+  - 687
+  sweep: research-F
+- id: c-rf-imls-ri-v-trump
+  date: '2025-11-21'
+  what: In Rhode Island v [687]. Trump the District of Rhode Island held the implementation of Executive Order 14238 at
+    IMLS and three other agencies unlawful, vacated the actions and permanently enjoined further implementation [687]. An
+    association FAQ reports that the appeal was withdrawn on April 6, 2026 [691].
+  status: final
+  affects:
+  - imls
+  sources:
+  - 687
+  - 691
+  sweep: research-F
+- id: c-rf-imls-settlement
+  date: '2026-04-09'
+  what: In American Library Association v [689]. Sonderling the parties signed a settlement under which IMLS continues to
+    award grants to the full extent of Congressional appropriation using merit-based competitive peer review, and the 2025
+    reduction-in-force notices are rescinded; the plaintiffs dismiss without prejudice [689].
+  status: final
+  affects:
+  - imls
+  - imls-national-leadership-grants-libraries
+  - imls-national-leadership-grants-museums
+  sources:
+  - 689
+  sweep: research-F
+- id: c-rf-imls-fy26-fy27-cycles
+  date: '2026-01-13'
+  what: IMLS opened its FY 2026 discretionary cycle on January 13, 2026 with a March 13, 2026 deadline, announced the first
+    FY 2026 library awards on September 2, 2026, and posted FY 2027 notices with a November 13, 2026 deadline [679] [682]
+    [676].
+  status: final
+  affects:
+  - imls
+  - imls-national-leadership-grants-libraries
+  - imls-national-leadership-grants-museums
+  sources:
+  - 679
+  - 682
+  - 676
+  sweep: research-F
+- id: c-rf-neh-terminations-2025-04
+  date: '2025-04-02'
+  what: Between April 1 and April 3, 2025 NEH terminated over 1,400 grants representing more than $100 million in appropriated
+    funds, as found by the Southern District of New York [642]. The court stayed the terminations by preliminary injunction
+    (orders of July 25 and August 1, 2025, per a docket summary) [642] [643].
+  status: on-appeal
+  affects:
+  - neh
+  sources:
+  - 642
+  - 643
+  sweep: research-F
+- id: c-rf-neh-sj-2026-05
+  date: '2026-05-07'
+  what: The Southern District of New York granted the plaintiffs judgment in ACLS v [642]. NEH and Authors Guild v [642].
+    NEH on First Amendment, Fifth Amendment equal protection and ultra vires claims concerning the April 2025 terminations
+    [642]. A docket summary dates the ruling May 7, 2026, reports class certification and a permanent injunction, and reports
+    an appeal to the Second Circuit filed July 6, 2026 (No. 26-1829) [643].
+  status: on-appeal
+  affects:
+  - neh
+  sources:
+  - 642
+  - 643
+  sweep: research-F
+- id: c-rf-neh-rif-and-reorg-2025
+  date: '2025-08-20'
+  what: NEH merged seven grantmaking offices and divisions into four divisions (Federal/State Partnership, Collections &
+    Infrastructure, Lifelong Learning, Research), and stated that a reduction in force of two thirds of its workforce had
+    taken place in June 2025 [641].
+  status: final
+  affects:
+  - neh
+  - neh-collections-stewardship
+  - neh-humanities-collections-reference-resources
+  - neh-preservation-research-and-development
+  - neh-digital-humanities-advancement-grants
+  sources:
+  - 641
+  sweep: research-F
+- id: c-rf-neh-programme-list-2026
+  date: '2026-10-04'
+  what: On the sweep date the Division of Collections & Infrastructure listed Collections Stewardship, Rediscovering Our
+    Revolutionary Tradition, Celebrate America [645] [639] [640] [637]! Chairman's Grants, Endowments for Advancing the
+    Humanities, the National Digital Newspaper Program and Save America's Treasures; Humanities Collections and Reference
+    Resources, Research and Development, and Digital Humanities Advancement Grants were not listed, though their pages remained
+    online without dates [645] [639] [640] [637].
+  status: announced
+  affects:
+  - neh
+  - neh-humanities-collections-reference-resources
+  - neh-preservation-research-and-development
+  - neh-digital-humanities-advancement-grants
+  - neh-collections-stewardship
+  sources:
+  - 645
+  - 639
+  - 640
+  - 637
+  sweep: research-F
+- id: c-rf-neh-subject-limit-2026
+  date: '2026-06-30'
+  what: The 2026 competitions of Collaborative Research and Scholarly Editions and Translations were limited to projects
+    on American history and culture or Western civilization [633] [632].
+  status: final
+  affects:
+  - neh-collaborative-research
+  - neh-scholarly-editions-translations
+  sources:
+  - 633
+  - 632
+  - 631
+  sweep: research-F
+- id: c-rf-neh-funding-restrictions-2026
+  date: '2026-02-27'
+  what: The NEH General Application Guide of February 27, 2026 and the 2026 notices list as unallowable the promotion of
+    a particular political, religious or ideological point of view, support for DEI or DEIA initiatives, and environmental
+    justice initiatives, and require compliance with Executive Orders 13899 and 14188 [644] [632].
+  status: final
+  affects:
+  - neh
+  - neh-collaborative-research
+  - neh-scholarly-editions-translations
+  - neh-collections-stewardship
+  sources:
+  - 644
+  - 632
+  - 634
+  sweep: research-F
+- id: c-rf-neh-chairman-2026
+  date: '2026-08-07'
+  what: The Senate confirmed Michael McDonald as Chairman of NEH; NEH states that he had been Acting Chairman from March
+    2025 until January 2026 [708]. A July 22, 2026 release names William English as Acting Chairman [706].
+  status: final
+  affects:
+  - neh
+  sources:
+  - 708
+  - 706
+  sweep: research-F
+- id: c-rf-nea-gender-ideology-2025
+  date: '2025-09-19'
+  what: The NEA required on February 6, 2025 that applicants confirm federal funds would not be used to promote gender ideology,
+    rescinded that step in March 2025, and on April 30, 2025 issued a Final Notice under which the Chair would weigh whether
+    a project promotes gender ideology; on September 19, 2025 the District of Rhode Island vacated the Final Notice and
+    enjoined that standard as applied to the plaintiffs [657]. A docket summary reports an appeal to the First Circuit filed
+    November 17, 2025 [658].
+  status: on-appeal
+  affects:
+  - nea
+  - nea-research-grants-in-the-arts
+  - nea-research-labs
+  sources:
+  - 657
+  - 658
+  - 659
+  sweep: research-F
+- id: c-rf-nea-terminations-2025-05
+  date: '2025-05-02'
+  what: A trade magazine reports that the NEA sent grant termination notices on the evening of May 2, 2025, with a seven-day
+    appeal window [713]. No NEA page read in this sweep describes the terminations [653].
+  status: final
+  affects:
+  - nea
+  sources:
+  - 713
+  - 653
+  sweep: research-F
+- id: c-rf-nea-dei-certification
+  date: '2026-10-04'
+  what: On the sweep date the NEA Assurance of Compliance required applicants to certify, citing Executive Order 14173,
+    that they operate no DEI programmes that violate applicable federal anti-discrimination laws [656].
+  status: final
+  affects:
+  - nea
+  - nea-research-grants-in-the-arts
+  - nea-research-labs
+  sources:
+  - 656
+  sweep: research-F
+- id: c-rf-nea-gap-guidelines
+  date: '2026-10-04'
+  what: The NEA grants page states that Grants for Arts Projects deadlines have passed, that new guidelines are anticipated
+    by late December 2026, and that Challenge America and Our Town are now part of the Grants for Arts Projects application
+    process [653] [654].
+  status: announced
+  affects:
+  - nea
+  sources:
+  - 653
+  - 654
+  sweep: research-F
+- id: c-rf-ed-staff-and-contracts
+  date: '2026-06-22'
+  what: The Department of Education Inspector General reported that IES went from 191 employees to 30 (131 separated by
+    reduction in force and 30 by other separations) and that 97 IES contracts worth $1.1 billion were terminated, out of
+    129 contracts worth $1.3 billion across the Department [670].
+  status: final
+  affects:
+  - ed-ies
+  sources:
+  - 670
+  sweep: research-F
+- id: c-rf-ed-rif-2025-03
+  date: '2025-03-21'
+  what: The Department of Education announced a reduction in force taking its workforce from 4,133 to roughly 2,183, with
+    affected staff placed on administrative leave from March 21, 2025 [671]. The Inspector General later counted 3,902 employees
+    on January 20, 2025 and 2,323 remaining [670].
+  status: final
+  affects:
+  - ed-ies
+  sources:
+  - 671
+  - 670
+  sweep: research-F
+- id: c-rf-ed-interagency-agreements
+  date: '2025-11-18'
+  what: The Department of Education announced interagency agreements placing elementary and secondary programmes and most
+    postsecondary grant programmes with the Department of Labor, Indian Education with Interior, two programmes with HHS,
+    and International Education and Foreign Language Studies programmes, including Fulbright-Hays, with the Department of
+    State [672]. IES is not named in that release; trade press counts 14 agreements by July 2026 [672] [720].
+  status: pending-implementation
+  affects:
+  - ed-ies
+  sources:
+  - 672
+  - 720
+  - 721
+  - 670
+  sweep: research-F
+- id: c-rf-ies-reimagining-2026
+  date: '2026-02-27'
+  what: The Department released the report Reimagining the Institute of Education Sciences, which recommends topic-focused
+    funding and multi-state research awards, and said it would consider the recommendations [673] [674].
+  status: proposed
+  affects:
+  - ed-ies
+  - ies-education-research-grants
+  - ies-special-education-research-grants
+  sources:
+  - 673
+  - 674
+  sweep: research-F
+- id: c-rf-ies-fy27-tranches
+  date: '2026-08-06'
+  what: 'IES announced FY 2027 grantmaking in three tranches: five competitions opened August 6, 2026 with an October 1,
+    2026 deadline; 84.305J and 84.324T are planned for late September or early October 2026; Education Research Grants (84.305A,
+    84.324A), R&D Centers and Research Networks are planned for December 2026 [661] [662].'
+  status: announced
+  affects:
+  - ed-ies
+  - ies-education-research-grants
+  - ies-special-education-research-grants
+  - ies-statistical-research-methodology
+  - ies-longitudinal-data-state-policymaking
+  sources:
+  - 661
+  - 662
+  - 660
+  sweep: research-F
+- id: c-rf-ies-rfa-changes-fy27
+  date: '2026-08-06'
+  what: FY 2027 IES requests for applications cut the project narrative from 22 to 15 pages, add an appendix on the SEER
+    standards and research security requirements, and permit AI use in preparing applications with certification [663].
+  status: final
+  affects:
+  - ies-statistical-research-methodology
+  - ies-longitudinal-data-state-policymaking
+  sources:
+  - 663
+  sweep: research-F
+- id: c-rf-fy2026-appropriations-interior
+  date: '2026-01-15'
+  what: The FY 2026 Interior and Environment appropriations bill (H.R. 6938) passed the Senate on January 15, 2026 with
+    $207 million each for NEA and NEH, according to an association statement and arts press [718] [719]. The NEA's own table
+    shows $207,000,000 for 2026 [655].
+  status: final
+  affects:
+  - neh
+  - nea
+  sources:
+  - 718
+  - 719
+  - 655
+  sweep: research-F
+- id: c-rf-fy2026-appropriations-labor-hhs
+  date: '2026-02-04'
+  what: A policy organisation reports that H.R. 7148, signed February 4, 2026, gives IES approximately $790 million for
+    FY 2026 and bars transfers of Department of Education funds to other agencies without Congressional approval; trade
+    press reports $291.8 million for IMLS for 2026 [717] [692]. Neither figure was confirmed on a primary page in this sweep
+    [717].
+  status: final
+  affects:
+  - ed-ies
+  - imls
+  sources:
+  - 717
+  - 692
+  sweep: research-F
+- id: c-rf-nhprc-budget
+  date: '2026'
+  what: NARA's FY 2027 justification shows NHPRC grants at $10,000 thousand actual for FY 2025 and $19,344 thousand enacted
+    for FY 2026, and requests $0 for FY 2027 [703].
+  status: proposed
+  affects:
+  - nara-nhprc
+  - nhprc-publishing-historical-records-editions
+  - nhprc-archival-projects
+  sources:
+  - 703
+  sweep: research-F
+- id: c-rf-fy2027-requests
+  date: 2026-04
+  what: Trade press reports that the FY 2027 budget request proposes $6 million for IMLS, $29 million for NEA and $38 million
+    for NEH, each for closing down [692]. An association statement also says the FY 2027 request proposes eliminating NEH
+    and NEA [718].
+  status: proposed
+  affects:
+  - imls
+  - nea
+  - neh
+  sources:
+  - 692
+  - 718
+  sweep: research-F

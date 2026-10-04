@@ -1,0 +1,94 @@
+{
+ "slices": [
+  "research-A",
+  "research-B",
+  "research-C",
+  "research-D",
+  "research-E",
+  "research-F"
+ ],
+ "references": 726,
+ "references_by_kind": {
+  "primary": 683,
+  "secondary": 43
+ },
+ "references_by_tier": {
+  "current": 568,
+  "seminal": 59,
+  "background": 66,
+  "classic": 33
+ },
+ "references_by_read": {
+  "partial": 584,
+  "full": 142
+ },
+ "references_cited": 714,
+ "references_uncited": [
+  511,
+  522,
+  532,
+  575,
+  686,
+  700,
+  705,
+  707,
+  709,
+  710,
+  722,
+  723
+ ],
+ "merged_urls": [
+  "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
+  "https://www.supremecourt.gov/opinions/24pdf/25a103_kh7p.pdf",
+  "https://www.appropriations.senate.gov/news/majority/congress-approves-fy-2026-commerce-justice-and-science-appropriations-bill"
+ ],
+ "records": {
+  "programs": 131,
+  "funders": 51,
+  "standing": 25,
+  "gates": 29,
+  "help": 32,
+  "mechanics": 75,
+  "changes": 140,
+  "todo": 196
+ },
+ "todo_by_kind": {
+  "conflict": 28,
+  "recheck": 43,
+  "unverified": 42,
+  "gap": 83
+ },
+ "merged_records": [
+  "gates/sam-registration <- research-B",
+  "gates/grants-gov-registration <- research-B",
+  "gates/research-security-training <- research-B",
+  "gates/sam-registration <- research-C",
+  "gates/unique-entity-identifier <- research-C",
+  "gates/grants-gov-registration <- research-C",
+  "gates/research-security-training <- research-C",
+  "gates/sciencv <- research-C",
+  "gates/sam-registration <- research-D",
+  "gates/grants-gov-registration <- research-D",
+  "gates/era-commons <- research-D",
+  "gates/sam-registration <- research-E",
+  "gates/grants-gov-registration <- research-E",
+  "gates/era-commons <- research-E",
+  "help/era-service-desk <- research-E",
+  "mechanics/de-minimis-indirect-rate <- research-E",
+  "gates/sam-registration <- research-F",
+  "gates/grants-gov-registration <- research-F",
+  "help/grants-gov-support <- research-F"
+ ],
+ "id_clashes": [],
+ "unresolved_source_ids": {},
+ "unknown_reference_numbers": {},
+ "dangling_cross_references": {},
+ "second_person": [
+  "funders/dod-onr",
+  "help/nih-program-official",
+  "help/nih-matchmaker",
+  "mechanics/nih-modular-budget",
+  "mechanics/nih-highlighted-topics"
+ ],
+ "queries": 244
+}

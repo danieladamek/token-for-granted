@@ -1,0 +1,565 @@
+# standing.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- id: nih-area-eligible-institution
+  name: R15 AREA-eligible institution (undergraduate-focused)
+  applies_to: institution
+  what: |
+    An institutional standing that opens the R15 AREA programme. It describes an accredited public or non-profit private school that grants baccalaureate degrees in biomedical sciences, enrols more undergraduates than graduate students, and has had limited NIH support [7].
+  who_qualifies: The undergraduate enrolment is greater than the graduate enrolment, and the institution has not received
+    NIH support totaling more than $6 million per year, in direct and F&A costs together, in 4 of the last 7 years; health
+    professional schools are excluded from AREA [7].
+  how_decided: 'The institution certifies it: a signed letter from the provost or similar official verifying eligibility
+    goes in the application; for a multi-campus institution each campus with its own UEI or IPF number is assessed separately
+    [45] [7].'
+  opens:
+  - nih-r15-area
+  official_url: https://grants.nih.gov/funding/activity-codes/R15
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 7
+  - 45
+  sweep: research-A
+- id: nih-reap-eligible-institution
+  name: R15 REAP-eligible institution (health professional school or graduate school)
+  applies_to: institution
+  what: |
+    An institutional standing that opens the R15 REAP programme. It describes an accredited public or non-profit private school that grants baccalaureate or advanced degrees in health professions or biomedical and behavioral sciences and has had limited NIH support [8].
+  who_qualifies: All components of the institution combined have not received NIH support totaling more than $6 million
+    per year, in direct and F&A costs together, in 4 of the last 7 years; health professional schools are those granting
+    degrees such as BSN, MD, DDS, PharmD, DVM and MPH, and graduate schools grant M.A., M.S. and Ph.D. degrees [8].
+  how_decided: The institution certifies it with a signed letter from the provost or similar official [45].
+  opens:
+  - nih-r15-reap
+  official_url: https://grants.nih.gov/funding/activity-codes/R15
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 8
+  - 45
+  sweep: research-A
+- id: nih-early-stage-investigator
+  name: NIH Early Stage Investigator (ESI)
+  applies_to: investigator
+  what: |
+    An investigator standing. An Early Stage Investigator is a PD/PI within 10 years of the terminal research degree or the end of post-graduate clinical training, whichever is later, who has not yet won a substantial independent NIH research award [138].
+  who_qualifies: The status applies to R01-equivalent applications, and every PD/PI on the application must hold it for
+    the application to be treated as an ESI application [138].
+  how_decided: NIH computes the status from the degree date and award history in the investigator's eRA Commons profile,
+    and considers extensions for lapses in research or training [138].
+  opens:
+  - nih-dp2-new-innovator
+  - nih-r35
+  - nih-r01
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/early-stage-investigators
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 138
+  - 106
+  - 82
+  sweep: research-A
+- id: nih-nonprofit-other-than-higher-education
+  name: Nonprofit other than an institution of higher education (with or without 501(c)(3) status)
+  applies_to: nonprofit
+  what: |
+    The eligibility class NIH notices use for non-profits that are not universities. It appears as two lines in the eligibility section of a notice: nonprofits with 501(c)(3) IRS status and nonprofits without it, in both cases other than institutions of higher education [4].
+  who_qualifies: Both lines are eligible in the parent R01, R21, R03 and R13 notices, the MIRA notices, the NIAID P01 and
+    U01 notices read, and the four NIH Director's award notices; neither is eligible for the R15, which is limited to institutions
+    of higher education [4] [5] [6] [52] [73] [113] [116] [75] [7].
+  how_decided: Each notice of funding opportunity lists its own eligible organization types [4].
+  opens:
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-r13
+  - nih-r34
+  - nih-r61-r33
+  - nih-r35
+  - nih-p01
+  - nih-u01
+  - nih-dp1-pioneer
+  - nih-dp2-new-innovator
+  - nih-dp5-early-independence
+  - nih-tr01-transformative
+  - nih-pf5
+  official_url: https://grants.nih.gov/new-to-nih
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 4
+  - 117
+  - 7
+  sweep: research-A
+- id: nih-foreign-organization
+  name: Foreign (non-U.S.) organization
+  applies_to: institution
+  what: |
+    The eligibility class for organizations outside the United States. The Grants Policy Statement says foreign and international organizations may apply for research project grants and may not apply for programme project, center, institutional training, resource, SBIR/STTR or construction grants [107].
+  who_qualifies: Foreign organizations are eligible for the parent R01, R21 and R03 and for some institute notices such
+    as NIAID's clinical trial U01; they are not eligible for the R15, the R13, MIRA, the NIAID P01 or the NIH Director's
+    awards [4] [5] [6] [116] [7] [52] [73] [113] [75].
+  how_decided: Each notice states whether non-domestic entities may apply; a foreign applicant uses a detailed budget and
+    receives F&A at 8 percent of modified total direct costs [36] [64].
+  opens:
+  - nih-r01
+  - nih-r21
+  - nih-r03
+  - nih-u01
+  official_url: https://grants.nih.gov/grants/policy/nihgps/HTML5/section_16/16.2_eligibility.htm
+  pending_changes:
+  - status: final
+    date: '2025-05-01'
+    text: NIH no longer issues awards that include a subaward to a foreign entity; direct awards to foreign organizations
+      continue, and paid foreign collaborators on a U.S.-led project are funded through linked awards under the PF5 structure
+      [22] [86].
+  as_of: '2026-10-04'
+  sources:
+  - 107
+  - 22
+  - 86
+  - 4
+  sweep: research-A
+- id: nsf-eligible-ihe
+  name: Institution of higher education eligible for NSF funding
+  applies_to: institution
+  what: Two- and four-year institutions of higher education, community colleges included, accredited in and with a campus
+    located in the U.S. [156].
+  who_qualifies: Accreditation in the U.S. and a U.S. campus; an institution outside the U.S. is treated as a foreign organisation,
+    which NSF rarely funds directly [156]. Since December 8, 2025 an institution that maintains a contract or agreement
+    with a Confucius Institute may not receive NSF funds without a waiver from the NSF Director [149].
+  how_decided: Set by the PAPPG, Chapter I.E [156].
+  opens:
+  - nsf-research-proposal
+  - nsf-rapid
+  - nsf-eager
+  - nsf-raise
+  - nsf-goali
+  - nsf-planning
+  - nsf-conference
+  - nsf-bio-core
+  - nsf-cise-future-core
+  - nsf-cise-expeditions
+  - nsf-eng-cbet
+  - nsf-eng-cmmi
+  - nsf-eng-eccs
+  - nsf-geo-core
+  - nsf-mps-astro
+  - nsf-mps-chem
+  - nsf-mps-materials
+  - nsf-mps-mathsci
+  - nsf-mps-physics
+  - nsf-sbe-core-programs
+  - nsf-edu-ecr-core
+  - nsf-satc
+  - nsf-efri-wbc
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  pending_changes:
+  - status: proposed
+    date: '2026-06-24'
+    text: NSF has proposed to replace the PAPPG with a Guidance on Financial Assistance; comments closed August 24, 2026
+      and NSF's stated goal is to issue it for use in early to mid FY2027 [152] [151].
+  as_of: '2026-10-04'
+  sources:
+  - 156
+  - 149
+  - 152
+  - 151
+  sweep: research-B
+- id: nsf-nonprofit-nonacademic
+  name: Non-profit, non-academic organisation (NSF proposer category)
+  applies_to: nonprofit
+  what: NSF's category for independent museums, observatories, research laboratories, professional societies and similar
+    organisations located in the U.S. that are directly associated with educational or research activities [156].
+  who_qualifies: The test is the organisation's direct association with educational or research activities and a U.S. location;
+    the PAPPG text read does not mention tax status [156]. NSF's getting-started page lists nonprofit organisations beside
+    universities and tribal nations as eligible [158].
+  how_decided: Set by the PAPPG, Chapter I.E; a solicitation may narrow it, as Expeditions in Computing and RUI do [156]
+    [191] [254].
+  opens:
+  - nsf-research-proposal
+  - nsf-rapid
+  - nsf-eager
+  - nsf-raise
+  - nsf-goali
+  - nsf-planning
+  - nsf-conference
+  - nsf-bio-core
+  - nsf-cise-future-core
+  - nsf-eng-cbet
+  - nsf-eng-cmmi
+  - nsf-eng-eccs
+  - nsf-geo-core
+  - nsf-mps-astro
+  - nsf-mps-chem
+  - nsf-mps-materials
+  - nsf-mps-mathsci
+  - nsf-mps-physics
+  - nsf-sbe-core-programs
+  - nsf-edu-ecr-core
+  - nsf-satc
+  - nsf-efri-wbc
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  pending_changes:
+  - status: proposed
+    date: '2026-06-24'
+    text: NSF has proposed to replace the PAPPG with a Guidance on Financial Assistance; comments closed August 24, 2026
+      and NSF's stated goal is to issue it for use in early to mid FY2027 [152] [151].
+  as_of: '2026-10-04'
+  sources:
+  - 156
+  - 158
+  - 191
+  - 254
+  - 152
+  - 151
+  sweep: research-B
+- id: nsf-tribal-nation
+  name: Tribal Nation (Indian Tribe) as NSF proposer
+  applies_to: institution
+  what: A federally recognised American Indian or Alaska Native tribe, band, nation, pueblo, village or community is an
+    eligible NSF proposer [156].
+  who_qualifies: Tribes acknowledged by the Secretary of the Interior as federally recognised [156]. Supplement 1 changed
+    the PAPPG term from Tribal Nations to Indian Tribes [149].
+  how_decided: Set by the PAPPG, Chapter I.E, by reference to federal recognition [156].
+  opens:
+  - nsf-research-proposal
+  - nsf-rapid
+  - nsf-eager
+  - nsf-raise
+  - nsf-goali
+  - nsf-planning
+  - nsf-conference
+  - nsf-bio-core
+  - nsf-cise-future-core
+  - nsf-eng-cbet
+  - nsf-eng-cmmi
+  - nsf-eng-eccs
+  - nsf-geo-core
+  - nsf-mps-astro
+  - nsf-mps-chem
+  - nsf-mps-materials
+  - nsf-mps-mathsci
+  - nsf-mps-physics
+  - nsf-sbe-core-programs
+  - nsf-edu-ecr-core
+  official_url: https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 156
+  - 149
+  sweep: research-B
+- id: nsf-predominantly-undergraduate-institution
+  name: Predominantly undergraduate institution (PUI) for RUI and ROA
+  applies_to: institution
+  what: An accredited college or university, two-year community colleges included, that awards associate's, bachelor's or
+    master's degrees in NSF-supported fields and few doctorates [254].
+  who_qualifies: Institutions that have awarded 20 or fewer Ph.D./D.Sci. degrees in all NSF-supported fields during the
+    combined previous two academic years [254].
+  how_decided: 'By the institution''s own certification: an RUI proposal carries a Certification of RUI/ROA Eligibility
+    [254].'
+  opens:
+  - nsf-rui-roa
+  official_url: https://www.nsf.gov/funding/opportunities/rui-roa-pui-facilitating-research-predominantly-undergraduate
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 254
+  - 253
+  sweep: research-B
+- id: dod-us-degree-granting-university
+  name: U.S. institution of higher education with degree-granting programmes in science or engineering (MURI)
+  applies_to: institution
+  what: The class of institution that may receive MURI funds [325].
+  who_qualifies: U.S. institutions of higher education with degree-granting programmes in science and/or engineering; industry,
+    department laboratories, FFRDCs and foreign entities may collaborate but may not receive MURI funds [325].
+  how_decided: Set in the yearly MURI announcement [325].
+  opens:
+  - dod-muri
+  official_url: https://simpler.grants.gov/opportunity/a9243901-8569-47ad-a573-8e496d198a5b
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 325
+  - 326
+  sweep: research-C
+- id: dod-cdmrp-extramural-organization
+  name: Extramural organisation (CDMRP)
+  applies_to: institution
+  what: CDMRP sorts applicants into extramural organisations, which are outside the department, and intramural ones, which
+    are inside it; the two submit by different routes [330].
+  who_qualifies: An eligible organisation outside the department; CDMRP's general instructions give academia, biotechnology
+    companies, foundations, government and research institutes as examples [359]. FY26 announcements include foreign and
+    domestic, for-profit and non-profit organisations [330].
+  how_decided: Defined in CDMRP's general application instructions and in each programme announcement [359] [330].
+  opens:
+  - dod-cdmrp-program-announcements
+  - dod-cdmrp-prmrp
+  official_url: https://cdmrp.health.mil/funding/default
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 330
+  - 359
+  sweep: research-C
+- id: doe-nonprofit-not-lobbying-501c4
+  name: Non-profit other than a section 501(c)(4) organisation that lobbies (DOE)
+  applies_to: nonprofit
+  what: DOE notices read in this sweep admit non-profit organisations but exclude one class of them [278] [301].
+  who_qualifies: In the Office of Science FY 2027 notice, non-profits described in section 501(c)(4) that engaged in lobbying
+    activities after December 31, 1995 are ineligible [278]. The ARPA-E example notice states that non-profits described
+    in section 501(c)(4) are not eligible applicants [301].
+  how_decided: Set in each DOE notice [278] [301].
+  opens:
+  - doe-sc-annual-foa
+  - doe-arpa-e-program-notices
+  official_url: https://science.osti.gov/grants/FOAs/FOAs/2027/DE-FOA-0003665
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 278
+  - 301
+  sweep: research-C
+- id: nifa-afri-strengthening-eligible
+  name: AFRI strengthening (FASE) eligible institution
+  applies_to: institution
+  what: 'Institutions that qualify for AFRI''s Food and Agricultural Science Enhancement (FASE) strengthening grants: seed,
+    equipment, sabbatical and strengthening standard or coordinated project grants paid from reserved funds [423].'
+  who_qualifies: 'Small and mid-sized institutions (total enrolment of 17,500 or less), minority-serving institutions (one
+    or more minority groups exceed 50 percent of enrolment), and institutions in the FY 2026 EPSCoR states: Alaska, Connecticut,
+    Delaware, Hawaii, Idaho, Kentucky, Maine, Montana, North Dakota, New Jersey, New Mexico, Nevada, Rhode Island, South
+    Carolina, South Dakota, Utah, Vermont, West Virginia and Wyoming, plus listed territories and the District of Columbia.
+    The funding thresholds that also apply were not returned by the fetch [423].'
+  how_decided: By NIFA's published definitions and its yearly list of states; NIFA publishes a flow chart for strengthening
+    eligibility [423] [420].
+  opens:
+  - nifa-afri-fas
+  - nifa-afri-sas
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative/afri-funding-opportunities-resources
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 423
+  - 420
+  sweep: research-D
+- id: nifa-afri-new-investigator
+  name: AFRI new investigator
+  applies_to: investigator
+  what: An early-career project director who may apply for AFRI new investigator grants [423].
+  who_qualifies: Fewer than 75 total publications, fewer than 25 as first or senior author, and less than five years of
+    postgraduate career-track experience, not more than 12 years beyond the terminal degree [423].
+  how_decided: By NIFA's definition; NIFA publishes a decision tree [423] [420].
+  opens:
+  - nifa-afri-fas
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative/afri-funding-opportunities-resources
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 423
+  - 420
+  sweep: research-D
+- id: nifa-afri-integrated-project-eligible
+  name: Institution eligible for AFRI integrated projects
+  applies_to: institution
+  what: AFRI integrated projects (research combined with education or extension) have a narrower applicant list than single-function
+    projects [474] [412].
+  who_qualifies: Colleges and universities, 1994 land-grant institutions, and Hispanic-serving agricultural colleges and
+    universities; a research foundation maintained by a college or university is eligible. Other non-profits and private
+    organizations are not on the list [412] [474].
+  how_decided: Stated in each AFRI notice [412].
+  opens:
+  - nifa-afri-sas
+  - nifa-afri-fas
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 412
+  - 474
+  sweep: research-D
+- id: usgs-water-resources-research-institute
+  name: State Water Resources Research Institute
+  applies_to: institution
+  what: One of the 54 institutes or centres established under the Water Resources Research Act, one in each state and in
+    the District of Columbia, Puerto Rico, the US Virgin Islands and Guam. Only the institutes may submit applications under
+    the Act's grant programmes [483] [486].
+  who_qualifies: The institute itself is the applicant; investigators at accredited institutions of higher learning apply
+    through it [485].
+  how_decided: Set by the Water Resources Research Act of 1984 [486].
+  opens:
+  - usgs-wrri-104g
+  official_url: https://water.usgs.gov/wrri/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 483
+  - 485
+  - 486
+  sweep: research-D
+- id: noaa-sea-grant-program
+  name: Sea Grant programme
+  applies_to: institution
+  what: One of the 34 Sea Grant programmes. Many National Sea Grant Office notices take applications only from these programmes,
+    and each programme runs its own opportunities for researchers [437] [436].
+  who_qualifies: The 34 Sea Grant programmes listed by the National Sea Grant Office [437].
+  how_decided: By designation within the National Sea Grant College Program; the designation process was not on the pages
+    read [437].
+  opens:
+  - noaa-sea-grant-research
+  official_url: https://seagrant.noaa.gov/opportunities/funding/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 437
+  - 436
+  sweep: research-D
+- id: dot-utc-consortium
+  name: University Transportation Center consortium led by a non-profit institution of higher education
+  applies_to: institution
+  what: A University Transportation Center must be a consortium of two or more non-profit institutions of higher education
+    led by one lead institution, all in the United States, its territories or on Tribal lands [493].
+  who_qualifies: Only US non-profit institutions of higher education as defined under 20 U.S.C. 1001(a) may apply, and an
+    institution may receive one grant as lead through a competition [493].
+  how_decided: Set by statute, 49 U.S.C. 5505(b) [493].
+  opens:
+  - dot-utc
+  official_url: https://www.transportation.gov/content/university-transportation-centers
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 493
+  sweep: research-D
+- id: nidilrr-minority-entity
+  name: Minority entity or Indian tribe (NIDILRR Field Initiated Projects, MSI competition)
+  applies_to: institution
+  what: The class of applicant to which NIDILRR limits its minority-serving institution competitions for Field Initiated
+    Projects [579].
+  who_qualifies: A historically black college or university, a Hispanic-serving institution, an American Indian tribal college
+    or university, another institution where minority student enrollment is at least 50 percent, or an Indian tribe [579].
+  how_decided: Defined in the notice of funding opportunity, which cites 29 U.S.C. 718 among its authorities [579].
+  opens:
+  - acl-nidilrr-fip-msi
+  official_url: https://files.simpler.grants.gov/opportunities/a07130c9-e1e8-487a-b5d7-20757d5ef21d/attachments/199923c0-7cbe-4ef5-bd6e-cf4e84a613ff/Foa_Content_of_HHS-2026-ACL-NIDILRR-IFST-0205.pdf
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 579
+  sweep: research-E
+- id: va-paid-appointment
+  name: VA-paid appointment of at least 5/8ths time
+  applies_to: investigator
+  what: The employment standing an investigator needs to submit for intramural VA research funding. It attaches to the person,
+    through a VA medical centre, and not to an outside institution [584] [583].
+  who_qualifies: A principal investigator with at least 5/8ths VA-paid effort, or who is brought to 5/8ths by accepting
+    the funds; non-clinicians may need to meet additional eligibility requirements [583].
+  how_decided: Set by VA; a joint university and VA appointment needs a memorandum of understanding stating the appointment,
+    pay distribution and effort at each institution [584].
+  opens:
+  - va-ord-merit-review
+  official_url: https://www.va.gov/eastern-oklahoma-health-care/programs/research-and-development/research-investigators/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 584
+  - 583
+  - 585
+  sweep: research-E
+- id: neh-eligible-organization
+  name: NEH eligible organisation
+  applies_to: institution
+  what: The class of applicants that the 2026 NEH notices for organisations accept [632] [634] [648].
+  who_qualifies: Nonprofit organizations recognized as tax-exempt under section 501(c)(3); accredited institutions of higher
+    education, public or nonprofit; state and local governments and their agencies; federally recognized Native American
+    Tribal governments [632] [648]. Individuals and foreign and for-profit entities are ineligible [632] [648].
+  how_decided: Stated in each Notice of Funding Opportunity; NEH staff screen applications for eligibility [648].
+  opens:
+  - neh-collaborative-research
+  - neh-scholarly-editions-translations
+  - neh-collections-stewardship
+  official_url: https://www.neh.gov/grants
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 632
+  - 634
+  - 648
+  sweep: research-F
+- id: nea-five-year-operating-history
+  name: NEA five-year history of operations
+  applies_to: nonprofit
+  what: 'A threshold in the NEA research award guidelines: the applicant organisation must have operated for five years
+    before the deadline [651].'
+  who_qualifies: For Research Grants in the Arts, a 501(c)(3) nonprofit, unit of state or local government, or federally
+    recognized tribe with a five-year history of operations prior to the application deadline [651]. For Research Labs,
+    a U.S. institution of higher education or 501(c)(3) nonprofit whose five-year history includes commissioning and conducting
+    research [652].
+  how_decided: Set in the programme guidelines and checked by NEA staff for eligibility [652].
+  opens:
+  - nea-research-grants-in-the-arts
+  - nea-research-labs
+  official_url: https://www.arts.gov/grants/research-awards
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 651
+  - 652
+  sweep: research-F
+- id: imls-library-eligibility
+  name: IMLS eligible library or archives entity
+  applies_to: institution
+  what: The three-part eligibility test in the FY 2027 National Leadership Grants for Libraries notice [677].
+  who_qualifies: An organisation that is (1) a unit of State, local or Tribal government or a private nonprofit with 501(c)(3)
+    status, (2) located in one of the 50 states, the District of Columbia or a listed territory or freely associated state,
+    and (3) a library or its parent organisation, an academic or administrative unit such as a graduate school of library
+    and information science, a digital library or archives, a library or archival agency, a consortium, an association,
+    or a nonprofit whose sole mission is to support an affiliated library or archives [677]. A library must be open and
+    operational to the public when the application is submitted [677].
+  how_decided: Stated in the notice; IMLS generally rejects applications from institutions it determines to be ineligible
+    [677].
+  opens:
+  - imls-national-leadership-grants-libraries
+  official_url: https://www.imls.gov/find-funding/funding-opportunities/grant-programs/national-leadership-grants-for-libraries
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 677
+  sweep: research-F
+- id: imls-museum-eligibility
+  name: IMLS eligible museum or related entity
+  applies_to: institution
+  what: The eligibility test in the FY 2027 National Leadership Grants for Museums notice [681].
+  who_qualifies: A unit of State, local or Tribal government or a private nonprofit organization that is a museum using
+    a professional staff and organised on a permanent basis for essentially educational, cultural heritage or aesthetic
+    purposes; the notice also lists institutions of higher education, including public and nonprofit universities [681].
+    The full list of other eligible entity types was not captured [681].
+  how_decided: Stated in the notice [681].
+  opens:
+  - imls-national-leadership-grants-museums
+  official_url: https://www.imls.gov/find-funding/funding-opportunities/grant-programs/national-leadership-grants-for-museums
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 681
+  sweep: research-F
+- id: ies-capacity-to-conduct-research
+  name: IES applicant with the ability and capacity to conduct rigorous research
+  applies_to: institution
+  what: The eligibility sentence IES uses across its research competitions; it does not restrict applicants by type of organisation
+    [663] [662].
+  who_qualifies: Institutions that have the ability and capacity to conduct rigorous research, including non-profit and
+    for-profit organizations and public and private agencies and institutions such as colleges and universities [663] [716].
+  how_decided: Stated in each request for applications and in the Federal Register notice [662].
+  opens:
+  - ies-education-research-grants
+  - ies-special-education-research-grants
+  - ies-statistical-research-methodology
+  - ies-longitudinal-data-state-policymaking
+  official_url: https://ies.ed.gov/funding
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 663
+  - 716
+  - 662
+  sweep: research-F

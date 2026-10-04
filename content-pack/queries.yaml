@@ -1,0 +1,1322 @@
+# queries.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- text: NIH parent announcement R01 2026 PA-25 "Research Project Grant (Parent R01 Clinical Trial Not Allowed)
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH notice funding opportunities posted only on Grants.gov no longer NIH Guide NOT-OD-25 OR NOT-OD-26
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH "Highlighted Topics" funding opportunities parent announcements NOT-OD-26
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NOT-OD-25-132 NIH limit six applications per principal investigator per calendar year AI-generated applications
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH "unified funding strategy" notice NOT-OD-26 paylines funding decisions
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH request for information 2026 impact scores percentiles peer review NOT-OD-26
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH foreign subawards new award structure notice NOT-OD-25-104 PF5 "NIH Collaborative International Research Project"
+    PA-26-002
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH salary cap fiscal year 2026 Executive Level II notice NOT-OD-26 "salary limitation
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH Data Book success rates research project grants fiscal year 2025 R01-equivalent success rate report.nih.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH indirect cost 15 percent NOT-OD-25-068 court ruling First Circuit January 2026 vacated permanent injunction
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH RePORT success rates by activity code fiscal year 2025 table R01 R21 R03 R15 "success rate" site:report.nih.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH Extramural Nexus "FY 2025 By the Numbers" extramural grant investments success rate research project grants
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH grant terminations court ruling American Public Health Association v. NIH Supreme Court August 2025 First Circuit
+    2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH institute consolidation 27 institutes reorganization 2026 Congress appropriations act prohibits OR proposal
+    eight institutes
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: supremecourt.gov 25A103 National Institutes of Health v. American Public Health Association opinion August 21 2025
+    pdf
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: First Circuit American Public Health Association v. NIH decision 2026 grant terminations appeal opinion ca1.uscourts.gov
+    25-1611
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH public access policy effective July 1 2025 NOT-OD-25-101 accelerated implementation no embargo
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH Common Forms biographical sketch current and pending support SciENcv required NOT-OD-26 effective date 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH research security training requirement senior/key personnel notice NOT-OD-26 effective 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NOT-OD-26-079 NIH system enforcement Common Forms end of leniency period
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: grants.nih.gov NOT-OD-25-101 "2024 NIH Public Access Policy" effective date July 1, 2025
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH centralize peer review Center for Scientific Review all applications 2025 announcement institutes review branches
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH FY 2027 budget request congressional justification officeofbudget.od.nih.gov total reorganization institutes
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: FY2027 Labor-HHS appropriations NIH House Senate committee markup September 2026 continuing resolution NIH funding
+    level
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: continuing resolution fiscal year 2027 enacted September 30 2026 public law through date government funding
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: Senate Appropriations Committee FY2027 Labor-HHS bill NIH approved 2026 press release appropriations.senate.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: Consolidated Appropriations Act 2026 Public Law 119-75 NIH indirect costs section 224 multiyear awards section 240
+    text Labor-HHS division
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH multi-year funding policy 2025 "forward funding" half of remaining competing awards fully funded up front notice
+    NOT-OD-25 OR NOT-OD-26
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH notice terminations policy "no longer effectuates agency priorities" Grants Policy Statement 2 CFR 200.340 NOT-OD-25
+    terms and conditions termination appeals
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: PAR-27-032 Maximizing Investigators' Research Award Early Stage Investigators R35 full announcement
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-A
+- text: PAR-26-121 Maximizing Investigators' Research Award (MIRA) established new investigators R35 NIGMS
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: RFA-RM-27-001 NIH Director's Pioneer Award DP1 full announcement grants.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIAID paylines fiscal year 2026 "unified funding strategy" no paylines niaid.nih.gov funding decisions
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH multi-year funded awards fiscal year 2025 policy OMB "fully fund" competing awards NIH notice fiscal policies
+    FY 2025 NOT-OD-25
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-A
+- text: RFA-RM-27-002 NIH Director's New Innovator Award DP2 full announcement simpler.grants.gov
+  engine: WebSearch
+  hits: 0, not performed (session search budget used up)
+  date: '2026-10-04'
+  slice: research-A
+- text: RFA-RM-27-003 NIH Director's Transformative Research Award R01 full announcement simpler.grants.gov
+  engine: WebSearch
+  hits: 0, not performed
+  date: '2026-10-04'
+  slice: research-A
+- text: RFA-RM-27-004 NIH Director's Early Independence Award DP5 full announcement simpler.grants.gov
+  engine: WebSearch
+  hits: 0, not performed
+  date: '2026-10-04'
+  slice: research-A
+- text: NIH notice "continuing resolution" fiscal year 2027 NIH operates under non-competing awards NOT-OD-27 October 2026
+  engine: WebSearch
+  hits: 0, not performed
+  date: '2026-10-04'
+  slice: research-A
+- text: GAO decision NIH Impoundment Control Act grant terminations B-337203 August 2025 gao.gov
+  engine: WebSearch
+  hits: 0, not performed
+  date: '2026-10-04'
+  slice: research-A
+- text: '`https://simpler.grants.gov/search?query=P01%20program%20project&status=posted`'
+  engine: 1 result
+  hits: '2026-10-04'
+  date: null
+  slice: research-A
+- text: '`https://simpler.grants.gov/search?query=P01&status=posted`'
+  engine: 1 result
+  hits: '2026-10-04'
+  date: null
+  slice: research-A
+- text: '`https://simpler.grants.gov/search?query=R61%2FR33&status=posted`'
+  engine: 25 results
+  hits: '2026-10-04'
+  date: null
+  slice: research-A
+- text: '`https://simpler.grants.gov/search?query=R34%20planning%20grant&status=posted`'
+  engine: 5 results
+  hits: '2026-10-04'
+  date: null
+  slice: research-A
+- text: '`https://simpler.grants.gov/search?query=U01%20Clinical%20Trial&status=posted`'
+  engine: 33 results
+  hits: '2026-10-04'
+  date: null
+  slice: research-A
+- text: '`https://simpler.grants.gov/search?query=Parent%20R01&status=posted`'
+  engine: 2 results
+  hits: '2026-10-04'
+  date: null
+  slice: research-A
+- text: NSF "Guidance on Financial Assistance" Federal Register notice comment August 24, 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: nsf.gov RAPID EAGER proposal types "concept outline" funding "types of proposals" nsf.gov/funding" (nsf.gov only)
+  engine: WebSearch
+  hits: ~1
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF EAGER "EArly-concept Grants for Exploratory Research" $400,000 two years concept outline PAPPG supplement 2025
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: nsf.gov "Rapid Response Research (RAPID)" proposal type "up to $300,000" OR "up to $200K" one year
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF Dear Colleague Letter 2026 EAGER proposals "up to $400,000" "two years
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF 2026 restructuring divisions replaced directorates reorganization announcement nsf.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF FY2026 appropriations enacted Commerce-Justice-Science January 2026 "$8.75 billion" OR "National Science Foundation"
+    public law 119
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: nsf.gov "organizational" changes 2026 divisions "sections" directorate "new structure" NSF announcement" (nsf.gov
+    only)
+  engine: WebSearch
+  hits: ~1
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF ENG is changing its four divisions into four sections
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF GEO will no longer be organized into separate divisions
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF SBE "reorganized from three divisions" "five sections" NCSES
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF CISE core programs solicitation 2026 "Computer and Information Science and Engineering" core research nsf26
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF SBE core programs 2026 solicitation "Social, Behavioral and Economic Sciences" "SBE Core" nsf26 proposals accepted
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF "foundational research" funding opportunities August 2026 twelve NOFOs "accepted anytime" MPS GEO ENG CISE BIO
+    core solicitation numbers nsf26
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: Association of American Universities v. National Science Foundation indirect cost 15% vacated memorandum order June
+    2025 D. Mass. appeal dismissed
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF grant terminations court ruling 2025 2026 "National Science Foundation" terminations unlawful district court
+    order appeal Ninth Circuit Thakur OR "AAUP" OR "New York v. NSF
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF 25-034" "Implementation of Standard 15% Indirect Cost Rate" policy notice nsf.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: Thakur v. Trump Ninth Circuit opinion December 23, 2025 OR May 26, 2026 NSF grants preliminary injunction affirmed
+    vacated
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: American Association of Physics Teachers" v. "National Science Foundation" D.D.C. ruling 2026 terminations summary
+    judgment OR dismissed OR "Court of Federal Claims
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-B
+- text: nsf.gov Dear Colleague Letter 2026 RAPID proposals "up to $300,000" "one year"" (nsf.gov only)
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-B
+- text: nsf.gov 2026 "EAGER" "up to $400,000" "two years" concept outline" (nsf.gov only)
+  engine: WebSearch
+  hits: ~8
+  date: '2026-10-04'
+  slice: research-B
+- text: NSF Dear Colleague Letter 2026 "EAGER" "RAPID" proposals funding limits "$400,000" "$300,000" nsf26 DCL
+  engine: WebSearch
+  hits: '0 (refused: the session''s shared limit of 200 searches was reached)'
+  date: '2026-10-04'
+  slice: research-B
+- text: Office of Science FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program DE-FOA
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: science.osti.gov grants funding opportunity announcements open 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: NASA ROSES-2026 release date NSPIRES Research Opportunities in Space and Earth Sciences 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: CDMRP fiscal year 2026 appropriations programs funding opportunities eBRAP
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: DOE policy flash indirect cost rate 15 percent institutions of higher education financial assistance April 2025
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: Association of American Universities v. Department of Energy indirect cost 15 percent ruling vacated First Circuit
+    2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: Public Law 119-74 Energy and Water Development appropriations 2026 indirect cost rates section "negotiated indirect
+    cost rates" Office of Science $
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: Office of Science FY 2027 congressional budget request FY 2026 enacted $ billion energy.gov budget justification
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: ARPA-E funding opportunities 2026 eXCHANGE open NOFO universities non-profit eligibility cost share
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: DOE cost sharing section 988 Energy Policy Act 20 percent research development 50 percent demonstration institutions
+    of higher education waiver
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: NNSA Stewardship Science Academic Alliances 2026 funding opportunity grants universities
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: 'arpa-e.energy.gov "concept paper" "full application" applicant guide cost share "institutions of higher education"
+    2026 NOFO" (domains: arpa-e.energy.gov, arpa-e-foa.energy.gov, exchange.energy.gov)'
+  engine: WebSearch
+  hits: ~2
+  date: '2026-10-04'
+  slice: research-C
+- text: ARPA-E FY 2027 budget request FY 2026 enacted appropriation $ million
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: DOE Office of Science grant terminations 2025 2026 list terminated awards universities
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: DOE research security financial assistance "foreign talent recruitment" policy requirements 2026 covered individuals
+    research security training financial assistance letter
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: ARPA-E 2026 new program NOFO DE-FOA-00036 concept paper deadline announced funding opportunity
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: eCFR 42 U.S.C. 16538 ARPA-E statute awards "institutions of higher education" OR uscode.house.gov section 5012 America
+    COMPETES ARPA-E
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: DOE applied energy offices funding opportunities eXCHANGE infrastructure-exchange.energy.gov who may apply cost
+    share "Office of Critical Minerals and Energy Innovation" 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: govinfo Public Law 119-74 Commerce, Justice, Science; Energy and Water Development; and Interior and Environment
+    Appropriations Act, 2026 text
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: energy.gov "cancels" OR "terminates" awards October 2025 "321 financial awards" Secretary Wright press release $7.5
+    billion
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: Office of Naval Research Long Range Broad Agency Announcement Navy and Marine Corps Science and Technology N0001426S-B001
+    2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: AFOSR broad agency announcement "Research Interests of the Air Force Office of Scientific Research" FA9550 2026
+    open
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: Army Research Office broad agency announcement fundamental research W911NF 2026 ARL BAA grants cooperative agreements
+    white paper
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: AFOSR new Open BAA 2026 FA9550-26-S-0001 "Executive Order 14332" resubmit proposals
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: Federal Register Executive Order 14332 "Improving Oversight of Federal Grantmaking" August 7 2025
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: grants.gov AFOSR "Open BAA" 2026 "FA9550" research interests new announcement posted April 2026 Air Force Office
+    of Scientific Research NOFO
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: simpler.grants.gov "Research Interests of the Air Force Office of Scientific Research" FA955026S0001
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: ONR Long Range BAA N0001425SB001 Amendment 0008 September 2026 grants closed OR "no longer" OR "N0001427SB001" OR
+    "N0001426SB001
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: DARPA office-wide BAA 2026 Defense Sciences Office HR001126S0001 grants cooperative agreements universities abstracts
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: Minerva Research Initiative 2025 2026 status terminated grants funding opportunity minerva.defense.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: defense.gov release March 2025 "social science research" terminated "Minerva" OR "91 studies" Pentagon culls social
+    science research prioritizes fiscal responsibility
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: Pentagon Culls Social Science Research, Prioritizes Fiscal Responsibility and Technologies for Future Battlefield"
+    defense.gov OR war.gov Release Article
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: basicresearch.defense.gov MURI Minerva DURIP "Basic Research Office" funding opportunities 2026 Department of War
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: DoD Grant and Agreement Regulations 2 CFR 1100 1104 1108 DoDGARs 32 CFR 22 research general terms and conditions
+    2026 update
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: CDMRP eBRAP pre-application letter of intent two-tier review peer review programmatic review eligibility "extramural"
+    organizations who may apply
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: onr.navy.mil N0001425SB001 Long Range BAA pdf "white paper" "strongly encouraged" grants "program officer" evaluation
+    criteria
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: FA955026S0001" AFOSR Open BAA pdf "white paper" "program officer" eligibility "foreign" amendment 0001
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-C
+- text: ONR Long Range BAA N0001425SB001 amendment 2026 "white papers" grants "ONR Submission Portal" submissions.nre.navy.mil
+    research office guidance
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-C
+- text: DARPA "work with us" universities grants "fundamental research" BAA abstract proposal "cooperative agreement" darpa.mil
+    opportunities how to
+  engine: WebSearch
+  hits: '0, not performed: the session''s WebSearch budget (200 calls, shared with the other sweeps) was used up'
+  date: '2026-10-04'
+  slice: research-C
+- text: https://simpler.grants.gov/search?query=NNH25ZDA001N
+  engine: WebFetch
+  hits: 11 results
+  date: '2026-10-04'
+  slice: research-C
+- text: https://simpler.grants.gov/search?query=NNH26ZDA001N
+  engine: WebFetch
+  hits: 0 results
+  date: '2026-10-04'
+  slice: research-C
+- text: https://simpler.grants.gov/search?query=NNH26&status=posted,forecasted
+  engine: WebFetch
+  hits: 0 results
+  date: '2026-10-04'
+  slice: research-C
+- text: https://simpler.grants.gov/search?query=ARPA-E&status=posted
+  engine: WebFetch
+  hits: 1 result
+  date: '2026-10-04'
+  slice: research-C
+- text: https://simpler.grants.gov/search?query=DARPA%20office-wide&status=posted
+  engine: WebFetch
+  hits: 3 results
+  date: '2026-10-04'
+  slice: research-C
+- text: https://simpler.grants.gov/search?query=Office%20of%20Science&agency=DOE-SC&status=posted,forecasted
+  engine: WebFetch
+  hits: 0 results (the agency filter value was a guess)
+  date: '2026-10-04'
+  slice: research-C
+- text: https://www.federalregister.gov/api/v1/documents.json?conditions[term]="Restoring the United States Department of
+    War"&conditions[type][]=PRESDOCU
+  engine: WebFetch
+  hits: 1 result
+  date: '2026-10-04'
+  slice: research-C
+- text: NIFA Agriculture and Food Research Initiative Foundational and Applied Science request for applications FY 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA Climate Program Office notice of funding opportunity FY2026 status
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: EPA Science to Achieve Results STAR grants 2026 status research funding opportunities
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NIST Measurement Science and Engineering Research Grant Programs notice of funding opportunity 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NIFA peer review process competitive grants panel how applications are reviewed site:nifa.usda.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: USDA Secretary's Memorandum 1078-020 Departmental Research and Development Priorities
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: USDA Secretary's Memorandum 1078-015 Department of Agriculture Reorganization Plan NIFA research relocation
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NIFA Federal Assistance Policy Guide 2025 OR 2026 site:nifa.usda.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: FY2026 agriculture appropriations enacted NIFA AFRI funding level Public Law 119-37 CRS
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: AFRI grant types FY 2026 PDF nifa.usda.gov strengthening seed new investigator eligibility
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NIFA FY 2027 budget request explanatory notes AFRI 2026 enacted
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NIFA "FY 2027" AFRI Foundational and Applied Science notice of funding opportunity expected release
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: USDA FY 2027 budget summary NIFA Agriculture and Food Research Initiative 2026 enacted million site:usda.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NIFA terminated grants 2025 termination notice awards "no longer effectuates" agency priorities NIFA statement
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: NIFA Federal Assistance Policy Guide terms and conditions research terms site:nifa.usda.gov policy guide
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: Agricultural Research Service non-assistance cooperative agreements extramural universities how to partner ARS 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: Forest Service Research and Development grants cooperative agreements universities joint venture agreements funding
+    opportunities 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA Oceanic and Atmospheric Research FY2026 enacted appropriations Climate Program Office cooperative institutes
+    Sea Grant funding level explanatory statement
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: Sea Grant national research competition 2026 notice of funding opportunity seagrant.noaa.gov funding
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA cooperative institutes competition 2026 notice of funding opportunity cooperative institute policy ci.noaa.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA "Earth System Science and Services Partnership" FY 2026 notice of funding opportunity Climate Program Office
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA Ocean Exploration FY2026 OR FY2027 notice of funding opportunity ocean exploration grants oceanexplorer.noaa.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA grants "eRA Commons" transition Grants Online application submission NOAA Grants Management Division how to
+    apply
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: Saltonstall-Kennedy grant competition FY2026 OR FY2027 NOAA Fisheries notice of funding opportunity status
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA FY2027 budget request Oceanic and Atmospheric Research eliminate OAR congressional justification noaa.gov budget
+    FY27
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-D
+- text: EPA Office of Research and Development reorganization Office of Applied Science and Environmental Solutions announcement
+    epa.gov news release 2025
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-D
+- text: EPA news release "Office of Applied Science and Environmental Solutions" Office of Research and Development July
+    2025 reduction in force epa.gov/newsreleases
+  engine: WebSearch
+  hits: 0, not performed (session search budget of 200 used up)
+  date: '2026-10-04'
+  slice: research-D
+- text: EPA STAR grants terminated 2025 research grants cancelled court ruling EPA extramural research terminations
+  engine: WebSearch
+  hits: 0, not performed (session search budget used up)
+  date: '2026-10-04'
+  slice: research-D
+- text: 104g water resources research
+  engine: WebFetch simpler.grants.gov/search
+  hits: '1'
+  date: '2026-10-04'
+  slice: research-D
+- text: earthquake hazards program external research
+  engine: WebFetch
+  hits: '0'
+  date: '2026-10-04'
+  slice: research-D
+- text: Science to Achieve Results
+  engine: WebFetch
+  hits: 12, none EPA
+  date: '2026-10-04'
+  slice: research-D
+- text: NIST
+  engine: WebFetch
+  hits: '1'
+  date: '2026-10-04'
+  slice: research-D
+- text: earthquake
+  engine: WebFetch
+  hits: 3, none USGS
+  date: '2026-10-04'
+  slice: research-D
+- text: climate adaptation science center
+  engine: WebFetch
+  hits: '0'
+  date: '2026-10-04'
+  slice: research-D
+- text: homeland security center of excellence
+  engine: WebFetch
+  hits: '0'
+  date: '2026-10-04'
+  slice: research-D
+- text: UTCOPENCOMP2025" (all statuses)
+  engine: WebFetch
+  hits: '1'
+  date: '2026-10-04'
+  slice: research-D
+- text: G27AS00075" (all statuses)
+  engine: WebFetch
+  hits: '1'
+  date: '2026-10-04'
+  slice: research-D
+- text: Science to Achieve Results STAR" (all statuses, agency EPA)
+  engine: WebFetch
+  hits: 209 archived
+  date: '2026-10-04'
+  slice: research-D
+- text: STAR" (all statuses, agency EPA, newest first)
+  engine: WebFetch
+  hits: 221 archived
+  date: '2026-10-04'
+  slice: research-D
+- text: climate adaptation science center" (all statuses, newest first)
+  engine: WebFetch
+  hits: ~10 shown
+  date: '2026-10-04'
+  slice: research-D
+- text: NIST" (all statuses, newest first)
+  engine: WebFetch
+  hits: ~15 shown
+  date: '2026-10-04'
+  slice: research-D
+- text: NOAA research" (open and forecast, newest first)
+  engine: WebFetch
+  hits: '6'
+  date: '2026-10-04'
+  slice: research-D
+- text: Geological Survey" (open and forecast, newest first)
+  engine: WebFetch
+  hits: '2'
+  date: '2026-10-04'
+  slice: research-D
+- text: homeland security science technology university" (all statuses, newest first)
+  engine: WebFetch
+  hits: ~12 shown
+  date: '2026-10-04'
+  slice: research-D
+- text: Weather Program Office" (all statuses, newest first)
+  engine: WebFetch
+  hits: ~12 shown
+  date: '2026-10-04'
+  slice: research-D
+- text: transportation research university" (open and forecast, newest first)
+  engine: WebFetch
+  hits: '2'
+  date: '2026-10-04'
+  slice: research-D
+- text: AHRQ research funding mechanisms R01 R03 R18 funding announcements 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: HHS Grants Policy Statement effective October 1 2025 revised
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: PCORI funding opportunities 2026 cycle who may apply merit review
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: National Institute of Justice funding opportunities fiscal year 2026 research solicitations JustGrants
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: AHRQ NOT-HS-26 notice 2026 health services research R01 reissue PA-26
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: AHRQ funding opportunity announcements grants.nih.gov guide 2026 AHRQ R01 R18 R03 new NOFO "PA-26
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: AHRQ grants policy notices 2026 NOT-HS-26 new funding opportunity FY2026 AHRQ budget enacted appropriations
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: AHRQ fiscal year 2027 congressional justification budget request AHRQ FY2026 enacted
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: HHS FY 2027 Budget in Brief AHRQ "Administration for a Healthy America" hhs.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: HHS announces transformation March 27 2025 press release "Administration for a Healthy America" hhs.gov AHRQ ASPE
+    "Office of Strategy
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: Consolidated Appropriations Act 2026 Labor-HHS enacted February 2026 public law AHRQ appropriation "Healthcare Research
+    and Quality" congress.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: CDC research grants cooperative agreements how to find notice of funding opportunity extramural research peer review
+    NIOSH research grants R01 R21 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: NIOSH extramural research grants funding opportunities R01 PAR-26 occupational safety and health research 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: CDC extramural research peer review process "Office of Science" research cooperative agreements U01 special emphasis
+    panel secondary review cdc.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: NIOSH Occupational Safety and Health Research R01 PAR-25 OR PAR-26 reissue grants.nih.gov NOT-OH-26
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: CDC injury center research funding opportunities RFA-CE-26 research grants R01 U01 National Center for Injury Prevention
+    and Control 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: FDA extramural research grants cooperative agreements funding opportunities orphan products clinical trials grants
+    RFA-FD-26 CERSI 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: FDA grants and cooperative agreements funding opportunities fda.gov "Office of Acquisitions and Grants Services"
+    how to apply research
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: FDA Centers of Excellence in Regulatory Science and Innovation CERSI cooperative agreement U01 funding opportunity
+    2026 fda.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: CDC-RFA-CE-26-020 Research Grants for Preventing Interpersonal Violence and Suicide Among Youth and Young Adults
+    R01 grants.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: HRSA Maternal and Child Health research program R40 field-initiated research 2026 notice of funding opportunity
+    HRSA-26
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: mchb.hrsa.gov research program "Field-Initiated Innovative Research Studies" OR "Secondary Data Analysis Research"
+    funding 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: mchb.hrsa.gov research "MCH Research Program" OR "Office of Epidemiology and Research" extramural research funding
+    field-initiated 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: NIDILRR field initiated projects FY 2026 funding opportunity HHS-2026-ACL-NIDILRR acl.gov grants
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: VA Office of Research and Development who can apply for VA research funding eligibility intramural program non-VA
+    investigators research.va.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: VA research" "intramural program" "only VA employees" OR "VA-paid appointment" OR "5/8" eligibility to submit research
+    proposals ORD program guide 1200.15
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: PCORI "who can apply" eligibility "private sector research organization" nonprofit for-profit foreign organizations
+    applicant resources
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: PCORI about "reauthorized" 2029 "Patient-Centered Outcomes Research Trust Fund" "independent, nonprofit" authorized
+    by Congress pcori.org about
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: pcori.org "Trust Fund" "through 2029" OR "10 years" reauthorization "Further Consolidated Appropriations Act" PCORI
+    financials governance "Comptroller General
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: PCORI indirect costs 40 percent cap "indirect costs" contract research awards application guidelines 2026 merit
+    review criteria "potential for the study to fill critical gaps
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: NIJ FY 2026 solicitation pdf "eligible applicants" "institutions of higher education" "nonprofit organizations"
+    "period of performance" ojp.gov O-NIJ-2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: NIJ how applications are reviewed peer review process "NIJ Director" final award decisions nij.ojp.gov funding process
+    overview
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: Bureau of Justice Statistics funding opportunities FY 2026 solicitations bjs.ojp.gov funding who may apply
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: DOJ Office of Justice Programs terminated grants April 2025 365 awards Vera Institute v. Department of Justice ruling
+    district court opinion
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: NIJ FY 2026 budget "Research, Evaluation and Statistics" appropriation enacted Commerce Justice Science 2026 NIJ
+    BJS amount P.L. 119-74
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: SAMHSA grants terminated January 2026 reinstated termination notices rescinded samhsa.gov OR hhs.gov statement
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: HHS reduction in force April 1 2025 court injunction New York v. Kennedy ruling reorganization unlawful July 2025
+    district court Rhode Island opinion
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: GAO report 2026 HHS reorganization Administration for a Healthy America status not established AHRQ staffing reduction
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: rid.uscourts.gov New York v. Kennedy 25-cv-196 memorandum and order preliminary injunction July 1 2025 DuBose HHS
+    RIF
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: samhsa.gov January 2026 grant termination notices rescinded "disregard" statement SAMHSA grants reinstated official"
+    (allowed_domains samhsa.gov, hhs.gov)
+  engine: WebSearch
+  hits: ~2
+  date: '2026-10-04'
+  slice: research-E
+- text: American Public Health Association v. NIH OR "Massachusetts v. Kennedy" grant terminations ruling HHS CDC grants
+    terminated court opinion 2025 2026 Supreme Court August 21 2025 Court of Federal Claims
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: CDC grant terminations 2025 court ruling "Colorado v. HHS" public health funding terminated March 24 2025 $11 billion
+    preliminary injunction opinion
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: ACF OPRE research and evaluation grants funding opportunities 2026 who may apply secondary analyses grants acf.gov
+    opre grants
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: Social Security Administration Retirement and Disability Research Consortium 2025 2026 status cooperative agreements
+    terminated ssa.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: Department of Labor research grants Chief Evaluation Office labor research and evaluation grants 2026 funding opportunity
+    dol.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-E
+- text: SAMHSA research grants "does not fund research" OR "research" SAMHSA grant types services grants discretionary NOFO
+    who can apply samhsa.gov grants
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: Society of General Internal Medicine v. Kennedy AHRQ lawsuit 2026 complaint court ruling AHRQ grants non-award
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: NIDILRR FY 2026 funding opportunities DRRP RERC RRTC field initiated projects development HHS-2026-ACL-NIDILRR-IFDV
+    grants.gov closed awards
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: AHRQ special emphasis notice 2025 OR 2026 NOT-HS-25 OR NOT-HS-26 "Special Emphasis Notice" AHRQ announces interest
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-E
+- text: fiscal year 2027 Labor-HHS appropriations continuing resolution October 1 2026 signed public law appropriations.senate.gov
+    OR appropriations.house.gov
+  engine: WebSearch
+  hits: '0 (not performed: session search budget of 200 calls exhausted)'
+  date: '2026-10-04'
+  slice: research-E
+- text: NEH grant programs open 2026 Collaborative Research notice of funding opportunity deadline
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: neh.gov NEH announces restructuring divisions "Division of Lifelong Learning" 2025 OR 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: NEH grant terminations April 2025 court ruling Authors Guild ACLS v. NEH summary judgment 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: neh.gov "Division of Collections & Infrastructure" grant programs Humanities Collections and Reference Resources
+    2026 deadline
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: neh.gov Digital Humanities Advancement Grants 2026 discontinued OR "no longer" OR deadline Office of Digital Humanities
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: site:neh.gov grants "Division of Collections & Infrastructure" OR "Collections Stewardship" program 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: NEH FY2026 appropriation enacted Interior Environment appropriations act 2026 National Endowment for the Humanities
+    $207 million
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: NEH "fiscal year 2027" budget request congressional justification National Endowment for the Humanities appropriations
+    request
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: IES "84.305A" Education Research Grants request for applications FY 2026 OR FY 2027 status ies.ed.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: federalregister.gov "Applications for New Awards" Institute of Education Sciences fiscal year 2027 Statistical and
+    Research Methodology 84.305D
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: Department of Education interagency agreement 2026 Institute of Education Sciences moved OR transfer Department
+    of Labor OR Census "IES" announcement
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: IMLS 2026 National Leadership Grants for Libraries notice of funding opportunity FY2027 deadline imls.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: Executive Order 14238 "Continuing the Reduction of the Federal Bureaucracy" IMLS Rhode Island v. Trump permanent
+    injunction ruling November 2025 appeal First Circuit 2026
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: federalregister.gov Executive Order 14238 "Continuing the Reduction of the Federal Bureaucracy" March 14 2025 Institute
+    of Museum and Library Services
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: IMLS settlement 2026 American Library Association v. Sonderling OR "Rhode Island v. Trump" appeal dismissed IMLS
+    restored
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: Public Law 119" Interior Environment appropriations act 2026 enacted January 2026 National Endowment for the Humanities
+    "$207,000,000" National Endowment for the Arts
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: NEA grant terminations May 2025 arts.gov "updated grantmaking policy priorities" termination notices court ruling
+    Rhode Island Latino Arts v. NEA decision
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: arts.gov "grantmaking policy priorities" NEA 2025 update terminations "prioritize projects" President
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: site:arts.gov legal requirements grants executive orders "gender ideology" OR "diversity, equity, and inclusion"
+    assurance of compliance 2026
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: ies.ed.gov "Statistical and Research Methodology in Education" FY 2027 request for applications 84.305D pdf
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: Rhode Island Latino Arts v. National Endowment for the Arts decision September 2025 Judge Smith ruling "gender ideology"
+    rid.uscourts.gov opinion
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: NEA grant terminations May 2 2025 email "no longer effectuates agency priorities" GAO OR court OR CRS report National
+    Endowment for the Arts terminated awards number
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: ies.ed.gov peer review "Standards and Review Office" OR "Office of Science" scientific peer review process grant
+    applications procedures
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: Rhode Island Latino Arts v. National Endowment for the Arts memorandum and order September 19 2025 pdf govinfo OR
+    courtlistener OR rid.uscourts.gov
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: Institute of Education Sciences contracts cancelled February 2025 staff reduction in force March 2025 GAO report
+    OR court opinion IES "reduction in force" primary
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: ed.gov press release February 2025 Institute of Education Sciences contracts terminated "$881 million" OR "89 contracts"
+    Department of Education DOGE
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: GAO report 2026 Institute of Education Sciences staffing contracts cancelled reduction in force "IES" gao.gov
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: ed.gov "fiscal year 2027" congressional justification Institute of Education Sciences budget request research development
+    dissemination
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: Department of Education interagency agreement Institute of Education Sciences 2026 ed.gov press release NCES OR
+    "IES" partnership Labor OR Commerce OR "National Science Foundation
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: ed.gov interagency agreements page list "interagency agreement" Department of Education partnerships State Department
+    international foreign language education Title VI Fulbright-Hays 2026 grants administered
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: ed.gov "International Research and Studies" program 84.017A 2026 competition applicants eligibility international
+    and foreign language education
+  engine: WebSearch
+  hits: ~9
+  date: '2026-10-04'
+  slice: research-F
+- text: NHPRC grants FY 2027 announcement 2026 "Archival Projects" deadline November 2026 archives.gov nhprc
+  engine: WebSearch
+  hits: ~10
+  date: '2026-10-04'
+  slice: research-F
+- text: archives.gov NARA "FY 2027" congressional justification NHPRC grants program request enacted FY 2026
+  engine: WebSearch
+  hits: '0, not performed: session search budget exhausted (200 of 200)'
+  date: '2026-10-04'
+  slice: research-F
+- text: archives.gov nhprc 2026 grants awarded Archivist announces NHPRC grants 2026 press release
+  engine: WebSearch
+  hits: '0, not performed: session search budget exhausted'
+  date: '2026-10-04'
+  slice: research-F
+- text: IMLS FY2026 appropriation enacted "Institute of Museum and Library Services" Labor-HHS appropriations act 2026 amount
+    FY2027 budget request elimination imls.gov budget
+  engine: WebSearch
+  hits: '0, not performed: session search budget exhausted'
+  date: '2026-10-04'
+  slice: research-F

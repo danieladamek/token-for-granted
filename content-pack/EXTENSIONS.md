@@ -1,0 +1,227 @@
+# Taken for Granted content pack — extension schema (draft v0.2, 2026-10-04)
+
+Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
+
+Draft. Proposed by Claude, not yet ruled on by Daniel (requirements §5). v0.2 adds what the six research sweeps showed was missing; see the last section. The working copy is this file; `source/taken-for-granted-pack-schema.md` points here.
+
+## Files
+
+| File | Holds | FAR Out counterpart |
+|---|---|---|
+| `routes.yaml` | one record per entry pattern, four families | `routes.yaml` |
+| `programs.yaml` | funding programmes and mechanisms | `programs.yaml` |
+| `funders.yaml` | federal agencies and sub-agencies; foundations | `buyers.yaml` |
+| `standing.yaml` | eligibility classes for institutions, investigators and non-profits | `certifications.yaml` |
+| `gates.yaml` | registrations and compliance | `gates.yaml` |
+| `help.yaml` | free help | `help.yaml` |
+| `mechanics.yaml` | parts of an application and of the process | `mechanics.yaml` |
+| `changes.yaml` | dated ledger of what changed and what is pending | `changes.yaml` |
+| `pathfinder.yaml` | questions, tags and the ranking rule | `pathfinder.yaml` |
+| `queries.yaml` | every search run | `queries.yaml` |
+
+No `primes.yaml`.
+
+## Shared vocabularies
+
+```yaml
+family:   research | people | programme-service | capacity
+funder_kind: federal | foundation
+who:      faculty-investigator | early-career | research-office | nonprofit-programmes | nonprofit-research
+purpose:  research-project | person | service | capacity | operating
+stage:    never-applied | applied-unfunded | funded-once | established
+applicant_types:            # Grants.gov applicant-type codes, so a record can drive a /find filter
+  public-higher-ed: '06'
+  private-higher-ed: '20'
+  nonprofit-501c3: '12'
+  nonprofit-other: '13'
+  unrestricted: '99'
+pending_status: proposed | announced | final | pending-implementation | enjoined | vacated | on-appeal | frozen-by-appropriations
+```
+
+The applicant-type codes are to be confirmed against the extract's own schema when the probe has run.
+
+## references.yaml
+
+As FAR Out, with the tiers read for this field:
+
+- `seminal` — statute, public law, 2 CFR and other CFR text, executive orders, court opinions, an agency's governing policy guide (NIH Grants Policy Statement, NSF PAPPG).
+- `classic` — standing guidance older than the window (pre-2024) the field still leans on.
+- `current` — agency pages, funding notices, policy notices, foundation guidelines dated 2024–2026.
+- `background` — CRS and GAO reports, association explainers, glossaries, press releases.
+
+`source_kind: secondary` covers trade press, law firms, consultants, university research-office pages and advocacy trackers. A secondary source never carries a fact alone. A foundation's own site and its own filing are primary for that foundation; a third-party directory is secondary.
+
+## programs.yaml
+
+FAR Out's fields, plus those marked `# new`.
+
+```yaml
+- id: nih-r15-area                 # kebab-case, unique
+  name: NIH Research Enhancement Award (R15)
+  family: research
+  kind: mechanism                  # mechanism | program | fellowship | training | center | instrumentation | foundation-program
+  funder: nih                      # funders.yaml id                                   # new
+  funder_kind: federal             #                                                   # new
+  owner: National Institutes of Health (HHS)
+  what: >                          # plain layer, 2–4 sentences, cited
+  funds: grant                     # grant | cooperative-agreement | fellowship | contract | gift
+  mechanism_code: R15              # activity code or programme number as the funder gives it   # new
+  assistance_listings: ['93.859']  # ties the record to /find and /funded              # new
+  who_may_apply:                   #                                                   # new
+    applicant_types: [public-higher-ed, private-higher-ed]
+    standing: [undergraduate-focused-institution]   # standing.yaml ids
+    investigator: '… [n]'          # career stage, citizenship, appointment, as stated, cited
+    limits: '… [n]'                # applications per institution or per investigator, as stated
+  cycle:
+    pattern: '… [n]'               # standing receipt dates, annual solicitation, rolling, by invitation
+    current_notices:
+    - id: PAR-25-134
+      opens: '2026-01-25'
+      closes: '2028-05-08'
+      note: '… [n]'
+  awards:                          # amounts and periods exactly as stated, cited
+  - label: direct costs over the project period
+    amount: '$375,000'
+    duration: 'up to 3 years'
+    cite: [n]
+  indirect_costs: '… [n]'          # allowed at the negotiated rate, capped, or not allowed; as stated   # new
+  cost_sharing: '… [n]'            #                                                   # new
+  review: '… [n]'                  # who reviews and against which criteria            # new
+  success:                         # only as published; never an estimate              # new
+  - rate: '19.4%'
+    fiscal_year: 2025
+    cite: [n]
+  steps:
+  - '… [n]'
+  portal: https://…
+  gates: [sam-registration, grants-gov-registration, era-commons]
+  who: [faculty-investigator]      # pathfinder tags
+  purpose: [research-project]
+  stage: [never-applied, applied-unfunded]
+  fields: [biomedical]             # free tags; 'any' when unrestricted
+  pending_changes:
+  - status: proposed
+    date: '2026-08-14'
+    text: '… [n]'
+  distinctive: '… as the funder itself frames it [n]'
+  official_url: https://…
+  as_of: '2026-10-04'
+  sources: [n, n]
+  conflicts:
+  - '… [n] vs [n]'
+```
+
+## funders.yaml
+
+```yaml
+- id: nih
+  name: National Institutes of Health
+  funder_kind: federal
+  parent: HHS                      # federal only
+  what: >                          # plain layer, cited
+  how_it_decides: '… [n]'          # peer review, programme staff, council, board; as the funder describes it
+  cycle: '… [n]'
+  who_to_talk_to: '… [n]'          # programme officers, grants management, a foundation's programme staff
+  where_it_posts: '… [n]'
+  budget:                          # as published
+  - amount: '$47.5 billion'
+    fiscal_year: 2026
+    cite: [n]
+  policy_guide: https://…          # the governing guide, if one exists
+  programs: [nih-r01, nih-r15-area]
+  pending_changes: []
+  official_url: https://…
+  as_of: '2026-10-04'
+  sources: [n]
+
+- id: example-foundation
+  name: …
+  funder_kind: foundation
+  foundation_kind: independent     # independent | family | community | corporate | operating
+  ein: '00-0000000'                # ties the record to /funded
+  what_it_funds: '… in its own words [n]'
+  unsolicited: accepted            # accepted | letter-of-inquiry | invitation-only | not-stated; from its own site or filing, cited
+  how_to_approach: '… [n]'
+  typical_grant: '… [n]'           # size and term from its own reports or its 990-PF, with the year
+  giving:
+  - amount: '$…'
+    year: 2025
+    cite: [n]
+  geography: '… [n]'
+  fields: [health, education]
+  official_url: https://…
+  as_of: '2026-10-04'
+  sources: [n]
+```
+
+## standing.yaml
+
+```yaml
+- id: nsf-epscor-jurisdiction
+  name: NSF EPSCoR jurisdiction
+  applies_to: institution          # institution | investigator | nonprofit
+  what: >                          # cited
+  who_qualifies: '… [n]'           # the rule and, where the funder publishes it, the list
+  how_decided: '… [n]'             # set by statute, by a funder's table, or by self-certification
+  opens: [nsf-epscor-rii]          # program ids this standing opens
+  official_url: https://…
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources: [n]
+```
+
+## routes.yaml, gates.yaml, help.yaml, mechanics.yaml, changes.yaml, todo.yaml
+
+Field style as FAR Out. A route carries `family`, `funder_kind` (one or both), `who`, `purpose`, `stage`, `gates`, `programs`, `standing`, and a `find_filter` whose `feed` is one of `grants | federal-register | foundations`.
+
+## pathfinder.yaml
+
+FAR Out's rule, with new questions: who (single) · purpose (single) · stage (single) · funder kind (federal, foundation, either) · field (multi) · institution standing (multi, from `standing.yaml`). Score = matched who, purpose and stage tags (2 each) + matched modifiers (1 each). Routes scoring 0 are hidden, the page shows why each route matched, and nothing is called recommended.
+
+## Added in v0.2, after the research sweeps
+
+The sweep agents met cases the v0.1 layout could not hold. These are now part of the schema. Records written under v0.1 are valid as they stand; the fields below are optional until the recheck pass fills them.
+
+```yaml
+# programs.yaml
+status: open              # open | closed | expired | not-competed | forecast | unconfirmed, as of as_of.   # new
+                          # Many programmes had no open notice on 2026-10-04. Until this field is filled the
+                          # state is in cycle.pattern and current_notices.
+funds: [grant, cooperative-agreement]   # may be a list: a broad agency announcement can award several instruments
+eligibility_note: '… [n]' # what the applicant-type codes cannot say (for example NSF's non-profit category,
+                          # which is not defined by tax status)
+budget_rules: '… [n]'     # salary limits, modular budgets and the like, when they belong to one programme
+success:
+- rate: '13.0%'
+  fiscal_year: 2025
+  note: '… [n]'           # what the rate measures; two published rates for one programme are both kept
+  cite: [n]
+
+# funders.yaml
+funder_kind: federal | foundation | independent-nonprofit   # the third is PCORI: set up by Congress, neither an
+                                                            # agency nor a foundation. Scope question for the author.
+budget:
+- amount: '$47.5 billion'
+  fiscal_year: 2026
+  status: enacted         # enacted | requested | house-mark | senate-mark | continuing-resolution
+  cite: [n]
+funding_rates: […]        # as success, at funder level
+policy_guide_note: '… [n]'   # which version of the guide is in force, and its supplements
+governing_terms: '… [n]'     # where there is no single policy guide
+
+# shared
+applicant_types:          # more Grants.gov codes, needed to say who is shut out as well as who is let in
+  state-government: '00'
+  county-government: '01'
+  city-government: '02'
+  tribal-government: '07'
+  individual: '21'
+  for-profit: '22'
+  small-business: '23'
+  other: '25'
+pending_status: … | in-litigation | rescinded | enacted
+```
+
+Records that share an id across sweep slices (the same gate met at six agencies) are merged by the consolidation script. The longest statement stays as the record and the others are kept, cited, under `variants`, each with the slice it came from, until the author reconciles them.
+
+Every record carries `sweep: <family>-<slice>` and every reference `sweep_ids`, the ids it had in the sweep files under `source/sweeps/`.

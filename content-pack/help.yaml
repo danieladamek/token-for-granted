@@ -1,0 +1,278 @@
+# help.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+- id: sponsored-programs-office
+  name: The applicant organization's sponsored programmes office
+  what: NIH's help and planning pages send applicants first to their own organization's office of sponsored research, which
+    explains the process and roles and sets up system accounts [146] [119].
+  official_url: https://grants.nih.gov/grants-process/plan-to-apply
+  sources:
+  - 146
+  - 119
+  sweep: research-A
+- id: nih-program-official
+  name: NIH programme official (programme officer)
+  what: Institute staff who know a scientific area and the institute's priorities; they can assess fit, explain how policy
+    applies and help interpret review feedback, and they do not edit applications or discuss review details [92] [120].
+  official_url: https://grants.nih.gov/grants-process/plan-to-apply/find-your-opportunity-contacts-and-due-dates
+  sources:
+  - 92
+  - 120
+  sweep: research-A
+- id: nih-matchmaker
+  name: NIH Matchmaker (in RePORTER)
+  what: A tool that takes an abstract or other scientific text and returns similar funded projects, the institutes that
+    fund them and the programme officials attached [120] [92].
+  official_url: https://grants.nih.gov/grants-process/plan-to-apply/find-your-opportunity-contacts-and-due-dates
+  sources:
+  - 120
+  - 92
+  sweep: research-A
+- id: nih-explore-opportunities
+  name: Explore NIH Opportunities
+  what: NIH's search tool over Grants.gov with NIH-specific filters, sorting and advanced search [93] [105].
+  official_url: https://grants.nih.gov/funding/explore-nih-opportunities
+  sources:
+  - 93
+  - 105
+  sweep: research-A
+- id: nih-ico-funding-policies
+  name: ICO Funding Policies and Considerations pages
+  what: One page per institute, center or office stating the factors it weighs in funding decisions and any across-the-board
+    budget policies, built on the NIH-wide framework [67] [123].
+  official_url: https://grants.nih.gov/policy-and-compliance/policy-topics/nih-fiscal-policies/ico-funding-policies-and-considerations
+  sources:
+  - 67
+  - 123
+  sweep: research-A
+- id: era-service-desk
+  name: eRA Service Desk
+  what: Technical help with ASSIST, eRA Commons and Internet Assisted Review [146].
+  official_url: https://grants.nih.gov/help
+  sources:
+  - 146
+  - 507
+  - 564
+  sweep: research-A
+  variants:
+  - what: Helps with application submission through eRA Commons for AHRQ and FDA notices; telephone 301-402-7469 or 866-504-9552
+      [507] [564].
+    sources:
+    - 507
+    - 564
+    sweep: research-E
+- id: nsf-program-officers
+  name: NSF programme officers
+  what: Each funding opportunity lists one or more programme officers; BIO tells applicants to contact the programme director
+    to ask whether a programme fits the research [158] [186].
+  official_url: https://www.nsf.gov/funding/getting-started
+  sources:
+  - 158
+  - 186
+  sweep: research-B
+- id: nsf-webinars-office-hours
+  name: NSF webinars and office hours
+  what: NSF staff hold webinars and office hours on funding opportunities; CMMI scheduled a webinar on its 2026 solicitation
+    for September 14, 2026 [158] [198].
+  official_url: https://www.nsf.gov/funding/getting-started
+  sources:
+  - 158
+  - 198
+  sweep: research-B
+- id: research-gov-help-desk
+  name: Research.gov help desk
+  what: System support is at 1-800-381-1532 or rgov@nsf.gov [165].
+  official_url: https://www.research.gov/
+  sources:
+  - 165
+  sweep: research-B
+- id: nsf-policy-office
+  name: NSF Policy Office
+  what: Questions on proposal and award policy go to policy@nsf.gov [165] [248].
+  official_url: https://www.nsf.gov/policies/pappg
+  sources:
+  - 165
+  - 248
+  sweep: research-B
+- id: nsf-interdisciplinary-contact
+  name: Help placing an interdisciplinary proposal
+  what: For research with no obvious programme home NSF points to its interdisciplinary-research page [158].
+  official_url: https://www.nsf.gov/funding/learn/research-types/learn-about-interdisciplinary-research
+  sources:
+  - 158
+  sweep: research-B
+- id: doe-pams-helpdesk
+  name: PAMS help desk (Office of Science)
+  what: Telephone (855) 818-1846 or (301) 903-9610 [283].
+  official_url: https://science.osti.gov/Funding-Opportunities
+  sources:
+  - 283
+  sweep: research-C
+- id: ebrap-helpdesk
+  name: eBRAP help desk (CDMRP)
+  what: Telephone (301) 682-5507, Monday to Friday 8 a.m. to 5 p.m. ET; help@eBRAP.org [358].
+  official_url: https://ebrap.org/
+  sources:
+  - 358
+  sweep: research-C
+- id: nspires-helpdesk
+  name: NSPIRES help desk (NASA)
+  what: nspires-help@nasaprs.com or (202) 479-9376 [388].
+  official_url: https://nspires.nasaprs.com/
+  sources:
+  - 388
+  sweep: research-C
+- id: nasa-program-officers-list
+  name: NASA SMD programme officers list
+  what: A directory of contacts by division and programme element, last updated September 18, 2026 [390].
+  official_url: https://science.nasa.gov/researchers/sara/program-officers-list/
+  sources:
+  - 390
+  sweep: research-C
+- id: nasa-new-pi-resources
+  name: NASA new PI resources and review-panel volunteering
+  what: A page for first-time proposers, with a route to serve on review panels, which NASA says is a way to learn what
+    it values in proposals [388] [391].
+  official_url: https://science.nasa.gov/researchers/new-pi-resources/
+  sources:
+  - 388
+  - 391
+  sweep: research-C
+- id: darpaconnect
+  name: DARPAConnect
+  what: DARPA's resource offering curriculum, proposal support, mentoring and coaching [345].
+  official_url: https://www.darpa.mil/work-with-us/for-universities
+  sources:
+  - 345
+  sweep: research-C
+- id: grants-gov-support
+  name: Grants.gov support
+  what: Telephone 800-518-4726 (domestic) or 606-545-5035 (international); support@grants.gov, as listed by ONR [336].
+  official_url: https://www.grants.gov/
+  sources:
+  - 336
+  - 644
+  - 665
+  sweep: research-C
+  variants:
+  - what: Grants.gov support is at support@grants.gov or 1-800-518-4726 [644] [665].
+    sources:
+    - 644
+    - 665
+    sweep: research-F
+- id: doe-sc-grants-office
+  name: Office of Science grants and contracts support
+  what: Contact address sc.grantsandcontracts@doe.gov [284].
+  official_url: https://science.osti.gov/grants
+  sources:
+  - 284
+  sweep: research-C
+- id: nifa-application-help
+  name: NIFA application help
+  what: General questions about the NIFA application process go to GrantApplicationQuestions@usda.gov; Grants.gov questions
+    go to Support@Grants.gov [421].
+  official_url: https://www.nifa.usda.gov/grants
+  sources:
+  - 421
+  sweep: research-D
+- id: nifa-afri-nofo-resources
+  name: AFRI notice resources page
+  what: NIFA gathers the AFRI grant types, project types, review criteria, new-investigator decision tree, strengthening-eligibility
+    flow chart and letter of intent instructions on one page, with tables of the most and least successful institutions
+    [420].
+  official_url: https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative/afri-funding-opportunities-resources
+  sources:
+  - 420
+  sweep: research-D
+- id: usgs-state-water-institute-directors
+  name: State Water Resources Research Institute directors
+  what: The institute director or designee submits water resources applications for investigators in the state; USGS publishes
+    a directory of the institutes [485] [484].
+  official_url: https://water.usgs.gov/wrri/
+  sources:
+  - 485
+  - 484
+  sweep: research-D
+- id: noaa-state-sea-grant-programs
+  name: State Sea Grant programmes
+  what: Each of the 34 Sea Grant programmes lists its own funding opportunities and is the first contact for a researcher
+    in its state [437].
+  official_url: https://seagrant.noaa.gov/opportunities/funding/
+  sources:
+  - 437
+  sweep: research-D
+- id: ojp-response-center
+  name: OJP Response Center
+  what: Takes questions about open Office of Justice Programs notices, including NIJ and BJS notices, by telephone at 800-851-3420
+    [602].
+  official_url: https://nij.ojp.gov/funding/current
+  sources:
+  - 602
+  sweep: research-E
+- id: pcori-applicant-town-halls
+  name: PCORI applicant town halls and helpdesk
+  what: PCORI holds an applicant town hall for each funding announcement and answers questions at pfa@pcori.org [593] [591].
+  official_url: https://www.pcori.org/funding-opportunities
+  sources:
+  - 593
+  - 591
+  sweep: research-E
+- id: nidilrr-informational-calls
+  name: NIDILRR informational calls
+  what: NIDILRR holds an informational call for some notices before the letter of intent date and gives a general mailbox,
+    nidilrr-mailbox@acl.hhs.gov [579] [576].
+  official_url: https://acl.gov/about-acl/about-national-institute-disability-independent-living-and-rehabilitation-research
+  sources:
+  - 579
+  - 576
+  sweep: research-E
+- id: niosh-extramural-contact-form
+  name: NIOSH extramural programme contact form
+  what: Routes a question to the NIOSH team for finance, programme or review matters; Scientific Review Officers give prospective
+    applicants information on the review process [553].
+  official_url: https://www.cdc.gov/niosh/extramural-programs/php/about_oep/index.html
+  sources:
+  - 553
+  sweep: research-E
+- id: ies-virtual-office-hours
+  name: IES virtual office hours
+  what: Drop-in Zoom or phone sessions with programme officers for each open competition, 1:00-4:00 PM ET on listed dates;
+    sessions are not recorded [724].
+  official_url: https://ies.ed.gov/funding/help
+  sources:
+  - 724
+  sweep: research-F
+- id: neh-evaluator-comments
+  name: NEH evaluator ratings and comments on request
+  what: Any NEH applicant can ask for the evaluators' ratings and written comments on its application; evaluators' names
+    are not given [638].
+  official_url: https://www.neh.gov/grants/application-process
+  sources:
+  - 638
+  sweep: research-F
+- id: neh-office-of-grant-management
+  name: NEH Office of Grant Management
+  what: Answers administrative and cost questions at grantmanagement@neh.gov or 202-606-8494; programme questions go to
+    the division named in the notice [644].
+  official_url: https://www.neh.gov/grants
+  sources:
+  - 644
+  sweep: research-F
+- id: imls-programme-staff
+  name: IMLS programme staff
+  what: IMLS gives a mailbox for library programmes (imls-librarygrants@imls.gov) and a named contact with a booking calendar
+    for National Leadership Grants for Museums [676] [680].
+  official_url: https://www.imls.gov/find-funding/funding-opportunities/grant-programs
+  sources:
+  - 676
+  - 680
+  sweep: research-F
+- id: nhprc-optional-draft
+  name: NHPRC optional draft review
+  what: NHPRC announcements set an optional draft deadline ahead of the final deadline (for example August 15, 2025 before
+    November 5, 2025), and staff directors are listed by programme line [698] [696] [725].
+  official_url: https://www.archives.gov/nhprc/contact.html
+  sources:
+  - 698
+  - 696
+  - 725
+  sweep: research-F
