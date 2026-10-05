@@ -1,9 +1,9 @@
 node_modules/
 dist/
 test-results/
+playwright-report/
 probe-results.json
 .DS_Store
-public/data/opportunities/
+public/data/
 scripts/.cache/
-playwright-report/
 tsconfig.tsbuildinfo

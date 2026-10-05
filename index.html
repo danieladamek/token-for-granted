@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Token for Granted — routes to grant money for universities and non-profits, with the gates on each and where the opportunities appear. A commissioned guide: not peer reviewed, not official, not advice; current as of 2026-10-05." />
+    <meta name="color-scheme" content="light dark" />
+    <title>Token for Granted</title>
+    <script>
+      // Apply the persisted / system theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('bx-theme');
+        if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

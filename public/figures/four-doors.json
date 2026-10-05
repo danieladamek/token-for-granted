@@ -1,0 +1,427 @@
+{
+ "id": "four-doors",
+ "note": "Conceptual. Four lanes, one for each system a reader may face; each box carries the references that state it. The counts in the foundation lane are counts of the 65 foundation and private grantmaker records in funders.yaml by their unsolicited field (three more records state no policy). The drawing is the builder's own.",
+ "nodes": [
+  {
+   "id": "start",
+   "kind": "question",
+   "label": "Which system holds the money?",
+   "col": 0,
+   "row": 1.5,
+   "refs": []
+  },
+  {
+   "id": "comp",
+   "kind": "door",
+   "label": "A competition run by a federal agency",
+   "col": 1,
+   "row": 0,
+   "refs": [
+    1851,
+    1880
+   ],
+   "term": "discretionary-grant"
+  },
+  {
+   "id": "comp-notice",
+   "kind": "step",
+   "label": "Notice of funding opportunity, summarised on Grants.gov",
+   "col": 2,
+   "row": 0,
+   "refs": [
+    1799,
+    1800
+   ],
+   "term": "nofo"
+  },
+  {
+   "id": "comp-apply",
+   "kind": "step",
+   "label": "The organisation applies; the investigator is named",
+   "col": 3,
+   "row": 0,
+   "refs": [
+    156,
+    158,
+    4
+   ],
+   "term": "applicant-organization"
+  },
+  {
+   "id": "comp-review",
+   "kind": "step",
+   "label": "Reviewers advise",
+   "col": 4,
+   "row": 0,
+   "refs": [
+    38,
+    157
+   ],
+   "term": "merit-review"
+  },
+  {
+   "id": "comp-decide",
+   "kind": "decision",
+   "label": "The agency decides",
+   "col": 5,
+   "row": 0,
+   "refs": [
+    38,
+    157,
+    246
+   ]
+  },
+  {
+   "id": "comp-award",
+   "kind": "end",
+   "label": "Award to the organisation",
+   "col": 6,
+   "row": 0,
+   "refs": [
+    122,
+    1810
+   ],
+   "term": "notice-of-award"
+  },
+  {
+   "id": "form",
+   "kind": "door",
+   "label": "Money a statute sends out by formula",
+   "col": 1,
+   "row": 1,
+   "refs": [
+    1880
+   ],
+   "term": "formula-grant"
+  },
+  {
+   "id": "form-state",
+   "kind": "step",
+   "label": "A state, territory, tribe or local government receives it",
+   "col": 2,
+   "row": 1,
+   "refs": [
+    1880,
+    1292,
+    1260
+   ],
+   "term": "pass-through-entity"
+  },
+  {
+   "id": "form-local",
+   "kind": "step",
+   "label": "That body funds local organisations on its own calendar",
+   "col": 3,
+   "row": 1,
+   "refs": [
+    1399,
+    1320
+   ]
+  },
+  {
+   "id": "form-none",
+   "kind": "note",
+   "label": "No federal application for a non-profit",
+   "col": 4,
+   "row": 1,
+   "refs": [
+    1292,
+    1320
+   ]
+  },
+  {
+   "id": "form-sub",
+   "kind": "end",
+   "label": "The non-profit is a subrecipient of the state body",
+   "col": 6,
+   "row": 1,
+   "refs": [
+    1823,
+    1799
+   ],
+   "term": "subrecipient"
+  },
+  {
+   "id": "found",
+   "kind": "door",
+   "label": "A foundation or other private grantmaker",
+   "col": 1,
+   "row": 2,
+   "refs": [
+    2237
+   ],
+   "term": "private-foundation"
+  },
+  {
+   "id": "found-inv",
+   "kind": "step",
+   "label": "Invitation only (23 of the 65 recorded)",
+   "col": 2,
+   "row": 2,
+   "refs": [
+    2259
+   ],
+   "term": "invitation-only"
+  },
+  {
+   "id": "found-call",
+   "kind": "step",
+   "label": "Open calls only (23)",
+   "col": 3,
+   "row": 2,
+   "refs": [
+    2119
+   ],
+   "term": "open-call"
+  },
+  {
+   "id": "found-loi",
+   "kind": "step",
+   "label": "Letter of inquiry first (10)",
+   "col": 4,
+   "row": 2,
+   "refs": [
+    2216
+   ],
+   "term": "letter-of-inquiry"
+  },
+  {
+   "id": "found-open",
+   "kind": "step",
+   "label": "Unsolicited requests accepted (6)",
+   "col": 5,
+   "row": 2,
+   "refs": [
+    2310
+   ],
+   "term": "unsolicited-request"
+  },
+  {
+   "id": "found-grant",
+   "kind": "end",
+   "label": "Grant on the foundation's own terms",
+   "col": 6,
+   "row": 2,
+   "refs": [
+    2261
+   ]
+  },
+  {
+   "id": "found-nom",
+   "kind": "note",
+   "label": "Some fellowships: the institution nominates under a cap",
+   "col": 3,
+   "row": 2.6,
+   "refs": [
+    2174,
+    2149
+   ],
+   "term": "institutional-nomination"
+  },
+  {
+   "id": "cong",
+   "kind": "door",
+   "label": "A project Congress names in an appropriations act",
+   "col": 1,
+   "row": 3,
+   "refs": [
+    1667,
+    1674
+   ],
+   "term": "community-project-funding"
+  },
+  {
+   "id": "cong-ask",
+   "kind": "step",
+   "label": "The organisation asks its House Member or a Senator",
+   "col": 2,
+   "row": 3,
+   "refs": [
+    1667,
+    1674
+   ]
+  },
+  {
+   "id": "cong-office",
+   "kind": "decision",
+   "label": "That office decides whether to submit the request",
+   "col": 3,
+   "row": 3,
+   "refs": [
+    1667,
+    1674
+   ]
+  },
+  {
+   "id": "cong-act",
+   "kind": "step",
+   "label": "Recipient, project and amount named in the act",
+   "col": 4,
+   "row": 3,
+   "refs": [
+    1667,
+    1674
+   ],
+   "term": "appropriations-act"
+  },
+  {
+   "id": "cong-apply",
+   "kind": "step",
+   "label": "The named recipient still applies to the agency",
+   "col": 5,
+   "row": 3,
+   "refs": [
+    1686
+   ]
+  },
+  {
+   "id": "cong-award",
+   "kind": "end",
+   "label": "Award from the agency",
+   "col": 6,
+   "row": 3,
+   "refs": [
+    1686
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "comp"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "form"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "found"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "cong"
+  },
+  {
+   "kind": "step",
+   "from": "comp",
+   "to": "comp-notice"
+  },
+  {
+   "kind": "step",
+   "from": "comp-notice",
+   "to": "comp-apply"
+  },
+  {
+   "kind": "step",
+   "from": "comp-apply",
+   "to": "comp-review"
+  },
+  {
+   "kind": "step",
+   "from": "comp-review",
+   "to": "comp-decide"
+  },
+  {
+   "kind": "step",
+   "from": "comp-decide",
+   "to": "comp-award"
+  },
+  {
+   "kind": "step",
+   "from": "form",
+   "to": "form-state"
+  },
+  {
+   "kind": "step",
+   "from": "form-state",
+   "to": "form-local"
+  },
+  {
+   "kind": "step",
+   "from": "form-local",
+   "to": "form-sub"
+  },
+  {
+   "kind": "step",
+   "from": "cong",
+   "to": "cong-ask"
+  },
+  {
+   "kind": "step",
+   "from": "cong-ask",
+   "to": "cong-office"
+  },
+  {
+   "kind": "step",
+   "from": "cong-office",
+   "to": "cong-act"
+  },
+  {
+   "kind": "step",
+   "from": "cong-act",
+   "to": "cong-apply"
+  },
+  {
+   "kind": "step",
+   "from": "cong-apply",
+   "to": "cong-award"
+  },
+  {
+   "kind": "note",
+   "from": "form-local",
+   "to": "form-none",
+   "label": "why there is nothing to send to the federal agency"
+  },
+  {
+   "kind": "choice",
+   "from": "found",
+   "to": "found-inv"
+  },
+  {
+   "kind": "step",
+   "from": "found-inv",
+   "to": "found-grant"
+  },
+  {
+   "kind": "choice",
+   "from": "found",
+   "to": "found-call"
+  },
+  {
+   "kind": "step",
+   "from": "found-call",
+   "to": "found-grant"
+  },
+  {
+   "kind": "choice",
+   "from": "found",
+   "to": "found-loi"
+  },
+  {
+   "kind": "step",
+   "from": "found-loi",
+   "to": "found-grant"
+  },
+  {
+   "kind": "choice",
+   "from": "found",
+   "to": "found-open"
+  },
+  {
+   "kind": "step",
+   "from": "found-open",
+   "to": "found-grant"
+  },
+  {
+   "kind": "note",
+   "from": "found-call",
+   "to": "found-nom",
+   "label": "for some awards to people"
+  }
+ ]
+}
