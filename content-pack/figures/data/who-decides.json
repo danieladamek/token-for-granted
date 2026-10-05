@@ -1,0 +1,222 @@
+{
+ "id": "who-decides",
+ "note": "Conceptual. Three lanes drawn from the funders' own descriptions of review; boxes of kind advise are advisory, boxes of kind decide are where the agency decides. The overlay is the review added by Executive Order 14332. The drawing is the builder's own.",
+ "nodes": [
+  {
+   "id": "eo",
+   "kind": "overlay",
+   "label": "Since August 7, 2025: a senior appointee in each agency reviews new funding notices and discretionary awards before they issue",
+   "col": 0,
+   "row": -1,
+   "refs": [
+    246
+   ],
+   "term": "executive-order-14332"
+  },
+  {
+   "id": "nih",
+   "kind": "lane",
+   "label": "NIH",
+   "col": 0,
+   "row": 0,
+   "refs": [
+    38
+   ],
+   "term": "nih"
+  },
+  {
+   "id": "nih-ss",
+   "kind": "advise",
+   "label": "Study section scores: two factors from 1 to 9, a third rated sufficient or insufficient",
+   "col": 1,
+   "row": 0,
+   "refs": [
+    38,
+    39,
+    41
+   ],
+   "term": "study-section"
+  },
+  {
+   "id": "nih-council",
+   "kind": "advise",
+   "label": "Advisory council or board of the institute recommends",
+   "col": 2,
+   "row": 0,
+   "refs": [
+    38
+   ],
+   "term": "advisory-council"
+  },
+  {
+   "id": "nih-director",
+   "kind": "decide",
+   "label": "Institute or center director decides; no reliance on paylines from the January 2026 council round",
+   "col": 3,
+   "row": 0,
+   "refs": [
+    38,
+    123,
+    13
+   ],
+   "term": "institute-or-center"
+  },
+  {
+   "id": "nsf",
+   "kind": "lane",
+   "label": "NSF",
+   "col": 0,
+   "row": 1,
+   "refs": [
+    157
+   ],
+   "term": "nsf"
+  },
+  {
+   "id": "nsf-review",
+   "kind": "advise",
+   "label": "Ad hoc reviewers, a panel or both; at least two reviewers since December 8, 2025",
+   "col": 1,
+   "row": 1,
+   "refs": [
+    157,
+    149
+   ],
+   "term": "merit-review"
+  },
+  {
+   "id": "nsf-po",
+   "kind": "advise",
+   "label": "Programme officer recommends award or decline",
+   "col": 2,
+   "row": 1,
+   "refs": [
+    157
+   ],
+   "term": "program-officer"
+  },
+  {
+   "id": "nsf-div",
+   "kind": "decide",
+   "label": "Approval at division or office level, as the policy guide is printed",
+   "col": 3,
+   "row": 1,
+   "refs": [
+    157,
+    168
+   ]
+  },
+  {
+   "id": "samhsa",
+   "kind": "lane",
+   "label": "SAMHSA",
+   "col": 0,
+   "row": 2,
+   "refs": [
+    1112
+   ],
+   "term": "samhsa"
+  },
+  {
+   "id": "samhsa-peer",
+   "kind": "advise",
+   "label": "Peer reviewers score the project narrative against point-weighted sections",
+   "col": 1,
+   "row": 2,
+   "refs": [
+    1113,
+    1112
+   ]
+  },
+  {
+   "id": "samhsa-council",
+   "kind": "advise",
+   "label": "National Advisory Council approval for awards over $250,000",
+   "col": 2,
+   "row": 2,
+   "refs": [
+    1112
+   ]
+  },
+  {
+   "id": "samhsa-office",
+   "kind": "decide",
+   "label": "Programme office and approving official make the final determination",
+   "col": 3,
+   "row": 2,
+   "refs": [
+    1112
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "kind": "step",
+   "from": "nih",
+   "to": "nih-ss"
+  },
+  {
+   "kind": "step",
+   "from": "nih-ss",
+   "to": "nih-council"
+  },
+  {
+   "kind": "step",
+   "from": "nih-council",
+   "to": "nih-director"
+  },
+  {
+   "kind": "step",
+   "from": "nsf",
+   "to": "nsf-review"
+  },
+  {
+   "kind": "step",
+   "from": "nsf-review",
+   "to": "nsf-po"
+  },
+  {
+   "kind": "step",
+   "from": "nsf-po",
+   "to": "nsf-div"
+  },
+  {
+   "kind": "step",
+   "from": "samhsa",
+   "to": "samhsa-peer"
+  },
+  {
+   "kind": "step",
+   "from": "samhsa-peer",
+   "to": "samhsa-council"
+  },
+  {
+   "kind": "step",
+   "from": "samhsa-peer",
+   "to": "samhsa-office"
+  },
+  {
+   "kind": "step",
+   "from": "samhsa-council",
+   "to": "samhsa-office"
+  },
+  {
+   "kind": "overlay",
+   "from": "eo",
+   "to": "nih-director",
+   "label": "review before issue"
+  },
+  {
+   "kind": "overlay",
+   "from": "eo",
+   "to": "nsf-div",
+   "label": "review before issue"
+  },
+  {
+   "kind": "overlay",
+   "from": "eo",
+   "to": "samhsa-office",
+   "label": "review before issue"
+  }
+ ]
+}

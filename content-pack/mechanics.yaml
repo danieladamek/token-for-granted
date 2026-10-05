@@ -2229,12 +2229,12 @@
   sweep: capacity-A
 - id: epscor-lists-differ-by-agency
   name: EPSCoR-type lists differ by agency
-  what: 'Five agencies keep lists of jurisdictions for capacity programmes and the lists are not the same. NSF lists 28
-    jurisdictions and its list is frozen through FY 2027 [1517]. DOE and NASA follow the NSF list [1567] [1574]. DEPSCoR
-    lists 36 states and territories [1565]. USDA lists 19 states for FY 2026 plus the District of Columbia and insular areas
-    [1576]. NIH lists 23 states and Puerto Rico for IDeA [1543]. A state can be on one list and off another: Alabama, for
-    example, is on the NSF, DOE, NASA and DEPSCoR lists and not on the NIH IDeA or USDA FY 2026 lists [1517] [1567] [1573]
-    [1565] [1543] [1576].'
+  what: 'Six agencies keep lists of jurisdictions for capacity programmes and the lists are not the same. NSF lists 28 jurisdictions
+    and its list is frozen through FY 2027 [1517]. DOE and NASA follow the NSF list [1567] [1574]. DEPSCoR lists 36 states
+    and territories [1565]. USDA lists 19 states for FY 2026 plus the District of Columbia and insular areas [1576]. NIH
+    lists 23 states and Puerto Rico for IDeA [1543]. A state can be on one list and off another: Alabama and Iowa, for example,
+    are on the NSF, DOE, NASA and DEPSCoR lists and not on the NIH IDeA or USDA FY 2026 lists [1517] [1567] [1573] [1565]
+    [1543] [1576].'
   official_url: https://www.nsf.gov/funding/initiatives/epscor/epscor-criteria-eligibility
   sources:
   - 1517

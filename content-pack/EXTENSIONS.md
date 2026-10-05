@@ -1,4 +1,4 @@
-# Token for Granted content pack — extension schema (draft v0.10, 2026-10-05)
+# Token for Granted content pack — extension schema (draft v0.11, 2026-10-05)
 
 Token for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -467,3 +467,53 @@ routes:
 ```
 
 The `fit` counts are computed at consolidation from `who` and `purpose` on the programme records, so they change when the records do.
+
+## Added in v0.11: what the standard files carry beyond the builder's schema
+
+```yaml
+# references.yaml
+  tier: seminal | classic | current | background
+                                   # as written to the pack. The sweeps marked every governing text seminal; only the 16
+                                   # listed in source/sweeps/seminal.yaml keep that tier, each with why_it_mattered.
+  tier_note: governing or primary text; builder tier was seminal     # present when the tier was changed at consolidation
+  role_here: support | data-source | background | prior-result       # assigned by rule, stated in role_note:
+                                   #   prior-result  a GAO, CRS or inspector-general report
+                                   #   background    a secondary source
+                                   #   support       a governing text: statute, regulation, order, court document, standing policy guide
+                                   #   data-source   a funder's own page, notice or data, read for what it states about itself
+  cited_in: [1-why-this-matters, changes-timeline]   # the builder's meaning: sections of review.md and figures that cite it
+  used_by: [programs/nih-r01, routes/…, glossary/payline, concepts/review-and-decision-101, todo/…]
+                                   # everything else in the pack that cites it
+
+# todo.yaml — each entry keeps id, kind, about, text, sweep and also carries the builder's shape
+  where: references/1458           # = about
+  what: '…'                        # = text
+  owner: builder
+
+# glossary.yaml
+  kind: methods | science | notation        # the builder's vocabulary, set from domain
+  domain: law | process | cost | role | organisation | programme | standing | status | notation
+  own_label: true                  # the term is a label of this guide's own (a status or a kind), and its definition says so
+  definition: '… [n]'              # cited, unlike the builder's default; the citations are reference numbers
+
+# concepts/<id>.md — the primers
+#   no self_check (manifest.concept_self_checks is false); the last section is headed "## How this guide uses it"
+
+# figures.yaml and figures/data
+#   synthesis: data   the CSV has a `record` column (the pack record a row came from, file/id, `;` between several)
+#                     beside `ref`; a column ending _usd, _num or _sort restates a published figure as a plain number
+#   synthesis: conceptual   JSON {id, note, nodes: [{id, kind, label, col, row, refs, term?}], edges: [{from, to, kind, label?}]}
+#   script: figures/scripts/<id>.py   draws the figure from its data file with matplotlib
+
+# manifest.yaml — keys beyond the builder's
+  concepts_label: Primers          # what the app calls the 101s in its navigation and headings
+  extensions: {record_files: […], schema: EXTENSIONS.md, pathfinder: pathfinder.yaml, families: {…}}
+  opportunity_search: {harvest: […], live: […], links_only: […], not_probed: […], note: …}
+  disclaimer: …
+
+# scope.yaml — keys beyond the builder's
+  topic_note, carried_from_far_out, still_open, search_strategy.passes,
+  search_strategy.queries[].hits_as_noted   # the hit count as the sweep wrote it ("~9") beside the integer in hits
+  corpus_profile.tier_note, .undated, .recheck, .records, .main_text
+```
+

@@ -38,17 +38,18 @@
  },
  "references_by_tier": {
   "current": 2019,
-  "seminal": 251,
-  "background": 175,
-  "classic": 118
+  "seminal": 16,
+  "background": 461,
+  "classic": 67
  },
  "references_by_read": {
   "partial": 2180,
   "full": 380,
   "not-fetched": 3
  },
- "references_cited": 2541,
- "references_uncited": [
+ "references_cited_in_text_or_figures": 1212,
+ "references_used": 2541,
+ "references_unused": [
   511,
   522,
   532,
@@ -72,6 +73,20 @@
   2533,
   2538
  ],
+ "tiers_builder_to_pack": {
+  "background -> background": 175,
+  "classic -> background": 51,
+  "classic -> classic": 67,
+  "current -> current": 2019,
+  "seminal -> background": 235,
+  "seminal -> seminal": 16
+ },
+ "references_by_role": {
+  "data-source": 2028,
+  "support": 427,
+  "background": 100,
+  "prior-result": 8
+ },
  "merged_urls": [
   "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
   "https://www.supremecourt.gov/opinions/24pdf/25a103_kh7p.pdf",

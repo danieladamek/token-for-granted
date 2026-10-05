@@ -1,0 +1,1913 @@
+# figures.yaml — Token for Granted · topic mode · 10 figures, all the builder's own · written 2026-10-05
+# synthesis: data figures carry a CSV whose every row has a record column (the pack record it came from) and a ref column;
+# conceptual figures carry nodes/edges JSON with refs on each node. Paths are relative to the pack root.
+- id: four-doors
+  label: Figure 1
+  title: Four systems behind the word "grant", and the door into each
+  kind: pathway
+  synthesis: conceptual
+  refs:
+  - 4
+  - 38
+  - 122
+  - 156
+  - 157
+  - 158
+  - 246
+  - 1260
+  - 1292
+  - 1320
+  - 1399
+  - 1667
+  - 1674
+  - 1686
+  - 1799
+  - 1800
+  - 1810
+  - 1823
+  - 1851
+  - 1880
+  - 2119
+  - 2149
+  - 2174
+  - 2216
+  - 2237
+  - 2259
+  - 2261
+  - 2310
+  data: figures/data/four-doors.json
+  script: figures/scripts/four-doors.py
+  caption: 'Four lanes, one for each system a reader may be facing. In a federal competition an organisation answers a notice
+    of funding opportunity, reviewers advise and the agency decides [1799] [156] [38] [157]. Formula money goes to a state,
+    territory, tribe or local government, which funds local organisations; HUD''s page and FEMA''s notice each say a non-profit
+    cannot come to the federal agency directly [1880] [1292] [1320]. A foundation states its own way of taking requests:
+    of the 65 recorded here, 23 fund by invitation only, 23 through open calls only, 10 begin with a letter of inquiry and
+    6 accept an unsolicited request [2259] [2119] [2216] [2310]. A project named by Congress starts in the office of a House
+    Member or a Senator, and the named recipient still applies to the agency [1667] [1674] [1686].'
+  how_to_read: Start at the question on the left and follow the lane that matches the money you are looking at. Each box
+    is a step, and the last box in a lane says what you end up holding. Boxes drawn as decisions are where someone other
+    than you chooses. Select a box to see the references that state it and the glossary entry for its term. The lanes are
+    separate systems, and one organisation can be in several of them at once.
+  explain:
+  - 'on': 'lane: a competition run by a federal agency'
+    text: The applicant is an organisation. At NSF an unaffiliated individual is not eligible for direct funding [156] [158].
+    concept: who-applies-101
+  - 'on': 'lane: money a statute sends out by formula'
+    text: A formula grant is an allocation to states, territories or local governments by a formula in law or regulation
+      [1880]. The non-profit at the end is a subrecipient [1823].
+    concept: formula-and-pass-through-101
+  - 'on': 'lane: a foundation'
+    text: The counts are of the 65 foundation and private grantmaker records in this guide, a sample chosen by the editor.
+      Three more records state no policy.
+    concept: foundations-101
+  - 'on': 'lane: a project Congress names'
+    text: The House calls it Community Project Funding and the Senate Congressionally Directed Spending. No organisation
+      applies to either committee [1667] [1674].
+    term: community-project-funding
+  - 'on': 'box: the agency decides'
+    text: Since Executive Order 14332 of August 7, 2025 a senior appointee also reviews funding notices and discretionary
+      awards before they issue [246].
+    term: executive-order-14332
+  concepts:
+  - grants-and-agreements-101
+  - formula-and-pass-through-101
+  - foundations-101
+  discussed_in:
+  - 1-why-this-matters
+  - 2-how-grant-money-moves
+  source: A diagram drawn by the builder from the cited sources; it is not taken from any one of them. Each box carries
+    the references that state it. The foundation counts are counts of this guide's funder records by their unsolicited field,
+    as read on October 4 and 5, 2026.
+- id: who-decides
+  label: Figure 2
+  title: 'Who reads an application and who decides: NIH, NSF and SAMHSA'
+  kind: pathway
+  synthesis: conceptual
+  refs:
+  - 13
+  - 38
+  - 39
+  - 41
+  - 123
+  - 149
+  - 157
+  - 168
+  - 246
+  - 1112
+  - 1113
+  data: figures/data/who-decides.json
+  script: figures/scripts/who-decides.py
+  caption: Three lanes drawn from the funders' own descriptions. At NIH a study section scores an application, the advisory
+    council or board of the institute makes recommendations and the institute or center director decides; from the January
+    2026 council round institutes do not rely on paylines [38] [39] [13] [123]. At NSF a programme officer obtains reviews
+    and recommends award or decline, with approval at division or office level as the policy guide is printed; a realignment
+    of December 2025 leaves the post unnamed on the pages read [157] [168]. In one SAMHSA notice peer reviewers score the
+    narrative, awards over $250,000 need National Advisory Council approval, and the programme office and an approving official
+    make the final determination [1113] [1112]. Across all three runs the review that Executive Order 14332 added in August
+    2025 [246].
+  how_to_read: Read each lane from left to right. Boxes marked advise give an opinion or a score; the box marked decide
+    is where the agency chooses, and it is the last box in every lane. The bar across the top applies to all three lanes.
+    Select a box for its references. The lanes are three examples and other agencies arrange review in their own way, so
+    check the funder record for the agency you are applying to.
+  explain:
+  - 'on': 'box kind: advise'
+    text: Reviewers and councils advise. NIH describes two levels of review, and the institute or center director makes
+      the funding decision [38].
+    concept: review-and-decision-101
+  - 'on': 'NIH: study section'
+    text: For most research project applications due from January 25, 2025, two factors are scored from 1 to 9 and a third
+      is rated sufficient or insufficient [39] [41].
+    term: study-section
+  - 'on': 'NSF: reviewers'
+    text: Since December 8, 2025 a full proposal needs at least two reviewers, who may be NSF staff [149].
+    term: merit-review
+  - 'on': 'overlay: senior appointee review'
+    text: Executive Order 14332, signed August 7, 2025, has a senior appointee in each agency review new funding notices
+      and discretionary awards before they issue [246].
+    term: executive-order-14332
+  concepts:
+  - review-and-decision-101
+  discussed_in:
+  - 2-how-grant-money-moves
+  - 4-the-research-funders
+  source: A diagram drawn by the builder from the cited sources; it is not taken from any one of them. Each box carries
+    the references that state it, as the pages stood on October 4 and 5, 2026. The SAMHSA lane rests on one fiscal year
+    2026 notice and SAMHSA's review page.
+- id: indirect-cost-rules
+  label: Figure 3
+  title: Federal indirect cost rules and the 2025 rate caps, with the status of each on October 5, 2026
+  kind: table
+  synthesis: data
+  refs:
+  - 24
+  - 25
+  - 57
+  - 62
+  - 64
+  - 134
+  - 154
+  - 163
+  - 237
+  - 238
+  - 239
+  - 246
+  - 288
+  - 289
+  - 291
+  - 292
+  - 293
+  - 301
+  - 302
+  - 360
+  - 361
+  - 407
+  - 412
+  - 414
+  - 528
+  - 529
+  - 644
+  - 663
+  - 677
+  - 698
+  - 736
+  - 743
+  - 744
+  - 750
+  - 753
+  - 756
+  - 830
+  - 960
+  - 962
+  - 965
+  - 1028
+  - 1480
+  - 1536
+  - 1537
+  - 1542
+  - 1563
+  - 1799
+  - 1802
+  - 1849
+  - 1850
+  - 1852
+  - 1853
+  - 1854
+  - 1855
+  - 1856
+  - 1858
+  - 1878
+  - 1884
+  - 1948
+  - 2070
+  columns:
+  - field: rule
+    label: Rule or limit
+  - field: applies_to
+    label: Applies to
+  - field: rate_or_limit
+    label: Rate or limit
+  - field: base
+    label: Applied to (base)
+  - field: set_by
+    label: Set by
+  - field: announced_or_effective
+    label: Announced or effective
+  - field: status
+    label: Status
+  - field: ref
+    label: References
+  data: figures/data/indirect-cost-rules.csv
+  script: figures/scripts/indirect-cost-rules.py
+  caption: The table sets the standing federal rules on indirect costs beside the rate caps of 2025 and gives the position
+    of each as the records state it. Two different things are called 15 percent. One is the de minimis rate, which an organisation
+    with no current negotiated rate may elect, at up to 15 percent of modified total direct costs [1802]. The other is the
+    cap that NIH, DOE, NSF and the Department of Defense announced in 2025 on rates already negotiated [24] [1852] [237]
+    [1855]. Each of the four was set aside by the District of Massachusetts, and none is in effect [24] [237] [289] [1855].
+    The rows between them are limits written into a statute, a regulation or a programme notice, among them 30 percent of
+    Total Federal Funds Awarded at NIFA and NIH fellowships that pay no indirect costs [412] [736]. One NIH policy text
+    gives the de minimis rate as 10%, and both figures are kept as separate rows [64]. Modified total direct costs has no
+    row of its own, being the base and not a rate. Foundation limits on indirect costs are left to a separate figure.
+  how_to_read: 'Read across a row to see one rule: who it covers, the rate, what the rate is multiplied by, the text that
+    sets it and where it stands. The first rows are standing rules. The middle rows are limits written into a statute, a
+    regulation or a notice. The last rows are the 2025 caps, the appropriations provisions around them and two changes still
+    pending. Compare the base before you compare two rates: 30 percent of total federal funds and 15 percent of modified
+    total direct costs are not measured on the same thing. "Not stated" means the record gives no base or no date. A blank
+    in the number column means no single figure applies.'
+  explain:
+  - 'on': base
+    text: An indirect cost rate is a percentage applied to a base of direct costs [1849] [1850]. The usual base, modified
+      total direct costs, counts salaries and wages, fringe benefits, materials and supplies, services, travel and up to
+      the first $50,000 of each subaward, and leaves out equipment, tuition remission and participant support costs, among
+      other items [1799].
+  - 'on': 'De minimis rate: two rows'
+    text: The Uniform Guidance and the HHS Grants Policy Statement give the rate as 15 percent, and HRSA records that HHS
+      raised it from 10 to 15 percent effective October 1, 2024 [1802] [528] [529]. The NIH policy text as fetched gave
+      10% [64].
+  - 'on': 'status: vacated, enjoined'
+    text: These are the words of the court orders as the records report them. For the NSF cap the court vacated the policy,
+      declared it invalid and did not issue a permanent injunction [1854]. For the Department of Defense cap it vacated
+      the policy and made the earlier injunction permanent [1855].
+  - 'on': NSF 15 percent cap (2025)
+    text: NSF states that from May 19, 2025 it issues awards at the institution's negotiated rate, and that awards issued
+      on or after May 5, 2025 carry a term applying NSF 25-034 if NSF is later permitted to apply it [154].
+  - 'on': 'status: in force through December 11, 2026'
+    text: Public Law 119-103 continues the fiscal year 2026 appropriations acts, with their conditions on indirect cost
+      rates, through December 11, 2026 [1480]. The same law bars a final rule revising the Uniform Guidance through that
+      date [1480].
+  concepts:
+  - indirect-costs-101
+  - law-in-motion-101
+  discussed_in:
+  - 3-the-rules-underneath
+  - 10-what-changed
+  source: Values are taken from the mechanics and changes records of the Token for Granted content pack and from the numbered
+    references beside each fact, as published on the pages read on October 4–5, 2026. Wording and figures are as the records
+    give them. The rate_num column restates a published rate as a plain percent number; awards that pay no indirect costs
+    are entered as 0, and rows with no single rate are left blank.
+- id: stipend-levels
+  label: Figure 4
+  title: Fellowship and traineeship stipends as each notice or page states them (read October 4–5, 2026)
+  kind: chart
+  synthesis: data
+  refs:
+  - 732
+  - 739
+  - 741
+  - 751
+  - 797
+  - 804
+  - 818
+  - 825
+  - 828
+  - 830
+  - 833
+  - 837
+  - 839
+  - 840
+  - 841
+  - 842
+  - 856
+  - 858
+  - 865
+  - 879
+  - 880
+  - 895
+  - 899
+  - 903
+  - 905
+  - 907
+  - 915
+  - 916
+  - 917
+  - 944
+  - 960
+  - 962
+  - 965
+  - 968
+  - 979
+  - 984
+  - 986
+  - 987
+  - 991
+  - 999
+  - 1001
+  - 1003
+  - 1004
+  - 1005
+  - 1040
+  - 1050
+  - 1052
+  - 1055
+  columns:
+  - field: programme
+    label: Programme
+  - field: funder
+    label: Funder
+  - field: level
+    label: Career level
+  - field: stipend_as_published
+    label: Stipend as published
+  - field: year_of_figure
+    label: Year the figure belongs to
+  - field: annual_usd
+    label: Annual stipend as published, US dollars
+  - field: other_support
+    label: Other support
+  - field: who_applies
+    label: Who applies
+  - field: record
+    label: Pack record
+  - field: ref
+    label: References
+  chart:
+    type: bar
+    x:
+      field: programme
+      label: Programme
+    y:
+      field: annual_usd
+      label: Annual stipend as published, US dollars
+    series:
+      field: level
+      label: Career level
+  data: figures/data/stipend-levels.csv
+  script: figures/scripts/stipend-levels.py
+  caption: The figure has 58 rows from 46 of the 70 programme records that carry a stipend field. The 48 rows that hold
+    an annual stipend or salary figure are drawn; ten give only a weekly, monthly or ten-week rate, or a cap with no single
+    amount, and have no bar. Each figure belongs to the fiscal year, class or competition named in its row, and none is
+    adjusted to a common year. Predoctoral figures run from a $20,000 scholarship ceiling in NSF S-STEM [856] to $45,000
+    at three DOE fellowships and the Smithsonian [903] [905] [907] [984]. Postdoctoral figures run from $60,000 at the Smithsonian
+    [984] to the $85,000 stipend of NSF's biology fellowships [837]. NEH's 2026 notice for individuals does not list the
+    awards for faculty at Hispanic-serving institutions or at tribal colleges, whose rows rest on the 2025 competition [987]
+    [1055]. Left out are 15 records that give no dollar figure for the stipend itself (pay tied to a federal grade, to another
+    agency's scale or to the fellow's own salary, or no level stated) and 9 whose only figure is a whole-award amount, a
+    per-teacher supplement, a loan repayment or a two-year lump sum.
+  how_to_read: Read across a row to see one programme's figure in the funder's own words, the year it belongs to and what
+    else the award pays. Each bar is one published annual figure, coloured by career level; keep the year column in view
+    when you compare bars, because the figures are not adjusted to a common year. Where a programme has a scale, two rows
+    show its lowest and highest steps. A blank annual figure means the record gives only a weekly or monthly rate, or a
+    cap with no single amount. "Not stated" means the record names no such allowance; "no year attached" means the page
+    gave the figure without a year.
+  explain:
+  - 'on': level
+    text: 'The career stage of the person paid. Predoctoral covers graduate students, master''s fellows among them [962].
+      Other marks three programmes that fit no single stage: SMART, whose stipend depends on degree level [917], the Noyce
+      teacher scholarships [858] and the Knauss policy fellowship [965].'
+  - 'on': annual_usd
+    text: The published annual figure written as a plain number. It may be a fixed stipend, a floor such as NASA's stipends
+      that start at $70,000 [944], or a ceiling such as the S-STEM scholarships of up to $15,000 per undergraduate [856];
+      the wording column says which.
+  - 'on': NIH rows
+    text: NIH sets NRSA stipend amounts for each fiscal year in a notice [732]. For FY 2026 the postdoctoral scale runs
+      from $63,480 at 0 years of experience to $77,076 at 7 or more, and only the two ends are drawn [732]. The F33 senior
+      fellowship has no bar because its stipend follows the fellow's home salary under the NRSA limit [739].
+  - 'on': other_support
+    text: Money the award pays beside the stipend. On an NIH predoctoral fellowship for FY 2026 this is 60% of actual tuition,
+      up to $16,000 a year, and an institutional allowance of $4,750 [732]; the NSF graduate fellowship pays a $16,000 cost-of-education
+      allowance to the institution [818].
+  - 'on': who_applies
+    text: Whether the person or an institution files the application. An NSF Research Traineeship stipend reaches a student
+      through a grant that only institutions of higher education may submit [828], while organizations are ineligible to
+      apply for NEH Fellowships [987].
+  concepts:
+  - who-applies-101
+  discussed_in:
+  - 5-money-that-follows-a-person
+  source: Values are taken from the stipend, awards and applicant fields of 46 programme records in the pack, two of which
+    describe the same Smithsonian programme, as published on the dates read (October 4–5, 2026). The only restatement is
+    annual_usd, which repeats a published annual figure as a plain number; for the NEH awards it is the published $60,000
+    maximum, which the records attach to twelve months or to awards of up to twelve months. No weekly or monthly rate was
+    multiplied out.
+- id: formula-state-door
+  label: Figure 5
+  title: 'Formula and pass-through programmes: who receives the federal money, and whom a non-profit applies to (as the
+    federal pages state it, read October 4–5, 2026)'
+  kind: table
+  synthesis: data
+  refs:
+  - 548
+  - 700
+  - 1129
+  - 1130
+  - 1131
+  - 1132
+  - 1133
+  - 1156
+  - 1158
+  - 1167
+  - 1168
+  - 1193
+  - 1197
+  - 1201
+  - 1219
+  - 1239
+  - 1240
+  - 1241
+  - 1242
+  - 1243
+  - 1248
+  - 1259
+  - 1260
+  - 1261
+  - 1263
+  - 1269
+  - 1279
+  - 1280
+  - 1292
+  - 1293
+  - 1302
+  - 1304
+  - 1320
+  - 1343
+  - 1344
+  - 1352
+  - 1355
+  - 1359
+  - 1360
+  - 1366
+  - 1372
+  - 1374
+  - 1377
+  - 1396
+  - 1399
+  - 1453
+  - 1454
+  - 1470
+  - 1475
+  - 1543
+  - 1547
+  - 1601
+  - 1602
+  - 1603
+  - 1617
+  - 1635
+  - 1638
+  - 1639
+  - 1649
+  - 1704
+  - 1712
+  - 1713
+  - 1714
+  - 1747
+  - 1748
+  - 1750
+  - 1776
+  - 1792
+  - 1793
+  - 1794
+  - 1796
+  columns:
+  - field: programme
+    label: Programme
+  - field: federal_agency
+    label: Federal agency
+  - field: money_goes_to
+    label: Who receives the federal award
+  - field: nonprofit_door
+    label: Whom a non-profit or local organisation applies to
+  - field: federal_page_says
+    label: What the federal source says about applying locally
+  - field: chain
+    label: Bodies at each level, where stated
+  - field: record
+    label: Record
+  - field: ref
+    label: References
+  data: figures/data/formula-state-door.csv
+  script: figures/scripts/formula-state-door.py
+  caption: 'The table lists the forty-four programme records that carry a pass-through field or the status formula: the
+    twenty-eight on the formula route, eight more that send money through an intermediary, and eight formula grants paid
+    straight to named colleges or experiment stations. Two federal texts say in so many words that the agency deals with
+    no non-profit directly: HUD''s page states that it gives no Community Development Block Grant assistance directly to
+    non-profits, and FEMA''s notice that non-profits may not apply directly for the Nonprofit Security Grant Program [1292]
+    [1320]. The records say the same of SAMHSA''s substance use block grant, HRSA''s Title V and the Education Department''s
+    21st Century Community Learning Centers [1130] [1168] [1399]. The longest chain the records state is the Older Americans
+    Act''s: 56 state agencies on aging, 618 area agencies on aging and nearly 20,000 local service providers [1260]. Each
+    row ends at the body named, because the guide''s scope ends there; no state''s own process is described. No record that
+    met the rule was left out.'
+  how_to_read: Read across a row. The first two columns name the programme and its federal owner, the third says who receives
+    the federal award, and the fourth names the body you would approach. The fifth gives the federal source's own words
+    in quotation marks, or a short paraphrase. A blank in the chain column means the record gives no count of bodies. "Does
+    not describe the local process" means the federal pages read are silent on how a local organisation applies; it does
+    not mean that no process exists. Where the fourth column begins "None named", the formula pays the listed institutions
+    directly and there is no intermediary.
+  explain:
+  - 'on': nonprofit_door
+    text: The body that holds the federal award and passes money on. VOCA victim assistance grants go by formula to the
+      states and territories, which make subgrants to local community-based organisations and public agencies [1280].
+  - 'on': by formula
+    text: The amount is set by a rule, not by a contest between applicants. ACL describes formula grants as ongoing programmes
+      that need no application or competition [1259].
+  - 'on': chain
+    text: 'The count of bodies at each level, in the record''s own wording. Most rows give the first level only, and the
+      bodies counted differ by programme: OVC''s FY 2026 chart lists 56 jurisdictions, the 50 states, the District of Columbia
+      and 5 territories [1470].'
+  - 'on': Single State Agency, State Administrative Agency
+    text: The state body has a different name in each programme. SAMHSA calls the State Substance Abuse Agency the Single
+      State Agency, and under the Nonprofit Security Grant Program a non-profit applies to its State Administrative Agency
+      [1219] [1320].
+  - 'on': 'None named: the record''s route is direct'
+    text: Eight rows are formula grants with no intermediary. Title III Part B pays each eligible historically Black college
+      or university a yearly grant worked out by formula, and an institution on the list in 34 CFR 608.2 files the application
+      itself [1602] [1649].
+  concepts:
+  - formula-and-pass-through-101
+  discussed_in:
+  - 6-funding-a-programme-or-a-service
+  - 2-how-grant-money-moves
+  - 1-why-this-matters
+  source: Values come from the guide's programme records and from the federal pages, notices, statutes and regulations those
+    records cite, as published on the dates read, October 4–5, 2026. Wording and counts are as the records give them. Nothing
+    was restated as a plain number and no cell holds a calculated figure. Rows follow the order of the formula route, then
+    the other pass-through records, then the direct formula records.
+- id: foundation-doors
+  label: Figure 6
+  title: How 65 foundations and private grantmakers take requests, by kind of foundation (their own pages, read October
+    4–5, 2026)
+  kind: chart
+  synthesis: data
+  refs:
+  - 2119
+  - 2120
+  - 2124
+  - 2128
+  - 2133
+  - 2134
+  - 2138
+  - 2141
+  - 2142
+  - 2145
+  - 2146
+  - 2149
+  - 2150
+  - 2151
+  - 2154
+  - 2155
+  - 2158
+  - 2165
+  - 2166
+  - 2172
+  - 2174
+  - 2177
+  - 2178
+  - 2184
+  - 2187
+  - 2190
+  - 2193
+  - 2201
+  - 2207
+  - 2210
+  - 2216
+  - 2219
+  - 2223
+  - 2224
+  - 2227
+  - 2228
+  - 2251
+  - 2259
+  - 2264
+  - 2269
+  - 2271
+  - 2273
+  - 2277
+  - 2280
+  - 2286
+  - 2288
+  - 2290
+  - 2292
+  - 2296
+  - 2298
+  - 2300
+  - 2302
+  - 2304
+  - 2307
+  - 2310
+  - 2313
+  - 2317
+  - 2318
+  - 2323
+  - 2335
+  - 2343
+  - 2352
+  - 2357
+  - 2411
+  - 2412
+  - 2416
+  - 2418
+  - 2422
+  - 2423
+  - 2426
+  - 2428
+  - 2429
+  - 2433
+  - 2438
+  - 2441
+  - 2442
+  - 2443
+  - 2444
+  - 2446
+  - 2447
+  - 2448
+  - 2450
+  - 2453
+  - 2454
+  - 2455
+  - 2496
+  columns:
+  - field: how_it_takes_requests
+    label: How it takes requests
+  - field: foundation_kind
+    label: Kind
+  - field: count
+    label: Records
+  - field: foundations
+    label: Which ones
+  - field: ref
+    label: References
+  chart:
+    type: stacked-bar
+    x:
+      field: how_it_takes_requests
+      label: How the foundation takes requests
+    y:
+      field: count
+      label: Number of the 65 records
+    series:
+      field: foundation_kind
+      label: Kind of foundation, as recorded
+  data: figures/data/foundation-doors.csv
+  script: figures/scripts/foundation-doors.py
+  caption: Each of the 65 foundation and private grantmaker records in this guide carries the foundation's own statement
+    of how it takes requests. Twenty-three fund by invitation only and twenty-three only through calls they post; ten begin
+    with a letter of inquiry; six accept an unsolicited request; for three the pages read state no policy. Ford's page reads
+    "We do not accept any unsolicited grant proposals by mail, email or phone." [2259] Simons takes applications only under
+    its posted calls, and The Duke Endowment is among the six that accept a request [2119] [2310]. Two of those six are
+    corporate programmes that give software and services in kind [2446] [2447]. The 65 are a sample chosen by the editor
+    and not a ranking or a census, so the bars describe these records and nothing wider.
+  how_to_read: Each bar is one way of taking requests, and its height is the number of records that state it. The colours
+    split a bar by the kind of foundation as the record gives it. Open the table to see which foundations stand behind a
+    bar and follow the reference to the page where each says so. A foundation coded as invitation only may still read what
+    it is sent, and one coded as taking letters of inquiry may fund few of them; the record's own note gives the wording.
+  explain:
+  - 'on': Invitation only
+    text: The foundation says it approaches the organisations it funds and does not take proposals it did not ask for [2259].
+  - 'on': Open calls only
+    text: The foundation takes applications only under a call it has posted, with that call's own deadline and eligibility
+      rule [2119].
+  - 'on': Letter of inquiry first
+    text: A short first request; the foundation invites a full proposal from some of those who send one. Carnegie Corporation
+      says "applicants may be invited via email to submit a full proposal" [2216].
+  - 'on': Not stated on the pages read
+    text: The pages read for the record give no policy on unsolicited requests. That is a gap in what was read, not a statement
+      by the foundation.
+  - 'on': foundation_kind
+    text: 'The label on the funder record: independent, family, corporate, community, public-charity or medical-research-organization.
+      One record carries no kind.'
+  concepts:
+  - foundations-101
+  discussed_in:
+  - 7-foundations
+  - 1-why-this-matters
+  source: Counted by the builder from the unsolicited field of the 65 funder records that have one, grouped by the foundation_kind
+    field. Each row lists its records and the references their notes cite. The statements are the foundations' own, as their
+    pages stood on October 4 and 5, 2026. Nothing was converted; a count is a count of records.
+- id: foundation-indirect-rates
+  label: Figure 7
+  title: What foundations say they pay toward indirect costs, as their own pages state it (read October 4–5, 2026)
+  kind: chart
+  synthesis: data
+  refs:
+  - 1802
+  - 2120
+  - 2125
+  - 2129
+  - 2133
+  - 2135
+  - 2141
+  - 2146
+  - 2147
+  - 2149
+  - 2156
+  - 2168
+  - 2174
+  - 2185
+  - 2188
+  - 2190
+  - 2194
+  - 2195
+  - 2196
+  - 2202
+  - 2206
+  - 2207
+  - 2212
+  - 2219
+  - 2225
+  - 2234
+  - 2248
+  - 2257
+  - 2265
+  - 2280
+  - 2332
+  - 2333
+  - 2336
+  - 2341
+  - 2361
+  - 2416
+  - 2466
+  - 2490
+  columns:
+  - field: funder
+    label: Foundation
+  - field: foundation_kind
+    label: Kind of foundation
+  - field: applies_to
+    label: Which grants or grantees
+  - field: policy
+    label: The policy as recorded
+  - field: rate_kind
+    label: Kind of rate
+  - field: rate_num
+    label: Stated rate, percent
+  - field: base
+    label: What the percent is applied to
+  - field: record
+    label: Pack record
+  - field: ref
+    label: References
+  chart:
+    type: bar
+    x:
+      field: funder
+      label: Foundation
+    y:
+      field: rate_num
+      label: Stated rate, percent
+    series:
+      field: rate_kind
+      label: Kind of rate
+  data: figures/data/foundation-indirect-rates.csv
+  script: figures/scripts/foundation-indirect-rates.py
+  caption: 'Each bar is a rate for indirect costs that a foundation''s own page states, taken from the 27 foundation records
+    in the pack that carry one; a record with different rates for different grants or grantees has a row for each. Just
+    over half of the rows, and most of the bars drawn, are ceilings, such as the 7.5% within the William T. Grant Scholars
+    award and Simons''s limit of 20 percent of direct costs [2206] [2120]. Two records state a floor: Ford sets a minimum
+    of 25 percent on project grants from January 1, 2023, and Packard pays a tiered minimum set by the grantee''s annual
+    budget [2332] [2341]. MacArthur states one flat rate, 29 percent applied to project costs [2265]. Only the National
+    Fish and Wildlife Foundation''s record uses the federal term: a de minimis rate of up to 15% of modified total direct
+    costs, the rate in force under 2 CFR 200.414(f) [2466] [1802]. The other 38 of the 65 foundation records carry no indirect
+    cost statement. That means the pages read did not give one; it does not mean the foundation pays none.'
+  how_to_read: 'Read along the bottom for the foundation and up for the percent its page states; the colour gives the kind
+    of rate. A bar marked maximum is a ceiling, not what any one grant received. A bar at zero means the page says none
+    are paid on the grants named under applies_to. A row with no bar has no single figure: the foundation uses no fixed
+    rate, gives a range or a sum of money, or the pages read gave no rate. Before you compare two bars, read the base column,
+    since some percents apply to direct costs and some to the whole grant. "Not stated" in that column means the record
+    names no base.'
+  explain:
+  - 'on': rate_kind
+    text: 'The kind follows the record''s words: maximum where it says up to, not more than, may not exceed, limited to
+      or allowable; minimum and fixed where it says so. The bare percents for the American Heart Association, the American
+      Cancer Society''s standard grants and Spencer''s large grants are classed as maximum because the pack''s record of
+      foundation caps lists them among the limits [2188] [2190] [2195].'
+  - 'on': base
+    text: The base is what the percent is applied to. Some foundations state the limit as a share of the whole award, not
+      of direct costs, and some leave equipment, tuition or subcontracts out of the base [2219] [2174] [2120] [2129].
+  - 'on': minimum
+    text: A minimum is a floor under the rate, the reverse of a ceiling. Ford's minimum was 20 percent through 2022; the
+      rate does not apply to expedited grants, general operating and core support grants, or grant increases [2332] [2333].
+  - 'on': none paid
+    text: A zero belongs to the grants named under applies_to, not to the foundation as a whole. The Mellon and Burroughs
+      Wellcome records each give a bar on indirect costs for one programme and say that no general or Fund-wide rule was
+      returned [2212] [2168].
+  - 'on': maximum, Gates rows
+    text: The Gates policy sets its maximum rates by type of organisation on budgeted total direct costs, and an organisation
+      whose actual rate is lower proposes its actual rate [2257].
+  concepts:
+  - indirect-costs-101
+  - foundations-101
+  discussed_in:
+  - 7-foundations
+  - 3-the-rules-underneath
+  source: Values come from the indirect_costs field of 27 funder records in the Token for Granted content pack and the references
+    beside them, which are the foundations' own policy and programme pages, with one eCFR section for the federal de minimis
+    rate. They are as published on the dates read, October 4–5, 2026. The only restatement is rate_num, which repeats the
+    percent in the policy as a plain number, with 0 where the record says none are paid. No rate was computed.
+- id: jurisdiction-lists
+  label: Figure 8
+  title: Which states and territories are on each agency's EPSCoR or IDeA list (as each agency's page or notice stated it
+    when read, October 4–5, 2026)
+  kind: table
+  synthesis: data
+  refs:
+  - 877
+  - 878
+  - 1543
+  - 1545
+  - 1546
+  - 1565
+  - 1566
+  - 1567
+  - 1568
+  - 1570
+  - 1573
+  - 1574
+  - 1576
+  - 1584
+  columns:
+  - field: jurisdiction
+    label: State, district or territory
+  - field: nsf_epscor
+    label: NSF EPSCoR
+  - field: nih_idea
+    label: NIH IDeA
+  - field: doe_epscor
+    label: DOE EPSCoR
+  - field: nasa_epscor
+    label: NASA EPSCoR
+  - field: dod_depscor
+    label: DoD DEPSCoR
+  - field: usda_epscor
+    label: USDA EPSCoR (AFRI FASE)
+  - field: lists_num
+    label: Lists the place is on (of six)
+  - field: ref
+    label: References
+  data: figures/data/jurisdiction-lists.csv
+  script: figures/scripts/jurisdiction-lists.py
+  caption: 'Six agency lists, one row for each of the 40 places named on any. NSF lists 28 jurisdictions, which its page
+    says is in effect frozen through FY 2027 [878] [877]. DOE names the same 28 on its page and in its FY 2026 notice, following
+    the NSF criteria [1567] [1568]. NASA''s FY 2025 notices name twenty-five states, Puerto Rico, the U.S. Virgin Islands
+    and Guam, with eligibility determined by NSF [1570] [1573] [1574]. NIH''s page, last updated December 10, 2025, lists
+    23 states and Puerto Rico [1543] [1584]. The FY26 DEPSCoR notices list 36 [1565] [1566]. USDA lists 19 states for FY
+    2026 under a 38th-percentile rule on AFRI funding, and names seven other places as also eligible [1576]. The NSF, NIH
+    and DEPSCoR sources read state no rule that produces the list [878] [1543] [1565]. By this guide''s count, 17 rows are
+    on all six lists and nine on only one: American Samoa and Utah on USDA''s alone, Wisconsin on DEPSCoR''s alone [1576]
+    [1565]. No list was left out: each record names its places.'
+  how_to_read: Read across a row to see which agencies' lists name the place where your institution is, and read down a
+    column to see one agency's whole list. A "yes" means the record for that list names the place. A blank means the record
+    does not name the place on that list for the year or notice shown, and nothing more than that; the table says nothing
+    about other years. The number at the end of the row counts the "yes" cells. The reference numbers show which page or
+    notice each "yes" rests on.
+  explain:
+  - 'on': jurisdiction
+    text: The row labels are the names the records use, which is why "Micronesia" and "Northern Marianas" appear in short
+      form [1576]. The DOE list writes "Virgin Islands" where the others write "U.S. Virgin Islands"; the table holds both
+      in one row [1567] [878].
+  - 'on': nih_idea
+    text: IDeA is the Institutional Development Award, a separate NIH programme with its own list. Congress authorised it
+      in 1993 to build biomedical research capacity in states with historically low NIH grant funding success rates [1545].
+  - 'on': doe_epscor and nasa_epscor
+    text: These two columns hold the same places as the NSF column. DOE EPSCoR currently follows the NSF EPSCoR eligibility
+      criteria [1567]. For NASA, jurisdiction eligibility is determined by NSF, and the FY 2025 notice used the 2023 NSF
+      eligibility table [1574].
+  - 'on': dod_depscor
+    text: DEPSCoR is the Department of Defense programme. An institution of higher education may apply only if it is in
+      a state or territory on the list in that year's notice, so the column shows the FY26 notices posted August 10, 2026
+      [1565] [1566].
+  - 'on': usda_epscor
+    text: 'USDA labels its list by fiscal year. The 19 states qualify under a rule: funding "no higher than the 38th percentile
+      of all States based on a three-year rolling average of AFRI funding levels." The District of Columbia, American Samoa,
+      Guam, Micronesia, Northern Marianas, Puerto Rico and the U.S. Virgin Islands are named as also eligible [1576].'
+  concepts:
+  - standing-101
+  discussed_in:
+  - 8-standing-and-capacity
+  - 1-why-this-matters
+  source: Each "yes" is taken from the standing record for that agency's list, which names the jurisdictions as the agency's
+    page or funding notice gave them when read on October 4–5, 2026. Nothing was converted or estimated. The lists_num column
+    is a count made for this guide of the "yes" cells in each row, and the totals of rows in the caption are counts of the
+    same kind; no agency publishes them.
+- id: registration-times
+  label: Figure 9
+  title: How long the registrations take, as the official pages state it (read October 4–5, 2026)
+  kind: table
+  synthesis: data
+  refs:
+  - 156
+  - 161
+  - 257
+  - 279
+  - 282
+  - 336
+  - 358
+  - 377
+  - 389
+  - 421
+  - 447
+  - 548
+  - 619
+  - 644
+  - 665
+  - 784
+  - 1866
+  - 1895
+  - 1897
+  - 1898
+  - 1899
+  - 1909
+  - 1910
+  - 1911
+  - 1921
+  - 1922
+  - 1923
+  - 1925
+  - 1927
+  - 1928
+  - 1934
+  - 1936
+  - 1947
+  - 1961
+  - 1965
+  - 1966
+  - 1973
+  - 2034
+  - 2035
+  - 2046
+  - 2049
+  - 2053
+  - 2057
+  - 2101
+  columns:
+  - field: gate
+    label: Gate
+  - field: what_it_is
+    label: What it is
+  - field: who_does_it
+    label: Who does it
+  - field: stated_time
+    label: Stated time
+  - field: stated_by
+    label: Stated by
+  - field: renewal_or_lapse
+    label: Renewal or lapse
+  - field: days_sort
+    label: Days (for sorting)
+  - field: record
+    label: Pack record
+  - field: ref
+    label: References
+  data: figures/data/registration-times.csv
+  script: figures/scripts/registration-times.py
+  caption: 'The table lists every registration, account or identifier in the guide''s gates records whose time entry gives
+    a figure, with one row for each agency statement. SAM.gov says a registration can take up to 10 business days to become
+    active [1897]. Agencies that depend on it state longer lead times: NIH gives three weeks or more for a first registration
+    [1909], and NSF at least 90 days before submission [161]. Statements about one gate differ: CDMRP says Grants.gov registration
+    is processed immediately with a UEI [1923], and NOAA Fisheries gives 2-4 weeks [447]. The IRS figures, 22 days and 191
+    days, each cover 80% of determinations [2053]. Left out are sixteen gates whose record says no time is stated on the
+    pages read, among them the Login.gov account, the ORCID iD, GrantSolutions and FEMA GO. Also left out are three gates
+    whose figure is the length of a training module, an audit filing deadline or a policy timetable, and the gates with
+    no time entry at all.'
+  how_to_read: 'Read across a row to see one statement about one registration: what the gate is, who has to do it, the time
+    in the page''s own terms, who said so, and what the record says about renewal. Where a gate has several rows, different
+    pages gave different times, and you can follow each through its reference number. The days column repeats a published
+    figure as a number so that rows can be sorted. It is blank where the page gives a range, a time in hours or months,
+    a phrase such as "several weeks", or a figure for something other than the gate itself. "None stated on the pages read"
+    means those pages gave no renewal rule.'
+  explain:
+  - 'on': stated_by
+    text: A time stated by an agency other than the one that runs a system is that agency's planning figure for its own
+      applicants. SAM.gov gives up to 10 business days for a registration to become active [1897]; NSF's page gives at least
+      90 days before submission for the same registration [161].
+  - 'on': days_sort
+    text: Business days are counted as the page states them and are not turned into calendar days. The SAM.gov figure of
+      up to 10 business days therefore appears as 10 [1897].
+  - 'on': Unique Entity Identifier (UEI)
+    text: The UEI is the identifier SAM.gov assigns to uniquely identify an entity [1899]. Within a full registration it
+      is assigned once the name and address are validated [1898].
+  - 'on': EBiz POC
+    text: The Electronic Business Point of Contact is the person named in SAM.gov who controls the organisation's Grants.gov
+      roles [1895]. NIH ties its figure of one business day or more for Grants.gov to how quickly that person responds [1909].
+  - 'on': 80% of determinations
+    text: The IRS figures are not outer limits. The page says the IRS issues 80% of Form 1023-EZ determinations within 22
+      days and 80% of Form 1023 determinations within 191 days [2053].
+  concepts:
+  - registrations-101
+  discussed_in:
+  - 9-the-gates
+  - 1-why-this-matters
+  source: 'Values are taken from the gates records of the Token for Granted content pack and the pages those records cite:
+    agency registration pages, application guides and notices, as published on the dates read (October 4–5, 2026). The days_sort
+    column restates the published figure in days, with a week taken as 7 days and business days counted as stated. Nothing
+    else was converted; ranges, hours, months and unnumbered phrases are left blank.'
+- id: changes-timeline
+  label: Figure 10
+  title: 'What changed, January 2025 to October 5, 2026: the dated ledger by status'
+  kind: chart
+  synthesis: data
+  refs:
+  - 1
+  - 2
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 39
+  - 40
+  - 41
+  - 52
+  - 54
+  - 55
+  - 57
+  - 60
+  - 61
+  - 62
+  - 63
+  - 65
+  - 68
+  - 69
+  - 70
+  - 80
+  - 81
+  - 82
+  - 83
+  - 84
+  - 85
+  - 86
+  - 87
+  - 88
+  - 89
+  - 90
+  - 93
+  - 94
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 123
+  - 124
+  - 125
+  - 126
+  - 127
+  - 128
+  - 129
+  - 130
+  - 131
+  - 132
+  - 133
+  - 134
+  - 139
+  - 140
+  - 141
+  - 142
+  - 144
+  - 147
+  - 149
+  - 150
+  - 151
+  - 152
+  - 153
+  - 154
+  - 157
+  - 168
+  - 169
+  - 171
+  - 173
+  - 174
+  - 176
+  - 177
+  - 179
+  - 180
+  - 181
+  - 185
+  - 192
+  - 197
+  - 199
+  - 214
+  - 224
+  - 225
+  - 226
+  - 227
+  - 228
+  - 230
+  - 231
+  - 236
+  - 237
+  - 238
+  - 239
+  - 240
+  - 241
+  - 242
+  - 243
+  - 244
+  - 245
+  - 246
+  - 247
+  - 255
+  - 262
+  - 263
+  - 274
+  - 279
+  - 282
+  - 288
+  - 289
+  - 290
+  - 291
+  - 292
+  - 293
+  - 294
+  - 295
+  - 296
+  - 297
+  - 301
+  - 302
+  - 307
+  - 308
+  - 309
+  - 310
+  - 314
+  - 315
+  - 316
+  - 319
+  - 320
+  - 325
+  - 330
+  - 334
+  - 339
+  - 343
+  - 348
+  - 353
+  - 360
+  - 361
+  - 371
+  - 372
+  - 373
+  - 374
+  - 375
+  - 377
+  - 381
+  - 382
+  - 383
+  - 384
+  - 393
+  - 395
+  - 396
+  - 404
+  - 405
+  - 412
+  - 414
+  - 418
+  - 419
+  - 424
+  - 425
+  - 436
+  - 443
+  - 444
+  - 445
+  - 450
+  - 452
+  - 454
+  - 455
+  - 456
+  - 458
+  - 459
+  - 461
+  - 463
+  - 464
+  - 473
+  - 475
+  - 478
+  - 484
+  - 486
+  - 492
+  - 493
+  - 495
+  - 496
+  - 507
+  - 508
+  - 510
+  - 512
+  - 513
+  - 514
+  - 515
+  - 516
+  - 517
+  - 518
+  - 523
+  - 524
+  - 525
+  - 526
+  - 527
+  - 528
+  - 529
+  - 530
+  - 531
+  - 533
+  - 534
+  - 535
+  - 536
+  - 537
+  - 538
+  - 539
+  - 540
+  - 541
+  - 542
+  - 543
+  - 544
+  - 545
+  - 546
+  - 547
+  - 548
+  - 556
+  - 557
+  - 558
+  - 595
+  - 607
+  - 620
+  - 621
+  - 622
+  - 623
+  - 624
+  - 625
+  - 626
+  - 630
+  - 631
+  - 632
+  - 633
+  - 634
+  - 635
+  - 637
+  - 639
+  - 640
+  - 641
+  - 642
+  - 643
+  - 644
+  - 645
+  - 653
+  - 654
+  - 655
+  - 656
+  - 657
+  - 658
+  - 659
+  - 660
+  - 661
+  - 662
+  - 663
+  - 670
+  - 671
+  - 672
+  - 673
+  - 674
+  - 676
+  - 679
+  - 682
+  - 686
+  - 687
+  - 688
+  - 689
+  - 690
+  - 691
+  - 692
+  - 694
+  - 706
+  - 708
+  - 713
+  - 717
+  - 718
+  - 719
+  - 720
+  - 721
+  - 722
+  - 731
+  - 732
+  - 733
+  - 736
+  - 737
+  - 738
+  - 739
+  - 740
+  - 741
+  - 742
+  - 744
+  - 750
+  - 752
+  - 753
+  - 754
+  - 755
+  - 756
+  - 757
+  - 758
+  - 759
+  - 762
+  - 763
+  - 764
+  - 765
+  - 766
+  - 770
+  - 771
+  - 772
+  - 773
+  - 774
+  - 775
+  - 776
+  - 777
+  - 778
+  - 779
+  - 782
+  - 783
+  - 784
+  - 785
+  - 786
+  - 787
+  - 788
+  - 790
+  - 791
+  - 792
+  - 793
+  - 796
+  - 797
+  - 799
+  - 800
+  - 801
+  - 802
+  - 811
+  - 812
+  - 817
+  - 818
+  - 826
+  - 827
+  - 828
+  - 836
+  - 837
+  - 838
+  - 844
+  - 845
+  - 846
+  - 848
+  - 849
+  - 850
+  - 851
+  - 852
+  - 857
+  - 858
+  - 859
+  - 860
+  - 861
+  - 862
+  - 863
+  - 864
+  - 868
+  - 871
+  - 872
+  - 875
+  - 876
+  - 879
+  - 881
+  - 882
+  - 884
+  - 885
+  - 889
+  - 909
+  - 922
+  - 924
+  - 926
+  - 927
+  - 946
+  - 947
+  - 948
+  - 949
+  - 950
+  - 951
+  - 952
+  - 956
+  - 960
+  - 961
+  - 962
+  - 964
+  - 965
+  - 986
+  - 987
+  - 988
+  - 990
+  - 991
+  - 992
+  - 995
+  - 996
+  - 997
+  - 1003
+  - 1004
+  - 1005
+  - 1006
+  - 1008
+  - 1011
+  - 1015
+  - 1020
+  - 1021
+  - 1027
+  - 1028
+  - 1041
+  - 1044
+  - 1046
+  - 1048
+  - 1053
+  - 1055
+  - 1059
+  - 1061
+  - 1063
+  - 1064
+  - 1080
+  - 1081
+  - 1082
+  - 1085
+  - 1089
+  - 1104
+  - 1105
+  - 1108
+  - 1109
+  - 1112
+  - 1115
+  - 1134
+  - 1135
+  - 1136
+  - 1144
+  - 1145
+  - 1153
+  - 1154
+  - 1175
+  - 1176
+  - 1177
+  - 1178
+  - 1180
+  - 1184
+  - 1191
+  - 1192
+  - 1195
+  - 1203
+  - 1204
+  - 1205
+  - 1210
+  - 1218
+  - 1221
+  - 1223
+  - 1230
+  - 1231
+  - 1233
+  - 1235
+  - 1236
+  - 1245
+  - 1246
+  - 1250
+  - 1251
+  - 1253
+  - 1254
+  - 1255
+  - 1263
+  - 1270
+  - 1271
+  - 1272
+  - 1274
+  - 1276
+  - 1277
+  - 1281
+  - 1282
+  - 1283
+  - 1284
+  - 1285
+  - 1286
+  - 1287
+  - 1288
+  - 1295
+  - 1300
+  - 1309
+  - 1319
+  - 1320
+  - 1321
+  - 1322
+  - 1329
+  - 1330
+  - 1334
+  - 1335
+  - 1336
+  - 1337
+  - 1338
+  - 1339
+  - 1350
+  - 1357
+  - 1358
+  - 1361
+  - 1367
+  - 1368
+  - 1369
+  - 1370
+  - 1371
+  - 1374
+  - 1376
+  - 1380
+  - 1382
+  - 1384
+  - 1389
+  - 1390
+  - 1391
+  - 1392
+  - 1393
+  - 1394
+  - 1395
+  - 1396
+  - 1397
+  - 1398
+  - 1403
+  - 1405
+  - 1406
+  - 1407
+  - 1409
+  - 1412
+  - 1413
+  - 1414
+  - 1415
+  - 1418
+  - 1420
+  - 1422
+  - 1423
+  - 1424
+  - 1426
+  - 1428
+  - 1429
+  - 1435
+  - 1436
+  - 1448
+  - 1449
+  - 1450
+  - 1457
+  - 1458
+  - 1468
+  - 1470
+  - 1476
+  - 1477
+  - 1478
+  - 1479
+  - 1480
+  - 1481
+  - 1482
+  - 1488
+  - 1489
+  - 1495
+  - 1513
+  - 1514
+  - 1525
+  - 1527
+  - 1528
+  - 1529
+  - 1530
+  - 1531
+  - 1532
+  - 1533
+  - 1535
+  - 1536
+  - 1537
+  - 1539
+  - 1540
+  - 1541
+  - 1542
+  - 1543
+  - 1544
+  - 1545
+  - 1546
+  - 1548
+  - 1549
+  - 1551
+  - 1552
+  - 1555
+  - 1561
+  - 1563
+  - 1565
+  - 1566
+  - 1568
+  - 1569
+  - 1571
+  - 1572
+  - 1575
+  - 1576
+  - 1579
+  - 1580
+  - 1581
+  - 1582
+  - 1583
+  - 1586
+  - 1587
+  - 1588
+  - 1590
+  - 1591
+  - 1592
+  - 1593
+  - 1594
+  - 1596
+  - 1597
+  - 1600
+  - 1602
+  - 1606
+  - 1607
+  - 1608
+  - 1609
+  - 1610
+  - 1611
+  - 1612
+  - 1613
+  - 1616
+  - 1618
+  - 1619
+  - 1620
+  - 1625
+  - 1627
+  - 1643
+  - 1650
+  - 1651
+  - 1660
+  - 1665
+  - 1666
+  - 1668
+  - 1669
+  - 1670
+  - 1671
+  - 1672
+  - 1673
+  - 1675
+  - 1677
+  - 1679
+  - 1683
+  - 1685
+  - 1687
+  - 1688
+  - 1690
+  - 1697
+  - 1705
+  - 1706
+  - 1709
+  - 1710
+  - 1712
+  - 1714
+  - 1715
+  - 1716
+  - 1722
+  - 1726
+  - 1727
+  - 1729
+  - 1730
+  - 1736
+  - 1749
+  - 1750
+  - 1751
+  - 1753
+  - 1757
+  - 1758
+  - 1766
+  - 1767
+  - 1768
+  - 1769
+  - 1770
+  - 1773
+  - 1775
+  - 1776
+  - 1777
+  - 1778
+  - 1781
+  - 1785
+  - 1786
+  - 1797
+  - 1804
+  - 1856
+  - 1857
+  - 1858
+  - 1859
+  - 1862
+  - 1863
+  - 1864
+  - 1865
+  - 1866
+  - 1869
+  - 1870
+  - 1871
+  - 1872
+  - 1879
+  - 1884
+  - 1891
+  - 1892
+  - 1901
+  - 1902
+  - 1903
+  - 1904
+  - 1905
+  - 1906
+  - 1907
+  - 1914
+  - 1919
+  - 1920
+  - 1926
+  - 1928
+  - 1941
+  - 1944
+  - 1945
+  - 1946
+  - 1947
+  - 1948
+  - 1949
+  - 1951
+  - 1970
+  - 1999
+  - 2001
+  - 2006
+  - 2008
+  - 2009
+  - 2011
+  - 2014
+  - 2015
+  - 2016
+  - 2020
+  - 2026
+  - 2027
+  - 2030
+  - 2031
+  - 2040
+  - 2041
+  - 2042
+  - 2044
+  - 2060
+  - 2061
+  - 2082
+  - 2083
+  - 2084
+  - 2086
+  - 2093
+  - 2095
+  - 2096
+  - 2097
+  - 2106
+  - 2107
+  - 2108
+  - 2110
+  - 2112
+  - 2113
+  - 2119
+  - 2120
+  - 2163
+  - 2172
+  - 2177
+  - 2179
+  - 2185
+  - 2197
+  - 2198
+  - 2213
+  - 2214
+  - 2231
+  - 2232
+  - 2233
+  - 2234
+  - 2236
+  - 2242
+  - 2243
+  - 2244
+  - 2246
+  - 2247
+  - 2252
+  - 2254
+  - 2258
+  - 2298
+  - 2321
+  - 2326
+  - 2327
+  - 2328
+  - 2329
+  - 2331
+  - 2334
+  - 2337
+  - 2339
+  - 2350
+  - 2353
+  - 2354
+  - 2355
+  - 2356
+  - 2364
+  - 2378
+  - 2389
+  - 2390
+  - 2391
+  - 2392
+  - 2393
+  - 2394
+  - 2395
+  - 2396
+  - 2399
+  - 2400
+  - 2401
+  - 2402
+  - 2451
+  - 2462
+  - 2463
+  - 2484
+  - 2497
+  - 2498
+  - 2501
+  - 2502
+  columns:
+  - field: date
+    label: Date
+  - field: status
+    label: Status
+  - field: recorded_under
+    label: Recorded under
+  - field: what
+    label: What changed
+  - field: routes
+    label: Routes it bears on
+  - field: ref
+    label: References
+  chart:
+    type: scatter
+    x:
+      field: plot_date
+      label: Date of the change
+      unit: date
+    y:
+      field: status
+      label: Status on October 5, 2026
+    series:
+      field: recorded_under
+      label: Part of the guide that recorded it
+  data: figures/data/changes-timeline.csv
+  script: figures/scripts/changes-timeline.py
+  caption: 'The 477 change records dated between January 1, 2025 and October 5, 2026, each placed by its date and by the
+    status it had when the guide closed. Most are final (313). Fifty are announcements and 32 are proposals, and 52 carry
+    a status that comes from a court: enjoined (14), in litigation (13), on appeal (13) or vacated (12). NIH''s notice of
+    February 7, 2025 setting a 15% indirect cost rate sits in the vacated row [25] [24]. The HHS termination notices of
+    March 24 and 25, 2025 sit in the enjoined row [544]. OMB''s proposed rewrite of the grant rules, published May 29, 2026,
+    is in the proposed row, and section 157 of Public Law 119-103, approved September 2, 2026, is one of two records marked
+    frozen by appropriations [1458] [1480]. Left off the chart: 40 records dated only to a year or not dated, and 7 dated
+    outside the window.'
+  how_to_read: 'Time runs left to right and each row is a status, so you can see at a glance how much of what moved is settled
+    and how much is proposed, announced or before a court. A point is one change record; open it to read what changed and
+    follow its references. The row shows where the change stood on October 5, 2026, not where it stood on its date: a notice
+    issued in February 2025 and later vacated sits in the vacated row at February 2025. A point shows when something was
+    issued or announced, which is not always when it takes effect. Twenty-four records are dated to a month and are drawn
+    at the 15th.'
+  explain:
+  - 'on': 'y: status'
+    text: 'The status word on the change record: proposed, announced, enacted, final, pending-implementation, enjoined,
+      vacated, in-litigation, on-appeal, rescinded or frozen-by-appropriations. The primer on law in motion explains each
+      through a dated case.'
+  - 'on': 'status: vacated'
+    text: A court set the policy aside. NIH's 15% indirect cost notice was enjoined, then vacated, and the First Circuit
+      affirmed on January 5, 2026 [24].
+  - 'on': 'status: enjoined'
+    text: A court order bars the agency from carrying the action out for the parties the order covers. The injunction against
+      the HHS terminations was granted to the plaintiff states [544].
+  - 'on': 'status: frozen-by-appropriations'
+    text: Congress has barred the step for a time. Section 157 of Public Law 119-103 bars a rule arising from OMB's proposal
+      from being issued or finalised through December 11, 2026 [1480].
+  - 'on': 'series: recorded_under'
+    text: 'Which part of the guide''s reading recorded the change: research, people, programme and service, capacity, the
+      rules for every award, or foundations. A change that bears on several parts appears once.'
+  concepts:
+  - law-in-motion-101
+  - uniform-guidance-101
+  discussed_in:
+  - 10-what-changed
+  - 3-the-rules-underneath
+  - 11-how-to-read
+  source: Every record in changes.yaml with a day or a month in its date, between January 1, 2025 and October 5, 2026, as
+    built by make_figures.py. Date, status and references are the record's own; the what column is the record's opening,
+    cut at a sentence end. Records dated to a month are drawn at the 15th of that month; nothing else was converted. Statuses
+    are as recorded on October 4 and 5, 2026.

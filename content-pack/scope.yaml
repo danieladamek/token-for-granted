@@ -1,0 +1,4216 @@
+# scope.yaml — Token for Granted · topic mode · written 2026-10-05. Counts are computed from the pack by source/t5/make_manifest_scope.py.
+topic: 'A sister to FAR Out for academic and non-profit grant money: a public site, something very much like FAR Out, that
+  helps a university researcher, a research office or a non-profit find and follow a route to grant money, with an opportunity
+  search built in'
+topic_note: Daniel's first message is not preserved word for word in the session record; this is the request as the requirements
+  note recorded it on 2026-10-04. The phrase "something very much like FAR Out" is his.
+question: For a university researcher, a research office or a non-profit that wants grant money in the United States, what
+  routes exist (research project grants, fellowships and training awards, programme and service grants, capacity and infrastructure
+  money, from federal agencies and from foundations), what does each require, who actually decides, and what changed in
+  2025-26 that the official pages have not caught up with?
+purpose: orientation
+boundary:
+  in:
+  - 'federal grant-making agencies, every field: research, health, education, arts and humanities, agriculture, environment,
+    justice, housing, labour'
+  - 'private, community and corporate foundations and other private grantmakers: 65 recorded as a labelled editorial sample'
+  - 'four route families: research project grants; fellowships, career and training awards; programme and service grants;
+    capacity and infrastructure'
+  - 'the entry routes: registration, becoming an eligible non-profit, joining as a subrecipient, approaching a foundation,
+    general operating support, research at a non-profit that is not a university'
+  - 'standing: eligibility that belongs to the institution or its state (EPSCoR and IDeA lists, designated institutions,
+    tax status)'
+  - 'the gates: registrations, identifiers, assurances and audits'
+  - 'the rules beneath every federal award: the Uniform Guidance, indirect costs, termination, and what changed or is contested
+    in 2025-26'
+  - 'federal formula and pass-through programmes as far as the federal page: who receives the money and whom a non-profit
+    applies to'
+  out:
+  - state and local government grant programmes, and any state's own process for passing federal money on
+  - contracts, SBIR/STTR from the firm's side, other transactions and procurement (covered by the sister guide FAR Out)
+  - loans, loan guarantees, tax credits and benefits paid to individuals
+  - grant-writing technique, and any recommendation of a paid database, consultant or grant writer
+  - foundations beyond the sample of 65 (reached through the directory the site builds from IRS data, not through records)
+  - funders outside the United States, and United States awards to foreign organisations except where an eligibility rule
+    mentions them
+  - post-award administration in depth (effort reporting, procurement standards, property), beyond the rules a newcomer
+    meets before and at award
+  rationale: 'Daniel, 2026-10-04: federal plus foundations, state and local out for the first release; both academic and
+    non-profit readers, split by the pathfinder; all four route families in depth; all fields. On 2026-10-05 he ruled that
+    pass-through programmes stop at the state door and that the foundations stay as a labelled sample. The rest of the out-list
+    was proposed by the builder and not objected to.'
+level: 'the applicant organisation and the person named in its application: what each must be, hold and do to enter a route;
+  the funder: how it posts, reviews and decides'
+time_window:
+  current_from: 2024
+  seminal: statute, regulation, court rulings and policy guides of any age that govern a route
+stance: navigation-with-provenance
+depth: deep
+anchors:
+- citation: FAR Out, the sister guide (danieladamek/far-out)
+  why: Daniel asked for something very much like it; its spine, reading level and provenance rules were carried over
+- citation: 2 CFR part 200, the Uniform Guidance
+  why: the rulebook beneath every federal award; chosen by the builder
+- citation: Grants.gov, the NIH Grants Policy Statement and the NSF PAPPG
+  why: the official front door and the two largest research funders' policy guides; chosen by the builder
+- citation: IRS pages on private foundations and Form 990-PF
+  why: the legal ground for the foundation records; chosen by the builder
+excluded:
+- what: law-firm, association and trade-press commentary as a source of fact
+  why: carried only as pointers to a primary source or as flags of a pending change; labelled secondary
+- what: third-party foundation directories as the only source for what a foundation funds
+  why: foundations are described from their own sites and filings
+- what: pages that could not be read by automated fetch (see known_gaps)
+  why: read on an official mirror where one exists and marked for re-reading otherwise
+assumed: false
+interview:
+- q: Which funders should the first release cover?
+  answer: Federal plus foundations. (Chosen from the options offered; state and local money is out for the first release.)
+  asked: '2026-10-04'
+- q: Who is the reader?
+  answer: Both academic and non-profit, split by the pathfinder. (Chosen from the options offered.)
+  asked: '2026-10-04'
+- q: How deep should the first release go?
+  answer: All four route families in depth. (Chosen from the options offered.)
+  asked: '2026-10-04'
+- q: Which fields?
+  answer: All fields. (Chosen from the options offered.)
+  asked: '2026-10-04'
+- q: Name?
+  answer: 'First "Taken for Granted"; on 2026-10-05: "Want to replace every instance of taken with token / As the naming
+    convention goes, that is / Obviously not find and replace in the content"'
+  asked: '2026-10-04'
+- q: 'Three recommendations: stop pass-through programmes at the state door; list on route pages only programmes a reader
+    can act on and let search reach the rest; keep the 65 foundations as a labelled editorial sample?'
+  answer: Agree with your recommendation
+  asked: '2026-10-05'
+- q: Add a question about field to the pathfinder?
+  answer: 'no'
+  asked: '2026-10-05'
+- q: Self-check questions on the primers?
+  answer: And let's keep the primer section BUT not include the questions. and let's make that toggle on future builds as
+    well
+  asked: '2026-10-05'
+- q: Where does that toggle sit?
+  answer: I guess that's in the "concepts" area? Wherever the questions get presented let's make that something to add rather
+    than a default
+  asked: '2026-10-05'
+- q: 'The outline of eleven sections, one claim each, shown before any prose (TOPIC-WORKFLOW T4): any change?'
+  answer: No change asked for; he answered "proceed".
+  asked: '2026-10-05'
+carried_from_far_out:
+- 'situation-first spine: a pathfinder leading into a route catalogue'
+- layered reading level
+- gates as checklists shown on every route that needs them
+- public repository and GitHub Pages
+- no connection to any specific university or non-profit in content, examples, branding or repository
+- anything personal stays in the visitor's browser
+- no reference-manager sync
+still_open:
+- funders set up by Congress that are neither agency nor foundation (PCORI, the Legal Services Corporation, the Corporation
+  for Public Broadcasting) are kept as independent-nonprofit and counted on the federal side by the pathfinder
+- edge cases between families (research centres, NIH DP2 and DP5, preservation grants, NIH SuRE) stand as recorded
+- the label no-current-notice (82 programmes) reports an absence on the funder's page and on Grants.gov; the alternative
+  label would be unconfirmed
+search_strategy:
+  run_on: '2026-10-04'
+  sources:
+  - web search
+  - direct fetch of official pages (grants.gov and simpler.grants.gov, agency sites, ecfr.gov, govinfo.gov, federalregister.gov,
+    irs.gov, court sites, foundation sites)
+  - foundation annual returns as summarised by ProPublica Nonprofit Explorer
+  - GAO, CRS and inspector-general reports
+  passes:
+  - '2026-10-04: six sweeps in 27 slices (research A-F, people A-E, programme and service A-D, capacity A-D, rules A-D,
+    foundations A-D)'
+  - '2026-10-05: recheck of every source against its live page; a status pass over the research programmes that carried
+    no status'
+  queries:
+  - q: NIH parent announcement R01 2026 PA-25 "Research Project Grant (Parent R01 Clinical Trial Not Allowed)
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH notice funding opportunities posted only on Grants.gov no longer NIH Guide NOT-OD-25 OR NOT-OD-26
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH "Highlighted Topics" funding opportunities parent announcements NOT-OD-26
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NOT-OD-25-132 NIH limit six applications per principal investigator per calendar year AI-generated applications
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH "unified funding strategy" notice NOT-OD-26 paylines funding decisions
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH request for information 2026 impact scores percentiles peer review NOT-OD-26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH foreign subawards new award structure notice NOT-OD-25-104 PF5 "NIH Collaborative International Research Project"
+      PA-26-002
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH salary cap fiscal year 2026 Executive Level II notice NOT-OD-26 "salary limitation
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH Data Book success rates research project grants fiscal year 2025 R01-equivalent success rate report.nih.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH indirect cost 15 percent NOT-OD-25-068 court ruling First Circuit January 2026 vacated permanent injunction
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH RePORT success rates by activity code fiscal year 2025 table R01 R21 R03 R15 "success rate" site:report.nih.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH Extramural Nexus "FY 2025 By the Numbers" extramural grant investments success rate research project grants
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH grant terminations court ruling American Public Health Association v. NIH Supreme Court August 2025 First Circuit
+      2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH institute consolidation 27 institutes reorganization 2026 Congress appropriations act prohibits OR proposal eight
+      institutes
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: supremecourt.gov 25A103 National Institutes of Health v. American Public Health Association opinion August 21 2025
+      pdf
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: First Circuit American Public Health Association v. NIH decision 2026 grant terminations appeal opinion ca1.uscourts.gov
+      25-1611
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH public access policy effective July 1 2025 NOT-OD-25-101 accelerated implementation no embargo
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH Common Forms biographical sketch current and pending support SciENcv required NOT-OD-26 effective date 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH research security training requirement senior/key personnel notice NOT-OD-26 effective 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NOT-OD-26-079 NIH system enforcement Common Forms end of leniency period
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: grants.nih.gov NOT-OD-25-101 "2024 NIH Public Access Policy" effective date July 1, 2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH centralize peer review Center for Scientific Review all applications 2025 announcement institutes review branches
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH FY 2027 budget request congressional justification officeofbudget.od.nih.gov total reorganization institutes
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: FY2027 Labor-HHS appropriations NIH House Senate committee markup September 2026 continuing resolution NIH funding
+      level
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: continuing resolution fiscal year 2027 enacted September 30 2026 public law through date government funding
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: Senate Appropriations Committee FY2027 Labor-HHS bill NIH approved 2026 press release appropriations.senate.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: Consolidated Appropriations Act 2026 Public Law 119-75 NIH indirect costs section 224 multiyear awards section 240
+      text Labor-HHS division
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH multi-year funding policy 2025 "forward funding" half of remaining competing awards fully funded up front notice
+      NOT-OD-25 OR NOT-OD-26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH notice terminations policy "no longer effectuates agency priorities" Grants Policy Statement 2 CFR 200.340 NOT-OD-25
+      terms and conditions termination appeals
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: PAR-27-032 Maximizing Investigators' Research Award Early Stage Investigators R35 full announcement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: PAR-26-121 Maximizing Investigators' Research Award (MIRA) established new investigators R35 NIGMS
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: RFA-RM-27-001 NIH Director's Pioneer Award DP1 full announcement grants.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIAID paylines fiscal year 2026 "unified funding strategy" no paylines niaid.nih.gov funding decisions
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH multi-year funded awards fiscal year 2025 policy OMB "fully fund" competing awards NIH notice fiscal policies
+      FY 2025 NOT-OD-25
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: RFA-RM-27-002 NIH Director's New Innovator Award DP2 full announcement simpler.grants.gov
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed (session search budget used up)
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: RFA-RM-27-003 NIH Director's Transformative Research Award R01 full announcement simpler.grants.gov
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: RFA-RM-27-004 NIH Director's Early Independence Award DP5 full announcement simpler.grants.gov
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NIH notice "continuing resolution" fiscal year 2027 NIH operates under non-competing awards NOT-OD-27 October 2026
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: GAO decision NIH Impoundment Control Act grant terminations B-337203 August 2025 gao.gov
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: '`https://simpler.grants.gov/search?query=P01%20program%20project&status=posted`'
+    source: 1 result
+    hits: 2026
+    hits_as_noted: '2026-10-04'
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: '`https://simpler.grants.gov/search?query=P01&status=posted`'
+    source: 1 result
+    hits: 2026
+    hits_as_noted: '2026-10-04'
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: '`https://simpler.grants.gov/search?query=R61%2FR33&status=posted`'
+    source: 25 results
+    hits: 2026
+    hits_as_noted: '2026-10-04'
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: '`https://simpler.grants.gov/search?query=R34%20planning%20grant&status=posted`'
+    source: 5 results
+    hits: 2026
+    hits_as_noted: '2026-10-04'
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: '`https://simpler.grants.gov/search?query=U01%20Clinical%20Trial&status=posted`'
+    source: 33 results
+    hits: 2026
+    hits_as_noted: '2026-10-04'
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: '`https://simpler.grants.gov/search?query=Parent%20R01&status=posted`'
+    source: 2 results
+    hits: 2026
+    hits_as_noted: '2026-10-04'
+    run_on: '2026-10-04'
+    slice: A — research funders and programmes
+  - q: NSF "Guidance on Financial Assistance" Federal Register notice comment August 24, 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: nsf.gov RAPID EAGER proposal types "concept outline" funding "types of proposals" nsf.gov/funding" (nsf.gov only)
+    source: WebSearch
+    hits: 1
+    hits_as_noted: ~1
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF EAGER "EArly-concept Grants for Exploratory Research" $400,000 two years concept outline PAPPG supplement 2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: nsf.gov "Rapid Response Research (RAPID)" proposal type "up to $300,000" OR "up to $200K" one year
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF Dear Colleague Letter 2026 EAGER proposals "up to $400,000" "two years
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF 2026 restructuring divisions replaced directorates reorganization announcement nsf.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF FY2026 appropriations enacted Commerce-Justice-Science January 2026 "$8.75 billion" OR "National Science Foundation"
+      public law 119
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: nsf.gov "organizational" changes 2026 divisions "sections" directorate "new structure" NSF announcement" (nsf.gov
+      only)
+    source: WebSearch
+    hits: 1
+    hits_as_noted: ~1
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF ENG is changing its four divisions into four sections
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF GEO will no longer be organized into separate divisions
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF SBE "reorganized from three divisions" "five sections" NCSES
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF CISE core programs solicitation 2026 "Computer and Information Science and Engineering" core research nsf26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF SBE core programs 2026 solicitation "Social, Behavioral and Economic Sciences" "SBE Core" nsf26 proposals accepted
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF "foundational research" funding opportunities August 2026 twelve NOFOs "accepted anytime" MPS GEO ENG CISE BIO
+      core solicitation numbers nsf26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: Association of American Universities v. National Science Foundation indirect cost 15% vacated memorandum order June
+      2025 D. Mass. appeal dismissed
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF grant terminations court ruling 2025 2026 "National Science Foundation" terminations unlawful district court
+      order appeal Ninth Circuit Thakur OR "AAUP" OR "New York v. NSF
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF 25-034" "Implementation of Standard 15% Indirect Cost Rate" policy notice nsf.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: Thakur v. Trump Ninth Circuit opinion December 23, 2025 OR May 26, 2026 NSF grants preliminary injunction affirmed
+      vacated
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: American Association of Physics Teachers" v. "National Science Foundation" D.D.C. ruling 2026 terminations summary
+      judgment OR dismissed OR "Court of Federal Claims
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: nsf.gov Dear Colleague Letter 2026 RAPID proposals "up to $300,000" "one year"" (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: nsf.gov 2026 "EAGER" "up to $400,000" "two years" concept outline" (nsf.gov only)
+    source: WebSearch
+    hits: 8
+    hits_as_noted: ~8
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: NSF Dear Colleague Letter 2026 "EAGER" "RAPID" proposals funding limits "$400,000" "$300,000" nsf26 DCL
+    source: WebSearch
+    hits: 0
+    hits_as_noted: '0 (refused: the session''s shared limit of 200 searches was reached)'
+    run_on: '2026-10-04'
+    slice: B — research funders and programmes
+  - q: Office of Science FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program DE-FOA
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: science.osti.gov grants funding opportunity announcements open 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: NASA ROSES-2026 release date NSPIRES Research Opportunities in Space and Earth Sciences 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: CDMRP fiscal year 2026 appropriations programs funding opportunities eBRAP
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DOE policy flash indirect cost rate 15 percent institutions of higher education financial assistance April 2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Association of American Universities v. Department of Energy indirect cost 15 percent ruling vacated First Circuit
+      2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Public Law 119-74 Energy and Water Development appropriations 2026 indirect cost rates section "negotiated indirect
+      cost rates" Office of Science $
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Office of Science FY 2027 congressional budget request FY 2026 enacted $ billion energy.gov budget justification
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: ARPA-E funding opportunities 2026 eXCHANGE open NOFO universities non-profit eligibility cost share
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DOE cost sharing section 988 Energy Policy Act 20 percent research development 50 percent demonstration institutions
+      of higher education waiver
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: NNSA Stewardship Science Academic Alliances 2026 funding opportunity grants universities
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: 'arpa-e.energy.gov "concept paper" "full application" applicant guide cost share "institutions of higher education"
+      2026 NOFO" (domains: arpa-e.energy.gov, arpa-e-foa.energy.gov, exchange.energy.gov)'
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: ARPA-E FY 2027 budget request FY 2026 enacted appropriation $ million
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DOE Office of Science grant terminations 2025 2026 list terminated awards universities
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DOE research security financial assistance "foreign talent recruitment" policy requirements 2026 covered individuals
+      research security training financial assistance letter
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: ARPA-E 2026 new program NOFO DE-FOA-00036 concept paper deadline announced funding opportunity
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: eCFR 42 U.S.C. 16538 ARPA-E statute awards "institutions of higher education" OR uscode.house.gov section 5012 America
+      COMPETES ARPA-E
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DOE applied energy offices funding opportunities eXCHANGE infrastructure-exchange.energy.gov who may apply cost share
+      "Office of Critical Minerals and Energy Innovation" 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: govinfo Public Law 119-74 Commerce, Justice, Science; Energy and Water Development; and Interior and Environment
+      Appropriations Act, 2026 text
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: energy.gov "cancels" OR "terminates" awards October 2025 "321 financial awards" Secretary Wright press release $7.5
+      billion
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Office of Naval Research Long Range Broad Agency Announcement Navy and Marine Corps Science and Technology N0001426S-B001
+      2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: AFOSR broad agency announcement "Research Interests of the Air Force Office of Scientific Research" FA9550 2026 open
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Army Research Office broad agency announcement fundamental research W911NF 2026 ARL BAA grants cooperative agreements
+      white paper
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: AFOSR new Open BAA 2026 FA9550-26-S-0001 "Executive Order 14332" resubmit proposals
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Federal Register Executive Order 14332 "Improving Oversight of Federal Grantmaking" August 7 2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: grants.gov AFOSR "Open BAA" 2026 "FA9550" research interests new announcement posted April 2026 Air Force Office
+      of Scientific Research NOFO
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: simpler.grants.gov "Research Interests of the Air Force Office of Scientific Research" FA955026S0001
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: ONR Long Range BAA N0001425SB001 Amendment 0008 September 2026 grants closed OR "no longer" OR "N0001427SB001" OR
+      "N0001426SB001
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DARPA office-wide BAA 2026 Defense Sciences Office HR001126S0001 grants cooperative agreements universities abstracts
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Minerva Research Initiative 2025 2026 status terminated grants funding opportunity minerva.defense.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: defense.gov release March 2025 "social science research" terminated "Minerva" OR "91 studies" Pentagon culls social
+      science research prioritizes fiscal responsibility
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: Pentagon Culls Social Science Research, Prioritizes Fiscal Responsibility and Technologies for Future Battlefield"
+      defense.gov OR war.gov Release Article
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: basicresearch.defense.gov MURI Minerva DURIP "Basic Research Office" funding opportunities 2026 Department of War
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DoD Grant and Agreement Regulations 2 CFR 1100 1104 1108 DoDGARs 32 CFR 22 research general terms and conditions
+      2026 update
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: CDMRP eBRAP pre-application letter of intent two-tier review peer review programmatic review eligibility "extramural"
+      organizations who may apply
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: onr.navy.mil N0001425SB001 Long Range BAA pdf "white paper" "strongly encouraged" grants "program officer" evaluation
+      criteria
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: FA955026S0001" AFOSR Open BAA pdf "white paper" "program officer" eligibility "foreign" amendment 0001
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: ONR Long Range BAA N0001425SB001 amendment 2026 "white papers" grants "ONR Submission Portal" submissions.nre.navy.mil
+      research office guidance
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: DARPA "work with us" universities grants "fundamental research" BAA abstract proposal "cooperative agreement" darpa.mil
+      opportunities how to
+    source: WebSearch
+    hits: 0
+    hits_as_noted: '0, not performed: the session''s WebSearch budget (200 calls, shared with the other sweeps) was used
+      up'
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://simpler.grants.gov/search?query=NNH25ZDA001N
+    source: WebFetch
+    hits: 11
+    hits_as_noted: 11 results
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://simpler.grants.gov/search?query=NNH26ZDA001N
+    source: WebFetch
+    hits: 0
+    hits_as_noted: 0 results
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://simpler.grants.gov/search?query=NNH26&status=posted,forecasted
+    source: WebFetch
+    hits: 0
+    hits_as_noted: 0 results
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://simpler.grants.gov/search?query=ARPA-E&status=posted
+    source: WebFetch
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://simpler.grants.gov/search?query=DARPA%20office-wide&status=posted
+    source: WebFetch
+    hits: 3
+    hits_as_noted: 3 results
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://simpler.grants.gov/search?query=Office%20of%20Science&agency=DOE-SC&status=posted,forecasted
+    source: WebFetch
+    hits: 0
+    hits_as_noted: 0 results (the agency filter value was a guess)
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: https://www.federalregister.gov/api/v1/documents.json?conditions[term]="Restoring the United States Department of
+      War"&conditions[type][]=PRESDOCU
+    source: WebFetch
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: C — research funders and programmes
+  - q: NIFA Agriculture and Food Research Initiative Foundational and Applied Science request for applications FY 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA Climate Program Office notice of funding opportunity FY2026 status
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: EPA Science to Achieve Results STAR grants 2026 status research funding opportunities
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIST Measurement Science and Engineering Research Grant Programs notice of funding opportunity 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIFA peer review process competitive grants panel how applications are reviewed site:nifa.usda.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: USDA Secretary's Memorandum 1078-020 Departmental Research and Development Priorities
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: USDA Secretary's Memorandum 1078-015 Department of Agriculture Reorganization Plan NIFA research relocation
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIFA Federal Assistance Policy Guide 2025 OR 2026 site:nifa.usda.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: FY2026 agriculture appropriations enacted NIFA AFRI funding level Public Law 119-37 CRS
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: AFRI grant types FY 2026 PDF nifa.usda.gov strengthening seed new investigator eligibility
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIFA FY 2027 budget request explanatory notes AFRI 2026 enacted
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIFA "FY 2027" AFRI Foundational and Applied Science notice of funding opportunity expected release
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: USDA FY 2027 budget summary NIFA Agriculture and Food Research Initiative 2026 enacted million site:usda.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIFA terminated grants 2025 termination notice awards "no longer effectuates" agency priorities NIFA statement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIFA Federal Assistance Policy Guide terms and conditions research terms site:nifa.usda.gov policy guide
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Agricultural Research Service non-assistance cooperative agreements extramural universities how to partner ARS 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Forest Service Research and Development grants cooperative agreements universities joint venture agreements funding
+      opportunities 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA Oceanic and Atmospheric Research FY2026 enacted appropriations Climate Program Office cooperative institutes
+      Sea Grant funding level explanatory statement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Sea Grant national research competition 2026 notice of funding opportunity seagrant.noaa.gov funding
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA cooperative institutes competition 2026 notice of funding opportunity cooperative institute policy ci.noaa.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA "Earth System Science and Services Partnership" FY 2026 notice of funding opportunity Climate Program Office
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA Ocean Exploration FY2026 OR FY2027 notice of funding opportunity ocean exploration grants oceanexplorer.noaa.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA grants "eRA Commons" transition Grants Online application submission NOAA Grants Management Division how to
+      apply
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Saltonstall-Kennedy grant competition FY2026 OR FY2027 NOAA Fisheries notice of funding opportunity status
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA FY2027 budget request Oceanic and Atmospheric Research eliminate OAR congressional justification noaa.gov budget
+      FY27
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: EPA Office of Research and Development reorganization Office of Applied Science and Environmental Solutions announcement
+      epa.gov news release 2025
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: EPA news release "Office of Applied Science and Environmental Solutions" Office of Research and Development July
+      2025 reduction in force epa.gov/newsreleases
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed (session search budget of 200 used up)
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: EPA STAR grants terminated 2025 research grants cancelled court ruling EPA extramural research terminations
+    source: WebSearch
+    hits: 0
+    hits_as_noted: 0, not performed (session search budget used up)
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: 104g water resources research
+    source: WebFetch simpler.grants.gov/search
+    hits: 1
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: earthquake hazards program external research
+    source: WebFetch
+    hits: 0
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Science to Achieve Results
+    source: WebFetch
+    hits: 12
+    hits_as_noted: 12, none EPA
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIST
+    source: WebFetch
+    hits: 1
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: earthquake
+    source: WebFetch
+    hits: 3
+    hits_as_noted: 3, none USGS
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: climate adaptation science center
+    source: WebFetch
+    hits: 0
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: homeland security center of excellence
+    source: WebFetch
+    hits: 0
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: UTCOPENCOMP2025" (all statuses)
+    source: WebFetch
+    hits: 1
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: G27AS00075" (all statuses)
+    source: WebFetch
+    hits: 1
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Science to Achieve Results STAR" (all statuses, agency EPA)
+    source: WebFetch
+    hits: 209
+    hits_as_noted: 209 archived
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: STAR" (all statuses, agency EPA, newest first)
+    source: WebFetch
+    hits: 221
+    hits_as_noted: 221 archived
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: climate adaptation science center" (all statuses, newest first)
+    source: WebFetch
+    hits: 10
+    hits_as_noted: ~10 shown
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NIST" (all statuses, newest first)
+    source: WebFetch
+    hits: 15
+    hits_as_noted: ~15 shown
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: NOAA research" (open and forecast, newest first)
+    source: WebFetch
+    hits: 6
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Geological Survey" (open and forecast, newest first)
+    source: WebFetch
+    hits: 2
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: homeland security science technology university" (all statuses, newest first)
+    source: WebFetch
+    hits: 12
+    hits_as_noted: ~12 shown
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: Weather Program Office" (all statuses, newest first)
+    source: WebFetch
+    hits: 12
+    hits_as_noted: ~12 shown
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: transportation research university" (open and forecast, newest first)
+    source: WebFetch
+    hits: 2
+    run_on: '2026-10-04'
+    slice: D — research funders and programmes
+  - q: AHRQ research funding mechanisms R01 R03 R18 funding announcements 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: HHS Grants Policy Statement effective October 1 2025 revised
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: PCORI funding opportunities 2026 cycle who may apply merit review
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: National Institute of Justice funding opportunities fiscal year 2026 research solicitations JustGrants
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: AHRQ NOT-HS-26 notice 2026 health services research R01 reissue PA-26
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: AHRQ funding opportunity announcements grants.nih.gov guide 2026 AHRQ R01 R18 R03 new NOFO "PA-26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: AHRQ grants policy notices 2026 NOT-HS-26 new funding opportunity FY2026 AHRQ budget enacted appropriations
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: AHRQ fiscal year 2027 congressional justification budget request AHRQ FY2026 enacted
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: HHS FY 2027 Budget in Brief AHRQ "Administration for a Healthy America" hhs.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: HHS announces transformation March 27 2025 press release "Administration for a Healthy America" hhs.gov AHRQ ASPE
+      "Office of Strategy
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: Consolidated Appropriations Act 2026 Labor-HHS enacted February 2026 public law AHRQ appropriation "Healthcare Research
+      and Quality" congress.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: CDC research grants cooperative agreements how to find notice of funding opportunity extramural research peer review
+      NIOSH research grants R01 R21 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIOSH extramural research grants funding opportunities R01 PAR-26 occupational safety and health research 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: CDC extramural research peer review process "Office of Science" research cooperative agreements U01 special emphasis
+      panel secondary review cdc.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIOSH Occupational Safety and Health Research R01 PAR-25 OR PAR-26 reissue grants.nih.gov NOT-OH-26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: CDC injury center research funding opportunities RFA-CE-26 research grants R01 U01 National Center for Injury Prevention
+      and Control 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: FDA extramural research grants cooperative agreements funding opportunities orphan products clinical trials grants
+      RFA-FD-26 CERSI 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: FDA grants and cooperative agreements funding opportunities fda.gov "Office of Acquisitions and Grants Services"
+      how to apply research
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: FDA Centers of Excellence in Regulatory Science and Innovation CERSI cooperative agreement U01 funding opportunity
+      2026 fda.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: CDC-RFA-CE-26-020 Research Grants for Preventing Interpersonal Violence and Suicide Among Youth and Young Adults
+      R01 grants.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: HRSA Maternal and Child Health research program R40 field-initiated research 2026 notice of funding opportunity HRSA-26
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: mchb.hrsa.gov research program "Field-Initiated Innovative Research Studies" OR "Secondary Data Analysis Research"
+      funding 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: mchb.hrsa.gov research "MCH Research Program" OR "Office of Epidemiology and Research" extramural research funding
+      field-initiated 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIDILRR field initiated projects FY 2026 funding opportunity HHS-2026-ACL-NIDILRR acl.gov grants
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: VA Office of Research and Development who can apply for VA research funding eligibility intramural program non-VA
+      investigators research.va.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: VA research" "intramural program" "only VA employees" OR "VA-paid appointment" OR "5/8" eligibility to submit research
+      proposals ORD program guide 1200.15
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: PCORI "who can apply" eligibility "private sector research organization" nonprofit for-profit foreign organizations
+      applicant resources
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: PCORI about "reauthorized" 2029 "Patient-Centered Outcomes Research Trust Fund" "independent, nonprofit" authorized
+      by Congress pcori.org about
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: pcori.org "Trust Fund" "through 2029" OR "10 years" reauthorization "Further Consolidated Appropriations Act" PCORI
+      financials governance "Comptroller General
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: PCORI indirect costs 40 percent cap "indirect costs" contract research awards application guidelines 2026 merit review
+      criteria "potential for the study to fill critical gaps
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIJ FY 2026 solicitation pdf "eligible applicants" "institutions of higher education" "nonprofit organizations" "period
+      of performance" ojp.gov O-NIJ-2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIJ how applications are reviewed peer review process "NIJ Director" final award decisions nij.ojp.gov funding process
+      overview
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: Bureau of Justice Statistics funding opportunities FY 2026 solicitations bjs.ojp.gov funding who may apply
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: DOJ Office of Justice Programs terminated grants April 2025 365 awards Vera Institute v. Department of Justice ruling
+      district court opinion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIJ FY 2026 budget "Research, Evaluation and Statistics" appropriation enacted Commerce Justice Science 2026 NIJ
+      BJS amount P.L. 119-74
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: SAMHSA grants terminated January 2026 reinstated termination notices rescinded samhsa.gov OR hhs.gov statement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: HHS reduction in force April 1 2025 court injunction New York v. Kennedy ruling reorganization unlawful July 2025
+      district court Rhode Island opinion
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: GAO report 2026 HHS reorganization Administration for a Healthy America status not established AHRQ staffing reduction
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: rid.uscourts.gov New York v. Kennedy 25-cv-196 memorandum and order preliminary injunction July 1 2025 DuBose HHS
+      RIF
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: samhsa.gov January 2026 grant termination notices rescinded "disregard" statement SAMHSA grants reinstated official"
+      (allowed_domains samhsa.gov, hhs.gov)
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: American Public Health Association v. NIH OR "Massachusetts v. Kennedy" grant terminations ruling HHS CDC grants
+      terminated court opinion 2025 2026 Supreme Court August 21 2025 Court of Federal Claims
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: CDC grant terminations 2025 court ruling "Colorado v. HHS" public health funding terminated March 24 2025 $11 billion
+      preliminary injunction opinion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: ACF OPRE research and evaluation grants funding opportunities 2026 who may apply secondary analyses grants acf.gov
+      opre grants
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: Social Security Administration Retirement and Disability Research Consortium 2025 2026 status cooperative agreements
+      terminated ssa.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: Department of Labor research grants Chief Evaluation Office labor research and evaluation grants 2026 funding opportunity
+      dol.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: SAMHSA research grants "does not fund research" OR "research" SAMHSA grant types services grants discretionary NOFO
+      who can apply samhsa.gov grants
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: Society of General Internal Medicine v. Kennedy AHRQ lawsuit 2026 complaint court ruling AHRQ grants non-award
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NIDILRR FY 2026 funding opportunities DRRP RERC RRTC field initiated projects development HHS-2026-ACL-NIDILRR-IFDV
+      grants.gov closed awards
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: AHRQ special emphasis notice 2025 OR 2026 NOT-HS-25 OR NOT-HS-26 "Special Emphasis Notice" AHRQ announces interest
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: fiscal year 2027 Labor-HHS appropriations continuing resolution October 1 2026 signed public law appropriations.senate.gov
+      OR appropriations.house.gov
+    source: WebSearch
+    hits: 0
+    hits_as_noted: '0 (not performed: session search budget of 200 calls exhausted)'
+    run_on: '2026-10-04'
+    slice: E — research funders and programmes
+  - q: NEH grant programs open 2026 Collaborative Research notice of funding opportunity deadline
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: neh.gov NEH announces restructuring divisions "Division of Lifelong Learning" 2025 OR 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NEH grant terminations April 2025 court ruling Authors Guild ACLS v. NEH summary judgment 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: neh.gov "Division of Collections & Infrastructure" grant programs Humanities Collections and Reference Resources
+      2026 deadline
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: neh.gov Digital Humanities Advancement Grants 2026 discontinued OR "no longer" OR deadline Office of Digital Humanities
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: site:neh.gov grants "Division of Collections & Infrastructure" OR "Collections Stewardship" program 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NEH FY2026 appropriation enacted Interior Environment appropriations act 2026 National Endowment for the Humanities
+      $207 million
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NEH "fiscal year 2027" budget request congressional justification National Endowment for the Humanities appropriations
+      request
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: IES "84.305A" Education Research Grants request for applications FY 2026 OR FY 2027 status ies.ed.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: federalregister.gov "Applications for New Awards" Institute of Education Sciences fiscal year 2027 Statistical and
+      Research Methodology 84.305D
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Department of Education interagency agreement 2026 Institute of Education Sciences moved OR transfer Department of
+      Labor OR Census "IES" announcement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: IMLS 2026 National Leadership Grants for Libraries notice of funding opportunity FY2027 deadline imls.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Executive Order 14238 "Continuing the Reduction of the Federal Bureaucracy" IMLS Rhode Island v. Trump permanent
+      injunction ruling November 2025 appeal First Circuit 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: federalregister.gov Executive Order 14238 "Continuing the Reduction of the Federal Bureaucracy" March 14 2025 Institute
+      of Museum and Library Services
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: IMLS settlement 2026 American Library Association v. Sonderling OR "Rhode Island v. Trump" appeal dismissed IMLS
+      restored
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Public Law 119" Interior Environment appropriations act 2026 enacted January 2026 National Endowment for the Humanities
+      "$207,000,000" National Endowment for the Arts
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NEA grant terminations May 2025 arts.gov "updated grantmaking policy priorities" termination notices court ruling
+      Rhode Island Latino Arts v. NEA decision
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: arts.gov "grantmaking policy priorities" NEA 2025 update terminations "prioritize projects" President
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: site:arts.gov legal requirements grants executive orders "gender ideology" OR "diversity, equity, and inclusion"
+      assurance of compliance 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: ies.ed.gov "Statistical and Research Methodology in Education" FY 2027 request for applications 84.305D pdf
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Rhode Island Latino Arts v. National Endowment for the Arts decision September 2025 Judge Smith ruling "gender ideology"
+      rid.uscourts.gov opinion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NEA grant terminations May 2 2025 email "no longer effectuates agency priorities" GAO OR court OR CRS report National
+      Endowment for the Arts terminated awards number
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: ies.ed.gov peer review "Standards and Review Office" OR "Office of Science" scientific peer review process grant
+      applications procedures
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Rhode Island Latino Arts v. National Endowment for the Arts memorandum and order September 19 2025 pdf govinfo OR
+      courtlistener OR rid.uscourts.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Institute of Education Sciences contracts cancelled February 2025 staff reduction in force March 2025 GAO report
+      OR court opinion IES "reduction in force" primary
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: ed.gov press release February 2025 Institute of Education Sciences contracts terminated "$881 million" OR "89 contracts"
+      Department of Education DOGE
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: GAO report 2026 Institute of Education Sciences staffing contracts cancelled reduction in force "IES" gao.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: ed.gov "fiscal year 2027" congressional justification Institute of Education Sciences budget request research development
+      dissemination
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: Department of Education interagency agreement Institute of Education Sciences 2026 ed.gov press release NCES OR "IES"
+      partnership Labor OR Commerce OR "National Science Foundation
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: ed.gov interagency agreements page list "interagency agreement" Department of Education partnerships State Department
+      international foreign language education Title VI Fulbright-Hays 2026 grants administered
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: ed.gov "International Research and Studies" program 84.017A 2026 competition applicants eligibility international
+      and foreign language education
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NHPRC grants FY 2027 announcement 2026 "Archival Projects" deadline November 2026 archives.gov nhprc
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: archives.gov NARA "FY 2027" congressional justification NHPRC grants program request enacted FY 2026
+    source: WebSearch
+    hits: 0
+    hits_as_noted: '0, not performed: session search budget exhausted (200 of 200)'
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: archives.gov nhprc 2026 grants awarded Archivist announces NHPRC grants 2026 press release
+    source: WebSearch
+    hits: 0
+    hits_as_noted: '0, not performed: session search budget exhausted'
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: IMLS FY2026 appropriation enacted "Institute of Museum and Library Services" Labor-HHS appropriations act 2026 amount
+      FY2027 budget request elimination imls.gov budget
+    source: WebSearch
+    hits: 0
+    hits_as_noted: '0, not performed: session search budget exhausted'
+    run_on: '2026-10-04'
+    slice: F — research funders and programmes
+  - q: NIH notice early expiration F31 diversity fellowship PA-23-271 "Promote Diversity in Health-Related Research" NOT-OD-25
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIH MOSAIC K99/R00 PAR-24-225 expired terminated notice 2025 "NOT-GM" OR "NOT-OD" diversity funding opportunities
+      rescinded
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIH "PA-23-271" F31 diversity "expired" OR "expiration" notice 2025 grants.nih.gov NOT-OD-25 "no longer accepting
+      applications
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIGMS notice early expiration MARC T34 IMSD T32 Bridges PREP IRACDA "NOT-GM-25" expiration of funding opportunities
+      2025
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIH "research supplements to promote diversity in health-related research" PA-23-189 status 2025 2026 expired grants.nih.gov
+      diversity supplements no longer
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: grants.nih.gov nihgps HTML5 section_11 "11.4" payback "service payback" Kirschstein NRSA "11.4.3
+    source: WebSearch
+    hits: 1
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: AHRQ early expiration notice March 2026 K01 K08 F32 T32 R36 "NOT-HS-26" training career development funding opportunities
+      expire
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: Notice of Early Expiration" AHRQ "Mentored Research Scientist Research Career Development Award (K01)" OR "Individual
+      Postdoctoral Fellowship" OR "K99/R00" NOT-HS-26
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIH research supplements "re-entry" "re-integration" "re-training" administrative supplement NOT-OD-23-170 OR PA
+      2025 2026 status grants.nih.gov
+    source: WebSearch
+    hits: 3
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIGMS MARC U-RISE G-RISE IMSD Bridges PREP IRACDA MOSAIC "no longer" OR "discontinued" OR "expired" funding opportunities
+      2025 nigms.nih.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIH 2026 notice "Re-entry" supplements "Continuity of Biomedical and Behavioral Research" OR "re-entry" administrative
+      supplement NOT-OD-26 OR NOT-OD-25 primary caregiving critical life events childcare
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: NIH 2026 T32 training grants reduce number of trainee slots OR "training positions" notice policy change NRSA budget
+      FY2026 FY2027 congressional justification trainees
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: AHRQ "Individual Postdoctoral Fellowship" F32 OR "Institutional Research Training" T32 NRSA 2026 notice AHRQ participation
+      ended OR expiration "NOT-HS-25" OR "NOT-HS-26
+    source: WebSearch
+    hits: 4
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=PA-27-037&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=PA-27-030&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=NIH%20Research%20Education%20Program%20R25&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 7
+    hits_as_noted: 7 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=AHRQ&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 0
+    hits_as_noted: 0 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=T34&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 2
+    hits_as_noted: 2 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=PAR-24-225&status=posted,closed,archived,forecasted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=PA-23-271&status=posted,closed,archived,forecasted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=PA-23-189&status=posted,closed,archived,forecasted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=Maximizing%20Access%20to%20Research%20Careers&status=posted,closed,archived,forecasted
+    source: WebFetch of the Grants.gov search page
+    hits: 5
+    hits_as_noted: 5 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=IRACDA&status=posted,closed,archived,forecasted
+    source: WebFetch of the Grants.gov search page
+    hits: 7
+    hits_as_noted: 7 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=T90%2FR90&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 0
+    hits_as_noted: 0 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=K22&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 6
+    hits_as_noted: 6 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: https://simpler.grants.gov/search?query=AHRQ%20career%20development&status=posted,closed,archived,forecasted
+    source: WebFetch of the Grants.gov search page
+    hits: 10
+    hits_as_noted: 10 results
+    run_on: '2026-10-04'
+    slice: A — fellowships, career and training awards
+  - q: nsf.gov funding opportunities "Postdoctoral Fellowships" Earth Sciences EAR-PF OR "GEO postdoctoral" 2026 solicitation"
+      (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov "STEM Education Postdoctoral Research Fellowships" OR "STEM Ed PRF" OR "STEM Ed IPRF" funding opportunity"
+      (nsf.gov only)
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov funding opportunities "Research Experiences for Teachers" RET engineering computer science sites supplements"
+      (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov funding opportunities S-STEM "Scholarships in Science, Technology, Engineering, and Mathematics" solicitation"
+      (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: NSF FY2026 appropriations "STEM Education" enacted amount GRFP joint explanatory statement January 2026 "Graduate
+      Research Fellowship
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov news "Graduate Research Fellowship Program" 2025 award offers announced 1,000 fellows additional 500 June
+      2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: NSF postdoctoral research fellowship 2026 solicitation nsf26 new "postdoctoral" fellowships geosciences OR engineering
+      OR "computer and information science" site:nsf.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov funding opportunities "Doctoral Dissertation Research Improvement" DDRIG 2026 SBE cultural anthropology linguistics
+      economics archaeology status" (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: NSF terminated awards STEM Education directorate 2025 court ruling "National Science Foundation" terminations education
+      grants lawsuit decision 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: NSF EPSCoR eligibility table jurisdictions FY 2026 eligible "0.75 percent" nsf.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: NSF CAREER program 2026 changes deadline July 2026 new solicitation OR "Dear Colleague" CAREER proposals limit eligibility
+      update
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: National Science Foundation" FY2026 joint explanatory statement "STEM Education" "$938" OR "938,000,000" "Graduate
+      Research Fellowship" congress.gov OR appropriations.house.gov OR docs.house.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: American Association of Physics Teachers v. National Science Foundation memorandum opinion 2026 summary judgment
+      STEM education grant terminations D.D.C. ruling
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: Office of Legal Counsel opinion August 2026 National Science Foundation STEM education programs unconstitutional
+      LSAMP AGEP justice.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov funding opportunities LSAMP "Louis Stokes Alliances for Minority Participation" AGEP "Alliances for Graduate
+      Education and the Professoriate" opportunity page" (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov CSGrad4US "CISE Graduate Fellowships" funding opportunity solicitation 2026" (nsf.gov only)
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: NSF 26-" solicitation 2026 new fellowship OR traineeship OR "early career" OR "research initiation" program announced
+      nsf.gov" (nsf.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov update August 2026 Office of Legal Counsel opinion LSAMP AGEP "Hispanic-Serving Institutions" NSF will no
+      longer statement awards
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: nsf.gov "Research Assistantships for High School Students" RAHSS supplemental funding Dear Colleague Letter" (nsf.gov
+      only)
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — fellowships, career and training awards
+  - q: DARPA Young Faculty Award 2027 research announcement DARPA-RA executive summary deadline eligibility
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: Vannevar Bush Faculty Fellowship FY2027 OR "Class of 2027" notice of funding opportunity ONR white paper deadline
+      2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: NDSEG fellowship 2027 application opens closes stipend eligibility ndseg.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: SMART Scholarship-for-Service application 2026 2027 window August December eligibility stipend service commitment
+      smartscholarship.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: FINESST 2026 NASA Future Investigators in NASA Earth and Space Science and Technology solicitation status ROSES-2026
+      F.5
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: NASA Hubble Fellowship Program 2027 announcement of opportunity application deadline fall 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: Vannevar Bush Faculty Fellowship" 2026 class announced OR "FY26" OR "FY27" funding opportunity N00014 basicresearch.defense.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: SMART scholarship "service commitment" "one year" for each year eligibility citizens Australia Canada New Zealand
+      United Kingdom minimum GPA 3.0 smartscholarship.org about
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: ROSES-2026 released NASA Research Opportunities in Space and Earth Sciences 2026 NNH26ZDA001N FINESST early career
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: Nancy Grace Roman Technology Fellowship ROSES 2026 D.9 early career astrophysics eligibility status
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: USGS Mendenhall Research Fellowship Program qualifications how to apply 2026 round opportunities closing date usgs.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: DHS Science and Technology Office of University Programs workforce development MSI Summer Research Team Scientific
+      Leadership Awards 2026 status dhs.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: EPA STAR graduate fellowship GRO undergraduate fellowship status 2026 "no longer" OR "not currently" epa.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: Knauss fellowship 2027 notice of funding opportunity NOAA-OAR-SG-2027-32433 award amount stipend per fellow eligibility
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: NMFS-Sea Grant Joint Fellowship 2026 OR 2027 notice of funding opportunity population ecosystem dynamics marine resource
+      economics deadline award per year
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: NOAA Climate and Global Change Postdoctoral Fellowship 2027 application salary two-year cpaess.ucar.edu eligibility
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: NASA Space Technology Research Grants Early Career Faculty ECF 2026 solicitation OR appendix NSTGRO 2027 release
+      date nasa.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — fellowships, career and training awards
+  - q: NIJ FY25 Graduate Research Fellowship O-NIJ-2025-172575 eligible applicants degree-granting institutions award amount
+      stipend
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: arts.gov Creative Writing Fellowships cancelled 2025 FY2027 poetry fellowships "Creative Writing Fellowships" National
+      Endowment for the Arts announcement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: federalregister.gov "Fulbright-Hays" "Doctoral Dissertation Research Abroad" applications for new awards fiscal year
+      2026 OR 2027
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Fulbright-Hays 2025 competition cancelled Department of Education notice "Fulbright-Hays" fiscal year 2025 not competed
+      DDRA FRA GPA
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Fulbright-Hays" fiscal year 2026 notice inviting applications OR "notice of funding opportunity" Department of State
+      OR Education "Doctoral Dissertation Research Abroad" 2026 competition
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Graduate Assistance in Areas of National Need" fiscal year 2026 applications for new awards Federal Register GAANN
+      competition
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Fulbright Foreign Scholarship Board resignation statement June 11 2025 members resign State Department response
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Department of Education 2026 GAANN OR "McNair" OR "Javits" competition fiscal year 2026 "Department of Labor" postsecondary
+      partnership graduate fellowships notice inviting applications
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Fulbright-Hays 2026 Department of State administers competition "Fulbright-Hays" FY 2026 notice applications Doctoral
+      Dissertation Research Abroad State Department ECA
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: National Archives fellowship program researchers archives.gov "fellowship" National Archives Foundation OR "Legislative
+      Archives Fellowship" 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: Kluge Center fellowship applications 2026 loc.gov Kluge Fellowship deadline 2026 OR 2027 "Kluge
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: IES predoctoral interdisciplinary research training program postdoctoral training 84.305B status 2026 not competed
+      ies.ed.gov training programs
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — fellowships, career and training awards
+  - q: NEH "Fellowship Programs at Independent Research Institutions" 2026 deadline OR discontinued OR "not be offered
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: NEH "Summer Stipends" 2026 OR 2027 program discontinued OR "no longer" OR "will not" site:neh.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: National Archives fellowships archives.gov research fellowship program 2026 Legislative Archives Fellowship OR "Regional
+      Residency Fellowship" OR "Cokie Roberts
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: Jacob K. Javits Fellowship" program ed.gov status funding "no longer" OR "not been funded" OR consolidated GAANN
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: ed.gov "Graduate Assistance in Areas of National Need" GAANN 84.200A funding status FY 2026 OR FY 2027 competition
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: Javits Fellowships" ed.gov "grants-and-programs" Jacob K. Javits Fellowships Program 84.170 last funded
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: Javits" fellowship GAANN "consolidated" OR "no funds" OR "not funded" Department of Education budget justification
+      higher education "Javits Fellowships" fiscal year 2012
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: CRS "Javits Fellowship" "since FY2011" OR "since FY2012" OR "last funded" Higher Education Act primer Title VII graduate
+      programs appropriations
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: arts.gov Creative Writing Fellowships cancelled 2025 "Translation Projects" FY 2027 NEA literature fellowships status
+      statement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: NEH "Summer Stipends" program ended OR eliminated OR paused 2025 2026 NEH announcement "Summer Stipends" not offered
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: E — fellowships, career and training awards
+  - q: SM-26-014" CCBHC Planning, Development, and Implementation NOFO pdf samhsa.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: SAMHSA January 13 2026 grant termination notices rescinded reinstated statement "SAMHSA" discretionary grants 2,000
+      terminated
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: SAMHSA "Dear Colleague" letter harm reduction 2026 samhsa.gov pdf federal funds syringes test strips
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: PRWORA "Federal public benefit" notice HHS preliminary injunction New York v. Department of Justice Rhode Island
+      September 2025 order vacated OR enjoined Head Start health centers 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: cms.gov Navigator cooperative agreement funding 2026 plan year $10 million announcement Federally-facilitated Exchange
+      navigators cms.gov newsroom
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: Administration for a Healthy America" 2026 status not established SAMHSA HRSA remain appropriations act prohibits
+      reorganization explanatory statement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: fiscal year 2027 Labor-HHS appropriations bill committee approved 2026 SAMHSA HRSA continuing resolution October
+      1 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: Colorado v. HHS public health grant terminations $11 billion First Circuit appeal ruling 2026 preliminary injunction
+      status
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: SAMHSA "FY 2026-2027" Block Grant Application MHBG SUBG planning period application due date pdf samhsa.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: HHS OASH Title X funds withheld March 31 2025 grantees "Title X" statement hhs.gov OR opa.hhs.gov restored 2025 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — programme and service grants
+  - q: ACF grant application review process "objective review" acf.gov grants apply forecast" (acf.gov, acf.hhs.gov only)
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: New York v. Department of Justice PRWORA "federal public benefit" preliminary injunction Head Start ruling 2026 status
+      appeal First Circuit
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Head Start PRWORA immigration status verification court order "Head Start" preliminary injunction Washington State
+      Association of Head Start v. Kennedy 2026 ruling
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Rhode Island Coalition Against Domestic Violence" v. Bondi OVW certification out-of-scope activities stay opinion
+      2025 2026 1:25-cv
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Vera Institute of Justice v. Department of Justice OJP grant terminations April 2025 opinion Mehta D.C. Circuit decision
+      2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: HUD Continuum of Care FY 2025 FY 2026 NOFO status court order National Alliance to End Homelessness v. HUD hud.gov
+      grants 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Legal Services Corporation FY 2026 appropriation enacted amount FY 2027 budget request lsc.gov" (lsc.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: King County v. Turner HUD grant conditions preliminary injunction Ninth Circuit 2026 ruling Continuum of Care "gender
+      ideology" immigration conditions
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Illinois v. FEMA immigration enforcement conditions DHS grants ruling Rhode Island district court 2025 2026 First
+      Circuit Nonprofit Security Grant Program conditions
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: states lawsuit DOJ VOCA victims of crime immigration enforcement conditions court ruling 2025 2026 Office for Victims
+      of Crime formula grants injunction
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: FY2026 Labor-HHS appropriations enacted public law Head Start Community Services Block Grant Older Americans Act
+      amounts signed 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: HHS reorganization Administration for Children, Families, and Communities ACL ACF merger 2026 Federal Register statement
+      of organization
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: HUD FY 2027 congressional justification Continuum of Care homeless assistance grants CDBG HOME budget request 2026
+      enacted hud.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Vera Institute of Justice v. Department of Justice D.C. Circuit opinion 25-5248 decided 2026 OJP grant terminations
+      Tucker Act
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Improving Oversight of Federal Grantmaking" Executive Order 14332 Federal Register August 2025" (federalregister.gov,
+      whitehouse.gov, govinfo.gov only)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — programme and service grants
+  - q: Rhode Island Latino Arts v. National Endowment for the Arts ruling "gender ideology" certification September 2025
+      opinion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: AmeriCorps State and National Grants FY 2027 Notice of Funding Opportunity deadline americorps.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Department of Education 2026 new interagency agreements HHS Promise Neighborhoods Full-Service Community Schools
+      21st Century Community Learning Centers administer ed.gov press release
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Council for Opportunity in Education v. Department of Education TRIO non-continuation discontinued grants court ruling
+      2025 2026 opinion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Department of Education "Fiscal Year 2027" Budget Summary TRIO GEAR UP 21st Century Community Learning Centers request
+      ed.gov pdf" (allowed domain ed.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Corporation for Public Broadcasting board votes dissolve wind down press release cpb.org 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Patrick Leahy Farm to School Grant fiscal year 2026 request for applications deadline award amounts eligible FY 2025
+      cancelled usda.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: EPA environmental and climate justice block grants terminated 2025 court opinion class action Appalachian Voices
+      v. EPA D.C. Circuit 2026 ruling section 60201 rescinded
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Digital Equity Act grants terminated May 9 2025 NTIA court ruling National Digital Inclusion Alliance v. Trump opinion
+      2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: IRS 2027 VITA grant TCE grant LITC grant application period opens May 2026 irs.gov news release
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Oregon Humanities Federation of State Humanities Councils v. NEH court order council operating grants restored 2025
+      2026 ruling docket number
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: AmeriCorps fiscal year 2027 congressional budget justification FY 2026 enacted State and National VISTA Seniors amounts
+      americorps.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Department of Education non-continuation Full-Service Community Schools grants December 2025 court ruling 2026 "community
+      schools" grants discontinued
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: EPA brownfields "eligible entities" assessment cleanup grants nonprofit 501(c)(3) eligible applicants FY26 guidelines
+      epa.gov" (allowed domain epa.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: Fiscal Year 2027" President's budget "Major Discretionary Funding Changes" whitehouse.gov pdf eliminations AmeriCorps
+      Economic Development Administration CDFI Fund
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — programme and service grants
+  - q: SAMHSA "FY 2026" block grant allotments MHBG SUBG final allotments states
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: HUD CPD "FY 2026" formula allocations CDBG HOME ESG announced
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: OVC "FY 2026" Crime Victims Fund allocations VOCA victim assistance formula state allocations
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Training and Employment Guidance Letter "Program Year 2026" WIOA Adult Dislocated Worker Youth allotments
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: BJA "FY 2026" Edward Byrne JAG state allocations formula program state solicitation
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: acf.gov "GY 2026" OR "FY 2026" CCDF allocations child care development fund final allocations states
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Department of Education "fiscal year 2026" state allocations tables 21st Century Community Learning Centers formula
+      funds July 1 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: IMLS Grants to States "FY 2026" allotments state allotment table
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: OJJDP "FY 2026" Title II Formula Grants Program solicitation states O-OJJDP-2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: ed.gov "FY 2027" President's Budget state tables OR "Congressional Action" 2026 appropriation 21st Century Community
+      Learning Centers TRIO GEAR UP
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: SAMHSA statement January 14 2026 grant terminations rescinded reinstated "SAMHSA" hhs.gov OR samhsa.gov notice grantees
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: appropriations.house.gov continuing resolution fiscal year 2027 "December 11, 2026" signed into law Public Law
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Vera Institute of Justice" v. Department of Justice D.C. Circuit 25-5248 opinion decided 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Head Start" "Kennedy" Western District of Washington preliminary injunction September 11 2025 "Immigrant Exclusion
+      Directive" order govinfo OR uscourts 2:25-cv-00781
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Colorado v. HHS First Circuit 2026 public health grant terminations appeal decision 25-1671 OR "No. 25-" opinion
+      $11 billion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Corporation for Public Broadcasting board votes to dissolve January 5 2026 cpb.org press release
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: NTIA Digital Equity Competitive Grant Program reinstate 2026 notice ntia.gov statement after court ruling new NOFO
+      December 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Appalachian Voices" v. EPA D.C. Circuit July 21 2026 opinion environmental and climate justice grants terminated
+      cadc.uscourts.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Full-Service Community Schools grants non-continuation December 2025 court order preliminary injunction Department
+      of Education 2026 opinion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: NEH state humanities councils fiscal year 2026 general operating support awards restored neh.gov announcement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: epa.gov news release Zeldin cancels environmental justice grants terminated 2025 "environmental justice" grants cancellation
+      announcement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: AmeriCorps VISTA sponsor application 2026 2027 concept paper request americorps.gov "VISTA" funding opportunity FY
+      2027
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: samhsa.gov "FY 2026" SUBG "final allotments" OR "allotments" Substance Use Prevention, Treatment, and Recovery Services
+      Block Grant
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: Office on Women's Health grants funding opportunities page womenshealth.gov OR hhs.gov/owh 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — programme and service grants
+  - q: NSF Major Research Instrumentation MRI program new solicitation FY2026 NSF 26 submission window
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: nsf.gov funding opportunities EPSCoR E-CORE RII E-RISE RII Focused EPSCoR Collaborations solicitation 2026" (allowed
+      domain nsf.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NSF FY 2027 budget request to Congress EPSCoR Major Research Instrumentation Regional Innovation Engines funding
+      table
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NSF GRANTED "Growing Research Access for Nationally Transformative" funding opportunity page EPIIC "Enabling Partnerships
+      to Increase Innovation Capacity" archived" (allowed domain nsf.gov)
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: orip.nih.gov C06 "Biomedical Research Facilities" notice 2026 PAR S15 equipment program shared-use facilities
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NASA EPSCoR 2026 Research Cooperative Agreement Notice NNH26ZHA Rapid Response Research eligible jurisdictions proposals
+      due
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NSF EPSCoR office reorganization 2026 Office of Integrative Activities moved EPSCoR FY2026 appropriation $ million
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NSF Regional Innovation Engines inaugural cohort nine continue funding 2026 one Engine not continued terminated
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NSF "emerging research institutions" definition "$50,000,000" federal research expenditures programs 2026 site:nsf.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: DOE Office of Science instrumentation equipment funding opportunity universities 2026 "instrumentation" notice of
+      funding opportunity research infrastructure academic
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NIGMS FY 2027 congressional justification Institutional Development Award IDeA budget request million
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: NASA FY 2027 budget request Office of STEM Engagement EPSCoR Space Grant funding terminate congressional justification
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — capacity and infrastructure
+  - q: OLC opinion "Constitutionality of Race-Based Department of Education Programs" December 2, 2025 justice.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: ed.gov press release September 2025 Department of Education ends funding minority-serving institution discretionary
+      grants reprogram HSI racial quotas
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: Tennessee v. Department of Education Hispanic-Serving Institutions lawsuit Eastern District of Tennessee ruling 2026
+      status dismissed
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: Tennessee" "Students for Fair Admissions" v. "Department of Education" 3:25-cv Hispanic-Serving memorandum opinion
+      order 2026 motion to dismiss judgment on the pleadings ruling
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: 3:25-cv-270" OR "3:25-cv-00270" Tennessee Department of Education Hispanic-Serving Institutions court order 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: nsf.gov funding opportunities "Hispanic-Serving Institutions" IUSE HSI program page ADVANCE "Organizational Change"
+      opportunity page" (allowed_domains nsf.gov)
+    source: WebSearch
+    hits: 4
+    hits_as_noted: ~4
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: ed.gov "Tribally Controlled Colleges and Universities" Title III Part A program 84.031T grants-and-programs page"
+      (allowed_domains ed.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: NIMHD Research Centers in Minority Institutions RCMI program page notice of funding opportunity 2026 U54" (allowed_domains
+      nih.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: Department of Education September 15 2025 press release $495 million HBCUs tribal colleges one-time investment charter
+      schools American history reprogrammed
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: 2026 court ruling Hispanic-Serving Institutions Title V grants lawsuit Department of Education discretionary funding
+      cancellation judge decision HACU Tennessee case dismissed OR moot OR judgment
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: Consolidated Appropriations Act, 2026" Labor-HHS-Education explanatory statement "Strengthening HBCUs" "Hispanic-Serving
+      Institutions" Title III Title V fiscal year 2026 amounts table
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: appropriations committee FY2026 Labor-HHS-Education final conference agreement summary January 2026 "Title III" HBCUs
+      "Hispanic-Serving" funding level enacted" (allowed_domains appropriations.senate.gov, appropriations.house.gov, docs.house.gov,
+      democrats-appropriations.house.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: OLC opinion June 22 2026 "Department of Agriculture" preferences "socially disadvantaged" justice.gov olc media 1890
+      institutions Hispanic-serving
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: nsf.gov funding opportunities ADVANCE "Organizational Change for Gender Equity in STEM Academic Professions" archived
+      2026" (allowed_domains nsf.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — capacity and infrastructure
+  - q: House Appropriations Committee fiscal year 2027 Community Project Funding guidance Member requests
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: Senate Appropriations Committee FY 2027 Congressionally Directed Spending requests guidance deadlines
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: fiscal year 2026 community project funding enacted joint explanatory statement table congressionally directed spending
+      appropriations.house.gov OR appropriations.senate.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: continuing resolution fiscal year 2027 enacted September 2026 appropriations committee statement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: HUD Economic Development Initiative Community Project Funding grants FY2026 grantee guide application invitation
+      letter hud.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: HRSA Congressionally Directed Spending Community Project Funding FY 2026 construction non-construction application
+      instructions
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: Department of Education "congressionally directed spending" OR "community project funding" fiscal year 2026 recipients
+      application instructions ed.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: USDA Rural Development Community Facilities "Congressionally Directed Spending" OR "Community Project Funding" recipients
+      apply state office FY 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: HRSA health center capital funding notice 2026 "capital" health center program awardees construction renovation HRSA-26
+      OR HRSA-27
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: 2026 notice of funding opportunity "capacity building" "faith-based" "community-based organizations" intermediary
+      organizational capacity federal grant program site:grants.gov OR site:hhs.gov OR site:justice.gov OR site:ojp.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: Renew America's Nonprofits" DOE energy efficiency grants nonprofit buildings status 2026 terminated OR cancelled
+      energy.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: FEMA BRIC program 2026 notice of funding opportunity after court injunction Washington v. FEMA status "Building Resilient
+      Infrastructure and Communities
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: energy.gov "termination" financial awards October 2025 "$7.5 billion" projects State and Community Energy Programs
+      announcement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: National Park Service FY 2027 budget justification "Historic Preservation Fund" request Save America's Treasures
+      competitive grants doi.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: HUD fiscal year 2027 congressional justification "Self-Help and Assisted Homeownership Opportunity Program" capacity
+      building Section 4 request
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: Interior "Budget in Brief" fiscal year 2027 National Park Service "Historic Preservation Fund" request eliminates
+      OR proposes
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: whitehouse.gov OMB fiscal year 2027 budget "small agency eliminations" OR "eliminations" "Institute of Museum and
+      Library Services" "National Endowment for the Humanities" "Corporation for National and Community Service" 2027
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: NIST "congressionally directed" OR "community project funding" FY 2026 "Construction of Research Facilities" OR "Scientific
+      and Technical Research and Services" recipients application nist.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: Full-Year Continuing Appropriations and Extensions Act, 2025" "community project funding" OR "earmarks" OR "congressionally
+      directed spending" not included March 2025 appropriations committee
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — capacity and infrastructure
+  - q: National Park Service "congressionally directed spending" Historic Preservation Fund grants named recipient how to
+      apply nps.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: nps.gov Historic Preservation Fund "Congressionally Directed Spending" grants page eligible projects listed in appropriations"
+      (domains nps.gov, home.nps.gov)
+    source: WebSearch
+    hits: 1
+    hits_as_noted: ~1
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: rd.usda.gov Community Facilities "Congressionally Directed Spending" OR "Community Project Funding" recipients how
+      to apply fiscal year 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: Historic Preservation Fund" "Congressionally Directed Spending" National Park Service grant application instructions
+      recipients "State, Tribal, Local, Plans & Grants
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: USDA Rural Development "Community Facilities" "Congressionally Directed Spending" grants recipients apply state office
+      deadline site:rd.usda.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: Department of Education "Fiscal Year 2026 Congressional Action" table "Strengthening HBCUs" "Strengthening Institutions"
+      2026 appropriation ed.gov budget tables
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: 2026 Appropriation" "Strengthening HBCUs" "Strengthening Tribally Controlled Colleges" "Developing Hispanic-Serving
+      Institutions" fiscal year 2027 President's budget table Department of Education
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: fiscal year 2026 Labor-HHS-Education explanatory statement "Aid for Institutional Development" "Strengthening HBCUs"
+      table enacted amounts Congressional Record January 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: NSF EPSCoR fiscal year 2026 enacted appropriation explanatory statement "EPSCoR" "no less than" Commerce Justice
+      Science 2026 P.L. 119-74 amount
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: govinfo Congressional Record January 2026 explanatory statement H.R. 6938 National Science Foundation "Established
+      Program to Stimulate Competitive Research" "agreement provides
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: Tennessee" "Students for Fair Admissions" v. Department of Education Hispanic-Serving Institutions 3:25-cv-270 order
+      opinion 2026 dismissed OR "summary judgment" OR moot court ruling
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: June 2026 district court D.D.C. opinion Department of Energy termination awards October 2025 vacated 11 grants $82.1
+      million case number "v. Department of Energy" memorandum opinion
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: House Appropriations Committee fiscal year 2027 Transportation, Housing and Urban Development bill report "capacity
+      building" "section 4" "Community Development Financial Institutions" committee print" (domains appropriations.house.gov,
+      docs.house.gov, govinfo.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — capacity and infrastructure
+  - q: OMB "Regulation for Federal Financial Assistance" proposed rule 2026 2 CFR redline summary cfo.gov OR whitehouse.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: First Circuit opinion Massachusetts v. National Institutes of Health indirect cost 15 percent affirmed ca1.uscourts.gov
+      25-1343
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Consolidated Appropriations Act 2026 Public Law 119 indirect cost rates "negotiated" section NSF NASA DOE Defense
+      NIH provision govinfo enrolled text
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Association of American Universities v. Department of Defense indirect cost 15 percent memorandum vacated opinion
+      1:25-cv-11740 appeal First Circuit 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: NIH "Notice of Legislative Mandates in Effect for FY 2026" NOT-OD-26 indirect cost section 224
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Continuing Appropriations and Extensions Act, 2027" Public Law 119-103 "Uniform Guidance" OR "2 CFR" section prohibits
+      revisions December 11, 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: OMB "Regulation for Federal Financial Assistance" final rule status September 2026 continuing resolution section
+      157 Uniform Guidance not finalized
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: onr.navy.mil indirect cost rate proposal cognizant universities nonprofits submit indirect cost branch" (allowed
+      domain onr.navy.mil)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: 2026 court of appeals ruling "certification" executive order 14173 grant recipients False Claims Act Chicago Women
+      in Trades Seventh Circuit OR NADOHE Fourth Circuit opinion
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: GSA SAM.gov financial assistance certifications and representations update 2026 anti-discrimination certification
+      grant recipients Federal Register notice
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: 2026 court of appeals grant terminations Tucker Act Court of Federal Claims jurisdiction opinion "American Public
+      Health Association" First Circuit OR "Sustainability Institute" Fourth Circuit OR D.C. Circuit en banc
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: First Circuit 2026 opinion American Public Health Association v. National Institutes of Health 25-1611 grant terminations
+      decision ca1.uscourts.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Court of Federal Claims 2026 opinion grant termination breach of contract "cooperative agreement" OR "grant agreement"
+      jurisdiction Tucker Act terminated grant "agency priorities" damages uscfc.uscourts.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: July 17, 2026 District of Massachusetts declaratory judgment 2 CFR 200.340(a)(4) "agency priorities" states v. Office
+      of Management and Budget New Jersey attorney general termination clause ruling
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: OMB memorandum implementing Executive Order 14332 "Improving Oversight of Federal Grantmaking" agencies senior appointee
+      review termination for convenience terms whitehouse.gov M-25 OR M-26
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: NIH notice lapse in appropriations October 2025 "NOT-OD-26" extramural grants guidance during shutdown; NSF "lapse
+      in appropriations" information for proposers and awardees
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: FY2027 appropriations status House Appropriations Committee bills passed floor September 2026 twelve bills continuing
+      resolution December 11 2026 appropriations.house.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Senate Appropriations Committee "Continuing Appropriations and Extensions Act, 2027" section-by-section summary "Uniform
+      Guidance" appropriations.senate.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Supreme Court 2026 certiorari granted grant terminations Tucker Act "Court of Federal Claims" Thakur OR "American
+      Public Health Association" OR "Sustainability Institute" decision October Term 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Court of Federal Claims" 2026 opinion terminated grant "breach of contract" grant agreement is a contract "consideration"
+      motion to dismiss denied OR granted NIH OR EPA OR Education grant termination ecf.cofc.uscourts.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: energy.gov "PF 2026-30" policy flash indirect cost "Section 313" H.R. 6938 negotiated indirect cost rates no longer
+      in effect
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: New Jersey v. Office of Management and Budget" OR "New Jersey v. OMB" 25-cv-11816 notice of appeal First Circuit
+      August OR September 2026 declaratory judgment termination clause appeal
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: Section 542" Commerce Justice Science Appropriations Act 2026 indirect cost rates NSF NASA "negotiated indirect cost"
+      nsf.gov OR nasa.gov OR appropriations.senate.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — rules, gates and standing
+  - q: SAM.gov entity administrator notarized letter requirement entity validation documentation gsa.gov 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: FSRS.gov retired subaward reporting moved to SAM.gov March 2025 GSA announcement eSRS retirement 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NASA Guidebook for Proposers 2026 NSPIRES registration organization AOR SAM UEI "NSPIRES" affiliation help desk hours
+      site:nasa.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: HRSA Electronic Handbooks EHBs Login.gov required registration Authorizing Official "EHBs" help.hrsa.gov 2025 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: Common Instructions and Information for Applicants to Department of Education Discretionary Grant Programs" Federal
+      Register 2025 OR 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: DOE "common forms" biographical sketch current and pending support SciENcv required effective date financial assistance
+      letter energy.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NASA requires SciENcv common forms biographical sketch current and pending support effective date ROSES grant notice
+      nasa.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: FEMA GO registration Authorized Organization Representative Login.gov SAM UEI "FEMA GO" help desk 1-877-585-3242
+      hours fema.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: GrantSolutions recipient account request Login.gov Grants Management Module which agencies use ACF CDC "GrantSolutions"
+      help desk 866-577-0771 hours
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: Department of Education G6 grants management system replaced G5 date launch "G6" ed.gov payments recipients Login.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: Grants.gov Login.gov required to sign in applicants username password retired date grants.gov notice
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: SAM.gov "entity validation" acceptable documents review time GSA "validate your entity" official guidance 2025" (limited
+      to gsa.gov, sam.gov, fsd.gov, buy.gsa.gov, interact.gsa.gov)
+    source: WebSearch
+    hits: 0
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: GSA SAM.gov entity validation process documentation requirements "entity validation" site:gsa.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: SAM.gov "Financial Assistance General Certifications and Representations" updated 2025 2026 changes certification
+      text
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: System for Award Management Registration Requirements for Financial Assistance Recipients" federalregister.gov 2026
+      3090-0290
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: Submission for OMB Review" "System for Award Management Registration Requirements for Financial Assistance Recipients"
+      2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NSF Research.gov sign in Login.gov multifactor authentication required date NSF ID password retired nsf.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NIFA USDA common forms biographical sketch current and pending support SciENcv required applications date nifa.usda.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NSTC Research Security Subcommittee "Common Disclosure Forms" biographical sketch current and pending nsf.gov agencies
+      implementation" (limited to nsf.gov, whitehouse.gov, ncbi.nlm.nih.gov, grants.nih.gov)
+    source: WebSearch
+    hits: 4
+    hits_as_noted: ~4
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: SAM.gov entity administrator "notarized letter" requirement appoint entity administrator GSA official" (limited to
+      federal domains)
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NSF Research.gov users must sign in validate credentials by July 25, 2025 accounts deactivated nsf.gov notice
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: Department of Defense grants "common forms" biographical sketch current and pending support SciENcv required DoD
+      research proposals 2026 basic research office memo
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — rules, gates and standing
+  - q: NIH responsible conduct of research instruction requirement policy page grants.nih.gov NOT-OD-22-055
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: research security program requirement institutions $50 million certification deadline 2026 NSF OR NIH OR DOE "research
+      security program" certify
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: NSF "research security program" covered institutions certification effective date implementation OSTP guidelines
+    source: WebSearch
+    hits: 7
+    hits_as_noted: ~7
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: research security training requirement effective date DOE "FAL 2025" OR NASA "research security training" OR USDA
+      NIFA OR DoD covered individuals certify 12 months
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: section 117 foreign gifts contracts reporting new portal 2026 Department of Education foreignfundinghighered executive
+      order 14282
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: NIH public access policy overview publication costs cap article processing charges notice 2026 grants.nih.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: NSF public access requirement immediate no embargo effective date PAPPG supplement 2026 "Data Management and Sharing
+      Plan" Research.gov April 27, 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: 2022 OSTP public access memorandum "Nelson memo" status 2026 rescinded OR remains in effect agencies implementation
+      December 31, 2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: SAM.gov "Financial Assistance General Certifications and Representations" SF-424B replaced registration entity certify
+      annually
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: federalregister.gov "System for Award Management Registration Requirements for Financial Assistance Recipients" 3090-0290
+      2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: fiscal sponsor" OR "fiscal agent" applicant eligibility federal grant "may not" OR "may apply" site:arts.gov OR site:neh.gov
+      OR site:imls.gov OR site:samhsa.gov OR site:hrsa.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: NSF prospective new awardee guide financial administrative capability review first award nonprofit documents required
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: OLAW 2026 notice change PHS Policy Animal Welfare Assurance NOT-OD-26 OR NOT-OD-25 "Office of Laboratory Animal Welfare"
+      flexibilities reduce administrative burden
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: SAM.gov financial assistance certifications representations updated 2026 GSA "Submission for OMB Review" 3090-0290
+      OR "new certifications" effective
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: DOE research security training requirement "May 1, 2025" covered individuals certify financial assistance applications
+      FAL 2025-02
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: Department of Defense research security training requirement grants effective date 2026 "Fundamental Research Security
+      Initiatives and Implementation" memorandum
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: NIH notice allowable publication costs limit final policy "NOT-OD-26" article processing charges effective 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: SAM.gov financial assistance certifications representations revised live effective date 2026 GSA announcement DEI
+      immigration certification registrants
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: Financial Management and System of Internal Controls Questionnaire" OJP applicant required before award
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — rules, gates and standing
+  - q: Department of Education State Department interagency agreement section 117 foreign funding February 2026 press release
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: GSA SAM.gov "Financial Assistance General Certifications and Representations" proposed revised language 2026 gsa.gov
+      OR sam.gov OR regulations.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: NSF Research.gov "July 25, 2025" sign in validate account multifactor authentication nsf.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: SAM.gov entity administrator notarized letter still required 2026 gsa.gov OR sam.gov OR fsd.gov
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: entity administrator" "notarized letter" SAM.gov" (limited to gsa.gov, sam.gov, fsd.gov, acquisition.gov, grants.gov,
+      nih.gov, sba.gov, usda.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: research security program certification covered institutions $50 million effective date agency policy NSF OR DOE
+      OR NASA OR "Department of War" 2026 "research security program" certify by
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: First Circuit dismissal appeal Association of American Universities v. Department of Defense indirect cost 15 percent
+      February 2026 voluntary dismissal order
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: fsapartners.ed.gov Section 117 foreign gifts contracts reporting 2026 electronic announcement State Department July
+      31 2026 deadline
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: research security program" covered institutions certification requirement implementation date policy" (limited to
+      energy.gov, nasa.gov, nsf.gov, cto.mil, usda.gov, nist.gov, whitehouse.gov, noaa.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — rules, gates and standing
+  - q: Packard Fellowships for Science and Engineering guidelines nomination 50 universities two nominees $875,000 packard.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Pew Scholars Program in the Biomedical Sciences 2027 program details eligibility nomination $300,000 pew.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Doris Duke Foundation Clinical Scientist Development Award 2027 competition dorisduke.org physician scientist" (domains:
+      dorisduke.org, site.dorisduke.org)'
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'HHMI "medical research organization" tax status public charity not a foundation hhmi.org" (domain: hhmi.org)'
+    source: WebSearch
+    hits: 8
+    hits_as_noted: ~8
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Russell Sage Foundation upcoming deadlines letter of inquiry 2026 2027 research grants budget indirect costs" (domain:
+      russellsage.org)'
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Mellon Foundation indirect costs policy grant budget percentage mellon.org" (domain: mellon.org)'
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Carnegie Corporation of New York grantseeker FAQ letter of inquiry "do not fund" indirect costs Andrew Carnegie
+      Fellows nomination" (domain: carnegie.org)'
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Spencer Foundation "Rapid Response Bridge Funding" 2025 terminated federal education research grants
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Mellon Foundation emergency funding state humanities councils $15 million 2025 announcement mellon.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: foundations bridge funding researchers terminated NIH NSF grants 2025 2026 announce emergency fund Simons Sloan Moore
+      Kavli Burroughs Wellcome
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Mellon Foundation announces emergency funding humanities councils April 2025" (domain: mellon.org)'
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: HHMI Inclusive Excellence program ended 2025 statement hhmi.org science education programs discontinued
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: American Heart Association American Cancer Society bridge funding researchers lost NIH grants 2025 announcement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Chan Zuckerberg Initiative Biohub primary focus announcement 2025 science philanthropy restructuring chanzuckerberg.com
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Doris Duke Foundation 2025 increase grantmaking response federal funding cuts medical research physician scientists
+      announcement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Chan Zuckerberg Biohub "primary focus" philanthropy November 2025 announcement" (domains: chanzuckerberg.com, biohub.org)'
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: 'Sloan Foundation grant proposal budget guidelines overhead indirect costs percent of direct costs" (domain: sloan.org)'
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: university policy foundation sponsors limit indirect costs published policy accepted reduced F&A rate budget administrative
+      costs as direct costs
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: American Cancer Society 2025 bridge funding grants researchers affected federal funding cuts "American Cancer Society"
+      announces new grants early-career
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Russell Sage Foundation OR "William T. Grant Foundation" OR "Burroughs Wellcome Fund" 2025 emergency funding terminated
+      federal grants researchers announcement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Simons Foundation OR "Schmidt Sciences" OR "Moore Foundation" 2025 new program response federal science funding cuts
+      postdoctoral fellowships announced
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Simons Empire Faculty Fellowship $45 million New York junior faculty simonsfoundation.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Moore Foundation $55 million postdoctoral researchers 30 universities 2025 announcement moore.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Research Corporation for Science Advancement emergency funding December 2025 awardees lost federal funding rescorp.org;
+      Kavli Foundation expands support scientists research disrupted fellowships 2026
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: A — foundations and private grantmakers
+  - q: Gates Foundation indirect cost policy rate site:gatesfoundation.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Packard Foundation "unsolicited" proposals how we fund funding opportunities site:packard.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Hewlett Foundation grantseekers "unsolicited" letters of inquiry indirect cost policy site:hewlett.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Bloomberg Philanthropies annual report 2025 total giving "does not accept unsolicited
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Knight Foundation "letter of inquiry" OR "unsolicited" apply for funding FAQ site:knightfoundation.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Surdna Foundation "unsolicited" proposals grantseekers FAQ site:surdna.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Duke Endowment apply for a grant eligibility deadlines site:dukeendowment.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Robert W. Woodruff Foundation grant application process deadlines letter of inquiry site:woodruff.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Arnold Ventures" "LLC" "Laura and John Arnold Foundation" "Action Now Initiative" donor-advised fund structure site:arnoldventures.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: MacArthur Foundation increase payout 6 percent 2025 2026 announcement federal funding cuts macfound.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: foundations announce increased payout 2025 response federal funding cuts list Mellon Packard Kresge Surdna Hewlett
+      "increase" grantmaking
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Mellon Foundation 2025 emergency funding state humanities councils $15 million mellon.org announcement
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Gates Foundation 2026 budget $9 billion payout cap operating expenses staff reduction announcement gatesfoundation.org
+      January 2026
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Surdna Foundation OR "Packard Foundation" OR "Kresge Foundation" announces increased grantmaking payout 2025 2026
+      "in response" federal cuts press release
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: list of foundations that pledged to increase payout 2025 tracker "MacArthur" "Freedom Together" "Northwest Area"
+      "McKnight" "Mellon" "Packard" "Gates" "Hewlett
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Ford Foundation indirect cost rate 25 percent project grants policy site:fordfoundation.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Robert Wood Johnson Foundation indirect cost rate policy percent "unsolicited proposals" site:rwjf.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Mellon Foundation indirect costs policy percent grant budget guidance site:mellon.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: W.K. Kellogg Foundation grantseekers frequently asked questions indirect cost rate grant size site:wkkf.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Packard Foundation indirect cost policy "indirect" grantees "unsolicited proposals" how we work site:packard.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Conrad N. Hilton Foundation indirect cost policy grantee resources strategy 2025 2026 site:hiltonfoundation.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Packard Foundation 2025 announcement increase grantmaking additional funding "2025" "2026" response federal cuts
+      packard.org insights
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Knight Foundation 2025 2026 announcement public media bridge fund commitment open call knightfoundation.org press
+      release
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Open Society Foundations 2025 2026 announcement new commitment grantmaking United States changes opensocietyfoundations.org
+      newsroom
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Hewlett Foundation 2025 2026 announcement grantmaking budget increase OR "strategy" OR "winding down" hewlett.org
+      president letter
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Robert Wood Johnson Foundation 2025 announcement increase grantmaking payout additional funding response federal
+      cuts rwjf.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Robert Wood Johnson Foundation "6.5" percent payout 2025 Besser "highest" payout rate rwjf.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Gates Foundation" name change "Bill & Melinda Gates Foundation" renamed 2025 gatesfoundation.org announcement
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: site:mellon.org "$15 million" emergency funding Federation of State Humanities Councils April 2025
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Ford Foundation names new president Heather Gerken 2025 fordfoundation.org press release start date
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Surdna Foundation 2025 increase payout OR "additional" grantmaking announcement surdna.org news federal
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Kresge Foundation 2025 2026 new president successor Rip Rapson announcement kresge.org
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Wallace Foundation 2025 2026 new strategy announcement president grantmaking change wallacefoundation.org press release
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: Walton Family Foundation 2025 strategy five-year plan announcement "2030" grantmaking commitment waltonfamilyfoundation.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: B — foundations and private grantmakers
+  - q: 'irs.gov "Grants by private foundations: Expenditure responsibility'
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: irs.gov private foundations "Grants to organizations" taxable expenditures "unless" expenditure responsibility public
+      charity "grants to individuals
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: irs.gov private foundations taxable expenditures "influencing legislation" OR "lobbying" grants to public charities
+      general support "not earmarked
+    source: WebSearch
+    hits: 5
+    hits_as_noted: ~5
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: section 4968 endowment excise tax 1.4 percent 4 percent 8 percent student adjusted endowment Public Law 119-21 section
+      70415 IRS OR jct.gov OR congress.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: CRS "P.L. 119-21" charitable contributions "1% floor" corporations "0.5% floor" non-itemizers endowment tax crsreports.congress.gov
+      OR congress.gov/crs-product
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: IRS notice OR guidance 2026 "1-percent floor" corporate charitable contributions section 170(b)(2) "0.5 percent"
+      individuals "taxable years beginning after December 31, 2025
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: executive order OR presidential memorandum 2025 2026 foundations tax-exempt status IRS "private foundations" whitehouse.gov
+      OR federalregister.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: Candid "Philanthropy News Digest" RFPs discontinued OR retired OR "no longer" 2025 OR 2026 candid.org "Candid Search"
+      replaces "Foundation Directory" GuideStar
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: candid.org announcement Philanthropy News Digest sunset OR closing OR "final issue" OR retire RFP bulletin "Candid
+      search" launch Foundation Directory GuideStar retire date
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: candid.org "company-sponsored foundation" "corporate giving program" difference definition
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: Giving USA 2026 report press release total charitable giving 2025 giving by foundations billion
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: IRS Statistics of Income "private foundations" number of returns Form 990-PF tax year 2022 OR 2021 "Domestic Private
+      Foundation" statistics irs.gov
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: New York Community Trust "how to apply" grant guidelines "Proposal Cover Sheet" "does not" make grants to individuals
+      "donor-advised" total assets grants 2025
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: thenytrust.org financial information audited statements total assets grants 2025 "billion" EIN
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: Lowe's Foundation Gable Grants 2026 application cycle community and technical college grants eligibility skilled
+      trades $50 million
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: common grant application" regional association of grantmakers form download 2026 Colorado OR Missouri OR Minnesota
+      OR "Philanthropy Massachusetts" OR "Washington Regional Association of Grantmakers
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: IRS 2026 notice OR "revenue procedure" OR "proposed regulations" private foundations OR "donor advised funds" OR
+      "tax-exempt organizations" new guidance 2026 irs.gov newsroom exempt organizations update
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: C — foundations and private grantmakers
+  - q: Lilly Endowment 2025 annual report "grants paid" "grants approved" assets December 31, 2025" (lillyendowment.org)
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Howard Hughes Medical Institute consolidated financial statements August 31, 2025 audited pdf" (hhmi.org)
+    source: WebSearch
+    hits: 8
+    hits_as_noted: ~8
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: FY2025" HHMI Audited Financial Statements hhmi.org sites default files
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Ford Foundation audited financial statements 2025 "grants approved" total assets financial snapshot" (fordfoundation.org)
+    source: WebSearch
+    hits: 3
+    hits_as_noted: ~3
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Hewlett Foundation 2025 assets grants awarded "as of December 31, 2025" financial statements" (hewlett.org)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: RWJF indirect cost rate policy percent colleges universities hospitals nonprofit organizations grantee resources"
+      (rwjf.org)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Silicon Valley Community Foundation "By the Numbers" 2025 total assets grants awarded svcf.org" (svcf.org, siliconvalleycf.org)
+    source: WebSearch
+    hits: 2
+    hits_as_noted: ~2
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: MacArthur Foundation audited financial statements December 31, 2025 total assets pdf macfound.org media files" (macfound.org)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: 1-percent floor" corporations charitable contributions "taxable years beginning after December 31, 2025" Public Law
+      119-21 section 70426 0.5 percent floor individuals" (jct.gov, congress.gov, irs.gov, govinfo.gov, crsreports.congress.gov,
+      uscode.house.gov)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Joint Committee on Taxation estimated revenue effects Public Law 119-21 "floor on deduction of charitable contributions"
+      "tyba 12/31/25
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: HHMI statement pause Hanna Gray Fellows competition 2025 "Inclusive Excellence" hhmi.org" (hhmi.org)
+    source: WebSearch
+    hits: 6
+    hits_as_noted: ~6
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Simons Empire Faculty Fellowship" simonsfoundation.org
+    source: WebSearch
+    hits: 9
+    hits_as_noted: ~9
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Kavli Foundation "Kavli Scholars" expands program bridge funding 2026 announcement" (kavlifoundation.org)
+    source: WebSearch
+    hits: 8
+    hits_as_noted: ~8
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Gates Foundation name change "Bill & Melinda Gates Foundation" now "Gates Foundation" announcement January 2025 Mark
+      Suzman" (gatesfoundation.org)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Robert Wood Johnson Foundation payout rate 6.5 percent increase spending 2025 statement Richard Besser" (rwjf.org)
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Silicon Valley Community Foundation consolidated financial statements December 31, 2025 total assets grants audited
+    source: WebSearch
+    hits: 10
+    hits_as_noted: ~10
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  - q: Bloomberg Philanthropies annual report 2025 "Bloomberg Family Foundation" assets distributed bloomberg.org" (bloomberg.org)
+    source: WebSearch
+    hits: 3
+    hits_as_noted: ~3
+    run_on: '2026-10-04'
+    slice: D — foundations and private grantmakers
+  snowball:
+  - from each agency's funding page to its notices on Grants.gov and to its policy guide
+  - from each statute or regulation to the agency page that applies it
+  - from each dated change to the notice, order or opinion that made it
+  - from each foundation's grant-seeker page to its policies and to its latest annual return
+  inclusion:
+  - official government pages, statutes, regulations, notices, orders and court documents
+  - a funder's own page, policy or filing for what it says about itself
+  - GAO, CRS and inspector-general reports
+  exclusion:
+  - law-firm, association, consultant and trade-press pieces as a source of fact (kept only as pointers or flags, labelled
+    secondary)
+  - 'pages that could not be fetched (marked verified: false)'
+  known_gaps:
+  - '166 references remain flagged after the recheck: pages that refused a second reading (nine eCFR sections, two acf.gov
+    pages, one pcori.org page), sources with a fact the second reading did not find, and the pages read by the status pass,
+    which were not rechecked'
+  - 1077 sources were re-read only in part, because the fetch layer cuts long pages short
+  - five contradictions between a stored fact and the page as re-read remain open (NIH R13 institute count, NSF FY2025 MRI
+    figure, PCORI announcement count, AmeriCorps member-support share, Guam centre totals)
+  - 'OMB''s proposed rewrite of 2 CFR part 200 (May 29, 2026) was read only in part: the preamble and search excerpts, not
+    the full regulatory text'
+  - three sections of 2 CFR part 200 (200.204, 200.306, 200.344) rest on GovInfo's January 1, 2025 edition; the current
+    eCFR would not load for them
+  - 26 programmes carry the status unconfirmed and 82 the status no-current-notice; programme status was read on one day
+    and goes out of date quickly
+  - eight formula-programme records say the federal agency takes no application from a non-profit where the page read names
+    only who receives the grant; two federal pages (HUD, FEMA) say so in words
+  - 'foundations: the IRS e-file field documentation and the Form 990-PF Part XIV instructions are unread, and the harvest
+    of the filings themselves is unprobed'
+  - FY2026 enacted amounts for the Education institutional-aid lines and NSF EPSCoR were not found
+  - five pairs of change records disagree on a date or a status (ROSES-2026 date, NEA injunction scope, NSF cap date, an
+    OJP termination, an Education interagency agreement); Executive Order 14332 is final on five records and pending-implementation
+    on one
+  - 'hosts that refused automated reading: congress.gov, uscode.house.gov (intermittent), war.gov and defense.gov, nspires.nasaprs.com,
+    sam.gov, research.va.gov, americorps.gov, several acf.gov pages, samhsa.gov HTML pages (its PDFs load), ed.gov (intermittent),
+    cpb.org, smartscholarship.org, report.nih.gov, courtlistener.com'
+  - court opinions read on third-party hosts are to be re-read on court sites
+corpus_profile:
+  by_tier:
+    seminal: 16
+    classic: 67
+    current: 2019
+    background: 461
+  tier_note: the sweeps marked 251 governing or primary texts seminal; 16 keep that tier, each with a note on why it mattered,
+    and the others are carried as background with the builder's tier in tier_note
+  by_source_kind:
+    primary: 2463
+    secondary: 100
+  year_range:
+  - 1982
+  - 2026
+  undated: 1098
+  concentration: simpler.grants.gov (334), nsf.gov (234), grants.nih.gov (228), govinfo.gov (85), ecfr.gov (62), federalregister.gov
+    (59), irs.gov (56), files.simpler.grants.gov (54), neh.gov (47), projects.propublica.org (47), nifa.usda.gov (46), ed.gov
+    (35); the rest spread over agency, court and foundation sites
+  dissent_represented: true
+  dissent_note: where sources disagree both are recorded with citations (124 conflict notes in todo.yaml); contested events
+    of 2025-26 are reported from the notice, the order or the opinion, with the plaintiffs' and the government's positions
+    as the documents state them; budget requests are labelled as requests beside what Congress enacted
+  recheck: 2,500 of 2,563 sources were re-read against the live page on 2026-10-05 with a confirm-or-deny prompt; 12 could
+    not be re-read; 51 were first read that day by the status pass; quotes not found word for word were removed; 166 sources
+    remain flagged
+  records:
+    programmes: 565
+    programme_status:
+      open: 177
+      closed: 171
+      unconfirmed: 26
+      no-current-notice: 82
+      expired: 25
+      forecast: 40
+      not-competed: 12
+      formula: 32
+    routes: 45
+    funders: 159
+    foundations_and_private_grantmakers: 65
+    changes: 524
+    open_items_in_todo: 902
+  main_text:
+    sections: 12
+    words: 10247
+    figures: 10
+    glossary_terms: 209
+    primers: 11
