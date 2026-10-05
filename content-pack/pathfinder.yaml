@@ -20,14 +20,14 @@ display:
   route_statuses_note: 'A route page lists the programmes a reader can act on: those open, forecast, closed for this cycle
     but continuing, or paid by formula through a state. Programmes with no current notice, expired, not competed or unconfirmed
     stay in the pack and are reached through search and through the funder pages, each with its status and the date it was
-    read. Ruled by Daniel on 2026-10-05.'
+    read. An editorial ruling of 2026-10-05.'
   status_date: Every status is shown with the date it was read (status_as_of, or as_of where a record has no status_as_of).
   foundations_note: 'The 65 foundations with a record of their own are a sample chosen by the editor: the largest national
     grantmakers across kinds and fields, with examples of community and corporate foundations. The directory built from
-    IRS data lists the rest. Ruled by Daniel on 2026-10-05.'
+    IRS data lists the rest. An editorial ruling of 2026-10-05.'
   pass_through_note: For federal money paid by formula to a state, tribe or local government, the guide explains the money
-    and names the body a non-profit applies to, and stops there. It does not describe any state's own process. Ruled by
-    Daniel on 2026-10-05.
+    and names the body a non-profit applies to, and stops there. It does not describe any state's own process. An editorial
+    ruling of 2026-10-05.
 questions:
 - id: who
   prompt: Who is asking?
