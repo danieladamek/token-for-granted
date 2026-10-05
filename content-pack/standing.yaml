@@ -2108,3 +2108,376 @@
   - 2007
   - 2010
   sweep: rules-C
+- id: foundation-invited-nominating-institution
+  name: Institution invited to nominate for a foundation fellowship
+  applies_to: institution
+  what: Some foundation fellowships are closed to all but a list of institutions the funder has chosen. A researcher elsewhere
+    cannot enter, whatever the merit of the work [2149] [2174].
+  who_qualifies: 'Packard Fellowships: 50 invited institutions in 2026 [2149]. Pew Scholars: 212 participating institutions
+    were listed for the 2027 award [2174]. Mellon New Directions Fellowships: invited institutions, with no guarantee of
+    a further invitation [2212]. Schmidt Science Polymaths: a select group of nominating institutions [2153].'
+  how_decided: By the funder; none of the pages read gives a way for an institution to ask to be added [2149] [2174] [2212].
+  opens:
+  - packard-fellowships-science-engineering
+  - pew-biomedical-scholars
+  official_url: https://www.pew.org/en/projects/pew-biomedical-scholars/program-details
+  pending_changes: []
+  sources:
+  - 2149
+  - 2174
+  - 2212
+  - 2153
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: hhmi-eligible-institution
+  name: HHMI-eligible institution
+  applies_to: institution
+  what: HHMI appoints scientists only at institutions on its own list of eligible institutions [2161] [2162].
+  who_qualifies: The list was not read in this sweep; the programme pages require that a candidate hold, or be about to
+    start, a position at an HHMI-eligible institution [2162] [2163].
+  how_decided: By HHMI [2161].
+  opens:
+  - hhmi-investigator-program
+  - hhmi-freeman-hrabowski-scholars
+  - hhmi-hanna-gray-fellows
+  official_url: https://www.hhmi.org/programs
+  pending_changes: []
+  sources:
+  - 2161
+  - 2162
+  - 2163
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: knight-community
+  name: Knight community
+  applies_to: nonprofit
+  what: One of the 26 communities 'where John S. and James L. Knight once owned and operated newspapers'; the Knight Foundation's
+    community funding and its Knight Cities Challenge are limited to them [2296] [2355].
+  who_qualifies: Aberdeen SD, Akron OH, Biloxi MS, Boulder CO, Bradenton FL, Charlotte NC, Columbia SC, Columbus GA, Detroit
+    MI, Duluth MN, Fort Wayne IN, Gary IN, Grand Forks ND, Lexington KY, Long Beach CA, Macon GA, Miami FL, Milledgeville
+    GA, Myrtle Beach SC, Palm Beach County FL, Philadelphia PA, San Jose CA, St. Paul MN, State College PA, Tallahassee
+    FL and Wichita KS [2355].
+  how_decided: Fixed by the foundation's history; the list is the foundation's own [2296].
+  opens:
+  - knight-cities-challenge
+  official_url: https://knightfoundation.org/how-we-fund/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2296
+  - 2355
+  sweep: foundations-B
+- id: duke-endowment-eligible-organisation
+  name: Organisation eligible for The Duke Endowment
+  applies_to: institution
+  what: The Duke Endowment funds only certain kinds of organisation in North Carolina and South Carolina, set by programme
+    area under its founding trust document [2309] [2310].
+  who_qualifies: 'Health care: not-for-profit hospitals, academic health centres, area health education centres and select
+    organisations in underserved counties of the two states [2363]. Child and family: accredited organisations and other
+    non-profit groups in the two states serving children and families who have experienced or are at risk of child maltreatment
+    [2310]. Higher education: Davidson College, Duke University, Furman University and Johnson C. Smith University [2362].
+    The rule for the Rural Church area was not read [2309].'
+  how_decided: By the Endowment, under the trust document of James B. Duke [2310].
+  opens: []
+  official_url: https://www.dukeendowment.org/grants
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2309
+  - 2310
+  - 2363
+  - 2362
+  sweep: foundations-B
+- id: kellogg-priority-place
+  name: W. K. Kellogg Foundation priority place
+  applies_to: nonprofit
+  what: The Kellogg Foundation names places where it concentrates its grantmaking; 58 percent of its new commitments in
+    the fiscal year ending August 31, 2024 benefited them [2269] [2345].
+  who_qualifies: Michigan, Mississippi, New Mexico and New Orleans in the United States; Chiapas and the Yucatán Peninsula
+    in Mexico; central and southwest Haiti [2269].
+  how_decided: Set by the foundation; work outside the priority places is not excluded [2345].
+  opens: []
+  official_url: https://www.wkkf.org/grantseekers/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2269
+  - 2345
+  sweep: foundations-B
+- id: private-foundation-status
+  name: Private foundation (as against a public charity)
+  applies_to: nonprofit
+  what: |
+    Under the tax code every section 501(c)(3) organisation is a private foundation unless it falls into a category the law excludes [2237]. The excluded organisations are the public charities: churches, hospitals, schools, colleges and universities, organisations with many sources of support, and organisations that support them [2238]. A private foundation files Form 990-PF each year and is subject to a set of excise taxes that a public charity is not [2237] [2387].
+  who_qualifies: Any section 501(c)(3) organisation that does not fall into one of the excluded categories; the IRS names
+    hospitals, universities and organisations with broad public support or in a supporting relationship as excluded [2237].
+  how_decided: Set by statute as the default class, and recorded by the IRS when it recognises the exemption; a private
+    foundation states its type in item H on page 1 of Form 990-PF [2237] [2387].
+  for_grant_seekers: A private foundation's grant to a public charity is not a taxable expenditure, while its grant to any
+    other organisation is one unless the foundation exercises expenditure responsibility [2380]. Its return is public and
+    lists every grant paid, so a reader can see what it has funded [2387] [2461].
+  opens: []
+  related:
+  - public-charity-status
+  - section-501c3-organization
+  - private-nonoperating-foundation
+  - private-operating-foundation
+  - expenditure-responsibility
+  official_url: https://www.irs.gov/charities-non-profits/charitable-organizations/private-foundations
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2237
+  - 2238
+  - 2387
+  - 2380
+  - 2461
+  sweep: foundations-C
+- id: private-nonoperating-foundation
+  name: Private non-operating foundation (the grantmaking kind)
+  applies_to: nonprofit
+  what: |
+    A private foundation that is not an operating foundation is a nonoperating foundation in IRS statistics, which report that nonoperating foundations filed 91.2% of private foundation returns for tax year 2022 [2410]. This kind must meet the annual minimum distribution, computed from 5 percent of its investment assets [2377] [2375].
+  who_qualifies: A private foundation that does not meet the definition of a private operating foundation [2371].
+  how_decided: By the tax code; the foundation computes its distributable amount in Parts IX to XII of Form 990-PF [2388]
+    [2387].
+  for_grant_seekers: This kind must pay out a minimum amount each year [2375]. Whether it takes requests is a separate matter,
+    shown on Part XIV, line 2 of its Form 990-PF [2387].
+  opens: []
+  related:
+  - minimum-distribution-requirement
+  - form-990-pf-unsolicited-applications-line
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/taxes-on-failure-to-distribute-income-private-foundations
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2410
+  - 2377
+  - 2375
+  - 2371
+  - 2388
+  - 2387
+  sweep: foundations-C
+- id: private-operating-foundation
+  name: Private operating foundation
+  applies_to: nonprofit
+  what: |
+    A private operating foundation is a private foundation that devotes most of its resources to the active conduct of its own exempt activities [2371]. It is not subject to the excise tax on failure to distribute income, and it still pays the tax on net investment income and follows the other private foundation rules [2371].
+  who_qualifies: A private foundation that devotes most of its resources to the active conduct of its exempt activities;
+    the IRS sets out the tests on linked pages that this sweep did not read [2371].
+  how_decided: By tests in the tax code; a foundation claiming the status completes Part XIII of Form 990-PF, titled Private
+    Operating Foundations [2388].
+  for_grant_seekers: An operating foundation devotes most of its resources to its own activities [2371]. Any grants it paid
+    still appear in Part XIV, line 3 of its Form 990-PF [2387].
+  opens: []
+  related:
+  - private-foundation-status
+  - private-nonoperating-foundation
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/private-operating-foundations
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2371
+  - 2388
+  - 2387
+  sweep: foundations-C
+- id: community-foundation
+  name: Community foundation (community trust)
+  applies_to: nonprofit
+  what: |
+    The IRS's term is community trust: a charity that attracts large contributions for the benefit of a particular community or area [2374]. A community trust that meets a public support test is a public charity, not a private foundation, and says so on Schedule A of Form 990 [2374]. The Council on Foundations describes community foundations as grantmaking public charities serving a defined local area and counts more than 900 of them [2405].
+  who_qualifies: A community trust that meets a section 170(b)(1)(A)(vi) public support test checks line 8 in Part I of
+    Schedule A and completes Part II [2374]. The Greater Kansas City Community Foundation's 2024 Form 990 checks that line
+    [2432].
+  how_decided: By the public support test in the tax code, reported each year on Schedule A of Form 990 [2374].
+  for_grant_seekers: 'A community foundation files Form 990, not Form 990-PF, so it has no Part XIV line on unsolicited
+    requests; its own website is the place to learn how it takes applications [2374] [2432]. Much of what a community foundation
+    pays out can be advised by donors and not open to application: the Greater Kansas City Community Foundation says most
+    of its donors hold donor-advised funds and make their own decisions [2428].'
+  opens: []
+  related:
+  - donor-advised-fund-sponsor
+  - community-foundation-grantmaking-pattern
+  - cof-community-foundation-locator
+  official_url: https://www.irs.gov/instructions/i990sa
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2374
+  - 2405
+  - 2432
+  - 2428
+  sweep: foundations-C
+- id: supporting-organization
+  name: Supporting organisation
+  applies_to: nonprofit
+  what: |
+    A supporting organisation is a public charity because of its relationship to one or more other public charities that it supports [2238]. It must satisfy an organizational test, an operational test, a control test and a relationship test, and comes in three types [2372].
+  who_qualifies: An organisation that meets the four tests; Type I is operated, supervised or controlled by its supported
+    organisation, Type II is supervised or controlled in connection with it, and Type III is either functionally integrated
+    or not [2372].
+  how_decided: By the tests in the tax code, as the IRS sets them out [2372].
+  for_grant_seekers: 'A supporting organisation functions in a supporting relationship to one or more existing public charities
+    [2238]. A Type III organisation that is not functionally integrated has its own payout rule: the greater of 85 percent
+    of adjusted net income and 3.5 percent of the value of its non-exempt-use assets [2372]. Gifts to supporting organisations
+    do not qualify for the new deduction for non-itemisers [2389].'
+  opens: []
+  related:
+  - public-charity-status
+  official_url: https://www.irs.gov/charities-non-profits/charitable-organizations/supporting-organizations-requirements-and-types
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2238
+  - 2372
+  - 2389
+  sweep: foundations-C
+- id: donor-advised-fund-sponsor
+  name: Donor-advised fund and its sponsoring organisation
+  applies_to: nonprofit
+  what: |
+    A donor-advised fund is a separately identified fund or account that is maintained and operated by a section 501(c)(3) organisation, called a sponsoring organisation [2373]. Once the donor gives, the sponsoring organisation has legal control of the money, and the donor or the donor's representative keeps advisory privileges over distributions and investments [2373].
+  who_qualifies: The sponsoring organisation is a section 501(c)(3) organisation that maintains the funds; community foundations
+    are among them [2373] [2428].
+  how_decided: Defined in the tax code, as the IRS describes it [2373].
+  for_grant_seekers: A grant from a donor-advised fund starts with the donor's advice, not with an application to the sponsor
+    [2373]. The New York Community Trust tells applicants "We cannot refer you to donors" [2416]. The Greater Kansas City
+    Community Foundation says its donors "make their own decisions regarding which nonprofits they support" and offers a
+    non-profit a report of grants it has received from the foundation's funds since 1994 [2428]. Gifts to donor-advised
+    funds do not qualify for the deduction for non-itemisers that begins with tax year 2026 [2389].
+  opens: []
+  related:
+  - community-foundation
+  - community-foundation-grantmaking-pattern
+  official_url: https://www.irs.gov/charities-non-profits/charitable-organizations/donor-advised-funds
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2373
+  - 2416
+  - 2428
+  - 2389
+  sweep: foundations-C
+- id: corporate-foundation-versus-giving-programme
+  name: Corporate foundation versus corporate giving programme
+  applies_to: nonprofit
+  what: |
+    A company can give in two ways [2408]. A company-sponsored foundation is a private foundation whose assets come mainly from the contributions of a for-profit business, and a corporate giving programme is a grantmaking programme set up and run inside the company itself [2408]. Walmart shows both side by side: its local cash grants are awarded by Walmart U.S. stores, Sam's Clubs and Distribution Centers, while other giving is by Walmart and the Walmart Foundation by invitation [2435] [2433].
+  who_qualifies: The IRS pages read in this sweep do not define a corporate foundation as a class of its own; as a private
+    foundation it falls under the general rule [2237]. The definitions here are Candid's [2408].
+  how_decided: A corporate foundation is a separate legal body that files Form 990-PF; a giving programme is part of the
+    company and files no public return of its own [2408] [2387].
+  for_grant_seekers: 'The corporate funders read in this sweep show a pattern: an open route for small local grants or a
+    fixed annual window, and national grants by invitation [2433] [2441] [2438]. Walmart states "Unsolicited proposals will
+    not be accepted, and invitations are not granted upon request" for everything but its local grants [2433]. Wells Fargo
+    and the Wells Fargo Foundation "have implemented an invitation process" [2441]. Bank of America takes applications in
+    two dated windows a year [2438]. From tax years beginning after December 31, 2025 a corporation may deduct charitable
+    gifts only above 1 percent of taxable income [2392] [2395].'
+  opens: []
+  related:
+  - corporate-charitable-deduction-floor
+  - private-foundation-status
+  official_url: https://candid.org/resources/glossary-nonprofit-terms/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2408
+  - 2435
+  - 2433
+  - 2237
+  - 2387
+  - 2441
+  - 2438
+  - 2392
+  - 2395
+  sweep: foundations-C
+- id: medical-research-organization
+  name: Medical research organisation
+  applies_to: nonprofit
+  what: |
+    A medical research organisation is a public charity whose principal purpose or function is to engage in medical research and that is directly engaged in the continuous active conduct of medical research in conjunction with a hospital [2374]. The IRS lists qualified medical research organisations affiliated with hospitals among the public charities [2238].
+  who_qualifies: An organisation that meets the definition checks line 4 in Part I of Schedule A (Form 990) [2374].
+  how_decided: By the definition in the tax code, reported on Schedule A of Form 990 [2374].
+  for_grant_seekers: A medical research organisation conducts research itself and is a public charity; it states its status
+    on Schedule A of Form 990 and does not file Form 990-PF [2374] [2238].
+  opens: []
+  related:
+  - public-charity-status
+  official_url: https://www.irs.gov/instructions/i990sa
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2374
+  - 2238
+  sweep: foundations-C
+- id: congressionally-chartered-foundation
+  name: Foundation created by Congress beside a federal agency
+  applies_to: nonprofit
+  what: |
+    Congress has set up non-profit foundations that sit beside a federal agency and raise private money for its mission [2448] [2449]. The Foundation for the National Institutes of Health was established by Congress in 1990 [2448]. The CDC Foundation describes itself as an independent non-profit created by Congress [2449]. The National Fish and Wildlife Foundation was created by Congress in 1984 [2452]. The National Park Foundation was chartered by Congress in 1967 [2455].
+  who_qualifies: Each is named in its own statute; the federal forecast for the CDC Foundation's administrative award cites
+    section 399G of the Public Health Service Act, 42 U.S.C. 280e-11 [2451].
+  how_decided: By act of Congress; each describes itself as a 501(c)(3) organisation [2448] [2449] [2452].
+  for_grant_seekers: They differ in whether an outsider can apply [2453] [2450]. The National Fish and Wildlife Foundation
+    awards funding on a competitive basis through posted requests for proposals [2453]. The CDC Foundation sub-grants project
+    money through requests for proposals and states "we do not accept or respond to unsolicited proposals" [2450]. The pages
+    read for the Foundation for the National Institutes of Health and the National Park Foundation describe no grant programme
+    open to outside applicants [2448] [2455].
+  opens: []
+  related:
+  - fnih
+  - cdc-foundation
+  - nfwf
+  - national-park-foundation
+  official_url: https://www.nfwf.org/what-we-do
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2448
+  - 2449
+  - 2450
+  - 2452
+  - 2453
+  - 2455
+  - 2451
+  sweep: foundations-C
+- id: federated-fund
+  name: Federated fund (United Way and similar)
+  applies_to: nonprofit
+  what: |
+    A federated fund is a joint fundraising effort, usually run by a non-profit umbrella organisation, that distributes the money to several non-profits [2408]. United Way is the largest network of this kind named in this sweep: it counts 1,100+ United Ways in more than 30 countries and territories [2456].
+  who_qualifies: Local United Ways are distinct non-profit organisations that develop their own priorities and programmes
+    [2457].
+  how_decided: Each local United Way decides its own funding; United Way Worldwide says most programme funding happens locally
+    [2457].
+  for_grant_seekers: A non-profit seeking United Way money goes to its local United Way, found through the locator by state
+    or zip code, and follows that organisation's own process [2457] [2456].
+  opens: []
+  related:
+  - find-local-united-way
+  official_url: https://www.unitedway.org/find-your-united-way
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2408
+  - 2456
+  - 2457
+  sweep: foundations-C
+- id: giving-circle
+  name: Giving circle
+  applies_to: nonprofit
+  what: |
+    A giving circle is a group of people who pool gifts and decide together where the money goes [2458]. Philanthropy Together, a network for such groups, describes collective giving as groups that "decide together where to give their money, time, and talents" [2458].
+  who_qualifies: No IRS page read in this sweep defines a giving circle; the description is the network's own [2458].
+  how_decided: By each circle's members [2458].
+  for_grant_seekers: Philanthropy Together publishes a directory of circles; whether a circle takes applications is for
+    each circle to say, and the page read does not state a general practice [2458].
+  opens: []
+  related:
+  - giving-circle-directory
+  official_url: https://philanthropytogether.org/directory/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources:
+  - 2458
+  sweep: foundations-C

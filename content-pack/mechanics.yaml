@@ -4902,3 +4902,1847 @@
   - 2020
   - 619
   sweep: rules-C
+- id: foundation-limited-nomination
+  name: Limited nomination by institution (foundation awards)
+  what: Many foundation awards for people cannot be applied for directly. The institution, or a named officer of it, nominates,
+    and the funder caps how many it may put forward. The institution therefore chooses among its own faculty before the
+    funder sees anything [2174] [2175].
+  rule: The cap and the nominator differ by programme and are set on each programme page [2146] [2206] [2149].
+  figures:
+  - label: Pew Scholars in the Biomedical Sciences (2027 award)
+    value: one nominee from each of 212 participating institutions
+    cite:
+    - 2174
+  - label: Packard Fellowships (2026)
+    value: up to two nominations by the president of each of 50 invited institutions
+    cite:
+    - 2149
+  - label: Camille Dreyfus and Henry Dreyfus Teacher-Scholar Awards
+    value: one nomination per institution a year for each programme
+    cite:
+    - 2146
+    - 2147
+  - label: William T. Grant Scholars
+    value: one applicant a year from each major division of an institution
+    cite:
+    - 2206
+  - label: W. M. Keck Foundation Research Program
+    value: up to three applications per institution per cycle, submitted by the designated liaison
+    cite:
+    - 2133
+  - label: Sloan Research Fellowships
+    value: no more than three nominees per fellowship field from one department, each with a letter from a department head
+      or senior researcher
+    cite:
+    - 2125
+  - label: Andrew Carnegie Fellows
+    value: a university president may nominate one tenured and one untenured scholar
+    cite:
+    - 2217
+  - label: No limit and no nomination
+    value: Cottrell Scholar Award; HHMI competitions; Burroughs Wellcome career awards (institutional approval only); Guggenheim
+      Fellowships
+    cite:
+    - 2141
+    - 2162
+    - 2167
+    - 2225
+  applies_to: Faculty and postdoctoral researchers at universities, and at research institutes where the programme admits
+    them; research offices that run the internal selection [2175] [2134].
+  pending_changes: []
+  related:
+  - limited-submission-capacity-programmes
+  - nsf-limited-submission-people
+  - foundation-invited-nominating-institution
+  - institutional-limited-submission-process
+  official_url: https://www.pew.org/en/projects/pew-biomedical-scholars/program-details
+  sources:
+  - 2174
+  - 2175
+  - 2149
+  - 2146
+  - 2147
+  - 2206
+  - 2133
+  - 2134
+  - 2125
+  - 2217
+  - 2141
+  - 2162
+  - 2167
+  - 2225
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: foundation-indirect-cost-caps
+  name: Foundation indirect-cost caps
+  what: A foundation does not pay a university's federally negotiated indirect-cost rate. Each sets its own limit, often
+    a flat percentage of direct costs, sometimes nothing, and the limit can differ between programmes of one foundation
+    [2120] [2133] [2194] [2195]. Some state the limit as a share of the whole award rather than of direct costs, and some
+    exclude equipment, tuition or subcontracts from the base [2219] [2174] [2120] [2129].
+  rule: 'The rule is whatever the foundation''s own policy or programme page says; there is no common rule [2129] [2156].
+    Two universities'' published policies show what an institution does with the gap: both accept a non-profit sponsor''s
+    published, uniformly applied rate without a waiver, with the published policy filed as documentation [2240] [2241].
+    One tells investigators to budget costs normally treated as indirect "as direct costs wherever possible"; the other
+    says "F&A waivers may not be used to supplement direct costs" [2240] [2241].'
+  figures:
+  - label: W. M. Keck Foundation Research Program
+    value: none; the institution waives indirect costs as in-kind support
+    cite:
+    - 2133
+  - label: Sloan Research Fellowships; Cottrell Scholar Award; Dreyfus Teacher-Scholar Awards; Burroughs Wellcome CASI;
+      Spencer small grants; Mellon New Directions Fellowships
+    value: none
+    cite:
+    - 2125
+    - 2141
+    - 2146
+    - 2168
+    - 2194
+    - 2212
+  - label: William T. Grant Scholars
+    value: up to 7.5%, inside the award
+    cite:
+    - 2206
+  - label: Pew Scholars
+    value: not more than 8 percent ($24,000) of the total award
+    cite:
+    - 2174
+  - label: Packard Fellowships
+    value: $17,500 of each year's $175,000
+    cite:
+    - 2149
+  - label: American Heart Association Career Development Award; American Cancer Society (most grants)
+    value: 10%
+    cite:
+    - 2188
+    - 2190
+  - label: Gordon and Betty Moore Foundation
+    value: 12.5 percent of direct costs, with exclusions
+    cite:
+    - 2129
+  - label: John Templeton Foundation
+    value: no more than fifteen percent (15%)
+    cite:
+    - 2156
+  - label: Spencer large grants and research-practice partnerships; William T. Grant research grants
+    value: 15 percent
+    cite:
+    - 2195
+    - 2196
+    - 2207
+  - label: Russell Sage Foundation
+    value: up to 15% on grants over $75,000 only
+    cite:
+    - 2202
+  - label: Simons Foundation
+    value: 20 percent of direct costs, excluding equipment over $10,000, tuition and subcontract amounts above $25,000
+    cite:
+    - 2120
+  - label: Alfred P. Sloan Foundation project grants
+    value: none at $50,000 or less; up to 20 percent of direct project costs above that
+    cite:
+    - 2234
+  - label: Henry Luce Foundation
+    value: up to 20% of the total grant amount
+    cite:
+    - 2219
+  - label: Helmsley Charitable Trust
+    value: up to 20% of direct project costs for organisations with budgets under $5 million; up to 10% over $5 million
+    cite:
+    - 2185
+  applies_to: Any applicant to a foundation; the size of the gap matters most to institutions with a high negotiated federal
+    rate [2240].
+  pending_changes: []
+  related:
+  - indirect-costs-facilities-and-administrative
+  - negotiated-indirect-cost-rate
+  - indirect-cost-rate-caps-2025
+  - de-minimis-indirect-rate
+  - modified-total-direct-costs
+  official_url: https://www.simonsfoundation.org/funding-opportunities/policies-and-procedures/
+  sources:
+  - 2120
+  - 2133
+  - 2194
+  - 2195
+  - 2196
+  - 2219
+  - 2174
+  - 2129
+  - 2156
+  - 2240
+  - 2241
+  - 2125
+  - 2234
+  - 2141
+  - 2146
+  - 2168
+  - 2212
+  - 2206
+  - 2207
+  - 2149
+  - 2188
+  - 2190
+  - 2202
+  - 2185
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: foundation-letter-of-inquiry
+  name: Letters of inquiry and phased foundation applications
+  what: 'Most foundations that take requests from outside do so in two steps. The first is short: a letter of inquiry (LOI),
+    also called a letter of intent, concept note, pre-proposal, expression of interest or online funding inquiry. The foundation
+    reads it and invites a full proposal from some applicants; a full proposal sent without an invitation is not read [2124]
+    [2216] [2154] [2219].'
+  rule: 'Form, length, deadline and reply time are set by each foundation [2124] [2155] [2201]. At some foundations the
+    first step can itself win a small grant: the William T. Grant Foundation awards its Officers'' research grants "on the
+    merit of the letter of inquiry alone" [2207]. At others the door is narrower than a letter: the Moore Foundation accepts
+    only "a brief, ~100-word email", and several foundations take no unsolicited approach at all [2128] [2184] [2138].'
+  figures:
+  - label: Sloan Foundation
+    value: letter of inquiry by email to the programme director; reply can take up to 8 weeks
+    cite:
+    - 2124
+  - label: Henry Luce Foundation
+    value: Concept Note in the portal; confirmation within 8 weeks; board in March, June and November
+    cite:
+    - 2219
+  - label: John Templeton Foundation
+    value: Online Funding Inquiry once a year (July 15, 2026); full proposals due December 4, 2026; decisions by July 9,
+      2027
+    cite:
+    - 2155
+  - label: Russell Sage Foundation
+    value: three LOI deadlines a year; invited proposal about three to four months later; decision about four months after
+      that
+    cite:
+    - 2201
+  - label: Doris Duke Foundation
+    value: letter of inquiry answered within two months; "Very few grants result from unsolicited letters of inquiry"
+    cite:
+    - 2178
+  - label: Simons Collaborations
+    value: letter of intent October 29, 2026; full proposal February 24, 2027; start January 1, 2028
+    cite:
+    - 2121
+  - label: Burroughs Wellcome CASI
+    value: Letter of Intent Aug 14, 2026; full application January 11, 2027
+    cite:
+    - 2168
+  - label: W. M. Keck Foundation
+    value: no first-stage consultation any longer; one application per cycle through the liaison
+    cite:
+    - 2133
+  applies_to: Applicants to foundations that accept approaches from outside [2216].
+  pending_changes: []
+  related:
+  - letter-of-intent
+  - pre-application
+  - white-paper
+  - invited-to-apply-notice
+  official_url: https://sloan.org/grants/apply
+  sources:
+  - 2121
+  - 2124
+  - 2128
+  - 2133
+  - 2138
+  - 2154
+  - 2155
+  - 2168
+  - 2178
+  - 2184
+  - 2201
+  - 2207
+  - 2216
+  - 2219
+  - 2269
+  - 2277
+  - 2321
+  - 2323
+  - 2324
+  - 2336
+  as_of: '2026-10-04'
+  sweep: foundations-A
+  variants:
+  - what: A letter of inquiry is a short first request that a foundation reads before deciding whether to invite a full
+      proposal. Three funders in this slice take one at any time [2269] [2277] [2323].
+    rule: 'Kellogg: the applicant registers in the Fluxx portal and submits a letter of inquiry; the foundation decides
+      within 30 business days and reviews an invited proposal within 60 business days [2269]. Lilly Endowment: a preliminary
+      letter of no more than two pages, sent by mail; review generally takes three to six months [2277]. Commonwealth Fund:
+      letters are taken on a rolling basis in the online portal and usually answered within six weeks [2323] [2324]. Some
+      calls for proposals use the same two steps under other names: Arnold Ventures asks for a letter of interest and RWJF
+      for a brief or phase 1 proposal [2321] [2336].'
+    figures:
+    - label: 'Kellogg: decision on a letter of inquiry'
+      value: within 30 business days
+      cite:
+      - 2269
+    - label: 'Kellogg: review of an invited proposal'
+      value: within 60 business days
+      cite:
+      - 2269
+    - label: 'Lilly Endowment: length of preliminary letter'
+      value: no more than two pages
+      cite:
+      - 2277
+    - label: 'Lilly Endowment: review time'
+      value: generally three to six months
+      cite:
+      - 2277
+    - label: 'Commonwealth Fund: answer to a letter of inquiry'
+      value: usually within six weeks
+      cite:
+      - 2323
+    applies_to: Kellogg, Lilly Endowment and the Commonwealth Fund [2269] [2277] [2323].
+    pending_changes: []
+    related:
+    - letter-of-intent
+    - foundation-invitation-only-grantmaking
+    sources:
+    - 2269
+    - 2277
+    - 2323
+    - 2324
+    - 2321
+    - 2336
+    sweep: foundations-B
+- id: private-foundation-public-charity-medical-research-organization
+  name: Private foundation, public charity that funds research, and medical research organization
+  what: Three kinds of private body pay for research in this slice, and the tax law classes them differently. A private
+    foundation is the default class for a 501(c)(3) organisation; it files Form 990-PF and must distribute income each year
+    [2237]. A public charity is an organisation outside that class, for example one with an active programme of fundraising
+    and contributions from many sources [2238]. A medical research organization conducts medical research itself, in conjunction
+    with a hospital, and is listed by the IRS among public charities [2238] [2239].
+  rule: 'The IRS states the default: every organization exempt under section 501(c)(3) "is a private foundation unless it
+    falls into one of the categories specifically excluded" [2237]. A private foundation files Form 990-PF each year, pays
+    an excise tax on net investment income and is bound by rules on self-dealing, annual distribution, business holdings
+    and expenditures [2237]. Public charities include hospitals, "qualified medical research organizations affiliated with
+    hospitals", schools, colleges and universities, and organisations that "have an active program of fundraising and receive
+    contributions from many sources" [2238]. Under 26 CFR 1.170A-9(d)(2) a medical research organization must be organized
+    for the principal purpose of engaging primarily in the conduct of medical research, and meets the test if it devotes
+    more than one half of its assets to that research or spends 3.5 percent or more of the fair market value of its endowment
+    on it [2239].'
+  figures:
+  - label: 'medical research organization: asset test'
+    value: more than one half of its assets devoted to the continuous active conduct of medical research
+    cite:
+    - 2239
+  - label: 'medical research organization: spending test'
+    value: 3.5 percent or more of the fair market value of its endowment
+    cite:
+    - 2239
+  - label: return filed by a private foundation
+    value: Form 990-PF
+    cite:
+    - 2237
+  applies_to: 'In this slice: private foundations that file Form 990-PF include Simons, Sloan, Moore, Keck, Kavli, Templeton,
+    Burroughs Wellcome, Helmsley, Spencer, Russell Sage, William T. Grant, Mellon, Carnegie, Luce and Guggenheim [2123]
+    [2126] [2132] [2136] [2139] [2157] [2169] [2186] [2199] [2204] [2208] [2215] [2218] [2221] [2226]. The American Heart
+    Association, the American Cancer Society and The Pew Charitable Trusts file Form 990 [2189] [2192] [2176]. HHMI files
+    Form 990 and calls itself "a medical research organization"; it employs its Investigators rather than awarding them
+    grants [2164] [2160] [2161]. The Chan Zuckerberg Initiative gives through four entities, one of them a private foundation
+    and one a limited liability company [2171].'
+  pending_changes: []
+  related:
+  - public-charity-status
+  - section-501c3-organization
+  - recognition-of-exemption-501c3
+  - annual-form-990-filing
+  official_url: https://www.irs.gov/charities-non-profits/charitable-organizations/private-foundations
+  sources:
+  - 2237
+  - 2238
+  - 2239
+  - 2123
+  - 2126
+  - 2132
+  - 2136
+  - 2139
+  - 2157
+  - 2169
+  - 2186
+  - 2199
+  - 2204
+  - 2208
+  - 2215
+  - 2218
+  - 2221
+  - 2226
+  - 2189
+  - 2192
+  - 2176
+  - 2164
+  - 2160
+  - 2161
+  - 2171
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: foundation-award-to-institution-or-person
+  name: 'Who receives a foundation award: the institution, the person, or neither'
+  what: 'Three arrangements appear in this slice. Most awards are made to the institution on behalf of a named researcher
+    [2165] [2173]. A few are paid to the person, with no institution involved [2225]. HHMI makes no award at all: it hires
+    the scientist, who stays at the host institution [2161].'
+  rule: The Burroughs Wellcome Fund states that "most awards are made to degree-granting institutions in the United States
+    and Canada on behalf of individual researchers" [2165]. The Guggenheim Foundation supports "individuals, not institutions
+    or organizations" [2225]. HHMI Investigators "are HHMI employees who receive full salary and benefits from the Institute
+    while maintaining academic appointments and labs at their home institutions" [2161].
+  applies_to: Researchers choosing between programmes, and research offices, which administer the first kind only [2165].
+  pending_changes: []
+  related:
+  - institution-applies-for-named-person
+  - nsf-fellowship-to-individual-or-institution
+  official_url: https://www.bwfund.org/funding-opportunities/
+  sources:
+  - 2165
+  - 2173
+  - 2225
+  - 2161
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: foundation-invitation-only-grantmaking
+  name: Invitation-only grantmaking
+  what: Most of the large national foundations in this slice do not take proposals from organisations they have not approached.
+    Staff find organisations themselves and invite a proposal [2210] [2300] [2304].
+  rule: 'Each foundation states the rule in its own words. Ford: ''We do not accept any unsolicited grant proposals by mail,
+    email or phone.'' [2259]. Annie E. Casey: it ''does not accept or review unsolicited proposals'' [2300]. Walton, Rockefeller
+    and Hilton say the same in one sentence each [2288] [2290] [2302]. Wallace: ''We do not fund over-the-transom requests
+    for grants.'' [2304]. Mott has not accepted unsolicited letters of inquiry or proposals since January 2025 [2298]. Gates
+    says it invites proposals ''by directly contacting organizations'' [2251].'
+  figures:
+  - label: 'Packard: share of grants that come from unsolicited proposals'
+    value: less than one percent
+    cite:
+    - 2283
+  - label: 'Packard: share of grants awarded to first-time grantees'
+    value: about 15 percent
+    cite:
+    - 2283
+  - label: funder records in this slice marked invitation-only
+    value: 17 of 25
+    cite:
+    - 2259
+    - 2298
+    - 2307
+  applies_to: Gates, Ford, MacArthur, Kresge, Hewlett, Packard, Bloomberg, Walton, Rockefeller, Open Society, Mott, Annie
+    E. Casey, Hilton, Mellon, Wallace, Surdna and Yield Giving, each with the exceptions its own page gives [2251] [2259]
+    [2264] [2273] [2280] [2283] [2286] [2288] [2290] [2292] [2298] [2300] [2302] [2210] [2304] [2307] [2317].
+  pending_changes: []
+  related:
+  - foundation-relationship-before-invitation
+  - foundation-open-calls-and-requests-for-proposals
+  - foundation-letter-of-inquiry
+  official_url: https://www.fordfoundation.org/work/our-grants/
+  sources:
+  - 2259
+  - 2300
+  - 2288
+  - 2290
+  - 2302
+  - 2304
+  - 2298
+  - 2251
+  - 2283
+  - 2210
+  - 2307
+  - 2264
+  - 2273
+  - 2280
+  - 2286
+  - 2292
+  - 2317
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-relationship-before-invitation
+  name: How a relationship with a foundation begins, as the foundations describe it
+  what: Invitation-only foundations say that an invitation follows from staff coming to know an organisation's work. A few
+    name a first contact an outsider may make; most name none [2210] [2307] [2348].
+  rule: 'Mellon: ''Our staff seek out and get to know innovative organizations, scholars, and creators before inviting them
+    to submit a proposal'' [2210]. Surdna says its staff build long-term relationships with organisations and that an invitation
+    to apply may follow [2307]. Knight says funding ''typically emerges through relationships, research and ongoing work''
+    [2296]. Ford says its programme teams ''seek out people and organizations'', and takes ideas through a short online
+    form that is not a proposal [2261] [2259]. Kresge takes introductions through its contact form and aims to answer within
+    three business days [2348]. Woodruff asks for an informal email inquiry before an application [2313]. Yield Giving does
+    not invite messages suggesting candidates [2317].'
+  figures:
+  - label: 'Kresge: time to answer a contact-form inquiry'
+    value: within three business days (aim)
+    cite:
+    - 2348
+  applies_to: Organisations with no grant history at the foundation concerned [2307] [2348].
+  pending_changes: []
+  related:
+  - foundation-invitation-only-grantmaking
+  official_url: https://www.mellon.org/resources
+  sources:
+  - 2210
+  - 2307
+  - 2296
+  - 2261
+  - 2259
+  - 2348
+  - 2313
+  - 2317
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-open-calls-and-requests-for-proposals
+  name: Foundation open calls and requests for proposals
+  what: An open call or request for proposals is a route that an invitation-only foundation opens to organisations it has
+    not approached. Each has its own page, dates and eligibility rule, and several foundations had none open on 2026-10-04
+    [2274] [2283] [2349].
+  rule: 'Foundations post open calls on a dedicated page: Kresge''s current funding opportunities, Packard''s funding opportunities,
+    Wallace''s requests for proposals, RWJF''s active funding opportunities, Arnold Ventures'' grants page, the Gates portals
+    [2274] [2283] [2349] [2335] [2318] [2250]. Bloomberg Philanthropies announces grant competitions on its website [2286].
+    Mellon and Hewlett issue open calls occasionally [2210] [2280].'
+  figures:
+  - label: 'open on 2026-10-04: Kresge'
+    value: none
+    cite:
+    - 2274
+  - label: 'open on 2026-10-04: Packard'
+    value: none
+    cite:
+    - 2283
+  - label: 'open on 2026-10-04: Wallace'
+    value: none
+    cite:
+    - 2349
+  - label: 'open on 2026-10-04: Gates United States programme'
+    value: none listed
+    cite:
+    - 2256
+  - label: 'open on 2026-10-04: Arnold Ventures'
+    value: two requests for proposals
+    cite:
+    - 2318
+  applies_to: Any organisation that meets the call's own eligibility rule [2321] [2355].
+  pending_changes: []
+  related:
+  - foundation-invitation-only-grantmaking
+  official_url: https://kresge.org/grants-social-investments/current-funding-opportunities/
+  sources:
+  - 2274
+  - 2283
+  - 2349
+  - 2335
+  - 2318
+  - 2250
+  - 2256
+  - 2286
+  - 2210
+  - 2280
+  - 2321
+  - 2355
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: general-operating-support-and-project-support
+  name: General operating support and project support
+  what: Foundations make two main kinds of grant. General operating support pays for an organisation's work as a whole;
+    project support pays for one named piece of work with its own budget [2261].
+  rule: 'Ford defines general operating support as funds for day-to-day work, often as multi-year commitments, and project
+    support as funds for distinct initiatives that are ''usually time-bound, and aimed at achieving specific goals'' [2261].
+    Hewlett says it ''Provides long-term, general operating support whenever possible'' [2280]. Open Society gives both
+    project grants and general operating support ''that cover the day-to-day costs of operations'' [2293]. Yield Giving''s
+    gifts are for recipients ''to use as they see fit'' [2315]. Some funders prefer the other kind: Woodruff says ''Most
+    grants support one-time needs rather than ongoing program or operating needs'', and the Commonwealth Fund does not fund
+    ongoing activities [2313] [2324]. Ford''s and MacArthur''s indirect cost rates apply to project grants and not to general
+    operating support [2332] [2265].'
+  figures:
+  - label: 'Ford: share of grantmaking made as general or core support (reported November 2022)'
+    value: 81%, up from 36%
+    cite:
+    - 2333
+  - label: 'Packard: multi-year unrestricted support, 2025'
+    value: 40 percent
+    cite:
+    - 2342
+  - label: Ford BUILD grant
+    value: five years of general operating support with organisational strengthening support
+    cite:
+    - 2262
+  applies_to: Grants from the private foundations named [2261].
+  pending_changes: []
+  related:
+  - foundation-indirect-cost-policies
+  - foundation-multi-year-grants
+  official_url: https://www.fordfoundation.org/work/our-grants/how-we-make-grants/
+  sources:
+  - 2261
+  - 2280
+  - 2293
+  - 2315
+  - 2313
+  - 2324
+  - 2332
+  - 2265
+  - 2333
+  - 2342
+  - 2262
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-multi-year-grants
+  name: Multi-year foundation grants
+  what: A multi-year grant commits a foundation to an organisation for more than one year in a single award. Several foundations
+    in this slice describe it as their usual or preferred form; others state shorter terms [2261] [2324].
+  rule: Ford's general operating support often comes as multi-year commitments, and a BUILD grant runs five years [2261]
+    [2262]. Hewlett gives long-term support whenever possible [2280]. MacArthur describes its grants as 'generally long-term,
+    strategic investments' [2264]. Surdna's listed grants run 12 to 36 months [2306]. The Commonwealth Fund's average grant
+    runs 12 months [2324].
+  figures:
+  - label: Ford BUILD term
+    value: five years
+    cite:
+    - 2262
+  - label: Surdna grant terms in its listing
+    value: 12 to 36 months
+    cite:
+    - 2306
+  - label: Commonwealth Fund average duration
+    value: 12 months
+    cite:
+    - 2324
+  - label: 'Packard: multi-year unrestricted support, 2025'
+    value: 40 percent
+    cite:
+    - 2342
+  applies_to: Grants from the private foundations named [2261].
+  pending_changes: []
+  related:
+  - general-operating-support-and-project-support
+  official_url: https://www.fordfoundation.org/work/our-grants/how-we-make-grants/
+  sources:
+  - 2261
+  - 2262
+  - 2280
+  - 2264
+  - 2306
+  - 2324
+  - 2342
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-indirect-cost-policies
+  name: Foundation indirect cost policies
+  what: Each foundation sets its own rule for overhead on a project grant, and the rules read here differ in kind. Some
+    set a ceiling, some a floor, one a single flat rate, and one no rate at all [2257] [2332] [2265] [2280].
+  rule: Gates caps indirect costs by type of organisation, on budgeted total direct costs [2257]. Ford sets a minimum of
+    25 percent on project grants and accepts a rate documented by a federal negotiated agreement, another funder or the
+    grantee's own calculation [2332]. MacArthur adds a flat 29 percent to project costs [2265]. Packard pays a tiered minimum
+    by the grantee's budget size [2341]. The Commonwealth Fund allows up to 20 percent of total direct costs, leaving consultants,
+    contractors and sub-awards out of the base [2361]. Hewlett uses no fixed rate and expects the budget to show actual
+    indirect costs [2280]. RWJF's rate varies by type of organisation [2336]. The rates do not apply to general operating
+    support [2332] [2265].
+  figures:
+  - label: 'Gates: U.S. universities and community colleges'
+    value: up to 10% of budgeted total direct costs
+    cite:
+    - 2257
+  - label: 'Gates: non-governmental and non-profit organisations; non-U.S. universities'
+    value: up to 15%
+    cite:
+    - 2257
+  - label: 'Gates: government entities'
+    value: 0%
+    cite:
+    - 2257
+  - label: 'Gates: for-profit entities'
+    value: 0-15%
+    cite:
+    - 2257
+  - label: 'Ford: minimum on project grants from January 1, 2023'
+    value: 25%
+    cite:
+    - 2332
+  - label: 'MacArthur: project grants to non-profit organisations'
+    value: 29% of project costs
+    cite:
+    - 2265
+  - label: 'Packard: grantee budget under $5 million'
+    value: 25%
+    cite:
+    - 2341
+  - label: 'Packard: grantee budget $5-50 million'
+    value: 20%
+    cite:
+    - 2341
+  - label: 'Packard: grantee budget over $50 million'
+    value: 15%
+    cite:
+    - 2341
+  - label: Commonwealth Fund
+    value: up to 20% of total direct costs
+    cite:
+    - 2361
+  applies_to: Project grants from the foundation concerned. Gates's maximum for U.S. universities and community colleges
+    is 10 percent of budgeted total direct costs [2257].
+  pending_changes: []
+  related:
+  - indirect-costs-facilities-and-administrative
+  - negotiated-indirect-cost-rate
+  - de-minimis-indirect-rate
+  - general-operating-support-and-project-support
+  official_url: https://www.macfound.org/about/our-policies/indirect-cost-policy
+  sources:
+  - 2257
+  - 2332
+  - 2333
+  - 2265
+  - 2341
+  - 2361
+  - 2280
+  - 2336
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-reporting-expectations
+  name: Reporting on a foundation grant
+  what: A foundation grant carries reporting duties that are set in the grant agreement, not in a common rule. The foundations
+    read here describe narrative and financial reports and, in some cases, visits [2348] [2360] [2261].
+  rule: 'Kresge: ''Program officers determine the reporting requirements for their grantees, often in consultation with
+    the organization receiving the funding''; most grants require narrative updates and financial reports at set intervals
+    [2348]. Commonwealth Fund: requirements are listed in the Payment and Reporting Schedule that is part of each grant
+    agreement, and the Fund posts guidelines for interim and final narrative reports and a financial report template [2360].
+    Ford monitors grants through ''visits, convenings, and written reports'' [2261]. Yield Giving''s gifts are for use as
+    the recipient chooses, and its pages state no reporting requirement [2316].'
+  figures: []
+  applies_to: Grantees of the foundation concerned, under the terms of each grant agreement [2360].
+  pending_changes: []
+  related:
+  - reporting-and-record-retention
+  official_url: https://www.commonwealthfund.org/applicant-and-grantee-resources
+  sources:
+  - 2348
+  - 2360
+  - 2261
+  - 2316
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: trust-based-grantmaking-practices
+  name: '"Trust-based" and flexible grantmaking practices, where a foundation states them'
+  what: 'Some foundations state commitments about how they treat grantees: fewer conditions on money, less paperwork, clearer
+    communication. The wording and the commitments differ by foundation [2326] [2330] [2315].'
+  rule: MacArthur committed in February 2025 to 'Where possible, use flexible, trust-based models for our charitable gifts'
+    [2326]. Yield Giving says it is 'named after a belief in adding value by giving up control', and its gifts are for recipients
+    to use as they see fit [2315]. Gates makes three commitments to grantees, on quality interactions, clear and consistent
+    communications, and feedback, and tells a grantee who will decide on its grant and when [2330]. Packard reported that
+    40 percent of its 2025 support was multi-year and unrestricted and described 'longer, more flexible funding' [2342].
+    Hewlett gives general operating support whenever possible [2280].
+  figures:
+  - label: 'Packard: multi-year unrestricted support, 2025'
+    value: 40 percent
+    cite:
+    - 2342
+  applies_to: The foundation that makes the statement; none of these is a rule across foundations [2326] [2330].
+  pending_changes: []
+  related:
+  - general-operating-support-and-project-support
+  - foundation-reporting-expectations
+  official_url: https://www.macfound.org/press/perspectives/supporting-civil-society-in-need-with-increased-giving
+  sources:
+  - 2326
+  - 2315
+  - 2330
+  - 2342
+  - 2280
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-payout-rate
+  name: Foundation payout rate
+  what: Payout is the share of its assets that a private foundation spends for charitable purposes in a year. Several announcements
+    in 2025 and 2026 were stated as payout rates [2326] [2327].
+  rule: MacArthur's February 2025 statement refers to the 5 percent minimum that the law requires and raises its own baseline
+    to 6 percent [2326]. It later reported a 2025 rate of 7.1 percent, extended the 6 percent commitment through 2028, and
+    said it intends then to revert to a target of 5.25 percent [2327] [2328]. Gates states its plan as an annual payout
+    in dollars, $9 billion for 2026, on the way to closing in 2045 [2329]. The statute and Treasury rule behind the 5 percent
+    minimum were not read in this sweep [2326]. Of the foundations in this slice, MacArthur is the only one found to have
+    announced a higher payout rate on its own pages; a Candid post of July 6, 2026 on payout names no other foundation [2365]
+    [2326].
+  figures:
+  - label: minimum payout, as MacArthur describes the legal requirement
+    value: 5 percent
+    cite:
+    - 2326
+  - label: MacArthur baseline, 2025 through 2028
+    value: 6 percent
+    cite:
+    - 2326
+    - 2328
+  - label: MacArthur actual, 2025 (estimated)
+    value: 7.1 percent; $647 million
+    cite:
+    - 2327
+  - label: MacArthur intended target after 2028
+    value: 5.25 percent
+    cite:
+    - 2328
+  - label: Gates annual payout, 2026
+    value: $9 billion
+    cite:
+    - 2329
+  applies_to: Private foundations [2326].
+  pending_changes:
+  - status: announced
+    date: '2026-09-02'
+    text: MacArthur's 6 percent payout runs through 2028 [2328].
+  related:
+  - foundation-spend-down
+  official_url: https://www.macfound.org/press/perspectives/increasing-our-charitable-giving-through-2028
+  sources:
+  - 2326
+  - 2327
+  - 2328
+  - 2329
+  - 2365
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-spend-down
+  name: 'Spend-down: a foundation with an end date'
+  what: A foundation that spends down sets a date by which it will have given away its assets and closed. One foundation
+    in this slice has announced a date [2252].
+  rule: The Gates Foundation announced on May 8, 2025 that it will spend more than $200 billion over twenty years and close
+    in 2045; its earlier plan was to close 20 years after Bill Gates's death [2252]. Its January 2026 release sets a $9
+    billion payout for 2026 and a cap on operating expenses 'Through Closure in 2045' [2329].
+  figures:
+  - label: 'Gates: planned spending 2025 to 2045'
+    value: more than $200 billion
+    cite:
+    - 2252
+  - label: 'Gates: closure'
+    value: '2045'
+    cite:
+    - 2252
+    - 2329
+  applies_to: The Gates Foundation; no other foundation in this slice was found to have announced an end date [2252].
+  pending_changes:
+  - status: announced
+    date: '2025-05-08'
+    text: Closure of the Gates Foundation in 2045 [2252].
+  related:
+  - foundation-payout-rate
+  official_url: https://www.gatesfoundation.org/ideas/media-center/press-releases/2025/05/25th-anniversary-announcement
+  sources:
+  - 2252
+  - 2329
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: where-foundations-publish-grants
+  name: Where a foundation publishes what it has funded
+  what: Most of the foundations in this slice publish a searchable list of their grants, and Rockefeller says its complete
+    lists are in its Forms 990-PF [2290]. A list shows each grant's amount, period, focus area and place [2346].
+  rule: Rockefeller says its search tool covers active and past grants for the last five years and that complete lists are
+    in its Forms 990-PF [2290]. Hewlett lists grants after board approval and also gives its data to Candid and the International
+    Aid Transparency Initiative [2281]. Kellogg's list runs from September 2020 [2346]. Mott's covers 20 years and Mellon's
+    goes back to 1969 [2298] [2210]. Gates posts its audited statements in the summer after each year and its 990-PF in
+    the fall [2253]. The 990-PF figures in these records were read from summaries on ProPublica's Nonprofit Explorer [2263].
+  figures:
+  - label: Kellogg grants listed on 2026-10-04
+    value: 4,303 since September 2020
+    cite:
+    - 2346
+  - label: Mellon grants in its database
+    value: more than 20,000 since 1969
+    cite:
+    - 2210
+  applies_to: The foundations named and their grant lists [2290].
+  pending_changes: []
+  related:
+  - irs-tax-exempt-organization-search
+  - annual-form-990-filing
+  official_url: https://www.rockefellerfoundation.org/grants/
+  sources:
+  - 2290
+  - 2281
+  - 2346
+  - 2298
+  - 2210
+  - 2253
+  - 2263
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: foundation-geographic-limits
+  name: Geographic limits on foundation grants
+  what: Several of the large foundations in this slice give only, or first, in named places. Two fund a single state or
+    pair of states; others name priority places or a home region [2309] [2313] [2277] [2269].
+  rule: The Duke Endowment funds organisations in North Carolina and South Carolina only [2309] [2310]. The Robert W. Woodruff
+    Foundation funds organisations located or operating in Georgia [2313]. Lilly Endowment gives priority to Indianapolis
+    and Indiana and funds nationally mainly in religion and higher education [2277]. Kellogg names priority places, which
+    received 58 percent of new commitments in its 2024 fiscal year [2269] [2345]. Knight's community funding goes to 26
+    named communities [2296]. Walton has a home-region programme for Northwest Arkansas and the Arkansas-Mississippi Delta
+    [2351]. Annie E. Casey does not fund projects outside the United States [2300].
+  figures:
+  - label: 'Kellogg: share of new commitments benefiting priority places, fiscal year ending August 31, 2024'
+    value: 58%
+    cite:
+    - 2345
+  - label: Knight communities
+    value: '26'
+    cite:
+    - 2296
+  applies_to: Applicants to the foundations named [2309] [2313].
+  pending_changes: []
+  related:
+  - knight-community
+  - duke-endowment-eligible-organisation
+  - kellogg-priority-place
+  official_url: https://www.dukeendowment.org/grants
+  sources:
+  - 2309
+  - 2310
+  - 2313
+  - 2277
+  - 2269
+  - 2345
+  - 2296
+  - 2351
+  - 2300
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: minimum-distribution-requirement
+  name: Minimum distribution requirement (the 5 percent payout)
+  what: |
+    A private non-operating foundation must pay out a minimum amount for charitable purposes each year [2375]. The amount starts from the minimum investment return, which is 5 percent of the value of the foundation's assets that are not used for its exempt purposes [2377]. A foundation that fails to pay out the distributable amount in time owes an excise tax under section 4942 [2375].
+  rule: Internal Revenue Code section 4942 [2375]. The distributable amount equals the minimum investment return reduced
+    by income taxes and the tax on investment income [2376]. The minimum investment return is 5 percent of the excess of
+    the fair market value of assets not used or held for exempt purposes over the debt incurred to buy them [2377]. Private
+    operating foundations are not subject to this tax [2371].
+  figures:
+  - label: minimum investment return
+    value: 5 percent of the excess of the combined fair market value of non-exempt-use assets over acquisition indebtedness
+    cite:
+    - 2377
+  - label: initial tax on undistributed income
+    value: 30 percent
+    cite:
+    - 2375
+  - label: additional tax if not corrected within 90 days of IRS notification
+    value: 100 percent
+    cite:
+    - 2375
+  - label: median payout rate, tax year 2022 (IRS Statistics of Income)
+    value: 5.71%
+    cite:
+    - 2410
+  - label: where it appears on Form 990-PF
+    value: Part IX line 6, "Minimum investment return. Enter 5% (0.05) of line 5"; Part X, Distributable Amount; Part XI,
+      Qualifying Distributions; Part XII, Undistributed Income
+    cite:
+    - 2387
+    - 2388
+  applies_to: Private foundations other than private operating foundations [2375] [2371].
+  pending_changes: []
+  related:
+  - private-nonoperating-foundation
+  - private-operating-foundation
+  - excise-tax-on-net-investment-income
+  - form-990-pf-part-by-part
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/taxes-on-failure-to-distribute-income-private-foundations
+  as_of: '2026-10-04'
+  sources:
+  - 2375
+  - 2376
+  - 2377
+  - 2371
+  - 2410
+  - 2387
+  - 2388
+  sweep: foundations-C
+- id: excise-tax-on-net-investment-income
+  name: Private foundation excise tax on net investment income
+  what: |
+    A private foundation pays a yearly excise tax on its net investment income under section 4940 [2378]. The rate is 1.39 percent, and the tax reduces the amount the foundation must distribute [2378] [2376].
+  rule: Internal Revenue Code section 4940 [2378]. For tax years beginning after Dec. 20, 2019 the tax is 1.39% of net investment
+    income, with no reduced rate [2378]. The 2025 Form 990-PF computes it in Part V at 1.39% (0.0139) of Part I, line 27b
+    [2387]. Private operating foundations also pay it [2371].
+  figures:
+  - label: rate, tax years beginning after Dec. 20, 2019
+    value: 1.39% of net investment income
+    cite:
+    - 2378
+  - label: rate, tax years beginning on or before Dec. 20, 2019
+    value: 2 percent, reduced to 1 percent in certain cases
+    cite:
+    - 2378
+  applies_to: Domestic private foundations, including operating foundations [2378] [2371].
+  pending_changes:
+  - status: enacted
+    date: '2025-07-04'
+    text: Public Law 119-21 did not change the section 4940 rate; the IRS page, updated 11-Sep-2026, still gives 1.39% [2378].
+      A law-firm summary says an earlier draft of the bill would have set rates from 1.39 percent to 10 percent and that
+      the provision is not in the enacted law [2395].
+  - status: enacted
+    date: '2025-07-04'
+    text: 'Added by slice D: the Joint Committee on Taxation''s revenue table of May 13, 2025 for the House committee''s
+      substitute lists a provision titled "Increase in rate of tax on net investment income of certain private foundations"
+      [2498]. Its table of July 1, 2025 for the text the Senate passed has no row that mentions private foundations [2497].
+      The rates in the earlier text are given only by the law-firm summary [2395].'
+  related:
+  - minimum-distribution-requirement
+  - endowment-excise-tax
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/tax-on-net-investment-income
+  as_of: '2026-10-04'
+  sources:
+  - 2378
+  - 2376
+  - 2387
+  - 2371
+  - 2395
+  - 2498
+  - 2497
+  sweep: foundations-C
+- id: taxable-expenditures
+  name: Taxable expenditures (what a private foundation may not pay for)
+  what: |
+    Section 4945 taxes a private foundation on certain kinds of spending, called taxable expenditures [2379]. Form 990-PF asks each year whether the foundation paid anything for lobbying, for elections or voter registration, for grants to individuals, for grants to organisations that are not public charities, or for non-charitable purposes [2387].
+  rule: Internal Revenue Code section 4945 [2379]. The initial tax on the foundation is 20 percent of the amount expended,
+    with a further 100 percent if the expenditure is not corrected; a manager's initial tax is five percent, up to $10,000
+    [2379]. The five kinds of expenditure are listed on Form 990-PF, Part VI-B, line 5a [2387].
+  figures:
+  - label: initial tax on the foundation
+    value: 20 percent of the amount expended
+    cite:
+    - 2379
+  - label: additional tax if not corrected
+    value: 100 percent of the amount expended
+    cite:
+    - 2379
+  - label: initial tax on a foundation manager
+    value: five percent of the amount expended, up to a maximum of $10,000
+    cite:
+    - 2379
+  applies_to: Private foundations [2379].
+  pending_changes: []
+  related:
+  - expenditure-responsibility
+  - foundation-grants-to-individuals
+  - foundation-money-lobbying-and-campaign-limits
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/taxes-on-taxable-expenditures-private-foundations
+  as_of: '2026-10-04'
+  sources:
+  - 2379
+  - 2387
+  sweep: foundations-C
+- id: expenditure-responsibility
+  name: Expenditure responsibility
+  what: |
+    When a private foundation makes a grant to an organisation that is not a public charity, the grant is a taxable expenditure unless the foundation exercises expenditure responsibility [2380]. Expenditure responsibility means the foundation makes all reasonable efforts and sets up procedures to see the grant is spent only for its purpose, to get full reports from the grantee, and to report in detail to the IRS [2381].
+  rule: Internal Revenue Code section 4945 [2380]. "A private foundation's grants to organizations are taxable expenditures,
+    unless the recipients are public charities, or the foundation exercises expenditure responsibility" for the grant [2380].
+    For this purpose grants include loans and program-related investments [2380]. The IRS links pages on the pre-grant inquiry,
+    grant terms, record-keeping and a grantor's reliance on a grantee's public charity status [2381].
+  figures: []
+  applies_to: 'A private foundation funding any organisation that is not a public charity [2380]. Walmart''s page gives
+    the foreign case: an organisation outside the United States must show equivalency to a public charity or be funded under
+    expenditure responsibility [2433]. A grant to a public charity needs none of these steps [2380]. Funders read in this
+    sweep require that status: the Bank of America Charitable Foundation requires applicants to be "not classified as a
+    private foundation" [2439], and Walmart limits United States funding to organisations recognised as public charities
+    [2433].'
+  pending_changes: []
+  related:
+  - taxable-expenditures
+  - public-charity-status
+  - fiscally-sponsored-project
+  - private-foundation-status
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/grants-by-private-foundations-expenditure-responsibility
+  as_of: '2026-10-04'
+  sources:
+  - 2380
+  - 2381
+  - 2433
+  - 2439
+  sweep: foundations-C
+- id: foundation-grants-to-individuals
+  name: Private foundation grants to individuals
+  what: |
+    A private foundation may pay a grant to an individual for travel, study or similar purposes only under conditions, or the grant is a taxable expenditure [2382]. The conditions include a selection procedure the IRS approved in advance [2382]. Some funders make no grants to individuals at all [2433].
+  rule: Internal Revenue Code section 4945 [2382]. The grant must be "awarded on an objective and nondiscriminatory basis
+    under a procedure approved in advance by the Service", and must be a scholarship or fellowship for study at an educational
+    institution, a prize or award excludible under section 74(b), or a grant to achieve a specific objective, produce a
+    report or similar product, or improve a literary, artistic, musical, scientific, teaching or similar capacity [2382].
+  figures: []
+  applies_to: 'Private foundations [2382]. The public charities read in this sweep set their own policies: Walmart and the
+    Walmart Foundation award no grants to individuals [2433], and the New York Community Trust and the Cleveland Foundation
+    make no grants to individuals through their competitive programmes [2416] [2425].'
+  pending_changes: []
+  related:
+  - taxable-expenditures
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/grants-to-individuals
+  as_of: '2026-10-04'
+  sources:
+  - 2382
+  - 2433
+  - 2416
+  - 2425
+  sweep: foundations-C
+- id: foundation-money-lobbying-and-campaign-limits
+  name: Foundation money, lobbying and campaign activity
+  what: |
+    A private foundation's spending to influence legislation or the outcome of a public election is a taxable expenditure, and Form 990-PF asks about both each year [2387]. A grant to a public charity that lobbies is still possible under two IRS exceptions [2383] [2384]. Separately, every section 501(c)(3) organisation, grantee and foundation alike, is barred from campaign activity for or against candidates [2385].
+  rule: Internal Revenue Code sections 4945 and 501(c)(3) [2387] [2385]. A general support grant by a private foundation
+    to a public charity "is generally not a taxable expenditure if the grant is not earmarked to be used in an attempt to
+    influence legislation" [2383]. A grant for a specific project is not a taxable expenditure if the foundation's grants
+    for the project in the year do not exceed the amount the grantee budgeted for the project's non-lobbying activities
+    [2384]. All section 501(c)(3) organisations "are absolutely prohibited from directly or indirectly participating in,
+    or intervening in, any political campaign" [2385].
+  figures: []
+  applies_to: Private foundations as grantors and public charities as grantees [2383] [2385].
+  pending_changes: []
+  related:
+  - taxable-expenditures
+  - lobbying-certification
+  official_url: https://www.irs.gov/charities-non-profits/charitable-organizations/general-support-grants-to-public-charities-lobbying-exception
+  as_of: '2026-10-04'
+  sources:
+  - 2387
+  - 2383
+  - 2384
+  - 2385
+  sweep: foundations-C
+- id: self-dealing
+  name: Self-dealing
+  what: |
+    Section 4941 taxes certain transactions, called acts of self-dealing, between a private foundation and its disqualified persons [2386]. The tax falls on the person, at 10 percent of the amount involved, and on a manager who took part, at 5 percent [2386].
+  rule: Internal Revenue Code section 4941 [2386].
+  figures:
+  - label: initial tax on the disqualified person
+    value: 10 percent of the amount involved
+    cite:
+    - 2386
+  - label: initial tax on a participating foundation manager
+    value: 5 percent of the amount involved
+    cite:
+    - 2386
+  - label: additional taxes if not corrected
+    value: 200 percent on the disqualified person; 50 percent on a manager who refuses to agree to correction
+    cite:
+    - 2386
+  applies_to: Private foundations and their disqualified persons [2386].
+  pending_changes: []
+  related:
+  - taxable-expenditures
+  official_url: https://www.irs.gov/charities-non-profits/private-foundations/taxes-on-self-dealing-private-foundations
+  as_of: '2026-10-04'
+  sources:
+  - 2386
+  sweep: foundations-C
+- id: endowment-excise-tax
+  name: Excise tax on private college and university endowments (section 4968)
+  what: |
+    Section 4968 taxes the net investment income of certain private colleges and universities [2390]. Public Law 119-21, enacted July 4, 2025, replaced the single rate with three tiers that rise with the size of the endowment per student [2391] [2390]. The new tiers apply to taxable years beginning after December 31, 2025 [2390].
+  rule: Internal Revenue Code section 4968, as amended by section 70415 of Public Law 119-21 [2390] [2391]. The rate is
+    1.4 percent for an institution with a student adjusted endowment of at least $500,000 and not in excess of $750,000;
+    4 percent above $750,000 and not in excess of $2,000,000; and 8 percent above $2,000,000 [2390]. An applicable educational
+    institution is one that had at least 3,000 tuition-paying students in the preceding taxable year, more than 50 percent
+    of them located in the United States [2390].
+  figures:
+  - label: student adjusted endowment of at least $500,000 and not in excess of $750,000
+    value: 1.4 percent
+    cite:
+    - 2390
+  - label: student adjusted endowment in excess of $750,000 and not in excess of $2,000,000
+    value: 4 percent
+    cite:
+    - 2390
+  - label: student adjusted endowment in excess of $2,000,000
+    value: 8 percent
+    cite:
+    - 2390
+  - label: tuition-paying students in the preceding taxable year
+    value: at least 3,000
+    cite:
+    - 2390
+  - label: effective date
+    value: taxable years beginning after December 31, 2025 (Pub. L. 119-21 section 70415(c))
+    cite:
+    - 2390
+  - label: effective date (Joint Committee on Taxation; added by slice D)
+    value: '"tyba 12/31/25" for the "Modification of excise tax on investment income of certain private colleges and universities";
+      from the revenue table for the text the Senate passed on July 1, 2025'
+    cite:
+    - 2497
+  applies_to: Private colleges and universities that meet the student count and endowment thresholds [2390]. The tax is
+    on the institution's net investment income, not on a grant; it is recorded here because it bears on a university's own
+    funds [2390].
+  pending_changes: []
+  related:
+  - excise-tax-on-net-investment-income
+  official_url: https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section4968&num=0&edition=prelim
+  as_of: '2026-10-04'
+  sources:
+  - 2390
+  - 2391
+  - 2497
+  sweep: foundations-C
+- id: corporate-charitable-deduction-floor
+  name: One percent floor on corporate charitable deductions
+  what: |
+    Public Law 119-21 added a floor to the deduction a corporation may take for charitable gifts [2391]. A corporation's contributions are deductible only to the extent the total exceeds 1 percent of its taxable income, and only up to 10 percent [2392].
+  rule: 'Internal Revenue Code section 170(b)(2)(A), as amended by section 70426 of Public Law 119-21, titled "1-percent
+    floor on deduction of charitable contributions made by corporations" [2391] [2392]. Practitioner sources give the effective
+    date as taxable years beginning after December 31, 2025 [2394] [2395]. Added by slice D: the Joint Committee on Taxation''s
+    revenue table for the bill as the Senate passed it on July 1, 2025 gives the same effective date, taxable years beginning
+    after 12/31/25 [2497].'
+  figures:
+  - label: floor
+    value: 1 percent of the taxpayer's taxable income for the taxable year
+    cite:
+    - 2392
+  - label: ceiling
+    value: 10 percent of the taxpayer's taxable income for the taxable year
+    cite:
+    - 2392
+  - label: effective date (from secondary sources)
+    value: taxable years beginning after December 31, 2025
+    cite:
+    - 2394
+    - 2395
+  - label: effective date (Joint Committee on Taxation; added by slice D)
+    value: '"tyba 12/31/25" for the "1-percent floor on deduction of charitable contributions made by corporations", where
+      "tyba = taxable years beginning after"; from the revenue table for the text the Senate passed on July 1, 2025'
+    cite:
+    - 2497
+  applies_to: Corporations that deduct charitable contributions, which includes a company funding its own foundation or
+    giving programme [2392] [2408].
+  pending_changes: []
+  related:
+  - corporate-foundation-versus-giving-programme
+  - individual-charitable-deduction-changes-2026
+  official_url: https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.htm
+  as_of: '2026-10-04'
+  sources:
+  - 2391
+  - 2392
+  - 2394
+  - 2395
+  - 2408
+  - 2497
+  sweep: foundations-C
+- id: individual-charitable-deduction-changes-2026
+  name: Changes to the individual charitable deduction from 2026
+  what: |
+    Public Law 119-21 changed the charitable deduction for individuals in three ways that matter to organisations that raise gifts [2391]. Individuals who do not itemise may deduct cash gifts up to a fixed amount [2389]. Individuals who do itemise may deduct gifts only above a floor of 0.5 percent of their contribution base [2392]. For taxpayers in the top bracket the value of itemised deductions is reduced [2393].
+  rule: 'Section 70424 of Public Law 119-21: a permanent deduction for non-itemisers of up to $1,000 of cash contributions,
+    $2,000 for married taxpayers filing jointly, for tax year 2026 and forward; contributions to donor-advised funds and
+    supporting organisations do not qualify [2389]. Section 70425, "0.5 percent floor on deduction of contributions made
+    by individuals": contributions are allowed only to the extent the total exceeds 0.5 percent of the contribution base,
+    Internal Revenue Code section 170(b)(1)(I) [2391] [2392]. Section 70111: the overall value of itemised deductions is
+    reduced by 2/37ths for taxpayers with income in the 37% bracket, for tax years starting in tax year 2026 [2393].'
+  figures:
+  - label: non-itemiser deduction, cash gifts
+    value: up to $1,000; $2,000 for married taxpayers filing jointly; tax year 2026 and forward
+    cite:
+    - 2389
+  - label: floor for itemisers
+    value: 0.5 percent of the taxpayer's contribution base for the taxable year
+    cite:
+    - 2392
+  - label: effective date of the 0.5 percent floor (from secondary sources)
+    value: taxable years beginning after December 31, 2025
+    cite:
+    - 2394
+    - 2395
+  - label: effective date of the 0.5 percent floor (Joint Committee on Taxation; added by slice D)
+    value: '"tyba 12/31/25" for the "0.5 percent floor on deduction of contributions made by individuals"; from the revenue
+      table for the text the Senate passed on July 1, 2025'
+    cite:
+    - 2497
+  - label: effective date of the deduction for non-itemisers (Joint Committee on Taxation; added by slice D)
+    value: '"tyba 12/31/25"'
+    cite:
+    - 2497
+  - label: effective date of the credit for gifts to scholarship granting organisations (Joint Committee on Taxation; added
+      by slice D)
+    value: '"tyea 12/31/26"'
+    cite:
+    - 2497
+  - label: reduction in the value of itemised deductions
+    value: 2/37ths, for taxpayers with income in the 37% bracket, from tax year 2026
+    cite:
+    - 2393
+  - label: credit for gifts to scholarship granting organisations
+    value: cash contributions of up to $1,700, effective January 1, 2027
+    cite:
+    - 2389
+  applies_to: Individual donors; it bears on non-profits and universities that raise gifts, and on gifts into donor-advised
+    funds, which are shut out of the non-itemiser deduction [2389].
+  pending_changes:
+  - status: pending-implementation
+    date: '2027-01-01'
+    text: The credit for contributions to scholarship granting organisations (section 70411) takes effect January 1, 2027
+      and depends on state participation and IRS-approved lists [2389].
+  related:
+  - corporate-charitable-deduction-floor
+  - donor-advised-fund-sponsor
+  official_url: https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions
+  as_of: '2026-10-04'
+  sources:
+  - 2389
+  - 2392
+  - 2391
+  - 2393
+  - 2394
+  - 2395
+  - 2497
+  sweep: foundations-C
+- id: section-4960-excess-compensation-tax
+  name: Excise tax on high pay at tax-exempt organisations (section 4960)
+  what: |
+    Section 4960 taxes a tax-exempt organisation on pay above $1 million to a covered employee [2463]. For taxable years beginning after December 31, 2025 a covered employee may be any employee paid more than $1 million in a tax year, where before it was limited to the five highest paid [2463].
+  rule: Internal Revenue Code section 4960, as amended by Public Law 119-21 [2463]. On June 5, 2026 Treasury and the IRS
+    issued Notice 2026-36, stating their intent to propose regulations [2463].
+  figures:
+  - label: compensation threshold
+    value: more than $1 million in a tax year
+    cite:
+    - 2463
+  applies_to: Applicable tax-exempt organisations, as the notice calls them [2463].
+  pending_changes:
+  - status: announced
+    date: '2026-06-05'
+    text: Notice 2026-36 announces proposed regulations to come, expected to include exceptions for limited hours and nonexempt
+      funds [2463].
+  related:
+  - endowment-excise-tax
+  official_url: https://www.irs.gov/newsroom/treasury-irs-announce-intent-to-issue-proposed-regulations-for-excise-tax-on-excess-tax-exempt-organization-executive-compensation-under-the-one-big-beautiful-bill
+  as_of: '2026-10-04'
+  sources:
+  - 2463
+  sweep: foundations-C
+- id: form-990-pf-part-by-part
+  name: Form 990-PF, part by part
+  what: |
+    Form 990-PF is the annual return every private foundation files with the IRS [2388]. It is public: a foundation must make it available for inspection and copying for three years [2461]. The 2025 form has Parts I to XVI [2388]. Four places answer most of a grant seeker's questions: the asset figure on page 1, the grants paid line in Part I, the balance sheet in Part II, and Part XIV, which lists every grant and says whether the foundation takes requests [2387].
+  rule: Filers are exempt private foundations, taxable private foundations, section 4947(a)(1) nonexempt charitable trusts
+    treated as private foundations, and organisations making section 507 terminations [2388]. A 2025 Form 990-PF must be
+    filed electronically [2388].
+  figures:
+  - label: Page 1, item H
+    value: 'type of organisation: section 501(c)(3) exempt private foundation, section 4947(a)(1) nonexempt charitable trust,
+      or other taxable private foundation'
+    cite:
+    - 2387
+  - label: Page 1, item I
+    value: '"Fair market value of all assets at end of year (from Part II, col. (c), line 16)"'
+    cite:
+    - 2387
+  - label: Part I, Analysis of Revenue and Expenses
+    value: line 25 is "Contributions, gifts, grants paid"; column (a) is revenue and expenses per books and column (d) is
+      disbursements for charitable purposes (cash basis only); line 26 is total expenses and disbursements
+    cite:
+    - 2387
+  - label: Part II, Balance Sheets
+    value: line 16 is total assets
+    cite:
+    - 2387
+  - label: Part V, Excise Tax Based on Investment Income
+    value: 1.39% (0.0139) of Part I, line 27b for domestic foundations
+    cite:
+    - 2387
+  - label: Part VI-A, Statements Regarding Activities
+    value: question 13 asks whether the foundation complied with the public inspection requirements for its annual returns
+      and exemption application
+    cite:
+    - 2387
+  - label: Part VI-B, line 5a
+    value: asks whether the foundation paid or incurred any amount for lobbying, elections or voter registration, grants
+      to individuals, grants to organisations other than those described in section 4945(d)(4)(A), or non-charitable purposes
+    cite:
+    - 2387
+  - label: Part VII
+    value: officers, directors, trustees, foundation managers, highly paid employees and contractors
+    cite:
+    - 2388
+  - label: Part VIII-A and VIII-B
+    value: summary of direct charitable activities; summary of program-related investments
+    cite:
+    - 2388
+  - label: Parts IX to XII
+    value: 'minimum investment return (line 6: 5% (0.05) of line 5), distributable amount, qualifying distributions, undistributed
+      income'
+    cite:
+    - 2387
+    - 2388
+  - label: Part XIII
+    value: Private Operating Foundations
+    cite:
+    - 2388
+  - label: Part XIV, Supplementary Information
+    value: line 1, managers who are large contributors; line 2, whether the foundation accepts unsolicited requests and
+      how to apply; line 3, grants and contributions paid during the year (total on line 3a) or approved for future payment
+      (total on line 3b)
+    cite:
+    - 2387
+  - label: Part XIV, line 3 columns
+    value: recipient name and address (home or business); relationship of an individual recipient to any foundation manager
+      or substantial contributor; foundation status of recipient; purpose of grant or contribution; amount
+    cite:
+    - 2387
+  - label: Part I, lines 25 and 26, column (d), in one return (added by slice D)
+    value: the Dreyfus Foundation's return for tax year 2024 shows grants paid of 2,874,967 on line 25 and total disbursements
+      for charitable purposes of 4,644,900 on line 26; the filing host's summary of the same return gives $4,644,900 as
+      charitable disbursements, which is the line 26 amount and not the grants paid on line 25
+    cite:
+    - 2480
+    - 2148
+  - label: Part XIV on the 2023 and 2024 forms (added by slice D)
+    value: Part XIV, Supplementary Information, on both; each form has Parts I to XVI
+    cite:
+    - 2471
+    - 2470
+  - label: Part XIV, line 1 (added by slice D)
+    value: line 1a lists managers who have contributed more than 2% of the total contributions received by the foundation
+      (only if more than $5,000); line 1b lists managers who own 10% or more of the stock of a corporation in which the
+      foundation has a 10% or greater interest
+    cite:
+    - 2387
+  applies_to: Private foundations of every kind; a community foundation or other public charity files Form 990 with Schedule
+    A instead [2388] [2374].
+  pending_changes: []
+  related:
+  - form-990-pf-unsolicited-applications-line
+  - free-foundation-filing-sources
+  - annual-form-990-filing
+  official_url: https://www.irs.gov/pub/irs-pdf/f990pf.pdf
+  as_of: '2026-10-04'
+  sources:
+  - 2387
+  - 2388
+  - 2461
+  - 2374
+  - 2387
+  - 2470
+  - 2471
+  - 2480
+  sweep: foundations-C
+- id: form-990-pf-unsolicited-applications-line
+  name: Where Form 990-PF says whether a foundation accepts unsolicited requests (Part XIV, line 2)
+  what: |
+    On the 2025 Form 990-PF the statement is in Part XIV, Supplementary Information, line 2, headed "Information Regarding Contribution, Grant, Gift, Loan, Scholarship, etc., Programs" [2387]. Line 2 opens with a check box [2387]. A foundation that checks it is saying it gives only to charities it has chosen itself and takes no unsolicited requests [2387]. A foundation that does not check it fills in lines 2a to 2d with the contact, the form of application, the deadlines and the restrictions [2387].
+  rule: 'The form''s wording, line 2: "Check here if the foundation only makes contributions to preselected charitable organizations
+    and does not accept unsolicited requests for funds." [2387]. It continues: "If the foundation makes gifts, grants, etc.,
+    to individuals or organizations under other conditions, complete items 2a, 2b, 2c, and 2d." [2387]. Part XIV carries
+    the header "Complete this part only if the foundation had $5,000 or more in assets at any time during the year" [2387].'
+  figures:
+  - label: Part XIV, line 2, check box
+    value: '"Check here if the foundation only makes contributions to preselected charitable organizations and does not
+      accept unsolicited requests for funds."'
+    cite:
+    - 2387
+  - label: Part XIV, line 2a
+    value: '"The name, address, and telephone number or email address of the person to whom applications should be addressed"'
+    cite:
+    - 2387
+  - label: Part XIV, line 2b
+    value: '"The form in which applications should be submitted and information and materials they should include"'
+    cite:
+    - 2387
+  - label: Part XIV, line 2c
+    value: '"Any submission deadlines"'
+    cite:
+    - 2387
+  - label: Part XIV, line 2d
+    value: '"Any restrictions or limitations on awards, such as by geographical areas, charitable fields, kinds of institutions,
+      or other factors"'
+    cite:
+    - 2387
+  - label: who completes Part XIV
+    value: only a foundation that had $5,000 or more in assets at any time during the year
+    cite:
+    - 2387
+  - label: the same line on older forms
+    value: Part XV, line 2 on the 2020 form, which had 17 parts; Part XIV, line 2 on the 2021 and 2022 forms, which have
+      16 parts
+    cite:
+    - 2467
+    - 2468
+    - 2469
+  - label: the same line on the 2023 and 2024 forms (added by slice D)
+    value: Part XIV, line 2 on both; each form has Parts I to XVI, and the check-box sentence and lines 2a to 2d were returned
+      with the same wording as the 2025 form
+    cite:
+    - 2471
+    - 2470
+  - label: Part XIV, line 2, heading and full check-box text (added by slice D)
+    value: 'Heading: "Information Regarding Contribution, Grant, Gift, Loan, Scholarship, etc., Programs:". The sentence
+      after the box ends "complete items 2a, 2b, 2c, and 2d. See instructions."'
+    cite:
+    - 2387
+  - label: Part XIV, line 3 (added by slice D)
+    value: '"Grants and Contributions Paid During the Year or Approved for Future Payment"; line 3a "Paid during the year"
+      and line 3b "Approved for future payment", each with a Total; columns for recipient name and address, relationship
+      of an individual recipient to a foundation manager or substantial contributor, foundation status of recipient, purpose
+      of grant or contribution, and amount'
+    cite:
+    - 2387
+  - label: the check box in the e-file XML (added by slice D)
+    value: element OnlyContriToPreselectedInd inside SupplementaryInformationGrp; it held the value "X" in the Kavli Foundation's
+      return for tax year 2024 and was absent from the Dreyfus Foundation's return for the same year
+    cite:
+    - 2481
+    - 2480
+  - label: lines 2a to 2d in the e-file XML (added by slice D)
+    value: group ApplicationSubmissionInfoGrp with RecipientPersonNm, RecipientUSAddress and RecipientPhoneNum (line 2a),
+      FormAndInfoAndMaterialsTxt (line 2b), SubmissionDeadlinesTxt (line 2c) and RestrictionsOnAwardsTxt (line 2d)
+    cite:
+    - 2480
+  - label: the check box in GivingTuesday's data marts (added by slice D)
+    value: variable SUINONCOTOPR in the "990PF Basic Fields" mart, described as "Part_14_Supplementary_Information_2_Checkbox_foundation_only_makes_contributions";
+      the line 2a contact is in SIASIRNAME and the SIASIR address, telephone and email variables; no variable for lines
+      2b, 2c or 2d was returned from that tab
+    cite:
+    - 2477
+  applies_to: 'Private foundations that file Form 990-PF and had $5,000 or more in assets during the year [2387]. It does
+    not exist for public charities such as community foundations, which file Form 990 [2374]. The box is the foundation''s
+    own statement for the tax year of the return, and the foundation''s website may say something newer [2387]. The part
+    number depends on the year of the form: the line is Part XV, line 2 on the 2020 form and Part XIV, line 2 on the 2021,
+    2022 and 2025 forms; the 2023 and 2024 forms were not read [2467] [2468] [2469] [2387]. Added by slice D: the 2023 and
+    2024 forms were then read, and on both the line is Part XIV, line 2 [2471] [2470]. A foundation''s answer to lines 2b
+    to 2d can be a pointer and nothing more: the Dreyfus Foundation''s return for tax year 2024 gives "SEE WEBSITE. WWW.DREYFUS.ORG"
+    for both deadlines and restrictions [2480].'
+  open_data: Added by slice D. The check box and the application details are separate fields in the e-filed return, so they
+    can be read by machine for any foundation that files electronically [2481] [2480]. The check box is the XML element
+    OnlyContriToPreselectedInd [2481]. The application details are the group ApplicationSubmissionInfoGrp [2480]. GivingTuesday's
+    990 data marts publish the check box as the variable SUINONCOTOPR, one row per return, keyed by EIN and tax year [2477]
+    [2475]. The element names were read from two returns filed under schema version 2024v5.2; the IRS schema page lists
+    the schema sets by tax year and names no elements [2480] [2472].
+  pending_changes: []
+  related:
+  - form-990-pf-part-by-part
+  - free-foundation-filing-sources
+  - irs-990-e-file-data
+  official_url: https://www.irs.gov/pub/irs-pdf/f990pf.pdf
+  as_of: '2026-10-04'
+  sources:
+  - 2387
+  - 2374
+  - 2467
+  - 2468
+  - 2469
+  - 2387
+  - 2470
+  - 2471
+  - 2480
+  - 2481
+  - 2477
+  - 2475
+  - 2472
+  sweep: foundations-C
+- id: irs-990-e-file-data
+  name: What the IRS e-file data for Form 990 series returns covers
+  what: |
+    The IRS publishes electronically filed Form 990 series returns as XML files for bulk download, by year and month, each year with an index file [2397]. On 2026-10-04 the page listed downloads for 2019 through 2026 [2397]. A 2025 Form 990-PF must be filed electronically [2388].
+  rule: The download page describes its contents as "all the most recent 990 Series filings on record in XML formats" [2397].
+    The Tax Exempt Organization Search page carries the notice "We are still processing paper-filed 990 series received
+    2021 and later" [2059].
+  figures:
+  - label: years listed for download on 2026-10-04
+    value: 2019 through 2026
+    cite:
+    - 2397
+  - label: page last reviewed or updated
+    value: 18-Sep-2026
+    cite:
+    - 2397
+  - label: Form 990-PF Part XIV in the XML (added by slice D)
+    value: element SupplementaryInformationGrp
+    cite:
+    - 2480
+  - label: preselected-only check box, Part XIV line 2 (added by slice D)
+    value: OnlyContriToPreselectedInd; value "X" when checked
+    cite:
+    - 2481
+  - label: application information, Part XIV lines 2a to 2d (added by slice D)
+    value: 'ApplicationSubmissionInfoGrp: RecipientPersonNm, RecipientUSAddress, RecipientPhoneNum, FormAndInfoAndMaterialsTxt,
+      SubmissionDeadlinesTxt, RestrictionsOnAwardsTxt'
+    cite:
+    - 2480
+  - label: each grant paid during the year, Part XIV line 3a (added by slice D)
+    value: 'one GrantOrContributionPdDurYrGrp per grant: RecipientBusinessName/BusinessNameLine1Txt, RecipientUSAddress,
+      RecipientRelationshipTxt, RecipientFoundationStatusTxt, GrantOrContributionPurposeTxt, Amt'
+    cite:
+    - 2480
+  - label: totals, Part XIV lines 3a and 3b (added by slice D)
+    value: TotalGrantOrContriPdDurYrAmt and TotalGrantOrContriApprvFutAmt; grants approved for future payment are in GrantOrContriApprvForFutGrp
+    cite:
+    - 2480
+  - label: grants paid and total charitable disbursements, Part I lines 25 and 26 (added by slice D)
+    value: ContriPaidRevAndExpnssAmt and ContriPaidDsbrsChrtblAmt (line 25, columns a and d); TotalExpensesRevAndExpnssAmt
+      and TotalExpensesDsbrsChrtblAmt (line 26, columns a and d)
+    cite:
+    - 2480
+  - label: assets (added by slice D)
+    value: FMVAssetsEOYAmt (page 1, item I); TotalAssetsEOYAmt and TotalAssetsEOYFMVAmt (Part II, line 16)
+    cite:
+    - 2480
+  - label: schema version of the two returns read (added by slice D)
+    value: 2024v5.2, tax year 2024
+    cite:
+    - 2480
+    - 2481
+  - label: GivingTuesday data marts for Form 990-PF (added by slice D)
+    value: '"990PF Basic Fields" (one row per return; includes SUINONCOTOPR for the line 2 check box, ARECPREXPNSS and ARECGPDCPRPS
+      for Part I line 25, ASSEOYOYY for fair market value of assets), "990PF Current Grants" (one row per grant paid: SIGOCPYRBNBN1
+      name, SIGOCPYRFSTA foundation status, SIGOCPYPOGOC purpose, SIGOCPYAMOUN amount) and "990PF Future Grants"'
+    cite:
+    - 2477
+    - 2475
+    - 2476
+  applies_to: 'Returns filed electronically [2397]. The page read does not say which line items of Form 990-PF the XML carries,
+    or how long after filing a return appears [2397]. Added by slice D: two e-filed Forms 990-PF for tax year 2024 were
+    read as XML, and they carry Part XIV in full: the preselected-only check box, the application contact, form, deadlines
+    and restrictions, and one group for each grant with recipient, recipient status, purpose and amount [2480] [2481]. The
+    IRS publishes the schemas for the Form 990 family by tax year (2023 to 2026 on 2026-10-04); its index page names no
+    elements [2472].'
+  second_host: Added by slice D. GivingTuesday's 990 Data Infrastructure project keeps a copy of the e-filed returns, which
+    it calls the 990 Data Lake, and cuts tables from them, which it calls data marts [2473] [2474]. The raw files are in
+    the Amazon S3 bucket "gt990datalake-rawdata", with XML returns under "EfileData/XmlFiles" and indices under "Indices/990xmls"
+    [2478]. The access page says a free Amazon Web Services account is required and that users are not charged for using
+    the lake [2478]. The licence page names the Open Database License 1.0 and the Database Contents License 1.0 [2479].
+    Its data dictionary lists the columns of each mart against the form part and line they come from [2474] [2475]. In the
+    grants mart each row carries the EIN, the tax year and the address of the underlying XML file [2475].
+  pending_changes: []
+  related:
+  - free-foundation-filing-sources
+  - form-990-pf-part-by-part
+  - irs-tax-exempt-organization-search
+  - form-990-pf-unsolicited-applications-line
+  official_url: https://www.irs.gov/charities-non-profits/form-990-series-downloads
+  as_of: '2026-10-04'
+  sources:
+  - 2397
+  - 2388
+  - 2059
+  - 2480
+  - 2481
+  - 2472
+  - 2473
+  - 2474
+  - 2478
+  - 2479
+  - 2477
+  - 2475
+  - 2476
+  sweep: foundations-C
+- id: foundation-giving-size-of-field
+  name: The size of foundation giving
+  what: |
+    Giving USA put giving by foundations at $117.15 billion in 2025, 19.0 percent of total charitable giving of $617.20 billion [2409]. Corporations gave $43.67 billion, 7.1 percent [2409]. IRS statistics for tax year 2022 show that nonoperating foundations filed 91.2% of private foundation returns and that foundations with $100 million or more in assets were 1.5% of returns [2410].
+  rule: Giving USA is published by Giving USA Foundation and researched and written by the Indiana University Lilly Family
+    School of Philanthropy; its figures are estimates for the calendar year [2409].
+  figures:
+  - label: total charitable giving, 2025
+    value: $617.20 billion
+    cite:
+    - 2409
+  - label: giving by foundations, 2025
+    value: $117.15 billion (up 5.7% in current dollars, 3.0% adjusted for inflation; 19.0% of the total)
+    cite:
+    - 2409
+  - label: giving by individuals, 2025
+    value: $394.2 billion (63.8%)
+    cite:
+    - 2409
+  - label: giving by bequest, 2025
+    value: $62.19 billion (10.1%)
+    cite:
+    - 2409
+  - label: giving by corporations, 2025
+    value: $43.67 billion (7.1%)
+    cite:
+    - 2409
+  - label: giving to education, 2025
+    value: $92.01 billion
+    cite:
+    - 2409
+  - label: giving to foundations, 2025
+    value: $79.05 billion (down 16.2% in current dollars)
+    cite:
+    - 2409
+  - label: share of private foundation returns filed by nonoperating foundations, tax year 2022
+    value: 91.2%
+    cite:
+    - 2410
+  - label: share of returns from foundations with $100 million or more in total assets, tax year 2022
+    value: 1.5%
+    cite:
+    - 2410
+  - label: community foundations in the United States (Council on Foundations)
+    value: more than 900
+    cite:
+    - 2405
+  applies_to: The field as a whole [2409]. The IRS sheet read gives shares and rates and no absolute count of private foundations
+    [2410].
+  pending_changes: []
+  related:
+  - private-nonoperating-foundation
+  official_url: https://givingusa.org/giving-usa-charitable-giving-rose-to-617-20-billion-in-2025-surpassing-the-600-billion-mark-for-the-first-time/
+  as_of: '2026-10-04'
+  sources:
+  - 2409
+  - 2410
+  - 2405
+  sweep: foundations-C
+- id: community-foundation-grantmaking-pattern
+  name: How a community foundation gives (competitive grants and donor-advised grants)
+  what: |
+    A community foundation pays out money in two ways, and only one of them takes applications [2416] [2428]. Competitive or discretionary grants are decided by the foundation's staff and board and are open to application under its guidelines [2411] [2416]. Donor-advised grants follow the advice of the donor who set up the fund [2373] [2428]. The five large community foundations read in this sweep differ in how much of each they do and in how they take applications [2412] [2426] [2422] [2429].
+  rule: 'There is no single rule: the New York Community Trust takes proposals through its portal under published guidelines
+    and also posts requests for proposals [2418] [2417]. The Cleveland Foundation keeps a standard application open year-round
+    [2426]. Silicon Valley Community Foundation ran its Community Action Grants by a request for proposals open from March
+    2 to March 31, 2026 [2412]. The Chicago Community Trust lists named funding opportunities and takes applications through
+    its GrantCentral portal [2422]. The Greater Kansas City Community Foundation says most of its donors hold donor-advised
+    funds and lists the few funds that take applications [2428] [2429].'
+  figures:
+  - label: geographic limit, examples
+    value: San Mateo and Santa Clara counties (Silicon Valley); New York City, Long Island and Westchester (New York); Cook
+      County for endowment grants (Chicago); Cuyahoga, Lake and Geauga counties (Cleveland)
+    cite:
+    - 2411
+    - 2418
+    - 2423
+    - 2425
+  - label: common exclusions, examples
+    value: individuals, endowments, capital campaigns, religious purposes (New York); individuals, endowment campaigns,
+      annual appeals, religious purposes (Cleveland)
+    cite:
+    - 2416
+    - 2425
+  applies_to: Community foundations [2405]. A reader approaching a local one can expect a defined service area, a list of
+    excluded uses, an online portal, and a statement about donor-advised funds; each of these was found on at least three
+    of the five sites read [2416] [2425] [2423] [2428] [2411].
+  pending_changes: []
+  related:
+  - community-foundation
+  - donor-advised-fund-sponsor
+  - cof-community-foundation-locator
+  official_url: https://cof.org/page/community-foundation-locator
+  as_of: '2026-10-04'
+  sources:
+  - 2411
+  - 2412
+  - 2416
+  - 2418
+  - 2417
+  - 2426
+  - 2425
+  - 2422
+  - 2423
+  - 2428
+  - 2429
+  - 2373
+  - 2405
+  sweep: foundations-C
+- id: corporate-giving-pattern
+  name: How corporate foundations and giving programmes take requests
+  what: |
+    The six corporate funders read in this sweep take requests in three ways [2433] [2438] [2441]. Some run a small, open, local grant programme through their stores or markets [2435] [2438]. Some open a named national programme in dated cycles [2443] [2444]. Larger and national grants are by invitation [2433] [2441]. Technology companies give products, not cash, through an enrolment process [2446] [2447].
+  rule: 'Each company sets its own rule [2433] [2441]. Walmart: "Local Community Grants is the only program that accepts
+    applications throughout the year in the form of an open application" [2433]. Wells Fargo: an invited organisation "will
+    use the invitation code provided to access the online application portal" [2441]. Bank of America: two application periods
+    in 2026, 2/2/2026 - 3/2/2026 and 5/18/2026 - 6/29/2026 [2438]. Lowe''s Foundation: its Gable Grants open in March for
+    community and technical colleges and by invitation for non-profits [2444].'
+  figures:
+  - label: Walmart local grants
+    value: $250 to $5,000
+    cite:
+    - 2434
+  - label: Home Depot Foundation Veteran Housing Grants
+    value: typically $100,000 to $500,000
+    cite:
+    - 2443
+  - label: Bank of America local grants
+    value: amounts vary by market and organisation size; no multi-year grants
+    cite:
+    - 2438
+  applies_to: 'Applicants to corporate funders [2433]. Eligibility rules differ on points that matter to universities and
+    to small non-profits: Walmart''s local grants are open to colleges and universities [2434]; Bank of America does not
+    fund fiscally sponsored organisations or government agencies [2439]; Google and Microsoft exclude schools, colleges
+    and universities from their non-profit programmes [2445] [2447].'
+  pending_changes: []
+  related:
+  - corporate-foundation-versus-giving-programme
+  - corporate-charitable-deduction-floor
+  official_url: https://www.walmart.org/how-we-give/grant-eligibility
+  as_of: '2026-10-04'
+  sources:
+  - 2435
+  - 2433
+  - 2434
+  - 2438
+  - 2439
+  - 2441
+  - 2443
+  - 2444
+  - 2446
+  - 2445
+  - 2447
+  sweep: foundations-C
+- id: foundation-giving-figures-and-their-bases
+  name: 'Why one foundation has several giving figures: grants paid, grants approved, charitable disbursements'
+  what: 'A foundation''s giving for one year is stated on several bases, and the figures differ [2483] [2511]. Foundations
+    report grants approved, or awarded, and grants paid as separate figures: the Ford Foundation''s 2025 statements show
+    $773,443 thousand approved and $854,322 thousand paid, with $450,384 thousand still payable at the end of the year [2487].
+    Lilly Endowment reports $3.58 billion approved and $3.85 billion paid in 2025 [2483]. The charitable disbursements figure
+    that a filing host shows for a Form 990-PF is larger than grants paid in each of the three returns read, because it
+    is the total on Part I, line 26, column (d), and grants paid are line 25 of that part [2480] [2510] [2511] [2387].'
+  rule: Form 990-PF, Part I, line 25 is "Contributions, gifts, grants paid" and line 26 is total expenses and disbursements;
+    column (a) is per books and column (d) is disbursements for charitable purposes [2387]. In the e-filed return the line
+    25 amounts are ContriPaidRevAndExpnssAmt and ContriPaidDsbrsChrtblAmt, and the line 26 amounts are TotalExpensesRevAndExpnssAmt
+    and TotalExpensesDsbrsChrtblAmt [2480]. Part XIV, line 3a ends in the total of the grants listed as paid during the
+    year, TotalGrantOrContriPdDurYrAmt [2480]. The audited statements read give a grants expense in the statement of activities
+    and a different grants paid figure in the statement of cash flows [2484] [2491].
+  figures:
+  - label: Camille and Henry Dreyfus Foundation, 2024, from its return
+    value: grants paid (line 25) $2,874,967; total charitable disbursements (line 26, column d) $4,644,900; Part XIV line
+      3a total 2,874,967
+    cite:
+    - 2480
+  - label: Gordon and Betty Moore Foundation, 2024, from its return
+    value: grants paid per books $391,128,264; grants paid as charitable disbursements $403,028,969; total charitable disbursements
+      $440,277,686
+    cite:
+    - 2510
+  - label: Gordon and Betty Moore Foundation, 2024 and 2025, from its audited statements (in thousands)
+    value: grants expense $391,128 and $469,773; grants paid $394,791 and $475,964
+    cite:
+    - 2491
+  - label: Lilly Endowment, 2024, from its return
+    value: grants paid $2,260,591,222; total charitable disbursements $2,280,983,099
+    cite:
+    - 2511
+  - label: Lilly Endowment, 2025, from its annual report
+    value: grants paid $3.85 billion; grants approved $3.58 billion (1,739 grants)
+    cite:
+    - 2483
+  - label: Ford Foundation, 2025, from its audited statements (in thousands)
+    value: grants approved $773,443; grant payments $854,322; total expenditures $1,026,655
+    cite:
+    - 2487
+  - label: Gates Foundation, 2025, from its audited statements (in thousands)
+    value: grants expense $5,971,000; grants paid $6,526,520; total expenses $8,144,856
+    cite:
+    - 2484
+  - label: W.K. Kellogg Foundation and its trust, fiscal year ending August 31, 2025, combined audited statements
+    value: grants expense $314,909,604; total expenses $444,951,301
+    cite:
+    - 2494
+  applies_to: 'Any reader comparing foundations by size of giving, and the site''s own funder records, where each giving
+    entry carries its basis [2510]. Where a foundation keeps its endowment in a separate trust or reports several entities
+    together, the asset figure also depends on which entities are counted: the Kellogg foundation and trust report $9,667,630,186
+    in combined assets, and the Gates Foundation Trust reports its assets apart from the foundation''s [2494] [2485].'
+  pending_changes: []
+  related:
+  - form-990-pf-part-by-part
+  - irs-990-e-file-data
+  - foundation-payout-rate
+  - minimum-distribution-requirement
+  official_url: https://www.irs.gov/pub/irs-pdf/f990pf.pdf
+  as_of: '2026-10-04'
+  sources:
+  - 2387
+  - 2480
+  - 2510
+  - 2511
+  - 2483
+  - 2487
+  - 2491
+  - 2484
+  - 2485
+  - 2494
+  sweep: foundations-D

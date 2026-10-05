@@ -22,25 +22,29 @@
   "rules-A",
   "rules-B",
   "rules-C",
-  "rules-D"
+  "rules-D",
+  "foundations-A",
+  "foundations-B",
+  "foundations-C",
+  "foundations-D"
  ],
- "references": 2118,
+ "references": 2512,
  "references_by_kind": {
-  "primary": 2032,
-  "secondary": 86
+  "primary": 2412,
+  "secondary": 100
  },
  "references_by_tier": {
-  "current": 1636,
-  "seminal": 237,
-  "background": 138,
-  "classic": 107
+  "current": 1968,
+  "seminal": 251,
+  "background": 175,
+  "classic": 118
  },
  "references_by_read": {
-  "partial": 1743,
-  "full": 372,
+  "partial": 2132,
+  "full": 377,
   "not-fetched": 3
  },
- "references_cited": 2098,
+ "references_cited": 2492,
  "references_uncited": [
   511,
   522,
@@ -306,23 +310,35 @@
   "https://www.gsa.gov/system/files/State_and_Local_Help_Guide.pdf",
   "https://www.federalregister.gov/documents/2026/07/16/2026-14333/financial-assistance-regulations-conflict-of-interest-and-conflict-of-commitment-policy-requirements",
   "https://www.grants.gov/applicants/applicant-registration",
-  "https://www.ecfr.gov/current/title-2/section-200.512"
+  "https://www.ecfr.gov/current/title-2/section-200.512",
+  "https://www.mellon.org/resources",
+  "https://projects.propublica.org/nonprofits/organizations/131879954",
+  "https://www.mellon.org/news/americas-humanities-councils-get-a-lifeline",
+  "https://www.mellon.org/annual-report/2025",
+  "https://www.irs.gov/charities-non-profits/charitable-organizations/private-foundations",
+  "https://www.irs.gov/charities-non-profits/charitable-organizations/public-charities",
+  "https://www.federalregister.gov/documents/2025/01/31/2025-02097/ending-illegal-discrimination-and-restoring-merit-based-opportunity",
+  "https://www.irs.gov/charities-non-profits/tax-exempt-organization-search",
+  "https://www.irs.gov/pub/irs-pdf/f990pf.pdf",
+  "https://projects.propublica.org/nonprofits/organizations/135570117",
+  "https://www.packard.org/grantees/funding-opportunties/",
+  "https://www.pew.org/en/projects/pew-biomedical-scholars/program-details"
  ],
  "records": {
-  "programs": 524,
-  "funders": 94,
-  "standing": 97,
-  "gates": 85,
-  "help": 129,
-  "mechanics": 237,
-  "changes": 470,
-  "todo": 644
+  "programs": 565,
+  "funders": 159,
+  "standing": 113,
+  "gates": 93,
+  "help": 146,
+  "mechanics": 272,
+  "changes": 524,
+  "todo": 798
  },
  "todo_by_kind": {
-  "conflict": 97,
-  "recheck": 180,
-  "unverified": 95,
-  "gap": 272
+  "conflict": 119,
+  "recheck": 231,
+  "unverified": 106,
+  "gap": 342
  },
  "merged_records": [
   "gates/sam-registration <- research-B",
@@ -391,7 +407,10 @@
   "mechanics/nsf-data-management-sharing-plan <- earlier statements (superseded by rules-C)",
   "mechanics/pre-award-risk-review <- rules-C",
   "mechanics/financial-management-standards <- rules-C",
-  "mechanics/de-minimis-indirect-rate <- rules-C"
+  "mechanics/de-minimis-indirect-rate <- rules-C",
+  "funders/packard-foundation <- foundations-B",
+  "funders/mellon-foundation <- foundations-B",
+  "mechanics/foundation-letter-of-inquiry <- foundations-B"
  ],
  "id_clashes": [],
  "overrides_applied": [
@@ -414,43 +433,46 @@
   "gates/nsf-id: {'same_as': 'research-gov'}"
  ],
  "programmes_by_family": {
-  "research": 131,
-  "people": 136,
-  "programme-service": 134,
-  "capacity": 123
+  "research": 145,
+  "people": 154,
+  "programme-service": 141,
+  "capacity": 125
  },
  "programme_status": {
   "capacity": {
    "no-current-notice": 26,
    "unconfirmed": 3,
    "open": 34,
-   "closed": 33,
+   "closed": 35,
    "expired": 4,
    "forecast": 8,
    "formula": 8,
    "not-competed": 7
   },
   "people": {
-   "open": 54,
-   "unconfirmed": 18,
-   "closed": 30,
+   "open": 57,
+   "unconfirmed": 19,
+   "closed": 41,
    "expired": 14,
    "no-current-notice": 14,
-   "forecast": 3,
+   "forecast": 6,
    "not-competed": 3
   },
   "programme-service": {
-   "closed": 55,
+   "closed": 60,
    "forecast": 17,
    "formula": 24,
    "no-current-notice": 18,
-   "open": 17,
+   "open": 19,
    "unconfirmed": 1,
    "not-competed": 1,
    "expired": 1
   },
   "research": {
-   "None": 131
+   "None": 131,
+   "open": 7,
+   "closed": 6,
+   "unconfirmed": 1
   }
  },
  "unresolved_source_ids": {},
@@ -459,7 +481,14 @@
  "second_person": [
   "programs/acf-csbg",
   "programs/hrsa-cpf-cds-projects",
+  "programs/bwf-career-awards-medical-scientists",
   "funders/dod-onr",
+  "funders/templeton-foundation",
+  "funders/new-york-community-trust",
+  "funders/cleveland-foundation",
+  "funders/home-depot-foundation",
+  "standing/donor-advised-fund-sponsor",
+  "standing/federated-fund",
   "gates/imls-egms-reach",
   "help/nih-program-official",
   "help/nih-matchmaker",
@@ -469,9 +498,13 @@
   "help/imls-egms-reach-help-desk",
   "help/candid-community-partners",
   "help/national-council-of-nonprofits",
+  "help/candid-search",
+  "help/candid-near-you-locator",
+  "help/state-nonprofit-association-locator",
+  "help/find-local-united-way",
   "mechanics/nih-modular-budget",
   "mechanics/nih-highlighted-topics",
   "mechanics/samhsa-notice-six-steps"
  ],
- "queries": 523
+ "queries": 615
 }

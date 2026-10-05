@@ -39983,3 +39983,2496 @@
   sources:
   - 1797
   - 1798
+- id: simons-collaborations-mps
+  name: Simons Collaborations in Mathematics and the Physical Sciences
+  family: research
+  kind: foundation-program
+  funder: simons-foundation
+  owner: Simons Foundation
+  status: open
+  applicant: institution
+  what: A Simons Collaboration is a grant to a group of investigators under a collaboration director, aimed at a fundamental
+    question in mathematics, theoretical physics or theoretical computer science [2121]. The 2027 round was open on 2026-10-04
+    with a letter of intent due October 29, 2026 [2121] [2119].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: The collaboration director must hold a tenured faculty position, or equivalent, at an educational institution
+      with a Ph.D. program; PIs and co-investigators must be tenured or tenure-track faculty or equivalent [2121]. No citizenship
+      rule is stated on the page [2121].
+    limits: No limit on letters of intent per institution is stated. An active PI may not take part in more than one funded
+      collaboration at a time [2121].
+    eligibility_note: U.S. and foreign public and private educational institutions and stand-alone research centers are
+      eligible, so a non-profit research institute that is not a university may take part. U.S. national laboratories and
+      for-profit institutions are not funded, nor are institutions in China or Hong Kong [2121].
+  cycle:
+    pattern: 'Annual request for applications in two stages: a letter of intent, then a full proposal by invitation [2121].'
+    current_notices:
+    - id: 2027 Simons Collaborations in MPS
+      closes: '2026-10-29'
+      note: Letter of intent due October 29, 2026, 12 p.m. Eastern Time; full proposal due February 24, 2027; start date
+        January 1, 2028 [2121].
+  awards:
+  - label: annual budget, inclusive of 20 percent indirect costs
+    amount: up to $2 million per year; $8 million over four years
+    duration: initial period of four years
+    cite:
+    - 2121
+  - label: awards expected in 2027
+    amount: up to three new collaborations
+    duration: ''
+    cite:
+    - 2121
+  indirect_costs: 20 percent, included within the $2 million a year [2121]. The foundation-wide rule excludes equipment
+    over $10,000, tuition and subcontract amounts above $25,000 from the base [2120].
+  review: Foundation scientific staff read the letters of intent; invited full proposals are reviewed by staff and an external
+    expert committee, with an optional presentation at the foundation [2121].
+  steps:
+  - The director submits a letter of intent by October 29, 2026 [2121].
+  - If invited, the team submits a full proposal by February 24, 2027 [2121].
+  - Awards start January 1, 2028 [2121].
+  portal: https://www.simonsfoundation.org/grant/simons-collaborations-in-mathematics-and-the-physical-sciences/
+  gates: []
+  who:
+  - faculty-investigator
+  - research-office
+  - nonprofit-research
+  purpose:
+  - research-project
+  stage:
+  - funded-once
+  - established
+  fields:
+  - mathematics
+  - theoretical-physics
+  - theoretical-computer-science
+  pending_changes: []
+  distinctive: The foundation says the programme is to "stimulate progress on fundamental scientific questions of major
+    importance" [2121].
+  official_url: https://www.simonsfoundation.org/grant/simons-collaborations-in-mathematics-and-the-physical-sciences/
+  sources:
+  - 2121
+  - 2119
+  - 2120
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: simons-pivot-fellowship
+  name: Simons Foundation Pivot Fellowship
+  family: people
+  kind: fellowship
+  funder: simons-foundation
+  owner: Simons Foundation
+  status: closed
+  applicant: person
+  what: The Pivot Fellowship pays a faculty member with a record in one field to spend a year training in a new discipline
+    with a mentor [2122]. The competition was marked closed on 2026-10-04; the last deadline was May 14, 2026 and no date
+    for the next round is given [2122].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: Fellows and mentors must hold a Ph.D., M.D. or equivalent degree and be faculty at an academic institution
+      or hold an equivalent position; non-tenure-track researchers and postdoctoral researchers are not eligible [2122].
+    eligibility_note: Academic institutions in any country except China and Hong Kong [2122]. The page does not say whether
+      a non-profit research institute counts as an equivalent position [2122].
+  career_window: Faculty with an established record in the current field; no years-since-degree limit is stated [2122].
+  stipend: One year of the fellow's academic-year salary, plus $10,000 for research, travel and professional development;
+    the mentor receives a $50,000 research fund (2026 round) [2122].
+  cycle:
+    pattern: One request for applications a year; the 2026 deadline was May 14, 2026 [2122].
+    current_notices:
+    - id: Pivot Fellowship 2026
+      closes: '2026-05-14'
+      note: Closed [2122].
+  awards:
+  - label: follow-on research award a fellow may apply for after the fellowship year
+    amount: up to $1.5 million, plus indirect costs
+    duration: five years
+    cite:
+    - 2122
+  indirect_costs: Limited to 20 percent of modified total direct costs [2122].
+  steps:
+  - The faculty member applies with a named mentor under the request for applications [2122].
+  portal: https://www.simonsfoundation.org/grant/pivot-fellowship/
+  gates: []
+  who:
+  - faculty-investigator
+  purpose:
+  - person
+  stage:
+  - established
+  - funded-once
+  fields:
+  - astronomy
+  - biology
+  - chemistry
+  - earth-sciences
+  - neuroscience
+  - physics
+  - mathematics
+  pending_changes: []
+  official_url: https://www.simonsfoundation.org/grant/pivot-fellowship/
+  sources:
+  - 2122
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: sloan-research-fellowships
+  name: Sloan Research Fellowships
+  family: people
+  kind: fellowship
+  funder: sloan-foundation
+  owner: Alfred P. Sloan Foundation
+  status: closed
+  applicant: person
+  applicant_note: The candidate submits, and must have a letter of nomination from a department head or other senior researcher;
+    a department may put forward no more than three candidates per fellowship field [2125].
+  what: A two-year, $75,000 fellowship for early-career faculty in chemistry, computer science, Earth system science, economics,
+    mathematics, neuroscience, physics or a related field [2125]. The nomination period for the 2027 fellowships closed
+    on September 15, 2026 [2125].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: Tenure-track, though untenured, as of September 15 of the nomination year, on the faculty of a college,
+      university or other degree-granting institution in the U.S. or Canada; nominees are normally several years past the
+      Ph.D. [2125].
+    limits: No more than three nominees per fellowship field from any single department [2125].
+    eligibility_note: The candidate must be on the faculty of a degree-granting institution, so staff of a non-profit that
+      grants no degrees are not eligible [2125].
+  citizenship: No citizenship rule was returned from the programme page; the rule is on the institution's location, U.S.
+    or Canada [2125].
+  career_window: Tenure-track and untenured on September 15 of the nomination year [2125].
+  stipend: $75,000 over two years, paid in a single lump sum (2027 fellowships) [2125].
+  cycle:
+    pattern: One nomination deadline a year, September 15 [2125].
+    current_notices:
+    - id: 2027 Sloan Research Fellowships
+      closes: '2026-09-15'
+      note: Closed [2125].
+  awards:
+  - label: fellowship
+    amount: $75,000
+    duration: two years
+    cite:
+    - 2125
+  indirect_costs: 'Not allowed: "Fellowship funds may not be used for indirect costs or overhead charges." [2125]'
+  steps:
+  - A department head or other senior researcher writes a letter of nomination [2125].
+  - The nomination is submitted by September 15 [2125].
+  portal: https://sloan.org/fellowships/
+  gates: []
+  who:
+  - early-career
+  - faculty-investigator
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - chemistry
+  - computer-science
+  - earth-system-science
+  - economics
+  - mathematics
+  - neuroscience
+  - physics
+  pending_changes: []
+  official_url: https://sloan.org/fellowships/
+  sources:
+  - 2125
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: keck-research-program
+  name: W. M. Keck Foundation Research Program
+  family: research
+  kind: foundation-program
+  funder: keck-foundation
+  owner: W. M. Keck Foundation
+  status: open
+  applicant: institution
+  applicant_note: The institution's designated liaison submits; a researcher does not apply directly [2133].
+  what: Grants of about $1 million for basic research in science and engineering that is distinctive and novel in approach
+    [2133]. An institution may send up to three applications in each of two cycles a year; the next deadline after 2026-10-04
+    is December 7, 2026 [2133].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: PIs must be tenure-track faculty or equivalent, normally eligible to submit proposals without exceptional
+      approvals [2135].
+    limits: Up to three applications per institution per cycle; the foundation will not fund more than one project in the
+      same field from the same institution in a cycle [2133] [2134].
+    eligibility_note: The overview page says "STEM PhD granting institutions are eligible to apply", in the United States,
+      with 501(c)(3) status or exempt operating foundation status and three consecutive years of audited financial statements
+      [2133]. A non-profit that grants no STEM PhD is not named as eligible [2133].
+  cycle:
+    pattern: 'Two cycles a year by limited submission. June cycle: deadline the second Monday after Thanksgiving. December
+      cycle: deadline the first Monday after Memorial Day [2133] [2135].'
+    current_notices:
+    - id: June 2027 cycle
+      closes: '2026-12-07'
+      note: Applications due 4:30pm PT; notification for scientific presentations end of March; funding decisions mid-June
+        [2133].
+    - id: December 2027 cycle
+      closes: '2027-06-07'
+      note: Applications due 4:30pm PT; funding decisions mid-December [2133].
+  awards:
+  - label: typical award
+    amount: $1m-$1.3m
+    duration: 3 years
+    cite:
+    - 2133
+  indirect_costs: 'None: "No indirect costs—institution provides in-kind support by waiving indirects" [2133].'
+  budget_rules: Faculty salary plus benefits up to 10% annually; total PI and Co-PI salaries up to 20% of the total budget;
+    tuition and fees capped at $25k per student a year and 10% of the total budget [2135].
+  review: There is one application, with a project narrative of at most six pages; "A subset of those applications will
+    be invited for a research presentation", about 4 months after the deadline, and final decisions come about 6 months
+    after the deadline, at the Board meetings in June and December [2249] [2133] [2134].
+  steps:
+  - The researcher finds the institution's designated liaison through the central development office [2134].
+  - The institution selects up to three applications for the cycle [2133].
+  - The liaison submits the applications through the foundation's portal by the cycle deadline [2133].
+  - Selected applicants are notified and give a scientific presentation before the Board decides [2133].
+  portal: https://goapply2.akoyago.com/WMKF/opportunities
+  gates: []
+  who:
+  - faculty-investigator
+  - research-office
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - science
+  - engineering
+  pending_changes:
+  - status: final
+    date: '2026'
+    text: 'The foundation states "Concepts: We will no longer be hosting concept consultations"; the page gives no date
+      [2133].'
+  distinctive: The foundation asks for projects that are "distinctive and novel in their approach" [2133].
+  official_url: https://www.wmkeck.org/research-overview/
+  sources:
+  - 2133
+  - 2134
+  - 2135
+  - 2249
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: cottrell-scholar-award
+  name: Cottrell Scholar Award
+  family: people
+  kind: foundation-program
+  funder: rcsa
+  owner: Research Corporation for Science Advancement
+  status: closed
+  applicant: person
+  applicant_note: The faculty member applies; the institution's Authorized Organizational Representative must approve before
+    final submission [2141].
+  what: A three-year, $120,000 award to an early-career tenure-track faculty member in chemistry, physics or astronomy,
+    for research and teaching together [2141]. The round with the July 1, 2026 deadline was closed on 2026-10-04 [2141].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: Tenure-track faculty in chemistry, physics or astronomy departments that offer bachelor's or graduate
+      degrees, at U.S. or Canadian research universities or primarily undergraduate institutions; no prior tenure-track
+      experience [2141].
+    limits: 'No institutional limit: "Multiple eligible faculty may apply, and multiple awards may be made within the same
+      department." [2141]'
+    eligibility_note: Open to faculty of universities and primarily undergraduate institutions only [2141].
+  career_window: For the July 1, 2026 deadline, applicants who started their first tenure-track position during calendar
+    year 2023 [2141].
+  cycle:
+    pattern: One deadline a year; full proposal only, no pre-proposal [2141].
+    current_notices:
+    - id: 2027 Cottrell Scholar Awards
+      opens: 2026-04
+      closes: '2026-07-01'
+      note: Due 11 PM MST on July 1, 2026; closed [2141].
+  awards:
+  - label: award
+    amount: $120,000
+    duration: three years
+    cite:
+    - 2141
+  indirect_costs: Not allowed [2141].
+  steps:
+  - The applicant prepares a proposal covering research and education in the online portal [2141].
+  - The Authorized Organizational Representative approves it before submission [2141].
+  portal: https://rescorp.org/cottrell-scholars/cottrell-scholar-award/
+  gates: []
+  who:
+  - early-career
+  purpose:
+  - person
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  fields:
+  - chemistry
+  - physics
+  - astronomy
+  pending_changes: []
+  official_url: https://rescorp.org/cottrell-scholars/cottrell-scholar-award/
+  sources:
+  - 2141
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: camille-dreyfus-teacher-scholar
+  name: Camille Dreyfus Teacher-Scholar Awards
+  family: people
+  kind: foundation-program
+  funder: dreyfus-foundation
+  owner: The Camille and Henry Dreyfus Foundation
+  status: open
+  applicant: institution
+  applicant_note: The institution nominates one faculty member a year [2146].
+  what: A $100,000 unrestricted research grant to an early-career faculty member in the chemical sciences in a Ph.D.-granting
+    department [2146]. The next deadline after 2026-10-04 is February 4, 2027 [2146].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: Within the first six years of the independent academic career at the time of nomination; the year of the
+      first tenure-track position is year one [2146].
+    limits: '"Institutions may submit only one Camille Dreyfus Teacher-Scholar Award nomination annually." [2146]'
+    eligibility_note: Academic institutions in the United States that grant a bachelor's or higher degree in the chemical
+      sciences, and Ph.D.-granting departments; a non-profit that is not a degree-granting institution is not eligible [2146].
+  career_window: First six years of the independent academic career [2146].
+  cycle:
+    pattern: One deadline a year [2146].
+    current_notices:
+    - id: 2027 awards
+      closes: '2027-02-04'
+      note: Announcement early May 2027 [2146].
+  awards:
+  - label: unrestricted research grant
+    amount: $100,000
+    duration: normally spent over five years
+    cite:
+    - 2146
+  indirect_costs: Not allowed [2146].
+  steps:
+  - The institution runs its own selection and submits one nomination by the deadline [2146].
+  portal: https://www.dreyfus.org/camille-dreyfus-teacher-scholar/
+  gates: []
+  who:
+  - early-career
+  - research-office
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - chemistry
+  pending_changes: []
+  official_url: https://www.dreyfus.org/camille-dreyfus-teacher-scholar/
+  sources:
+  - 2146
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: henry-dreyfus-teacher-scholar
+  name: Henry Dreyfus Teacher-Scholar Awards
+  family: people
+  kind: foundation-program
+  funder: dreyfus-foundation
+  owner: The Camille and Henry Dreyfus Foundation
+  status: closed
+  applicant: institution
+  applicant_note: An institutional representative, for example the department chair or dean, nominates one faculty member
+    a year [2147].
+  what: A $75,000 unrestricted research grant to a chemistry faculty member in a department that does not grant a doctorate
+    [2147]. The 2026 deadline was August 6, 2026, with the announcement due early November 2026 [2147].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: After the fourth and not after the twelfth year of the independent academic career at the time of nomination
+      [2147].
+    limits: '"Institutions may submit only one Henry Dreyfus Teacher-Scholar Award nomination annually." [2147]'
+    eligibility_note: Institutions in the United States that grant a bachelor's or master's degree in the chemical sciences;
+      departments that do not grant a doctoral degree [2147].
+  career_window: Years five to twelve of the independent academic career [2147].
+  cycle:
+    pattern: One deadline a year [2147].
+    current_notices:
+    - id: 2026 awards
+      closes: '2026-08-06'
+      note: Closed; announcement early November 2026 [2147].
+  awards:
+  - label: unrestricted research grant
+    amount: $75,000
+    duration: normally spent over five years
+    cite:
+    - 2147
+  indirect_costs: Not allowed [2147].
+  steps:
+  - The department chair or dean submits the institution's one nomination by the deadline [2147].
+  portal: https://www.dreyfus.org/henry-dreyfus-teacher-scholar/
+  gates: []
+  who:
+  - faculty-investigator
+  - research-office
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - chemistry
+  pending_changes: []
+  official_url: https://www.dreyfus.org/henry-dreyfus-teacher-scholar/
+  sources:
+  - 2147
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: packard-fellowships-science-engineering
+  name: Packard Fellowships for Science and Engineering
+  family: people
+  kind: fellowship
+  funder: packard-foundation
+  owner: The David and Lucile Packard Foundation
+  status: closed
+  applicant: institution
+  applicant_note: The president of an invited university nominates; the nominee then completes the application [2149].
+  what: A five-year, $875,000 fellowship for faculty in the first three years of their first appointment, open only to nominees
+    of 50 invited universities [2149]. The 2026 round closed in April 2026; no guidelines for a 2027 round were found on
+    2026-10-04 [2149].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: 'For 2026: initial faculty appointment began no earlier than May 31, 2023 and no later than May 31, 2026
+      [2149].'
+    limits: 50 institutions are invited; "Up to two nominations may be made by the president of each institution." [2149]
+    eligibility_note: Only the invited universities may nominate; a faculty member elsewhere, or staff of a non-profit that
+      is not one of the 50, has no route in [2149].
+  career_window: Within three years of the first faculty appointment, by the dates above [2149].
+  cycle:
+    pattern: One round a year [2149].
+    current_notices:
+    - id: 2026 Packard Fellowships
+      closes: '2026-04-20'
+      note: Nominations due March 15, 2026; applications due April 20, 2026; closed [2149].
+  awards:
+  - label: fellowship
+    amount: $875,000 ($175,000 a year)
+    duration: five years
+    cite:
+    - 2149
+  - label: fellows a year
+    amount: '20'
+    duration: ''
+    cite:
+    - 2149
+  indirect_costs: '"Of the $175,000 paid each year, $17,500 is available to the university as compensation for administrative
+    costs." [2149]'
+  steps:
+  - The university chooses up to two candidates and its president nominates them [2149].
+  - Each nominee completes the online profile; four letters are sent, one from the department head and three from external
+    referees [2149].
+  portal: https://www.packard.org/
+  gates: []
+  who:
+  - early-career
+  - research-office
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - physics
+  - chemistry
+  - mathematics
+  - biology
+  - astronomy
+  - computer-science
+  - earth-science
+  - ocean-science
+  - engineering
+  pending_changes: []
+  official_url: https://www.packard.org/
+  sources:
+  - 2149
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: hhmi-investigator-program
+  name: HHMI Investigator Program
+  family: people
+  kind: program
+  funder: hhmi
+  funder_kind: independent-nonprofit
+  owner: Howard Hughes Medical Institute
+  status: forecast
+  applicant: person
+  what: An HHMI Investigator is employed by HHMI, which pays full salary, benefits and a research budget, while the scientist
+    keeps an academic appointment and laboratory at the home institution [2161]. The competition is held every 5 years;
+    the next opens September 28, 2027 [2161].
+  funds: appointment
+  who_may_apply:
+    applicant_types:
+    - individual
+    investigator: A minimum of 7 years of post-training lab head experience, with no upper limit; Principal Investigator
+      on one or more active, nationally competitive research grants of at least three years, such as an NIH R01; at an HHMI-eligible
+      institution [2161].
+    limits: No institutional nomination and no recommendation letters [2161].
+    eligibility_note: The scientist must be at an institution on HHMI's eligible list; the list was not read in this sweep,
+      so whether it includes non-profit research institutes is not recorded [2161].
+  career_window: 7 or more years as a lab head after training [2161].
+  cycle:
+    pattern: Every 5 years [2161].
+    current_notices:
+    - id: next Investigator competition
+      opens: '2027-09-28'
+      closes: '2028-03-07'
+      note: Dates as posted on 2026-10-04 [2161].
+  awards:
+  - label: appointment
+    amount: full salary, benefits and research budget through HHMI
+    duration: initial 7-year term, renewable indefinitely with successful review
+    cite:
+    - 2161
+  steps:
+  - The scientist applies through HHMI's application system in the competition window [2161].
+  portal: https://www.hhmi.org/programs/investigators
+  gates: []
+  who:
+  - faculty-investigator
+  purpose:
+  - person
+  stage:
+  - established
+  fields:
+  - biomedical
+  pending_changes: []
+  official_url: https://www.hhmi.org/programs/investigators
+  sources:
+  - 2161
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: hhmi-freeman-hrabowski-scholars
+  name: HHMI Freeman Hrabowski Scholars Program
+  family: people
+  kind: program
+  funder: hhmi
+  funder_kind: independent-nonprofit
+  owner: Howard Hughes Medical Institute
+  status: forecast
+  applicant: person
+  what: Early-career faculty become HHMI employees with full salary, benefits and an annual research budget for up to 10
+    years, keeping their appointment and laboratory at the host institution [2162]. The 2028 competition, held jointly with
+    the Hanna H. Gray Fellows competition, opens November 3, 2026 and closes December 15, 2026 [2162].
+  funds: appointment
+  who_may_apply:
+    applicant_types:
+    - individual
+    investigator: Holds, or will begin by May 1, 2028, a tenured or tenure-track (or equivalent) faculty position at an
+      HHMI-eligible institution; at most 7 years of lab head experience as of December 15, 2026; PhD and/or MD or equivalent
+      [2162].
+    limits: Direct application; no nomination [2162].
+  citizenship: Authorized to work in the US, or eligible to obtain work authorization for the length of the appointment
+    [2162].
+  career_window: At most 7 years of lab head experience as of December 15, 2026 [2162].
+  cycle:
+    pattern: Every other year [2162].
+    current_notices:
+    - id: 2028 competition
+      opens: '2026-11-03'
+      closes: '2026-12-15'
+      note: Opens 9 AM ET; closes 11:59 PM ET; selectees notified February 2028; appointments begin May 1 to August 31,
+        2028 [2162].
+  awards:
+  - label: appointment
+    amount: full salary and benefits on HHMI's scale for lab heads, an annual research budget and access to the capital
+      equipment program
+    duration: 'up to 10 years: one five-year term, renewable once after a midpoint evaluation'
+    cite:
+    - 2162
+  steps:
+  - The applicant submits through the HHMI Application and Review Channel (ARC) between November 3 and December 15, 2026
+    [2162].
+  portal: https://arc.hhmi.org
+  gates: []
+  who:
+  - early-career
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - biomedical
+  pending_changes:
+  - status: announced
+    date: '2026-11-03'
+    text: From the 2028 competition the Scholars and the Hanna H. Gray Fellows are selected through a single, combined competition
+      [2162].
+  official_url: https://www.hhmi.org/programs/freeman-hrabowski-scholars
+  sources:
+  - 2162
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: hhmi-hanna-gray-fellows
+  name: HHMI Hanna H. Gray Fellows Program
+  family: people
+  kind: fellowship
+  funder: hhmi
+  funder_kind: independent-nonprofit
+  owner: Howard Hughes Medical Institute
+  status: forecast
+  applicant: person
+  what: Support for a postdoctoral scientist in the basic biological and biomedical sciences for up to two years, with a
+    route into the Freeman Hrabowski Scholars Program on taking up a qualifying faculty post [2163]. The 2028 competition
+    opens November 3, 2026 and closes December 15, 2026 [2163].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - individual
+    investigator: PhD and/or MD or equivalent; no more than 7 years of postdoctoral training experience by December 15,
+      2026; in mentored postdoctoral research at an HHMI-eligible institution; plans to start a faculty position no later
+      than May 1, 2030 [2163].
+  citizenship: Authorized to work in the US or eligible to obtain a work authorization [2163].
+  career_window: No more than 7 years of postdoctoral training by December 15, 2026 [2163].
+  stipend: Salary or stipend commensurate with postdoctoral experience, plus support for certain expenses; no figure is
+    given on the page [2163].
+  cycle:
+    pattern: Every other year [2158].
+    current_notices:
+    - id: 2028 competition
+      opens: '2026-11-03'
+      closes: '2026-12-15'
+      note: Selectees notified February 2028 [2163].
+  awards:
+  - label: postdoctoral phase
+    amount: salary or stipend plus expenses
+    duration: up to two years, renewal on a favourable evaluation
+    cite:
+    - 2163
+  steps:
+  - The applicant submits through ARC at arc.hhmi.org in the competition window [2163].
+  portal: https://arc.hhmi.org
+  gates: []
+  who:
+  - early-career
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - biomedical
+  pending_changes: []
+  official_url: https://www.hhmi.org/programs/hanna-h-gray-fellows
+  sources:
+  - 2163
+  - 2158
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: bwf-career-awards-medical-scientists
+  name: Burroughs Wellcome Fund Career Awards for Medical Scientists (CAMS)
+  family: people
+  kind: foundation-program
+  funder: burroughs-wellcome-fund
+  owner: Burroughs Wellcome Fund
+  status: closed
+  applicant: person
+  applicant_note: The candidate applies with the institution's approval; the award is made to the institution [2167] [2165].
+  what: A five-year, $700,000 award that carries a physician-scientist from advanced postdoctoral or fellowship training
+    into the first faculty years [2167]. The 2026 deadline was Sep 30, 2026; the page still read "Now Accepting Applications"
+    on 2026-10-04 [2167].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: A clinical degree (MD, DO, DDS or equivalent); a PhD alone or a Pharm.D. is not eligible. The candidate
+      must not hold or have accepted a tenure-track Assistant Professor position when applying [2167].
+    limits: '"No, you do not need to be nominated; however, you must obtain approval from your institution." No cap per
+      institution is stated [2167].'
+    eligibility_note: Public or private non-profit organisations in the United States and Canada, including degree-granting
+      academic institutions, research institutes and teaching hospitals, so a non-profit research institute or hospital
+      that is not a university may host an awardee [2167].
+  citizenship: No citizenship rule was returned; the clinical degree may be from inside or outside the U.S. or Canada [2167].
+  cycle:
+    pattern: One deadline a year [2167].
+    current_notices:
+    - id: CAMS 2026 cycle
+      closes: '2026-09-30'
+      note: Deadline passed four days before the sweep date [2167].
+  awards:
+  - label: award
+    amount: $700,000
+    duration: five years
+    cite:
+    - 2167
+  steps:
+  - The candidate obtains institutional approval and applies by the deadline [2167].
+  portal: https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/
+  gates: []
+  who:
+  - early-career
+  - nonprofit-research
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - biomedical
+  - physician-scientist
+  pending_changes: []
+  official_url: https://www.bwfund.org/grants/biomedical-sciences/career-awards-for-medical-scientists/
+  sources:
+  - 2167
+  - 2165
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: bwf-career-awards-scientific-interface
+  name: Burroughs Wellcome Fund Career Awards at the Scientific Interface (CASI)
+  family: people
+  kind: foundation-program
+  funder: burroughs-wellcome-fund
+  owner: Burroughs Wellcome Fund
+  status: closed
+  applicant: person
+  what: A five-year, $560,000 award for a postdoctoral scientist trained in the physical, mathematical or computational
+    sciences or engineering who is moving into biology and towards a faculty post [2168]. The letter-of-intent deadline
+    for this cycle was Aug 14, 2026; full applications from those invited are due January 11, 2027 [2168].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: Ph.D. in mathematics, physics, chemistry, computer science, statistics or engineering, with exceptions
+      possible for biology PhDs with such expertise; at least 12 months but not more than 60 months of postdoctoral research
+      experience [2168].
+    limits: Nomination is not required to submit a Letter of Intent [2168].
+    eligibility_note: The candidate must be at a non-profit institution, 501(c)(3) or equivalent, in the U.S. or Canada
+      [2168].
+  citizenship: U.S. and Canadian citizens, permanent residents and temporary residents with a visa valid for the award period
+    [2168].
+  career_window: 12 to 60 months of postdoctoral research experience [2168].
+  cycle:
+    pattern: 'One cycle a year in two stages: letter of intent, then full application [2168].'
+    current_notices:
+    - id: CASI 2026-27 cycle
+      closes: '2026-08-14'
+      note: Letter of Intent due Aug 14, 2026, 3 pm EDT; full application due January 11, 2027, 3 pm EST; page status "Not
+        Open to Applications" [2168].
+  awards:
+  - label: award
+    amount: $560,000
+    duration: five years
+    cite:
+    - 2168
+  indirect_costs: 'Not allowed: "No, indirect costs may not be charged against the grant." [2168]'
+  steps:
+  - The candidate submits a Letter of Intent [2168].
+  - Those invited submit a full application [2168].
+  portal: https://www.bwfund.org/grants/interfaces-in-science/career-awards-at-the-scientific-interface/
+  gates: []
+  who:
+  - early-career
+  - nonprofit-research
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - biomedical
+  - physical-sciences
+  - computational-science
+  pending_changes: []
+  official_url: https://www.bwfund.org/grants/interfaces-in-science/career-awards-at-the-scientific-interface/
+  sources:
+  - 2168
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: pew-biomedical-scholars
+  name: Pew Scholars Program in the Biomedical Sciences
+  family: people
+  kind: foundation-program
+  funder: pew-charitable-trusts
+  funder_kind: independent-nonprofit
+  owner: The Pew Charitable Trusts
+  status: closed
+  applicant: institution
+  applicant_note: A participating institution names one nominee; the nominee then completes the application [2174].
+  what: Four years of flexible research support for an assistant professor in the first years of running an independent
+    laboratory, open only to one nominee from each participating institution [2174] [2173]. Eligibility for the 2027 award
+    was fixed as of Sept. 3, 2026, so that round was closed on 2026-10-04 [2174].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    investigator: 'As of Sept. 3, 2026: runs an independent lab and holds a full-time appointment at the rank of assistant
+      professor; did not hold an independent lab position before June 10, 2023; holds a doctorate in biomedical sciences,
+      medicine or a related field, including engineering or the physical sciences [2174]. Research, adjunct and visiting
+      assistant professors and instructors are not eligible [2174].'
+    limits: One nominee from each participating institution; 212 institutions were listed for the 2027 award [2174].
+    eligibility_note: Only the listed institutions may nominate. The page read calls them academic institutions; whether
+      any free-standing research institute is on the list was not checked [2173] [2174].
+  career_window: No independent lab position before June 10, 2023; time in clinical internships, residencies, board-certification
+    work or parental leave does not count [2174].
+  cycle:
+    pattern: 'One round a year [2174]. Added by slice D: Pew''s programme details page gives no nomination or application
+      deadline for the 2027 award; it says "Grant agreements will be issued in August of the award year." [2174].'
+    current_notices:
+    - id: 2027 Pew Scholars
+      closes: '2026-09-03'
+      note: One university gives the sponsor dates as May 13, 2026 for the first step and September 3, 2026 for applications
+        [2175]; the Pew page fixes eligibility as of Sept. 3, 2026 [2174].
+  awards:
+  - label: award
+    amount: $306,000 ($75,000 a year plus a $1,500 annual travel stipend)
+    duration: four years, with a fifth year for continued research
+    cite:
+    - 2174
+  indirect_costs: '"Not more than 8 percent ($24,000) of the total award value may be allocated for facilities and administration
+    (F&A) charges or indirect costs." [2174]'
+  steps:
+  - The institution runs an internal selection and names one nominee [2174] [2175].
+  - The nominee submits the application to Pew [2174].
+  portal: https://www.pew.org/en/projects/pew-biomedical-scholars/program-details
+  gates: []
+  who:
+  - early-career
+  - research-office
+  purpose:
+  - person
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - biomedical
+  pending_changes: []
+  conflicts:
+  - 'Award total: $306,000 on the Pew page [2174] vs $300,000 ($75,000 per year) in a university notice [2175]; the Pew
+    figure includes the travel stipend.'
+  official_url: https://www.pew.org/en/projects/pew-biomedical-scholars
+  sources:
+  - 2173
+  - 2174
+  - 2175
+  - 2174
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: ddf-health-solutions-science-in-action
+  name: Demonstrating Health Solutions Science in Action (Doris Duke Foundation and the Pathways for Health Research Collective)
+  family: research
+  kind: foundation-program
+  funder: doris-duke-foundation
+  owner: Doris Duke Foundation
+  status: open
+  applicant: institution
+  what: A call for three-year projects that apply evidence-based health solutions science in the United States and measure
+    the effect on health [2180]. Pre-proposals are due November 18, 2026; the Doris Duke Foundation handles intake and review
+    for a group of funders [2180] [2177].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    eligibility_note: The lead applicant must hold 501(c)(3) status or be a state university, which may apply through its
+      grant-receiving arm; a non-profit that is not a university may lead. For-profit entities are not eligible. Organisations
+      without 501(c)(3) status may collaborate under a qualifying lead [2180].
+  cycle:
+    pattern: A single call in two stages [2180].
+    current_notices:
+    - id: Demonstrating Health Solutions Science in Action
+      closes: '2026-11-18'
+      note: Pre-proposal due 3 PM ET on November 18, 2026; invitations early February 2027; full proposals due April 2027;
+        funder meetings with finalists June 2027; earliest start August 1, 2027 [2180].
+  awards:
+  - label: award size
+    amount: 'not stated: "Total available funding will depend on the scope of meritorious proposals."'
+    duration: three years
+    cite:
+    - 2180
+  review: Peer review, with intake and review centralised at the Doris Duke Foundation; review comments are not guaranteed
+    at either stage [2180].
+  steps:
+  - The lead organisation submits the pre-proposal form and a preliminary budget by November 18, 2026 [2180].
+  - Invited applicants submit a full proposal in April 2027 [2180].
+  portal: https://www.dorisduke.org/grants/
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  - nonprofit-programmes
+  - research-office
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - health
+  - medical-research
+  pending_changes: []
+  official_url: https://site.dorisduke.org/hubfs/MRP/Demonstrating_health_solutions_science_in_action.pdf
+  sources:
+  - 2180
+  - 2177
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: aha-career-development-award
+  name: American Heart Association Career Development Award
+  family: people
+  kind: foundation-program
+  funder: american-heart-association
+  funder_kind: independent-nonprofit
+  owner: American Heart Association
+  status: open
+  applicant: person
+  what: A three-year, non-renewable award for a health or academic professional in the early years of a first professional
+    appointment [2188] [2187]. The proposal deadline is December 1, 2026 [2188].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: MD, PhD, DO, DVM, DDS or equivalent doctoral degree; a faculty or staff position up to and including assistant
+      professor; no more than six years since the first appointment at that level; an AHA Professional Member at submission
+      [2188].
+    limits: May not be a current or prior recipient of a Career Development Award or Scientist Development Grant [2188].
+    eligibility_note: U.S.-based non-profit institutions, including universities and colleges, health professional schools
+      and public and voluntary hospitals; a non-profit hospital that is not a university qualifies [2188].
+  citizenship: U.S. citizen, permanent resident, pending permanent resident, or E-3, G-4, H1-B, O-1, TN or DACA status [2188].
+  career_window: No more than six years since the first faculty or staff appointment at assistant professor level or equivalent
+    [2188].
+  cycle:
+    pattern: One deadline a year [2188].
+    current_notices:
+    - id: Career Development Award
+      closes: '2026-12-01'
+      note: Due 3 p.m. Central Time [2188].
+  awards:
+  - label: award
+    amount: $77,000 per year; $231,000 total
+    duration: three years, non-renewable
+    cite:
+    - 2188
+  indirect_costs: 10% institutional indirect costs [2188].
+  budget_rules: The awardee must devote at least 10% effort to the award [2188].
+  steps:
+  - The applicant joins the AHA as a Professional Member and submits the proposal by the deadline [2188].
+  portal: https://professional.heart.org/en/research-programs/aha-funding-opportunities/career-development-award
+  gates: []
+  who:
+  - early-career
+  - nonprofit-research
+  purpose:
+  - person
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  fields:
+  - cardiovascular
+  - biomedical
+  pending_changes: []
+  official_url: https://professional.heart.org/en/research-programs/aha-funding-opportunities/career-development-award
+  sources:
+  - 2188
+  - 2187
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: acs-research-scholar-grants
+  name: American Cancer Society Research Scholar Grants
+  family: research
+  kind: foundation-program
+  funder: american-cancer-society
+  funder_kind: independent-nonprofit
+  owner: American Cancer Society
+  status: open
+  applicant: person
+  what: A project grant of up to $215,000 a year for up to four years for an independent investigator within 8 years of
+    the first independent appointment, in an ACS priority research area [2191]. Applications are taken at two deadlines
+    a year; the next after 2026-10-04 is December 1 [2191] [2190].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: First appointed as independent, full-time faculty or equivalent 8 years ago or less, with extensions possible
+      on Program Office approval; PI on no more than 1 R01 or R01-equivalent grant at application [2191].
+    limits: A current or former grantee may not apply for a second Research Scholar Grant unless the first was part of a
+      special initiative [2191]. An applicant may submit only one of a Research Scholar Grant, a Discovery Boost Grant or
+      a Mission Boost Grant per cycle; two resubmissions of a Research Scholar Grant are allowed [2248].
+    eligibility_note: The applicant must work "at a US academic institution or eligible non-profit" [2191]. The policies
+      say grants go to not-for-profit institutions physically located within the US and its territories, so a non-profit
+      research institute that is not a university may hold one [2248].
+  career_window: 8 years or less since the first independent appointment [2191].
+  cycle:
+    pattern: June 1 and December 1 each year; the next business day when the date falls on a weekend or holiday [2191].
+    current_notices:
+    - id: December 2026 deadline
+      closes: '2026-12-01'
+      note: Standing deadline [2191].
+  awards:
+  - label: direct costs
+    amount: up to $215,000 per year
+    duration: up to four years
+    cite:
+    - 2191
+  indirect_costs: 10% of direct costs, with equipment of $5,000 or more left out of the base [2191] [2248].
+  steps:
+  - The investigator applies by June 1 or December 1 [2191].
+  portal: https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant.html
+  gates: []
+  who:
+  - faculty-investigator
+  - early-career
+  - nonprofit-research
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  fields:
+  - cancer
+  - biomedical
+  pending_changes:
+  - status: final
+    date: '2026'
+    text: The eligibility cutoff was reduced from 10 years to 8 years from the initial independent appointment, starting
+      with the Summer 2026 application cycle [2248].
+  official_url: https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/research-scholar-grants.html
+  sources:
+  - 2191
+  - 2190
+  - 2248
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: spencer-small-research-grants
+  name: 'Spencer Foundation Research Grants on Education: Small'
+  family: research
+  kind: foundation-program
+  funder: spencer-foundation
+  owner: Spencer Foundation
+  status: closed
+  applicant: institution
+  applicant_note: The PI prepares the proposal; the grant is administered by the organisation with which the PI is affiliated
+    [2194].
+  what: Field-initiated education research projects with budgets up to $50,000, lasting one to five years [2194]. Applications
+    were marked "Now closed" on 2026-10-04 and the page showed no next date [2194] [2193].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: PIs and Co-PIs must have an earned doctorate in an academic discipline or professional field; graduate
+      students may not be PI or Co-PI [2194].
+    limits: A PI or Co-PI may hold one active Spencer research grant at a time and may not have more than one research proposal
+      submitted at a time [2194].
+    eligibility_note: 'A non-profit that is not a university may apply: the administering organisation may be a non-profit
+      or public college, university, school district or research facility, or another non-profit with a 501(c)(3) determination
+      [2194]. Proposals come from the U.S. and internationally, in English and U.S. dollars [2194].'
+  cycle:
+    pattern: Application windows through the year; none was open and no date was posted on 2026-10-04 [2194].
+    current_notices: []
+  awards:
+  - label: budget ceiling
+    amount: $50,000
+    duration: one to five years
+    cite:
+    - 2194
+  indirect_costs: 'Not allowed: budgets "may not include indirect cost charges per Spencer''s policy" [2194].'
+  steps:
+  - The PI submits the proposal through the foundation's portal in an open window [2194].
+  portal: https://www.spencer.org/grant_types/small-research-grant
+  gates: []
+  who:
+  - faculty-investigator
+  - early-career
+  - nonprofit-research
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - education
+  pending_changes: []
+  official_url: https://www.spencer.org/grant_types/small-research-grant
+  sources:
+  - 2194
+  - 2193
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: spencer-large-research-grants
+  name: 'Spencer Foundation Research Grants on Education: Large'
+  family: research
+  kind: foundation-program
+  funder: spencer-foundation
+  owner: Spencer Foundation
+  status: closed
+  applicant: institution
+  what: Field-initiated education research projects with budgets from $125,000 to $500,000 in three tiers, lasting up to
+    5 years [2195]. Applications were marked "Now closed" on 2026-10-04; from 2026 there is one cycle a year [2195].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: PIs and Co-PIs must have an earned doctorate in an academic discipline or professional field [2195].
+    limits: A PI or Co-PI may hold one active Spencer research grant and may not submit more than one research proposal
+      or preproposal at a time [2195].
+    eligibility_note: The PI must be affiliated with a non-profit organization or public or governmental institution, including
+      non-profit or public colleges, universities, school districts and research facilities [2195].
+  cycle:
+    pattern: A single cycle per year from 2026; no dates were posted on 2026-10-04 [2195].
+    current_notices: []
+  awards:
+  - label: budget tiers
+    amount: $125,000 to 250,000; $250,001 to $375,000; $375,001 to $500,000
+    duration: not longer than 5 years
+    cite:
+    - 2195
+  indirect_costs: '"Budgets in this program may include 15 percent IDC (aka overhead)." [2195]'
+  steps:
+  - The PI submits in the annual cycle through the foundation's portal [2195].
+  portal: https://www.spencer.org/grant_types/large-research-grant
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - education
+  pending_changes:
+  - status: final
+    date: '2026'
+    text: From 2026 the programme has a single cycle per year [2195].
+  official_url: https://www.spencer.org/grant_types/large-research-grant
+  sources:
+  - 2195
+  - 2193
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: spencer-research-practice-partnerships
+  name: Spencer Foundation Research-Practice Partnerships
+  family: research
+  kind: foundation-program
+  funder: spencer-foundation
+  owner: Spencer Foundation
+  status: closed
+  applicant: institution
+  what: Grants of up to $400,000 over up to three years for partnerships between researchers and practitioners in education
+    [2196]. The 2026 pre-proposal deadline had passed on 2026-10-04; the October 28, 2026 date on the foundation's list
+    is for invited full proposals [2196] [2193].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: PIs and Co-PIs need an earned doctorate or demonstrated professional experience appropriate for the programme;
+      graduate students may not be PI or Co-PI [2196].
+    limits: One active Spencer research grant and one proposal at a time per PI or Co-PI [2196].
+    eligibility_note: Non-profit or public colleges, universities, school districts and research facilities, and other non-profits
+      with a 501(c)(3) determination, may administer the grant [2196].
+  cycle:
+    pattern: 'One round a year in two stages: pre-proposal, then full proposal by invitation [2196].'
+    current_notices:
+    - id: 2026 round
+      opens: '2026-05-12'
+      closes: '2026-10-28'
+      note: Applications opened May 12, 2026; pre-proposal deadline passed; invited full proposals due October 28, 2026,
+        12:00 PM Noon Central [2196].
+  awards:
+  - label: budget ceiling
+    amount: $400,000
+    duration: up to three years
+    cite:
+    - 2196
+  indirect_costs: Up to 15% [2196].
+  steps:
+  - The partnership submits a pre-proposal [2196].
+  - Those invited submit a full proposal by October 28, 2026 [2196].
+  portal: https://www.spencer.org/grant_types/research-practice-partnerships
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  - nonprofit-programmes
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - education
+  pending_changes: []
+  official_url: https://www.spencer.org/grant_types/research-practice-partnerships
+  sources:
+  - 2196
+  - 2193
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: rsf-core-research-grants
+  name: Russell Sage Foundation Core Research Grants
+  family: research
+  kind: foundation-program
+  funder: russell-sage-foundation
+  owner: Russell Sage Foundation
+  status: open
+  applicant: either
+  what: 'Grants for social science research in the foundation''s priority areas: Trustee Grants up to $200,000 and Presidential
+    Grants up to $50,000, generally for two years [2202]. The next letter-of-inquiry deadline after 2026-10-04 is October
+    28, 2026, for the Social, Political and Economic Inequality and Future of Work programmes and one special initiative
+    [2201].'
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    - individual
+    investigator: PhD holders [2203].
+    eligibility_note: '"All nationalities are eligible to apply and applicants do not have to reside in the U.S." [2200]
+      The pages read do not say what kind of institution must administer a grant [2203].'
+  cycle:
+    pattern: Three letter-of-inquiry deadlines a year, each for named programme areas, followed by an invited proposal [2201].
+    current_notices:
+    - id: LOI October 2026 (SPEI, FOW, SCD23)
+      closes: '2026-10-28'
+      note: LOI due Oct 28, 2026, 2pm ET; invited proposal due Feb 22, 2027, 2pm ET; funding decision Jun 2027 [2201].
+    - id: LOI July 2026 (BSDMC, REI, III, SCD23)
+      closes: '2026-07-15'
+      note: Closed; invited proposals due Oct 26, 2026; decision Mar 2027 [2201].
+  awards:
+  - label: Trustee Grant ceiling
+    amount: $200,000
+    duration: generally two years
+    cite:
+    - 2202
+  - label: Presidential Grant ceiling
+    amount: $50,000; up to $75,000 in stated cases
+    duration: generally two years
+    cite:
+    - 2202
+  indirect_costs: Up to 15% on grants over $75,000 only; none on data purchases or access fees or on subcontracts to survey
+    firms [2202].
+  budget_rules: Summer salary for tenure-track faculty up to $15,000 for a 1-year grant and $30,000 for a 2-year grant;
+    non-tenure-track PIs up to 25 percent of normal salary and no more than $20,000 a year; no salary support for anyone
+    paid $300,000 or more; no tuition remission, office rent or conference travel [2202].
+  steps:
+  - The investigator submits a letter of inquiry at rsf.fluxx.io by the deadline for the programme area [2200] [2201].
+  - If invited, the investigator submits a full proposal by the invited-proposal date [2201].
+  portal: https://rsf.fluxx.io/
+  gates: []
+  who:
+  - faculty-investigator
+  - early-career
+  - nonprofit-research
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - social-science
+  pending_changes: []
+  official_url: https://www.russellsage.org/apply/grants/core
+  sources:
+  - 2201
+  - 2202
+  - 2203
+  - 2200
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: rsf-pipeline-grants
+  name: Russell Sage Foundation Sheldon Danziger Pipeline Grants
+  family: research
+  kind: foundation-program
+  funder: russell-sage-foundation
+  owner: Russell Sage Foundation
+  status: open
+  applicant: either
+  what: A competition, run with the Bill & Melinda Gates Foundation, for faculty who have not had support from the Russell
+    Sage Foundation before [2200]. The 2026 deadline is Wednesday, October 21, 2026, 2pm ET [2201].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - individual
+    investigator: One page describes eligible applicants as "early and mid-career faculty who have not previously received
+      support from RSF"; another lists Assistant Professors, Lecturers and Adjunct Professors [2200] [2203].
+  cycle:
+    pattern: One deadline a year [2201].
+    current_notices:
+    - id: 2026 Pipeline Grants
+      closes: '2026-10-21'
+      note: Due 2pm ET [2201].
+  steps:
+  - The applicant submits through rsf.fluxx.io by the deadline [2200] [2201].
+  portal: https://rsf.fluxx.io/
+  gates: []
+  who:
+  - early-career
+  - faculty-investigator
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - social-science
+  pending_changes: []
+  official_url: https://www.russellsage.org/how-to-apply
+  sources:
+  - 2200
+  - 2201
+  - 2203
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: william-t-grant-scholars
+  name: William T. Grant Scholars Program
+  family: people
+  kind: foundation-program
+  funder: william-t-grant-foundation
+  owner: William T. Grant Foundation
+  status: closed
+  applicant: institution
+  applicant_note: The institution nominates; each major division of an institution may nominate one applicant a year [2206].
+  what: A five-year, $425,000 award for an early-career researcher's research and mentoring plan that stretches the researcher's
+    expertise [2206] [2205]. The 2026 competition was closed on 2026-10-04; dates for the next are to be posted in January
+    2027 [2206].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: Doctorate received within seven years of submitting the application; employed in a career-ladder position,
+      which includes tenure-track posts and comparable research career paths in other organizations [2206].
+    limits: '"Applicants must be nominated by their institutions." Each major division, for example a College of Arts and
+      Sciences, may nominate only one applicant a year [2206].'
+    eligibility_note: Grants go only to tax-exempt organizations; a researcher on a career ladder at a non-profit that is
+      not a university is within the wording [2206].
+  career_window: Within seven years of the doctorate [2206].
+  cycle:
+    pattern: One competition a year; next dates to be posted in January 2027 [2206].
+    current_notices: []
+  awards:
+  - label: award, including up to 7.5% indirect costs
+    amount: exactly $425,000
+    duration: five years
+    cite:
+    - 2206
+  - label: Scholars selected each year
+    amount: four to six
+    duration: ''
+    cite:
+    - 2206
+  indirect_costs: Up to 7.5%, inside the $425,000 [2206].
+  steps:
+  - The division of the institution chooses and nominates one applicant [2206].
+  - The applicant submits the five-year research and mentoring plan by the competition deadline [2206].
+  portal: https://wtgrantfoundation.org/funding/william-t-grant-scholars-program
+  gates: []
+  who:
+  - early-career
+  - research-office
+  - nonprofit-research
+  purpose:
+  - person
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - social-science
+  - youth
+  - education
+  pending_changes: []
+  official_url: https://wtgrantfoundation.org/funding/william-t-grant-scholars-program
+  sources:
+  - 2206
+  - 2205
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: wtgrant-research-grants-reducing-inequality
+  name: William T. Grant Foundation Research Grants on Reducing Inequality
+  family: research
+  kind: foundation-program
+  funder: william-t-grant-foundation
+  owner: William T. Grant Foundation
+  status: closed
+  applicant: institution
+  what: Grants for research on programmes, policies or practices that reduce inequality in the academic, social, behavioral
+    or economic outcomes of young people ages 5-25 [2205]. The 2026 cycles were closed on 2026-10-04; 2027 deadlines are
+    to be posted in November 2026 [2207].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    eligibility_note: Tax-exempt organizations only, so a non-profit that is not a university may apply; no grants to individuals
+      [2207].
+  cycle:
+    pattern: Letter-of-inquiry cycles each year; 2027 deadlines to be posted in November 2026 [2207].
+    current_notices: []
+  awards:
+  - label: major research grants, including up to 15% indirect costs
+    amount: $100,000 to $600,000
+    duration: 2-3 years
+    cite:
+    - 2207
+  - label: Officers' research grants, including up to 15% indirect costs
+    amount: $25,000-$50,000
+    duration: 1-2 years
+    cite:
+    - 2207
+  indirect_costs: Up to 15%, inside the award [2207].
+  review: Staff review letters of inquiry for major grants and then invite a full proposal or decline; Officers' research
+    grants are awarded on the letter of inquiry alone [2207].
+  steps:
+  - The organisation submits a letter of inquiry in an open cycle [2207].
+  - For a major grant, an invited full proposal follows [2207].
+  portal: https://wtgrantfoundation.org/funding/research-grants-on-reducing-inequality
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - social-science
+  - youth
+  pending_changes: []
+  official_url: https://wtgrantfoundation.org/funding/research-grants-on-reducing-inequality
+  sources:
+  - 2207
+  - 2205
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: andrew-carnegie-fellows
+  name: Andrew Carnegie Fellows Program
+  family: people
+  kind: fellowship
+  funder: carnegie-corporation-of-new-york
+  owner: Carnegie Corporation of New York
+  status: unconfirmed
+  applicant: institution
+  applicant_note: A scholar cannot apply; a named kind of leader nominates [2217].
+  what: A grant of up to $200,000 to a scholar for a research project of up to two years on political polarization [2217].
+    A new three-year nomination cycle begins in 2027, for fellowships starting June to September 2027; the page read gave
+    no nomination deadline, so the state of the round on 2026-10-04 is not confirmed [2217].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    investigator: A PhD, another terminal degree or high-level professional experience outside the academy [2217].
+    limits: A university president may nominate one tenured and one untenured scholar; heads of independent research institutes,
+      learned societies, think tanks, academic presses and leading newspapers and magazines may nominate one candidate each;
+      self-nomination is not allowed [2217].
+    eligibility_note: Heads of independent research institutes, learned societies and think tanks are among the nominators,
+      so a scholar outside a university can be put forward [2217].
+  citizenship: Citizens or legal residents of the United States [2217].
+  cycle:
+    pattern: One class a year within a three-year cycle on one theme; the 2026 class had 24 fellows [2217].
+    current_notices: []
+  awards:
+  - label: fellowship grant
+    amount: up to $200,000
+    duration: 12 or 24 months
+    cite:
+    - 2217
+  steps:
+  - An eligible nominator puts the scholar forward [2217].
+  portal: https://www.carnegie.org/awards/award/andrew-carnegie-fellows/
+  gates: []
+  who:
+  - faculty-investigator
+  - research-office
+  - nonprofit-research
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - social-science
+  - humanities
+  pending_changes: []
+  official_url: https://www.carnegie.org/awards/award/andrew-carnegie-fellows/
+  sources:
+  - 2217
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: guggenheim-fellowships
+  name: Guggenheim Fellowships (United States and Canada competition)
+  family: people
+  kind: fellowship
+  funder: guggenheim-foundation
+  owner: John Simon Guggenheim Memorial Foundation
+  status: closed
+  applicant: person
+  what: A fellowship of six to twelve months for a mid-career individual in any field of scholarship or any art form [2222]
+    [2224] [2225]. The 2027 competition closed on September 15, 2026; Fellows are announced in late April 2027 [2223].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - individual
+    investigator: Mid-career individuals; students are excluded, as are applicants whose only publications are based on
+      their dissertations [2225] [2224].
+    limits: Two equal collaborators may apply jointly; groups of three or more may not [2224].
+    eligibility_note: The Fellowship goes to a person, not an institution, so no institutional affiliation is required by
+      the pages read; organizations cannot apply [2225].
+  citizenship: Citizens and permanent residents of the United States and Canada [2225].
+  stipend: '"The amounts of grants vary, and the Foundation does not guarantee it will fully fund any project"; amounts
+    take account of the Fellow''s other resources and plans [2225].'
+  cycle:
+    pattern: One competition a year, opening mid-August and closing mid-September [2223].
+    current_notices:
+    - id: 2027 United States and Canada competition
+      opens: 2026-08
+      closes: '2026-09-15'
+      note: Work samples due September 29, 2026; reference letters due October 13, 2026; closed [2223].
+  awards:
+  - label: Fellowships a year
+    amount: around 175
+    duration: six to twelve months each
+    cite:
+    - 2225
+    - 2224
+  indirect_costs: 'Not applicable: the grant is paid to the individual [2225].'
+  success:
+  - rate: around 5%
+    fiscal_year: 2026
+    note: '"Success rates have hovered around 5% in recent years", as the 2026-2027 application guide puts it; not a figure
+      for one year [2224].'
+    cite:
+    - 2224
+  steps:
+  - The applicant submits the online application by September 15 [2223].
+  - Work samples follow by September 29 and reference letters by October 13 [2223].
+  portal: https://www.gf.org/program/how-to-apply
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  purpose:
+  - person
+  stage:
+  - funded-once
+  - established
+  fields:
+  - any
+  pending_changes: []
+  official_url: https://www.gf.org/program/how-to-apply
+  sources:
+  - 2223
+  - 2224
+  - 2225
+  - 2222
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: acls-fellowship-program
+  name: ACLS Fellowship Program
+  family: people
+  kind: fellowship
+  funder: acls
+  funder_kind: independent-nonprofit
+  owner: American Council of Learned Societies
+  status: closed
+  applicant: person
+  what: Fellowships for individual scholars in the humanities and social sciences, including independent scholars, paid
+    for mainly from the ACLS endowment [2228]. The 2026 deadline was September 17, 2026 [2228].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - individual
+    eligibility_note: Independent scholars are named as eligible, so no university post is required by the page read [2228].
+  cycle:
+    pattern: One deadline a year [2228].
+    current_notices:
+    - id: 2026-27 competition
+      closes: '2026-09-17'
+      note: Due 5:00 PM ET; closed [2228].
+  awards:
+  - label: most recent competition
+    amount: approximately $3.5 million to 63 scholars
+    duration: ''
+    cite:
+    - 2228
+  steps:
+  - The scholar applies to ACLS by the deadline [2228].
+  portal: https://www.acls.org/programs/acls-fellowship-program/
+  gates: []
+  who:
+  - faculty-investigator
+  - early-career
+  - nonprofit-research
+  purpose:
+  - person
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - humanities
+  - social-science
+  pending_changes: []
+  official_url: https://www.acls.org/programs/acls-fellowship-program/
+  sources:
+  - 2228
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: mellon-acls-dissertation-innovation-fellowships
+  name: Mellon/ACLS Dissertation Innovation Fellowships
+  family: people
+  kind: fellowship
+  funder: acls
+  funder_kind: independent-nonprofit
+  owner: American Council of Learned Societies, with a grant from the Mellon Foundation
+  status: open
+  applicant: person
+  what: Fellowships for doctoral students whose dissertation projects use new methods, formats or collaborations; ACLS runs
+    the competition and "the program is made possible by a grant from the Mellon Foundation" [2229]. The deadline is October
+    28, 2026 [2229].
+  funds: fellowship
+  who_may_apply:
+    applicant_types:
+    - individual
+    investigator: Doctoral students; the eligibility details are in the competition guidelines, which were not read [2229].
+  cycle:
+    pattern: One deadline a year [2229].
+    current_notices:
+    - id: 2026-27 competition
+      closes: '2026-10-28'
+      note: Due 5:00 PM ET [2229].
+  steps:
+  - The student applies to ACLS by the deadline [2229].
+  portal: https://www.acls.org/programs/mellon-acls-dissertation-innovation-fellowships/
+  gates: []
+  who:
+  - early-career
+  purpose:
+  - person
+  stage:
+  - never-applied
+  fields:
+  - humanities
+  - social-science
+  pending_changes: []
+  official_url: https://www.acls.org/programs/mellon-acls-dissertation-innovation-fellowships/
+  sources:
+  - 2229
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: macarthur-100-and-change
+  name: 100&Change
+  family: programme-service
+  kind: foundation-program
+  funder: macarthur-foundation
+  owner: John D. and Catherine T. MacArthur Foundation
+  what: 100&Change is a competition for a single $100 million grant to one proposal that addresses a critical problem [2266]
+    [2264]. Three cycles have run; the third closed to applications on September 5, 2024 and named Sentinel as its award
+    recipient [2266].
+  funds: grant
+  status: closed
+  applicant: institution
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+    - nonprofit-other
+    - public-higher-ed
+    - private-higher-ed
+    - for-profit
+    limits: A 501(c)(4) organisation may not be the lead applicant, though it may collaborate with an eligible one; government
+      agencies and individuals may not apply [2266].
+  eligibility_note: '''Any organization or legal entity, except for government agencies and individuals, can apply.'' A
+    non-profit that is not a university may apply, as may a university or a for-profit organisation, and several organisations
+    may apply together [2266].'
+  cycle:
+    pattern: The foundation says the competition cycle repeats every three years; earlier rounds were held in 2017 and 2021
+      [2264] [2266]. No date for a fourth cycle was found [2266].
+    current_notices:
+    - id: third cycle
+      opens: unknown
+      closes: '2024-09-05'
+      note: Registration closed August 15, 2024 and applications September 5, 2024, both at 5:00 PM U.S. Central Time; finalists
+        were selected in spring 2025 and the award announced in winter 2025 [2266].
+  awards:
+  - label: single award
+    amount: $100 million
+    duration: not stated
+    cite:
+    - 2266
+  review: Applications passed a participatory review by other applicants (October 15 to November 12, 2024) and then a panel
+    of outside judges (November 2024 to February 2025); proposals are judged as impactful, evidence-based, feasible, durable
+    and just [2266].
+  steps:
+  - Register by the registration deadline [2266].
+  - Submit the application by the application deadline [2266].
+  portal: https://www.100andchange.org/
+  gates: []
+  who:
+  - nonprofit-programmes
+  - nonprofit-research
+  - faculty-investigator
+  - research-office
+  purpose:
+  - service
+  - research-project
+  stage:
+  - established
+  fields:
+  - any
+  official_url: https://www.100andchange.org/
+  sources:
+  - 2266
+  - 2264
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: rwjf-exploring-equitable-futures
+  name: Exploring Equitable Futures (RWJF open call for ideas)
+  family: research
+  kind: foundation-program
+  funder: robert-wood-johnson-foundation
+  owner: Robert Wood Johnson Foundation
+  what: Exploring Equitable Futures is the foundation's standing open call for proposals, which closes and reopens each
+    year [2336]. In 2024 it made 8 grants, about 1 percent of the applications received [2336].
+  funds: grant
+  status: unconfirmed
+  applicant: either
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+    - nonprofit-other
+    - public-higher-ed
+    - private-higher-ed
+    - state-government
+    - for-profit
+    - individual
+    limits: Individuals may enter the first phase and need a fiscal sponsor for the second [2336].
+  eligibility_note: The foundation says the vast majority of this funding goes to non-profit organisations and public agencies,
+    and less than 1 percent historically to for-profit companies. A non-profit that is not a university may apply [2336].
+  cycle:
+    pattern: The call closes each year on or about October 15 and reopens on or about February 1 [2336]. The dates for the
+      2026 round were not confirmed on a page dated 2026 [2336].
+    current_notices: []
+  awards:
+  - label: typical award in 2023
+    amount: $250,000-$500,000
+    duration: 2 to 3 years on average; no fixed cap on amount or duration
+    cite:
+    - 2336
+  indirect_costs: Allowed; the rate 'varies by type of organization' under the foundation's indirect cost policy [2336].
+  success:
+  - rate: about 1%
+    fiscal_year: 2024
+    note: 8 grants from the applications received in 2024; the foundation says 600 to 1,000 submissions arrive each year
+      [2336].
+    cite:
+    - 2336
+  steps:
+  - Register at my.rwjf.org [2336].
+  - Submit a phase 1 proposal in the foundation's online system; a phase 2 proposal follows if invited [2336].
+  portal: https://my.rwjf.org/
+  gates: []
+  who:
+  - nonprofit-research
+  - nonprofit-programmes
+  - faculty-investigator
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - health
+  - health-equity
+  official_url: https://www.rwjf.org/en/grants/active-funding-opportunities.html
+  sources:
+  - 2336
+  - 2335
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: rwjf-e4a-rapid-response-research
+  name: 'Evidence for Action: Rapid Response Research'
+  family: research
+  kind: foundation-program
+  funder: robert-wood-johnson-foundation
+  owner: Robert Wood Johnson Foundation
+  what: A single call issued in August 2025 to 'Support timely, actionable health equity research that has been interrupted
+    by shifts in federal funding' [2337]. Applicants had to have lost federal funding for a health equity research project
+    and document the termination [2337].
+  funds: grant
+  status: closed
+  applicant: institution
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    - nonprofit-other
+    limits: Organisations only, based in the United States [2337].
+  eligibility_note: Universities, non-profits and research institutions were eligible; a non-profit that is not a university
+    could apply [2337].
+  cycle:
+    pattern: One deadline; no later round was found [2337].
+    current_notices:
+    - id: E4A Rapid Response Research (cfpId 1745)
+      opens: 2025-08
+      closes: '2025-10-01'
+      note: Brief proposals were due October 1, 2025 at 3 p.m. ET; applicants were to be notified the week of November 17,
+        2025, for grants starting January 15, 2026 [2337].
+  awards:
+  - label: award
+    amount: $50,000-$200,000
+    duration: up to 24 months
+    cite:
+    - 2337
+  - label: total available
+    amount: up to $5 million
+    duration: ''
+    cite:
+    - 2337
+  indirect_costs: Grant funds 'will also cover indirect costs'; no rate is given in the call [2337].
+  steps:
+  - Submit a brief proposal in the foundation's online system [2337].
+  portal: https://anr.rwjf.org/viewCfp.do?cfpId=1745&cfpOverviewId=
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  - research-office
+  purpose:
+  - research-project
+  stage:
+  - funded-once
+  - established
+  fields:
+  - health
+  - health-equity
+  official_url: https://anr.rwjf.org/viewCfp.do?cfpId=1745&cfpOverviewId=
+  sources:
+  - 2337
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: knight-cities-challenge
+  name: Knight Cities Challenge
+  family: programme-service
+  kind: foundation-program
+  funder: knight-foundation
+  owner: John S. and James L. Knight Foundation
+  what: An open call for projects in the 26 Knight communities that strengthen local news, expand economic opportunity or
+    deepen community connection through arts and culture [2355]. The foundation relaunched it in 2026 with $10 million for
+    two cohorts over three years [2355].
+  funds: grant
+  status: closed
+  applicant: either
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+    - nonprofit-other
+    - individual
+    limits: The project must be in one of the 26 Knight communities [2355].
+  eligibility_note: Community organisations and individuals may apply; a non-profit that is not a university may apply if
+    it works in a Knight community [2355].
+  service_area: The 26 Knight communities, among them Akron, Charlotte, Detroit, Macon, Miami, Philadelphia, San Jose and
+    St. Paul [2355].
+  cycle:
+    pattern: Two cohorts over three years; the dates of the second round were not found [2355].
+    current_notices:
+    - id: 2026 round one
+      opens: '2026-04-01'
+      closes: '2026-04-30'
+      note: Applications were open April 1 to April 30, 2026, with an information session on April 7 and office hours [2355].
+  awards:
+  - label: per project
+    amount: up to $200,000
+    duration: not stated
+    cite:
+    - 2355
+  - label: round one total
+    amount: up to $5 million
+    duration: ''
+    cite:
+    - 2355
+  steps:
+  - Apply through kf.submittable.com during the open window [2355].
+  portal: https://kf.submittable.com/
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - service
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - journalism
+  - arts
+  - community-development
+  official_url: https://knightfoundation.org/articles/news/knight-cities-challenge-2026-launch-press-release/
+  sources:
+  - 2355
+  - 2296
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: mellon-higher-learning-open-call
+  name: Mellon Higher Learning Program Open Call for Concepts
+  family: research
+  kind: foundation-program
+  funder: mellon-foundation
+  owner: Mellon Foundation
+  what: An open call from the foundation's Higher Learning programme for research and curricular projects in the humanities
+    on set themes; the 2026 themes were 'Unruly Intelligences' and 'Normalization and Its Discontents' [2339]. The foundation
+    committed $10 million to the 2026 call [2339].
+  funds: grant
+  status: closed
+  applicant: institution
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    limits: '''Each institution may submit no more than three applications to Mellon for consideration.'' [2339]'
+  eligibility_note: Only accredited, non-profit, four-year degree-granting institutions in the United States and its territories
+    with at least 1,000 full-time undergraduates may apply. Research institutes, fully online institutions and special-focus
+    institutions are not eligible, so a non-profit that is not such a college or university may not apply [2339].
+  cycle:
+    pattern: The 2026 call is closed; whether a call for 2027 will be held was not found [2339].
+    current_notices:
+    - id: 2026 open call
+      opens: unknown
+      closes: '2026-02-17'
+      note: Registration was due December 1, 2025 and applications February 17, 2026, both at 3:00 p.m. ET, with notification
+        in summer 2026 [2339].
+  awards:
+  - label: grant
+    amount: $250,000-$500,000
+    duration: up to four years
+    cite:
+    - 2339
+  steps:
+  - Register in Mellon's Fluxx grants portal by the registration deadline [2339].
+  - Submit the application in the portal by the application deadline [2339].
+  portal: https://mellon.fluxx.io/
+  gates: []
+  who:
+  - faculty-investigator
+  - research-office
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - humanities
+  - higher-education
+  official_url: https://www.mellon.org/article/higher-learning-open-call-for-concepts-2026
+  sources:
+  - 2339
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: mellon-humanities-in-place
+  name: Mellon Humanities in Place
+  family: programme-service
+  kind: foundation-program
+  funder: mellon-foundation
+  owner: Mellon Foundation
+  what: Humanities in Place funds programming by community groups on cultural heritage, work on overlooked communities and
+    regions, and cultural heritage sites [2340]. It is the one Mellon programme found to take applications at any time [2340]
+    [2210].
+  funds: grant
+  status: open
+  applicant: institution
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+    - nonprofit-other
+    - public-higher-ed
+    - private-higher-ed
+  eligibility_note: The page names community groups, institutions and cultural heritage sites, including museums and public
+    spaces; a non-profit that is not a university may apply [2340]. The foundation does not give direct unrestricted funding
+    to individuals [2210].
+  cycle:
+    pattern: Rolling; no deadline [2340].
+    current_notices: []
+  awards: []
+  steps:
+  - Apply at mellon.fluxx.io/apply/hip [2340].
+  portal: https://mellon.fluxx.io/apply/hip
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - service
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - humanities
+  - cultural-heritage
+  - museums
+  official_url: https://www.mellon.org/grant-programs/humanities-in-place
+  sources:
+  - 2340
+  - 2210
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: arnold-ventures-k12-causal-research-rfp
+  name: 'Arnold Ventures request for proposals: Causal Research on the Impacts of K-12 School Policies'
+  family: research
+  kind: foundation-program
+  funder: arnold-ventures
+  owner: Arnold Ventures
+  what: A request for proposals issued in September 2026 for causal studies of the effects of K-12 school policies [2321]
+    [2318]. It is one of two requests listed as open on 2026-10-04 [2318].
+  funds: grant
+  status: open
+  applicant: institution
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+    - nonprofit-other
+  eligibility_note: The request states no restriction by type of organisation, so it does not shut out a non-profit that
+    is not a university [2321].
+  cycle:
+    pattern: Two steps on fixed dates [2321].
+    current_notices:
+    - id: 202609-AV_RFP_K-12
+      opens: 2026-09
+      closes: '2026-11-13'
+      note: Letters of interest are due November 13, 2026; invitations to submit a full proposal follow on December 18,
+        2026; full proposals are due January 31, 2027; notification of award is estimated for March 31, 2027 [2321].
+  awards: []
+  review: 'Two criteria: policy relevance and causal study design [2321].'
+  steps:
+  - Submit a letter of interest by November 13, 2026 [2321].
+  - If invited, submit a full proposal by January 31, 2027 [2321].
+  portal: https://www.arnoldventures.org/grants
+  gates: []
+  who:
+  - faculty-investigator
+  - nonprofit-research
+  - research-office
+  purpose:
+  - research-project
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  - established
+  fields:
+  - education
+  - k-12
+  - policy-evaluation
+  official_url: https://assets.arnoldventures.org/uploads/PDFs/202609-AV_RFP_K-12.pdf
+  sources:
+  - 2321
+  - 2318
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: yield-giving-open-call
+  name: Yield Giving Open Call
+  family: programme-service
+  kind: foundation-program
+  funder: yield-giving
+  owner: Yield Giving, with Lever for Change
+  what: 'The one open application Yield Giving has held: ''an open call completed in 2024 with an online application'' [2316].
+    It selected 361 community-led non-profits from more than 6,000 applicants [2358].'
+  funds: gift
+  status: closed
+  applicant: institution
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+  eligibility_note: The call was for community-led non-profit organisations; the pages read do not give its budget limits
+    or other entry rules [2358].
+  cycle:
+    pattern: Completed in 2024; no further open call is announced on the process page or in the essays posted since [2316]
+      [2359].
+    current_notices: []
+  awards: []
+  review: Applicants were scored by peer organisations and then by a second-round evaluation panel [2358].
+  success:
+  - rate: 361 of more than 6,000
+    fiscal_year: 2024
+    note: Organisations selected against applicants, as Yield Giving reports them [2358].
+    cite:
+    - 2358
+  steps: []
+  portal: https://yieldgiving.com/process/
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - operating
+  stage:
+  - established
+  fields:
+  - any
+  official_url: https://yieldgiving.com/process/
+  sources:
+  - 2316
+  - 2358
+  - 2359
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: walmart-spark-good-local-grants
+  name: Walmart Spark Good Local Grants
+  family: programme-service
+  kind: foundation-program
+  funder: walmart-foundation
+  funder_kind: foundation
+  owner: Walmart U.S. stores, Sam's Clubs and Distribution Centers
+  what: |
+    Small cash grants awarded by individual Walmart stores, Sam's Clubs and distribution centres to organisations in their communities through an open application [2435]. Walmart calls it the only one of its programmes that takes open applications through the year [2433].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+    - public-higher-ed
+    - private-higher-ed
+    - state-government
+    - county-government
+    - city-government
+    limits: A maximum of 25 applications in pending or approved status per organisation at any time [2434].
+  eligibility_note: 'Open to non-profits that are not universities: eligible applicants are 501(c)(3) public charities;
+    government entities; K-12 public or non-profit private schools, charter schools, community and junior colleges, state
+    and private colleges and universities; and churches or faith-based organisations with a project that benefits the community
+    at large. 501(c)(4) and 501(c)(6) organisations are excluded [2434].'
+  cycle:
+    pattern: 'Three cycles in Walmart''s fiscal year 2027: Cycle 1, Feb. 1 - April 15; Cycle 2, May 1 - July 15; Cycle 3,
+      Aug. 1 - Nov. 30 [2434].'
+  awards:
+  - label: grant range
+    amount: $250 to $5,000
+    cite:
+    - 2434
+  steps:
+  - Create a Spark Good account on Walmart.com/nonprofits [2434].
+  - Be verified by Deed, Walmart's third-party verification partner [2434] [2433].
+  - Submit the application through the verified account [2434].
+  portal: https://www.walmart.com/nonprofits
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - service
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - any
+  status: open
+  applicant: institution
+  official_url: https://www.walmart.org/how-we-give/program-guidelines/spark-good-local-grants-guidelines
+  as_of: '2026-10-04'
+  sources:
+  - 2434
+  - 2435
+  - 2433
+  sweep: foundations-C
+- id: bank-of-america-local-grants
+  name: Bank of America Charitable Foundation local grants (requests for proposals)
+  family: programme-service
+  kind: foundation-program
+  funder: bank-of-america-charitable-foundation
+  funder_kind: foundation
+  owner: Bank of America Charitable Foundation
+  what: |
+    Two requests for proposals a year for non-profits in the bank's local markets, one for basic needs and income creation and one for stable housing and empowering communities [2438]. Grants are for one year [2438].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+    limits: Funding no more than once in a calendar year, with rare exceptions [2438].
+  eligibility_note: 'Open to non-profits that are not universities: applicants must be tax-exempt under section 501(c)(3),
+    not classified as a private foundation, and based in and serving the bank''s markets; fiscally sponsored organisations,
+    government and municipal agencies and individual pre-K-12 schools are not eligible [2439].'
+  cycle:
+    pattern: Two application periods a year [2438].
+    current_notices:
+    - id: Basic Needs and Income Creation 2026
+      opens: '2026-02-02'
+      closes: '2026-03-02'
+      note: Status updates in June, 2026 [2438].
+    - id: Stable Housing and Empowering Communities 2026
+      opens: '2026-05-18'
+      closes: '2026-06-29'
+      note: Status updates in September, 2026 [2438].
+  awards:
+  - label: grant size
+    amount: varies by market and organisation size
+    duration: one year; no multi-year grants
+    cite:
+    - 2438
+  steps:
+  - Check the eligibility criteria and take the online eligibility quiz [2437] [2439].
+  - Register for NPO Hub (formerly FrontDoor) and agree to accept ACH payments [2438].
+  - Apply online through the CyberGrants portal during the application period [2437].
+  portal: https://www.cybergrants.com/pls/cybergrants/quiz.display_question?x_gm_id=1499&x_quiz_id=12550
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - service
+  stage:
+  - never-applied
+  - applied-unfunded
+  - funded-once
+  fields:
+  - basic-needs
+  - workforce
+  - housing
+  - community-development
+  status: closed
+  applicant: institution
+  official_url: https://about.bankofamerica.com/en/making-an-impact/charitable-foundation-funding
+  as_of: '2026-10-04'
+  sources:
+  - 2437
+  - 2438
+  - 2439
+  sweep: foundations-C
+- id: home-depot-veteran-housing-grants
+  name: Home Depot Foundation Veteran Housing Grants
+  family: capacity
+  kind: foundation-program
+  funder: home-depot-foundation
+  funder_kind: foundation
+  owner: The Home Depot Foundation
+  what: |
+    Grants to non-profits for new construction or rehabilitation of multifamily, permanent supportive housing for veterans [2443]. Awards typically range from $100,000 to $500,000 [2443].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+  eligibility_note: 'Open to non-profits that are not universities: 501(c)(3) organisations in good standing with the IRS
+    for at least five years, with a current operating budget of at least $300,000 and audited financial statements for the
+    past three years [2443]. At least 20% of units must serve veterans at or below 80% of area median income, and 75% of
+    the development''s funding sources must be identified at the time of proposal [2443]. Furnishings, rental subsidies,
+    tenant services and single-home repairs are not funded [2443].'
+  cycle:
+    pattern: Three cycles a year [2443].
+    current_notices:
+    - id: 2026 Cycle 1
+      closes: '2025-12-12'
+      note: Final determinations April 2026 [2443].
+    - id: 2026 Cycle 2
+      closes: '2026-03-20'
+      note: Final determinations August 2026 [2443].
+    - id: 2026 Cycle 3
+      closes: '2026-07-03'
+      note: Final determinations December 2026 [2443].
+  awards:
+  - label: typical award
+    amount: $100,000 to $500,000
+    cite:
+    - 2443
+  steps:
+  - Submit a project proposal at foundation.homedepot.com, selecting the Veteran Housing Grant application for the cycle
+    wanted [2443].
+  portal: https://foundation.homedepot.com
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - capacity
+  - service
+  stage:
+  - funded-once
+  - established
+  fields:
+  - veterans
+  - housing
+  status: closed
+  applicant: institution
+  official_url: https://corporate.homedepot.com/page/veteran-housing-grants
+  as_of: '2026-10-04'
+  sources:
+  - 2443
+  sweep: foundations-C
+- id: lowes-gable-grants
+  name: Lowe's Foundation Gable Grants
+  family: capacity
+  kind: foundation-program
+  funder: lowes-foundation
+  funder_kind: foundation
+  owner: Lowe's Foundation
+  what: |
+    Grants to community and technical colleges and non-profit organisations for skilled trades training, part of a $250 million investment to train 250,000 tradespeople by 2035 [2444]. Only the round for community and technical colleges is an open application [2444].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - public-higher-ed
+    - private-higher-ed
+    - nonprofit-501c3
+  eligibility_note: Community and technical colleges apply in an open round in March [2444]. Community-based non-profits
+    (August) and national non-profits (September) apply by invitation only [2444]. The eligibility guidelines document was
+    not read [2444].
+  cycle:
+    pattern: Opens in March for community and technical colleges; in August for community-based non-profits (invite only);
+      in September for national non-profits (invite only); the page gives no dates [2444].
+  steps:
+  - Submit the application through the Lowe's Foundation Gable Grants online portal [2444].
+  gates: []
+  who:
+  - research-office
+  - nonprofit-programmes
+  purpose:
+  - capacity
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - skilled-trades
+  - workforce
+  status: closed
+  applicant: institution
+  official_url: https://www.lowesfoundation.org/gable-grants
+  as_of: '2026-10-04'
+  sources:
+  - 2444
+  sweep: foundations-C
+- id: svcf-community-action-grants
+  name: Silicon Valley Community Foundation Community Action Grants
+  family: programme-service
+  kind: foundation-program
+  funder: silicon-valley-community-foundation
+  funder_kind: foundation
+  owner: Silicon Valley Community Foundation
+  what: |
+    The community foundation's annual request for proposals for non-profits in its region [2412]. The 2026 round has closed and the page points to a 2027 round [2412].
+  funds: grant
+  who_may_apply:
+    applicant_types:
+    - nonprofit-501c3
+  eligibility_note: The grants page as fetched gives no eligibility rules, grant sizes or number of awards; SVCF serves
+    San Mateo and Santa Clara counties [2412] [2411].
+  cycle:
+    pattern: Annual request for proposals [2412].
+    current_notices:
+    - id: Community Action Grants 2026
+      opens: '2026-03-02'
+      closes: '2026-03-31'
+      note: Closed 1:00 p.m. PT; decisions announced mid-June 2026 [2412].
+  steps:
+  - Watch the grants page for the 2027 request for proposals [2412].
+  gates: []
+  who:
+  - nonprofit-programmes
+  purpose:
+  - service
+  stage:
+  - never-applied
+  - applied-unfunded
+  fields:
+  - community
+  status: closed
+  applicant: institution
+  official_url: https://www.svcf.org/nonprofits/grants
+  as_of: '2026-10-04'
+  sources:
+  - 2412
+  - 2411
+  sweep: foundations-C

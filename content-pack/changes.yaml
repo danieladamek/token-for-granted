@@ -6550,3 +6550,676 @@
   - 2093
   - 1480
   sweep: rules-D
+- id: ch-fa-moore-inventor-fellows-ended
+  date: '2025'
+  what: The Moore Foundation chose the tenth and final cohort of Moore Inventor Fellows in spring 2025 and states that it
+    no longer accepts nominations [2131].
+  status: final
+  affects:
+  - moore-foundation
+  sources:
+  - 2131
+  sweep: foundations-A
+- id: ch-fa-keck-concept-consultations-ended
+  date: '2026'
+  what: The W. M. Keck Foundation's Research Program page states that concept consultations are no longer hosted [2133].
+    Its application instructions dated 8/26/26 describe a single six-page application per cycle, followed by research presentations
+    from a subset of applicants, and mention no Phase I or Phase II; neither document dates the change [2249].
+  status: final
+  affects:
+  - keck-foundation
+  - keck-research-program
+  sources:
+  - 2133
+  - 2249
+  sweep: foundations-A
+- id: ch-fa-simons-policies-june-2026
+  date: 2026-06
+  what: The Simons Foundation's Policies and Procedures page is marked last updated June 2026; it carries the 20 percent
+    indirect-cost limit, the preprint and open-access requirements and the exclusion of institutions in China and Hong Kong
+    [2120]. The page does not say which of these were new in that update [2120].
+  status: final
+  affects:
+  - simons-foundation
+  sources:
+  - 2120
+  sweep: foundations-A
+- id: ch-fa-hhmi-combined-competition
+  date: '2026-11-03'
+  what: HHMI states that beginning with the 2028 competition, which opens November 3, 2026, the Freeman Hrabowski Scholars
+    and Hanna H. Gray Fellows programmes select scientists through a single, combined competition [2162].
+  status: announced
+  affects:
+  - hhmi
+  - hhmi-freeman-hrabowski-scholars
+  - hhmi-hanna-gray-fellows
+  sources:
+  - 2162
+  - 2163
+  sweep: foundations-A
+- id: ch-fa-czi-science-rfas-closed
+  date: '2026-10-04'
+  what: On 2026-10-04 every one of the 28 science Requests for Applications on the Chan Zuckerberg Initiative's Science
+    Funding page was marked closed; the page gives no statement about future RFAs [2172].
+  status: final
+  affects:
+  - chan-zuckerberg-initiative
+  sources:
+  - 2172
+  sweep: foundations-A
+- id: ch-fa-helmsley-grant-terms-2025
+  date: 2025-04
+  what: The Helmsley Charitable Trust's grant terms, last updated April 2025, set indirect costs at up to 20% of direct
+    project costs for organisations with operating budgets under $5 million and up to 10% for larger ones [2185]. The document
+    does not say what the earlier terms were [2185].
+  status: final
+  affects:
+  - helmsley-charitable-trust
+  sources:
+  - 2185
+  sweep: foundations-A
+- id: ch-fa-ddf-physician-scientist-pages-gone
+  date: '2026-10-04'
+  what: On 2026-10-04 the Doris Duke Foundation's addresses for its Physician Scientist Fellowship and early-career medical
+    research pages returned the general Medical Research page, which names no fellowship competition; the one medical research
+    call open was Demonstrating Health Solutions Science in Action [2179] [2177]. No foundation page read states that the
+    earlier competitions have ended [2179]. A foundation article of November 13, 2023 said it wanted to "build pathways
+    for funding and support that allow physician scientists to pursue a wider range of research" and announced no end date
+    [2236].
+  status: final
+  affects:
+  - doris-duke-foundation
+  sources:
+  - 2179
+  - 2177
+  - 2236
+  sweep: foundations-A
+- id: ch-fa-rapid-response-bridge-funding
+  date: '2025-05-02'
+  what: 'The Spencer Foundation, with the Kapor Foundation, the William T. Grant Foundation and the Alfred P. Sloan Foundation,
+    opened a Rapid Response Bridge Funding Program on May 2, 2025: grants of up to $25,000, with no indirect costs, for
+    researchers in STEM and education whose NSF grant had been terminated or cancelled [2197] [2198]. Its two deadlines
+    were May 30 and June 13, 2025; no later round is shown, and the page gives no total or count of awards [2197].'
+  status: final
+  affects:
+  - spencer-foundation
+  - william-t-grant-foundation
+  - sloan-foundation
+  sources:
+  - 2197
+  - 2198
+  sweep: foundations-A
+- id: ch-fa-mellon-humanities-councils-emergency
+  date: '2025-04-29'
+  what: The Mellon Foundation announced $15 million in emergency funding for all 56 state and jurisdictional humanities
+    councils, through the Federation of State Humanities Councils, of which $2.8 million is for challenge grants of up to
+    $50,000 per council [2213]. The announcement cites the elimination of $65 million in National Endowment for the Humanities
+    support for the councils; the funding was not open to applications [2213].
+  status: final
+  affects:
+  - mellon-foundation
+  - neh-state-humanities-councils
+  sources:
+  - 2213
+  - 2214
+  sweep: foundations-A
+- id: ch-fa-mellon-2025-emergency-grants
+  date: '2025'
+  what: Mellon's 2025 Annual Report says it "addressed emergency needs in the arts and humanities from the very start of
+    2025 to its conclusion" and lists, among the year's commitments, $3 million for national media stations and $25 million
+    for paid internships for humanities majors at public colleges and universities [2214]. None of these is described as
+    an open competition [2214].
+  status: final
+  affects:
+  - mellon-foundation
+  sources:
+  - 2214
+  sweep: foundations-A
+- id: ch-fa-spencer-large-single-cycle
+  date: '2026'
+  what: The Spencer Foundation states that from 2026 its Large Research Grants on Education run on a single cycle per year,
+    and that it will fund more proposals than in past years [2195].
+  status: final
+  affects:
+  - spencer-foundation
+  - spencer-large-research-grants
+  sources:
+  - 2195
+  sweep: foundations-A
+- id: ch-fa-hhmi-competitions-paused-2025
+  date: '2025-05-19'
+  what: 'A news report of May 19, 2025 states that HHMI paused applications to the Hanna Gray Fellows programme, quoting
+    HHMI: "we have made the difficult decision to pause competitions for now" [2231]. The same report states that HHMI cancelled
+    its Inclusive Excellence programme in February 2025 [2231]. HHMI''s programme page on 2026-10-04 shows the Hanna H.
+    Gray Fellows competition reopening on November 3, 2026 [2163]. Added by slice D: on 2026-10-04 the address of HHMI''s
+    Inclusive Excellence page returned the Institute''s programmes page, which names five programmes and not Inclusive Excellence;
+    no HHMI statement on the pause or the cancellation was found [2501].'
+  status: final
+  affects:
+  - hhmi
+  - hhmi-hanna-gray-fellows
+  sources:
+  - 2231
+  - 2163
+  - 2501
+  sweep: foundations-A
+- id: ch-fa-czi-refining-focus
+  date: '2025-02-18'
+  what: The Chan Zuckerberg Initiative stated on February 18, 2025 that it had "focused CZI primarily on science research",
+    had wound down social advocacy funding and had completed its racial equity grantmaking, while honouring a small number
+    of earlier multi-year commitments [2232].
+  status: final
+  affects:
+  - chan-zuckerberg-initiative
+  sources:
+  - 2232
+  sweep: foundations-A
+- id: ch-fa-czi-biohub-primary
+  date: '2025-11-06'
+  what: On November 6, 2025 the founders stated that "Biohub will be our primary philanthropic effort and where we'll dedicate
+    the vast majority of our resources", and that the Chan Zuckerberg Initiative "will serve as infrastructure and support
+    for our initiatives" [2233]. The post does not mention external grants or Requests for Applications [2233].
+  status: announced
+  affects:
+  - chan-zuckerberg-initiative
+  sources:
+  - 2233
+  - 2172
+  sweep: foundations-A
+- id: ch-fa-carnegie-fellows-new-cycle
+  date: '2027'
+  what: Carnegie Corporation states that 2027 begins a new three-year nomination cycle for the Andrew Carnegie Fellows Program,
+    with the polarization theme widened to what the U.S. can learn from other countries [2217].
+  status: announced
+  affects:
+  - carnegie-corporation-of-new-york
+  - andrew-carnegie-fellows
+  sources:
+  - 2217
+  sweep: foundations-A
+- id: ch-fa-sloan-guidelines-2025
+  date: '2025-10-27'
+  what: The Sloan Foundation's proposal guidelines for research projects carry a last-modified date of 10/27/2025 and set
+    overhead at none for requests of $50,000 or less and at most 20 percent of direct project costs above that [2234]. The
+    document does not say whether these figures changed in that revision [2234].
+  status: final
+  affects:
+  - sloan-foundation
+  sources:
+  - 2234
+  sweep: foundations-A
+- id: ch-fa-moore-postdoc-commitment
+  date: '2026-02-12'
+  what: The Moore Foundation announced $55 million in one-time support for more than 400 postdoctoral researchers over three
+    academic years (2025-2028) at 30 U.S. universities that had received past support from its Science Program [2242]. The
+    awards went to the universities, which allocate the money; the foundation took no applications from individuals [2242].
+  status: final
+  affects:
+  - moore-foundation
+  sources:
+  - 2242
+  - 2246
+  sweep: foundations-A
+- id: ch-fa-rcsa-bridge-awards
+  date: '2026-01-14'
+  what: RCSA announced 11 Bridge Awards totalling $800,000, of up to $100,000 each, to past Cottrell Scholars and Holland
+    Award recipients whose research programmes were disrupted by changes to their federal funding [2243]. RCSA calls the
+    awards its "first emergency response"; no open application was shown on 2026-10-04 [2243] [2244].
+  status: final
+  affects:
+  - rcsa
+  sources:
+  - 2243
+  - 2244
+  sweep: foundations-A
+- id: ch-fa-kavli-scholars-bridge
+  date: '2026'
+  what: 'The Kavli Foundation''s Kavli Scholars programme "provides short-term bridge funding to scientists whose research
+    has been significantly disrupted by unexpected circumstances": up to $100,000 per year for six months to two years,
+    by nomination from people affiliated with Kavli, with a deadline of December 15, 2026 [2245]. A magazine report says
+    the programme was created in 2022 and is being expanded in 2026 from 5 fellowships to up to 20 [2246]. Added by slice
+    D: the foundation''s own news item naming the first two Kavli Scholars is dated July 27, 2023, and neither it nor the
+    programme page gives the year the programme was set up, a number of awards or an expansion [2500] [2499].'
+  status: final
+  affects:
+  - kavli-foundation
+  sources:
+  - 2245
+  - 2137
+  - 2246
+  - 2500
+  - 2499
+  sweep: foundations-A
+- id: ch-fa-simons-empire-faculty-fellowship
+  date: '2026-08-18'
+  what: A magazine report of February 10, 2026 states that the Simons Foundation committed $45 million to a Simons Empire
+    Faculty Fellowship under which New York State research institutions hire 55 junior faculty, with the foundation paying
+    salaries for three years [2246]. A university press release of August 18, 2026 names 16 fellows at four State University
+    of New York campuses and says the foundation funds the participating institutions [2247]. No Simons Foundation page
+    for the programme was found; it is not on the foundation's list of open opportunities [2119].
+  status: final
+  affects:
+  - simons-foundation
+  sources:
+  - 2246
+  - 2247
+  - 2119
+  sweep: foundations-A
+- id: ch-fa-acs-policy-changes
+  date: '2026'
+  what: The American Cancer Society's grant policies state that the Research Scholar Grant eligibility cutoff was reduced
+    from 10 years to 8 years starting with the Summer 2026 application cycle, that the Institutional Research Grant term
+    was increased from 3 years to 4 years, and that in 2025 the requirement that Mission Boost Grant applicants be current
+    or former ACS grantees or fellows was eliminated [2248].
+  status: final
+  affects:
+  - american-cancer-society
+  - acs-research-scholar-grants
+  sources:
+  - 2248
+  sweep: foundations-A
+- id: ch-fb-mott-closes-unsolicited
+  date: 2025-01
+  what: Since January 2025 the Charles Stewart Mott Foundation has not accepted unsolicited letters of inquiry or proposals
+    [2298].
+  status: final
+  affects:
+  - mott-foundation
+  - foundation-invitation-only-grantmaking
+  sources:
+  - 2298
+  sweep: foundations-B
+- id: ch-fb-gates-name
+  date: '2025-01-17'
+  what: 'A trade-press report of January 17, 2025 says the Bill & Melinda Gates Foundation took the name Gates Foundation
+    [2331]. Its 2024 Form 990-PF summary and its own pages use the name Gates Foundation [2258] [2254]. Added by slice D:
+    the foundation''s own timeline has no entry for the change of name, and Note 1 of its 2025 audited statements, which
+    are in the name Gates Foundation, has no sentence about it [2502] [2484].'
+  status: final
+  affects:
+  - gates-foundation
+  sources:
+  - 2331
+  - 2258
+  - 2254
+  - 2502
+  - 2484
+  sweep: foundations-B
+- id: ch-fb-macarthur-set-it-at-six
+  date: '2025-02-25'
+  what: The MacArthur Foundation raised its baseline payout to 6 percent for 2025 and 2026, 'as a floor, not a ceiling',
+    and committed to flexible, trust-based grant models where possible [2326].
+  status: final
+  affects:
+  - macarthur-foundation
+  - foundation-payout-rate
+  - trust-based-grantmaking-practices
+  sources:
+  - 2326
+  sweep: foundations-B
+- id: ch-fb-rwjf-payout-6-5
+  date: '2025-03-25'
+  what: A Center for Effective Philanthropy post of March 25, 2025 says the Robert Wood Johnson Foundation was paying out
+    at 6.5 percent; no RWJF page stating the rate was found [2364].
+  status: announced
+  affects:
+  - robert-wood-johnson-foundation
+  sources:
+  - 2364
+  sweep: foundations-B
+- id: ch-fb-mellon-humanities-councils
+  date: '2025-04-29'
+  what: The Mellon Foundation announced $15 million in emergency funding to the Federation of State Humanities Councils
+    for 56 state and jurisdictional councils, of which $2.8 million is for challenge grants of up to $50,000 per council,
+    after the loss of National Endowment for the Humanities support [2213].
+  status: final
+  affects:
+  - mellon-foundation
+  - neh-state-humanities-councils
+  - state-humanities-council
+  sources:
+  - 2213
+  sweep: foundations-B
+- id: ch-fb-gates-2045
+  date: '2025-05-08'
+  what: The Gates Foundation announced that it will spend more than $200 billion over twenty years and close in 2045; its
+    earlier plan was to close 20 years after Bill Gates's death [2252].
+  status: announced
+  affects:
+  - gates-foundation
+  - foundation-spend-down
+  sources:
+  - 2252
+  sweep: foundations-B
+- id: ch-fb-rwjf-rapid-response
+  date: 2025-08
+  what: The Robert Wood Johnson Foundation issued a call for up to $5 million in grants of $50,000 to $200,000 for health
+    equity research that had lost federal funding, with a deadline of October 1, 2025 [2337].
+  status: final
+  affects:
+  - robert-wood-johnson-foundation
+  - rwjf-e4a-rapid-response-research
+  sources:
+  - 2337
+  sweep: foundations-B
+- id: ch-fb-public-media-bridge
+  date: '2025-08-19'
+  what: Knight, MacArthur, Ford, Pivotal, the Schmidt Family Foundation and the Robert Wood Johnson Foundation committed
+    $36.5 million for public radio and television stations after federal funding for the Corporation for Public Broadcasting
+    was withdrawn; $26.5 million went to the Public Media Bridge Fund, which makes grants and low-interest loans to stations
+    [2354].
+  status: final
+  affects:
+  - knight-foundation
+  - macarthur-foundation
+  - ford-foundation
+  - robert-wood-johnson-foundation
+  - cpb
+  - cpb-grants
+  sources:
+  - 2354
+  sweep: foundations-B
+- id: ch-fb-wallace-president
+  date: '2025-09-01'
+  what: Jean S. Desravines became president of The Wallace Foundation, succeeding Will Miller; the announcement of April
+    24, 2025 states no change in grantmaking [2350].
+  status: final
+  affects:
+  - wallace-foundation
+  sources:
+  - 2350
+  sweep: foundations-B
+- id: ch-fb-ford-president
+  date: '2025-11-03'
+  what: Heather Gerken took office as the Ford Foundation's 11th president, succeeding Darren Walker; her first statement
+    names democracy and the rule of law as priorities and announces no change in budget, payout or application rules [2334].
+  status: final
+  affects:
+  - ford-foundation
+  sources:
+  - 2334
+  sweep: foundations-B
+- id: ch-fb-gates-2026-budget
+  date: '2026-01-14'
+  what: The Gates Foundation set a $9 billion payout for 2026, capped operating expenses at no more than $1.25 billion (approximately
+    14 percent) and said it will reduce its headcount target of 2,375 positions by up to 500 by 2030 [2329].
+  status: announced
+  affects:
+  - gates-foundation
+  - foundation-payout-rate
+  sources:
+  - 2329
+  sweep: foundations-B
+- id: ch-fb-mellon-higher-learning-call
+  date: '2026-02-17'
+  what: Applications closed for the Mellon Foundation's 2026 Higher Learning open call, worth $10 million in grants of $250,000
+    to $500,000 to four-year colleges and universities [2339].
+  status: final
+  affects:
+  - mellon-foundation
+  - mellon-higher-learning-open-call
+  sources:
+  - 2339
+  sweep: foundations-B
+- id: ch-fb-macarthur-2025-payout
+  date: '2026-03-03'
+  what: The MacArthur Foundation reported estimated charitable spending of $647 million in 2025, a payout rate of 7.1 percent
+    and about $190 million more than it had anticipated [2327].
+  status: final
+  affects:
+  - macarthur-foundation
+  - foundation-payout-rate
+  sources:
+  - 2327
+  sweep: foundations-B
+- id: ch-fb-knight-cities-challenge
+  date: '2026-04-01'
+  what: The Knight Foundation relaunched the Knight Cities Challenge with $10 million for two cohorts over three years;
+    first-round applications were open April 1 to April 30, 2026, for up to $200,000 per project in the 26 Knight communities
+    [2355].
+  status: final
+  affects:
+  - knight-foundation
+  - knight-cities-challenge
+  sources:
+  - 2355
+  sweep: foundations-B
+- id: ch-fb-walton-strategy-2030
+  date: '2026-05-06'
+  what: The Walton Family Foundation announced Home Region Strategy 2030, a five-year strategy (2026 to 2030) for Northwest
+    Arkansas and the Arkansas-Mississippi Delta; no dollar figure is given [2353].
+  status: announced
+  affects:
+  - walton-family-foundation
+  sources:
+  - 2353
+  sweep: foundations-B
+- id: ch-fb-osf-300m
+  date: '2026-05-20'
+  what: The Open Society Foundations announced a $300 million initiative in the United States for civil liberties and the
+    rule of law and for civil rights and economic opportunity; the announcement states no period and no application route
+    [2356].
+  status: announced
+  affects:
+  - open-society-foundations
+  sources:
+  - 2356
+  sweep: foundations-B
+- id: ch-fb-macarthur-through-2028
+  date: '2026-09-02'
+  what: The MacArthur Foundation extended its 6 percent payout commitment through 2027 and 2028, with about $190 million
+    in additional spending over the two years, and said it intends to revert to a 5.25 percent target at the end of 2028
+    [2328].
+  status: announced
+  affects:
+  - macarthur-foundation
+  - foundation-payout-rate
+  sources:
+  - 2328
+  sweep: foundations-B
+- id: ch-fb-arnold-k12-rfp
+  date: 2026-09
+  what: Arnold Ventures issued a request for proposals for causal research on K-12 school policies, with letters of interest
+    due November 13, 2026 and full proposals January 31, 2027 [2321].
+  status: final
+  affects:
+  - arnold-ventures
+  - arnold-ventures-k12-causal-research-rfp
+  sources:
+  - 2321
+  sweep: foundations-B
+- id: ch-fc-pl-119-21-enacted
+  date: '2025-07-04'
+  what: Public Law 119-21 was enacted on July 4, 2025 [2391]. Its tax title includes sections 70415 (endowment excise tax),
+    70424 (deduction for non-itemisers), 70425 (0.5 percent floor for individuals) and 70426 (1-percent floor for corporations)
+    [2391].
+  status: enacted
+  affects:
+  - endowment-excise-tax
+  - corporate-charitable-deduction-floor
+  - individual-charitable-deduction-changes-2026
+  - section-4960-excess-compensation-tax
+  sources:
+  - 2391
+  sweep: foundations-C
+- id: ch-fc-endowment-tax-tiers
+  date: '2026-01-01'
+  what: For taxable years beginning after December 31, 2025 the section 4968 endowment excise tax has three rates, 1.4 percent,
+    4 percent and 8 percent, by student adjusted endowment, and applies to institutions with at least 3,000 tuition-paying
+    students [2390].
+  status: enacted
+  affects:
+  - endowment-excise-tax
+  sources:
+  - 2390
+  - 2391
+  sweep: foundations-C
+- id: ch-fc-corporate-one-percent-floor
+  date: '2026-01-01'
+  what: 'A corporation''s charitable contributions are deductible only above 1 percent of taxable income, and up to 10 percent
+    [2392]. Practitioner sources give the effective date as taxable years beginning after December 31, 2025 [2394] [2395].
+    Added by slice D: the Joint Committee on Taxation''s revenue table for the text the Senate passed on July 1, 2025 gives
+    the same effective date [2497].'
+  status: enacted
+  affects:
+  - corporate-charitable-deduction-floor
+  - corporate-foundation-versus-giving-programme
+  sources:
+  - 2392
+  - 2391
+  - 2394
+  - 2395
+  - 2497
+  sweep: foundations-C
+- id: ch-fc-individual-deduction-changes
+  date: '2026-01-01'
+  what: From tax year 2026 individuals who do not itemise may deduct up to $1,000 of cash contributions ($2,000 for married
+    taxpayers filing jointly), with gifts to donor-advised funds and supporting organisations shut out [2389]. Individuals
+    who itemise may deduct contributions only above 0.5 percent of their contribution base [2392].
+  status: enacted
+  affects:
+  - individual-charitable-deduction-changes-2026
+  - donor-advised-fund-sponsor
+  - supporting-organization
+  sources:
+  - 2389
+  - 2392
+  - 2391
+  - 2393
+  sweep: foundations-C
+- id: ch-fc-scholarship-granting-organisation-credit
+  date: '2027-01-01'
+  what: A federal credit for individuals' cash contributions of up to $1,700 to scholarship granting organisations takes
+    effect January 1, 2027; it requires state participation and IRS-approved lists of organisations [2389].
+  status: pending-implementation
+  affects:
+  - individual-charitable-deduction-changes-2026
+  sources:
+  - 2389
+  sweep: foundations-C
+- id: ch-fc-foundation-excise-tax-unchanged
+  date: '2025-07-04'
+  what: 'The private foundation excise tax on net investment income stayed at 1.39 percent; the IRS page updated 11-Sep-2026
+    gives that rate [2378]. A law-firm summary reports that an earlier draft of the bill would have set rates from 1.39
+    percent to 10 percent and that the provision is not in the enacted law [2395]. Added by slice D: the Joint Committee
+    on Taxation''s table of May 13, 2025 lists "Increase in rate of tax on net investment income of certain private foundations",
+    and its table of July 1, 2025 for the Senate-passed text has no row that mentions private foundations [2498] [2497].'
+  status: enacted
+  affects:
+  - excise-tax-on-net-investment-income
+  sources:
+  - 2378
+  - 2395
+  - 2498
+  - 2497
+  sweep: foundations-C
+- id: ch-fc-section-4960-notice-2026-36
+  date: '2026-06-05'
+  what: Treasury and the IRS issued Notice 2026-36 (news release IR-2026-73), announcing proposed regulations to come on
+    the section 4960 excise tax, which from taxable years beginning after December 31, 2025 can reach any employee of a
+    tax-exempt organisation paid more than $1 million [2463].
+  status: announced
+  affects:
+  - section-4960-excess-compensation-tax
+  sources:
+  - 2463
+  sweep: foundations-C
+- id: ch-fc-executive-order-14173
+  date: '2025-01-21'
+  what: Executive Order 14173, signed January 21, 2025, directs each agency to "identify up to nine potential civil compliance
+    investigations" of bodies that include "foundations with assets of 500 million dollars or more", with a report by the
+    Attorney General due within 120 days [1862].
+  status: final
+  affects:
+  - private-foundation-status
+  sources:
+  - 1862
+  sweep: foundations-C
+- id: ch-fc-nspm-7
+  date: '2025-09-25'
+  what: National Security Presidential Memorandum 7, dated September 25, 2025, directs the Commissioner of Internal Revenue
+    to "ensure that no tax-exempt entities are directly or indirectly financing political violence or domestic terrorism"
+    and to refer such organisations to the Department of Justice [2396].
+  status: final
+  affects:
+  - private-foundation-status
+  - public-charity-status
+  sources:
+  - 2396
+  sweep: foundations-C
+- id: ch-fc-irs-technical-guide-foundation-classification
+  date: '2025-06-20'
+  what: The IRS published three technical guides, among them TG 3-27 on foundation classification and TG 70 on charitable
+    trusts [2462]. The IRS exempt organisations news page shows no 2025 or 2026 item on Form 990-PF, donor-advised funds
+    or the private foundation excise taxes [2462].
+  status: final
+  affects:
+  - private-foundation-status
+  sources:
+  - 2462
+  sweep: foundations-C
+- id: ch-fc-form-990-pf-2025
+  date: '2025'
+  what: The 2025 Form 990-PF must be filed electronically, and the only What's New item in its instructions concerns the
+    federal move from paper payments to electronic payments [2388]. On the 2025 form the statement on unsolicited requests
+    is at Part XIV, line 2 [2387].
+  status: final
+  affects:
+  - form-990-pf-part-by-part
+  - form-990-pf-unsolicited-applications-line
+  sources:
+  - 2388
+  - 2387
+  sweep: foundations-C
+- id: ch-fc-form-990-pf-renumbering
+  date: '2021'
+  what: Between the 2020 and 2021 forms the Form 990-PF went from 17 parts to 16, and the statement on unsolicited requests
+    moved from Part XV, line 2 to Part XIV, line 2; the grants list moved from Part XV, line 3 to Part XIV, line 3 [2467]
+    [2468]. This predates the 2025-26 window and is recorded because filings from both layouts are in the free databases
+    [2398].
+  status: final
+  affects:
+  - form-990-pf-unsolicited-applications-line
+  - form-990-pf-part-by-part
+  sources:
+  - 2467
+  - 2468
+  - 2398
+  sweep: foundations-C
+- id: ch-fc-candid-search-launch
+  date: '2026-01-15'
+  what: Candid launched Candid search, which brings Foundation Directory and GuideStar data into one product, and said it
+    "is free for anyone who registers at candid.org"; full profiles and grants data are on paid plans from $219 a month
+    [2402] [2399].
+  status: final
+  affects:
+  - candid-search
+  - candid-community-partners
+  - free-foundation-filing-sources
+  sources:
+  - 2402
+  - 2399
+  - 2400
+  sweep: foundations-C
+- id: ch-fc-pnd-rfp-listing-redirect
+  date: '2026-10-04'
+  what: On 2026-10-04 the address of the Philanthropy News Digest requests-for-proposals listing, philanthropynewsdigest.org/rfps,
+    redirected to a Candid search page, where requests for proposals are listed as a feature of subscription plans; no notice
+    or date for the change was found [2401].
+  status: final
+  affects:
+  - candid-search
+  sources:
+  - 2401
+  sweep: foundations-C
+- id: ch-fc-cdc-foundation-administrative-award-forecast
+  date: '2026-09-30'
+  what: CDC forecast a funding opportunity, CDC-RFA-CD-27-0067, for the administrative costs of the National Foundation
+    for CDC, with an estimated post date of September 30, 2026 and an estimated close date of December 1, 2026; it was still
+    shown as forecasted on 2026-10-04 [2451].
+  status: announced
+  affects:
+  - cdc-foundation
+  sources:
+  - 2451
+  sweep: foundations-C

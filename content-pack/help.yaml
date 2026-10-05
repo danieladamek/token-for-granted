@@ -1274,3 +1274,275 @@
   sources:
   - 2080
   sweep: rules-C
+- id: institutional-limited-submission-process
+  name: The institution's limited-submission (internal competition) process
+  what: Where a foundation takes only one or a few nominees from an institution, the institution runs its own internal competition
+    first. One university's notice for the 2027 Pew Scholars states that it "is allowed to submit one nomination" and sets
+    an internal process to choose the nominee [2175]. For the Keck Research Program the contact is the central development
+    office, which knows the designated liaison [2134].
+  who_it_is_for: Faculty at an institution that may nominate to a limited programme [2175].
+  cost: Not stated on the pages read [2175].
+  official_url: https://research.wisc.edu/competition/pew-scholars-program-in-the-biomedical-sciences-2027/
+  sources:
+  - 2175
+  - 2134
+  sweep: foundations-A
+- id: kresge-contact-form
+  name: The Kresge Foundation contact form
+  what: The route Kresge gives for an organisation to introduce itself; the foundation aims to respond within three business
+    days [2348].
+  who_it_is_for: Organisations not yet funded by Kresge [2348].
+  cost: No charge is stated [2348].
+  official_url: https://kresge.org/contact/
+  sources:
+  - 2348
+  sweep: foundations-B
+- id: woodruff-informal-inquiry
+  name: Robert W. Woodruff Foundation informal inquiry
+  what: The foundation asks a prospective applicant to email an informal inquiry to fdns@woodruff.org to learn whether to
+    apply [2313].
+  who_it_is_for: Organisations located or operating in Georgia [2313].
+  cost: No charge is stated [2313].
+  official_url: https://woodruff.org/grants-program/how-to-apply/
+  sources:
+  - 2313
+  sweep: foundations-B
+- id: rwjf-programme-officer-contacts
+  name: RWJF programme officer contacts on each funding opportunity
+  what: Each Robert Wood Johnson Foundation funding opportunity page names a programme officer contact [2271].
+  who_it_is_for: Applicants to an RWJF call [2271].
+  cost: No charge is stated [2271].
+  official_url: https://www.rwjf.org/en/grants/grant-process.html
+  sources:
+  - 2271
+  sweep: foundations-B
+- id: ford-idea-form
+  name: Ford Foundation idea submission form
+  what: A short online form through which anyone may send the Ford Foundation an idea; it is not a grant proposal, which
+    Ford does not accept unsolicited [2259].
+  who_it_is_for: Organisations and people with no existing tie to Ford [2259].
+  cost: No charge is stated [2259].
+  official_url: https://www.fordfoundation.org/work/our-grants/
+  sources:
+  - 2259
+  sweep: foundations-B
+- id: free-foundation-filing-sources
+  name: Where to read a foundation's tax filing free
+  what: Three free sources hold Form 990-PF and Form 990 filings [2059] [2398] [2399]. The IRS Tax Exempt Organization Search
+    covers Form 990 series returns, Pub. 78 data, Form 990-N, the automatic revocation list and determination letters [2059].
+    ProPublica's Nonprofit Explorer holds Form 990, 990-EZ and 990-PF filings going back as far as 2001 and refers to over
+    1.8 million filings [2398]. Candid search is free to anyone who registers, with limited search results and basic profile
+    views on the free plan [2402] [2399]. A foundation must also provide its own return on request for three years, and
+    some post it on their websites [2461] [2430].
+  who_it_is_for: Anyone checking what a foundation has funded, how large it is, and whether its Form 990-PF says it accepts
+    unsolicited requests [2387].
+  cost: The IRS and ProPublica tools carry no charge on the pages read [2059] [2398]. Candid's free plan is $0 and its paid
+    plans start at $219 a month [2399].
+  official_url: https://www.irs.gov/charities-non-profits/tax-exempt-organization-search
+  related:
+  - irs-tax-exempt-organization-search
+  - propublica-nonprofit-explorer
+  - candid-search
+  - form-990-pf-part-by-part
+  sources:
+  - 2059
+  - 2398
+  - 2402
+  - 2399
+  - 2461
+  - 2430
+  - 2387
+  sweep: foundations-C
+- id: propublica-nonprofit-explorer
+  name: ProPublica Nonprofit Explorer
+  what: A database of non-profit tax filings built from the data the IRS releases [2398]. It includes Form 990, Form 990EZ
+    and Form 990PF filings, going back as far as 2001, and refers to over 1.8 million filings [2398]. Each organisation
+    has a page reached by its employer identification number; the page for Silicon Valley Community Foundation gave its
+    assets, revenue and expenses for the year ending December 2024 [2415]. An API is documented [2398].
+  who_it_is_for: Anyone who wants to read a foundation's Form 990-PF or a public charity's Form 990 without an account [2398].
+  cost: No payment is asked for on the pages read [2398].
+  official_url: https://projects.propublica.org/nonprofits/
+  sources:
+  - 2398
+  - 2415
+  sweep: foundations-C
+- id: candid-search
+  name: Candid search (free plan and paid directory)
+  what: Candid search is the product that now holds Candid's funder directory; it "combines decades of trusted data from
+    both Foundation Directory and GuideStar" and claims 304k+ funder profiles and 29M+ grants [2400]. Candid launched it
+    on January 15, 2026 and says it is free for anyone who registers at candid.org [2402]. The free plan gives limited search
+    results and basic profile views; unlimited results, full profiles and grants data need a paid plan [2399]. The address
+    that used to list requests for proposals, philanthropynewsdigest.org/rfps, now redirects to a Candid search page where
+    requests for proposals are a feature of the subscription plans [2401].
+  who_it_is_for: Non-profits and others researching funders [2402]. Small non-profits with under $1 million in revenue receive
+    complimentary Premium access upon earning a Gold Seal of Transparency [2402]. Free access is also offered at Candid
+    partner locations [2403].
+  cost: Free plan $0; Premium monthly $219/month; Premium annual $1,199/year and Ultimate annual $1,699/year on the pricing
+    page [2399]; the product page returned $2,199/year and $2,499/year for the same two plans [2400]. Enterprise is custom-priced
+    [2399].
+  official_url: https://candid.org/candid-search/
+  related:
+  - candid-near-you-locator
+  - candid-community-partners
+  sources:
+  - 2400
+  - 2402
+  - 2399
+  - 2401
+  - 2403
+  sweep: foundations-C
+- id: candid-near-you-locator
+  name: Candid near you (partner locations with free access)
+  what: Candid's locator page says "Partner locations throughout the U.S. and internationally offer access to Candid and
+    nonprofit fundraising resources for free" and offers a map to find the nearest one [2403]. The page as fetched does
+    not say what kinds of institution the partners are, how many there are, or which Candid product they give access to
+    [2403].
+  who_it_is_for: Anyone who wants to use Candid's directory without paying for a subscription [2403].
+  cost: Free at the partner location, as the page states [2403].
+  official_url: https://candid.org/candid-insights/candid-near-you/
+  related:
+  - candid-community-partners
+  - candid-search
+  sources:
+  - 2403
+  sweep: foundations-C
+- id: irs-form-990-series-downloads
+  name: IRS Form 990 series downloads (bulk e-file data)
+  what: The IRS page that offers "all the most recent 990 Series filings on record in XML formats", by year and month, with
+    a CSV index for each year; on 2026-10-04 it listed 2019 through 2026 [2397].
+  who_it_is_for: People who can work with XML files and want many returns at once; a single return is easier to read through
+    the Tax Exempt Organization Search or Nonprofit Explorer [2397] [2059] [2398].
+  cost: No charge is stated on the page [2397].
+  official_url: https://www.irs.gov/charities-non-profits/form-990-series-downloads
+  related:
+  - irs-990-e-file-data
+  sources:
+  - 2397
+  - 2059
+  - 2398
+  sweep: foundations-C
+- id: cof-community-foundation-locator
+  name: Community Foundation Locator (Council on Foundations)
+  what: A map-based locator of community foundations, searchable by state, with a filter that shows only foundations accredited
+    under the Community Foundations National Standards [2404]. The Council says more than 900 community foundations operate
+    across every state and that over 500 have earned the National Standards Seal [2405].
+  who_it_is_for: A non-profit or researcher looking for the community foundation that serves its area [2404].
+  cost: No charge is stated on the page [2404].
+  official_url: https://cof.org/page/community-foundation-locator
+  related:
+  - community-foundation
+  - community-foundation-grantmaking-pattern
+  sources:
+  - 2404
+  - 2405
+  sweep: foundations-C
+- id: regional-associations-of-grantmakers
+  name: Regional associations of grantmakers (United Philanthropy Forum member directory)
+  what: 'United Philanthropy Forum''s member directory lists its "nearly 100 members", which are regional and national philanthropy-serving
+    organisations, and can be filtered by organisation type and region [2406]. Arizona Grantmakers Forum is one member listed
+    [2406]. Some regional associations publish a common grant application form: Philanthropy Missouri publishes the Missouri
+    Common Grant Application [2459].'
+  who_it_is_for: Grant seekers who want to find the body that convenes funders in their region and any shared forms or directories
+    it publishes [2406].
+  cost: The directory page states no charge [2406].
+  official_url: https://www.unitedphilforum.org/member-directory
+  related:
+  - common-grant-application-forms
+  sources:
+  - 2406
+  - 2459
+  sweep: foundations-C
+- id: state-nonprofit-association-locator
+  name: Find Your State Association of Nonprofits (National Council of Nonprofits)
+  what: A map and directory of state associations of non-profits; a state coloured grey has no member organisation in the
+    network at present [2407].
+  who_it_is_for: Non-profits looking for the association in their state [2407].
+  cost: The locator page states no charge; each state association sets its own membership terms, which the page read does
+    not give [2407].
+  official_url: https://www.councilofnonprofits.org/find-your-state-association
+  related:
+  - national-council-of-nonprofits
+  sources:
+  - 2407
+  sweep: foundations-C
+- id: common-grant-application-forms
+  name: Common grant application forms
+  what: A common grant application "allows grantmakers and grantseekers to work from a common set of questions and definitions",
+    in the words of the Missouri form's publisher [2459]. Two were found still published [2459] [2460]. The Missouri Common
+    Grant Application, Version 2.0, updated in 2017, comes as a full application, a short form usable as a letter of intent,
+    budget templates, a user guide and a funder guide [2459]. The Colorado Common Grant Application is offered in Word format
+    with a separate form for capital campaigns and a user's guide [2460]. Neither page says how many funders accept the
+    form [2459] [2460].
+  who_it_is_for: Non-profits applying to funders in a region where a common form is in use; each funder's own guidelines
+    say whether it accepts the form [2459].
+  cost: Both are free to download [2459] [2460].
+  official_url: https://philanthropymissouri.org/missouri-common-grant-application/
+  related:
+  - regional-associations-of-grantmakers
+  sources:
+  - 2459
+  - 2460
+  sweep: foundations-C
+- id: find-local-united-way
+  name: Find Your United Way
+  what: United Way Worldwide's locator for local United Ways, by country and state or by zip code; it counts 1,100+ United
+    Ways in more than 30 countries and territories [2456]. United Way Worldwide says "Most program funding happens locally,
+    so we encourage you to reach out to your local United Way to learn more" [2457].
+  who_it_is_for: Non-profits that deliver local services and want to know how their local United Way funds programmes [2457].
+  cost: No charge is stated [2456].
+  official_url: https://www.unitedway.org/find-your-united-way
+  related:
+  - federated-fund
+  sources:
+  - 2456
+  - 2457
+  sweep: foundations-C
+- id: giving-circle-directory
+  name: Giving circle directory (Philanthropy Together)
+  what: Philanthropy Together, a network for giving circles, links a directory of circles from its home page [2458]. The
+    count of circles did not render through the fetch layer [2458].
+  who_it_is_for: Non-profits and donors looking for a giving circle in their area or field [2458].
+  cost: No charge is stated [2458].
+  official_url: https://philanthropytogether.org/directory/
+  related:
+  - giving-circle
+  sources:
+  - 2458
+  sweep: foundations-C
+- id: givingtuesday-990-data-lake
+  name: GivingTuesday 990 Data Lake and data marts
+  what: GivingTuesday's 990 Data Infrastructure project keeps a copy of electronically filed Form 990, 990-EZ and 990-PF
+    returns, which it calls the 990 Data Lake, and publishes tables cut from them, which it calls data marts [2473] [2474].
+    For private foundations the marts include a table of basic fields with one row for each return, a table with one row
+    for each grant paid during the year, and a table with one row for each grant approved for future payment [2477] [2475]
+    [2476]. A data dictionary lists every column against the form part and line it comes from [2474]. The raw XML returns
+    are in the Amazon S3 bucket "gt990datalake-rawdata" under "EfileData/XmlFiles" [2478].
+  who_it_is_for: Researchers, practitioners and developers, in the project's words "a one-stop resource for researchers,
+    social sector practitioners, and developers" [2473]. A grant seeker reading one foundation is served by the filing hosts
+    already in the pack; this source suits a site or an analyst that reads many returns at once [2474].
+  cost: The access page says a free Amazon Web Services account is required and that users "will not be charged for using
+    the Data Lake" [2478]. The data use licence page names the Open Database License 1.0 and the Database Contents License
+    1.0 [2479].
+  limits: The home page and access page do not say which filing years are held or how soon a return appears [2473] [2478].
+    On 2026-10-04 the address for Lilly Endowment's return for 2025, which another filing host lists, returned HTTP 404,
+    while its return for 2024 loaded [2511]. The grants-paid table for Form 990-PF has no column for the recipient's EIN;
+    the table for Form 990 Schedule I has one [2475] [2508].
+  related:
+  - irs-990-e-file-data
+  - irs-form-990-series-downloads
+  - propublica-nonprofit-explorer
+  - free-foundation-filing-sources
+  - form-990-pf-unsolicited-applications-line
+  official_url: https://990data.givingtuesday.org/
+  as_of: '2026-10-04'
+  sources:
+  - 2473
+  - 2474
+  - 2478
+  - 2479
+  - 2477
+  - 2475
+  - 2476
+  - 2508
+  - 2511
+  sweep: foundations-D

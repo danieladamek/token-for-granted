@@ -4010,3 +4010,3638 @@
   - 1696
   - 1699
   - 1706
+- id: simons-foundation
+  name: Simons Foundation
+  foundation_kind: independent
+  ein: 13-3794889
+  what_it_funds: Research, by way of requests for applications that the foundation posts. Those listed on 2026-10-04 span
+    mathematics and the physical sciences (MPS), plant biology, ecology and evolution, and calls from its SFARI programme
+    [2119]. The Pivot Fellowship also names astronomy, biology, chemistry, earth sciences and neuroscience [2122].
+  fields:
+  - mathematics
+  - physical-sciences
+  - life-sciences
+  - neuroscience
+  who_it_funds: Colleges, universities, medical schools and other research facilities; a non-U.S. institution needs a 501(c)(3)
+    equivalency determination [2120]. The foundation does not fund institutions in China, including Hong Kong, or fiscal
+    sponsors or agents [2120].
+  unsolicited: open-call-only
+  unsolicited_note: 'The policies page states: "The Simons Foundation will not consider unsolicited requests for funding."
+    Applications come only through a posted request for applications [2120] [2119].'
+  how_to_approach: A researcher finds an open request for applications on the Funding Opportunities page and applies as
+    that request says; most begin with a letter of intent (LOI) [2119]. Targeted Grants in MPS takes letters of intent on
+    a rolling basis [2119].
+  cycle: Each request for applications has its own deadline. On 2026-10-04 six were open with deadlines from October 6,
+    2026 to January 27, 2027, three were rolling, and more than 40 were marked closed [2119].
+  typical_grant: Varies by programme. A Simons Collaboration receives up to $2 million per year for four years; a Pivot
+    Fellowship pays one year of salary and may be followed by a research award of up to $1.5 million over five years [2121]
+    [2122].
+  indirect_costs: Indirect costs to the primary institution are limited to 20 percent of direct costs. Equipment over $10,000,
+    tuition and the part of each subcontract above $25,000 are left out of the base [2120].
+  giving:
+  - amount: $481,607,180
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2123
+  - amount: $497,864,430
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2123
+  assets:
+    amount: $4,482,291,699
+    year: 2024
+    cite:
+    - 2123
+  geography: United States and other countries, except China and Hong Kong [2120].
+  programs:
+  - simons-collaborations-mps
+  - simons-pivot-fellowship
+  pending_changes: []
+  official_url: https://www.simonsfoundation.org/
+  sources:
+  - 2119
+  - 2120
+  - 2121
+  - 2122
+  - 2123
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: sloan-foundation
+  name: Alfred P. Sloan Foundation
+  foundation_kind: independent
+  ein: 13-1623877
+  what_it_funds: The foundation says it supports "original initiatives led by outstanding individuals or teams". The programme
+    areas are Research (Economics, Energy and Environment, History of Science and Technology, Matter-to-Life, Physics),
+    Higher Education, Technology, Public Understanding and a New York City programme [2124].
+  fields:
+  - science
+  - economics
+  - higher-education
+  - technology
+  - public-understanding-of-science
+  who_it_funds: Institutions, not individuals, except through its Books programme and its fellowships. It does not fund
+    for-profit institutions, medical research, religion, the humanities, endowments, building or laboratory construction,
+    or political campaigns or lobbying [2124].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: '"The Alfred P. Sloan Foundation does not accept or review unsolicited grant proposals." A letter of
+    inquiry is the way in, and "Not all programs accept unsolicited inquiries"; each programme page says whether it is taking
+    them [2124].'
+  how_to_approach: Read the programme description; send a letter of inquiry by email to that programme's director; if it
+    is judged promising the foundation invites a formal proposal [2124]. A reply to a letter of inquiry can take up to 8
+    weeks [2124].
+  cycle: Grants are made year-round; grants above $250,000 are approved only quarterly [2124]. The Sloan Research Fellowships
+    have one nomination deadline a year, September 15 [2125].
+  typical_grant: No typical size is published on the pages read; grants above $250,000 are approved quarterly, and the Sloan
+    Research Fellowship is $75,000 over two years [2124] [2125].
+  indirect_costs: 'For project grants: no indirect (overhead) costs on requests of $50,000 or less; on larger requests indirect
+    costs "may not exceed 20 percent of direct project costs", shared with any subcontractor, and tuition is left out of
+    the base (guidelines last modified 10/27/2025) [2234]. Sloan Research Fellowship funds may not be used for indirect
+    costs or overhead [2125].'
+  giving:
+  - amount: $104,675,446
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2126
+  - amount: $103,083,683
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2126
+  assets:
+    amount: $2,173,558,178
+    year: 2024
+    cite:
+    - 2126
+  geography: Fellowship candidates must be at institutions in the U.S. or Canada [2125].
+  programs:
+  - sloan-research-fellowships
+  pending_changes:
+  - status: final
+    date: '2025-05-02'
+    text: Sloan was one of four funders of the Rapid Response Bridge Funding Program for researchers with terminated or
+      cancelled NSF grants, run by the Spencer Foundation; its deadlines were May 30 and June 13, 2025 [2197].
+  official_url: https://sloan.org/
+  sources:
+  - 2124
+  - 2125
+  - 2234
+  - 2126
+  - 2197
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: moore-foundation
+  name: Gordon and Betty Moore Foundation
+  foundation_kind: family
+  ein: 94-3397785
+  what_it_funds: 'Scientific discovery, environmental conservation and the San Francisco Bay Area, through three programmes:
+    Science, Environmental Conservation and San Francisco Bay Area [2128] [2127]. Science initiatives listed on 2026-10-04
+    include Curiosity-Driven Science, Quantum Systems, Experimental Physics, Green Chemistry and Symbiosis in Aquatic Systems
+    [2127].'
+  fields:
+  - science
+  - physics
+  - environmental-conservation
+  who_it_funds: Organisations chosen by the foundation within its strategies. Grants to non-U.S. organisations and to bodies
+    that are not public charities are handled under its expenditure-responsibility and equivalency-determination procedures
+    [2130].
+  unsolicited: invitation-only
+  unsolicited_note: '"We do not accept unsolicited grant proposals." [2128]'
+  how_to_approach: 'The foundation allows one form of contact from outside: "a brief, ~100-word email" to inquiry@moore.org,
+    and it commits to reviewing only inquiries that keep to that length [2128]. Grants are then developed with foundation
+    staff [2130].'
+  cycle: No deadlines are published; grants are developed by staff within each initiative [2128].
+  indirect_costs: The indirect cost rate may not exceed 12.5 percent of the direct costs of the project. Consultants, contractors
+    and subgrants, endowments, equipment and capital expenditures, fee-for-service charges, fiscal sponsor fees and tuition
+    are left out of the base; a subgrantee may charge up to 12.5 percent on the same terms [2129].
+  giving:
+  - amount: $440,277,686
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2132
+  - amount: $442,711,130
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2132
+  - amount: $475,964 thousand
+    year: 2025
+    basis: grants paid, statement of cash flows, audited financial statements for the year ending December 31, 2025, dollars
+      in thousands (added by slice D)
+    cite:
+    - 2491
+  - amount: $469,773 thousand
+    year: 2025
+    basis: grants expense, audited financial statements, dollars in thousands; total expenses $518,943 thousand (added by
+      slice D)
+    cite:
+    - 2491
+  - amount: $403,028,969
+    year: 2024
+    basis: contributions, gifts, grants paid, disbursements for charitable purposes (Form 990-PF, Part I, line 25, read
+      from the e-filed return; added by slice D); $391,128,264 per books; the line 26 total of $440,277,686 is the charitable
+      disbursements figure above
+    cite:
+    - 2510
+  assets:
+    amount: $11,522,694,235
+    year: 2024
+    cite:
+    - 2132
+  assets_further:
+  - amount: $12,957,498 thousand
+    year: 2025
+    basis: total assets at December 31, 2025, audited (added by slice D)
+    cite:
+    - 2491
+  - amount: $11,522,694 thousand
+    year: 2024
+    basis: total assets at December 31, 2024, audited; it agrees with the filing figure (added by slice D)
+    cite:
+    - 2491
+  filing_part_xiv: Added by slice D. On its Form 990-PF for 2024 the foundation checked the Part XIV, line 2 box, the statement
+    that it gives only to preselected organisations and does not accept unsolicited requests [2510].
+  geography: United States and international for science and conservation; one programme is limited to the San Francisco
+    Bay Area [2127].
+  programs: []
+  pending_changes:
+  - status: final
+    date: '2025'
+    text: 'Moore Inventor Fellows ended: the tenth and final cohort was chosen in spring 2025 and nominations are no longer
+      accepted [2131].'
+  - status: final
+    date: '2026-02-12'
+    text: The foundation announced $55 million in one-time support for more than 400 postdoctoral researchers at 30 U.S.
+      universities it had funded before, over academic years 2025-2028; the universities allocate the money [2242].
+  official_url: https://www.moore.org/
+  grants_database_url: https://www.moore.org/grants
+  sources:
+  - 2127
+  - 2128
+  - 2129
+  - 2130
+  - 2131
+  - 2242
+  - 2132
+  - 2491
+  - 2510
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: keck-foundation
+  name: W. M. Keck Foundation
+  foundation_kind: independent
+  ein: 95-6092354
+  what_it_funds: Through its Research Program, basic science research that is "distinctive and novel", and biological and
+    physical science and engineering, including new technologies, instrumentation or methodologies [2133]. The foundation
+    also has Southern California and Special Projects areas, which this record does not cover [2133].
+  fields:
+  - science
+  - engineering
+  - biological-sciences
+  - physical-sciences
+  who_it_funds: 'For the Research Program: STEM PhD granting institutions in the United States that hold 501(c)(3) status,
+    or are exempt operating foundations, and have three consecutive years of audited financial statements [2133]. The programme
+    does not fund medical devices, translational or clinical work, drug discovery, or supplements, renewals or follow-on
+    funding [2133].'
+  unsolicited: open-call-only
+  unsolicited_note: 'A researcher cannot apply alone: "Applications must be submitted by the institution''s designated liaison",
+    and an institution may send up to three applications per cycle [2133] [2134].'
+  how_to_approach: A researcher asks the central development office who the institution's designated liaison is; the institution
+    chooses up to three projects and the liaison submits them through the foundation's portal [2134] [2133]. Liaisons may
+    write to research@wmkeck.org to check eligibility and tax requirements [2133]. The foundation no longer holds concept
+    consultations [2133].
+  cycle: Two cycles a year. For the June cycle applications are due the second Monday after Thanksgiving (December 7, 2026);
+    for the December cycle, the first Monday after Memorial Day (June 7, 2027). The Board approves grants in June and December
+    [2133] [2134].
+  typical_grant: Typical awards are $1m to $1.3m over 3 years [2133].
+  indirect_costs: No indirect costs are paid; the foundation treats the institution's waiver of them as in-kind support
+    [2133] [2135].
+  giving:
+  - amount: $76,514,590
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2136
+  - amount: $70,479,870
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2136
+  assets:
+    amount: $1,651,776,277
+    year: 2024
+    cite:
+    - 2136
+  geography: United States only [2134].
+  programs:
+  - keck-research-program
+  pending_changes:
+  - status: final
+    date: '2026'
+    text: The Research Program page states that concept consultations are no longer hosted, and the application instructions
+      dated 8/26/26 describe a single application per cycle with no Phase I or Phase II; neither gives a date for the change
+      [2133] [2249].
+  official_url: https://www.wmkeck.org/
+  grants_database_url: https://www.wmkeck.org/research-current-grantees/
+  sources:
+  - 2133
+  - 2134
+  - 2135
+  - 2249
+  - 2136
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: kavli-foundation
+  name: The Kavli Foundation
+  foundation_kind: independent
+  ein: 77-0560142
+  what_it_funds: Research in astrophysics, nanoscience, neuroscience and theoretical physics, and work on science and society,
+    mostly through the Kavli Institutes it has endowed at universities [2137] [2138].
+  fields:
+  - astrophysics
+  - nanoscience
+  - neuroscience
+  - theoretical-physics
+  - science-and-society
+  who_it_funds: Universities and research centres with which it partners; both calls open on 2026-10-04 were limited to
+    Kavli Institutes, Kavli Prize laureates and affiliates [2137].
+  unsolicited: invitation-only
+  unsolicited_note: '"The foundation does not accept unsolicited proposals; however, we may occasionally issue an open call."
+    [2138]'
+  how_to_approach: The only route the foundation gives is to watch its Funding Opportunities page for an open call [2138]
+    [2137].
+  cycle: No standing deadlines. The two calls listed on 2026-10-04 closed December 15 and December 31, 2026 and were for
+    the Kavli community only [2137].
+  typical_grant: 'Kavli Scholars, bridge funding for scientists whose research has been disrupted: up to $100,000 per year
+    for six months to two years, by nomination from people affiliated with Kavli; "Researchers may not apply directly."
+    [2245] Communication and Public Engagement Skill Building: up to $15,000, Kavli Institutes only (2026) [2137].'
+  giving:
+  - amount: $31,259,081
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2139
+  - amount: $30,633,153
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2139
+  assets:
+    amount: $604,090,789
+    year: 2024
+    cite:
+    - 2139
+  filing_part_xiv: Added by slice D. On its Form 990-PF for 2024 the foundation checked the Part XIV, line 2 box, the statement
+    that it gives only to preselected organisations and does not accept unsolicited requests [2481].
+  geography: International; the foundation partners with universities and research centres in several countries [2138].
+  programs: []
+  pending_changes: []
+  official_url: https://www.kavlifoundation.org/
+  sources:
+  - 2137
+  - 2138
+  - 2245
+  - 2139
+  - 2481
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: rcsa
+  name: Research Corporation for Science Advancement
+  foundation_kind: independent
+  ein: 13-1963407
+  what_it_funds: Early-career faculty research and teaching in chemistry, physics and astronomy through the Cottrell Scholar
+    Award, and collaborative seed projects that come out of its Scialog conferences [2140] [2141] [2142]. It describes itself
+    as "a foundation providing catalytic funding for innovative scientific research" [2140].
+  fields:
+  - chemistry
+  - physics
+  - astronomy
+  who_it_funds: Faculty at U.S. or Canadian research universities and primarily undergraduate institutions [2141].
+  unsolicited: open-call-only
+  unsolicited_note: Applications are taken only through its named programmes; each Scialog initiative page says whether
+    applications are being accepted [2142] [2141].
+  how_to_approach: For the Cottrell Scholar Award an eligible faculty member applies directly through the online portal,
+    with approval from the institution's Authorized Organizational Representative [2141]. For Scialog a scientist may nominate
+    themselves to be a Fellow; about 50 early career faculty are invited to each [2142]. Programme staff are at awards@rescorp.org
+    [2140].
+  cycle: 'Cottrell Scholar Award: one deadline a year, July 1 in 2026 [2141]. Scialog: by initiative, each running about
+    three years [2142].'
+  typical_grant: 'Cottrell Scholar Award: $120,000 over three years (2026 round) [2141].'
+  indirect_costs: Cottrell Scholar Award funds may not be used for indirect costs [2141].
+  giving:
+  - amount: $13,226,677
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2143
+  - amount: $12,600,023
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2143
+  assets:
+    amount: $241,476,977
+    year: 2024
+    cite:
+    - 2143
+  geography: United States and Canada [2141].
+  programs:
+  - cottrell-scholar-award
+  pending_changes:
+  - status: final
+    date: '2026-01-14'
+    text: RCSA made 11 Bridge Awards totalling $800,000 to past Cottrell Scholars and Holland Award recipients whose federal
+      funding was disrupted; it calls them its "first emergency response" [2243].
+  - status: announced
+    date: '2026-08-10'
+    text: RCSA's news index lists a new funding programme for early career researchers with a team science focus, announced
+      August 10, 2026; the announcement itself was not read [2244].
+  official_url: https://rescorp.org/
+  sources:
+  - 2140
+  - 2141
+  - 2142
+  - 2243
+  - 2244
+  - 2143
+  - 2144
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: dreyfus-foundation
+  name: The Camille and Henry Dreyfus Foundation
+  foundation_kind: independent
+  ein: 13-5570117
+  what_it_funds: 'The chemical sciences only, through named programmes: two Teacher-Scholar awards for faculty, a lectureship
+    for undergraduate institutions, a prize and partnership awards with the American Chemical Society [2145].'
+  fields:
+  - chemistry
+  who_it_funds: Academic institutions in the States, Districts and Territories of the United States that grant degrees in
+    the chemical sciences [2146] [2147].
+  unsolicited: open-call-only
+  unsolicited_note: No general application route is given; each programme takes nominations from institutions by its own
+    deadline [2145] [2146].
+  how_to_approach: An institution nominates one faculty member a year to each Teacher-Scholar programme; a faculty member
+    starts with the department chair or dean, who makes the nomination [2146] [2147].
+  cycle: 'Camille Dreyfus Teacher-Scholar Awards: deadline February 4, 2027. Henry Dreyfus Teacher-Scholar Awards: deadline
+    August 6, 2026. Dreyfus Prize: December 3, 2026 [2146] [2147] [2145].'
+  typical_grant: $100,000 (Camille) or $75,000 (Henry) as an unrestricted research grant, normally spent over five years
+    [2146] [2147].
+  indirect_costs: 'Not allowed: "Charges associated with indirect costs or institutional overhead are not allowed." [2146]
+    [2147]'
+  giving:
+  - amount: $4,644,900
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2148
+  - amount: $5,003,632
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2148
+  - amount: $2,874,967
+    year: 2024
+    basis: contributions, gifts, grants paid (Form 990-PF, Part I, line 25, read from the e-filed return for 2024; added
+      by slice D); the line 26 total of $4,644,900 is the charitable disbursements figure above
+    cite:
+    - 2480
+  assets:
+    amount: $111,807,600
+    year: 2024
+    cite:
+    - 2148
+  filing_part_xiv: Added by slice D. On its Form 990-PF for 2024 the foundation did not check the Part XIV, line 2 box and
+    filled in the application information; its entries for deadlines and for restrictions both read "SEE WEBSITE. WWW.DREYFUS.ORG"
+    [2480].
+  geography: United States, its districts and territories [2146].
+  programs:
+  - camille-dreyfus-teacher-scholar
+  - henry-dreyfus-teacher-scholar
+  pending_changes: []
+  official_url: https://www.dreyfus.org/
+  sources:
+  - 2145
+  - 2146
+  - 2147
+  - 2148
+  - 2480
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: packard-foundation
+  name: The David and Lucile Packard Foundation
+  foundation_kind: family
+  scope_note: This slice read only the Packard Fellowships for Science and Engineering. The foundation's programme grants,
+    its giving and its assets are left to the slice that covers it [2149].
+  what_it_funds: 'In this slice: the Packard Fellowships for Science and Engineering, which the guidelines describe as support
+    "for highly creative researchers early in their careers" [2149].'
+  fields:
+  - science
+  - engineering
+  who_it_funds: 'For the fellowships: early-career faculty at 50 invited universities [2149].'
+  unsolicited: invitation-only
+  unsolicited_note: 'For the fellowships, only the 50 invited institutions may nominate, and only through the president:
+    "Up to two nominations may be made by the president of each institution." [2149]'
+  how_to_approach: A faculty member at an invited university enters the university's internal selection; the president nominates
+    up to two; nominees then complete an online profile, with four letters [2149].
+  cycle: One round a year. In 2026 nominations were due March 15 and applications April 20 [2149].
+  typical_grant: $875,000 over five years for each fellow; 20 fellows a year (2026) [2149].
+  indirect_costs: For the fellowships, $17,500 of each year's $175,000 is available to the university for administrative
+    costs [2149].
+  programs:
+  - packard-fellowships-science-engineering
+  pending_changes: []
+  official_url: https://www.packard.org/
+  sources:
+  - 2149
+  - 2283
+  - 2284
+  - 2341
+  - 2342
+  - 2367
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+  variants:
+  - foundation_kind: independent
+    ein: 94-2278431
+    what_it_funds: The foundation says it 'Works with people and communities to create solutions for just societies and
+      a healthy, resilient natural world.' Its home page names Climate and Ocean Health, Reproductive Health and Rights,
+      Civic Space and Civil Society, Just and Equitable Societies and Enduring Solutions for People and Nature, beside its
+      science and engineering fellowship [2367]. Grants are made 'only for charitable, educational, or scientific purposes'
+      [2283].
+    fields:
+    - climate
+    - oceans
+    - reproductive-health
+    - civil-society
+    - science
+    who_it_funds: Tax-exempt charitable organisations, primarily [2283]. About 15 percent of its grants each year go to
+      first-time grantees [2283].
+    unsolicited: invitation-only
+    unsolicited_note: 'The funding opportunities page says of its grants that ''less than one percent come from unsolicited
+      proposals'' [2283]. Added by slice D: the full sentence is "In a typical year, about 15 percent of our grants are
+      awarded to first-time grantees and less than one percent come from unsolicited proposals." [2283]. The page''s description
+      line, as the fetch reported it, says the foundation "does not accept unsolicited proposals", and the page gives no
+      address for an inquiry [2283].'
+    how_to_approach: 'Open requests for proposals are posted on the funding opportunities page; the page said on 2026-10-04:
+      ''There are currently no open RFPs at this time, please check back again soon.'' [2283].'
+    cycle: No standing deadlines; a request for proposals sets its own [2283].
+    typical_grant: In 2025 the foundation awarded 605 grants totalling $322 million, with a median grant of $240,000; 40
+      percent of support was multi-year and unrestricted [2342].
+    indirect_costs: 'On project grants the foundation pays a tiered minimum indirect rate set by the grantee''s annual budget:
+      25 percent under $5 million, 20 percent from $5 million to $50 million, 15 percent over $50 million [2341].'
+    giving:
+    - amount: $322 million
+      year: 2025
+      basis: grants awarded, 605 grants
+      cite:
+      - 2342
+    - amount: $404,615,235
+      year: 2024
+      basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+      cite:
+      - 2284
+    assets:
+      amount: $8.8 billion
+      year: 2025
+      basis: total assets as the foundation reports them
+      cite:
+      - 2342
+    assets_filing:
+      amount: $8,547,237,871
+      year: 2024
+      basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+      cite:
+      - 2284
+    geography: Not stated on the pages read [2283] [2367].
+    programs: []
+    pending_changes: []
+    grants_database_url: https://www.packard.org/grantees/search-our-grants/
+    sources:
+    - 2283
+    - 2341
+    - 2342
+    - 2284
+    - 2367
+    - 2283
+    funder_kind: foundation
+    sweep: foundations-B
+- id: schmidt-sciences
+  name: Schmidt Sciences
+  foundation_kind: independent
+  what_it_funds: 'Research through five centers: AI & Advanced Computing, Astrophysics & Space, Biosciences, Climate and
+    Science Systems [2150]. It describes itself as "one of the philanthropic organizations and initiatives created and funded
+    by Eric and Wendy Schmidt"; no page read states its legal form [2150].'
+  legal_form: Added by slice D. The website's terms of use, last updated November 2, 2024, name the entity as "SCHMIDT SCIENCES
+    LLC" [2505]. The About page says Schmidt Sciences "is part of the philanthropic organizations and initiatives created
+    and funded by Eric and Wendy Schmidt" [2504]. Neither page gives a tax status, an EIN or a filing [2505] [2504].
+  fields:
+  - artificial-intelligence
+  - astrophysics
+  - biosciences
+  - climate
+  - science-systems
+  who_it_funds: Its one open call on 2026-10-04 named universities, national labs, institutes, non-profits and agencies
+    as eligible, with for-profit partners as subawardees only [2152].
+  unsolicited: open-call-only
+  unsolicited_note: '"We proactively seek out grant opportunities and do not accept unsolicited proposals." Open calls appear
+    on its Opportunities for Funding page [2150] [2151].'
+  how_to_approach: A researcher watches the Opportunities for Funding page and answers a call through the organisation's
+    application portal; the call read on 2026-10-04 asked for a three-page expression of interest [2151] [2152]. Schmidt
+    Science Polymaths is by invitation after nomination by partner institutions [2153].
+  cycle: By call. One call was listed on 2026-10-04, with a deadline of October 2, 2026 [2151] [2152]. For Polymaths, nominations
+    are typically collected June to mid-August, applications are due in October and decisions come in April [2153].
+  typical_grant: The 2026 decarbonization modelling call offered up to USD 4 million over 5 years [2152].
+  geography: Not limited by country in the call read [2152].
+  programs: []
+  pending_changes: []
+  official_url: https://www.schmidtsciences.org/
+  sources:
+  - 2150
+  - 2151
+  - 2152
+  - 2153
+  - 2505
+  - 2504
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: templeton-foundation
+  name: John Templeton Foundation
+  foundation_kind: independent
+  ein: 62-1322826
+  what_it_funds: 'Research and public engagement in six areas: Character Virtue Development; Individual Freedom & Free Markets;
+    Life Sciences; Mathematical & Physical Sciences; Public Engagement; and Religion, Science, and Society [2154].'
+  fields:
+  - life-sciences
+  - mathematical-and-physical-sciences
+  - religion-science-and-society
+  - character-virtue-development
+  - individual-freedom-and-free-markets
+  - public-engagement
+  who_it_funds: '"The Foundation funds charitable organizations", in and outside the United States; individuals and for-profit
+    companies only rarely and by staff invitation [2154] [2156].'
+  unsolicited: letter-of-inquiry
+  unsolicited_note: 'Anyone eligible may send an Online Funding Inquiry during the annual window; a full proposal is "by
+    invitation only" [2154]. On 2026-10-04 the calendar read: "The 2026 OFI Deadline has now passed. The Foundation is not
+    accepting new requests at this time." [2155]'
+  how_to_approach: Stage one is the Online Funding Inquiry, "a brief form requesting basic information about your proposed
+    project", sent through the foundation's portal; stage two is a full proposal if invited [2154]. An applicant may send
+    more than one inquiry [2156].
+  cycle: 'One cycle a year. 2026: inquiries due July 15, 2026; decisions on inquiries early September to October 9, 2026;
+    full proposals due December 4, 2026; funding decisions by July 9, 2027. The 2027 dates are to be announced in the new
+    year [2155].'
+  typical_grant: Grant length is often up to three years and rarely up to five; the pages read give no typical amount [2156].
+  indirect_costs: An overhead or indirect cost component of no more than fifteen percent (15%) is allowed [2156].
+  giving:
+  - amount: $154,857,990
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2157
+  - amount: $150,311,416
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2157
+  assets:
+    amount: $3,599,488,250
+    year: 2024
+    cite:
+    - 2157
+  geography: Worldwide [2156].
+  programs: []
+  pending_changes: []
+  official_url: https://www.templeton.org/
+  sources:
+  - 2154
+  - 2155
+  - 2156
+  - 2157
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: hhmi
+  name: Howard Hughes Medical Institute
+  funder_kind: independent-nonprofit
+  foundation_kind: medical-research-organization
+  ein: 59-0735717
+  what_it_funds: 'HHMI is not a foundation. It calls itself "a private biomedical research institution" and, in a news release,
+    "a medical research organization"; it files Form 990, not the private-foundation return [2159] [2160] [2164]. Its faculty
+    programmes are appointments, not grants: HHMI employs the scientists, who keep their laboratories at their home institutions,
+    and it runs fellowships for earlier stages [2161] [2158].'
+  fields:
+  - biomedical
+  - life-sciences
+  who_it_funds: 'Individual scientists at HHMI-eligible institutions: Investigators (mid-career and senior faculty), Freeman
+    Hrabowski Scholars (early-career faculty), Hanna Gray Fellows (postdocs), Gilliam Fellows (PhD students) and Cech Fellows
+    (undergraduates) [2158]. Applicants must be authorized to work in the US or able to obtain work authorization [2162].'
+  unsolicited: open-call-only
+  unsolicited_note: '"HHMI does not review or fund unsolicited grant proposals." A scientist enters only through one of
+    its competitions [2158].'
+  how_to_approach: A scientist applies directly, in the window for the programme that fits the career stage, through the
+    HHMI Application and Review Channel (ARC); the faculty competitions need no institutional nomination, and the Investigator
+    competition needs no recommendation letters [2162] [2161].
+  cycle: 'Investigators: every 5 years; next opens September 28, 2027 and closes March 7, 2028. Freeman Hrabowski Scholars
+    and Hanna Gray Fellows: every other year; the combined 2028 competition opens November 3, 2026 and closes December 15,
+    2026 [2161] [2162] [2163].'
+  typical_grant: 'Not a grant: an Investigator or Scholar receives full salary and benefits as an HHMI employee plus a research
+    budget, for an initial 7-year term (Investigators) or up to 10 years (Scholars) [2161] [2162].'
+  giving:
+  - amount: $1,178,202,544
+    year: 2025
+    basis: total expenses, fiscal year ending August 2025 (Form 990); not a grants figure
+    cite:
+    - 2164
+  - amount: $1,040,424 thousand
+    year: 2023
+    basis: 'total expenses, fiscal year ending August 31, 2023, audited financial statements, in thousands: medical research
+      $759,256; science education, fellowships, and media programs $157,040; general and administrative $124,128; not a
+      grants figure (added by slice D)'
+    cite:
+    - 2486
+  assets:
+    amount: $29,497,763,012
+    year: 2025
+    cite:
+    - 2164
+  assets_further:
+  - amount: $25,892,500 thousand
+    year: 2023
+    basis: total assets at August 31, 2023, audited financial statements; the latest of the Institute's own statements that
+      was located (added by slice D)
+    cite:
+    - 2486
+  legal_form_note: 'Added by slice D. The notes to the audited statements for fiscal year 2023 say: "The Institute is a
+    public charity and qualifies as a tax-exempt organization under Section 501(c)(3) of the Internal Revenue Code." [2486].'
+  geography: United States; scientists must be at HHMI-eligible institutions [2161].
+  programs:
+  - hhmi-investigator-program
+  - hhmi-freeman-hrabowski-scholars
+  - hhmi-hanna-gray-fellows
+  pending_changes:
+  - status: announced
+    date: '2026-11-03'
+    text: Beginning with the 2028 competition, which opens November 3, 2026, the Freeman Hrabowski Scholars and Hanna H.
+      Gray Fellows programmes select scientists through a single, combined competition [2162].
+  official_url: https://www.hhmi.org/
+  sources:
+  - 2158
+  - 2159
+  - 2160
+  - 2161
+  - 2162
+  - 2163
+  - 2164
+  - 2486
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: burroughs-wellcome-fund
+  name: Burroughs Wellcome Fund
+  foundation_kind: independent
+  ein: 23-7225395
+  what_it_funds: Biomedical scientists and science education, mainly through competitive, peer-reviewed award programmes;
+    it describes itself as "an independent private foundation" [2166]. Programmes on 2026-10-04 include career awards for
+    medical scientists and for scientists at the interface of the physical and life sciences, infectious disease, regulatory
+    science, climate and health, and diversity enrichment awards [2165].
+  fields:
+  - biomedical
+  - infectious-disease
+  - science-education
+  who_it_funds: Degree-granting institutions in the United States and Canada, on behalf of individual researchers; all recipient
+    institutions must be tax-exempt 501(c)(3) organizations [2165]. Some programmes also name research institutes and teaching
+    hospitals [2167].
+  unsolicited: open-call-only
+  unsolicited_note: '"BWF''s financial support is channeled primarily through competitive peer-reviewed award programs."
+    [2166] The directory says most awards go to institutions for researchers "who must be nominated by their institution"
+    [2165].'
+  how_to_approach: A researcher picks the programme that fits and applies by its deadline, with the institution's approval
+    or nomination as that programme requires; the two career awards read say nomination is not needed [2167] [2168].
+  cycle: 'Each programme has one cycle a year. CAMS: applications due Sep 30, 2026. CASI: letter of intent Aug 14, 2026,
+    full application January 11, 2027 [2167] [2168].'
+  typical_grant: $700,000 over five years (CAMS) and $560,000 over five years (CASI) in the 2026 cycle [2167] [2168].
+  indirect_costs: For CASI, "indirect costs may not be charged against the grant"; no Fund-wide rule was returned [2168].
+  giving:
+  - amount: $47,026,736
+    year: 2025
+    basis: charitable disbursements, fiscal year ending August 2025 (Form 990-PF)
+    cite:
+    - 2169
+  - amount: $44,925,381
+    year: 2024
+    basis: charitable disbursements, fiscal year ending August 2024 (Form 990-PF)
+    cite:
+    - 2169
+  assets:
+    amount: $885,672,359
+    year: 2025
+    cite:
+    - 2169
+  geography: United States and Canada [2165].
+  programs:
+  - bwf-career-awards-medical-scientists
+  - bwf-career-awards-scientific-interface
+  pending_changes: []
+  official_url: https://www.bwfund.org/
+  sources:
+  - 2165
+  - 2166
+  - 2167
+  - 2168
+  - 2169
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: chan-zuckerberg-initiative
+  name: Chan Zuckerberg Initiative
+  foundation_kind: independent
+  legal_form: 'CZI describes itself as "composed of four funding entities": the Chan Zuckerberg Initiative, LLC; the Chan
+    Zuckerberg Initiative Foundation (a 501(c)(3) private foundation); the Chan Zuckerberg Initiative Donor-Advised Fund
+    at the Silicon Valley Community Foundation; and Chan Zuckerberg Initiative Advocacy (a 501(c)(4) organization) [2171]
+    [2170].'
+  what_it_funds: Science, education and its local community; in science it funds through "targeted grantmaking and open
+    competitions for research funds in specific issue areas with Requests for Applications, or RFAs" [2172] [2170].
+  fields:
+  - science
+  - biology
+  - artificial-intelligence
+  - education
+  who_it_funds: '"People and organizations working in support of our missions"; the pages read state no general eligibility
+    rule [2171].'
+  unsolicited: open-call-only
+  unsolicited_note: The pages read do not say whether unsolicited proposals are accepted; the only route they describe is
+    a Request for Applications [2172].
+  how_to_approach: A researcher watches the Science Funding page for an open RFA [2172]. For education the page gives an
+    email address, educationgrants@chanzuckerberg.com [2171].
+  cycle: By RFA. On 2026-10-04 all 28 science RFAs listed were marked closed [2172].
+  giving:
+  - amount: approximately $7.22 billion
+    year: 2026
+    basis: grants awarded since 2015, cumulative, all entities, as stated on the home page on 2026-10-04
+    cite:
+    - 2170
+  geography: Not stated on the pages read [2171].
+  programs: []
+  pending_changes: []
+  official_url: https://chanzuckerberg.com/
+  grants_database_url: https://chanzuckerberg.com/grants-ventures/grants/
+  sources:
+  - 2170
+  - 2171
+  - 2172
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: pew-charitable-trusts
+  name: The Pew Charitable Trusts
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  ein: 56-2307147
+  scope_note: This record covers only the biomedical scholars programmes [2173].
+  what_it_funds: 'In this slice: the Pew Scholars Program in the Biomedical Sciences and its sister programmes, the Pew-Stewart
+    Scholars for Cancer Research and the Pew Latin American Fellows [2173]. Pew files Form 990, the return of a public charity,
+    not Form 990-PF [2176].'
+  fields:
+  - biomedical
+  who_it_funds: '"The program makes grants to selected academic institutions" for assistant professors in the first few
+    years of their appointment [2173].'
+  unsolicited: invitation-only
+  unsolicited_note: 'Only participating institutions may nominate: "For the 2027 award, one nominee will be invited from
+    each of the participating institutions" [2174].'
+  how_to_approach: A faculty member at a participating institution enters that institution's internal selection; the institution
+    names one nominee, who then applies [2174] [2175]. Questions go to scholarsapp@pewtrusts.org [2173].
+  cycle: One round a year. For the 2027 award, eligibility is fixed as of Sept. 3, 2026 [2174]. One university's notice
+    gives the sponsor dates as May 13, 2026 for the nomination step and September 3, 2026 for applications [2175].
+  typical_grant: '$306,000 for each scholar: $75,000 a year for four years, plus a $1,500 annual travel stipend (2027 award)
+    [2174].'
+  indirect_costs: Not more than 8 percent ($24,000) of the total award may go to facilities and administration or indirect
+    costs [2174].
+  assets:
+    amount: $1,463,583,948
+    year: 2025
+    cite:
+    - 2176
+  geography: Participating institutions in the United States; 212 were listed for the 2027 award [2174].
+  programs:
+  - pew-biomedical-scholars
+  pending_changes: []
+  official_url: https://www.pew.org/en/projects/pew-biomedical-scholars
+  sources:
+  - 2173
+  - 2174
+  - 2175
+  - 2176
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: doris-duke-foundation
+  name: Doris Duke Foundation
+  foundation_kind: independent
+  what_it_funds: 'Among other areas, medical research: "research to enhance health for all", organised on 2026-10-04 around
+    two ideas, Racial Equity in Clinical Equations and New Pathways for Health Innovation [2179].'
+  fields:
+  - medical-research
+  - health
+  - arts
+  who_it_funds: '"Only nonprofit public charitable organizations that are tax-exempt under Section 501(c)(3) of the United
+    States Internal Revenue Code are eligible to apply." [2178]'
+  unsolicited: letter-of-inquiry
+  unsolicited_note: '"While most of our grants are by invitation, we do accept unsolicited proposals. We also have open
+    calls from time to time." [2177] The FAQ adds: "Very few grants result from unsolicited letters of inquiry, but foundation
+    staff do review unsolicited applications." [2178]'
+  how_to_approach: An organisation submits a letter of inquiry through the foundation's site, or answers an open call listed
+    on the Grant Resources page; the foundation aims to answer a letter of inquiry within two months [2177] [2178].
+  cycle: Letters of inquiry at any time; open calls by their own deadlines. Two calls were open on 2026-10-04, one in Medical
+    Research due November 18, 2026 [2177].
+  assets:
+    amount: over $2 billion
+    year: 2026
+    cite:
+    - 2181
+  geography: United States organisations only [2178].
+  programs:
+  - ddf-health-solutions-science-in-action
+  pending_changes: []
+  official_url: https://www.dorisduke.org/
+  grants_database_url: https://www.dorisduke.org/grants/projects
+  sources:
+  - 2177
+  - 2178
+  - 2179
+  - 2180
+  - 2181
+  - 2236
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: helmsley-charitable-trust
+  name: The Leona M. and Harry B. Helmsley Charitable Trust
+  foundation_kind: independent
+  ein: 13-7184401
+  what_it_funds: 'Six programme areas: Crohn''s Disease, Type 1 Diabetes, Rural Healthcare, Israel, Vulnerable Children
+    in Sub-Saharan Africa and New York City [2182].'
+  fields:
+  - crohns-disease
+  - type-1-diabetes
+  - rural-healthcare
+  - israel
+  - sub-saharan-africa
+  - new-york-city
+  who_it_funds: Public charities under sections 501(c)(3) and 509(a)(1) or 509(a)(2), foreign organisations found equivalent
+    to them, and charitable projects at for-profit entities [2184].
+  unsolicited: invitation-only
+  unsolicited_note: '"Helmsley does not accept unsolicited grant proposals." Requests for proposals are issued "occasionally
+    and with a specific scope" and announced on its website [2184].'
+  how_to_approach: 'By invitation: a prospective grantee is asked to complete a pre-proposal, which the Trust reviews before
+    requesting a full proposal [2184].'
+  cycle: No deadlines are published; occasional requests for proposals carry their own [2184].
+  indirect_costs: An organisation with an annual operating budget under $5 million may request up to 20% of direct project
+    costs; one over $5 million, up to 10%. Indirect funds of 10% may be requested on equipment and subcontractor costs,
+    to annual maximums of $2,000 and $2,500. No indirect costs are paid on grants made under expenditure responsibility
+    (terms last updated April 2025) [2185].
+  giving:
+  - amount: $477,560,098
+    year: 2025
+    basis: charitable disbursements, fiscal year ending March 2025 (Form 990-PF)
+    cite:
+    - 2186
+  - amount: $479,058,575
+    year: 2024
+    basis: charitable disbursements, fiscal year ending March 2024 (Form 990-PF)
+    cite:
+    - 2186
+  assets:
+    amount: $7,108,379,897
+    year: 2025
+    cite:
+    - 2186
+  geography: United States, Israel and sub-Saharan Africa, by programme [2182].
+  programs: []
+  pending_changes: []
+  official_url: https://helmsleytrust.org/
+  grants_database_url: https://helmsleytrust.org/our-grants/
+  sources:
+  - 2182
+  - 2183
+  - 2184
+  - 2185
+  - 2186
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: american-heart-association
+  name: American Heart Association
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  ein: 13-5613797
+  what_it_funds: 'Recorded here as an example of a voluntary health agency that funds research: the Association files Form
+    990, the return of a public charity, not the private-foundation return [2189]. "The Heart Association funds basic, clinical,
+    population and data science research." [2187]'
+  fields:
+  - cardiovascular
+  - biomedical
+  who_it_funds: Investigators at U.S.-based non-profit institutions, including health professional schools, universities
+    and colleges, and public and voluntary hospitals [2188].
+  unsolicited: open-call-only
+  unsolicited_note: Applications are taken only under a posted funding opportunity with its own deadline [2187].
+  how_to_approach: An investigator chooses an open opportunity from the Association's list and applies by its deadline;
+    the applicant must be an AHA Professional Member when the proposal is submitted [2187] [2188].
+  cycle: Four opportunities were open on 2026-10-04, with deadlines from December 1 to December 15, 2026 [2187].
+  typical_grant: 'Career Development Award: $77,000 per year, $231,000 in all, three years (2026 deadline) [2188].'
+  indirect_costs: 10% institutional indirect costs on the Career Development Award [2188].
+  giving:
+  - amount: $185 million
+    year: 2026
+    basis: new research projects funded in fiscal year 2025-26 (1,261 projects), as stated in the Association's Research
+      Facts sheet
+    cite:
+    - 2235
+  - amount: $584 million
+    year: 2026
+    basis: value of about 2,294 active research awards in fiscal year 2025-26
+    cite:
+    - 2235
+  assets:
+    amount: $2,009,845,329
+    year: 2025
+    cite:
+    - 2189
+  geography: United States [2188].
+  programs:
+  - aha-career-development-award
+  pending_changes: []
+  official_url: https://professional.heart.org/en/research-programs
+  sources:
+  - 2187
+  - 2188
+  - 2189
+  - 2235
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: american-cancer-society
+  name: American Cancer Society
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  ein: 13-1788491
+  what_it_funds: 'Recorded here as an example of a voluntary health agency that funds research: the Society files Form 990,
+    the return of a public charity, not the private-foundation return [2192]. It describes itself as "the nation''s largest
+    private, not-for-profit source of funds for scientists studying cancer" and funds investigator grants, fellowships and
+    institutional grants across cancer research [2190].'
+  fields:
+  - cancer
+  - biomedical
+  who_it_funds: Investigators at not-for-profit institutions physically located within the US and its territories; applications
+    for research at for-profit institutions or federal government agencies are not accepted [2248]. A non-citizen applicant
+    must hold a visa that allows completion of the award [2248] [2190].
+  unsolicited: open-call-only
+  unsolicited_note: Applications are taken under named grant types at two standing deadlines a year [2190].
+  how_to_approach: An investigator picks the grant type that fits the career stage and applies by June 1 or December 1 [2190].
+  cycle: June 1 and December 1 for most grant types; Institutional Research Grants June 1 only; the ACS Professor Award
+    takes letters of intent June to September and applications December 1 [2190].
+  typical_grant: 'Research Scholar Grant: up to $215,000 a year in direct costs for up to four years. Postdoctoral Fellowship:
+    stipends of $66-70K for 3 years (figures on the page on 2026-10-04) [2191] [2190].'
+  indirect_costs: 10% of direct costs on standard grants, with equipment of $5,000 or more left out of the base; none on
+    Postdoctoral Fellowships, ACS Professor Awards and Institutional Research Grants [2248]. The grants index also lists
+    8% on the ACS-ASTRO grant and none on the EDS Accelerator Award [2190].
+  assets:
+    amount: $1,746,878,475
+    year: 2024
+    cite:
+    - 2192
+  geography: United States [2191].
+  programs:
+  - acs-research-scholar-grants
+  pending_changes:
+  - status: final
+    date: '2026'
+    text: The Research Scholar Grant eligibility cutoff was reduced from 10 years to 8 years starting with the Summer 2026
+      application cycle [2248]. The grants page also says postdoctoral fellowship eligibility has changed, without detail
+      [2190].
+  official_url: https://www.cancer.org/research/we-fund-cancer-research.html
+  sources:
+  - 2190
+  - 2191
+  - 2248
+  - 2192
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: spencer-foundation
+  name: Spencer Foundation
+  foundation_kind: independent
+  ein: 36-6078558
+  what_it_funds: 'Research on education, through field-initiated grant programmes: small and large research grants, research-practice
+    partnerships, racial equity research grants and vision grants, with fellowships and field-building grants alongside
+    [2193]. The foundation says its research grants "are not designed for applicants to respond to a specific request" [2193].'
+  fields:
+  - education
+  - social-science
+  who_it_funds: 'Principal investigators with an earned doctorate who are affiliated with a non-profit organization or a
+    public or governmental institution: colleges, universities, school districts, research facilities and other non-profits
+    with a 501(c)(3) determination [2194] [2195]. Proposals are accepted from the U.S. and internationally [2194].'
+  unsolicited: open-call-only
+  unsolicited_note: Applications are field-initiated but are taken only in each programme's application window; on 2026-10-04
+    four of the five research programmes were marked closed [2193].
+  how_to_approach: A researcher chooses the programme by budget size and applies in its window through the foundation's
+    portal; the larger programmes start with a pre-proposal or intent to apply [2196] [2195]. A PI or Co-PI may hold one
+    active Spencer research grant and have one proposal under review at a time [2194].
+  cycle: 'By programme. From 2026 the Large Research Grants have a single cycle per year [2195]. Research-Practice Partnerships:
+    applications opened May 12, 2026 and invited full proposals are due October 28, 2026 [2196].'
+  typical_grant: Small grants up to $50,000; large grants $125,000 to $500,000 in three tiers; research-practice partnerships
+    up to $400,000 (2026 pages) [2194] [2195] [2196].
+  indirect_costs: None on small grants; 15 percent on large grants; up to 15% on research-practice partnership grants [2194]
+    [2195] [2196].
+  giving:
+  - amount: $36,588,579
+    year: 2025
+    basis: charitable disbursements, fiscal year ending March 2025 (Form 990-PF)
+    cite:
+    - 2199
+  - amount: $29,165,035
+    year: 2024
+    basis: charitable disbursements, fiscal year ending March 2024 (Form 990-PF)
+    cite:
+    - 2199
+  assets:
+    amount: $664,818,562
+    year: 2025
+    cite:
+    - 2199
+  geography: United States and international [2194].
+  programs:
+  - spencer-small-research-grants
+  - spencer-large-research-grants
+  - spencer-research-practice-partnerships
+  pending_changes:
+  - status: final
+    date: '2026'
+    text: '"Starting in 2026, we are moving to a single cycle of Large Grants per year"; the page adds that more proposals
+      will be funded than in past years [2195].'
+  official_url: https://www.spencer.org/
+  sources:
+  - 2193
+  - 2194
+  - 2195
+  - 2196
+  - 2197
+  - 2198
+  - 2199
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: russell-sage-foundation
+  name: Russell Sage Foundation
+  foundation_kind: independent
+  ein: 13-1635303
+  what_it_funds: 'Social science research in its priority areas: Behavioral Science and Decision Making in Context; Future
+    of Work; Race, Ethnicity and Immigration; Immigration and Immigrant Integration; and Social, Political, and Economic
+    Inequality [2203]. It gives research grants, pipeline grants, dissertation grants and residential fellowships [2200].'
+  fields:
+  - social-science
+  - economics
+  - sociology
+  - political-science
+  - psychology
+  who_it_funds: PhD holders for core research grants; assistant professors, lecturers and adjunct professors for pipeline
+    grants; PhD candidates for dissertation grants [2203]. "All nationalities are eligible to apply and applicants do not
+    have to reside in the U.S.", but research based outside the US is funded only rarely [2200].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: Core research grants begin with a letter of inquiry by a published deadline; a full proposal is by invitation
+    [2201].
+  how_to_approach: The investigator submits a letter of inquiry through the portal at rsf.fluxx.io by the deadline for the
+    programme area; those invited submit a proposal about three to four months later [2200] [2201].
+  cycle: 'Three letter-of-inquiry deadlines in 2026 for core grants: March 11, July 15 and October 28, each for named programme
+    areas. The October 28, 2026 round (Social, Political and Economic Inequality; Future of Work; and one special initiative)
+    has invited proposals due February 22, 2027 and decisions in June 2027 [2201].'
+  typical_grant: Trustee Grants are capped at $200,000 and Presidential Grants at $50,000, or $75,000 in stated cases; projects
+    are generally limited to two years [2202].
+  indirect_costs: '"RSF covers indirect costs of up to 15% on grants over $75,000 only", and none on data purchases or access
+    fees or on subcontracts to survey firms [2202].'
+  giving:
+  - amount: $17,602,954
+    year: 2025
+    basis: charitable disbursements, fiscal year ending August 2025 (Form 990-PF)
+    cite:
+    - 2204
+  - amount: $17,866,773
+    year: 2024
+    basis: charitable disbursements, fiscal year ending August 2024 (Form 990-PF)
+    cite:
+    - 2204
+  assets:
+    amount: $492,645,457
+    year: 2025
+    cite:
+    - 2204
+  geography: Research on the United States; applicants of any nationality [2200].
+  programs:
+  - rsf-core-research-grants
+  - rsf-pipeline-grants
+  pending_changes: []
+  official_url: https://www.russellsage.org/
+  sources:
+  - 2200
+  - 2201
+  - 2202
+  - 2203
+  - 2204
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: william-t-grant-foundation
+  name: William T. Grant Foundation
+  foundation_kind: independent
+  ein: 13-1624021
+  what_it_funds: Research on reducing inequality in the outcomes of young people ages 5-25 and on improving the use of research
+    evidence, plus a career award (William T. Grant Scholars), an Institutional Challenge Grant for research-practice partnerships
+    and youth service grants in New York City [2205] [2207].
+  fields:
+  - social-science
+  - youth
+  - education
+  - research-use
+  who_it_funds: Tax-exempt organizations only; no grants to individuals [2207].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: Research grants start with a letter of inquiry in a published cycle; for major grants the foundation
+    "either invites a full proposal for further consideration, or declines the application" [2207].
+  how_to_approach: The organisation submits a letter of inquiry in an open cycle. Officers' research grants are decided
+    on the letter alone; major grants go on to an invited full proposal [2207]. For the Scholars programme the institution
+    nominates [2206].
+  cycle: All programmes were closed on 2026-10-04. Research grant deadlines for 2027 are to be posted in November 2026;
+    Scholars dates in January 2027; Institutional Challenge Grant dates in spring 2027 [2205].
+  typical_grant: Major research grants $100,000 to $600,000 over 2-3 years; Officers' research grants $25,000-$50,000 over
+    1-2 years; Scholars $425,000 over five years (2026 pages) [2207] [2206].
+  indirect_costs: Up to 15% within research grants; up to 7.5% within the Scholars award [2207] [2206].
+  giving:
+  - amount: $24,422,990
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2208
+  - amount: $22,589,336
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2208
+  assets:
+    amount: $419,997,014
+    year: 2024
+    cite:
+    - 2208
+  geography: United States; one programme is limited to New York City [2205].
+  programs:
+  - william-t-grant-scholars
+  - wtgrant-research-grants-reducing-inequality
+  pending_changes: []
+  official_url: https://wtgrantfoundation.org/
+  sources:
+  - 2205
+  - 2206
+  - 2207
+  - 2208
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: mellon-foundation
+  name: Mellon Foundation
+  foundation_kind: independent
+  ein: 13-1879954
+  scope_note: This slice read Mellon for its higher-learning and scholarship work [2211].
+  what_it_funds: 'The arts and humanities, in four areas: Arts and Culture, Higher Learning, Humanities in Place and Public
+    Knowledge, with Presidential Initiatives [2209]. Higher Learning supports "academic research, curricular development,
+    extracurricular programming, internships, and community partnerships" in humanities disciplines at colleges and universities,
+    and humanities projects beyond them [2211].'
+  fields:
+  - humanities
+  - arts
+  - higher-education
+  - public-knowledge
+  who_it_funds: Mostly U.S. organisations that the IRS has determined to be 501(c)(3) public charities, and equivalent organisations
+    abroad. It does not fund tuition, K-12 education and programming, fundraising events or direct unrestricted funding
+    for individuals [2210].
+  unsolicited: invitation-only
+  unsolicited_note: '"Most Mellon grants are made through these invitations. Occasionally, we issue open calls for proposals."
+    [2210]'
+  how_to_approach: Staff "seek out and get to know innovative organizations, scholars, and creators before inviting them
+    to submit a proposal"; the foundation tells readers to sign up for its emails to hear of an open call [2211] [2210].
+    Fellowships such as New Directions reach faculty only through institutions the foundation invites [2212].
+  cycle: No standing deadlines; no open call was shown on the Higher Learning page on 2026-10-04 [2211].
+  indirect_costs: No general policy was returned. New Directions Fellowships pay no indirect, overhead or administrative
+    costs to the university [2212].
+  giving:
+  - amount: $635,411,854
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2215
+  - amount: $596,113,933
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2215
+  assets:
+    amount: $7,820,349,022
+    year: 2024
+    cite:
+    - 2215
+  geography: United States, with some grants to equivalent organisations abroad [2210].
+  programs:
+  - mellon-higher-learning-open-call
+  - mellon-humanities-in-place
+  pending_changes:
+  - status: final
+    date: '2025-04-29'
+    text: Mellon announced $15 million in emergency funding for the 56 state and jurisdictional humanities councils, paid
+      through their Federation; it is not a competition [2213].
+  official_url: https://www.mellon.org/
+  sources:
+  - 2209
+  - 2210
+  - 2211
+  - 2212
+  - 2213
+  - 2214
+  - 2215
+  - 2339
+  - 2340
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+  variants:
+  - foundation_kind: independent
+    ein: 13-1879954
+    legal_form_note: The foundation files Form 990-PF as The Andrew W. Mellon Foundation [2215].
+    what_it_funds: Arts, culture and the humanities, through programmes that include Higher Learning and Humanities in Place
+      [2339] [2340]. Its 2025 letter names grants for humanities councils, museums, community-based archives, public media
+      and literary arts [2214].
+    fields:
+    - arts
+    - humanities
+    - higher-education
+    - public-knowledge
+    - cultural-heritage
+    who_it_funds: Organisations, scholars and creators that staff get to know and invite [2210]. It 'does not fund tuition,
+      K-12 education and programming, fundraising events, or provide direct unrestricted funding for individuals' [2210].
+    unsolicited: invitation-only
+    unsolicited_note: 'The grantmaking page says: ''Our staff seek out and get to know innovative organizations, scholars,
+      and creators before inviting them to submit a proposal''; and: ''Occasionally, we issue open calls for proposals.''
+      [2210].'
+    how_to_approach: Open calls are announced on the website and by newsletter [2210]. One programme, Humanities in Place,
+      takes applications at any time through mellon.fluxx.io/apply/hip [2340].
+    cycle: By invitation; open calls set their own dates. The 2026 Higher Learning open call closed February 17, 2026 [2339].
+    typical_grant: No foundation-wide figure is given; the 2026 Higher Learning open call offered $250,000 to $500,000 for
+      up to four years [2339].
+    giving:
+    - amount: $635,411,854
+      year: 2024
+      basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+      cite:
+      - 2215
+    assets:
+      amount: $7,820,349,022
+      year: 2024
+      basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+      cite:
+      - 2215
+    geography: United States and its territories for the open call read; the general pages state no limit [2339] [2210].
+    programs:
+    - mellon-higher-learning-open-call
+    - mellon-humanities-in-place
+    pending_changes: []
+    grants_database_url: https://www.mellon.org/grant-database
+    sources:
+    - 2210
+    - 2339
+    - 2340
+    - 2214
+    - 2213
+    - 2215
+    funder_kind: foundation
+    sweep: foundations-B
+- id: carnegie-corporation-of-new-york
+  name: Carnegie Corporation of New York
+  foundation_kind: independent
+  ein: 13-1628151
+  what_it_funds: The pages reached did not list the Corporation's programme areas [2216]. Its Andrew Carnegie Fellows Program
+    funds scholars' research on political polarization [2217].
+  fields:
+  - social-science
+  - humanities
+  who_it_funds: Organisations, through a letter of inquiry; and individual scholars only through the Andrew Carnegie Fellows
+    Program, by nomination [2216] [2217].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: '"Only full proposals that have been invited for submission will be considered." A letter of inquiry
+    comes first [2216].'
+  how_to_approach: An organisation submits a letter of inquiry online; "After a letter of inquiry has been reviewed, applicants
+    may be invited via email to submit a full proposal." [2216]
+  cycle: No deadlines for letters of inquiry are given on the page read [2216].
+  typical_grant: Andrew Carnegie Fellows receive up to $200,000 each; the 2026 class had 24 fellows and nearly $5 million
+    in grants [2217].
+  giving:
+  - amount: $201,528,262
+    year: 2025
+    basis: charitable disbursements, fiscal year ending September 30, 2025 (Form 990-PF)
+    cite:
+    - 2218
+  - amount: $176,930,619
+    year: 2024
+    basis: charitable disbursements, fiscal year ending September 30, 2024 (Form 990-PF)
+    cite:
+    - 2218
+  assets:
+    amount: $4,832,583,462
+    year: 2025
+    cite:
+    - 2218
+  programs:
+  - andrew-carnegie-fellows
+  pending_changes:
+  - status: announced
+    date: '2027'
+    text: 2027 begins a new three-year nomination cycle for the Andrew Carnegie Fellows, with the theme of political polarization
+      widened to what the U.S. can learn from other countries [2217].
+  official_url: https://www.carnegie.org/
+  sources:
+  - 2216
+  - 2217
+  - 2218
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: henry-luce-foundation
+  name: Henry Luce Foundation
+  foundation_kind: independent
+  ein: 13-6001282
+  what_it_funds: 'Seven programmes: American Art; Asia; Democracy & Civic Life; Indigenous Knowledge; Religion & Theology;
+    Women in STEM; and the Luce Scholars Program [2220].'
+  fields:
+  - american-art
+  - asia
+  - religion-and-theology
+  - indigenous-knowledge
+  - democracy
+  - women-in-stem
+  - humanities
+  who_it_funds: Institutions only, typically U.S. not-for-profit organizations or their international equivalents; the Luce
+    Scholars Program is the one exception that funds individuals [2219].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: '"All Luce programs accept unsolicited Concept Notes through our online portal." [2219]'
+  how_to_approach: The organisation creates a portal account and submits a Concept Note; the foundation confirms within
+    8 weeks; applicants selected then submit a full proposal [2219].
+  cycle: Concept Notes by each programme's own guidelines; the board considers recommended proposals three times a year,
+    in March, June and November [2219].
+  indirect_costs: '"The Luce Foundation will cover indirect costs (general operating costs) up to 20% of the total grant
+    amount." [2219]'
+  giving:
+  - amount: $56.1M
+    year: 2025
+    basis: 'grants awarded: 298 grants, as stated on the programmes page'
+    cite:
+    - 2220
+  - amount: $62,204,913
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2221
+  assets:
+    amount: $1,132,206,450
+    year: 2024
+    cite:
+    - 2221
+  geography: United States and Asia, by programme [2220] [2219].
+  programs: []
+  pending_changes: []
+  official_url: https://www.hluce.org/
+  sources:
+  - 2219
+  - 2220
+  - 2221
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: guggenheim-foundation
+  name: John Simon Guggenheim Memorial Foundation
+  foundation_kind: independent
+  ein: 13-5673173
+  what_it_funds: Fellowships "to exceptional individuals in pursuit of scholarship in any field of knowledge and creation
+    in any art form, under the freest possible conditions" [2222].
+  fields:
+  - any
+  who_it_funds: 'Individuals only: citizens and permanent residents of the United States and Canada, at mid-career. It does
+    not fund institutions or organizations, students, or those whose only publications are based on their dissertations
+    [2225] [2224].'
+  unsolicited: open-call-only
+  unsolicited_note: Anyone eligible may apply in the annual competition; there is no nomination [2223] [2224].
+  how_to_approach: The individual applies online between mid-August and mid-September, then sends work samples, and three
+    or four referees send letters [2223] [2224].
+  cycle: 'One competition a year. For 2027: application opened mid-August 2026 and was due September 15, 2026; Fellows are
+    announced in late April 2027 [2223].'
+  typical_grant: Amounts vary by Fellow and are not published as a fixed sum; a Fellowship lasts six to twelve months; around
+    175 are awarded a year [2225] [2224].
+  indirect_costs: The grant is made to the individual, not to an institution [2225].
+  giving:
+  - amount: $18,065,861
+    year: 2024
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2226
+  - amount: $17,692,370
+    year: 2023
+    basis: charitable disbursements (Form 990-PF)
+    cite:
+    - 2226
+  assets:
+    amount: $383,572,670
+    year: 2024
+    cite:
+    - 2226
+  geography: United States and Canada [2225].
+  programs:
+  - guggenheim-fellowships
+  pending_changes: []
+  official_url: https://www.gf.org/
+  grants_database_url: https://www.gf.org/fellows
+  sources:
+  - 2222
+  - 2223
+  - 2224
+  - 2225
+  - 2226
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: acls
+  name: American Council of Learned Societies
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  what_it_funds: Fellowships and grants to scholars in the humanities and social sciences. ACLS is "a nonprofit federation
+    of 86 scholarly organizations", not a foundation; it is recorded here as an example of a body that passes foundation
+    money on as fellowships [2230] [2227]. Several programmes carry the funder's name, and the Mellon/ACLS Dissertation
+    Innovation Fellowships page says the programme "is made possible by a grant from the Mellon Foundation" [2227] [2229].
+  fields:
+  - humanities
+  - social-science
+  who_it_funds: Individual scholars, including independent scholars with no institution, and doctoral students in some programmes
+    [2228] [2229].
+  unsolicited: open-call-only
+  unsolicited_note: Each programme is an open competition with its own deadline [2227] [2228].
+  how_to_approach: The scholar applies to the named programme by its deadline; no institutional nomination is mentioned
+    on the pages read [2228].
+  cycle: 'ACLS Fellowship Program: September 17, 2026. Mellon/ACLS Dissertation Innovation Fellowships: October 28, 2026
+    [2228] [2229].'
+  typical_grant: The most recent ACLS Fellowship competition awarded approximately $3.5 million to 63 scholars [2228].
+  giving:
+  - amount: $25+ million
+    year: 2025
+    basis: awarded across all programmes in 2024-25, to 440+ scholars, as stated on the fellowships page
+    cite:
+    - 2227
+  programs:
+  - acls-fellowship-program
+  - mellon-acls-dissertation-innovation-fellowships
+  pending_changes: []
+  official_url: https://www.acls.org/
+  sources:
+  - 2227
+  - 2228
+  - 2229
+  - 2230
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: gates-foundation
+  name: Gates Foundation
+  foundation_kind: independent
+  ein: 56-2618866
+  what_it_funds: Its United States programme names K-12 Education, Postsecondary Success, Pathways, Economic Mobility and
+    Opportunity, Early Learning and Washington State as its areas [2255]. The foundation says it does not make grants outside
+    its funding priorities [2251]. Its 2026 budget release names education in the United States among its continuing priorities,
+    beside global health and agriculture in low- and middle-income countries [2329].
+  fields:
+  - education
+  - higher-education
+  - economic-mobility
+  - global-health
+  - agriculture
+  who_it_funds: Most grants go to U.S. 501(c)(3) organisations and other tax-exempt organisations that foundation staff
+    identify [2250]. Individuals are generally not eligible, except where a specific application says otherwise [2251].
+    In 2025 it funded grantees in 45 states and the District of Columbia [2254].
+  unsolicited: invitation-only
+  unsolicited_note: 'The foundation''s applicant FAQ says: ''In general, we directly invite proposals by directly contacting
+    organizations.'' It also issues requests for proposals from time to time [2251].'
+  how_to_approach: There is no general application. Open requests for proposals are posted on two portals, submit.gatesfoundation.org
+    and the Grand Challenges site [2250]. The United States programme has its own funding opportunities page for requests
+    for information and requests for proposals; none was listed on 2026-10-04, and the page points to a newsletter for new
+    ones [2256].
+  cycle: No deadlines apply outside a posted request for proposals; the foundation says the time a grant takes 'varies depending
+    on the complexity of the investment' [2251].
+  typical_grant: No typical grant size or term is given on the pages read [2251] [2250].
+  indirect_costs: 'The indirect cost policy in force since February 1, 2017 sets maximum rates on budgeted total direct
+    costs: up to 10% for U.S. universities and community colleges, up to 15% for non-U.S. universities and for non-governmental
+    and non-profit organisations, 0% for government entities and 0–15% for for-profit entities [2257]. An organisation whose
+    actual rate is lower proposes its actual rate [2257].'
+  giving:
+  - amount: $8.47 billion
+    year: 2025
+    basis: total charitable support, as the foundation reports it
+    cite:
+    - 2254
+  - amount: $8,101,803,172
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2258
+  - amount: $5,971,000 thousand
+    year: 2025
+    basis: grants expense, consolidated statements of activities for the year ending December 31, 2025, audited, amounts
+      in thousands of dollars (added by slice D)
+    cite:
+    - 2484
+  - amount: $6,526,520 thousand
+    year: 2025
+    basis: grants paid, consolidated statements of cash flows, audited, amounts in thousands of dollars (added by slice
+      D)
+    cite:
+    - 2484
+  - amount: $8,144,856 thousand
+    year: 2025
+    basis: 'total expenses, audited: program expenses $7,696,990 thousand and management and general expenses $447,866 thousand
+      (added by slice D)'
+    cite:
+    - 2484
+  assets:
+    amount: $92 billion
+    year: 2026
+    basis: Foundation Trust endowment as of June 30, 2026, unaudited
+    cite:
+    - 2254
+  assets_filing:
+    amount: $78,673,465,696
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2258
+  assets_further:
+  - amount: $90,881,058 thousand
+    year: 2025
+    basis: total assets of the Gates Foundation at December 31, 2025, consolidated statements of financial position, audited
+      (added by slice D)
+    cite:
+    - 2484
+  - amount: $93,167,664 thousand
+    year: 2025
+    basis: total assets of the Gates Foundation Trust at December 31, 2025, audited (added by slice D)
+    cite:
+    - 2485
+  - amount: $78,908,947 thousand
+    year: 2024
+    basis: total assets of the Gates Foundation at December 31, 2024, audited (added by slice D)
+    cite:
+    - 2484
+  legal_form_note: Added by slice D. Note 1 of the 2025 audited statements says "The Foundation is organized as a charitable
+    trust" and that it is "classified as a private foundation under Section 509(a) of the Internal Revenue Code" [2484].
+    It is funded by grants from the Gates Foundation Trust, which manages the investment assets [2484]. In 2025 the trust
+    granted $5,287,000 thousand to the foundation [2485].
+  geography: United States and international; the United States programme works nationally and in Washington State [2255]
+    [2254].
+  programs: []
+  pending_changes:
+  - status: announced
+    date: '2025-05-08'
+    text: The foundation will spend more than $200 billion between 2025 and 2045 and close in 2045; the earlier plan was
+      to close 20 years after Bill Gates's death [2252].
+  - status: announced
+    date: '2026-01-14'
+    text: The 2026 payout is set at $9 billion. Operating expenses are capped at no more than $1.25 billion, and the headcount
+      target of 2,375 positions is to fall by up to 500 by 2030 [2329].
+  official_url: https://www.gatesfoundation.org/
+  grants_database_url: https://www.gatesfoundation.org/about/committed-grants
+  sources:
+  - 2250
+  - 2251
+  - 2255
+  - 2256
+  - 2257
+  - 2254
+  - 2253
+  - 2252
+  - 2329
+  - 2258
+  - 2330
+  - 2484
+  - 2485
+  - 2502
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: ford-foundation
+  name: Ford Foundation
+  foundation_kind: independent
+  ein: 13-1684331
+  what_it_funds: The foundation describes its grantmaking as fuelling social change and says it has dedicated $2 billion
+    of its budget 'to help strengthen social justice institutions' [2259]. Its president's statement of November 3, 2025
+    names democracy and the rule of law as the work to be intensified, in the United States and abroad [2334].
+  fields:
+  - social-justice
+  - democracy
+  - creativity-and-free-expression
+  - documentary-film
+  who_it_funds: Organisations that programme teams seek out; each programme has its own strategy and selection process [2260]
+    [2261]. The indirect cost rule distinguishes 501(c)(3) organisations from fiscally sponsored organisations, universities
+    and other entities [2332].
+  unsolicited: invitation-only
+  unsolicited_note: 'The foundation''s grants page says: ''We do not accept any unsolicited grant proposals by mail, email
+    or phone.'' The same page invites ideas ''through our short online form'' [2259].'
+  how_to_approach: An idea may be sent through the short online form on the grants page; it is not a proposal [2259]. Programme
+    teams then seek out organisations, review proposals and issue a grant letter on approval [2261]. Two application routes
+    are listed separately, JustFilms documentary grants and the New York City Good Neighbor Committee; both were closed
+    on 2026-10-04 [2260].
+  cycle: No deadlines are given for general grantmaking; the pages read state no response time for the idea form [2260].
+  typical_grant: No typical size is given. The foundation makes general operating support grants, often as multi-year commitments,
+    and time-bound project support grants [2261]. It reported in November 2022 that the share of its grantmaking made as
+    general or core support had gone from 36% to 81% [2333]. A BUILD grant is five years of general operating support with
+    organisational strengthening support, by invitation [2262].
+  indirect_costs: On project grants the minimum indirect cost rate is 25 percent from January 1, 2023; it was 20 percent
+    through 2022 [2332] [2333]. The rate does not apply to expedited grants, general operating and core support grants,
+    or grant increases [2332].
+  giving:
+  - amount: $1,053,492,085
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2263
+  - amount: $773,443 thousand
+    year: 2025
+    basis: grants approved, audited financial statements for the year ending December 31, 2025, amounts in thousands of
+      dollars (added by slice D)
+    cite:
+    - 2487
+  - amount: $854,322 thousand
+    year: 2025
+    basis: grant payments, statement of cash flows, audited, amounts in thousands of dollars (added by slice D)
+    cite:
+    - 2487
+  - amount: $1,026,655 thousand
+    year: 2025
+    basis: total expenditures, audited, amounts in thousands of dollars; $1,002,424 thousand in 2024 (added by slice D)
+    cite:
+    - 2487
+  assets:
+    amount: $17,484,692,219
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2263
+  assets_further:
+  - amount: $18,578,712 thousand
+    year: 2025
+    basis: total assets at December 31, 2025, audited (added by slice D)
+    cite:
+    - 2487
+  - amount: $17,484,692 thousand
+    year: 2024
+    basis: total assets at December 31, 2024, audited; it agrees with the filing figure (added by slice D)
+    cite:
+    - 2487
+  geography: United States and international [2334].
+  programs: []
+  pending_changes:
+  - status: final
+    date: '2025-11-03'
+    text: Heather Gerken took office as the foundation's 11th president, succeeding Darren Walker; her first statement announces
+      no change in budget, payout or application rules [2334].
+  official_url: https://www.fordfoundation.org/
+  grants_database_url: https://www.fordfoundation.org/work/our-grants/awarded-grants/grants-database/
+  sources:
+  - 2259
+  - 2260
+  - 2261
+  - 2262
+  - 2332
+  - 2333
+  - 2334
+  - 2263
+  - 2487
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: macarthur-foundation
+  name: John D. and Catherine T. MacArthur Foundation
+  foundation_kind: independent
+  ein: 23-7093598
+  what_it_funds: The foundation's page for grant seekers describes grants as 'generally long-term, strategic investments'
+    and names justice reform, climate, nuclear risk, journalism and Chicago among its areas [2264]. It also runs 100&Change,
+    a competition for one $100 million grant [2264] [2266].
+  fields:
+  - criminal-justice
+  - climate
+  - nuclear-risk
+  - journalism
+  - chicago
+  who_it_funds: Organisations. It does not fund scholarships or tuition assistance, grants to individuals other than MacArthur
+    Fellows (for which no applications are taken), annual fundraising drives, paid advertisements or political activities
+    [2264].
+  unsolicited: invitation-only
+  unsolicited_note: 'The page for grant seekers says: ''We generally do not fund unsolicited proposals''; it reviews those
+    that meet its guidelines [2264]. Added by slice D: the foundation''s general questions page says "Many areas of MacArthur
+    grantmaking do not accept unsolicited proposals." [2496].'
+  how_to_approach: The foundation asks grant seekers to read the guidelines for each area first [2264]. The open route is
+    100&Change, when a cycle is running [2266].
+  cycle: No deadlines apply outside competitions. 100&Change repeats every three years; the third cycle took applications
+    until September 5, 2024 [2264] [2266].
+  typical_grant: No typical size is given on the pages read [2264]. The indirect cost policy names general operating support
+    grants, flexible support project grants and an expedited small grants programme among its grant types [2265].
+  indirect_costs: Project grants to non-profit organisations carry indirect cost recovery of 29 percent, applied to project
+    costs [2265]. The rate does not apply to general operating support, endowment grants, flexible support project grants
+    or the expedited small grants programme [2265]. The policy took effect January 1, 2020 and was last updated October
+    3, 2024 [2265].
+  giving:
+  - amount: $561.6 million
+    year: 2025
+    basis: grants and impact investments paid
+    cite:
+    - 2267
+  - amount: $647 million
+    year: 2025
+    basis: charitable spending, estimated; a payout rate of 7.1 percent
+    cite:
+    - 2327
+  - amount: $423,815,311
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2268
+  assets:
+    amount: $9,311,570,852
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2268
+  assets_further:
+  - amount: roughly $9.9 billion
+    year: 2025
+    basis: assets as of December 31, 2025, as the foundation states on its questions page (added by slice D)
+    cite:
+    - 2496
+  - amount: $9.2 billion
+    year: 2024
+    basis: assets as of December 31, 2024, as the foundation states on its investments page (added by slice D)
+    cite:
+    - 2495
+  how_it_decides: Added by slice D. The foundation says that, drawing on its staff and experts in the field, "we formulate
+    specific strategies that guide decisions about how and where our funding can have significant impact" [2496].
+  geography: Chicago is named among its areas of work; the page read states no geographic limit [2264].
+  programs:
+  - macarthur-100-and-change
+  pending_changes:
+  - status: announced
+    date: '2026-09-02'
+    text: The 6 percent payout commitment, first made for 2025 and 2026, is extended through 2028; the foundation intends
+      then to revert to a target payout of 5.25 percent [2328] [2326].
+  official_url: https://www.macfound.org/
+  sources:
+  - 2264
+  - 2265
+  - 2266
+  - 2267
+  - 2326
+  - 2327
+  - 2328
+  - 2268
+  - 2496
+  - 2495
+  grants_database_url: https://www.macfound.org/grants/
+  grants_database_note: Added by slice D. The questions page gives https://www.macfound.org/grants/ as the grant search
+    [2496]. That address returned a redirect loop to slice B and was not opened again.
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: kellogg-foundation
+  name: W. K. Kellogg Foundation
+  foundation_kind: independent
+  ein: 38-1359264
+  what_it_funds: 'The foundation''s grants list is organised by five focus areas: Early Care and Education, Food Systems,
+    Health and Health Equity, Jobs and Family Economic Security, and Promise of an Equitable Future [2346].'
+  fields:
+  - early-childhood
+  - food-systems
+  - health
+  - family-economic-security
+  - racial-equity
+  who_it_funds: Organisations. It does not fund 'individuals, capital investments, political parties or candidates' [2269].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: 'The page for grant seekers says: ''Our application process is always open. In general, we don''t have
+    specific grantmaking cycles or deadlines.'' [2269].'
+  how_to_approach: The applicant registers in the foundation's Fluxx portal and submits a letter of inquiry describing the
+    request; a decision comes within 30 business days; if invited, the applicant submits a formal proposal, which is reviewed
+    within 60 business days [2269].
+  cycle: Rolling; no deadlines [2269].
+  typical_grant: No typical size is stated. Grants shown in the foundation's list on 2026-10-04 ranged from $10,000 to $450,000,
+    some running three years [2346].
+  giving:
+  - amount: $408 million
+    year: 2024
+    basis: estimated distributions for charitable purposes, fiscal year ending August 31, 2024
+    cite:
+    - 2345
+  - amount: $262 million
+    year: 2024
+    basis: new grant commitments, fiscal year ending August 31, 2024
+    cite:
+    - 2345
+  - amount: $414,713,836
+    year: 2025
+    basis: charitable disbursements (Form 990-PF, fiscal year ending August 31, 2025)
+    cite:
+    - 2270
+  - amount: $314,909,604
+    year: 2025
+    basis: grants expense, combined financial statements of the foundation and its trust, fiscal year ending August 31,
+      2025, audited; $259,392,912 the year before (added by slice D)
+    cite:
+    - 2494
+  - amount: $444,951,301
+    year: 2025
+    basis: total expenses, combined financial statements of the foundation and its trust, fiscal year ending August 31,
+      2025, audited (added by slice D)
+    cite:
+    - 2494
+  assets:
+    amount: $9.4 billion
+    year: 2024
+    basis: combined investment portfolios of the foundation and its trust, fiscal year ending August 31, 2024
+    cite:
+    - 2345
+  assets_filing:
+    amount: $480,985,681
+    year: 2025
+    basis: total assets (Form 990-PF, fiscal year ending August 31, 2025)
+    cite:
+    - 2270
+  assets_further:
+  - amount: $9,667,630,186
+    year: 2025
+    basis: total assets of the foundation and its trust combined at August 31, 2025, audited; $9,424,568,119 at August 31,
+      2024 (added by slice D)
+    cite:
+    - 2494
+  trust_note: Added by slice D. The W.K. Kellogg Foundation Trust distributed $420,000,000 to the foundation in the fiscal
+    year ending August 31, 2025 and $358,000,000 the year before [2494]. The foundation's financials page links the trust's
+    own Form 990-PF, which was not read [2493].
+  geography: Priority places are Michigan, Mississippi, New Mexico and New Orleans in the United States, Chiapas and the
+    Yucatán Peninsula in Mexico, and central and southwest Haiti [2269]. In the fiscal year ending August 31, 2024, 58 percent
+    of new commitments benefited the priority places [2345].
+  programs: []
+  pending_changes: []
+  official_url: https://www.wkkf.org/
+  grants_database_url: https://www.wkkf.org/awarded-grants/
+  sources:
+  - 2269
+  - 2346
+  - 2345
+  - 2270
+  - 2494
+  - 2493
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: robert-wood-johnson-foundation
+  name: Robert Wood Johnson Foundation
+  foundation_kind: independent
+  ein: 22-6029397
+  what_it_funds: 'The foundation says it ''funds research and initiatives focused on achieving health equity'' and lists
+    seven areas: community development, economic inclusion for families, government, health science knowledge, healthcare,
+    media and public health [2335].'
+  fields:
+  - health
+  - health-equity
+  - public-health
+  - health-policy-research
+  who_it_funds: Its open call for ideas says most funding goes to non-profit organisations and public agencies, with less
+    than 1 percent historically to for-profit companies [2336]. Its research calls prefer higher education institutions,
+    public entities and 501(c)(3) non-profits based in the United States [2338] [2337].
+  unsolicited: open-call-only
+  unsolicited_note: 'The grant process page names four routes: a ''Competitive call for proposals which defines the challenge'',
+    open calls for ideas, challenges and prize competitions, and direct solicitations for projects [2271]. The pages read
+    carry no separate statement on unsolicited proposals [2335].'
+  how_to_approach: Open calls are posted on the active funding opportunities page, and each names a programme officer contact
+    [2335] [2271]. Applications go through the foundation's online system, with registration at my.rwjf.org [2336]. The
+    standing open call for ideas is Exploring Equitable Futures [2336].
+  cycle: Each call sets its own deadline; the Exploring Equitable Futures call closes each year on or about October 15 and
+    reopens on or about February 1 [2336].
+  typical_grant: No foundation-wide figure is given. Exploring Equitable Futures awards in 2023 were typically $250,000
+    to $500,000 over two to three years [2336]; the 2025 rapid response research awards were $50,000 to $200,000 for up
+    to 24 months [2337].
+  indirect_costs: 'The allowable indirect rate ''varies by type of organization'' under the foundation''s indirect cost
+    policy [2336]. The policy document itself could not be fetched, so the rates are not recorded here [2336]. Added by
+    slice D: the question-and-answer sheet of a 2026 call states the rates as 0% for for-profit organisations, 15% for U.S.
+    colleges and universities and hospital or health systems, including non-profit ones, and 30% for non-profits [2490].
+    A fiscal sponsor''s fee is to come from the indirect cost portion of the grant, and indirect rates go only to the organisation
+    applying [2490].'
+  giving:
+  - amount: $791,042,244
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2272
+  assets:
+    amount: $13,417,636,452
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2272
+  financials_note: Added by slice D. The foundation lists its audited statements for 2022 to 2025 and its Forms 990-PF for
+    2022 to 2024 on its financials page [2489]. The documents sit in a folder that the site's robots.txt disallows and were
+    not read, so no figure from the foundation's own statements is recorded [2489].
+  geography: United States [2337] [2338].
+  programs:
+  - rwjf-exploring-equitable-futures
+  - rwjf-e4a-rapid-response-research
+  pending_changes: []
+  official_url: https://www.rwjf.org/
+  grants_database_url: https://www.rwjf.org/en/grants/awarded-grants.html
+  sources:
+  - 2335
+  - 2271
+  - 2336
+  - 2337
+  - 2338
+  - 2272
+  - 2490
+  - 2489
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: kresge-foundation
+  name: The Kresge Foundation
+  foundation_kind: independent
+  ein: 38-1359217
+  what_it_funds: The foundation says it 'Works to expand opportunity in America's cities through grantmaking and social
+    investing.' Its programmes are American Cities, Arts & Culture, Detroit, Education, Environment, Health, Human Services
+    and Social Investment Practice [2370]. Each programme team sets its own eligibility rules [2273].
+  fields:
+  - cities
+  - arts
+  - detroit
+  - education
+  - environment
+  - health
+  - human-services
+  - social-investment
+  who_it_funds: Organisations that comply with non-discrimination law, do not require membership of a religion and do not
+    operate for the benefit of a for-profit entity; some programmes set a minimum organisational budget, and exclusions
+    vary by programme [2273].
+  unsolicited: invitation-only
+  unsolicited_note: The how-to-apply page says programme teams 'Most often proactively invite or solicit applications from
+    individual organizations. Occasionally, program teams will do an open call.' [2273].
+  how_to_approach: An organisation introduces itself through the contact form at kresge.org/contact/, choosing the type
+    of inquiry; the foundation aims to respond within three business days [2348]. Invited applications and open calls go
+    through the Fluxx portal at kresge.fluxx.io [2273]. Open calls are posted on the current funding opportunities page;
+    none was open on 2026-10-04 [2274].
+  cycle: No standing deadlines; an open call sets its own [2273] [2274].
+  typical_grant: No typical size is stated; 570 new grants totalling $177.8 million were awarded in 2025 [2347].
+  giving:
+  - amount: $177.8 million
+    year: 2025
+    basis: new grants awarded, 570 awards
+    cite:
+    - 2347
+  - amount: $207,194,380
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2275
+  assets:
+    amount: $3,984,695,361
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2275
+  geography: Cities in the United States, with a programme for Detroit [2370].
+  programs: []
+  pending_changes: []
+  official_url: https://kresge.org/
+  grants_database_url: https://kresge.org/grants-social-investments/grants-awarded/
+  sources:
+  - 2273
+  - 2348
+  - 2274
+  - 2347
+  - 2275
+  - 2370
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: lilly-endowment
+  name: Lilly Endowment Inc.
+  foundation_kind: independent
+  ein: 35-0868122
+  what_it_funds: The Endowment funds 'Community development, education and religion' and keeps 'a special commitment to
+    our founders' hometown, Indianapolis, and home state, Indiana' [2276].
+  fields:
+  - community-development
+  - education
+  - higher-education
+  - religion
+  - indiana
+  who_it_funds: Charitable organisations. It does not fund loans or cash grants to individuals, pre-existing debts, healthcare,
+    most mass media, endowments or endowed chairs, or public libraries outside Marion County [2277]. From organisations
+    outside Indianapolis it generally does not fund building campaigns, K-12 education, arts, human services or neighbourhood
+    development, except in special initiatives [2277].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: 'The guidelines ask for ''a preliminary letter of no more than two pages'' sent by mail, and say: ''We
+    do not accept unsolicited requests through our website''s Contact Us form.'' [2277]. National programmes and certain
+    initiatives are considered by invitation [2277].'
+  how_to_approach: The first step is a preliminary letter of no more than two pages, sent by regular or overnight mail;
+    the Endowment answers every letter in writing [2277]. Initiatives open for application are listed separately; three
+    were listed on 2026-10-04, all in religion [2278].
+  cycle: Review generally takes three to six months; the board meets in March, June, September, November and December [2277].
+  typical_grant: No typical size is stated; the Endowment says it 'can only fund a small percentage of the grant proposals
+    we receive each year' [2277].
+  giving:
+  - amount: $3,887,876,303
+    year: 2025
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2025)
+    cite:
+    - 2279
+  - amount: $3.85 billion
+    year: 2025
+    basis: 'grants paid, as the Endowment reports them in its 2025 annual report (added by slice D); by division: Education
+      $1.36 billion, Religion $1.29 billion, Community Development $1.20 billion; $2.27 billion (59 percent) supported charitable
+      efforts in Indiana'
+    cite:
+    - 2483
+  - amount: $3.58 billion
+    year: 2025
+    basis: 'grants approved: 1,739 grants, as the Endowment reports them in its 2025 annual report (added by slice D)'
+    cite:
+    - 2483
+  - amount: $2,260,591,222
+    year: 2024
+    basis: contributions, gifts, grants paid (Form 990-PF, Part I, line 25, read from the e-filed return for the year ending
+      December 31, 2024; added by slice D); total disbursements for charitable purposes on line 26 were $2,280,983,099
+    cite:
+    - 2511
+  assets:
+    amount: $105,894,116,636
+    year: 2025
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2025)
+    cite:
+    - 2279
+  assets_further:
+  - amount: $105,891,794,276
+    year: 2025
+    basis: total assets at December 31, 2025, from the financial statements in the 2025 annual report, which also says assets
+      "totaled nearly $106 billion" (added by slice D)
+    cite:
+    - 2483
+  - amount: $79,907,328,537
+    year: 2024
+    basis: total assets, book value (Form 990-PF, read from the e-filed return for the year ending December 31, 2024; added
+      by slice D); fair market value $79,917,437,633
+    cite:
+    - 2511
+  filing_part_xiv: Added by slice D. On its Form 990-PF for 2024 the Endowment did not check the Part XIV, line 2 box for
+    giving only to preselected organisations, and it filled in the application information, naming "PROGRAM OFFICE" as the
+    contact [2511].
+  geography: Indianapolis and Indiana have priority, especially for community development and K-12 education; higher education
+    and religion grantmaking reach nationally [2277].
+  programs: []
+  pending_changes: []
+  official_url: https://lillyendowment.org/
+  grants_database_url: https://lillyendowment.org/news-and-insights/recent-grants/
+  sources:
+  - 2276
+  - 2277
+  - 2278
+  - 2279
+  - 2483
+  - 2482
+  - 2511
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: hewlett-foundation
+  name: William and Flora Hewlett Foundation
+  foundation_kind: independent
+  ein: 94-1655673
+  what_it_funds: 'The foundation says it ''invests in creative thinkers and problem solvers'' and names nine programmes:
+    Education, Environment, Performing Arts, Gender Equity and Governance, U.S. Democracy, Effective Philanthropy, Economy
+    and Society, Racial Justice and Special Projects [2366]. It makes grants globally and says most go to organisations
+    it identifies itself [2280].'
+  fields:
+  - education
+  - environment
+  - performing-arts
+  - gender-equity
+  - democracy
+  - philanthropy
+  - economy-and-society
+  - racial-justice
+  who_it_funds: Organisations. It does not fund individuals, scholarships, unincorporated groups, political candidates or
+    political action committees [2280].
+  unsolicited: invitation-only
+  unsolicited_note: The grantmaking FAQ says the foundation 'Generally does not accept unsolicited letters of inquiry',
+    apart from occasional open calls such as its Arts Commissions [2280].
+  how_to_approach: No route for an uninvited request is given; open calls, when held, are the exception [2280].
+  cycle: Grants are listed in the public database after board approval; no deadlines are given [2281].
+  typical_grant: No typical size is stated. The foundation 'Provides long-term, general operating support whenever possible'
+    [2280].
+  indirect_costs: The foundation uses no fixed minimum or maximum indirect rate; it expects a project budget to show the
+    grantee's actual indirect costs [2280].
+  giving:
+  - amount: $689,557,086
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2282
+  - amount: $631 million
+    year: 2024
+    basis: grants awarded, as the foundation reports them on its About page, nearly three-fourths as flexible funding (added
+      by slice D)
+    cite:
+    - 2488
+  assets:
+    amount: $14,202,751,280
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2282
+  assets_further:
+  - amount: approximately $13.9 billion
+    year: 2024
+    basis: assets as of December 31, 2024, as the foundation reports them on its About page (added by slice D)
+    cite:
+    - 2488
+  geography: Global [2280].
+  programs: []
+  pending_changes: []
+  official_url: https://hewlett.org/
+  grants_database_url: https://hewlett.org/grants/
+  sources:
+  - 2280
+  - 2281
+  - 2282
+  - 2366
+  - 2488
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: bloomberg-philanthropies
+  name: Bloomberg Philanthropies
+  foundation_kind: family
+  ein: 20-5602483
+  legal_form_note: 'Bloomberg Philanthropies says it ''encompasses'' Michael Bloomberg''s foundation, corporate and personal
+    philanthropy and Bloomberg Associates, a pro bono consultancy [2285]. The private foundation among them files Form 990-PF
+    as Bloomberg Family Foundation Inc.; the EIN given here is that foundation''s [2287]. Added by slice D: the website''s
+    terms of use, dated July 6, 2020, name "Bloomberg Philanthropies Support LLC" and "the Bloomberg Family Foundation,
+    Inc." as the entities that operate the site, and state no tax status [2512].'
+  what_it_funds: 'Five areas: the arts, education, environment, government innovation and public health [2285].'
+  fields:
+  - arts
+  - education
+  - environment
+  - government-innovation
+  - public-health
+  who_it_funds: Existing partners on its own initiatives; it 'does not make grants outside our focus areas or directly to
+    individuals' [2286].
+  unsolicited: invitation-only
+  unsolicited_note: 'The contact page says: ''Grant proposals are by invitation only and news on grants competitions are
+    posted regularly on our website.'' [2286].'
+  how_to_approach: There is no application route apart from grant competitions, which are announced on the website [2286].
+  cycle: Set by each competition [2286].
+  typical_grant: Not stated on the pages read [2285] [2286].
+  giving:
+  - amount: $4.3 billion
+    year: 2025
+    basis: invested by Bloomberg Philanthropies as a whole, including corporate and personal giving
+    cite:
+    - 2285
+  - amount: $1,473,990,509
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2287
+  assets:
+    amount: $12,117,236,821
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2287
+  geography: United States and international [2285].
+  programs: []
+  pending_changes: []
+  official_url: https://www.bloomberg.org/
+  sources:
+  - 2285
+  - 2286
+  - 2287
+  - 2512
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: walton-family-foundation
+  name: Walton Family Foundation
+  foundation_kind: family
+  ein: 13-3441466
+  what_it_funds: The foundation describes its work as 'Strengthening the connections between education and lifelong opportunity',
+    protecting rivers, oceans and the communities they support, and advancing its home region [2351].
+  fields:
+  - education
+  - k-12
+  - environment
+  - oceans-and-rivers
+  - arkansas
+  who_it_funds: Organisations the foundation selects; the pages read list no exclusions [2288] [2352].
+  unsolicited: invitation-only
+  unsolicited_note: 'The grants page says: ''The foundation does not accept unsolicited proposals.'' [2288]. The FAQ repeats
+    it [2352].'
+  how_to_approach: No route for an uninvited request is given [2288] [2352].
+  cycle: Not stated [2288].
+  typical_grant: Not stated on the pages read [2288] [2352].
+  giving:
+  - amount: $548.8 million
+    year: 2024
+    basis: grants distributed, as the foundation reports them
+    cite:
+    - 2351
+  - amount: $603,519,475
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2289
+  assets:
+    amount: $6,143,971,109
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2289
+  geography: National for education and environment; the home region is Northwest Arkansas and the Arkansas-Mississippi
+    Delta [2351].
+  programs: []
+  pending_changes:
+  - status: announced
+    date: '2026-05-06'
+    text: Home Region Strategy 2030 covers 2026 to 2030 in Northwest Arkansas and the Arkansas-Mississippi Delta; the announcement
+      gives no dollar figure and no application route [2353].
+  official_url: https://www.waltonfamilyfoundation.org/
+  grants_database_url: https://www.waltonfamilyfoundation.org/grants-database
+  sources:
+  - 2288
+  - 2352
+  - 2351
+  - 2353
+  - 2289
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: rockefeller-foundation
+  name: The Rockefeller Foundation
+  foundation_kind: independent
+  ein: 13-1659629
+  what_it_funds: The foundation gives its mission as to 'Promote the well-being of humanity and make opportunity universal
+    and sustainable.' Its home page names Health, Food, Power, American Jobs, Innovation and Innovative Finance as areas
+    of work [2368].
+  fields:
+  - health
+  - food
+  - energy
+  - jobs
+  - innovation
+  - innovative-finance
+  who_it_funds: Organisations the foundation selects [2290].
+  unsolicited: invitation-only
+  unsolicited_note: 'The grants page says: ''The Rockefeller Foundation does not accept unsolicited grants proposals.''
+    [2290].'
+  how_to_approach: No route for an uninvited request is given [2290].
+  cycle: Not stated [2290].
+  typical_grant: Not stated on the page read [2290].
+  giving:
+  - amount: $380,348,831
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2291
+  assets:
+    amount: $6,401,585,166
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2291
+  geography: Not stated on the page read [2290].
+  programs: []
+  pending_changes: []
+  official_url: https://www.rockefellerfoundation.org/
+  grants_database_url: https://www.rockefellerfoundation.org/our-grants/
+  where_it_posts: A search tool lists active and past grants for the last five years; complete lists are in the foundation's
+    Forms 990-PF [2290].
+  sources:
+  - 2290
+  - 2291
+  - 2368
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: open-society-foundations
+  name: Open Society Foundations
+  foundation_kind: independent
+  ein: 26-3753801
+  legal_form_note: 'Open Society Foundations is the name of a network. Two private foundations in it were found filing Form
+    990-PF: Foundation to Promote Open Society (EIN 26-3753801) and Open Society Institute (EIN 13-7029285) [2294] [2295].
+    Which entity makes a given grant is not stated on the pages read [2293]. Added by slice D: the website''s terms, dated
+    May 29, 2019, say the names "Open Society Foundations" and "Open Society Institute" are trade marks of the Open Society
+    Institute, and give no legal form [2507]. The Who We Are page speaks of "The Open Society Foundations, founded by George
+    Soros" and names no legal entity [2506].'
+  what_it_funds: 'Open Society says it gives grants ''to groups and individuals that work on the issues we care about: promoting
+    democratic practice, advancing rights and human dignity'' [2293]. A $300 million United States initiative announced
+    May 20, 2026 names civil liberties and the rule of law, and civil rights and economic opportunity [2356].'
+  fields:
+  - democracy
+  - human-rights
+  - civil-liberties
+  - economic-justice
+  who_it_funds: Formally established organisations anywhere; informal groups may come through a fiscal sponsor or intermediary;
+    individuals mainly through fellowships [2357]. In most cases it will not provide more than one-third of an organisation's
+    budget [2293].
+  unsolicited: invitation-only
+  unsolicited_note: 'The grants page says: ''The vast majority of our grants are awarded to organizations that we approach
+    directly, but we do list some open opportunities below.'' [2292]. The FAQ says the route varies by programme: requests
+    for proposals, invited letters of inquiry, or invitation only [2357].'
+  how_to_approach: Open opportunities are listed on the grants page; the only one listed on 2026-10-04 was the Open Society
+    Fellowship, with its deadline passed [2292]. Other opportunities come through the network's national and regional foundations
+    [2292].
+  cycle: Set by each programme or call [2357].
+  typical_grant: No size is stated. Support ranges from project grants to general operating support 'that cover the day-to-day
+    costs of operations' [2293].
+  giving:
+  - amount: $503,984,141
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2294
+  - amount: $266,781,131
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2295
+  - amount: $1.2B
+    year: 2024
+    basis: total 2024 expenditures of the Open Society Foundations as a whole, as the network reports them; it gives "$24.2B
+      Expenditures to date" (added by slice D)
+    cite:
+    - 2492
+  assets:
+    amount: $10,843,807,551
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2294
+  assets_second_entity:
+    amount: $5,403,306,305
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2295
+  geography: International; grantees in more than 100 countries in 2023 [2293].
+  programs: []
+  pending_changes:
+  - status: announced
+    date: '2026-05-20'
+    text: A $300 million initiative for the United States was announced; the announcement states no period and no application
+      route [2356].
+  official_url: https://www.opensocietyfoundations.org/
+  grants_database_url: https://www.opensocietyfoundations.org/grants/past
+  sources:
+  - 2292
+  - 2293
+  - 2357
+  - 2356
+  - 2294
+  - 2295
+  - 2492
+  - 2507
+  - 2506
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: knight-foundation
+  name: John S. and James L. Knight Foundation
+  foundation_kind: independent
+  ein: 65-0464177
+  what_it_funds: 'Four programmes: Journalism, Arts, Information & Society, and Community Impact [2296]. Community funding
+    is tied to 26 communities ''where John S. and James L. Knight once owned and operated newspapers'' [2296].'
+  fields:
+  - journalism
+  - arts
+  - information-and-society
+  - community-development
+  who_it_funds: Organisations, and in the Knight Cities Challenge also individuals, in the 26 Knight communities [2355].
+    The pages read list no exclusions [2296].
+  unsolicited: open-call-only
+  unsolicited_note: The foundation has no always-open application; it says funding 'typically emerges through relationships,
+    research and ongoing work', and that open calls are issued for specific objectives [2296].
+  how_to_approach: Open calls are posted on the website when issued [2296]. The Knight Cities Challenge took applications
+    through kf.submittable.com from April 1 to April 30, 2026, with an information session and office hours [2355].
+  cycle: Set by each open call [2296].
+  typical_grant: No typical size is stated; Knight Cities Challenge projects receive up to $200,000 [2355].
+  giving:
+  - amount: $179,620,479
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2297
+  assets:
+    amount: $2,533,415,674
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2297
+  geography: National for journalism, arts and information programmes; community funding in the 26 Knight communities [2296].
+  programs:
+  - knight-cities-challenge
+  pending_changes: []
+  official_url: https://knightfoundation.org/
+  sources:
+  - 2296
+  - 2355
+  - 2354
+  - 2297
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: mott-foundation
+  name: Charles Stewart Mott Foundation
+  foundation_kind: independent
+  ein: 38-1211227
+  what_it_funds: 'Four programme areas: Civil Society, Environment, Flint Area and Youth Engagement, with Exploratory and
+    Special Projects by invitation [2298].'
+  fields:
+  - civil-society
+  - environment
+  - flint-michigan
+  - youth
+  who_it_funds: Organisations invited by the foundation; the page read lists no exclusions [2298].
+  unsolicited: invitation-only
+  unsolicited_note: 'The page for grant seekers says: ''As of January 2025, the Foundation does not accept unsolicited letters
+    of inquiry or proposals.'' [2298].'
+  how_to_approach: No route for an uninvited request is given; the foundation cites long-term commitments to existing grantees
+    and limited funds for new work [2298].
+  cycle: Not stated [2298].
+  typical_grant: Not stated on the page read [2298].
+  giving:
+  - amount: $188,225,136
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2299
+  assets:
+    amount: $3,769,795,383
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2299
+  geography: The Flint area in Michigan is one of four programme areas; the page read does not state the reach of the others
+    [2298].
+  programs: []
+  pending_changes:
+  - status: final
+    date: 2025-01
+    text: Since January 2025 the foundation has not accepted unsolicited letters of inquiry or proposals [2298].
+  official_url: https://www.mott.org/
+  grants_database_url: https://www.mott.org/grants/
+  sources:
+  - 2298
+  - 2299
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: annie-e-casey-foundation
+  name: The Annie E. Casey Foundation
+  foundation_kind: independent
+  ein: 52-1951681
+  what_it_funds: The foundation describes itself as 'devoted to developing a brighter future for millions of children and
+    young people'. Its areas of work include Child Welfare, Community Change, Economic Opportunity, Juvenile Justice, KIDS
+    COUNT and Policy Reform, and Leadership Development [2369].
+  fields:
+  - children-and-families
+  - child-welfare
+  - juvenile-justice
+  - economic-opportunity
+  - community-change
+  who_it_funds: Organisations in the United States that staff identify and invite; it does 'not fund projects outside the
+    United States, lobbying and political campaigning', and makes no grants to individuals or families [2300].
+  unsolicited: invitation-only
+  unsolicited_note: 'The grant making page says: ''The Casey Foundation does not accept or review unsolicited proposals.''
+    [2300].'
+  how_to_approach: Staff identify organisations and invite proposals; open calls are rare [2300].
+  cycle: Not stated [2300].
+  typical_grant: In 2025 nearly $128.9 million was awarded in more than 1,526 grants to about 1,085 organisations [2300].
+  giving:
+  - amount: $128.9 million
+    year: 2025
+    basis: grants awarded, as the foundation reports them
+    cite:
+    - 2300
+  - amount: $168,562,826
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2301
+  assets:
+    amount: $2,287,152,244
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2301
+  geography: United States only [2300].
+  programs: []
+  pending_changes: []
+  official_url: https://www.aecf.org/
+  grants_database_url: https://aecf.insight.foundationcenter.org
+  sources:
+  - 2300
+  - 2301
+  - 2369
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: hilton-foundation
+  name: Conrad N. Hilton Foundation
+  foundation_kind: independent
+  ein: 94-3100217
+  what_it_funds: 'Seven areas: Foster Youth, Refugees, Catholic Sisters, Safe Water, Global Early Childhood Development,
+    Homelessness and Opportunity Youth [2302]. It also awards the Conrad N. Hilton Humanitarian Prize, $3 million each year
+    [2302].'
+  fields:
+  - foster-youth
+  - homelessness
+  - refugees
+  - safe-water
+  - early-childhood
+  - opportunity-youth
+  - catholic-sisters
+  who_it_funds: Organisations with 501(c)(3) status for most programmes; no grants to individuals [2343].
+  unsolicited: invitation-only
+  unsolicited_note: 'The grants page says: ''We do not accept unsolicited proposals.'' [2302]. The one exception is the
+    Good Neighbor Program for non-profits in the Conejo Valley, California [2343].'
+  how_to_approach: No route for an uninvited request is given outside the Good Neighbor Program [2343].
+  cycle: Grant approvals by the board are announced by quarter [2344].
+  typical_grant: No typical size is stated for programme grants; Good Neighbor grants are general operating support at a
+    fixed $10,000, or $5,000 for Title 1 schools [2343].
+  giving:
+  - amount: over $300 million
+    year: 2025
+    basis: grants paid, as the foundation reports them
+    cite:
+    - 2344
+  - amount: $336,794,890
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2303
+  assets:
+    amount: $7,362,883,680
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2303
+  geography: Not stated as a rule on the pages read; its areas include refugees, safe water and global early childhood development,
+    and one local programme serves the Conejo Valley, California [2302] [2343].
+  programs: []
+  pending_changes: []
+  official_url: https://www.hiltonfoundation.org/
+  grants_database_url: https://www.hiltonfoundation.org/grants/
+  sources:
+  - 2302
+  - 2343
+  - 2344
+  - 2303
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: wallace-foundation
+  name: The Wallace Foundation
+  foundation_kind: independent
+  ein: 13-6183757
+  what_it_funds: Focus areas named on its grant process page include afterschool, arts and arts education, school leadership,
+    social and emotional learning and summer learning [2304].
+  fields:
+  - education-leadership
+  - youth-development
+  - arts
+  - afterschool
+  - summer-learning
+  who_it_funds: Organisations the foundation identifies and invites, chosen for how they would help answer the questions
+    the foundation is studying [2304].
+  unsolicited: invitation-only
+  unsolicited_note: 'The grant process page says: ''We do not fund over-the-transom requests for grants.'' [2304].'
+  how_to_approach: 'The foundation identifies organisations and invites proposals; it sometimes runs open calls, posted
+    on its requests-for-proposals page [2304]. That page said on 2026-10-04: ''There are currently no RFP''s available.''
+    [2349].'
+  cycle: Set by each request for proposals [2349].
+  typical_grant: Not stated on the pages read [2304].
+  giving:
+  - amount: $78,894,071
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2305
+  assets:
+    amount: $1,756,582,199
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2305
+  geography: Not stated on the pages read [2304].
+  programs: []
+  pending_changes:
+  - status: final
+    date: '2025-09-01'
+    text: Jean S. Desravines became president on September 1, 2025, succeeding Will Miller; the announcement states no change
+      in grantmaking [2350].
+  official_url: https://wallacefoundation.org/
+  grants_database_url: https://wallacefoundation.org/grantees
+  sources:
+  - 2304
+  - 2349
+  - 2350
+  - 2305
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: surdna-foundation
+  name: Surdna Foundation
+  foundation_kind: independent
+  ein: 13-6108163
+  what_it_funds: 'Four areas, which the foundation frames around racial justice: Inclusive Economies, Sustainable Environments,
+    Thriving Cultures, and the Andrus Family Fund [2307] [2306].'
+  fields:
+  - racial-justice
+  - inclusive-economies
+  - environment
+  - arts-and-culture
+  who_it_funds: Organisations with which staff have built a relationship; the pages read list no exclusions [2307].
+  unsolicited: invitation-only
+  unsolicited_note: 'The page for prospective grantees says: ''We do not accept unsolicited letters of inquiry.'' [2307].'
+  how_to_approach: Staff build relationships with organisations in the foundation's fields; an invitation to apply may follow
+    [2307].
+  cycle: Not stated [2307].
+  typical_grant: Grants in the foundation's listing range from $10,000 to $1,500,000 over 12 to 36 months, as general operating,
+    project or programme support [2306].
+  giving:
+  - amount: $68,762,258
+    year: 2025
+    basis: charitable disbursements (Form 990-PF, fiscal year ending June 30, 2025)
+    cite:
+    - 2308
+  assets:
+    amount: $1,231,171,978
+    year: 2025
+    basis: total assets (Form 990-PF, fiscal year ending June 30, 2025)
+    cite:
+    - 2308
+  geography: Not stated on the pages read [2307].
+  programs: []
+  pending_changes: []
+  official_url: https://surdna.org/
+  grants_database_url: https://surdna.org/grants-database/
+  sources:
+  - 2307
+  - 2306
+  - 2308
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: duke-endowment
+  name: The Duke Endowment
+  foundation_kind: independent
+  ein: 56-0529965
+  what_it_funds: 'A regional funder with four programme areas: Child & Family Well-Being, Health Care, Higher Education
+    and Rural Church [2309].'
+  fields:
+  - child-welfare
+  - health-care
+  - higher-education
+  - rural-churches
+  - north-carolina
+  - south-carolina
+  who_it_funds: 'Select organisations in North Carolina and South Carolina [2309]. Health care: not-for-profit hospitals,
+    academic health centres, area health education centres and select organisations in underserved counties [2363]. Child
+    and family: accredited organisations and other non-profit groups serving children and families who have experienced
+    or are at risk of child maltreatment [2310]. Higher education: Davidson College, Duke University, Furman University
+    and Johnson C. Smith University only [2362].'
+  unsolicited: accepted
+  unsolicited_note: Eligible organisations in the two states apply by pre-application; the Endowment says grants must serve
+    residents of North Carolina and South Carolina under its founding trust document [2310].
+  how_to_approach: A pre-application is submitted in the online portal, which opens six weeks before the deadline; an approved
+    applicant then submits a full application in the Blackbaud grantee portal [2310]. The four eligible schools work through
+    their own grants offices [2362].
+  cycle: Child & Family Well-Being pre-applications are due June 15 and December 15 [2310]. Health Care pre-applications
+    are due May 15 and November 15, and full applications June 15 and December 15 [2363]. Trustees typically consider requests
+    from the four schools two to three times a year [2362].
+  typical_grant: In 2025 the Endowment distributed $245 million through 397 grants and approved $374 million in new grants
+    [2309].
+  giving:
+  - amount: $245 million
+    year: 2025
+    basis: grants distributed, 397 grants
+    cite:
+    - 2309
+  - amount: $276,183,294
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2311
+  assets:
+    amount: $5.4 billion
+    year: 2025
+    basis: assets as of December 31, 2025, as the Endowment reports them
+    cite:
+    - 2309
+  assets_filing:
+    amount: $3,567,263,777
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2311
+  geography: North Carolina and South Carolina only [2309] [2310].
+  programs: []
+  pending_changes: []
+  official_url: https://www.dukeendowment.org/
+  sources:
+  - 2309
+  - 2310
+  - 2363
+  - 2362
+  - 2311
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: woodruff-foundation
+  name: Robert W. Woodruff Foundation
+  foundation_kind: independent
+  ein: 58-1695425
+  what_it_funds: 'A regional funder: ''We seek to improve the quality of life in metro Atlanta and Georgia by investing
+    in transformational, lasting solutions to community needs.'' It names six areas: arts and culture, education, health,
+    community development, environment and human services [2312].'
+  fields:
+  - georgia
+  - atlanta
+  - arts
+  - education
+  - health
+  - community-development
+  - environment
+  - human-services
+  who_it_funds: Organisations located or operating in Georgia [2313]. It does not fund 'Individuals, churches, conferences,
+    debt relief, fundraising events, professional associations, sponsorships or startups.' [2313].
+  unsolicited: accepted
+  unsolicited_note: Applications are taken twice a year; the foundation asks first for 'an informal inquiry' by email to
+    learn whether to apply [2313].
+  how_to_approach: The applicant emails an informal inquiry to fdns@woodruff.org; it then submits one PDF through Blackbaud's
+    YourCause portal holding a signed request letter of at most five pages, project and operating budgets, a fundraising
+    status report, audited financial statements, a board list and the IRS determination letter [2313].
+  cycle: Proposals are due February 1 for the April board meeting and August 15 for the November board meeting [2313].
+  typical_grant: 'No size is stated. The foundation says: ''Most grants support one-time needs rather than ongoing program
+    or operating needs.'' [2313].'
+  giving:
+  - amount: $192,234,415
+    year: 2025
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2025)
+    cite:
+    - 2314
+  assets:
+    amount: $1,897,813,328
+    year: 2025
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2025)
+    cite:
+    - 2314
+  geography: Georgia, with emphasis on metro Atlanta [2312] [2313].
+  programs: []
+  pending_changes: []
+  official_url: https://woodruff.org/
+  sources:
+  - 2312
+  - 2313
+  - 2314
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: yield-giving
+  name: Yield Giving (MacKenzie Scott)
+  legal_form_note: Yield Giving's pages describe it as 'Established by MacKenzie Scott to share a financial fortune' and
+    name no legal form, foundation or tax filing [2315] [2316]. No EIN is recorded [2315].
+  what_it_funds: Gifts 'to non-profit teams to use as they see fit for the benefit of others' [2315]. The 2024 open call
+    was for community-led non-profits serving people of modest means and groups that have met discrimination [2358].
+  fields:
+  - any
+  - unrestricted-gifts
+  - community-led-organisations
+  who_it_funds: Non-profit organisations chosen by Yield Giving's staff and advisors [2315] [2316].
+  unsolicited: invitation-only
+  unsolicited_note: 'The inquiries page says: ''we do not invite unsolicited messages suggesting candidates, including forwards
+    from friends, family, or personal connections'' [2317].'
+  how_to_approach: 'Two routes are named: ''Quiet research to identify candidate organizations'', which takes no application,
+    and ''an open call completed in 2024 with an online application'' [2316]. No further open call is announced on the process
+    page or in the essays posted since [2316] [2359].'
+  cycle: None; the one open call closed in 2024 [2316].
+  typical_grant: No typical size is stated on the pages read; gifts are for use 'however they choose' [2316].
+  giving:
+  - amount: over $26,000,000,000
+    year: 2026
+    basis: running total of more than 2,700 gifts since the giving began, as shown on 2026-10-04
+    cite:
+    - 2315
+  geography: Not stated on the pages read [2315].
+  programs:
+  - yield-giving-open-call
+  pending_changes: []
+  official_url: https://yieldgiving.com/
+  grants_database_url: https://yieldgiving.com/gifts/
+  sources:
+  - 2315
+  - 2316
+  - 2317
+  - 2359
+  - 2358
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: arnold-ventures
+  name: Arnold Ventures
+  foundation_kind: independent
+  ein: 26-3241764
+  legal_form_note: 'Arnold Ventures calls itself ''a philanthropy'', ''Founded in 2008 by Laura and John Arnold with the
+    launch of a foundation'' [2319] [2321]. Its terms of use define ''AVLLC'' as meaning Arnold Ventures [2320]. No page
+    read states the legal form in a sentence. The private foundation that files Form 990-PF is the Laura and John Arnold
+    Foundation, and the EIN given here is that foundation''s [2322]. Added by slice D: the privacy policy, last updated
+    September 4, 2026, names four entities, Arnold Ventures, Action Now Initiative, LLC, Action Now, Inc. and the Laura
+    & John Arnold Foundation, and does not give the legal form of Arnold Ventures itself [2503].'
+  what_it_funds: Research, policy development and technical assistance in criminal justice, education, health, infrastructure
+    and public finance [2318]. Its requests for proposals ask for causal research on policy questions [2321].
+  fields:
+  - criminal-justice
+  - education
+  - higher-education
+  - health-policy
+  - infrastructure
+  - public-finance
+  - evidence-and-evaluation
+  who_it_funds: Not limited by type of organisation in the request for proposals read [2321].
+  unsolicited: open-call-only
+  unsolicited_note: 'The grants page says: ''We do not currently accept unsolicited grant proposals.'' Funding decisions
+    are made by the board and staff throughout the year [2318]. Requests for proposals are listed on the same page [2318].'
+  how_to_approach: The route is a posted request for proposals. The K-12 request issued in September 2026 asks first for
+    a letter of interest and then, by invitation, a full proposal; questions go to EvidenceTeam@arnoldventures.org [2321].
+  cycle: 'Two requests were open on 2026-10-04: Causal Research on K-12 School Policies, letters of interest due November
+    13, 2026, and Causal Research on Community Safety and the Criminal Justice System, for which the list shows no date
+    [2318] [2321].'
+  typical_grant: The request for proposals read states no award range [2321].
+  giving:
+  - amount: $194,410,999
+    year: 2024
+    basis: charitable disbursements (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2322
+  assets:
+    amount: $4,766,058,262
+    year: 2024
+    basis: total assets (Form 990-PF, fiscal year ending December 31, 2024)
+    cite:
+    - 2322
+  geography: United States [2319].
+  programs:
+  - arnold-ventures-k12-causal-research-rfp
+  pending_changes: []
+  official_url: https://www.arnoldventures.org/
+  sources:
+  - 2318
+  - 2319
+  - 2320
+  - 2321
+  - 2322
+  - 2503
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: commonwealth-fund
+  name: The Commonwealth Fund
+  foundation_kind: independent
+  ein: 13-1635260
+  what_it_funds: Health care policy and health system research, in programme areas that include care delivery, affordability,
+    coverage and access, Medicare, Medicaid, equitable outcomes, health system performance and international exchange [2323].
+  fields:
+  - health-policy-research
+  - health-care
+  - medicare
+  - medicaid
+  - health-equity
+  who_it_funds: Mainly tax-exempt organisations; it also funds international projects [2324]. It does not fund ongoing activities
+    or existing deficits, endowment or capital costs, basic biomedical research, conferences or major media projects that
+    do not grow out of a Fund programme, individuals or scholarships outside its fellowships, or religious organisations
+    unless the project is entirely secular [2324].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: 'The Fund says: ''LOIs are accepted on a rolling basis'' through its online grants portal [2323].'
+  how_to_approach: A letter of inquiry is submitted in the online grants portal at any time; the Fund usually answers within
+    six weeks, and invites a full proposal where it is interested [2323] [2324]. Proposal and budget guidelines are posted
+    [2360].
+  cycle: Letters of inquiry are rolling; the board meets in April, July and November [2323] [2324].
+  typical_grant: The Fund gives an average grant of $171,326 with an average duration of 12 months [2324]. It does not fund
+    ongoing activities, which rules out general operating support [2324].
+  indirect_costs: Overhead may be charged at up to 20 percent of total direct costs; consultants, contractors, sub-awards,
+    fee-for-service charges, and tuition and stipends for approved fellowship programmes are left out of the base [2361].
+  giving:
+  - amount: $50,113,580
+    year: 2025
+    basis: charitable disbursements (Form 990-PF, fiscal year ending June 30, 2025)
+    cite:
+    - 2325
+  assets:
+    amount: $922,680,894
+    year: 2025
+    basis: total assets (Form 990-PF, fiscal year ending June 30, 2025)
+    cite:
+    - 2325
+  geography: United States, with international projects [2324].
+  programs: []
+  pending_changes: []
+  official_url: https://www.commonwealthfund.org/
+  grants_database_url: https://www.commonwealthfund.org/grants
+  sources:
+  - 2323
+  - 2324
+  - 2360
+  - 2361
+  - 2325
+  funder_kind: foundation
+  as_of: '2026-10-04'
+  sweep: foundations-B
+- id: silicon-valley-community-foundation
+  name: Silicon Valley Community Foundation
+  funder_kind: foundation
+  foundation_kind: community
+  ein: 20-5205488
+  what_it_funds: SVCF names three impact areas, financial stability, early childhood development and housing, plus a Community
+    Action Grants Program; it says it "leverages our resources and relationships to help create community-led solutions
+    for the region's biggest challenges" [2411].
+  fields:
+  - financial-stability
+  - early-childhood
+  - housing
+  - community-development
+  who_it_funds: Non-profits in its region; the pages read do not list eligibility rules for Community Action Grants [2411]
+    [2412].
+  unsolicited: open-call-only
+  unsolicited_note: 'The pages read do not state a policy on unsolicited proposals [2411] [2412]. The one programme with
+    an application on the grants page, Community Action Grants, runs by an annual request for proposals: "Our 2026 application
+    has closed. Please check back here for our 2027 community action grants program." [2412]. Discretionary grantmaking
+    is "directed by our staff and board" [2411].'
+  how_to_approach: Watch the grants page for the next Community Action Grants request for proposals; the 2026 request opened
+    Monday, March 2, 2026 [2412].
+  cycle: 'Community Action Grants 2026: request for proposals open March 2 to March 31, 2026, 1:00 p.m. PT, with decisions
+    in mid-June 2026 [2412].'
+  giving:
+  - amount: $568 Million to education; $257 Million to general nonprofit support; $210 Million to community development;
+      $184 Million to health; $173 Million to sciences
+    year: 2025
+    basis: grants by category as shown in the 2025-2026 Year in Review; no overall total and no stated period on the page
+      as fetched
+    cite:
+    - 2414
+  - amount: $3,187,080 thousand
+    year: 2024
+    basis: grants awarded, consolidated audited financial statements for the year ending December 31, 2024, in thousands
+      of dollars; $4,655,917 thousand in 2023 (added by slice D)
+    cite:
+    - 2509
+  assets:
+    amount: $12,299,698,780
+    year: 2024
+    cite:
+    - 2415
+  assets_further:
+  - amount: $16,151,233 thousand
+    year: 2024
+    basis: total assets at December 31, 2024, consolidated audited financial statements; $13,630,080 thousand at December
+      31, 2023 (added by slice D)
+    cite:
+    - 2509
+  geography: San Mateo and Santa Clara counties for its own grantmaking [2411].
+  programs:
+  - svcf-community-action-grants
+  pending_changes: []
+  official_url: https://www.svcf.org/nonprofits
+  grants_database_url: https://www.svcf.org/impact/grants-catalog/grantees-list
+  as_of: '2026-10-04'
+  sources:
+  - 2411
+  - 2412
+  - 2413
+  - 2414
+  - 2415
+  - 2509
+  sweep: foundations-C
+- id: new-york-community-trust
+  name: The New York Community Trust
+  funder_kind: foundation
+  foundation_kind: community
+  ein: 13-3062214
+  what_it_funds: Projects "that improve the lives of all New Yorkers, with an emphasis on promoting healthy lives, promising
+    futures, and thriving communities", across 16 programme areas in New York City, 10 on Long Island and 10 in Westchester
+    [2418] [2417].
+  fields:
+  - arts
+  - education
+  - health
+  - human-justice
+  - youth-development
+  - community-development
+  - workforce
+  - environment
+  who_it_funds: '"Most of our competitive grants go to public charities, or to groups sponsored by one"; an applicant''s
+    board must have at least four members and no more than one paid board member [2416]. The Trust supports some organisations
+    based outside the city: its environmental and social work education programmes are national [2416]. It makes no grants
+    to individuals or for general operating support, capital and building campaigns, endowments, equipment, deficit financing,
+    conferences and meetings, or religious purposes [2416].'
+  unsolicited: accepted
+  unsolicited_note: The Trust takes proposals from returning and new non-profits through its portal under published guidelines,
+    and also posts "Requests For Proposals or Letter of Interest opportunities" [2418]. On its donor-advised funds it says
+    "We cannot refer you to donors" [2416].
+  how_to_approach: Review the grantmaking guidelines, complete the Proposal Cover Sheet and follow the instructions in the
+    Grants Portal at proposals.nycommunitytrust.org; programme directors hold information sessions [2418] [2417].
+  cycle: The pages read give no deadlines for competitive proposals [2416].
+  typical_grant: Long Island grants generally range from $15,000 to $25,000; no typical size is stated for New York City;
+    the Trust rarely supports projects for more than three years [2417] [2416].
+  indirect_costs: '"We do not have caps on administrative expenses but will assess whether the requested percentage is appropriate";
+    non-profits with budgets under $4 million may use up to 25 percent of a grant flexibly [2416].'
+  giving:
+  - amount: $243,054,568
+    year: 2025
+    basis: grants expense, combined financial statements of The New York Community Trust, Community Funds, Inc. and The
+      James Foundation
+    cite:
+    - 2420
+  - amount: $201,351,993
+    year: 2024
+    basis: grants and similar amounts paid, Form 990 of The New York Community Trust alone
+    cite:
+    - 2465
+  - amount: $233M
+    year: not stated
+    basis: headline "awarded" figure on the financials page, with 11,204 grants made
+    cite:
+    - 2419
+  assets:
+    amount: $3,901,135,097
+    year: 2025
+    cite:
+    - 2420
+  geography: New York City, Long Island and Westchester [2418].
+  programs: []
+  pending_changes: []
+  official_url: https://thenytrust.org/nonprofits/
+  as_of: '2026-10-04'
+  sources:
+  - 2418
+  - 2417
+  - 2416
+  - 2419
+  - 2420
+  - 2465
+  - 2421
+  sweep: foundations-C
+- id: chicago-community-trust
+  name: The Chicago Community Trust
+  funder_kind: foundation
+  foundation_kind: community
+  ein: 36-2167000
+  what_it_funds: 'The Trust awards grants "to organizations that benefit residents of the Chicago region"; on 2026-10-04
+    its grants page listed three opportunities: Late-Stage Capital Projects - Neighborhood Capital Fund, Coalitions Advancing
+    Economic Mobility - Policy Change, and Sponsorships [2422].'
+  fields:
+  - economic-mobility
+  - community-development
+  - capital-projects
+  who_it_funds: Non-profit agencies with section 501(c)(3) status "that are not classified as private foundations", and
+    organisations with a non-profit fiscal sponsor; no discretionary grants outside the United States; grants from endowment
+    funds are limited to organisations based in or primarily serving Cook County [2423].
+  unsolicited: not-stated
+  unsolicited_note: The pages read do not say in words whether unsolicited proposals are accepted [2423]. The grants page
+    lists named funding opportunities, each with its own request for proposals [2422] [2423].
+  how_to_approach: Choose a listed funding opportunity and apply through the GrantCentral portal; questions go to grants@cct.org
+    or 312-616-8000 [2422].
+  cycle: Set by each request for proposals; the grants page gives no dates [2422].
+  giving:
+  - amount: $1,225,337,518
+    year: 2025
+    basis: grants and similar amounts paid, Form 990 for the year ending September 30, 2025
+    cite:
+    - 2464
+  - amount: $1.2 billion
+    year: 2025
+    basis: combined grant commitments, fiscal year 2025, as the financials page states
+    cite:
+    - 2424
+  assets:
+    amount: $7.2 billion consolidated as of September 30, 2025; $7,126,827,178 on the Form 990 for the same year end
+    year: 2025
+    cite:
+    - 2424
+    - 2464
+  geography: The Chicago region; Cook County for grants from endowment funds [2423].
+  programs: []
+  pending_changes: []
+  official_url: https://www.cct.org/grants/
+  as_of: '2026-10-04'
+  sources:
+  - 2422
+  - 2423
+  - 2424
+  - 2464
+  sweep: foundations-C
+- id: cleveland-foundation
+  name: Cleveland Foundation
+  funder_kind: foundation
+  foundation_kind: community
+  what_it_funds: Grants to tax-exempt agencies in its three-county area; the foundation says it has no predetermined funding
+    levels and generally makes grants for one year [2425].
+  fields:
+  - any
+  who_it_funds: '"Most Cleveland Foundation grants are made to tax-exempt agencies classified as 501(c)(3) organizations";
+    some go to government agencies and churches [2425]. Not funded: individuals, for-profit organisations, endowment campaigns,
+    annual appeals, membership drives, religious organisations for religious purposes, travel as a primary focus, community
+    services such as police, fire and roads, and capital projects for hospitals, nursing homes or higher education institutions
+    [2425].'
+  unsolicited: accepted
+  unsolicited_note: '"The standard grant application remains open year-round." [2426]'
+  how_to_approach: Register for access through Grants Gateway, create or update the organisation profile, then complete
+    a grant application; registration is to be completed at least two weeks before any deadline; the grants team is at GrantsMgmt@clevefdn.org
+    and 216.861.3810 [2426] [2425].
+  cycle: The standard application is open year-round; an application received after a deadline is considered in the next
+    cycle; the pages read give no deadline dates [2426].
+  typical_grant: '"We do not have predetermined funding levels. Request the amount that meets the needs of your program.";
+    grants are generally for one year [2425].'
+  giving:
+  - amount: $220,087,681
+    year: 2024
+    basis: grants authorised by the board
+    cite:
+    - 2427
+  - amount: $144,476,354
+    year: 2024
+    basis: grants expensed
+    cite:
+    - 2427
+  assets:
+    amount: $3,416,350,834
+    year: 2024
+    cite:
+    - 2427
+  geography: Cuyahoga, Lake and Geauga counties, Ohio [2425].
+  programs: []
+  pending_changes: []
+  official_url: https://www.clevelandfoundation.org/grants/
+  as_of: '2026-10-04'
+  sources:
+  - 2425
+  - 2426
+  - 2427
+  sweep: foundations-C
+- id: greater-kansas-city-community-foundation
+  name: Greater Kansas City Community Foundation
+  funder_kind: foundation
+  foundation_kind: community
+  ein: 43-1152398
+  what_it_funds: 'Mostly what its donors advise: "Most individuals, families and companies that work with the Community
+    Foundation establish donor-advised funds, so they make their own decisions regarding which nonprofits they support."
+    [2428]. A short list of funds it administers takes applications [2429].'
+  fields:
+  - any
+  who_it_funds: Thousands of non-profit organisations each year through its funds; eligibility for the funds that take applications
+    is set fund by fund [2428] [2429].
+  unsolicited: open-call-only
+  unsolicited_note: The foundation's page for non-profits describes grants as decided by donors with donor-advised funds;
+    the only applications it takes are for the named funds on its grant opportunities page [2428] [2429].
+  how_to_approach: Check the grant opportunities page for funds that are accepting applications and apply through a SmartSimple
+    account; a non-profit's executive or development director can also request a report of all grants it has received from
+    the foundation's funds since 1994 [2429] [2428].
+  cycle: 'Fund by fund: on 2026-10-04 one fund was accepting applications (American Association of University Women / Wagy
+    Fund, deadline Friday, October 9) and one was opening soon (Variety KC Ten Parks Project, letter-of-interest deadline
+    Tuesday, December 1); the Community Foundation Discretionary Fund was closed [2429].'
+  typical_grant: The American Association of University Women / Wagy Fund gives $1,000 to $4,000; no general figure is stated
+    [2429].
+  giving:
+  - amount: $585,449,878
+    year: 2024
+    basis: grants expense, consolidated audited statements
+    cite:
+    - 2431
+  - amount: $353,684,313
+    year: 2024
+    basis: grants and similar amounts paid, Form 990 of the foundation alone
+    cite:
+    - 2432
+  assets:
+    amount: $6,867,112,387 consolidated at December 31, 2024; $3,386,068,279 on the Form 990 for 2024; the About page says
+      it "Manages more than $10 billion in assets"
+    year: 2024
+    cite:
+    - 2431
+    - 2432
+    - 2430
+  geography: Greater Kansas City; individual funds set their own areas [2429].
+  programs: []
+  pending_changes: []
+  official_url: https://www.growyourgiving.org/nonprofits
+  as_of: '2026-10-04'
+  sources:
+  - 2428
+  - 2429
+  - 2430
+  - 2431
+  - 2432
+  sweep: foundations-C
+- id: walmart-foundation
+  name: Walmart and the Walmart Foundation
+  funder_kind: foundation
+  foundation_kind: corporate
+  what_it_funds: Walmart.org describes giving by Walmart and the Walmart Foundation through grantees in its priority areas,
+    and local cash grants awarded by Walmart U.S. stores, Sam's Clubs and Distribution Centers [2436] [2435].
+  fields:
+  - community
+  - local-giving
+  who_it_funds: '"Generally, within the United States, funding is limited to organizations recognized as public charities";
+    neither Walmart nor the Walmart Foundation awards grants to individuals [2433]. The local grants are also open to government
+    entities, K-12 schools, community and junior colleges, state and private colleges and universities, and faith-based
+    organisations with a project that benefits the community at large [2434].'
+  unsolicited: invitation-only
+  unsolicited_note: '"Unsolicited proposals will not be accepted, and invitations are not granted upon request." The exception:
+    "Local Community Grants is the only program that accepts applications throughout the year in the form of an open application."
+    [2433]'
+  how_to_approach: For a local grant, create a Spark Good account on Walmart.com/nonprofits, be verified by Deed, and apply
+    to a store, club or distribution centre; requests for in-kind donations go to local store management [2434] [2433].
+    For other giving there is no application without an invitation [2433].
+  cycle: 'Local grants, Walmart fiscal year 2027: Cycle 1, Feb. 1 - April 15; Cycle 2, May 1 - July 15; Cycle 3, Aug. 1
+    - Nov. 30 [2434].'
+  typical_grant: Local grants range from $250 to $5,000 [2434].
+  giving:
+  - amount: $2 billion
+    year: 2025
+    basis: cash and in-kind donations around the world by Walmart and the Walmart Foundation together, Walmart fiscal year
+      2025
+    cite:
+    - 2436
+  geography: Local grants are made by facilities in the United States; organisations outside the United States must show
+    equivalency to a public charity or be funded under expenditure responsibility [2435] [2433].
+  programs:
+  - walmart-spark-good-local-grants
+  pending_changes: []
+  official_url: https://www.walmart.org/how-we-give
+  grants_database_url: https://www.walmart.org/how-we-give/grantee-search
+  as_of: '2026-10-04'
+  sources:
+  - 2436
+  - 2435
+  - 2433
+  - 2434
+  sweep: foundations-C
+- id: bank-of-america-charitable-foundation
+  name: Bank of America Charitable Foundation
+  funder_kind: foundation
+  foundation_kind: corporate
+  what_it_funds: 'Economic mobility, under four headings: "basic needs, income creation, stable housing, empowered communities"
+    [2437].'
+  fields:
+  - basic-needs
+  - workforce
+  - housing
+  - community-development
+  who_it_funds: 'Organisations "tax-exempt under section 501(c)(3) of the Internal Revenue Code, not classified as a private
+    foundation" that are based in and serve the bank''s markets, nearly 100 in the United States [2439] [2437]. Not funded:
+    individuals, including scholarships and fellowships; political, labor and fraternal organisations and civic clubs; government
+    and municipal agencies; endowment funds; fiscally sponsored organisations; individual pre-K-12 schools; memorial campaigns;
+    sports; travel; books, films, videos or television programmes [2439]. Funding outside the United States is limited and
+    by invitation only [2438].'
+  unsolicited: open-call-only
+  unsolicited_note: Applications are taken only in the dated application periods of its local grant requests for proposals
+    [2438].
+  how_to_approach: Take the eligibility quiz and apply online through the CyberGrants portal during an application period;
+    applicants register for NPO Hub (formerly FrontDoor) and accept ACH payments [2437] [2438].
+  cycle: '2026: Basic Needs and Income Creation, 2/2/2026 - 3/2/2026, status updates in June, 2026; Stable Housing and Empowering
+    Communities, 5/18/2026 - 6/29/2026, status updates in September, 2026 [2438]. Neighborhood Builders 2026 applications
+    are closed and the next cycle opens Spring 2027 [2438] [2437].'
+  typical_grant: '"Grant amounts vary by market and organization size."; no multi-year grants through the local grant process;
+    funding no more than once in a calendar year, with rare exceptions [2438].'
+  geography: The bank's local markets in the United States [2439].
+  programs:
+  - bank-of-america-local-grants
+  pending_changes: []
+  official_url: https://about.bankofamerica.com/en/making-an-impact/charitable-foundation-funding
+  as_of: '2026-10-04'
+  sources:
+  - 2437
+  - 2438
+  - 2439
+  sweep: foundations-C
+- id: wells-fargo-foundation
+  name: Wells Fargo and the Wells Fargo Foundation
+  funder_kind: foundation
+  foundation_kind: corporate
+  what_it_funds: 'Three priorities: financial opportunity, housing access and affordability, and small business growth [2440].'
+  fields:
+  - financial-health
+  - housing
+  - small-business
+  who_it_funds: Organisations with tax-exempt status under section 501(c)(3), qualified governmental agencies, tribal entities,
+    and public schools or school systems; not individuals, political entities, labor or fraternal groups, recreational teams,
+    for-profit businesses or travel-related programmes [2441].
+  unsolicited: invitation-only
+  unsolicited_note: '"Wells Fargo and the Wells Fargo Foundation have implemented an invitation process." [2441]'
+  how_to_approach: An organisation invited to apply uses the invitation code it is given to reach the online application
+    portal; the page describes no way to request an invitation [2441].
+  cycle: No timetable is given on the pages read [2441].
+  geography: National and local grants in the United States [2440].
+  programs: []
+  pending_changes: []
+  official_url: https://www.wellsfargo.com/about/responsibility-and-impact/community-giving/grant-process/
+  as_of: '2026-10-04'
+  sources:
+  - 2440
+  - 2441
+  sweep: foundations-C
+- id: home-depot-foundation
+  name: The Home Depot Foundation
+  funder_kind: foundation
+  foundation_kind: corporate
+  what_it_funds: 'On 2026-10-04 its grants page listed three programmes: Veteran Housing Grants, Retool Your School and
+    Path to Pro Grants [2442]. Veteran Housing Grants fund "new construction or rehabilitation of multifamily, permanent
+    supportive housing for veterans" [2443].'
+  fields:
+  - veterans
+  - housing
+  - skilled-trades
+  - hbcu
+  who_it_funds: 'For Veteran Housing Grants: 501(c)(3) organisations in good standing with the IRS for at least five years,
+    with a current operating budget of at least $300,000 and audited financial statements for the past three years [2443].
+    Eligibility for the other two programmes was not on the pages read [2442].'
+  unsolicited: open-call-only
+  unsolicited_note: Proposals are taken for named programmes in dated cycles; the pages read state no general policy on
+    unsolicited requests [2442] [2443].
+  how_to_approach: Submit a project proposal at foundation.homedepot.com, choosing the Veteran Housing Grant application
+    for the cycle wanted [2443].
+  cycle: 'Veteran Housing Grants, 2026 proposal deadlines: Cycle 1, 12/12/2025 (final determinations April 2026); Cycle
+    2, 3/20/2026 (August 2026); Cycle 3, 7/3/2026 (December 2026) [2443].'
+  typical_grant: '"Awards typically range from $100,000 to $500,000." [2443]'
+  programs:
+  - home-depot-veteran-housing-grants
+  pending_changes: []
+  official_url: https://corporate.homedepot.com/page/home-depot-foundation-grants
+  as_of: '2026-10-04'
+  sources:
+  - 2442
+  - 2443
+  sweep: foundations-C
+- id: lowes-foundation
+  name: Lowe's Foundation
+  funder_kind: foundation
+  foundation_kind: corporate
+  what_it_funds: 'Skilled trades training: the Gable Grants programme "directly supports community and technical colleges
+    and nonprofit organizations" to train 250,000 tradespeople by 2035 "through a $250 million investment" [2444].'
+  fields:
+  - skilled-trades
+  - workforce
+  - community-colleges
+  who_it_funds: Community and technical colleges, community-based non-profit organisations and national non-profit organisations;
+    the detailed eligibility guidelines are in a document this sweep did not read [2444].
+  unsolicited: open-call-only
+  unsolicited_note: 'Open application for community and technical colleges only: "Opens in March for community and technical
+    colleges"; "Opens in August for community-based nonprofits (invite only)"; the September round for national non-profits
+    is also invite only [2444].'
+  how_to_approach: Apply through the Lowe's Foundation Gable Grants online portal in the window for the applicant's category
+    [2444].
+  cycle: March for community and technical colleges; August for community-based non-profits, by invitation; September for
+    national non-profits, by invitation; the page gives no dates [2444].
+  programs:
+  - lowes-gable-grants
+  pending_changes: []
+  official_url: https://www.lowesfoundation.org/gable-grants
+  as_of: '2026-10-04'
+  sources:
+  - 2444
+  sweep: foundations-C
+- id: google-for-nonprofits
+  name: Google for Nonprofits (in-kind programme)
+  funder_kind: foundation
+  foundation_kind: corporate
+  giving_form: in-kind
+  what_it_funds: 'Products, not cash: "Google for Nonprofits provides access to these Google products at no charge", among
+    them Google Workspace for Nonprofits, Google Ad Grants, the YouTube Nonprofit Program and Google Earth and Maps [2446]
+    [2445].'
+  fields:
+  - technology
+  - in-kind
+  who_it_funds: A non-profit charitable organisation in good standing; not a governmental entity, a hospital or healthcare
+    organisation, or "a school, academic institution, or university" [2445].
+  unsolicited: accepted
+  unsolicited_note: Enrolment is open to any eligible organisation that passes verification; this is an in-kind programme
+    run by the company, not a grant from a foundation [2446].
+  how_to_approach: Apply on the programme site and be verified as a non-profit organisation by Goodstack; review takes 2-14
+    working days [2446].
+  cycle: Rolling [2446].
+  geography: Available in 180+ geographies [2446].
+  programs: []
+  pending_changes: []
+  official_url: https://www.google.com/nonprofits/
+  as_of: '2026-10-04'
+  sources:
+  - 2446
+  - 2445
+  sweep: foundations-C
+- id: microsoft-nonprofit-programme
+  name: Microsoft nonprofit grants and discounts (in-kind programme)
+  funder_kind: foundation
+  foundation_kind: corporate
+  giving_form: in-kind
+  what_it_funds: 'Software and cloud services as grants and discounts: "Eligible nonprofits may access discounted pricing
+    on commercial cloud offers and some on-premise offers" [2447].'
+  fields:
+  - technology
+  - in-kind
+  who_it_funds: 'In the United States: non-profits with 501(c)(3) status, public libraries, public museums and named kinds
+    of health facility; not governmental organisations or agencies, schools, colleges, universities, public utilities, financial
+    institutions, professional, commerce and trade associations, sports organisations, or political or labor groups [2447].
+    Paid employees and unpaid executive staff may use grants and discounts; volunteers and temporary staff may use discounts
+    only [2447].'
+  unsolicited: accepted
+  unsolicited_note: Open to any organisation that meets the eligibility rules; this is an in-kind programme run by the company,
+    not a grant from a foundation [2447].
+  how_to_approach: Check eligibility on Microsoft's non-profit site; the page read does not give the registration steps
+    or the size of the grants [2447].
+  programs: []
+  pending_changes: []
+  official_url: https://www.microsoft.com/en-us/nonprofits/eligibility
+  as_of: '2026-10-04'
+  sources:
+  - 2447
+  sweep: foundations-C
+- id: fnih
+  name: Foundation for the National Institutes of Health
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  what_it_funds: The FNIH "creates and leads alliances and public-private partnerships that advance breakthrough biomedical
+    discoveries" and convenes partnerships between the NIH, academia, life science companies and patient advocacy groups
+    [2448].
+  fields:
+  - biomedical
+  who_it_funds: The page read describes partnerships and fundraising and names no grant programme for outside applicants
+    [2448].
+  unsolicited: not-stated
+  unsolicited_note: Not stated on the page read [2448]. "Established by Congress in 1990, the FNIH is a not-for-profit 501(c)(3)
+    charitable organization"; it raises private funds from individuals, corporations, foundations and philanthropic organisations
+    [2448].
+  how_to_approach: No application route is given on the page read [2448].
+  programs: []
+  pending_changes: []
+  official_url: https://fnih.org/who-we-are/
+  as_of: '2026-10-04'
+  sources:
+  - 2448
+  sweep: foundations-C
+- id: cdc-foundation
+  name: CDC Foundation
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  ein: 58-2106707
+  what_it_funds: 'Public health programmes run with partner money: "an independent nonprofit created by Congress to establish
+    philanthropic and private-sector partnerships"; it uses requests for proposals "to sub-grant funds received for a specific
+    project" [2449] [2450].'
+  fields:
+  - public-health
+  who_it_funds: 'Each request for proposals names who may respond: providers of products or services, eligible non-profit
+    or governmental organisations, or a consultant or independent contractor [2450].'
+  unsolicited: open-call-only
+  unsolicited_note: '"We are not an endowed foundation, and we do not accept or respond to unsolicited proposals." [2450]'
+  how_to_approach: Respond to an open request for proposals on the foundation's page [2450].
+  cycle: 'Per request; open on 2026-10-04: Healthy Native Babies Project, due October 9, 2026; Technical Advisor - Laboratory
+    Capacity Building, due October 9, 2026; Early Career Public Health Scholars in Maternal-Fetal Medicine, due October
+    23, 2026 [2450].'
+  programs: []
+  pending_changes:
+  - status: announced
+    date: '2026-09-30'
+    text: 'A federal forecast, CDC-RFA-CD-27-0067, with an estimated post date of September 30, 2026 and still shown as
+      forecasted on 2026-10-04, would pay administrative costs of the National Foundation for CDC under section 399G of
+      the Public Health Service Act: one expected award, estimated total funding $6,250,000, estimated close date December
+      1, 2026 [2451].'
+  official_url: https://www.cdcfoundation.org/request-for-proposals
+  as_of: '2026-10-04'
+  sources:
+  - 2449
+  - 2450
+  - 2451
+  sweep: foundations-C
+- id: nfwf
+  name: National Fish and Wildlife Foundation
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  what_it_funds: NFWF "provides funding on a competitive basis to projects that sustain, restore and enhance our nation's
+    fish, wildlife and plants" [2453].
+  fields:
+  - conservation
+  - environment
+  who_it_funds: '"Federal, state, and local governments, educational institutions and nonprofit organizations are welcome
+    to apply for matching grants." [2454]'
+  unsolicited: open-call-only
+  unsolicited_note: Funding is awarded through posted requests for proposals; the pages read do not address unsolicited
+    proposals in words [2453] [2454].
+  how_to_approach: Find an open request for proposals on the grants page and submit a pre-proposal or full proposal through
+    Easygrants, NFWF's application system [2453] [2454].
+  cycle: Per programme; five request cycles were open on 2026-10-04, among them Chesapeake Bay Stewardship Fund, Southeast
+    Michigan Resilience Fund, Acres for America, Hurricane Response Marine Debris Removal Fund and Hawai'i Conservation
+    Program [2453].
+  indirect_costs: An applicant with a valid federally negotiated indirect cost rate agreement may use it; an organisation
+    without one may use a de minimis rate of up to 15% of modified total direct costs; NFWF reserves the right to scrutinise
+    proposals with indirect rates above 15% [2466].
+  giving:
+  - amount: over 23,900 projects funded; financial commitments exceeding $12 billion
+    year: since 1984
+    basis: cumulative, as NFWF states
+    cite:
+    - 2452
+  geography: All 50 states and U.S. territories [2452].
+  programs: []
+  pending_changes: []
+  official_url: https://www.nfwf.org/apply-grant
+  as_of: '2026-10-04'
+  sources:
+  - 2452
+  - 2453
+  - 2454
+  - 2466
+  sweep: foundations-C
+- id: national-park-foundation
+  name: National Park Foundation
+  funder_kind: independent-nonprofit
+  foundation_kind: public-charity
+  what_it_funds: The foundation describes itself as "the official charitable partner of the National Park Service", chartered
+    by Congress in 1967 [2455].
+  fields:
+  - parks
+  - conservation
+  who_it_funds: Not stated on the page read; its grants page returned a 403 error to the fetch tool [2455].
+  unsolicited: not-stated
+  unsolicited_note: Not stated on the page read [2455].
+  programs: []
+  pending_changes: []
+  official_url: https://www.nationalparks.org/about-foundation
+  as_of: '2026-10-04'
+  sources:
+  - 2455
+  sweep: foundations-C

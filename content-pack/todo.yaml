@@ -3905,6 +3905,1045 @@
     from a public comment in GSA's docket (gd-regs-gov-hufg-comment-gsa-2026-0001), a secondary source. The unverified todos
     t-gb-sam-certifications-content and t-gc-028 stay open until GSA's own document is read.
   sweep: rules-D
+- id: t-fa-keck-phase-one
+  kind: recheck
+  about: records-foundations-A.yaml/keck-research-program
+  text: 'The instructions for this sweep expected a Keck "phase-one" process. The overview page and the application instructions
+    dated 8/26/26, both read on 2026-10-04, describe one application per cycle and no Phase I or Phase II; the overview
+    says concept consultations have ended. Neither gives the date of the change or describes the earlier process. Confirm
+    whether medical research institutes without a PhD programme remain eligible: the overview says only "STEM PhD granting
+    institutions are eligible to apply".'
+  sweep: foundations-A
+- id: t-fa-990-recheck-part1
+  kind: recheck
+  about: records-foundations-A.yaml/funders
+  text: Assets and charitable disbursements for Simons, Sloan, Moore, Keck, Kavli and RCSA were read from ProPublica Nonprofit
+    Explorer summaries of Form 990-PF (fiscal year 2024), not from the filings themselves or the foundations' audited statements.
+    Charitable disbursements include programme and administrative spending as well as grants paid.
+  sweep: foundations-A
+- id: t-fa-rcsa-kind
+  kind: gap
+  about: records-foundations-A.yaml/rcsa
+  text: No page read states whether RCSA is a private operating foundation or a non-operating one; it files Form 990-PF.
+    foundation_kind is set to independent pending a reading of the filing itself.
+  sweep: foundations-A
+- id: t-fa-moore-family-kind
+  kind: recheck
+  about: records-foundations-A.yaml/moore-foundation
+  text: foundation_kind is an editorial label. Moore and Packard are set to family on the strength of their names, and every
+    other Form 990-PF filer in this slice to independent; the only foundation page read that uses such a term is the Burroughs
+    Wellcome Fund's ("an independent private foundation"). Confirm each against a directory before publication.
+  sweep: foundations-A
+- id: t-fa-packard-page-404
+  kind: gap
+  about: records-foundations-A.yaml/packard-fellowships-science-engineering
+  text: Two guessed URLs for the Packard Fellowships landing page returned 404; only the 2026 guidelines PDF was read. The
+    current page, the list of 50 invited universities and any 2027 guidelines were not found. The review process was not
+    returned.
+  sweep: foundations-A
+- id: t-fa-schmidt-legal-form
+  kind: gap
+  about: records-foundations-A.yaml/schmidt-sciences
+  text: 'No filing was located for Schmidt Sciences, so ein, giving and assets are left out and foundation_kind: independent
+    is a placeholder. Its indirect-cost policy was not found. (Edited by slice D: the terms of use, at schmidtsciences.org/termsofuse,
+    name the entity as "SCHMIDT SCIENCES LLC", now recorded under legal_form; the tax status of that company and of any
+    foundation behind it is still not stated on a page read.)'
+  sweep: foundations-A
+- id: t-fa-schmidt-polymaths-amount
+  kind: recheck
+  about: sources-foundations-A.yaml/fa-schmidt-polymaths
+  text: The Polymaths page was returned as "$2.5M grants to six pioneering researchers" for the 2024 cohort; the fetch did
+    not make clear whether $2.5M is per researcher or in total. Not used in a record.
+  sweep: foundations-A
+- id: t-fa-templeton-amounts
+  kind: gap
+  about: records-foundations-A.yaml/templeton-foundation
+  text: No typical or maximum grant amount, and no small/large grant threshold, was returned from the Templeton apply, calendar
+    or FAQ pages.
+  sweep: foundations-A
+- id: t-fa-hhmi-mro
+  kind: recheck
+  about: records-foundations-A.yaml/hhmi
+  text: HHMI's phrase "a medical research organization" was found only in the boilerplate of a news release about a policy
+    effective January 1, 2022; its About and Financials pages say "a private biomedical research institution". The eligible-institutions
+    list URL tried returned 404, and no grants or research-spending figure was returned from HHMI pages; the giving line
+    is total expenses from Form 990.
+  sweep: foundations-A
+- id: t-fa-bwf-cams-status
+  kind: recheck
+  about: records-foundations-A.yaml/bwf-career-awards-medical-scientists
+  text: The CAMS page showed a deadline of Sep 30, 2026 and "Now Accepting Applications" on 2026-10-04. Status is recorded
+    as closed on the strength of the date. No indirect-cost rule for CAMS was returned.
+  sweep: foundations-A
+- id: t-fa-bwf-nomination
+  kind: conflict
+  about: records-foundations-A.yaml/burroughs-wellcome-fund
+  text: The BWF directory says researchers "must be nominated by their institution" [2165]; the CAMS and CASI pages say
+    nomination is not needed, only institutional approval [2167] [2168]. Both are kept.
+  sweep: foundations-A
+- id: t-fa-czi-gaps
+  kind: gap
+  about: records-foundations-A.yaml/chan-zuckerberg-initiative
+  text: 'No EIN, annual giving, assets, indirect-cost policy or statement on unsolicited proposals was found for CZI; chanzuckerberg.com/rfa/
+    returned 404. The Chan Zuckerberg Initiative Foundation''s Form 990-PF was not located. foundation_kind: independent
+    is a placeholder for a four-entity structure; see legal_form. Any 2025-2026 change of strategy was not found on the
+    pages read.'
+  sweep: foundations-A
+- id: t-fa-pew-dates
+  kind: unverified
+  about: records-foundations-A.yaml/pew-biomedical-scholars
+  text: The May 13, 2026 nomination-step date and the September 3, 2026 application date for the 2027 Pew Scholars come
+    from a university research-office notice, not from Pew; the Pew page confirms only the Sept. 3, 2026 eligibility date.
+    The number of scholars a year and the Pew-Stewart and Latin American Fellows rules were not read.
+  sweep: foundations-A
+- id: t-fa-pew-kind
+  kind: recheck
+  about: records-foundations-A.yaml/pew-charitable-trusts
+  text: Pew is recorded as a public charity because it files Form 990 and the filing host classes it as a public foundation;
+    no Pew page stating its status was read. Giving for the scholars programmes was not found.
+  sweep: foundations-A
+- id: t-fa-ddf-gaps
+  kind: gap
+  about: records-foundations-A.yaml/doris-duke-foundation
+  text: 'Not found for the Doris Duke Foundation: EIN on its own pages, annual grants paid, its indirect-cost policy, and
+    the status of the Clinical Scientist Development Award, Physician Scientist Fellowship and Fund to Retain Clinical Scientists.
+    The ProPublica page for EIN 13-7043679 (Doris Duke Charitable Foundation) carried no usable figures after 2015 and was
+    not used. The audited statements and 990-PF PDFs linked from the financials page were not read.'
+  sweep: foundations-A
+- id: t-fa-helmsley-kind
+  kind: recheck
+  about: records-foundations-A.yaml/helmsley-charitable-trust
+  text: The About page says "$8 billion endowment"; the Form 990-PF summary gives total assets of $7,108,379,897 at March
+    2025. Both are in the sources; the record uses the filing figure. Legal form (a trust) is from the name only.
+  sweep: foundations-A
+- id: t-fa-public-charity-basis
+  kind: recheck
+  about: records-foundations-A.yaml/american-heart-association
+  text: The American Heart Association and the American Cancer Society are recorded as public charities because each files
+    Form 990 rather than Form 990-PF; no page of either stating its public-charity status was read. Confirm in IRS Tax Exempt
+    Organization Search.
+  sweep: foundations-A
+- id: t-fa-aha-policies
+  kind: gap
+  about: records-foundations-A.yaml/american-heart-association
+  text: The AHA application-information URL tried returned 404, so Association-wide policies (indirect costs on other awards,
+    institutional eligibility) were not read; the record rests on the opportunities list and the Career Development Award
+    notice.
+  sweep: foundations-A
+- id: t-fa-acs-fiscal-year
+  kind: recheck
+  about: records-foundations-A.yaml/american-cancer-society
+  text: The ACS filing summary shows a period ending March 2025 after a year ending December 2024, which suggests a change
+    of fiscal year; the record uses the December 2024 assets. ACS research grants paid for the year were not found.
+  sweep: foundations-A
+- id: t-fa-spencer-dates
+  kind: gap
+  about: records-foundations-A.yaml/spencer-small-research-grants
+  text: No opening or closing dates were shown for Spencer Small or Large Research Grants on 2026-10-04; both read "Now
+    closed". The first URL tried for the small grants page returned HTTP 500. The intent-to-apply rule and dates for Large
+    grants were not returned.
+  sweep: foundations-A
+- id: t-fa-spencer-rpp-status
+  kind: conflict
+  about: records-foundations-A.yaml/spencer-research-practice-partnerships
+  text: The Spencer list page shows Research-Practice Partnerships as Open with the date Oct 28, 2026 [2193]; the programme
+    page says the pre-proposal deadline has passed and October 28, 2026 is for invited full proposals [2196]. Status recorded
+    as closed (to new applicants).
+  sweep: foundations-A
+- id: t-fa-rsf-pipeline-eligibility
+  kind: conflict
+  about: records-foundations-A.yaml/rsf-pipeline-grants
+  text: 'Two RSF pages describe Pipeline Grant eligibility differently: "early and mid-career faculty who have not previously
+    received support from RSF" [2200] and "Assistant Professors, Lecturers, and Adjunct Professors" [2203]. Both kept; the
+    request for proposals, with amounts, was not read.'
+  sweep: foundations-A
+- id: t-fa-rsf-eligibility
+  kind: gap
+  about: records-foundations-A.yaml/rsf-core-research-grants
+  text: 'The RSF eligibility page was not read: the rules on institutional affiliation, on whether an individual without
+    an institution may hold a grant, and on limits per applicant are not recorded. applicant: either is provisional.'
+  sweep: foundations-A
+- id: t-fa-wtg-indirect-unsolicited
+  kind: gap
+  about: records-foundations-A.yaml/william-t-grant-foundation
+  text: The William T. Grant 2026 deadlines (already past) were not captured; 2027 dates are due to be posted in November
+    2026 (research grants) and January 2027 (Scholars).
+  sweep: foundations-A
+- id: t-fa-mellon-gaps
+  kind: gap
+  about: records-foundations-A.yaml/mellon-foundation
+  text: 'Not found for Mellon: a general indirect-cost policy; total 2025 grantmaking and the Higher Learning share; any
+    open call on 2026-10-04; the number of nominees an invited institution may put forward for New Directions Fellowships
+    and the dates of the current round.'
+  sweep: foundations-A
+- id: t-fa-carnegie-gaps
+  kind: gap
+  about: records-foundations-A.yaml/carnegie-corporation-of-new-york
+  text: 'Three guessed URLs for Carnegie Corporation''s how-to-apply and FAQ pages returned 404. Not recorded: its programme
+    areas in its own words, what it does not fund, its indirect-cost policy, and the nomination deadline for the 2027 Andrew
+    Carnegie Fellows.'
+  sweep: foundations-A
+- id: t-fa-luce-deadlines
+  kind: gap
+  about: records-foundations-A.yaml/henry-luce-foundation
+  text: Programme-level Concept Note deadlines for the Luce Foundation were not read. The apply page was returned as naming
+    "seven grantmaking programs" and two leadership programmes (Luce Scholars; Clare Boothe Luce Program for Women in STEM);
+    the programmes page lists seven including Luce Scholars. The counts need re-reading.
+  sweep: foundations-A
+- id: t-fa-guggenheim-amount
+  kind: gap
+  about: records-foundations-A.yaml/guggenheim-fellowships
+  text: The Guggenheim Foundation publishes no fixed or average Fellowship amount on the pages read.
+  sweep: foundations-A
+- id: t-fa-acls-gaps
+  kind: gap
+  about: records-foundations-A.yaml/acls
+  text: 'Not found for ACLS: its EIN and filing (the filing host''s search page is disallowed by robots.txt), its tax status
+    in its own words (public-charity is inferred from its description as a nonprofit federation), the ACLS Fellowship stipend,
+    PhD window and citizenship rule, and the stipend of the Mellon/ACLS Dissertation Innovation Fellowships. The ACLS deadlines
+    page URL tried returned 404.'
+  sweep: foundations-A
+- id: t-fa-hhmi-2025-unverified
+  kind: unverified
+  about: records-foundations-A.yaml/ch-fa-hhmi-competitions-paused-2025
+  text: The May 2025 pause of the Hanna Gray Fellows competition and the February 2025 cancellation of the Inclusive Excellence
+    programme rest on a STAT News report; no HHMI page stating either was found. The quoted HHMI statement is as the report
+    gives it.
+  sweep: foundations-A
+- id: t-fa-bridge-funds-not-found
+  kind: gap
+  about: sweep-foundations-A-science-scholarship.md
+  text: 'Searched for and not found on the funders'' own pages: any bridge, emergency or rapid-response fund for researchers
+    set up in 2025-2026 by Keck, Dreyfus, Schmidt Sciences, Templeton, Burroughs Wellcome, Pew, Doris Duke, Helmsley, the
+    American Heart Association, the American Cancer Society, Russell Sage, Carnegie, Luce, Guggenheim or ACLS. (Found and
+    recorded in changes: Spencer with Kapor, William T. Grant and Sloan; Mellon; Moore; RCSA; Kavli; and, from secondary
+    sources only, Simons.) Absence from the pages read is not evidence that none exists. A trade-press article that may
+    list such funds (Medscape, 2026) returned HTTP 402.'
+  sweep: foundations-A
+- id: t-fa-university-policies-secondary
+  kind: unverified
+  about: records-foundations-A.yaml/foundation-indirect-cost-caps
+  text: What universities do about foundation indirect-cost caps rests on two university policy pages (Harvard, last revised
+    July 29, 2024; Utah, undated), which are secondary and are examples, not a survey.
+  sweep: foundations-A
+- id: t-fa-990-recheck-all
+  kind: recheck
+  about: records-foundations-A.yaml/funders
+  text: All EINs, assets and charitable-disbursement or expense figures in this slice were read from ProPublica Nonprofit
+    Explorer summary pages through a fetch layer, not from the filings. Re-read each against the Form 990-PF or 990 itself
+    or the IRS Tax Exempt Organization Search before publication. Fiscal years differ by organisation and are stated in
+    each basis line.
+  sweep: foundations-A
+- id: t-fa-funder-fields-missing
+  kind: gap
+  about: records-foundations-A.yaml/funders
+  text: 'Fields left out because no page read states them: typical_grant for Moore, Helmsley, Luce, Mellon, Doris Duke and
+    CZI; indirect_costs for Kavli, Schmidt Sciences, CZI, Doris Duke, Carnegie and ACLS (HHMI makes appointments, so none
+    applies); giving for Pew (scholars programmes), the American Cancer Society (research grants), Doris Duke and Schmidt
+    Sciences; geography for Carnegie and ACLS.'
+  sweep: foundations-A
+- id: t-fa-searle-not-read
+  kind: gap
+  about: sweep-foundations-A-science-scholarship.md
+  text: 'The Searle Scholars Program, named in the instructions as an example of institutional nomination, was not read:
+    the address tried (searlescholars.net) returned an unrelated site. It is not in any record.'
+  sweep: foundations-A
+- id: t-fa-simons-empire-unverified
+  kind: unverified
+  about: records-foundations-A.yaml/ch-fa-simons-empire-faculty-fellowship
+  text: The Simons Empire Faculty Fellowship rests on a Physics Today report and a SUNY press release; the guessed Simons
+    Foundation URL returned 404 and the programme is not on the foundation's opportunities list. The $45 million, 55 positions
+    and three-year salary figures are from the magazine report only. The same report's "$30 million increase for collaboration
+    awards" was not verified and is not in a record.
+  sweep: foundations-A
+- id: t-fa-kavli-expansion-unverified
+  kind: unverified
+  about: records-foundations-A.yaml/ch-fa-kavli-scholars-bridge
+  text: That Kavli Scholars was created in 2022 and is expanding from 5 to up to 20 fellowships in 2026 rests on a Physics
+    Today report; the Kavli portal page gives neither date nor the expansion, and says 0-3 awards per review cycle.
+  sweep: foundations-A
+- id: t-fa-acs-policy-date
+  kind: conflict
+  about: sources-foundations-A.yaml/fa-acs-grant-policies-2026
+  text: The ACS grant policies PDF was returned with an effective date of September 2026; a search result for the same URL
+    carried the title "General Grant Policies effective March 2026". The document is revised regularly; re-read the date.
+    The grants index page, read earlier in the sweep, lists 10% indirect costs on most grants without the fellowship and
+    professor-award exceptions the policies give.
+  sweep: foundations-A
+- id: t-fb-001
+  kind: recheck
+  about: records-foundations-B.yaml/gates-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $78,673,465,696; charitable disbursements $8,101,803,172)
+    and EIN 56-2618866 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2258], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-002
+  kind: recheck
+  about: records-foundations-B.yaml/ford-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $17,484,692,219; charitable disbursements $1,053,492,085)
+    and EIN 13-1684331 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2263], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-003
+  kind: recheck
+  about: records-foundations-B.yaml/macarthur-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $9,311,570,852; charitable disbursements $423,815,311)
+    and EIN 23-7093598 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2268], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-004
+  kind: recheck
+  about: records-foundations-B.yaml/kellogg-foundation
+  text: The figures for fiscal year ending August 31, 2025 (total assets $480,985,681; charitable disbursements $414,713,836)
+    and EIN 38-1359264 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2270], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-005
+  kind: recheck
+  about: records-foundations-B.yaml/robert-wood-johnson-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $13,417,636,452; charitable disbursements $791,042,244)
+    and EIN 22-6029397 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2272], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-006
+  kind: recheck
+  about: records-foundations-B.yaml/kresge-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $3,984,695,361; charitable disbursements $207,194,380)
+    and EIN 38-1359217 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2275], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-007
+  kind: recheck
+  about: records-foundations-B.yaml/lilly-endowment
+  text: The figures for fiscal year ending December 31, 2025 (total assets $105,894,116,636; charitable disbursements $3,887,876,303)
+    and EIN 35-0868122 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2279], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-008
+  kind: recheck
+  about: records-foundations-B.yaml/hewlett-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $14,202,751,280; charitable disbursements $689,557,086)
+    and EIN 94-1655673 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2282], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-009
+  kind: recheck
+  about: records-foundations-B.yaml/packard-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $8,547,237,871; charitable disbursements $404,615,235)
+    and EIN 94-2278431 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2284], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-010
+  kind: recheck
+  about: records-foundations-B.yaml/bloomberg-philanthropies
+  text: The figures for fiscal year ending December 31, 2024 (total assets $12,117,236,821; charitable disbursements $1,473,990,509)
+    and EIN 20-5602483 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2287], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-011
+  kind: recheck
+  about: records-foundations-B.yaml/walton-family-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $6,143,971,109; charitable disbursements $603,519,475)
+    and EIN 13-3441466 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2289], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-012
+  kind: recheck
+  about: records-foundations-B.yaml/rockefeller-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $6,401,585,166; charitable disbursements $380,348,831)
+    and EIN 13-1659629 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2291], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-013
+  kind: recheck
+  about: records-foundations-B.yaml/open-society-foundations
+  text: The figures for fiscal year ending December 31, 2024 (total assets $10,843,807,551; charitable disbursements $503,984,141)
+    and EIN 26-3753801 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2294], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-014
+  kind: recheck
+  about: records-foundations-B.yaml/open-society-foundations
+  text: The figures for fiscal year ending December 31, 2024 (total assets $5,403,306,305; charitable disbursements $266,781,131)
+    and EIN 13-7029285 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2295], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-015
+  kind: recheck
+  about: records-foundations-B.yaml/knight-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $2,533,415,674; charitable disbursements $179,620,479)
+    and EIN 65-0464177 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2297], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-016
+  kind: recheck
+  about: records-foundations-B.yaml/mott-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $3,769,795,383; charitable disbursements $188,225,136)
+    and EIN 38-1211227 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2299], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-017
+  kind: recheck
+  about: records-foundations-B.yaml/annie-e-casey-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $2,287,152,244; charitable disbursements $168,562,826)
+    and EIN 52-1951681 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2301], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-018
+  kind: recheck
+  about: records-foundations-B.yaml/hilton-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $7,362,883,680; charitable disbursements $336,794,890)
+    and EIN 94-3100217 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2303], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-019
+  kind: recheck
+  about: records-foundations-B.yaml/mellon-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $7,820,349,022; charitable disbursements $635,411,854)
+    and EIN 13-1879954 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2215], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-020
+  kind: recheck
+  about: records-foundations-B.yaml/wallace-foundation
+  text: The figures for fiscal year ending December 31, 2024 (total assets $1,756,582,199; charitable disbursements $78,894,071)
+    and EIN 13-6183757 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2305], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-021
+  kind: recheck
+  about: records-foundations-B.yaml/surdna-foundation
+  text: The figures for fiscal year ending June 30, 2025 (total assets $1,231,171,978; charitable disbursements $68,762,258)
+    and EIN 13-6108163 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2308], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-022
+  kind: recheck
+  about: records-foundations-B.yaml/duke-endowment
+  text: The figures for fiscal year ending December 31, 2024 (total assets $3,567,263,777; charitable disbursements $276,183,294)
+    and EIN 56-0529965 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2311], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-023
+  kind: recheck
+  about: records-foundations-B.yaml/woodruff-foundation
+  text: The figures for fiscal year ending December 31, 2025 (total assets $1,897,813,328; charitable disbursements $192,234,415)
+    and EIN 58-1695425 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2314], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-024
+  kind: recheck
+  about: records-foundations-B.yaml/arnold-ventures
+  text: The figures for fiscal year ending December 31, 2024 (total assets $4,766,058,262; charitable disbursements $194,410,999)
+    and EIN 26-3241764 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2322], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-025
+  kind: recheck
+  about: records-foundations-B.yaml/commonwealth-fund
+  text: The figures for fiscal year ending June 30, 2025 (total assets $922,680,894; charitable disbursements $50,113,580)
+    and EIN 13-1635260 were read from the Form 990-PF summary on ProPublica's Nonprofit Explorer [2325], not from the return
+    itself. Check them against the filed return, and say whether the disbursement figure includes administrative expenses.
+  sweep: foundations-B
+- id: t-fb-026
+  kind: gap
+  about: records-foundations-B.yaml/kellogg-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-027
+  kind: gap
+  about: records-foundations-B.yaml/kresge-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-028
+  kind: gap
+  about: records-foundations-B.yaml/lilly-endowment
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-029
+  kind: gap
+  about: records-foundations-B.yaml/bloomberg-philanthropies
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-030
+  kind: gap
+  about: records-foundations-B.yaml/walton-family-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-031
+  kind: gap
+  about: records-foundations-B.yaml/rockefeller-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-032
+  kind: gap
+  about: records-foundations-B.yaml/open-society-foundations
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-033
+  kind: gap
+  about: records-foundations-B.yaml/knight-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-034
+  kind: gap
+  about: records-foundations-B.yaml/mott-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-035
+  kind: gap
+  about: records-foundations-B.yaml/annie-e-casey-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-036
+  kind: gap
+  about: records-foundations-B.yaml/hilton-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-037
+  kind: gap
+  about: records-foundations-B.yaml/mellon-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-038
+  kind: gap
+  about: records-foundations-B.yaml/wallace-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-039
+  kind: gap
+  about: records-foundations-B.yaml/surdna-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-040
+  kind: gap
+  about: records-foundations-B.yaml/duke-endowment
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-041
+  kind: gap
+  about: records-foundations-B.yaml/woodruff-foundation
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-042
+  kind: gap
+  about: records-foundations-B.yaml/yield-giving
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-043
+  kind: gap
+  about: records-foundations-B.yaml/arnold-ventures
+  text: No indirect-cost or overhead policy was found on the pages read for this foundation; the indirect_costs field is
+    left out. Look for a budget guideline or grantee FAQ.
+  sweep: foundations-B
+- id: t-fb-044
+  kind: gap
+  about: records-foundations-B.yaml/arnold-ventures
+  text: No page read states Arnold Ventures' legal form in a sentence. Its home page says 'a philanthropy' founded 'with
+    the launch of a foundation'; its terms of use use the abbreviation 'AVLLC'; the 990-PF found is the Laura and John Arnold
+    Foundation's. Find the page where it describes its structure (LLC, foundation, any other entity) and record the wording.
+  sweep: foundations-B
+- id: t-fb-045
+  kind: gap
+  about: records-foundations-B.yaml/yield-giving
+  text: 'Yield Giving''s pages name no legal form and no tax filing. funder_kind is left as ''foundation'' by default and
+    foundation_kind is left out. Scope question for the author: how should a donor''s direct giving with no foundation be
+    classed? Also not found: gift sizes, the open call''s entry rules and its total, and any 2025 or 2026 giving figure
+    (the essay of December 9, 2025 returned none).'
+  sweep: foundations-B
+- id: t-fb-046
+  kind: gap
+  about: records-foundations-B.yaml/bloomberg-philanthropies
+  text: Bloomberg Philanthropies is an umbrella for foundation, corporate and personal giving; the EIN and filing recorded
+    are the Bloomberg Family Foundation's only. No annual report page with a breakdown was fetched (bloomberg.org/about/annual-report/
+    returned 404; the link on the about page is bloomberg.org/annualreport/).
+  sweep: foundations-B
+- id: t-fb-047
+  kind: gap
+  about: records-foundations-B.yaml/open-society-foundations
+  text: Two 990-PF filers were found (Foundation to Promote Open Society and Open Society Institute); the network has other
+    entities that were not looked for. Which entity funds United States grantees, and the network's total budget for 2025
+    or 2026, were not found.
+  sweep: foundations-B
+- id: t-fb-048
+  kind: gap
+  about: records-foundations-B.yaml/hewlett-foundation
+  text: hewlett.org/grantseekers/ is disallowed by robots.txt and was not read. Typical grant size and term, reporting rules
+    and the text of the indirect costs policy for project grants were not found. The 'Future of Giving Strategy' dated September
+    2025 (hewlett.org/wp-content/uploads/2025/09/Hewlett-Foundation-Future-of-Giving-Strategy.pdf) was located by search
+    and not read.
+  sweep: foundations-B
+- id: t-fb-049
+  kind: gap
+  about: records-foundations-B.yaml/robert-wood-johnson-foundation
+  text: 'The RWJF indirect cost policy document is disallowed by robots.txt at two addresses and was not read. The active
+    funding opportunities page returned no list of calls on a second attempt, so the calls open on 2026-10-04 are not recorded.
+    No RWJF statement on unsolicited proposals was found. (Edited by slice D: the rates by type of organisation are now
+    in the record, taken from the question-and-answer sheet of a 2026 call; recheck them against the policy document.)'
+  sweep: foundations-B
+- id: t-fb-050
+  kind: gap
+  about: records-foundations-B.yaml/rwjf-exploring-equitable-futures
+  text: Facts come from the February 2025 FAQ. The 2026 dates, and whether the call is open on 2026-10-04 (it closes 'on
+    or about October 15'), were not confirmed; status is 'unconfirmed'. The purpose statement of the call was not read.
+  sweep: foundations-B
+- id: t-fb-051
+  kind: gap
+  about: records-foundations-B.yaml/robert-wood-johnson-foundation
+  text: Evidence for Action took letters of intent on a rolling basis under a call dated September 2021 [2338]. Whether
+    it still does was not confirmed, so no programme record is written for it.
+  sweep: foundations-B
+- id: t-fb-052
+  kind: gap
+  about: records-foundations-B.yaml/lilly-endowment
+  text: 'Deadlines and award sizes of the three open religion initiatives are on their own pages, which were not read. (Edited
+    by slice D: the 2025 annual report was read as a PDF, and grants paid, grants approved, the split by division and the
+    share paid in Indiana are now in the record; the 2025 annual report landing page still returns only navigation.)'
+  sweep: foundations-B
+- id: t-fb-053
+  kind: gap
+  about: records-foundations-B.yaml/kellogg-foundation
+  text: The grantseeker FAQ was not found (two guessed addresses returned 404). Typical grant size, whether general operating
+    support is given and the indirect cost rule are not recorded. The W. K. Kellogg Foundation Trust files a separate 990-PF,
+    which was not read; the foundation's own filing shows assets of $480,985,681 because the endowment sits in the trust.
+  sweep: foundations-B
+- id: t-fb-054
+  kind: gap
+  about: records-foundations-B.yaml/kresge-foundation
+  text: Whether Kresge gives general operating support and its typical grant size were not found on the pages read. The
+    fetch of the home page returned four 'focus cities' that may have echoed the question asked; they are left out. A president
+    succession was searched for and not found on kresge.org.
+  sweep: foundations-B
+- id: t-fb-055
+  kind: gap
+  about: records-foundations-B.yaml/knight-foundation
+  text: The 'How we fund' page has an FAQ item 'Are there programs Knight doesn't fund?' whose answer the fetch did not
+    return. No grants database address was found. The dates of the second Knight Cities Challenge round were not found.
+  sweep: foundations-B
+- id: t-fb-056
+  kind: gap
+  about: records-foundations-B.yaml/macarthur-foundation
+  text: 'No date for a fourth 100&Change cycle was found. (Edited by slice D: the foundation''s questions page gives macfound.org/grants/
+    as the grant search, and grants_database_url is now set from it; the address itself returned a redirect loop to slice
+    B and should be opened in a browser.)'
+  sweep: foundations-B
+- id: t-fb-057
+  kind: gap
+  about: records-foundations-B.yaml/mott-foundation
+  text: Exclusions, typical grant size and whether general purposes grants are made were not on the page read.
+  sweep: foundations-B
+- id: t-fb-058
+  kind: gap
+  about: records-foundations-B.yaml/duke-endowment
+  text: The Rural Church application page was not read. No grants database address was found.
+  sweep: foundations-B
+- id: t-fb-059
+  kind: gap
+  about: records-foundations-B.yaml/gates-foundation
+  text: The United States programme's pages give no grant sizes or terms, and no open RFP was listed on 2026-10-04. Whether
+    the 2017 indirect cost policy is still the version in force was not confirmed on a dated 2025 or 2026 page.
+  sweep: foundations-B
+- id: t-fb-060
+  kind: gap
+  about: records-foundations-B.yaml/ford-foundation
+  text: The response time for the idea form and the share of ideas that lead to grants were not found. The 2026 opening
+    of the New York City Good Neighbor Committee was not found; the page still gives 2025 wording.
+  sweep: foundations-B
+- id: t-fb-061
+  kind: gap
+  about: records-foundations-B.yaml/mellon-foundation
+  text: The 2025 annual report page returned no total for grants paid and no asset figure. Whether a Higher Learning open
+    call for 2027 will be held was not found. Grant size and response time for Humanities in Place were not found.
+  sweep: foundations-B
+- id: t-fb-062
+  kind: gap
+  about: records-foundations-B.yaml/funders
+  text: foundation_kind is set to 'independent' wherever the foundation's own page did not describe its kind (Woodruff calls
+    itself 'an independent private foundation'; Walton and Bloomberg are marked 'family' from their legal names). Confirm
+    each against the foundation's own description.
+  sweep: foundations-B
+- id: t-fb-063
+  kind: unverified
+  about: records-foundations-B.yaml/gates-foundation
+  text: The change of name from Bill & Melinda Gates Foundation to Gates Foundation, and its date, rest on a Devex report
+    of January 17, 2025 [2331]. The foundation's own announcement was not found. The 2024 filing summary and the foundation's
+    pages do use the new name.
+  sweep: foundations-B
+- id: t-fb-064
+  kind: unverified
+  about: records-foundations-B.yaml/robert-wood-johnson-foundation
+  text: That RWJF was 'paying out at 6.5%' in 2025 rests on a Center for Effective Philanthropy blog post of March 25, 2025
+    [2364]. No RWJF page stating a payout rate or an increase was found. The claim is in changes only, not in the funder
+    record.
+  sweep: foundations-B
+- id: t-fb-066
+  kind: conflict
+  about: records-foundations-B.yaml/ford-foundation
+  text: Ford's grants landing page says $2 billion has been dedicated to strengthening social justice institutions [2259];
+    the BUILD page describes a $1 billion initiative over five years for up to 300 organisations [2262]. Both are kept;
+    the larger figure may add a second phase.
+  sweep: foundations-B
+- id: t-fb-067
+  kind: conflict
+  about: records-foundations-B.yaml/hilton-foundation
+  text: 'Three figures were returned for Hilton''s giving: ''approximately $114.3M'' for 2025 from the grants page (not
+    used; it may be a partial total from the page''s search widget), ''over $300 million'' paid in 2025 from a news item
+    [2344], and $336,794,890 in charitable disbursements for fiscal year 2024 from the filing summary [2303]. Check the
+    grants page figure.'
+  sweep: foundations-B
+- id: t-fb-068
+  kind: conflict
+  about: records-foundations-B.yaml/macarthur-foundation
+  text: 'Two 2025 figures from MacArthur''s own pages: $561.6 million in grants and impact investments paid [2267] and $647
+    million in charitable spending, a 7.1 percent payout [2327]. They appear to measure different things (the second includes
+    administrative expenses); both are kept.'
+  sweep: foundations-B
+- id: t-fb-069
+  kind: conflict
+  about: records-foundations-B.yaml/walton-family-foundation
+  text: For 2024 the foundation reports $548.8 million in grants distributed [2351]; the filing summary shows $603,519,475
+    in charitable disbursements [2289]. Both are kept; the bases differ.
+  sweep: foundations-B
+- id: t-fb-070
+  kind: conflict
+  about: records-foundations-B.yaml/duke-endowment
+  text: The Endowment reports assets of $5.4 billion at December 31, 2025 [2309]; the filing summary for fiscal year 2024
+    shows total assets of $3,567,263,777 [2311]. The years differ and the filing figure may be book value. Both are kept.
+  sweep: foundations-B
+- id: t-fb-071
+  kind: recheck
+  about: records-foundations-B.yaml/yield-giving
+  text: The running total (over $26,000,000,000 in 2,700+ gifts) is as shown on yieldgiving.com on 2026-10-04 and changes
+    without notice.
+  sweep: foundations-B
+- id: t-fb-072
+  kind: recheck
+  about: records-foundations-B.yaml/knight-cities-challenge
+  text: The press release date was not returned by the fetch; the change is dated to the opening of applications, April
+    1, 2026. The list of 26 communities should be checked against knightfoundation.org/our-communities/.
+  sweep: foundations-B
+- id: t-fb-073
+  kind: recheck
+  about: records-foundations-B.yaml/foundation-payout-rate
+  text: The 5 percent minimum is given here as MacArthur describes it. The statute (Internal Revenue Code section 4942)
+    and the IRS page on minimum distributions were not read in this sweep; a rules-family source should carry the rule.
+  sweep: foundations-B
+- id: t-fc-001
+  kind: conflict
+  about: records-foundations-C.yaml/candid-search
+  text: Candid's pricing page gives Premium annual $1,199/year and Ultimate annual $1,699/year; the Candid search product
+    page returned $2,199/year and $2,499/year for the same plans. One may be a list price and the other a discounted price.
+    Both are kept.
+  sweep: foundations-C
+- id: t-fc-002
+  kind: conflict
+  about: records-foundations-C.yaml/greater-kansas-city-community-foundation
+  text: 'Three asset figures: "more than $10 billion" managed (About page), $6,867,112,387 (consolidated audit, December
+    31, 2024) and $3,386,068,279 (Form 990 for 2024). They may cover different sets of entities. Grants likewise differ:
+    $585,449,878 (audit) and $353,684,313 (Form 990).'
+  sweep: foundations-C
+- id: t-fc-003
+  kind: conflict
+  about: records-foundations-C.yaml/new-york-community-trust
+  text: 'Grants: $243,054,568 (2025 combined financial report), $233M (headline on the financials page, year not shown),
+    $201,351,993 (2024 Form 990, The New York Community Trust alone). The number of funds is given as 2,382 on the page
+    and "more than 2,100" in the report.'
+  sweep: foundations-C
+- id: t-fc-006
+  kind: unverified
+  about: records-foundations-C.yaml/corporate-foundation-versus-giving-programme
+  text: The definitions of company-sponsored foundation and corporate giving programme are Candid's glossary, a secondary
+    source; no IRS page read defines them. Likewise federated fund and letter of inquiry.
+  sweep: foundations-C
+- id: t-fc-007
+  kind: unverified
+  about: records-foundations-C.yaml/giving-circle
+  text: The giving circle record rests on one page of a membership network (secondary). No count of circles and no primary
+    definition was found.
+  sweep: foundations-C
+- id: t-fc-008
+  kind: unverified
+  about: records-foundations-C.yaml/community-foundation
+  text: The counts of community foundations (more than 900; over 500 accredited) are the Council on Foundations' own explainer,
+    an association page.
+  sweep: foundations-C
+- id: t-fc-009
+  kind: recheck
+  about: sources-foundations-C.yaml/fc-usc-170-lii
+  text: Section 170 was read on Cornell's Legal Information Institute because uscode.house.gov returned a maintenance message
+    twice for that section. Recheck subsections (b)(1)(I) and (b)(2)(A) against the House site, and read subsection (p),
+    which the fetch did not reach.
+  sweep: foundations-C
+- id: t-fc-010
+  kind: recheck
+  about: sources-foundations-C.yaml/fc-svcf-990-propublica
+  text: Silicon Valley Community Foundation's Form 990 figures were read on ProPublica Nonprofit Explorer. Recheck against
+    the filing itself.
+  sweep: foundations-C
+- id: t-fc-011
+  kind: recheck
+  about: sources-foundations-C.yaml/fc-irs-form-990pf-2025
+  text: All quotations from Form 990-PF came through the fetch tool's reading of the PDF. Recheck the Part XIV line 2 wording,
+    the line numbers (Part I line 25, Part II line 16, Part V line 1, Part IX line 6, Part VI-A question 13, Part VI-B line
+    5a) and the form year against the PDF.
+  sweep: foundations-C
+- id: t-fc-012
+  kind: gap
+  about: records-foundations-C.yaml/form-990-pf-unsolicited-applications-line
+  text: 'The line-by-line instructions for Part XIV in the 2025 Instructions for Form 990-PF were not read: the fetch layer
+    truncated both the HTML and the PDF before that part, and returned invented text when pressed (a "1%" tax rate and numeric
+    recipient codes), which was discarded. Read the instructions for Part XIV lines 2 and 3 directly, including the codes
+    for "foundation status of recipient". (Edited by slice D: tried again on the 2025 HTML, the 2025 PDF and the 2024 PDF;
+    each stopped short of Part XIV. The wording of the form itself for lines 1 to 3 is now recorded, and the 2023 and 2024
+    forms are confirmed as Part XIV. The status value seen in four e-filed returns was "PC"; its meaning was not read on
+    an IRS page.)'
+  sweep: foundations-C
+- id: t-fc-013
+  kind: gap
+  about: records-foundations-C.yaml/foundation-giving-size-of-field
+  text: No IRS source giving the absolute number of private foundations was found. IRS Publication 5505 for tax year 2022
+    gives shares only. The Giving USA release showed no day or month through the fetch layer.
+  sweep: foundations-C
+- id: t-fc-014
+  kind: gap
+  about: records-foundations-C.yaml/walmart-foundation
+  text: No EIN, assets or foundation-only giving was found on the pages read for the Walmart Foundation, the Bank of America
+    Charitable Foundation, the Wells Fargo Foundation, The Home Depot Foundation, the Lowe's Foundation, the Cleveland Foundation,
+    the FNIH, NFWF or the National Park Foundation. ProPublica's search pages are closed to the fetch tool, so a filing
+    can be reached only with an EIN taken from the funder's own site.
+  sweep: foundations-C
+- id: t-fc-015
+  kind: gap
+  about: records-foundations-C.yaml/silicon-valley-community-foundation
+  text: 'Eligibility, grant size and number of awards for Community Action Grants were not on the page as fetched. The Year
+    in Review gives category totals with no stated period. (Edited by slice D: grants awarded and total assets for 2024
+    are now in the record from the consolidated audited statements; the 2025 statements were not found, and the "By the
+    Numbers" page for 2025 returned the home page.)'
+  sweep: foundations-C
+- id: t-fc-016
+  kind: gap
+  about: records-foundations-C.yaml/national-park-foundation
+  text: The National Park Foundation's grants page returned 403. Whether it makes competitive grants to outside applicants
+    was not established. The same question is open for the FNIH, whose "Who We Are" page names no grant programme.
+  sweep: foundations-C
+- id: t-fc-017
+  kind: gap
+  about: records-foundations-C.yaml/standing
+  text: No primary source defining a "health conversion foundation" was found; the Grantmakers In Health address tried returned
+    404. No record was written.
+  sweep: foundations-C
+- id: t-fc-018
+  kind: gap
+  about: records-foundations-C.yaml/candid-near-you-locator
+  text: Candid's locator page did not say, through the fetch layer, what kinds of institution its partners are, how many
+    there are, or which product they give free access to. The existing help record candid-community-partners may hold more.
+  sweep: foundations-C
+- id: t-fc-019
+  kind: gap
+  about: records-foundations-C.yaml/microsoft-nonprofit-programme
+  text: The sizes of Microsoft's and Google's in-kind grants (licence counts, monthly advertising credit, cloud credits)
+    were not on the pages read. TechSoup returned 403 and has no record.
+  sweep: foundations-C
+- id: t-fc-020
+  kind: gap
+  about: records-foundations-C.yaml/ch-fc-executive-order-14173
+  text: The sweep read the text of Executive Order 14173 and NSPM-7 only. It did not look for court orders affecting Executive
+    Order 14173, the Attorney General's report, or any IRS action taken under either document. No 2025 change to the campaign-activity
+    prohibition was found on the IRS campaign-intervention page read; court filings on that subject were not searched.
+  sweep: foundations-C
+- id: t-fc-021
+  kind: gap
+  about: records-foundations-C.yaml/private-operating-foundation
+  text: The tests for a private operating foundation (income, assets, endowment, support) and the definition of an exempt
+    operating foundation are on linked IRS pages that were not read. The IRS definition of a qualifying distribution was
+    also not read; the page fetched was an index.
+  sweep: foundations-C
+- id: t-fc-022
+  kind: gap
+  about: records-foundations-C.yaml/chicago-community-trust
+  text: Indirect-cost policies were found only for the New York Community Trust and NFWF. None was found for the other fourteen
+    funders. Typical grant sizes were not stated by the Chicago Community Trust, Wells Fargo or the Lowe's Foundation.
+  sweep: foundations-C
+- id: t-fc-023
+  kind: recheck
+  about: records-foundations-C.yaml/walmart-spark-good-local-grants
+  text: The Spark Good cycle dates are given by Walmart for "FY27" with no calendar year. The record treats Cycle 3 (Aug.
+    1 - Nov. 30) as open on 2026-10-04 on the reading that Walmart's fiscal year 2027 began in February 2026; confirm.
+  sweep: foundations-C
+- id: t-fc-024
+  kind: recheck
+  about: sources-foundations-C.yaml/fc-nyct-990-2024
+  text: The fetch returned the Schedule A line 8 citation on the New York Community Trust's Form 990 as section 170(b)(1)(A)(viii),
+    which differs from the wording returned for the same line on the Chicago and Kansas City Forms 990 (section 170(b)(1)(A)(vi));
+    the record cites the line number only. Recheck the PDF.
+  sweep: foundations-C
+- id: t-fd-001
+  kind: conflict
+  about: records-foundations-B.yaml/lilly-endowment
+  text: 'Lilly Endowment total assets at December 31, 2025: $105,891,794,276 in the financial statements of its 2025 annual
+    report [2483] against $105,894,116,636 in the filing summary [2279]. For December 31, 2024 three figures were returned:
+    $79,906,367,700 (annual report), $79,907,328,537 (return, book value) and $79,917,437,633 (return, fair market value)
+    [2483] [2511]. Giving for 2025: $3.85 billion grants paid (annual report) against $3,887,876,303 charitable disbursements
+    (filing summary); the bases differ. All are kept.'
+  sweep: foundations-D
+- id: t-fd-002
+  kind: conflict
+  about: records-foundations-B.yaml/gates-foundation
+  text: 'Gates Foundation, 2025: "total charitable support" of $8.47 billion on the fact sheet [2254] against total expenses
+    of $8,144,856 thousand in the audited statements, of which grants expense is $5,971,000 thousand and grants paid in
+    cash $6,526,520 thousand [2484]. Total assets at December 31, 2024: $78,908,947 thousand in the audited statements against
+    $78,673,465,696 in the filing summary [2258]. Assets are stated three ways: the foundation ($90,881,058 thousand at
+    December 31, 2025), the trust ($93,167,664 thousand at the same date) and the trust endowment ($92 billion at June 30,
+    2026, unaudited). All are kept; how the foundation''s statements count the trust''s assets was not read.'
+  sweep: foundations-D
+- id: t-fd-003
+  kind: conflict
+  about: records-foundations-B.yaml/hewlett-foundation
+  text: 'Hewlett Foundation assets at December 31, 2024: "approximately $13.9 billion" on its About page [2488] against
+    total assets of $14,202,751,280 in the filing summary [2282]. Giving for 2024: $631 million in grants awarded (About
+    page) against $689,557,086 in charitable disbursements (filing summary); the bases differ. The audited statements are
+    in a folder its robots.txt disallows and were not read.'
+  sweep: foundations-D
+- id: t-fd-004
+  kind: conflict
+  about: records-foundations-B.yaml/macarthur-foundation
+  text: 'MacArthur Foundation assets at December 31, 2024: "$9.2 billion" on its investments page [2495] against total assets
+    of $9,311,570,852 in the filing summary [2268]. Its questions page gives roughly $9.9 billion at December 31, 2025 [2496].
+    All are kept.'
+  sweep: foundations-D
+- id: t-fd-005
+  kind: conflict
+  about: records-foundations-C.yaml/silicon-valley-community-foundation
+  text: 'Silicon Valley Community Foundation total assets at December 31, 2024: $16,151,233 thousand in the consolidated
+    audited statements [2509] against $12,299,698,780 on the Form 990 summary [2415]. The statements are consolidated and
+    may cover more entities than the return. Grants awarded were returned as $3,187,080 thousand for 2024 and $4,655,917
+    thousand for 2023; the 2023 figure is far above 2022 ($2,619,288 thousand) and should be re-read.'
+  sweep: foundations-D
+- id: t-fd-006
+  kind: conflict
+  about: records-foundations-B.yaml/open-society-foundations
+  text: 'Open Society Foundations, 2024: "$1.2B Total 2024 expenditures" for the network on its financials page [2492] against
+    charitable disbursements of $503,984,141 and $266,781,131 for the two private foundations whose filings were found [2294]
+    [2295]. The network figure covers more entities than the two returns. All are kept.'
+  sweep: foundations-D
+- id: t-fd-007
+  kind: conflict
+  about: records-foundations-B.yaml/kellogg-foundation
+  text: 'W.K. Kellogg Foundation, fiscal year ending August 31, 2025: total expenses of $444,951,301 and grants expense
+    of $314,909,604 in the combined audited statements of the foundation and its trust [2494] against charitable disbursements
+    of $414,713,836 in the foundation''s own filing summary [2270]. Total assets: $9,667,630,186 combined against $480,985,681
+    for the foundation alone. The entities and bases differ. All are kept.'
+  sweep: foundations-D
+- id: t-fd-008
+  kind: conflict
+  about: records-foundations-B.yaml/ford-foundation
+  text: 'Ford Foundation, 2024: total expenditures of $1,002,424 thousand and grant payments of $833,576 thousand in the
+    audited statements [2487] against charitable disbursements of $1,053,492,085 in the filing summary [2263]. Total assets
+    for 2024 agree ($17,484,692 thousand and $17,484,692,219). The bases of the giving figures differ. All are kept.'
+  sweep: foundations-D
+- id: t-fd-009
+  kind: conflict
+  about: records-foundations-A.yaml/moore-foundation
+  text: 'Moore Foundation, 2024: grants paid of $394,791 thousand in the audited statement of cash flows [2491] against
+    $403,028,969 on Part I, line 25, column (d) of the return and $391,128,264 per books [2510]; charitable disbursements
+    of $440,277,686 in the filing summary equal line 26, column (d). Total assets for 2024 agree. All are kept.'
+  sweep: foundations-D
+- id: t-fd-010
+  kind: recheck
+  about: records-foundations-C.yaml/corporate-charitable-deduction-floor
+  text: Slice D removed todo t-fc-004. The effective dates of the 1 percent corporate floor, the 0.5 percent individual
+    floor, the non-itemiser deduction and the endowment tax tiers now rest on the Joint Committee on Taxation's table JCX-35-25,
+    which scores the text the Senate passed on July 1, 2025, not the enrolled law. Confirm against sections 70424, 70425,
+    70426 and 70415 of Public Law 119-21 or the United States Code notes; uscode.house.gov returned a maintenance message
+    for section 170 a third time, and the public law text is truncated by the fetch layer before those sections.
+  sweep: foundations-D
+- id: t-fd-011
+  kind: unverified
+  about: records-foundations-C.yaml/excise-tax-on-net-investment-income
+  text: 'Slice D removed todo t-fc-005: two Joint Committee on Taxation tables now show that a private foundation rate increase
+    was in the House committee text of May 13, 2025 and not in the Senate-passed text of July 1, 2025. The rates of that
+    earlier provision (1.39 percent to 10 percent) still rest on a law-firm summary [2395]; the table returned no rates.'
+  sweep: foundations-D
+- id: t-fd-012
+  kind: recheck
+  about: records-foundations-B.yaml/packard-foundation
+  text: Slice D removed todo t-fb-065 after reading the full sentence on unsolicited proposals. The statement that the foundation
+    "does not accept unsolicited proposals" was reported by the fetch layer as the page's meta-description, not as body
+    text. Check it in the page source.
+  sweep: foundations-D
+- id: t-fd-013
+  kind: recheck
+  about: records-foundations-C.yaml/irs-990-e-file-data
+  text: The XML element names for Form 990-PF Part XIV and Part I were read through the fetch layer from four returns filed
+    under schema versions 2024v5.0 and 2024v5.2 (Dreyfus, Kavli, Moore, Lilly). Confirm them against the IRS schema package
+    for each tax year the site will read; names can change between versions. The address pattern of the files in the GivingTuesday
+    bucket (EfileData/XmlFiles/<object id>_public.xml) was inferred from the access page and worked for four of five object
+    ids tried. In the data dictionary tab "990PF Future Grants" three descriptions look shifted against their variable names.
+  sweep: foundations-D
+- id: t-fd-014
+  kind: recheck
+  about: records-foundations-B.yaml/robert-wood-johnson-foundation
+  text: The RWJF indirect rates (0%, 15%, 30%) come from the question-and-answer sheet of one 2026 call, not from the policy
+    document, which robots.txt disallows. Check that the same rates apply to all calls.
+  sweep: foundations-D
+- id: t-fd-015
+  kind: gap
+  about: records-foundations-C.yaml/form-990-pf-unsolicited-applications-line
+  text: 'The IRS instructions for Form 990-PF Part XIV were still not read (three more attempts: 2025 HTML, 2025 PDF, 2024
+    PDF). Not recorded: what the instructions say a foundation must enter on lines 2a to 2d, the codes for "foundation status
+    of recipient" (the value seen was "PC"), and whether a schedule may be attached in place of the line 3 list. See also
+    t-fc-012.'
+  sweep: foundations-D
+- id: t-fd-016
+  kind: gap
+  about: sweep-foundations-D-gaps.md
+  text: 'Own-document figures not found for four of the twelve largest funders by recorded assets. Robert Wood Johnson Foundation:
+    its statements and returns are listed on its financials page but sit under a folder robots.txt disallows. Bloomberg
+    Philanthropies: no asset statement on its own pages; bloomberg.org/annual-report/ and /terms-of-use/ returned 404. Howard
+    Hughes Medical Institute: the fiscal 2025 statements were not located (two guessed addresses returned 404); the fiscal
+    2023 statements were read. Silicon Valley Community Foundation: the 2025 statements were not found; the 2024 statements
+    were read.'
+  sweep: foundations-D
+- id: t-fd-017
+  kind: gap
+  about: records-foundations-C.yaml/irs-990-e-file-data
+  text: GivingTuesday's "990PF Basic Fields" tab, as returned, has variables for the Part XIV line 2 check box and the line
+    2a contact and none for lines 2b, 2c and 2d (form of application, deadlines, restrictions). Those three text fields
+    were seen only in the raw XML. Which filing years the lake holds, and how long after filing a return appears, are not
+    stated on the pages read; the 2025 return of Lilly Endowment was not at its expected address on 2026-10-04.
+  sweep: foundations-D
+- id: t-fd-018
+  kind: gap
+  about: records-foundations-A.yaml/hhmi
+  text: 'HHMI''s fiscal 2023 statements say "The Institute is a public charity"; they were not searched for the words "medical
+    research organization" or a section 170(b)(1)(A)(iii) citation. foundation_kind: medical-research-organization still
+    rests on a news release (see t-fa-hhmi-mro).'
+  sweep: foundations-D
+- id: t-fd-keck-phase-one
+  kind: conflict
+  about: funders/keck-foundation
+  text: 'Spot check by the lead on 2026-10-04: the foundation''s research FAQ page still mentions a "Phase I Application",
+    while the record, from the application instructions dated 2026-08-26, describes a single application with no phase one.
+    Three applications per institution per cycle is confirmed on the FAQ. Read both pages again and settle which process
+    is current.'
+  sweep: foundations-D
 - id: t-merge-gates-sam-registration
   kind: recheck
   about: gates/sam-registration
@@ -4138,5 +5177,20 @@
 - id: t-merge-mechanics-financial-management-standards
   kind: recheck
   about: mechanics/financial-management-standards
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-funders-packard-foundation
+  kind: recheck
+  about: funders/packard-foundation
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-funders-mellon-foundation
+  kind: recheck
+  about: funders/mellon-foundation
+  text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
+  sweep: consolidation
+- id: t-merge-mechanics-foundation-letter-of-inquiry
+  kind: recheck
+  about: mechanics/foundation-letter-of-inquiry
   text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
   sweep: consolidation

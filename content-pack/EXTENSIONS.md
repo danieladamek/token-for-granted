@@ -1,4 +1,4 @@
-# Taken for Granted content pack — extension schema (draft v0.6, 2026-10-04)
+# Taken for Granted content pack — extension schema (draft v0.7, 2026-10-04)
 
 Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -336,3 +336,43 @@ The rules sweep gave gates and rules their full treatment. Its layouts are fulle
 Where an earlier sweep had written a gate, mechanics, standing or help record in passing and the rules sweep wrote the same id, the rules record is the main record and the earlier statements sit beneath it under `variants`.
 
 Statuses still missing from the vocabulary and recorded in prose: a declaratory judgment with no injunction or vacatur (recorded as `in-litigation`).
+
+## Added in v0.7, after the foundations sweep
+
+```yaml
+# funders.yaml — a foundation or other private grantmaker
+- id: sloan-foundation
+  name: Alfred P. Sloan Foundation
+  funder_kind: foundation         # foundation | independent-nonprofit (a public charity or research organisation that makes grants)
+  foundation_kind: independent    # independent | family | community | corporate | operating | public-charity |
+                                  # medical-research-organization | donor-advised-fund-sponsor
+  legal_form: '… [n]'             # where the funder is not one entity or not a foundation in law (an LLC beside a
+  legal_form_note: '… [n]'        # foundation, a trust behind a foundation, a network of filers), in its own words
+  ein: '13-1623877'
+  what_it_funds: '… in its own words [n]'
+  fields: [science, economics]
+  who_it_funds: '… [n]'
+  unsolicited: letter-of-inquiry  # accepted | letter-of-inquiry | invitation-only | open-call-only | not-stated
+  unsolicited_note: '… the foundation's own wording [n]'
+  how_to_approach: '… [n]'
+  cycle: '… [n]'
+  typical_grant: '… [n]'
+  indirect_costs: '… its overhead policy, with the exact cap [n]'
+  giving:                         # more than one entry where the foundation's own report and its filing differ
+  - {amount: '$…', year: 2025, basis: 'grants paid | grants approved | charitable disbursements', cite: [n]}
+  assets: {amount: '$…', year: 2025, cite: [n]}
+  giving_form: in-kind            # only where the programme gives products or services, not money
+  geography: '… [n]'
+  programs: [sloan-research-fellowships]
+  pending_changes: [{status: announced, date: '2025-05-08', text: '… [n]'}]
+  official_url: https://…
+  grants_database_url: https://…
+  as_of: '2026-10-04'
+  sources: [n, n]
+```
+
+`unsolicited` is the field a grant seeker reads first. `open-call-only` means the funder takes applications only under a posted competition; `invitation-only` means it says it does not accept unsolicited requests.
+
+A foundation programme record uses the programme layout with `funder_kind: foundation`, and its `family` is whichever of research, people, programme-service or capacity fits the award, so foundation programmes sit beside federal ones.
+
+Figures for giving and assets came first from ProPublica's summaries of the filings; for the twelve largest the foundation's own statement was added. Where the two differ both are kept, with a `conflict` todo.

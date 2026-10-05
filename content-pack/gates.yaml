@@ -2595,3 +2595,79 @@
   - nsf-conflict-of-interest-policy
   - foreign-support-disclosure
   sweep: rules-D
+- id: aha-professional-membership
+  name: American Heart Association Professional Membership
+  what: An applicant for an AHA research award must be an AHA Professional Member when the proposal is submitted [2188].
+  applies_when: Stated for the Career Development Award; the Association-wide rule was not read [2188].
+  who_does_it: person
+  official_url: https://professional.heart.org/en/research-programs/aha-funding-opportunities/career-development-award
+  sources:
+  - 2188
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: hhmi-arc
+  name: HHMI Application and Review Channel (ARC)
+  what: HHMI's own system for applications to its competitions, at arc.hhmi.org [2163] [2162].
+  applies_when: Applicants to the Freeman Hrabowski Scholars and Hanna H. Gray Fellows competitions [2162] [2163].
+  who_does_it: person
+  official_url: https://arc.hhmi.org
+  sources:
+  - 2163
+  - 2162
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: keck-designated-liaison
+  name: W. M. Keck Foundation designated institutional liaison
+  what: Each applicant institution has a designated liaison, and only that person may submit to the Keck Research Program
+    [2133]. A researcher finds the liaison through the central development office [2134].
+  applies_when: Every application to the Keck Research Program [2133].
+  who_does_it: organisation
+  official_url: https://www.wmkeck.org/research-liaison/
+  sources:
+  - 2133
+  - 2134
+  as_of: '2026-10-04'
+  sweep: foundations-A
+- id: foundation-fluxx-portal-account
+  name: Applicant account in a foundation's Fluxx portal
+  what: Kellogg, Kresge, Mellon and Packard each run their own grants portal on the Fluxx system; an applicant registers
+    separately with each foundation before it can submit [2269] [2273] [2339] [2367]. Mellon's 2026 open call required registration
+    by December 1, 2025 for an application deadline of February 17, 2026 [2339].
+  official_url: https://kresge.fluxx.io/
+  sources:
+  - 2269
+  - 2273
+  - 2339
+  - 2340
+  - 2367
+  sweep: foundations-B
+- id: my-rwjf-registration
+  name: Registration in the RWJF application system (my.rwjf.org)
+  what: Applicants to a Robert Wood Johnson Foundation call register at my.rwjf.org and submit through the foundation's
+    online system [2336].
+  official_url: https://my.rwjf.org/
+  sources:
+  - 2336
+  sweep: foundations-B
+- id: duke-endowment-grantee-portal
+  name: The Duke Endowment online portal (Blackbaud)
+  what: The Duke Endowment takes pre-applications in an online portal that opens six weeks before each deadline, and full
+    applications in its Blackbaud grantee portal [2310].
+  official_url: https://www.dukeendowment.org/grants/child-family-well-being-application
+  sources:
+  - 2310
+  sweep: foundations-B
+- id: woodruff-yourcause-portal
+  name: Robert W. Woodruff Foundation application portal (Blackbaud YourCause)
+  what: The Woodruff Foundation takes each application as a single PDF uploaded to Blackbaud's YourCause portal [2313].
+  official_url: https://woodruff.org/grants-program/how-to-apply/
+  sources:
+  - 2313
+  sweep: foundations-B
+- id: knight-submittable-portal
+  name: Knight Foundation open-call portal (Submittable)
+  what: The 2026 Knight Cities Challenge took applications at kf.submittable.com [2355].
+  official_url: https://kf.submittable.com/
+  sources:
+  - 2355
+  sweep: foundations-B
