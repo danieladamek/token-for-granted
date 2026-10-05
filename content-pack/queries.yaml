@@ -1,4 +1,4 @@
-# queries.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
+# queries.yaml — Token for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
 # Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
 # rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - text: NIH parent announcement R01 2026 PA-25 "Research Project Grant (Parent R01 Clinical Trial Not Allowed)

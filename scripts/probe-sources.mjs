@@ -1,7 +1,7 @@
-// Probe the public grant and foundation feeds Taken for Granted would use. Read-only; prints a JSON report.
+// Probe the public grant and foundation feeds Token for Granted would use. Read-only; prints a JSON report.
 // Three questions per source: can a GitHub runner reach it, how big is it, and (for live lookups) will a
 // browser on the Pages origin be allowed to call it.
-const UA = 'taken-for-granted-probe (github.com/danieladamek/taken-for-granted)';
+const UA = 'token-for-granted-probe (github.com/danieladamek/token-for-granted)';
 const ORIGIN = 'https://danieladamek.github.io';
 const out = { ranAt: new Date().toISOString() };
 const info = new Set(); // informational probes: reported, never counted as failures

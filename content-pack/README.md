@@ -1,4 +1,4 @@
-# Taken for Granted — content pack
+# Token for Granted — content pack
 
 State on 2026-10-05: **all six sweep families are in, and every source has been through the recheck pass** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `routes.yaml`, `glossary.yaml`, `concepts/`, `figures.yaml` or `pathfinder.yaml`.
 

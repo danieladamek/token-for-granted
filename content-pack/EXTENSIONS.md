@@ -1,8 +1,8 @@
-# Taken for Granted content pack — extension schema (draft v0.8, 2026-10-05)
+# Token for Granted content pack — extension schema (draft v0.8, 2026-10-05)
 
-Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
+Token for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
-Draft. Proposed by Claude, not yet ruled on by Daniel (requirements §5). v0.2 adds what the six research sweeps showed was missing; see the last section. The working copy is this file; `source/taken-for-granted-pack-schema.md` points here.
+Draft. Proposed by Claude, not yet ruled on by Daniel (requirements §5). v0.2 adds what the six research sweeps showed was missing; see the last section. The working copy is this file; `source/token-for-granted-pack-schema.md` points here.
 
 ## Files
 

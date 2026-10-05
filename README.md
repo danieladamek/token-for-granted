@@ -1,4 +1,4 @@
-# Taken for Granted
+# Token for Granted
 
 A public guide to grant money for universities, researchers and non-profits: the routes to it (research project grants; fellowships, career and training awards; programme and service grants; capacity and infrastructure), the registrations and rules on each, how federal agencies and foundations decide, and an opportunity search built from public feeds.
 
