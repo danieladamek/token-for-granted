@@ -1,10 +1,12 @@
 # Token for Granted — content pack
 
-State on 2026-10-05: **all six sweep families are in, every source from the sweeps has been through the recheck pass, and every programme has a status** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `routes.yaml`, `glossary.yaml`, `concepts/`, `figures.yaml` or `pathfinder.yaml`.
+State on 2026-10-05: **all six sweep families are in, every source from the sweeps has been through the recheck pass, every programme has a status, and the routes and the pathfinder are written** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `glossary.yaml`, `concepts/` or `figures.yaml`.
 
 | File | Count | Note |
 |---|---|---|
 | `references.yaml` | 2563 | 2463 primary, 100 secondary; 380 read in full, 2180 in part, 3 not fetched; 2541 cited by a record. Rechecked 2026-10-05: 2397 cleared (`recheck: false`), 166 still flagged: 12 pages that refused, 90 with an item the second reading did not confirm, and 64 from the status pass (51 pages read once on 2026-10-05, after the recheck, and 13 earlier pages to which that pass added a fact). 2653 quotes. Numbers 1–726 are research, 727–1106 people, 1107–1512 programme-service, 1513–1798 capacity, 1799–2118 rules, 2119–2512 foundations, 2513–2563 the status pass; they do not move. |
+| `routes.yaml` | 45 | 6 entry routes, then research 13, people 9, programme-service 10, capacity 7; every programme is on at least one |
+| `pathfinder.yaml` | | four questions, the ranking rule, the display rules, and for each route the counts the ranking uses |
 | `programs.yaml` | 565 | 524 federal and 41 foundation programmes; by family: research 145, people 154, programme-service 141, capacity 125 |
 | `funders.yaml` | 159 | 94 federal and congressionally created funders, 65 foundations and other private grantmakers |
 | `standing.yaml` | 113 | jurisdiction lists, institution designations, non-profit tax standing, the kinds of foundation |
@@ -14,7 +16,7 @@ State on 2026-10-05: **all six sweep families are in, every source from the swee
 | `changes.yaml` | 524 | dated ledger, 2025–26 |
 | `todo.yaml` | 902 | gap 342, recheck 330, unverified 106, conflict 124; the 104 with ids starting `tr-` come from the recheck |
 | `queries.yaml` | 615 | every search run, by slice |
-| `EXTENSIONS.md` | | the schema, draft v0.9 |
+| `EXTENSIONS.md` | | the schema, draft v0.10 |
 | `consolidation-report.json` | | counts and integrity checks from the last consolidation |
 
 ## The recheck (2026-10-05)
@@ -45,6 +47,14 @@ Each reference now carries `rechecked`, `recheck_result`, `fact_check` (one code
 
 The selection is editorial: the largest national grantmakers that fund universities or non-profits, spread across kinds and fields, with examples of community and corporate foundations. It is a sample, and the site must say so.
 
+## Routes and the pathfinder
+
+A route is one entry pattern: a kind of reader going after a kind of money through a kind of door. Each gathers the programmes, funders, eligibility classes, gates, rules, help and dated changes that belong to it, and says in plain words what it is, who it is for, how it works and what changed in 2025–26. The 45 were written from the records of this pack and nothing else: a checker (`source/routes/check_routes.py`) refuses any cited number that no record linked to the route cites.
+
+Three rulings by the author on 2026-10-05 shape them. A route page lists the programmes a reader can act on (open, forecast, closed for this cycle but continuing, or paid by formula through a state), and search reaches the rest. For formula money the guide names the body a non-profit applies to and stops there. The 65 foundations are a labelled sample.
+
+The pathfinder asks who is asking, what the money is for, where the applicant stands and which kind of funder. It ranks family routes by how many of their programmes carry both of the first two answers in their own records, and shows that count. It recommends nothing.
+
 ## Programme status
 
 All 565 programmes carry a status: open 177, closed 171, no-current-notice 82, forecast 40, formula 32, unconfirmed 26, expired 25, not-competed 12. People, programme-service and capacity are as read on 2026-10-04; the 131 federal research records were read on 2026-10-05 and carry `status_as_of`, `status_note` and, where a page gave one, `next_date`.
@@ -68,6 +78,7 @@ All 565 programmes carry a status: open 177, closed 171, no-current-notice 82, f
 | foundations-B | 25 national funders of non-profit programmes, services, arts and community work |
 | foundations-C | the kinds of foundation; the tax rules that shape giving; how to read a Form 990-PF; finding foundations without paying; community and corporate foundations and federal-agency foundations as examples |
 | foundations-D | gap-filling pass: what the public filing data carries; own-document figures for the twelve largest |
+| routes X, R, P, S, C | the 45 routes: entry routes, research, people, programme-service, capacity; and the watch pass that rewrote each route's account of 2025–26 from the full change records |
 | status-A … C | the status pass of 2026-10-05 over the 131 federal research programmes: NIH and NSF · the science and mission agencies · health, justice, education and culture. Sources only; the findings are in `status-research-?.yaml` |
 
 ## Integrity, as consolidated
@@ -77,13 +88,15 @@ Every citation in a record resolves to a reference. No record id is used twice. 
 ## Known debts
 
 - The recheck ran through the same summarising fetch layer as the sweeps. 102 references stay flagged: 12 pages refused (nine eCFR sections among them, which were answering 503 on the day) and 90 hold a fact the second reading did not find. Five contradictions are open (`tr-*-f*` in `todo.yaml`).
+- The pathfinder has no question about field, so a researcher's first two answers return most of the research routes. Programme records carry free `fields` tags that could feed one.
+- The editor read six routes in full and the 2025–26 passage of seven more; the rest rests on the checker, which tests citations and wording, not judgement.
 - The status pass was a single reading on one day. Status goes stale fastest of anything here; the site should show `status_as_of` beside it, and the nightly harvest should overwrite it where a programme can be matched to a Grants.gov notice.
 - 26 programmes are `unconfirmed`. For the two federal research ones, ARPA-E and VA Merit Review, the notices sit on sites the fetch layer cannot read.
 - 106 facts rest on a non-primary source and are marked `unverified`; 119 conflicts between sources are open, among them nine foundation asset or giving figures where the foundation's own statement and its filing summary differ.
 - Three sections of 2 CFR Part 200 rest on GovInfo's January 1, 2025 edition; OMB's proposed rewrite was read only in part.
 - The instructions for Part XIV of Form 990-PF could not be read (the fetch layer cuts them short); the form itself was read.
-- 28 records contain a second-person sentence to re-voice; two of them only quote a page or name a page title (listed in `consolidation-report.json`).
+- 29 records contain a second-person sentence to re-voice; three of them only quote a page or name a page title or a tool (listed in `consolidation-report.json`).
 
 ## How it was made
 
-`source/sweeps/SWEEP-BRIEF-*.md` are the briefs the sweep agents read, and `STATUS-BRIEF.md` the brief for the status pass. `python3 source/sweeps/consolidate.py source/sweeps content-pack` rebuilds every file above from the sweep files and `overrides.yaml`; it renumbers, merges and relabels, applies the recheck verdicts in `source/sweeps/recheck.json` and the statuses in `source/sweeps/status-research-?.yaml`, and adds no facts. `source/recheck/build_recheck.py` writes that file from the verdict files and `adjudications.json`.
+`source/sweeps/SWEEP-BRIEF-*.md` are the briefs the sweep agents read, `STATUS-BRIEF.md` the brief for the status pass, and `source/routes/ROUTES-BRIEF.md` and `WATCH-BRIEF.md` the briefs for the routes. `python3 source/sweeps/consolidate.py source/sweeps content-pack` rebuilds every file above from the sweep files and `overrides.yaml`; it renumbers, merges and relabels, applies the recheck verdicts in `source/sweeps/recheck.json` and the statuses in `source/sweeps/status-research-?.yaml`, builds `routes.yaml` from `source/sweeps/routes-?.yaml` and `pathfinder.yaml` from `pathfinder-head.yaml` and the programme records, and adds no facts. `source/recheck/build_recheck.py` writes that file from the verdict files and `adjudications.json`.

@@ -527,7 +527,8 @@
   "help/find-local-united-way",
   "mechanics/nih-modular-budget",
   "mechanics/nih-highlighted-topics",
-  "mechanics/samhsa-notice-six-steps"
+  "mechanics/samhsa-notice-six-steps",
+  "routes/formula-money-through-the-state"
  ],
  "status_pass": {
   "closed": 29,
@@ -538,6 +539,15 @@
   "open": 60,
   "unconfirmed": 2
  },
+ "routes": 45,
+ "routes_by_family": {
+  "start": 6,
+  "research": 13,
+  "people": 9,
+  "programme-service": 10,
+  "capacity": 7
+ },
+ "programmes_on_no_route": [],
  "recheck": {
   "blocked": 12,
   "cleared": 2397,

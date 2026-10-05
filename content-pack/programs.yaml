@@ -134,6 +134,9 @@
     05, 2026 as a due date for new R01 applications, followed by February 05, 2027, and PA-25-304 and PA-25-302 list October
     16, 2026 [4] [5] [6].
   next_date: '2026-10-05'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-investigator-initiated-grant
 - id: nih-r01
   name: NIH Research Project Grant (R01)
   family: research
@@ -311,6 +314,10 @@
     notice gives an expiration date of January 08, 2028 and lists October 05, 2026, February 05, 2027, June 05, 2027 and
     October 05, 2027 as the remaining due dates for new applications [4].
   next_date: '2026-10-05'
+  on_routes:
+  - getting-registered-to-apply
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-investigator-initiated-grant
 - id: nih-r21
   name: NIH Exploratory/Developmental Research Grant (R21)
   family: research
@@ -450,6 +457,9 @@
     for new applications, followed by February 16, 2027, June 16, 2027 and October 16, 2027 [5]. The parent announcements
     page lists PA-25-304 and PA-25-306, both expiring 01-08-2028 [1].
   next_date: '2026-10-16'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-investigator-initiated-grant
 - id: nih-r03
   name: NIH Small Research Grant (R03)
   family: research
@@ -556,6 +566,9 @@
     new applications, followed by February 16, 2027, June 16, 2027 and October 16, 2027 [6]. The standard due dates page
     gives February 16, June 16 and October 16 for new R03 applications [2].
   next_date: '2026-10-16'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-investigator-initiated-grant
 - id: nih-r15-area
   name: NIH Academic Research Enhancement Award for Undergraduate-Focused Institutions (R15 AREA)
   family: research
@@ -678,6 +691,8 @@
     due date, followed by February 25, 2027, June 25, 2027 and October 25, 2027 [7]. The parent announcements page lists
     PAR-25-134 and PAR-25-148 (clinical trial required), both expiring 01-08-2028 [1].
   next_date: '2026-10-25'
+  on_routes:
+  - nih-r15-for-institutions-with-little-nih-funding
 - id: nih-r15-reap
   name: NIH Research Enhancement Award Program for Health Professional Schools and Graduate Schools (R15 REAP)
   family: research
@@ -793,6 +808,8 @@
     The parent announcements page lists PAR-25-298 (expires 01-08-2028) and PAR-27-078, clinical trial required (released
     05-29-2026, expires 10-26-2027) [1].
   next_date: '2026-10-25'
+  on_routes:
+  - nih-r15-for-institutions-with-little-nih-funding
 - id: nih-r34
   name: NIH Planning Grant (R34)
   family: research
@@ -888,6 +905,9 @@
     Grants.gov, posted December 18, 2024 and closing January 7, 2027 [114]. The Grants.gov search for posted R34 planning
     grants returns five Open notices, among them PAR-25-358 (closes Jan 7, 2028), PAR-25-104 (closes Oct 25, 2027) and PAR-25-159
     (closes Jan 7, 2027) [109].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-r61-r33
   name: NIH Phased Exploratory/Developmental Award (R61/R33)
   family: research
@@ -983,6 +1003,9 @@
   status_note: R61/R33 notices are institute-specific; the Grants.gov search for posted R61/R33 opportunities returns 25
     Open notices, among them PAR-27-011 (posted Mar 18, 2026, closes Nov 2, 2028), PAR-28-072 (posted Sep 25, 2026, closes
     Nov 16, 2029) and PAR-25-059 (posted Oct 22, 2024, closes Oct 20, 2027) [108].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-r35
   name: NIH Investigator-Focused Award (R35), including the NIGMS Maximizing Investigators' Research Award (MIRA)
   family: research
@@ -1087,6 +1110,9 @@
     [2514]. The PAR-26-121 announcement lists January 27, 2027 as its next application due date, followed by May 27, 2027,
     January 27, 2028 and May 26, 2028 [73].'
   next_date: '2027-01-27'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-p01
   name: NIH Research Program Project Grant (P01)
   family: research
@@ -1177,6 +1203,8 @@
     Program Project Applications), listed as Open, posted May 7, 2026 and closing May 25, 2029 [110]. The announcement lists
     January 25, 2027 as the next application due date after September 25, 2026 and an expiration date of May 26, 2029 [113].
   next_date: '2027-01-25'
+  on_routes:
+  - nih-targeted-and-large-awards
 - id: nih-u01
   name: NIH Research Project Cooperative Agreement (U01)
   family: research
@@ -1273,6 +1301,9 @@
     33 results, with PAR-27-064 (posted Jun 16, 2026, closes Jul 5, 2029), PAR-25-297 (closes Nov 5, 2027) and PAR-24-325
     (closes Sep 7, 2027) each shown as Open [111]. The standard due dates page gives February 5, June 5 and October 5 for
     new U01 applications where a notice uses standard dates [2].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-dp1-pioneer
   name: NIH Director's Pioneer Award (DP1)
   family: research
@@ -1364,6 +1395,9 @@
     2026 [2515]. The Common Fund's Pioneer Award page states "No open funding announcements" and points to its funding opportunities
     page for information about future announcements, and neither it nor the High-Risk, High-Reward page gives a date for
     the next round or says the award has ended [2516] [53].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-dp2-new-innovator
   name: NIH Director's New Innovator Award (DP2)
   family: research
@@ -1454,6 +1488,9 @@
   status_note: RFA-RM-27-002 is listed as Closed on Grants.gov, posted June 26, 2026 with a closing date of August 17, 2026
     [2517]. The Common Fund's New Innovator Award page still shows RFA-RM-27-002 with "Applications due August 17, 2026"
     and gives neither a date for the next round nor a statement that the award has ended [76].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-dp5-early-independence
   name: NIH Director's Early Independence Award (DP5)
   family: research
@@ -1544,6 +1581,8 @@
     2026 [2518]. The Common Fund's Early Independence Award page states "No open funding announcements" and points to its
     funding opportunities page for information about future announcements, with no date for the next round and no statement
     that the award has ended [78] [53].
+  on_routes:
+  - nih-targeted-and-large-awards
 - id: nih-tr01-transformative
   name: NIH Director's Transformative Research Award (R01)
   family: research
@@ -1632,6 +1671,9 @@
     2026 [2519]. The Common Fund's Transformative Research Award page states "No open funding announcements" and points
     to its funding opportunities page for information about future announcements, with no date for the next round and no
     statement that the award has ended [77] [53].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-targeted-and-large-awards
 - id: nih-r13
   name: NIH Support for Conferences and Scientific Meetings (R13)
   family: research
@@ -1756,6 +1798,9 @@
     for new and renewal applications, followed by April 12, 2027 and August 12, 2027 [52]. The standard due dates page gives
     April 12, August 12 and December 12 for R13 and U13 applications [2].
   next_date: '2026-12-12'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-investigator-initiated-grant
 - id: nih-pf5
   name: NIH Collaborative International Research Project (PF5, with linked RF2 awards)
   family: research
@@ -1880,6 +1925,11 @@
     lists January 25, 2027 as the next application due date after September 25, 2026 and an expiration date of May 08, 2029
     [23].
   next_date: '2027-01-25'
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nih-investigator-initiated-grant
+  - nih-targeted-and-large-awards
 - id: nsf-research-proposal
   name: NSF research proposal (standard proposal under the PAPPG)
   family: research
@@ -2038,6 +2088,11 @@
     news item of August 17, 2026 lists 12 foundational-research notices of funding opportunity, and one of them, NSF 26-517
     (BIO Core), states "Proposals Accepted Anytime" [192] [185]. The Preparing Your Proposal page still points to Chapter
     II of PAPPG 24-1 and carries no notice of a new guide or of a pause in accepting proposals [159].
+  on_routes:
+  - getting-registered-to-apply
+  - joining-as-a-subrecipient-or-partner
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-rapid
   name: Rapid Response Research (RAPID)
   family: research
@@ -2144,6 +2199,9 @@
     be submitted at any time once a concept outline has been submitted and NSF BIO has approved submission [185]. The ENG
     proposal guidance states that RAPID proposals can be submitted at any time after a concept outline has gone to the cognizant
     programme director [166].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-eager
   name: EArly-concept Grants for Exploratory Research (EAGER)
   family: research
@@ -2249,6 +2307,9 @@
     be submitted at any time once a concept outline has been submitted and NSF BIO has approved submission [185]. The ENG
     proposal guidance states that EAGER proposals can be submitted at any time after a concept outline has gone to the cognizant
     programme director [166].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-raise
   name: Research Advanced by Interdisciplinary Science and Engineering (RAISE)
   family: research
@@ -2338,6 +2399,9 @@
   status_note: RAISE is a proposal type with no notice of its own; NSF 26-517 (BIO Core), posted August 17, 2026, states
     that RAISE proposals may be submitted at any time once a concept outline has been submitted and NSF BIO has approved
     submission [185].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-goali
   name: Grant Opportunities for Academic Liaison with Industry (GOALI)
   family: research
@@ -2427,6 +2491,9 @@
     may be submitted in conjunction with a regular proposal to an NSF programme, as an unsolicited proposal, or as a supplemental
     funding request to an active award, after contact with the programme director, and it lists no proposal type as paused
     or discontinued [166].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-planning
   name: Planning proposal
   family: research
@@ -2520,6 +2587,9 @@
   status_note: The planning proposal is a proposal type with no notice of its own; NSF 26-517 (BIO Core), posted August
     17, 2026, states that Planning proposals may be submitted at any time once a concept outline has been submitted and
     NSF BIO has approved submission [185].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-conference
   name: Conference proposal
   family: research
@@ -2614,6 +2684,9 @@
   status_note: The conference proposal is a proposal type with no notice of its own; NSF 26-517 (BIO Core) states that travel
     or conference support, including workshops, can be submitted at any time [185]. The ENG proposal guidance states that
     conference proposals should be submitted at least a year in advance of the scheduled meeting [166].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-rui-roa
   name: Research in Undergraduate Institutions (RUI) and Research Opportunity Awards (ROA-PUI)
   family: research
@@ -2730,6 +2803,8 @@
     accepted anytime" and the note that submission deadlines vary by programme [253]. NSF 26-517 (BIO Core) states that
     RUI proposals may be submitted at any time and must follow the proposal preparation guidance in the RUI solicitation
     [185].
+  on_routes:
+  - nsf-core-research-proposal
 - id: nsf-bio-core
   name: Core Research in Biological Sciences (BIO Core)
   family: research
@@ -2850,6 +2925,9 @@
   status_note: The opportunity page lists NSF 26-517 as the current solicitation with "Full proposal accepted anytime" [2521].
     The solicitation itself gives "Proposals Accepted Anytime" in place of a deadline and states that it replaces NSF 24-543,
     NSF 24-546 and NSF 24-539 [185].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-cise-future-core
   name: CISE Future Computing Research (Future CoRe)
   family: research
@@ -2976,6 +3054,9 @@
     anytime, with target dates of February 4, 2027 (first Thursday in February, annually thereafter) and September 9, 2027
     (second Thursday in September, annually thereafter) [190].
   next_date: '2027-02-04'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-cise-expeditions
   name: Expeditions in Computing
   family: research
@@ -3082,6 +3163,8 @@
   status_note: The opportunity page lists NSF 26-525 as the current solicitation, with preliminary proposals due December
     2, 2026 and a full proposal deadline of July 27, 2027 [2522].
   next_date: '2026-12-02'
+  on_routes:
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-eng-cbet
   name: 'ENG: Chemical, Bioengineering, Energy, and Transport Systems (CBET)'
   family: research
@@ -3201,6 +3284,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-518, posted August 13, 2026, as the current solicitation with "Full proposal
     accepted anytime" [196].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-eng-cmmi
   name: 'ENG: Civil, Mechanical, and Manufacturing Innovation (CMMI)'
   family: research
@@ -3319,6 +3405,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-515, published August 13, 2026, as the current solicitation with "Full
     proposal accepted anytime" [198].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-eng-eccs
   name: 'ENG: Electrical, Communications, and Computing Systems (ECCS)'
   family: research
@@ -3437,6 +3526,9 @@
   status: open
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-514 as the current solicitation with "Full proposal accepted anytime" [200].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-geo-core
   name: 'Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)'
   family: research
@@ -3556,6 +3648,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-516, posted August 13, 2026, as the current solicitation with "Full proposal
     accepted anytime" [205].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-mps-astro
   name: MPS Astronomical Sciences Research Programs (MPS Astro)
   family: research
@@ -3669,6 +3764,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-522, published August 13, 2026, as the current solicitation with "Full
     proposal accepted anytime" [219].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-mps-chem
   name: MPS Chemistry Research Programs (MPS Chem)
   family: research
@@ -3778,6 +3876,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-519, posted August 13, 2026, as the current solicitation and states that
     full proposals are accepted anytime starting September 1, 2026, a date now past [213].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-mps-materials
   name: MPS Materials Research Programs (MPS Materials)
   family: research
@@ -3893,6 +3994,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-521, posted August 13, 2026, as the current solicitation with "Full proposal
     accepted anytime" [215].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-mps-mathsci
   name: MPS Mathematical Sciences Research Programs (MPS MathSci)
   family: research
@@ -4006,6 +4110,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-520, posted August 13, 2026, as the current solicitation with "Full proposal
     accepted anytime" [217].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-mps-physics
   name: MPS Physics Research Programs (MPS Physics)
   family: research
@@ -4121,6 +4228,9 @@
   status: open
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists NSF 26-523 as the current solicitation with "Full proposal accepted anytime" [211].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-sbe-core-programs
   name: SBE core disciplinary programmes (programme descriptions)
   family: research
@@ -4240,6 +4350,9 @@
     each state that the programme is currently waiting for a new publication [224] [226] [225]. None of the three pages
     marks the programme archived or ended or gives a date for the new publication, and NSF''s list of 12 foundational-research
     notices of August 17, 2026 names none for SBE [225] [192].'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-edu-ecr-core
   name: EDU Core Research (ECR:Core)
   family: research
@@ -4369,6 +4482,9 @@
   status_note: The opportunity page lists NSF 21-588 as the current solicitation and shows "No upcoming due dates" [232].
     A programme update dated July 2, 2026 set the scope for the October 1, 2026 deadline, a date now past, and the opportunity
     page neither marks the programme archived nor names a later deadline [2523] [232].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-core-research-proposal
 - id: nsf-satc
   name: Security, Privacy, and Trust in Cyberspace (SaTC 2.0)
   family: research
@@ -4495,6 +4611,9 @@
     dates of January 25, 2027 (last Monday in January, annually thereafter) and September 27, 2027 (last Monday in September,
     annually thereafter) [2524].
   next_date: '2027-01-25'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-gcr
   name: Growing Convergence Research (GCR)
   family: research
@@ -4587,6 +4706,8 @@
   status_note: The opportunity page lists NSF 24-527, posted January 12, 2024, as the current solicitation with a full proposal
     deadline of February 8, 2027 (second Monday in February, annually thereafter) [266].
   next_date: '2027-02-08'
+  on_routes:
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-efri-wbc
   name: 'Emerging Frontiers in Research and Innovation: Wave-Based Computing (EFRI-WBC)'
   family: research
@@ -4713,6 +4834,9 @@
   status_change: The solicitation and the opportunity page give a required concept outline date of November 19, 2026 ahead
     of the February 11, 2027 full proposal deadline; the cycle recorded yesterday carried only the full proposal dates [267]
     [2525].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-frr
   name: Foundational Research in Robotics (FRR)
   family: research
@@ -4788,6 +4912,9 @@
   status_as_of: '2026-10-05'
   status_note: The opportunity page lists PD 20-144Y, published February 11, 2020, as the current programme description
     with "Full proposal accepted anytime" [268].
+  on_routes:
+  - nsf-core-research-proposal
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-cdse
   name: Computational and Data-Enabled Science and Engineering (CDS&E)
   family: research
@@ -4870,6 +4997,8 @@
     MPS Physics (Plasma Physics) November 16, 2026; and three MPS Chemistry programmes (CLP, CSD, CTMC) accepting full proposals
     anytime [273]. The ENG windows shown are in September 2027 [273].'
   next_date: '2026-10-15'
+  on_routes:
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-dmref
   name: Designing Materials to Revolutionize and Engineer our Future (DMREF)
   family: research
@@ -4960,6 +5089,8 @@
     biennially in odd-numbered years, and no later solicitation is listed on the page [2526] [275].
   status_change: The cycle recorded yesterday had no due dates; the solicitation read today gives a single submission window
     of January 21, 2025 - February 04, 2025, and the opportunity page shows no upcoming due dates [2526] [275].
+  on_routes:
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-crcns
   name: Collaborative Research in Computational Neuroscience (CRCNS)
   family: research
@@ -5045,6 +5176,8 @@
   status_note: The opportunity page lists NSF 24-510, published December 7, 2023, as the current solicitation, shows "No
     upcoming due dates" and states that the programme is currently waiting for a new publication; it gives no date for that
     publication and does not mark the programme archived or ended [274].
+  on_routes:
+  - nsf-special-and-cross-cutting-solicitations
 - id: nsf-trailblazer
   name: NSF Trailblazer Engineering Impact Award (TRAILBLAZER)
   family: research
@@ -5128,6 +5261,8 @@
     or says the award has ended [2527] [269].
   status_change: The cycle recorded yesterday had no due dates; the solicitation read today gives a full proposal deadline
     of July 24, 2026, now past, and the opportunity page shows no upcoming due dates [2527] [269].
+  on_routes:
+  - nsf-special-and-cross-cutting-solicitations
 - id: doe-sc-annual-foa
   name: Office of Science annual open funding opportunity (FY 2027 Continuation of Solicitation for the Office of Science
     Financial Assistance Program)
@@ -5280,6 +5415,10 @@
   status_note: The notice page for DE-FOA-0003665 gives a post date of Wednesday, September 30, 2026 and a close date of
     Thursday, September 30, 2027, and states that the notice will remain open until September 30, 2027, or until replaced
     by a successor; applications may be submitted at any time during the open period [277].
+  on_routes:
+  - getting-registered-to-apply
+  - research-at-a-nonprofit-that-is-not-a-university
+  - energy-department-research
 - id: doe-sc-targeted-notices
   name: 'Office of Science targeted funding notices (example: The Genesis Mission, DE-FOA-0003612)'
   family: research
@@ -5361,6 +5500,8 @@
     date still ahead under DE-FOA-0003612 is December 17, 2026 for Phase II applications from FY26 Phase I awards, so the
     notice open to a new applicant is DE-FOA-0003657 [282].'
   next_date: '2026-10-19'
+  on_routes:
+  - energy-department-research
 - id: doe-arpa-e-program-notices
   name: ARPA-E programme funding notices
   family: research
@@ -5479,6 +5620,9 @@
     so the full list of current programme notices was not read within the three fetches allowed [305].'
   status_change: The ARPA-E exchange at arpa-e-foa.energy.gov now shows a decommissioning notice pointing to eXCHANGE.energy.gov
     and lists no opportunities [305].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - energy-department-research
 - id: doe-applied-office-notices
   name: DOE applied energy offices — funding notices in outline
   family: research
@@ -5549,6 +5693,9 @@
   status_note: The Office of Critical Minerals and Energy Innovation funding page states that there are no current opportunities
     to display and asks readers to check back for future opportunities; it does not say that funding has ended [307]. The
     DOE eXCHANGE home page returned no individual listings, so notices from other applied offices were not checked [306].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - energy-department-research
 - id: doe-nnsa-ssaa
   name: NNSA Stewardship Science Academic Alliances (SSAA)
   family: research
@@ -5606,6 +5753,8 @@
   status_note: The programme page states 'There are no open NOFOs at this time' and gives no date for a next solicitation
     and no statement that the programme has ended [312]. A Grants.gov search across all statuses returns no open or forecast
     notice; the newest programme notice, DE-FOA-0003242, is Archived, posted Mar 1, 2024 and closed Jun 20, 2024 [2528].
+  on_routes:
+  - energy-department-research
 - id: dod-onr-long-range-baa
   name: ONR Long Range Broad Agency Announcement for Navy and Marine Corps Science and Technology (N0001425SB001)
   family: research
@@ -5723,6 +5872,9 @@
     Archived with a closing date of December 31, 2026 and an archive date of January 30, 2027, so the two pages differ and
     the status here follows ONR''s own page [317].'
   next_date: '2026-12-31'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - defense-basic-research
 - id: dod-afosr-open-baa
   name: AFOSR open broad agency announcement — Research Interests of the Air Force Office of Scientific Research (FA955026S0001)
   family: research
@@ -5827,6 +5979,9 @@
   status_as_of: '2026-10-05'
   status_note: The Grants.gov listing for FA955026S0001, Research Interests of the Air Force Office of Scientific Research,
     was posted June 4, 2026, shows no closing date and is described as 'Open until superseded' [320].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - defense-basic-research
 - id: dod-aro-arl-baa
   name: DEVCOM Army Research Laboratory Broad Agency Announcement for Foundational Research (W911NF-23-S-0001) — the Army
     Research Office route
@@ -5917,6 +6072,9 @@
   status_note: The Grants.gov listing for W911NF-23-S-0001 shows the status Open, posted November 21, 2022 with a closing
     date of November 20, 2027 [324].
   next_date: '2027-11-20'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - defense-basic-research
 - id: dod-darpa-office-wide-baa
   name: DARPA office-wide broad agency announcements
   family: research
@@ -5998,6 +6156,8 @@
     Processing Techniques Office), posted Jun 22, 2026 and closing Jun 22, 2027; and HR001125S0011 (Tactical Technology
     Office), posted Jun 23, 2025 and closing Dec 22, 2026 [347].'
   next_date: '2026-12-22'
+  on_routes:
+  - defense-basic-research
 - id: dod-muri
   name: Multidisciplinary Research Program of the University Research Initiative (MURI), FY 2027
   family: research
@@ -6104,6 +6264,8 @@
     competition as N0001426SF002, published September 21, 2026, with white papers due November 20, 2026 and full proposals
     due April 9, 2027 [335].
   next_date: '2026-11-20'
+  on_routes:
+  - defense-basic-research
 - id: dod-minerva
   name: Minerva Research Initiative
   family: research
@@ -6154,6 +6316,9 @@
     newest, HQ003424NFOEASD02, was posted Dec 7, 2023 and closed May 7, 2024, and none is open or forecast [2529]. The programme
     site at minerva.defense.gov is on a host that refuses automated reading and was not read today, so no statement from
     the funder about the programme's future was seen.
+  on_routes:
+  - defense-basic-research
+  - education-social-and-justice-research
 - id: dod-cdmrp-program-announcements
   name: CDMRP programme announcements (award mechanisms across the Congressionally Directed Medical Research Programs)
   family: research
@@ -6283,6 +6448,10 @@
     each with a pre-application deadline of November 4, 2026 5:00 p.m. Eastern Time and an application deadline of November
     18, 2026 11:59 p.m. Eastern Time [355].'
   next_date: '2026-11-04'
+  on_routes:
+  - getting-registered-to-apply
+  - research-at-a-nonprofit-that-is-not-a-university
+  - defense-basic-research
 - id: dod-cdmrp-prmrp
   name: CDMRP Peer Reviewed Medical Research Program (PRMRP)
   family: research
@@ -6379,6 +6548,9 @@
   status_note: The PRMRP funding page lists no open opportunity and states 'The application submission deadline for FY26
     has passed' [331]. The programme page remains in place with a $370 million FY26 appropriation and topic areas listed
     through FY26; neither page names an FY27 opportunity or a date for one [357].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - defense-basic-research
 - id: nasa-roses
   name: NASA Research Opportunities in Space and Earth Science (ROSES)
   family: research
@@ -6506,6 +6678,10 @@
   next_date: '2026-10-15'
   status_change: The Grants.gov search now lists A.18 Geosphere (NNH25ZDA001N-GEO), posted Oct 2, 2026 and closing Jan 15,
     2027, among the 11 open elements, and the earliest closing date among them is Oct 15, 2026 [394].
+  on_routes:
+  - getting-registered-to-apply
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nasa-research-announcements
 - id: nasa-roses-flexible-due-date
   name: 'ROSES no-due-date and flexible-due-date programme elements (example: C.2 Solar System Science)'
   family: research
@@ -6581,6 +6757,9 @@
     shows the status Open, posted July 11, 2025 with a closing date of November 12, 2026; proposals are accepted on a rolling
     basis until that date [393].'
   next_date: '2026-11-12'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - nasa-research-announcements
 - id: nifa-afri-fas
   name: AFRI Foundational and Applied Science Program
   family: research
@@ -6732,6 +6911,9 @@
     the two Rapid Response priorities (A1712 and A1713) as Continuous under this programme, and states that FY 2027 deadlines
     will be announced in the FY 2027 notices [424].
   next_date: '2026-12-31'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: nifa-afri-sas
   name: AFRI Strengthening Agricultural Systems
   family: research
@@ -6814,6 +6996,8 @@
   status_note: NIFA's opportunity page for USDA-NIFA-AFRI-011677 gives a posted date of Thursday, January 29, 2026 and a
     closing date of Thursday, April 23, 2026, and names no later notice [411]. The AFRI deadlines page states that the FY
     2027 AFRI deadlines will be announced in all FY 2027 notices of funding opportunity [424].
+  on_routes:
+  - agriculture-environment-and-physical-science-agencies
 - id: nifa-scri
   name: Specialty Crop Research Initiative
   family: research
@@ -6914,6 +7098,9 @@
     of Monday, April 13, 2026 and a closing date of Monday, June 15, 2026, and carries no text on full applications or a
     next notice [413]. The first page of NIFA's funding opportunities list, which runs back to notices posted June 18, 2026,
     shows no newer Specialty Crop Research Initiative notice [408].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: nifa-orei
   name: Organic Agriculture Research and Extension Initiative
   family: research
@@ -6986,6 +7173,9 @@
     and USDA-NIFA-D113A-32483) with a posted date of Wednesday, March 11, 2026 and a closing date of Thursday, May 14, 2026,
     and names no next notice [415]. The first page of NIFA's funding opportunities list, which runs back to notices posted
     June 18, 2026, shows no newer Organic Agriculture Research and Extension Initiative notice [408].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: usda-ars-non-assistance-cooperative-agreement
   name: USDA non-assistance cooperative agreements (Agricultural Research Service)
   family: research
@@ -7038,6 +7228,9 @@
   status_note: 'These agreements have no competition cycle: 7 CFR 550.104 states that the agencies ''may enter into non-assistance
     cooperative agreements, as authorized by this part, without regard to any requirements for competition'' [428]. The
     ARS agreements page shows no notice, deadline or application cycle and no statement that the agreements have ended [427].'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-cpo-esssp
   name: NOAA Climate Program Office Earth System Science and Services Partnership (FY 2026)
   family: research
@@ -7129,6 +7322,9 @@
     and an application deadline of 11:59 p.m. Pacific Time on October 26, 2026 [431]. The office's funding opportunities
     page lists the FY 2026 Earth System Science and Services Partnership as its one active opportunity [430].
   next_date: '2026-10-26'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-cpo-risa
   name: NOAA Climate Program Office Regional Integrated Sciences and Assessments (RISA), FY 2026
   family: research
@@ -7209,6 +7405,9 @@
     page lists the FY 2026 RISA notice among previous opportunities and names no later RISA competition [430].
   status_change: A Grants.gov search shows the RISA listing as Archived with a closing date of Jun 10, 2026, where the programme
     page and the recorded cycle give June 5, 2026 [480].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-oar-programme-competitions
   name: NOAA Research annual programme competitions (Climate Program Office and Weather Program Office)
   family: research
@@ -7268,6 +7467,8 @@
     others) only under previous opportunities, with no statement about future ones [430]. A Grants.gov search across all
     statuses shows the newest Weather Program Office announcement as NOAA-OAR-WPO-2025-28596, Archived, posted Sep 17, 2024
     and closed Dec 2, 2024 [480].
+  on_routes:
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-oar-baa
   name: NOAA Office of Oceanic and Atmospheric Research Broad Agency Announcement, FY 2024-2026
   family: research
@@ -7332,6 +7533,9 @@
     closing date of September 30, 2026 and an archive date of October 30, 2026 [478]. A Grants.gov search of forecast, open
     and closed opportunities shows no successor NOAA broad agency announcement; all four NOAA FY 2024 – 2026 announcements
     are Closed with the same closing date [2530].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-sea-grant-research
   name: National Sea Grant College Program research competitions
   family: research
@@ -7416,6 +7620,9 @@
     the Knauss fellowship (NOAA-OAR-SG-2027-32433, full packages due Aug 26, 2026) and FY26 Sea Grant Aquaculture Institutional
     Activities (NOAA-OAR-SG-2026-33593, due July 23, 2026), both limited to Sea Grant programmes and both past their deadlines,
     and no statement that competitions have ended [436].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-cooperative-institutes
   name: NOAA Cooperative Institutes
   family: research
@@ -7488,6 +7695,9 @@
     notice NOAA-OAR-CIPO-2025-32786 gives an application due date of February 2, 2026 [439] [440].
   status_change: 'Grants.gov shows a later notice for the same institute than the one recorded: NOAA-OAR-CIAO-2026-32786,
     posted Apr 2, 2026 and closed May 18, 2026, now Archived [2531].'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-nccos-crp
   name: NOAA NCCOS Competitive Research Program
   family: research
@@ -7572,6 +7782,9 @@
     a closing date of February 12, 2027 [476]. The notice requires a letter of intent by 11:59 p.m. Eastern Time on November
     9, 2026 and sets the full application deadline at 11:59 pm Eastern Time on February 12, 2027 [477].
   next_date: '2026-11-09'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-ocean-exploration-grants
   name: NOAA Ocean Exploration funding opportunities
   family: research
@@ -7610,6 +7823,8 @@
   status_note: The NOAA Ocean Exploration funding page states 'All NOAA Ocean Exploration funding opportunity competitions
     have been completed. We are not currently accepting proposals' and gives oer.nofo@noaa.gov for notice of future opportunities;
     it does not say that funding has ended [449].
+  on_routes:
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-fisheries-saltonstall-kennedy
   name: NOAA Fisheries Saltonstall-Kennedy Grant Competition
   family: research
@@ -7671,6 +7886,9 @@
     closed Jul 23, 2024) and the FY25 full proposal competition (NOAA-NMFS-FHQ-2025-26868, posted Sep 26, 2024, closed Nov
     25, 2024), both Archived, with no FY26 or FY27 notice [2532]. NOAA Fisheries' competition page still describes the FY25
     solicitation with the same dates and carries no statement about a later competition or about the programme ending [446].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: noaa-fisheries-brep
   name: NOAA Fisheries National Bycatch Reduction Engineering Program (FY2026/27)
   family: research
@@ -7741,6 +7959,9 @@
   status_note: The Grants.gov listing for NOAA-NMFS-FHQ-2027-33398 shows the status Open, posted August 24, 2026 with a
     closing date of January 22, 2027 [479].
   next_date: '2027-01-22'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: epa-star
   name: EPA Science to Achieve Results (STAR) Research Program
   family: research
@@ -7821,6 +8042,9 @@
     to check back or subscribe to the Research Grants Listserv; it carries no statement about the status of the programme
     [452]. A Grants.gov search across all statuses shows the newest EPA STAR notice as EPA-G2024-STAR-G1, Archived, posted
     July 31, 2024 and closed November 13, 2024 [461].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: nist-mse
   name: NIST Measurement Science and Engineering (MSE) Research Grant Programs
   family: research
@@ -7933,6 +8157,9 @@
     of September 15, 2026 [463]. A Grants.gov search for NIST across all statuses shows 0 forecast opportunities and no
     newer Measurement Science and Engineering notice, and the NIST funding opportunities page as returned does not mention
     the programme [470] [468].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: nist-pmgp
   name: NIST Precision Measurement Grant Program
   family: research
@@ -8004,6 +8231,9 @@
   status_note: A Grants.gov search for NIST across all statuses shows the FY26 notice 2026-NIST-PMGP-01 as Archived, posted
     Feb 23, 2026 with a closing date of Jun 22, 2026, with 0 forecast opportunities and no newer Precision Measurement Grant
     Program notice [470]. No page read today names the date of the next annual notice.
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: usgs-ehp-external-grants
   name: USGS Earthquake Hazards Program External Research Support
   family: research
@@ -8091,6 +8321,9 @@
     30, 2026 [482]. The programme's external grants page still presents the FY 2027 announcement with the June 4, 2026 deadline
     and points to Grants.gov subscriptions for notice of application period openings; it gives no date for the next announcement
     [481].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: usgs-wrri-104g
   name: USGS Water Resources Research Act Program National Competitive Grants (104(g))
   family: research
@@ -8175,6 +8408,8 @@
     the 104(b) Base and 104(g) PFAS notices as at their final level of approval with no timeline, so the 104(g) General
     notice is the only one posted [484].
   next_date: '2026-11-12'
+  on_routes:
+  - agriculture-environment-and-physical-science-agencies
 - id: usgs-casc-host
   name: USGS Climate Adaptation Science Centers host institution agreements
   family: research
@@ -8244,6 +8479,9 @@
     September 27, 2024 with a closing date of February 3, 2025, and a Grants.gov search of forecast and open Geological
     Survey opportunities returns no Climate Adaptation Science Center notice [489] [487]. The programme page describes a
     National CASC and nine regional CASCs and carries no statement about recompetition or about any centre ending [488].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: dot-utc
   name: University Transportation Centers Program
   family: research
@@ -8344,6 +8582,8 @@
     2026-2030, and names neither selections nor a later competition; the two pages give different closing dates [492].'
   status_change: The Grants.gov listing gives the closing date as February 13, 2026, where the cycle was recorded as closing
     February 20, 2026, the date on the Department's page [494] [492].
+  on_routes:
+  - agriculture-environment-and-physical-science-agencies
 - id: dot-faa-aviation-research-grants
   name: FAA Aviation Research Grants Program
   family: research
@@ -8407,6 +8647,9 @@
   status_note: The Grants.gov listing for the FAA Aviation Research Grants Program (20-01) shows the status Open, posted
     September 8, 2020 with a closing date of September 7, 2027 [498].
   next_date: '2027-09-07'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - agriculture-environment-and-physical-science-agencies
 - id: dhs-coe
   name: DHS Science and Technology Centers of Excellence
   family: research
@@ -8465,6 +8708,8 @@
     newest Centers of Excellence notice is the supplement notice DHS-24-061-COE-SUPP, posted Jul 1, 2024 and closed May
     23, 2025 [501]. The Department's programme page carries a section headed 'Active Centers of Excellence', no funding
     notice and no statement that the programme has ended [499].
+  on_routes:
+  - agriculture-environment-and-physical-science-agencies
 - id: ahrq-r01
   name: AHRQ Health Services Research Projects (R01)
   family: research
@@ -8551,6 +8796,9 @@
   status_note: PA-24-154 carries the banner "This notice has expired" and an expiration date of March 10, 2026 per NOT-HS-26-006,
     against an original expiration date of July 7, 2029, and names no reissue [507]. AHRQ's Notice of Funding Opportunities
     page reads "No current open opportunities." [518].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: ahrq-r03
   name: AHRQ Small Health Services Research Grant Program (R03)
   family: research
@@ -8621,6 +8869,9 @@
   status_note: PA-24-155 carries the banner "This notice has expired" and an expiration date of March 10, 2026 per issuance
     of NOT-HS-26-007, against an original expiration date of July 18, 2029, and names no later notice [508]. AHRQ's Notice
     of Funding Opportunities page reads "No current open opportunities." [518].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: ahrq-r18
   name: AHRQ Health Services Research Demonstration and Dissemination Grants (R18)
   family: research
@@ -8695,6 +8946,9 @@
   status_note: PA-24-156 carries the banner "This notice has expired" and an expiration date of March 6, 2026 per issuance
     of NOT-HS-26-003, against an original expiration date of May 27, 2029, and names no later notice [509]. AHRQ's Notice
     of Funding Opportunities page reads "No current open opportunities." [518].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: ahrq-primary-care-r01
   name: AHRQ Research to Advance the Science of Primary Care (R01)
   family: research
@@ -8762,6 +9016,9 @@
   status_note: PA-24-205 carries the banner "This notice has expired" and an expiration date of March 6, 2026 per issuance
     of NOT-HS-26-001, against an original expiration date of November 6, 2029, and names no later notice [510]. AHRQ's Notice
     of Funding Opportunities page reads "No current open opportunities." [518].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: cdc-niosh-r01
   name: NIOSH Occupational Safety and Health Research (R01)
   family: research
@@ -8842,6 +9099,9 @@
   next_date: '2026-11-12'
   status_change: Grants.gov carries a forecast, RFA-OH-27-032, for a new NIOSH R01 notice with an estimated post date of
     November 12, 2026; the record of 2026-10-04 had found no reissue [2534].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: cdc-niosh-r21
   name: NIOSH Exploratory/Developmental Grant Program (R21)
   family: research
@@ -8911,6 +9171,9 @@
   next_date: '2026-12-16'
   status_change: Grants.gov carries a forecast, RFA-OH-27-033, for a new NIOSH R21 notice with an estimated post date of
     December 16, 2026; the record of 2026-10-04 had found no reissue [2535].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: cdc-niosh-wtc-research
   name: World Trade Center Health Program research (NIOSH U01 and R21)
   family: research
@@ -8965,6 +9228,8 @@
     Opportunities [555].
   status_change: Both notices are shown as Closed on Grants.gov with a close date of June 23, 2026; the record of 2026-10-04
     carried no close date for either [2536].
+  on_routes:
+  - health-services-and-public-health-research
 - id: cdc-injury-violence-r01
   name: CDC Injury Center Research Grants for Preventing Interpersonal Violence and Suicide Among Youth and Young Adults
     (R01)
@@ -9041,6 +9306,9 @@
   next_date: '2026-12-01'
   status_change: Grants.gov carries a forecast, RFA-CE-27-015, for the next competition, with an estimated application due
     date of December 1, 2026; the record of 2026-10-04 named only the archived RFA-CE-26-020 [2539].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: fda-orphan-clinical-trials
   name: FDA Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases (R01)
   family: research
@@ -9128,6 +9396,9 @@
     2026 and October 19, 2027, with an optional letter of intent due September 21, 2026 and an expiration date of May 31,
     2028 [561]. Grants.gov search results show the notice as Open with a close date of May 16, 2028 [2540].
   next_date: '2026-10-20'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: fda-orphan-natural-history
   name: FDA Orphan Products Natural History Studies Grants
   family: research
@@ -9198,6 +9469,9 @@
   next_date: '2028-02-08'
   status_change: An open notice, RFA-FD-25-017, with a remaining due date of February 8, 2028 was found on Grants.gov and
     in the NIH Guide; the record of 2026-10-04 listed no current notice [2541].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: fda-cersi
   name: FDA Centers of Excellence in Regulatory Science and Innovation (CERSI) (U01)
   family: research
@@ -9263,6 +9537,8 @@
     of December 23, 2022 [565]. FDA's CERSI page says the current centres were selected under RFA-FD-23-004 with awards
     that began September 1, 2023 for up to 5 years and names no new competition, and a Grants.gov search of forecasted and
     open FDA requests for applications returned no CERSI listing [566] [2540].
+  on_routes:
+  - health-services-and-public-health-research
 - id: fda-regulatory-science-u01
   name: FDA topic-specific regulatory science cooperative agreements (U01)
   family: research
@@ -9329,6 +9605,9 @@
   status_note: The example notice, RFA-FD-26-012, is shown as Archived on Grants.gov, posted July 20, 2026 with an archive
     date of September 19, 2026 [2543]. A Grants.gov search of forecasted and open listings numbered RFA-FD returned three
     open notices, none of them a topic-specific regulatory science cooperative agreement, and no forecasts [2540].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: hrsa-mch-first
   name: HRSA Maternal and Child Health Field-Initiated Innovative Research Studies (MCH FIRST)
   family: research
@@ -9386,6 +9665,9 @@
   status_note: A Grants.gov search across all statuses returned no forecasted or open listing for MCH FIRST; the latest
     listing, HRSA-23-067, is Closed, posted Nov 9, 2022 with a close date of Feb 7, 2023 [2544]. The Bureau's research page
     names no notice or date and states "Not all projects are competed annually." [568].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: hrsa-mch-sdar
   name: HRSA Maternal and Child Health Secondary Data Analysis Research (MCH SDAR) and Autism SDAR
   family: research
@@ -9447,6 +9729,9 @@
   status_note: The programme page links only the closed notices HRSA-23-068 (MCH SDAR) and HRSA-23-069 (Autism SDAR), reports
     awards made in fiscal year 2024 and names no future competition [572]. A Grants.gov search returned both notices as
     Closed, posted Nov 14, 2022 with a close date of Feb 13, 2023, and no forecasted or open listing [2545].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: hrsa-autism-first
   name: HRSA Autism Field-Initiated Innovative Research Studies (Autism FIRST)
   family: research
@@ -9516,6 +9801,9 @@
   status_note: A Grants.gov search across all statuses returned no forecasted or open listing for Autism FIRST; the latest
     listing, HRSA-24-048, is Closed, posted Jan 4, 2024 with a close date of Apr 3, 2024 [2544]. The Bureau's research page
     names no notice or date and states "Not all projects are competed annually." [568].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: acl-nidilrr-fip-research
   name: NIDILRR Field Initiated Projects Program (Research)
   family: research
@@ -9603,6 +9891,9 @@
   status_change: A fiscal year 2027 forecast, HHS-2027-ACL-NIDILRR-IFRE-0303, was posted on Grants.gov on September 25,
     2026 with an estimated application due date of December 14, 2026, 8 expected awards and total programme funding of $2,000,000
     [2547].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: acl-nidilrr-fip-msi
   name: 'NIDILRR Field Initiated Projects Program: Minority-Serving Institutions (MSI) - Research'
   family: research
@@ -9672,6 +9963,8 @@
   status_change: The fiscal year 2026 listing is now Archived on Grants.gov, with an archive date of September 30, 2026,
     and the fiscal year 2027 forecasts posted September 25, 2026 include no Minority-Serving Institutions notice [2548]
     [2546].
+  on_routes:
+  - health-services-and-public-health-research
 - id: acl-nidilrr-drrp
   name: NIDILRR Disability and Rehabilitation Research Projects (DRRP)
   family: research
@@ -9751,6 +10044,9 @@
   status_note: HHS-2026-ACL-NIDILRR-DPCP-0221 is shown as Archived on Grants.gov, posted July 6, 2026 with an archive date
     of September 30, 2026 [580]. A Grants.gov search of forecasted and open NIDILRR listings returned 13 fiscal year 2027
     forecasts posted September 25, 2026, none titled Disability and Rehabilitation Research Projects [2546].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: acl-nidilrr-rerc
   name: NIDILRR Rehabilitation Engineering Research Centers (RERC)
   family: research
@@ -9825,6 +10121,9 @@
   status_change: Two fiscal year 2027 centre forecasts, HHS-2027-ACL-NIDILRR-REGE-0312 and HHS-2027-ACL-NIDILRR-REGE-0313,
     were posted on Grants.gov on September 25, 2026; the record of 2026-10-04 named only the closed fiscal year 2026 notice
     [2549] [2550].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: va-ord-merit-review
   name: VA Office of Research and Development Merit Review awards (intramural)
   family: research
@@ -9876,6 +10175,8 @@
     open to VA investigators only, so no current notice could be read [2551]. The Houston VA research page gives recurring
     submission cycles (March and September for BLR&D/CSR&D; June and December for HSR&D and RR&D Merit Review) without dates
     or notice numbers [585].
+  on_routes:
+  - health-services-and-public-health-research
 - id: pcori-broad-pragmatic-studies
   name: PCORI Broad Pragmatic Studies funding announcement
   family: research
@@ -9978,6 +10279,9 @@
     The announcement a new applicant would use is Cycle 1 2027, labelled Upcoming, with the online system opening Nov. 17,
     2026, a letter of intent deadline of Jan. 6, 2027 and an application deadline of May 4, 2027 [2552].'
   next_date: '2026-11-17'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: pcori-placer
   name: PCORI Phased Large Awards for Comparative Effectiveness Research (PLACER)
   family: research
@@ -10056,6 +10360,9 @@
     2027" [593]. The Cycle 1 2027 entry recorded on 2026-10-04 could not be confirmed: the announcement list returned today
     showed no Cycle 1 2027 rows and carried labels older than those on the announcement pages, and a Cycle 1 2027 PLACER
     address returned HTTP 403 [590].'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: pcori-science-of-engagement
   name: PCORI Advancing the Science of Engagement in Research
   family: research
@@ -10130,6 +10437,9 @@
     announcement list gives the Cycle 3 2026 letter of intent deadline as Sept. 9, 2026, which has passed, and its application
     deadline as Jan. 12, 2027; the Cycle 3 2026 announcement page returned HTTP 403 twice [590].
   next_date: '2026-11-17'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - health-services-and-public-health-research
 - id: doj-nij-research-evaluation
   name: NIJ Research, Evaluation, and Development Project Grants (annual research solicitations)
   family: research
@@ -10246,6 +10556,9 @@
     settings.", so no research notice is open or listed as forthcoming [602] [603]. The funding opportunities page states
     that "typically, most notices are released December through May (subject to appropriations availability)" and that a
     list of forthcoming notices is posted typically in the late fall [601].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: doj-bjs-chrarp
   name: BJS Criminal History Record Assessment and Research Program (CHRARP)
   family: research
@@ -10320,6 +10633,9 @@
     deadline of October 6, 2026, 11:59 pm Eastern and a JustGrants application deadline of October 13, 2026, 8:59 pm Eastern
     [614].
   next_date: '2026-10-06'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: acf-opre-secondary-analyses
   name: ACF OPRE secondary analysis research grants
   family: research
@@ -10391,6 +10707,9 @@
     the latest secondary analysis notices are HHS-2024-ACF-OPRE-YE-0195 (close date May 22, 2024) and HHS-2024-ACF-OPRE-YR-0093
     (close date Apr 26, 2024) [2553]. OPRE's grants page names three opportunities it is forecasting "for 2025", none of
     them a secondary analysis grant, and makes no statement that the secondary analysis grants have ended [627].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: ssa-rdrc
   name: SSA Retirement and Disability Research Consortium (RDRC)
   family: research
@@ -10431,6 +10750,8 @@
     terminated its Retirement and Disability Research Consortium cooperative agreements [626]. A Grants.gov search across
     all statuses returned only Archived SSA listings for the consortium, the latest being RDR-RDR-23-001, posted Feb 13,
     2023 with a close date of May 12, 2023, and none Forecasted or Open [2554].
+  on_routes:
+  - education-social-and-justice-research
 - id: dol-ceo-academic-research
   name: Department of Labor Chief Evaluation Office academic research support
   family: research
@@ -10465,6 +10786,8 @@
     and directs researchers to register for updates to learn about new funding opportunities, without saying the support
     has ended [629]. A Grants.gov search of forecasted and open listings for Chief Evaluation Office research returned no
     Department of Labor listing [2555].
+  on_routes:
+  - education-social-and-justice-research
 - id: neh-collaborative-research
   name: NEH Collaborative Research
   family: research
@@ -10600,6 +10923,9 @@
   status_note: The programme page reads "The deadline for this cycle has passed" for the cycle with a deadline of September
     16, 2026 and says updated guidelines will be posted before the next deadline, without giving a date [631]. The Grants.gov
     listing 20260916-RZ is shown as Closed, posted July 7, 2026 with a closing date of September 16, 2026 [726].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: neh-scholarly-editions-translations
   name: NEH Scholarly Editions and Translations
   family: research
@@ -10734,6 +11060,9 @@
   status_note: The programme page reads "The deadline for this cycle has passed" for the cycle with a deadline of September
     16, 2026 and an expected notification date of July 30, 2027, and says updated guidelines will be posted before the next
     deadline, without giving a date [633].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: neh-collections-stewardship
   name: NEH Collections Stewardship
   family: research
@@ -10861,6 +11190,9 @@
   status_note: The Grants.gov listing 20260511-PCS, Collections Stewardship, is shown as Open, posted March 11, 2026 with
     a closing date of December 15, 2026 [646].
   next_date: '2026-12-15'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: neh-rediscovering-our-revolutionary-tradition
   name: NEH Rediscovering Our Revolutionary Tradition
   family: research
@@ -10939,6 +11271,8 @@
   status_note: The programme page reads "The deadline for this cycle has passed" for the cycle with a deadline of January
     15, 2026, an expected notification date of August 31, 2026 and a project start of November 1, 2026, and says updated
     guidelines will be posted ahead of the next cycle, without giving a date [649].
+  on_routes:
+  - humanities-arts-and-cultural-heritage-research
 - id: neh-humanities-collections-reference-resources
   name: NEH Humanities Collections and Reference Resources
   family: research
@@ -11008,6 +11342,8 @@
   status_note: The programme page shows no application date, deadline or funding opportunity number and no statement that
     the programme has ended [639]. A Grants.gov search across all statuses returned 11 NEH listings with this title, none
     Forecasted or Open; the latest, 20240716-PW, is Closed, posted Apr 1, 2024 with a close date of Jul 16, 2024 [2556].
+  on_routes:
+  - humanities-arts-and-cultural-heritage-research
 - id: neh-preservation-research-and-development
   name: NEH Research and Development (preservation and access)
   family: research
@@ -11079,6 +11415,8 @@
     in, no funding opportunity number and no statement that the programme has ended [640]. A Grants.gov search across all
     statuses returned no Forecasted or Open NEH Research and Development listing; the latest, 20240521-PR, is Closed, posted
     Feb 29, 2024 with a close date of May 28, 2024 [2557].
+  on_routes:
+  - humanities-arts-and-cultural-heritage-research
 - id: neh-digital-humanities-advancement-grants
   name: NEH Digital Humanities Advancement Grants
   family: research
@@ -11150,6 +11488,8 @@
     statement that the programme has ended [637]. A Grants.gov search across all statuses returned 11 NEH listings with
     this title, all Closed and none Forecasted or Open; the latest, 20240111-HAA, was posted Aug 22, 2023 with a close date
     of Jun 13, 2024 [2558].
+  on_routes:
+  - humanities-arts-and-cultural-heritage-research
 - id: nea-research-grants-in-the-arts
   name: NEA Research Grants in the Arts
   family: research
@@ -11257,6 +11597,9 @@
     2026 (Part 2, NEA Applicant Portal) and is marked "Deadline has passed", with notification in November 2026 and an earliest
     start of January 1, 2027 [650]. The NEA grants page shows the same mark for Research Awards and gives no FY 2028 dates
     [653].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: nea-research-labs
   name: NEA Research Labs
   family: research
@@ -11358,6 +11701,9 @@
     1, Grants.gov) and April 2, 2026 (Part 2, NEA Applicant Portal) and is marked "Deadline has passed", with notification
     in November 2026 and an earliest start of January 1, 2027 [650]. The NEA grants page shows the same mark for Research
     Awards and gives no FY 2028 dates [653].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: imls-national-leadership-grants-libraries
   name: IMLS National Leadership Grants for Libraries (NLG-L)
   family: research
@@ -11505,6 +11851,9 @@
     deadline of November 13, 2026 [676]. Grants.gov search results show NLG-LIBRARIES-FY27, National Leadership Grants for
     Libraries (2027), as Open, posted Sep 1, 2026 with a close date of Nov 13, 2026 [2559].
   next_date: '2026-11-13'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: imls-national-leadership-grants-museums
   name: IMLS National Leadership Grants for Museums (NLG-M)
   family: research
@@ -11615,6 +11964,9 @@
     deadline of November 13, 2026 [680]. Grants.gov search results show NLG-M-FY27, National Leadership Grants for Museums
     (2027), as Open, posted Sep 1, 2026 with a close date of Nov 13, 2026 [2559].
   next_date: '2026-11-13'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: ies-education-research-grants
   name: IES Education Research Grants (NCER, ALN 84.305A)
   family: research
@@ -11724,6 +12076,9 @@
     (84.305A), and states "Future RFAs will be listed here as they are available." [660]. The IES post dated August 06,
     2026 says that in December the institute anticipates announcing its third and final tranche of FY 2027 grants, naming
     Education Research Grants for NCER (84.305A) and NCSER (84.324A) [661].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: ies-special-education-research-grants
   name: IES Special Education Research Grants (NCSER, ALN 84.324A)
   family: research
@@ -11802,6 +12157,9 @@
     final tranche of FY 2027 grants, naming Education Research Grants for NCER (84.305A) and NCSER (84.324A) [661]. The
     IES funding page lists five FY 2027 requests for applications, none of them Special Education Research Grants (84.324A),
     and states "Future RFAs will be listed here as they are available." [660].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: ies-statistical-research-methodology
   name: IES Statistical and Research Methodology in Education (NCER, ALN 84.305D)
   family: research
@@ -11914,6 +12272,9 @@
     Education notice (84.305D), as Closed, posted Aug 6, 2026 with a close date of Oct 1, 2026 [2560]. The IES competition
     page gives the same deadline, October 1, 2026 at 11:59:59 PM EDT, and still carries the label "Request for Applications
     Open"; it names no next competition [664].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: ies-longitudinal-data-state-policymaking
   name: IES Using Longitudinal Data to Support State Education Policymaking (ALN 84.305S and 84.324S)
   family: research
@@ -12023,6 +12384,9 @@
     of Oct 1, 2026: ED-GRANTS-080626-004 (NCER, 84.305S) and ED-GRANTS-080626-005 (NCSER, special education) [2561]. The
     IES competition page for 84.305S gives the same deadline, October 1, 2026 at 11:59:59 PM EDT, and still carries the
     label "Request for Applications Open"; it names no next competition [715].'
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - education-social-and-justice-research
 - id: nhprc-publishing-historical-records-editions
   name: NHPRC Publishing Historical Records in Collaborative Digital Editions
   family: research
@@ -12125,6 +12489,9 @@
     deadline for this program has passed", and the NHPRC announcements page lists the programme as closed and names no later
     cycle [698] [694]. A Grants.gov search returned 68 National Archives and Records Administration listings, all Closed
     and none Forecasted or Open [2562].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: nhprc-archival-projects
   name: NHPRC Archival Projects
   family: research
@@ -12216,6 +12583,9 @@
     5, 2025 [697]. The NHPRC announcements page states that the application deadline for its programmes has passed and names
     no later cycle, and a Grants.gov search returned 68 National Archives and Records Administration listings, all Closed
     and none Forecasted or Open [694] [2562].
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - humanities-arts-and-cultural-heritage-research
 - id: nih-f31
   name: NIH Kirschstein-NRSA Individual Predoctoral Fellowship (F31)
   family: people
@@ -12374,6 +12744,8 @@
   conflicts:
   - 'Posted date: June 13, 2025 on the notice [736] vs 06-12-2025 in the parent-announcement table [1].'
   sweep: people-A
+  on_routes:
+  - predoctoral-fellowship
 - id: nih-f30
   name: NIH Kirschstein-NRSA Individual Predoctoral Fellowship for dual-degree students (F30)
   family: people
@@ -12529,6 +12901,8 @@
   conflicts:
   - 'Posted date: June 13, 2025 on the notice [738] vs 06-12-2025 in the parent-announcement table [1].'
   sweep: people-A
+  on_routes:
+  - predoctoral-fellowship
 - id: nih-f32
   name: NIH Kirschstein-NRSA Individual Postdoctoral Fellowship (F32)
   family: people
@@ -12692,6 +13066,8 @@
   conflicts:
   - 'Posted date: June 13, 2025 on the notice [737] vs 06-12-2025 in the parent-announcement table [1].'
   sweep: people-A
+  on_routes:
+  - postdoctoral-fellowship
 - id: nih-f33
   name: NIH Kirschstein-NRSA Individual Senior Fellowship (F33)
   family: people
@@ -12817,6 +13193,8 @@
   - 1091
   conflicts: []
   sweep: people-A
+  on_routes:
+  - postdoctoral-fellowship
 - id: nih-f99-k00
   name: NIH Predoctoral to Postdoctoral Transition Award (F99/K00)
   family: people
@@ -12943,6 +13321,9 @@
   - 'End date: expiration April 09, 2029 on the notice and in NIH''s table [741] [1] vs close date April 8, 2029 on the
     Grants.gov listing [740].'
   sweep: people-A
+  on_routes:
+  - predoctoral-fellowship
+  - postdoctoral-fellowship
 - id: nih-k01
   name: NIH Mentored Research Scientist Development Award (K01)
   family: people
@@ -13100,6 +13481,8 @@
   - 786
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-k08
   name: NIH Mentored Clinical Scientist Research Career Development Award (K08)
   family: people
@@ -13229,6 +13612,8 @@
   - 1
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-k23
   name: NIH Mentored Patient-Oriented Research Career Development Award (K23)
   family: people
@@ -13347,6 +13732,8 @@
   - 1
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-k25
   name: NIH Mentored Quantitative Research Development Award (K25)
   family: people
@@ -13467,6 +13854,8 @@
   - 1
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-k02
   name: NIH Independent Scientist Award (K02)
   family: people
@@ -13564,6 +13953,8 @@
   conflicts:
   - 'Posted date: April 26, 2024 on the notice [749] vs 04-24-2024 in the parent-announcement table [1].'
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-k24
   name: NIH Midcareer Investigator Award in Patient-Oriented Research (K24)
   family: people
@@ -13682,6 +14073,8 @@
   - 1
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-k99-r00
   name: NIH Pathway to Independence Award (K99/R00)
   family: people
@@ -13831,6 +14224,9 @@
   - 790
   conflicts: []
   sweep: people-A
+  on_routes:
+  - postdoctoral-fellowship
+  - mentored-career-development-award
 - id: nih-k12
   name: NIH Institutional Mentored Career Development Award (K12)
   family: people
@@ -13943,6 +14339,9 @@
   - 'End date: expiration July 13, 2029 on the notice and in NIH''s table [753] [1] vs close date July 12, 2029 on the Grants.gov
     listing [752].'
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
+  - institutional-training-grant
 - id: nih-t32
   name: NIH Kirschstein-NRSA Institutional Research Training Grant (T32)
   family: people
@@ -14097,6 +14496,8 @@
   - 1
   conflicts: []
   sweep: people-A
+  on_routes:
+  - institutional-training-grant
 - id: nih-t35
   name: NIH Kirschstein-NRSA Short-Term Institutional Research Training Grant (T35)
   family: people
@@ -14187,6 +14588,8 @@
   conflicts:
   - 'Posted date: January 03, 2025 on the notice [751] vs 01-02-2025 in the parent-announcement table [1].'
   sweep: people-A
+  on_routes:
+  - institutional-training-grant
 - id: nih-r25
   name: NIH Research Education Program (R25)
   family: people
@@ -14318,6 +14721,9 @@
   - 'PA-27-036 end date: expiration May 26, 2029 in the full announcement as returned [756] vs 05-06-2029 in NIH''s table
     [1] vs close date May 5, 2029 on Grants.gov [755].'
   sweep: people-A
+  on_routes:
+  - institutional-training-grant
+  - student-pipeline-and-access-programmes
 - id: nih-extramural-lrp
   name: NIH Extramural Loan Repayment Program (LRP)
   family: people
@@ -14439,6 +14845,8 @@
   - 'Release date of the 2026 notices: July 13, 2026 on each notice [763] vs July 1, 2026 in the related-announcements list
     of the pediatric notice [764].'
   sweep: people-A
+  on_routes:
+  - health-workforce-training-and-loan-repayment
 - id: nih-k22
   name: NIH Career Transition Award (K22)
   family: people
@@ -14507,6 +14915,8 @@
   - 'End dates: several open K22 notices close after July 13, 2027 on Grants.gov [807] vs the statement that all active
     notices using current K codes (except K00, K12, K43, K76) expire by July 13, 2027 [742].'
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-nigms-burt-t34
   name: NIGMS Institutional Biomedical Undergraduate Research Training (BURT) Program (T34)
   family: people
@@ -14605,6 +15015,9 @@
     [796].'
   - 'End date: expiration September 26, 2028 in the announcement [797] vs close date September 25, 2028 on Grants.gov [796].'
   sweep: people-A
+  on_routes:
+  - institutional-training-grant
+  - student-pipeline-and-access-programmes
 - id: nih-reentry-supplements
   name: NIH research supplements for re-entry, re-integration and re-training
   family: people
@@ -14682,6 +15095,8 @@
   - 'Availability: the dedicated notice is expired as of September 9, 2025 [793] vs NIH''s supplements page (April 9, 2026)
     and NIGMS''s list of current programmes (September 17, 2026), which still name re-entry supplements [808] [760].'
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: nih-diversity-supplements
   name: NIH Research Supplements to Promote Diversity in Health-Related Research (closed)
   family: people
@@ -14730,6 +15145,9 @@
   conflicts:
   - 'End date: close date February 21, 2025 on Grants.gov [801] vs expiration date May 8, 2026 on the NIH Guide page [759].'
   sweep: people-A
+  on_routes:
+  - predoctoral-fellowship
+  - student-pipeline-and-access-programmes
 - id: nih-f31-diversity
   name: NIH Kirschstein-NRSA Individual Predoctoral Fellowship to Promote Diversity in Health-Related Research (F31-Diversity)
     (closed)
@@ -14775,6 +15193,8 @@
   - 736
   conflicts: []
   sweep: people-A
+  on_routes:
+  - predoctoral-fellowship
 - id: nih-mosaic-k99-r00
   name: NIH MOSAIC Postdoctoral Career Transition Award to Promote Diversity (K99/R00) (closed)
   family: people
@@ -14819,6 +15239,9 @@
   - 760
   conflicts: []
   sweep: people-A
+  on_routes:
+  - postdoctoral-fellowship
+  - mentored-career-development-award
 - id: nih-nigms-marc-t34
   name: NIGMS Maximizing Access to Research Careers (MARC) (T34) (closed)
   family: people
@@ -14861,6 +15284,9 @@
   - 760
   conflicts: []
   sweep: people-A
+  on_routes:
+  - institutional-training-grant
+  - student-pipeline-and-access-programmes
 - id: nih-t90-r90
   name: NIH Interdisciplinary Research Training Award (T90/R90)
   family: people
@@ -14900,6 +15326,8 @@
   - 806
   conflicts: []
   sweep: people-A
+  on_routes:
+  - institutional-training-grant
 - id: ahrq-k08
   name: AHRQ Mentored Clinical Scientist Research Career Development Award (K08) (expired)
   family: people
@@ -14982,6 +15410,8 @@
     [812].'
   - 'Posted date: August 8, 2022 on the NIH Guide page [783] vs August 9, 2022 on Grants.gov [812].'
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: ahrq-k01
   name: AHRQ Mentored Research Scientist Career Development Award (K01) (expired)
   family: people
@@ -15054,6 +15484,8 @@
   - 518
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: ahrq-pcor-k-awards
   name: AHRQ Patient-Centered Outcomes Research mentored career development awards (PCOR K01 and K08) (expired)
   family: people
@@ -15101,6 +15533,8 @@
   - 812
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: ahrq-k18
   name: AHRQ Mentored Career Enhancement Awards for Established Investigators in Patient-Centered Outcomes Research (K18)
     (expired)
@@ -15145,6 +15579,8 @@
   - 518
   conflicts: []
   sweep: people-A
+  on_routes:
+  - mentored-career-development-award
 - id: ahrq-r36
   name: AHRQ Health Services Research Dissertation Program (R36) (expired)
   family: people
@@ -15190,6 +15626,8 @@
   - AHRQ's own training page, last reviewed July 2021, still presents the R36 as active under PA-12-256 [780] vs the March
     6, 2026 notice of early expiration [513].
   sweep: people-A
+  on_routes:
+  - predoctoral-fellowship
 - id: ahrq-t32-f32
   name: AHRQ institutional training (T32) and postdoctoral fellowship (F32) awards
   family: people
@@ -15240,6 +15678,9 @@
   - 1088
   conflicts: []
   sweep: people-A
+  on_routes:
+  - postdoctoral-fellowship
+  - institutional-training-grant
 - id: nsf-career
   name: Faculty Early Career Development Program (CAREER)
   family: people
@@ -15371,6 +15812,8 @@
   - 255
   - 251
   - 1097
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-grfp
   name: NSF Graduate Research Fellowship Program (GRFP)
   family: people
@@ -15557,6 +16000,8 @@
   - 'Graduate-student rule: the FAQ NSF 26-205 says an applicant must not have completed more than one academic year [861];
     NSF 25-547 and NSF 26-526 say less than one academic year completed, and NSF 26-526 says second-year graduate students
     are not eligible [859] [818].'
+  on_routes:
+  - predoctoral-fellowship
 - id: nsf-mca
   name: Mid-Career Advancement (MCA)
   family: people
@@ -15677,6 +16122,8 @@
   - 185
   - 154
   - 255
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-egfp
   name: NSF EPSCoR Graduate Fellowship Program (EGFP)
   family: people
@@ -15790,6 +16237,9 @@
   conflicts:
   - 'Next due date: none shown on the opportunity page and June 1, 2026 is the last date in the solicitation [824] [825];
     EDU''s programme list shows June 1, 2027 [231].'
+  on_routes:
+  - predoctoral-fellowship
+  - institutional-training-grant
 - id: nsf-prfb
   name: Postdoctoral Research Fellowships in Biology (PRFB)
   family: people
@@ -15872,6 +16322,8 @@
   - 836
   - 837
   - 156
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-msprf
   name: Mathematical Sciences Postdoctoral Research Fellowships (MSPRF)
   family: people
@@ -15955,6 +16407,8 @@
   sources:
   - 839
   - 840
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-aapf
   name: NSF Astronomy and Astrophysics Postdoctoral Fellowships (AAPF)
   family: people
@@ -16030,6 +16484,8 @@
   sources:
   - 841
   - 842
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-ags-prf
   name: Atmospheric and Geospace Sciences Postdoctoral Research Fellowships (AGS-PRF)
   family: people
@@ -16114,6 +16570,8 @@
   sources:
   - 879
   - 880
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-sprf
   name: SBE Postdoctoral Research Fellowships (SPRF)
   family: people
@@ -16184,6 +16642,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The funder's page lists no due date or current
     solicitation (NSF pages say the programme is waiting for a new publication); no page says the programme will not be
     competed.
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-mps-ascend
   name: Mathematical and Physical Sciences Ascending Postdoctoral Research Fellowships (MPS-Ascend)
   family: people
@@ -16218,6 +16678,8 @@
   sources:
   - 838
   - 833
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-geo-postdoctoral-fellowships
   name: Geosciences postdoctoral fellowships now archived (EAR-PF, OCE-PRF, OPP-PRF)
   family: people
@@ -16278,6 +16740,8 @@
   - 848
   - 862
   - 879
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-stem-ed-prf
   name: STEM Education Postdoctoral Research Fellowships (STEM Ed IPRF and OPRF)
   family: people
@@ -16315,6 +16779,8 @@
   sources:
   - 851
   - 852
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-asee-postdoctoral-fellowships
   name: Engineering Fellows (eFellows) and Innovative Postdoctoral Entrepreneurial Research Fellowship (I-PERF)
   family: people
@@ -16364,6 +16830,8 @@
   - 833
   - 1099
   - 1100
+  on_routes:
+  - postdoctoral-fellowship
 - id: nsf-eri
   name: Engineering Research Initiation (ERI)
   family: people
@@ -16449,6 +16917,8 @@
   conflicts:
   - 'Institution type: the fetched opportunity-page summary said principal investigators must be affiliated with R1 institutions
     [831]; the solicitation limits submission to institutions not classified R1 [832].'
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-pfe-rief
   name: 'PFE: Research Initiation in Engineering Formation (PFE: RIEF)'
   family: people
@@ -16529,6 +16999,8 @@
   - The proposal includes a mentoring plan by which the engineering faculty investigator learns to conduct engineering education
     or social science research [883].
   - The organisation submits by the second Tuesday in November [883] [847].
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-crii
   name: Computer and Information Science and Engineering Research Initiation Initiative (CRII)
   family: people
@@ -16574,6 +17046,8 @@
   - 843
   - 189
   - 251
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-leaps-mps
   name: Launching Early-Career Academic Pathways in the Mathematical and Physical Sciences (LEAPS-MPS)
   family: people
@@ -16620,6 +17094,8 @@
   - 844
   - 214
   - 251
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-brc-bio
   name: Building Research Capacity of New Faculty in Biology (BRC-BIO)
   family: people
@@ -16661,6 +17137,8 @@
   - 845
   - 185
   - 251
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-bcser
   name: 'EDU Core Research: Building Capacity in STEM Education Research (ECR: BCSER)'
   family: people
@@ -16693,6 +17171,8 @@
   sources:
   - 868
   - 251
+  on_routes:
+  - early-career-faculty-award
 - id: nsf-sbe-ddrig
   name: SBE Doctoral Dissertation Research Improvement Grants (DDRIG) — programme family
   family: people
@@ -16756,6 +17236,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The funder's page lists no due date or current
     solicitation (NSF pages say the programme is waiting for a new publication); no page says the programme will not be
     competed.
+  on_routes:
+  - predoctoral-fellowship
 - id: nsf-nrt
   name: NSF Research Traineeship Program (NRT)
   family: people
@@ -16858,6 +17340,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The funder's page lists no due date or current
     solicitation (NSF pages say the programme is waiting for a new publication); no page says the programme will not be
     competed.
+  on_routes:
+  - institutional-training-grant
 - id: nsf-reu
   name: Research Experiences for Undergraduates (REU) — Sites and Supplements
   family: people
@@ -16976,6 +17460,8 @@
   - 835
   - 156
   - 255
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: nsf-ret
   name: Research Experiences for Teachers (RET) in Engineering and Computer Science — Sites and Supplements
   family: people
@@ -17056,6 +17542,8 @@
   sources:
   - 853
   - 854
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: nsf-s-stem
   name: NSF Scholarships in Science, Technology, Engineering, and Mathematics Program (S-STEM)
   family: people
@@ -17151,6 +17639,8 @@
   - 856
   - 231
   - 255
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: nsf-noyce
   name: Robert Noyce Teacher Scholarship Program
   family: people
@@ -17258,6 +17748,9 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The funder's page lists no due date or current
     solicitation (NSF pages say the programme is waiting for a new publication); no page says the programme will not be
     competed.
+  on_routes:
+  - student-pipeline-and-access-programmes
+  - health-workforce-training-and-loan-repayment
 - id: nsf-clb-supplement
   name: Career-Life Balance (CLB) supplemental funding requests
   family: people
@@ -17307,6 +17800,9 @@
   conflicts:
   - The Dear Colleague Letter NSF 21-021 is marked archived [846]; PAPPG 24-1 section II.F.13 still lists Career-Life Balance
     supplemental funding requests [257].
+  on_routes:
+  - postdoctoral-fellowship
+  - early-career-faculty-award
 - id: nsf-rahss-supplement
   name: Research Assistantships for High School Students (RAHSS) supplement
   family: people
@@ -17353,6 +17849,8 @@
   conflicts:
   - The letter NSF 23-145 is marked archived [889]; the older programme page, last updated in 2018, carries no archive banner
     [888].
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: nsf-intern-supplement
   name: Non-Academic Research Internships for Graduate Students (INTERN) supplement
   family: people
@@ -17408,6 +17906,8 @@
   - 870
   - 834
   - 1095
+  on_routes:
+  - predoctoral-fellowship
 - id: nsf-epscor-research-fellows
   name: 'EPSCoR Research Infrastructure Improvement: EPSCoR Research Fellows'
   family: people
@@ -17477,6 +17977,8 @@
   sources:
   - 867
   - 251
+  on_routes:
+  - early-career-faculty-award
 - id: doe-sc-early-career
   name: DOE Office of Science Early Career Research Program (ECRP)
   family: people
@@ -17584,6 +18086,8 @@
   - The programme page said "FY2026 Solicitation is OPEN" when read, but its deadlines had passed and the notice is archived
     on Grants.gov [890] vs [909].
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: doe-sc-scgsr
   name: Office of Science Graduate Student Research (SCGSR) Program
   family: people
@@ -17661,6 +18165,8 @@
   conflicts:
   - 'SCGSR deadline: November 4, 2026 [894] vs May 6, 2026 on the WDTS home page [891].'
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: doe-csgf
   name: DOE Computational Science Graduate Fellowship (DOE CSGF)
   family: people
@@ -17723,6 +18229,8 @@
   - 903
   - 904
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: doe-nnsa-ssgf
   name: DOE NNSA Stewardship Science Graduate Fellowship (DOE NNSA SSGF)
   family: people
@@ -17783,6 +18291,8 @@
   - The how-to-apply page takes applications for the 2027-2028 cohort [906]; the home page offered to notify visitors when
     the application opens [905].
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: doe-nnsa-lrgf
   name: DOE NNSA Laboratory Residency Graduate Fellowship (DOE NNSA LRGF)
   family: people
@@ -17843,6 +18353,8 @@
   - The how-to-apply page takes applications for the 2027-2028 class [908]; the home page offered to notify visitors when
     the application opens [907].
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: doe-wdts-suli
   name: Science Undergraduate Laboratory Internships (SULI)
   family: people
@@ -17912,6 +18424,8 @@
   - 899
   - 296
   sweep: people-C
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: doe-wdts-cci
   name: Community College Internships (CCI)
   family: people
@@ -17954,6 +18468,8 @@
   - 900
   - 891
   sweep: people-C
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: doe-wdts-vfp
   name: Visiting Faculty Program (VFP)
   family: people
@@ -18003,6 +18519,8 @@
   - 901
   - 902
   sweep: people-C
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: doe-arpa-e-igniite
   name: ARPA-E Inspiring Generations of New Innovators to Impact Technologies in Energy (IGNIITE)
   family: people
@@ -18069,6 +18587,8 @@
   sources:
   - 304
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: dod-ndseg
   name: National Defense Science and Engineering Graduate (NDSEG) Fellowship
   family: people
@@ -18151,6 +18671,8 @@
   - 'Stage of study: first two years of graduate study [912] vs at least three remaining years in the graduate programme
     [914].'
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: dod-smart
   name: Science, Mathematics, and Research for Transformation (SMART) Scholarship-for-Service Program
   family: people
@@ -18206,6 +18728,9 @@
   - 918
   - 919
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
+  - health-workforce-training-and-loan-repayment
 - id: dod-onr-yip
   name: Office of Naval Research Young Investigator Program (YIP)
   family: people
@@ -18289,6 +18814,8 @@
   - 922
   - 920
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: dod-afosr-yip
   name: Air Force Office of Scientific Research Young Investigator Program (YIP)
   family: people
@@ -18375,6 +18902,8 @@
   - 'Number of awards: 37 plus three, with potential for a further 37 [924] vs 50 expected awards and $4,500,000 total on
     the Grants.gov listing [923].'
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: dod-aro-early-career-program
   name: Army Research Office Early Career Program (ECP) award
   family: people
@@ -18430,6 +18959,8 @@
   - 341
   - 323
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: dod-darpa-yfa
   name: DARPA Young Faculty Award (YFA)
   family: people
@@ -18490,6 +19021,8 @@
   - 927
   - 928
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: dod-vbff
   name: Vannevar Bush Faculty Fellowship (VBFF)
   family: people
@@ -18557,6 +19090,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - early-career-faculty-award
 - id: dod-cdmrp-career-development-mechanisms
   name: CDMRP career-development and early-investigator award mechanisms
   family: people
@@ -18649,6 +19184,9 @@
   - 939
   - 295
   sweep: people-C
+  on_routes:
+  - mentored-career-development-award
+  - early-career-faculty-award
 - id: nasa-finesst
   name: Future Investigators in NASA Earth and Space Science and Technology (FINESST)
   family: people
@@ -18714,6 +19252,8 @@
   - 373
   - 956
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: nasa-npp
   name: NASA Postdoctoral Program (NPP)
   family: people
@@ -18779,6 +19319,8 @@
   - 944
   - 940
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
 - id: nasa-hubble-fellowship
   name: NASA Hubble Fellowship Program (NHFP)
   family: people
@@ -18839,6 +19381,8 @@
   - 947
   - 940
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
 - id: nasa-roman-technology-fellowship
   name: Nancy Grace Roman Technology Fellowship (RTF) in Astrophysics
   family: people
@@ -18876,6 +19420,8 @@
   - 957
   - 958
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: nasa-ecip-earth-science
   name: NASA Early Career Investigator Program in Earth Science (ECIP-ES)
   family: people
@@ -18931,6 +19477,8 @@
   - 952
   - 950
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: nasa-stmd-early-career-faculty
   name: NASA Space Technology Research Grants — Early Career Faculty (ECF)
   family: people
@@ -19005,6 +19553,8 @@
   - 'ECF25 dates on Grants.gov: proposals due July 10, 2025 and a posted date of July 11, 2025 on the listing [1079] vs
     a close date of July 12, 2025 in the search results [1080].'
   sweep: people-C
+  on_routes:
+  - early-career-faculty-award
 - id: nasa-stmd-nstgro
   name: NASA Space Technology Graduate Research Opportunities (NSTGRO)
   family: people
@@ -19069,6 +19619,8 @@
   - 1081
   - 1082
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: nifa-afri-ewd-predoctoral
   name: AFRI Education and Workforce Development — Predoctoral Fellowships (A7101)
   family: people
@@ -19126,6 +19678,8 @@
   - 959
   - 960
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: nifa-afri-ewd-postdoctoral
   name: AFRI Education and Workforce Development — Postdoctoral Fellowships (A7201)
   family: people
@@ -19182,6 +19736,8 @@
   - 959
   - 960
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
 - id: nifa-afri-ewd-workforce
   name: AFRI Education and Workforce Development — workforce, undergraduate and educator awards
   family: people
@@ -19266,6 +19822,9 @@
   - 959
   - 960
   sweep: people-C
+  on_routes:
+  - institutional-training-grant
+  - student-pipeline-and-access-programmes
 - id: nifa-nnf
   name: National Needs Graduate and Postgraduate Fellowship Grants Program (NNF)
   family: people
@@ -19342,6 +19901,9 @@
   - 962
   - 408
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
+  - institutional-training-grant
 - id: noaa-knauss-fellowship
   name: Sea Grant John A. Knauss Marine Policy Fellowship
   family: people
@@ -19435,6 +19997,8 @@
   - 436
   - 445
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: noaa-nmfs-sea-grant-fellowship
   name: NMFS-Sea Grant Joint Fellowship Program (population and ecosystem dynamics; marine resource economics)
   family: people
@@ -19503,6 +20067,8 @@
   - The programme page carries a banner saying the application period is open [966]; the prospective-fellows page says the
     2025 application period is closed and the funding page lists no later notice [967] [436].
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
 - id: noaa-hollings-scholarship
   name: NOAA Ernest F. Hollings Undergraduate Scholarship
   family: people
@@ -19561,6 +20127,8 @@
   - 969
   - 445
   sweep: people-C
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: noaa-epp-msi-undergraduate-scholarship
   name: NOAA Educational Partnership Program with Minority Serving Institutions (EPP/MSI) Undergraduate Scholarship
   family: people
@@ -19615,6 +20183,8 @@
   - 970
   - 445
   sweep: people-C
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: noaa-cgc-postdoctoral-fellowship
   name: NOAA Climate and Global Change (C&GC) Postdoctoral Fellowship Program
   family: people
@@ -19678,6 +20248,8 @@
   - The recruitment announcement page was read as being for 2026 appointments [972]; the criteria page gives a start on
     the first Monday in July 2027 [973].
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
 - id: noaa-cpo-mapp-early-career-award
   name: NOAA MAPP Early Career Award for Exceptional Research in Earth System Model Development and Application
   family: people
@@ -19715,6 +20287,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The funder's page lists no due date or current
     solicitation (NSF pages say the programme is waiting for a new publication); no page says the programme will not be
     competed.
+  on_routes:
+  - early-career-faculty-award
 - id: epa-star-gro-fellowships
   name: EPA Science to Achieve Results (STAR) Graduate and Greater Research Opportunities (GRO) Undergraduate Fellowships
   family: people
@@ -19753,6 +20327,9 @@
   - 977
   - 976
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
+  - student-pipeline-and-access-programmes
 - id: nist-nrc-postdoc
   name: NIST NRC Postdoctoral Research Associateships Program
   family: people
@@ -19795,6 +20372,8 @@
   sources:
   - 978
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
 - id: nist-surf
   name: NIST Summer Undergraduate Research Fellowship (SURF)
   family: people
@@ -19846,6 +20425,8 @@
   sources:
   - 979
   sweep: people-C
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: usgs-mendenhall
   name: USGS Mendenhall Research Fellowship Program
   family: people
@@ -19901,6 +20482,8 @@
   - 982
   - 983
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
 - id: smithsonian-sifp
   name: Smithsonian Institution Fellowship Program (SIFP)
   family: people
@@ -19961,6 +20544,9 @@
   sources:
   - 984
   sweep: people-C
+  on_routes:
+  - postdoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: dhs-st-workforce-programs
   name: DHS Science and Technology workforce programmes (HS-POWER; Summer Research Team Program for Minority Serving Institutions)
   family: people
@@ -19999,6 +20585,9 @@
   - 1104
   - 1105
   sweep: people-C
+  on_routes:
+  - predoctoral-fellowship
+  - student-pipeline-and-access-programmes
 - id: neh-fellowships
   name: NEH Fellowships
   family: people
@@ -20119,6 +20708,8 @@
   - 642
   - 643
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: neh-public-scholars
   name: NEH Public Scholars
   family: people
@@ -20211,6 +20802,8 @@
   - 635
   - 1101
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: neh-awards-for-faculty-hbcu
   name: NEH Awards for Faculty at Historically Black Colleges and Universities
   family: people
@@ -20304,6 +20897,8 @@
   - 1051
   - 1052
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: neh-fellowships-advanced-social-science-research-japan
   name: NEH Fellowships for Advanced Social Science Research on Japan
   family: people
@@ -20380,6 +20975,8 @@
   - 1005
   - 987
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: neh-summer-stipends
   name: NEH Summer Stipends
   family: people
@@ -20450,6 +21047,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: nea-creative-writing-fellowships
   name: NEA Literature Fellowships, Creative Writing
   family: people
@@ -20543,6 +21142,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: nea-translation-projects
   name: NEA Literature Fellowships, Translation Projects
   family: people
@@ -20608,6 +21209,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: imls-laura-bush-21st-century-librarian
   name: IMLS Laura Bush 21st Century Librarian Program
   family: people
@@ -20729,6 +21332,9 @@
   - 685
   - 990
   sweep: people-D
+  on_routes:
+  - early-career-faculty-award
+  - institutional-training-grant
 - id: ed-fulbright-hays-ddra
   name: Fulbright-Hays Doctoral Dissertation Research Abroad Fellowship Program
   family: people
@@ -20817,6 +21423,9 @@
   - 672
   - 1026
   sweep: people-D
+  on_routes:
+  - predoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: ed-fulbright-hays-fra
   name: Fulbright-Hays Faculty Research Abroad Fellowship Program
   family: people
@@ -20861,6 +21470,8 @@
   - 1014
   - 672
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: ed-fulbright-hays-gpa
   name: Fulbright-Hays Group Projects Abroad Program
   family: people
@@ -20907,6 +21518,8 @@
   - 1014
   - 672
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: ed-gaann
   name: Graduate Assistance in Areas of National Need (GAANN)
   family: people
@@ -20998,6 +21611,9 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - predoctoral-fellowship
+  - institutional-training-grant
 - id: ed-trio-mcnair
   name: Ronald E. McNair Postbaccalaureate Achievement Program
   family: people
@@ -21035,6 +21651,8 @@
   - 1015
   - 672
   sweep: people-D
+  on_routes:
+  - student-pipeline-and-access-programmes
 - id: ies-research-training-education-sciences
   name: IES Research Training Programs in the Education Sciences (84.305B)
   family: people
@@ -21134,6 +21752,9 @@
   - 660
   - 661
   sweep: people-D
+  on_routes:
+  - mentored-career-development-award
+  - institutional-training-grant
 - id: ies-research-training-special-education
   name: IES Research Training Programs in Special Education (84.324B)
   family: people
@@ -21223,6 +21844,9 @@
   - 660
   - 661
   sweep: people-D
+  on_routes:
+  - mentored-career-development-award
+  - institutional-training-grant
 - id: state-fulbright-us-student
   name: Fulbright U.S. Student Program
   family: people
@@ -21296,6 +21920,9 @@
   - 1024
   - 1020
   sweep: people-D
+  on_routes:
+  - predoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: state-fulbright-us-scholar
   name: Fulbright U.S. Scholar Program
   family: people
@@ -21358,6 +21985,8 @@
   - The same page gives more than 380 awards in more than 120 countries and more than 800 awards annually to 135+ countries
     [1025] vs [1025].
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: hrsa-nrsa-primary-care
   name: HRSA Ruth L. Kirschstein National Research Service Award Institutional Research Training Grant (primary care)
   family: people
@@ -21454,6 +22083,9 @@
   - 'Applicant types: the listing''s field includes other nonprofit organisations; the notice says domestic public or private
     nonprofit institution of higher education [1027] vs [1028].'
   sweep: people-D
+  on_routes:
+  - institutional-training-grant
+  - health-workforce-training-and-loan-repayment
 - id: hrsa-bhwet-professionals
   name: HRSA Behavioral Health Workforce Education and Training (BHWET) Program for Professionals
   family: people
@@ -21518,6 +22150,9 @@
   - 1073
   - 1074
   sweep: people-D
+  on_routes:
+  - institutional-training-grant
+  - health-workforce-training-and-loan-repayment
 - id: hrsa-nurse-faculty-loan-program
   name: HRSA Nurse Faculty Loan Program (NFLP)
   family: people
@@ -21585,6 +22220,8 @@
   - 1075
   - 1076
   sweep: people-D
+  on_routes:
+  - health-workforce-training-and-loan-repayment
 - id: hrsa-faculty-loan-repayment-program
   name: HRSA Faculty Loan Repayment Program (FLRP)
   family: people
@@ -21634,6 +22271,8 @@
   sources:
   - 1033
   sweep: people-D
+  on_routes:
+  - health-workforce-training-and-loan-repayment
 - id: samhsa-minority-fellowship-program
   name: SAMHSA Minority Fellowship Program (MFP)
   family: people
@@ -21699,6 +22338,9 @@
   - 1037
   - 1038
   sweep: people-D
+  on_routes:
+  - institutional-training-grant
+  - health-workforce-training-and-loan-repayment
 - id: acl-nidilrr-switzer-fellowships
   name: NIDILRR Switzer Research Fellowships
   family: people
@@ -21782,6 +22424,8 @@
   - 1041
   - 1044
   sweep: people-D
+  on_routes:
+  - postdoctoral-fellowship
 - id: acl-nidilrr-arrt
   name: NIDILRR Advanced Rehabilitation Research Training (ARRT) Program
   family: people
@@ -21860,6 +22504,9 @@
   - 1043
   - 1044
   sweep: people-D
+  on_routes:
+  - postdoctoral-fellowship
+  - institutional-training-grant
 - id: doj-nij-graduate-research-fellowship
   name: NIJ Graduate Research Fellowship (GRF)
   family: people
@@ -21950,6 +22597,8 @@
   - 992
   - 993
   sweep: people-D
+  on_routes:
+  - predoctoral-fellowship
 - id: loc-kluge-fellowship
   name: Library of Congress Kluge Fellowship
   family: people
@@ -22004,6 +22653,9 @@
   - 999
   - 1000
   sweep: people-D
+  on_routes:
+  - postdoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: wilson-center-research-fellowship
   name: Wilson Center Research Fellowship
   family: people
@@ -22057,6 +22709,8 @@
   sources:
   - 1001
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: smithsonian-institution-fellowship-program
   name: Smithsonian Institution Fellowship Program (SIFP)
   family: people
@@ -22134,6 +22788,9 @@
   - 984
   - 998
   sweep: people-D
+  on_routes:
+  - predoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: smithsonian-museum-fellowships-humanities-arts
   name: Smithsonian museum-based fellowships in the humanities and arts
   family: people
@@ -22186,6 +22843,8 @@
   sources:
   - 998
   sweep: people-D
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: neh-fpiri
   name: NEH Fellowship Programs at Independent Research Institutions (FPIRI)
   family: people
@@ -22284,6 +22943,9 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - institutional-training-grant
+  - humanities-arts-and-international-fellowships
 - id: neh-awards-for-faculty-hsi
   name: NEH Awards for Faculty at Hispanic-Serving Institutions
   family: people
@@ -22376,6 +23038,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: neh-awards-for-faculty-tcu
   name: NEH Awards for Faculty at Tribal Colleges and Universities
   family: people
@@ -22459,6 +23123,8 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - humanities-arts-and-international-fellowships
 - id: cdc-niosh-erc-t42
   name: NIOSH Occupational Safety and Health Education and Research Centers (T42)
   family: people
@@ -22578,6 +23244,9 @@
   - 'Award size: $1.8 million a year, or $5.4 million to $9 million over three to five years, in the notice [1061] vs an
     award floor of $4,500,000 and ceiling of $9,000,000 on Grants.gov [1060].'
   - 'Posted date: October 8, 2024 in the notice [1061] vs October 7, 2024 on Grants.gov [1060].'
+  on_routes:
+  - institutional-training-grant
+  - health-workforce-training-and-loan-repayment
 - id: cdc-niosh-tpg-t03
   name: NIOSH Occupational Safety and Health Training Project Grants (T03)
   family: people
@@ -22706,6 +23375,9 @@
     total programme funding, 29 expected awards and an award ceiling of $550,000 on Grants.gov [1062].'
   - 'Dates: posted November 20, 2024 and expiring November 28, 2028 in the notice [1063] vs posted November 22, 2024 and
     closing October 26, 2028 on Grants.gov [1062].'
+  on_routes:
+  - institutional-training-grant
+  - health-workforce-training-and-loan-repayment
 - id: cdc-niosh-k01
   name: NIOSH Mentored Research Scientist Development Award (K01)
   family: people
@@ -22783,6 +23455,8 @@
   - 1064
   - 1059
   - 554
+  on_routes:
+  - mentored-career-development-award
 - id: ed-javits-fellowship
   name: Jacob K. Javits Fellowship Program
   family: people
@@ -22850,6 +23524,9 @@
   - Status relabelled from not-competed to no-current-notice on 2026-10-04. The gap-filling pass found no notice for 2025
     or 2026 on Grants.gov where one used to appear on a regular rhythm, and no funder page saying the programme has ended
     or will not be competed. not-competed is kept for programmes whose funder says so.
+  on_routes:
+  - predoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: samhsa-ccbhc-planning-development-implementation
   name: Certified Community Behavioral Health Clinic Planning, Development, and Implementation Grant (CCBHC-PDI)
   family: programme-service
@@ -22958,6 +23635,10 @@
   - 1175
   - 1177
   sweep: service-A
+  on_routes:
+  - getting-registered-to-apply
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: samhsa-ccbhc-improvement-advancement
   name: Certified Community Behavioral Health Clinic Improvement and Advancement Grant (CCBHC-IA)
   family: programme-service
@@ -23025,6 +23706,9 @@
   - 1109
   - 1108
   sweep: service-A
+  on_routes:
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: samhsa-childrens-mental-health-initiative
   name: Children's Mental Health Initiative (Comprehensive Community Mental Health Services for Children with Serious Emotional
     Disturbances)
@@ -23094,6 +23778,8 @@
   - 1109
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-gls-campus-suicide-prevention
   name: Garrett Lee Smith (GLS) Campus Suicide Prevention Grant Program
   family: programme-service
@@ -23172,6 +23858,8 @@
   - 1115
   - 1109
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-988-crisis-center-follow-up
   name: 988 Suicide and Crisis Lifeline Crisis Center Follow-Up Programs
   family: programme-service
@@ -23241,6 +23929,8 @@
   - 1108
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-building-communities-of-recovery
   name: Building Communities of Recovery (BCOR)
   family: programme-service
@@ -23311,6 +24001,9 @@
   - 1118
   - 1117
   sweep: service-A
+  on_routes:
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: samhsa-mental-health-awareness-training
   name: Mental Health Awareness Training Grants (MHAT)
   family: programme-service
@@ -23380,6 +24073,8 @@
   - 1124
   - 1108
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-mat-pdoa
   name: Medication-Assisted Treatment - Prescription Drug and Opioid Addiction (MAT-PDOA)
   family: programme-service
@@ -23458,6 +24153,8 @@
   - 1108
   - 1135
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-nctsi-community-treatment-services
   name: National Child Traumatic Stress Initiative, Category III Community Treatment and Service Centers (NCTSI-CTS)
   family: programme-service
@@ -23533,6 +24230,8 @@
   conflicts:
   - Close date Jul 27, 2026 [1109] vs August 26, 2026 [1125]
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-spf-pfs-communities-tribes
   name: Strategic Prevention Framework - Partnerships for Success for Communities/Tribes (SPF-PFS)
   family: programme-service
@@ -23602,6 +24301,8 @@
   - 1109
   - 1108
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-tribal-opioid-response
   name: Tribal Opioid Response Grants (TOR)
   family: programme-service
@@ -23676,6 +24377,8 @@
   - 1209
   - 1123
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-tribal-behavioral-health-suicide-prevention
   name: 'Tribal Behavioral Health: Suicide Prevention'
   family: programme-service
@@ -23738,6 +24441,8 @@
   - 1202
   - 1109
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-ppw-residential-treatment
   name: Residential Treatment for Pregnant and Postpartum Women (PPW)
   family: programme-service
@@ -23801,6 +24506,8 @@
   - 1119
   - 1109
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-youth-family-treatment-recovery
   name: Treatment and Recovery Services for Youth, Young Adults, and Families
   family: programme-service
@@ -23868,6 +24575,8 @@
   - 1128
   - 1109
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: samhsa-mental-health-block-grant
   name: Community Mental Health Services Block Grant (MHBG)
   family: programme-service
@@ -23943,6 +24652,11 @@
     at not less than the average of the two preceding fiscal years [1219].
   reporting: States file an annual report in WebBGAS [1219].
   sweep: service-A
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: samhsa-substance-use-block-grant
   name: Substance Use Prevention, Treatment, and Recovery Services Block Grant (SUBG)
   family: programme-service
@@ -24026,6 +24740,11 @@
   conflicts:
   - FY 2026 amount $2,013.1M [535] vs $1.9 billion [538]
   sweep: service-A
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: samhsa-state-opioid-response
   name: State Opioid Response Grants (SOR)
   family: programme-service
@@ -24090,6 +24809,9 @@
   - 1209
   - 1201
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: cdc-drug-free-communities
   name: Drug-Free Communities (DFC) Support Program
   family: programme-service
@@ -24183,6 +24905,9 @@
   - 1496
   - 1220
   sweep: service-A
+  on_routes:
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: cdc-scale-injury-violence-prevention
   name: Supporting Community Application of Life-Saving Evidence to Prevent Injury and Violence (SCALE)
   family: programme-service
@@ -24260,6 +24985,8 @@
   - 1198
   - 533
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: cdc-infectious-disease-consequences-of-drug-use
   name: Strengthening Services to Prevent the Infectious Disease Consequences of Drug Use
   family: programme-service
@@ -24316,6 +25043,8 @@
   sources:
   - 1211
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: cdc-public-health-infrastructure-grant
   name: Public Health Infrastructure Grant (Strengthening U.S. Public Health Infrastructure, Workforce, and Data Systems)
   family: programme-service
@@ -24366,6 +25095,10 @@
   - 1197
   - 1197
   sweep: service-A
+  on_routes:
+  - general-operating-support
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: hrsa-health-center-service-area-competition
   name: Health Center Program, Service Area Competition (SAC)
   family: programme-service
@@ -24476,6 +25209,10 @@
   - 1177
   - 535
   sweep: service-A
+  on_routes:
+  - getting-registered-to-apply
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: hrsa-health-center-new-access-points
   name: Health Center Program, New Access Points (NAP)
   family: programme-service
@@ -24544,6 +25281,9 @@
   conflicts:
   - Listed funding $50,000,000 for 77 awards [1153] vs $102 million to 158 health centers announced [1154]
   sweep: service-A
+  on_routes:
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: hrsa-ryan-white-part-c-eis
   name: Ryan White HIV/AIDS Program Part C, Early Intervention Services and Capacity Development
   family: programme-service
@@ -24608,6 +25348,8 @@
   - 1159
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-ryan-white-part-d-wicy
   name: Ryan White HIV/AIDS Program Part D, Coordinated HIV Services and Access to Research for Women, Infants, Children,
     and Youth (WICY)
@@ -24675,6 +25417,8 @@
   - 1160
   - 1144
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-ryan-white-parts-a-and-b
   name: Ryan White HIV/AIDS Program Parts A and B (grants to metropolitan areas, states and territories)
   family: programme-service
@@ -24733,6 +25477,9 @@
   - 535
   - 1464
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: hrsa-rural-health-care-services-outreach
   name: Rural Health Care Services Outreach Program
   family: programme-service
@@ -24800,6 +25547,8 @@
   - 535
   - 1165
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-rural-health-network-development
   name: Rural Health Network Development Program
   family: programme-service
@@ -24868,6 +25617,8 @@
   - 1144
   - 1165
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-rcorp
   name: Rural Communities Opioid Response Program (RCORP)
   family: programme-service
@@ -24954,6 +25705,8 @@
   - 1165
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-title-v-mch-block-grant
   name: Title V Maternal and Child Health Services Block Grant
   family: programme-service
@@ -25008,6 +25761,9 @@
   - 535
   - 1168
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: hrsa-healthy-start
   name: Healthy Start Initiative
   family: programme-service
@@ -25077,6 +25833,8 @@
   - 1144
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-miechv
   name: Maternal, Infant, and Early Childhood Home Visiting Program (MIECHV)
   family: programme-service
@@ -25140,6 +25898,9 @@
   - 535
   - 1474
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: hrsa-thcgme
   name: Teaching Health Center Graduate Medical Education (THCGME) Program
   family: programme-service
@@ -25215,6 +25976,8 @@
   - 1175
   - 1177
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: hrsa-chgme
   name: Children's Hospitals Graduate Medical Education (CHGME) Payment Program
   family: programme-service
@@ -25276,6 +26039,9 @@
   - 1174
   - 1195
   sweep: service-A
+  on_routes:
+  - general-operating-support
+  - health-and-behavioural-health-services
 - id: oash-title-x-family-planning
   name: Title X Family Planning Services Grants
   family: programme-service
@@ -25391,6 +26157,8 @@
   - Submit three files through Grants.gov (a project narrative of up to 50 pages, appendices, and a budget package), with
     narrative and appendices together no more than 100 pages [1218].
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: oash-teen-pregnancy-prevention
   name: Teen Pregnancy Prevention (TPP) Program
   family: programme-service
@@ -25447,6 +26215,8 @@
   - 1179
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: oash-minority-health-grants
   name: Office of Minority Health grant programmes
   family: programme-service
@@ -25499,6 +26269,8 @@
   - 1179
   - 535
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: ihs-tribal-management-grant
   name: Indian Health Service Tribal Management Grant (TMG) Program
   family: programme-service
@@ -25558,6 +26330,8 @@
   conflicts:
   - Shown as open [1186] vs closed August 28, 2026 [1188]
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: ihs-urban-indian-health-4-in-1
   name: Indian Health Service Urban Indian Health 4-in-1 Program
   family: programme-service
@@ -25612,6 +26386,8 @@
   sources:
   - 1189
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: cms-navigator-cooperative-agreements
   name: Cooperative Agreement to Support Navigators in Federally-facilitated Exchanges
   family: programme-service
@@ -25686,6 +26462,8 @@
   - 1191
   - 1192
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
 - id: cms-rural-health-transformation
   name: Rural Health Transformation (RHT) Program
   family: programme-service
@@ -25735,6 +26513,9 @@
   - 1193
   - 1193
   sweep: service-A
+  on_routes:
+  - health-and-behavioural-health-services
+  - formula-money-through-the-state
 - id: acf-head-start
   name: Head Start and Early Head Start (service-area grants)
   family: programme-service
@@ -25861,6 +26642,10 @@
   - 1230
   - 1231
   - 1253
+  on_routes:
+  - getting-registered-to-apply
+  - general-operating-support
+  - children-family-and-ageing-services
 - id: acf-early-head-start-expansion
   name: Early Head Start Expansion and Early Head Start-Child Care Partnership Grants
   family: programme-service
@@ -25941,6 +26726,8 @@
   - 1229
   - 1228
   - 1249
+  on_routes:
+  - children-family-and-ageing-services
 - id: acf-rhy-basic-center
   name: Runaway and Homeless Youth - Basic Center Program
   family: programme-service
@@ -26035,6 +26822,8 @@
   - 1233
   - 1234
   - 1235
+  on_routes:
+  - children-family-and-ageing-services
 - id: acf-rhy-street-outreach
   name: Runaway and Homeless Youth - Street Outreach Program
   family: programme-service
@@ -26087,6 +26876,8 @@
   - 1238
   - 1237
   - 1234
+  on_routes:
+  - children-family-and-ageing-services
 - id: acf-rhy-transitional-living
   name: Runaway and Homeless Youth - Transitional Living Program and Maternity Group Homes
   family: programme-service
@@ -26141,6 +26932,8 @@
   sources:
   - 1238
   - 1236
+  on_routes:
+  - children-family-and-ageing-services
 - id: acf-fvpsa-formula
   name: Family Violence Prevention and Services Act formula grants to states and tribes
   family: programme-service
@@ -26189,6 +26982,11 @@
   - 1355
   - 1339
   - 1493
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - children-family-and-ageing-services
+  - formula-money-through-the-state
 - id: acf-fvpsa-culturally-specific-services
   name: FVPSA discretionary grants - Culturally Specific Domestic Violence and Sexual Assault Services
   family: programme-service
@@ -26255,6 +27053,8 @@
   sources:
   - 1346
   - 1345
+  on_routes:
+  - children-family-and-ageing-services
 - id: acf-orr-placement-and-coordination
   name: Office of Refugee Resettlement - Placement and Coordination Program
   family: programme-service
@@ -26342,6 +27142,8 @@
   - 1247
   - 1224
   - 1339
+  on_routes:
+  - children-family-and-ageing-services
 - id: acf-csbg
   name: Community Services Block Grant
   family: programme-service
@@ -26399,6 +27201,11 @@
   - 1175
   - 1230
   - 1239
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - children-family-and-ageing-services
+  - formula-money-through-the-state
 - id: acf-ssbg
   name: Social Services Block Grant
   family: programme-service
@@ -26440,6 +27247,9 @@
   - 1242
   - 1339
   - 1241
+  on_routes:
+  - children-family-and-ageing-services
+  - formula-money-through-the-state
 - id: acf-ccdf
   name: Child Care and Development Fund (Child Care and Development Block Grant)
   family: programme-service
@@ -26480,6 +27290,9 @@
   - 1248
   - 1339
   - 1494
+  on_routes:
+  - children-family-and-ageing-services
+  - formula-money-through-the-state
 - id: acl-oaa-title-iii
   name: Older Americans Act Title III - supportive services, nutrition and caregiver support
   family: programme-service
@@ -26532,6 +27345,11 @@
   - 1339
   - 1467
   - 1473
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - children-family-and-ageing-services
+  - formula-money-through-the-state
 - id: acl-centers-for-independent-living
   name: Centers for Independent Living (Rehabilitation Act, Title VII, Part C)
   family: programme-service
@@ -26607,6 +27425,10 @@
   - 1258
   - 1255
   - 1339
+  on_routes:
+  - becoming-an-eligible-nonprofit
+  - general-operating-support
+  - children-family-and-ageing-services
 - id: acl-adpi-state-and-community
   name: Alzheimer's Disease Programs Initiative - State and Community Grant Program
   family: programme-service
@@ -26683,6 +27505,8 @@
   - 1257
   - 1256
   - 1255
+  on_routes:
+  - children-family-and-ageing-services
 - id: doj-ovw-legal-assistance-for-victims
   name: OVW Legal Assistance for Victims Grant Program
   family: programme-service
@@ -26788,6 +27612,8 @@
   - 1270
   - 1271
   - 620
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: doj-ovw-transitional-housing
   name: OVW Transitional Housing Assistance Grants
   family: programme-service
@@ -26881,6 +27707,8 @@
   - 1270
   - 1271
   - 620
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: doj-ovw-stop-formula
   name: OVW STOP Violence Against Women Formula Grant Program
   family: programme-service
@@ -26940,6 +27768,9 @@
   - 1266
   - 620
   - 1263
+  on_routes:
+  - justice-victim-services-and-legal-aid
+  - formula-money-through-the-state
 - id: doj-bja-second-chance-community-reentry
   name: BJA Second Chance Act Community-based Reentry Program
   family: programme-service
@@ -27029,6 +27860,8 @@
   - 612
   - 619
   - 620
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: doj-bja-byrne-jag
   name: Edward Byrne Memorial Justice Assistance Grant (JAG) Program
   family: programme-service
@@ -27084,6 +27917,9 @@
   - 620
   - 1471
   - 1472
+  on_routes:
+  - justice-victim-services-and-legal-aid
+  - formula-money-through-the-state
 - id: doj-ovc-human-trafficking-services
   name: OVC Services for Victims of Human Trafficking
   family: programme-service
@@ -27178,6 +28014,8 @@
   - 1276
   - 612
   - 619
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: doj-ovc-voca-victim-assistance
   name: Victims of Crime Act (VOCA) Victim Assistance formula grants
   family: programme-service
@@ -27238,6 +28076,11 @@
   - 1470
   - 1468
   - 1482
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - justice-victim-services-and-legal-aid
+  - formula-money-through-the-state
 - id: doj-ojjdp-multistate-mentoring
   name: OJJDP Multistate Mentoring Programs
   family: programme-service
@@ -27329,6 +28172,8 @@
   - 612
   - 619
   - 620
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: doj-ojjdp-title-ii-formula
   name: OJJDP Title II Formula Grants Program
   family: programme-service
@@ -27369,6 +28214,9 @@
   - 1344
   - 620
   - 1344
+  on_routes:
+  - justice-victim-services-and-legal-aid
+  - formula-money-through-the-state
 - id: hud-continuum-of-care
   name: Continuum of Care Program (annual competition, with Youth Homelessness Demonstration Program grants)
   family: programme-service
@@ -27495,6 +28343,11 @@
   - 1287
   - 1340
   - 1335
+  on_routes:
+  - getting-registered-to-apply
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - housing-homelessness-and-veterans-services
 - id: hud-housing-counseling
   name: Comprehensive Housing Counseling and Housing Counseling Training grants
   family: programme-service
@@ -27581,6 +28434,9 @@
   - 1291
   - 1294
   - 1341
+  on_routes:
+  - general-operating-support
+  - housing-homelessness-and-veterans-services
 - id: hud-cdbg
   name: Community Development Block Grant
   family: programme-service
@@ -27633,6 +28489,9 @@
   - 1353
   - 1341
   - 1466
+  on_routes:
+  - housing-homelessness-and-veterans-services
+  - formula-money-through-the-state
 - id: hud-home
   name: HOME Investment Partnerships Program
   family: programme-service
@@ -27681,6 +28540,9 @@
   - 1352
   - 1341
   - 1466
+  on_routes:
+  - housing-homelessness-and-veterans-services
+  - formula-money-through-the-state
 - id: dol-eta-youthbuild
   name: YouthBuild
   family: programme-service
@@ -27779,6 +28641,8 @@
   - 1296
   - 1305
   - 1342
+  on_routes:
+  - workforce-and-education-programmes
 - id: dol-eta-reentry-restart
   name: Reentry Employment Opportunities - RESTART Initiative
   family: programme-service
@@ -27877,6 +28741,8 @@
   - 1305
   - 1342
   - 246
+  on_routes:
+  - workforce-and-education-programmes
 - id: dol-eta-apprenticeship-pay-for-performance
   name: Registered Apprenticeship - Pay-for-Performance Incentive Payments Program
   family: programme-service
@@ -27953,6 +28819,8 @@
   - 1301
   - 1295
   - 1342
+  on_routes:
+  - workforce-and-education-programmes
 - id: dol-eta-wioa-formula
   name: WIOA Title I formula grants - Adult, Dislocated Worker and Youth
   family: programme-service
@@ -28001,6 +28869,9 @@
   - 1304
   - 1342
   - 1469
+  on_routes:
+  - workforce-and-education-programmes
+  - formula-money-through-the-state
 - id: va-ssvf
   name: Supportive Services for Veteran Families (SSVF)
   family: programme-service
@@ -28085,6 +28956,10 @@
   - 1307
   - 1308
   - 1309
+  on_routes:
+  - becoming-an-eligible-nonprofit
+  - general-operating-support
+  - housing-homelessness-and-veterans-services
 - id: va-grant-and-per-diem
   name: Homeless Providers Grant and Per Diem Program (Per Diem Only and related grants)
   family: programme-service
@@ -28162,6 +29037,9 @@
   - 1311
   - 1313
   - 1312
+  on_routes:
+  - general-operating-support
+  - housing-homelessness-and-veterans-services
 - id: va-ssg-fox-suicide-prevention
   name: Staff Sergeant Parker Gordon Fox Suicide Prevention Grant Program
   family: programme-service
@@ -28230,6 +29108,8 @@
   - 1314
   - 1315
   - 1316
+  on_routes:
+  - housing-homelessness-and-veterans-services
 - id: fema-nsgp
   name: Nonprofit Security Grant Program
   family: programme-service
@@ -28331,6 +29211,9 @@
   - 1320
   - 1321
   - 1337
+  on_routes:
+  - housing-homelessness-and-veterans-services
+  - formula-money-through-the-state
 - id: lsc-basic-field-grant
   name: LSC Basic Field Grant
   family: programme-service
@@ -28413,6 +29296,9 @@
   - 1327
   - 1328
   - 1329
+  on_routes:
+  - general-operating-support
+  - justice-victim-services-and-legal-aid
 - id: lsc-grantee-only-grants
   name: LSC grants open only to its existing grantees (Technology Initiative Grants, Pro Bono Innovation Fund and others)
   family: programme-service
@@ -28460,6 +29346,8 @@
   - 1333
   - 1491
   - 1492
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: ed-trio-talent-search
   name: Federal TRIO Talent Search Program
   family: programme-service
@@ -28558,6 +29446,8 @@
   - 1381
   - 1405
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-trio-educational-opportunity-centers
   name: Federal TRIO Educational Opportunity Centers (EOC)
   family: programme-service
@@ -28646,6 +29536,8 @@
   - 1381
   - 1405
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-trio-upward-bound
   name: Federal TRIO Upward Bound Program
   family: programme-service
@@ -28720,6 +29612,8 @@
   - 1405
   - 1386
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-trio-student-support-services
   name: Federal TRIO Student Support Services (SSS)
   family: programme-service
@@ -28785,6 +29679,8 @@
   - 1389
   - 1405
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-gear-up
   name: Gaining Early Awareness and Readiness for Undergraduate Programs (GEAR UP), State and Partnership Grants
   family: programme-service
@@ -28863,6 +29759,8 @@
   - 1381
   - 1405
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-charter-schools-state-entities
   name: Charter Schools Program, Grants to State Entities
   family: programme-service
@@ -28930,6 +29828,9 @@
   - 1381
   - 1404
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
+  - formula-money-through-the-state
 - id: ed-education-innovation-research
   name: Education Innovation and Research (EIR), Mid-phase and Expansion Grants
   family: programme-service
@@ -29007,6 +29908,8 @@
   - 1381
   - 1404
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-full-service-community-schools
   name: Full-Service Community Schools (FSCS)
   family: programme-service
@@ -29077,6 +29980,8 @@
   - 1450
   - 1404
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-promise-neighborhoods
   name: Promise Neighborhoods
   family: programme-service
@@ -29155,6 +30060,8 @@
   - 1404
   - 1461
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
 - id: ed-21st-century-community-learning-centers
   name: Nita M. Lowey 21st Century Community Learning Centers (21st CCLC)
   family: programme-service
@@ -29217,6 +30124,9 @@
   - 1404
   - 1399
   sweep: service-C
+  on_routes:
+  - workforce-and-education-programmes
+  - formula-money-through-the-state
 - id: americorps-state-and-national
   name: AmeriCorps State and National Grants
   family: programme-service
@@ -29304,6 +30214,9 @@
   - 1380
   - 1457
   sweep: service-C
+  on_routes:
+  - national-service
+  - formula-money-through-the-state
 - id: americorps-vista
   name: AmeriCorps VISTA (sponsoring a VISTA project)
   family: programme-service
@@ -29368,6 +30281,8 @@
   - 1380
   - 1457
   sweep: service-C
+  on_routes:
+  - national-service
 - id: americorps-seniors-rsvp
   name: AmeriCorps Seniors RSVP
   family: programme-service
@@ -29433,6 +30348,8 @@
   - 1378
   - 1375
   sweep: service-C
+  on_routes:
+  - national-service
 - id: americorps-seniors-foster-grandparent
   name: AmeriCorps Seniors Foster Grandparent Program
   family: programme-service
@@ -29485,6 +30402,8 @@
   - 1375
   - 1457
   sweep: service-C
+  on_routes:
+  - national-service
 - id: nea-grants-for-arts-projects
   name: NEA Grants for Arts Projects (GAP)
   family: programme-service
@@ -29585,6 +30504,8 @@
   conflicts:
   - 'Years of arts programming required: five [654] [1361] vs three [1362].'
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: nea-challenge-america
   name: NEA Challenge America
   family: programme-service
@@ -29648,6 +30569,8 @@
   - 654
   - 1361
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: nea-our-town
   name: NEA Our Town
   family: programme-service
@@ -29707,6 +30630,8 @@
   - 654
   - 1361
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: nea-partnership-agreements
   name: NEA Partnership Agreement Grants (state arts agencies and regional arts organizations)
   family: programme-service
@@ -29766,6 +30691,11 @@
   - 1360
   - 1359
   sweep: service-C
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - general-operating-support
+  - arts-humanities-libraries-and-media
+  - formula-money-through-the-state
 - id: neh-public-humanities-projects
   name: NEH Public Humanities Projects
   family: programme-service
@@ -29833,6 +30763,8 @@
   - 1363
   - 630
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: neh-landmarks-and-summer-institutes
   name: NEH Landmarks of American History and Culture and Summer Institutes (K-12 Educators; Higher Education Faculty)
   family: programme-service
@@ -29891,6 +30823,8 @@
   - 1452
   - 630
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: neh-national-digital-newspaper-program
   name: NEH National Digital Newspaper Program
   family: programme-service
@@ -29951,6 +30885,8 @@
   sources:
   - 1365
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: neh-state-humanities-councils
   name: NEH Federal/State Partnership (state and jurisdictional humanities councils)
   family: programme-service
@@ -30007,6 +30943,10 @@
   - 1485
   - 1366
   sweep: service-C
+  on_routes:
+  - general-operating-support
+  - arts-humanities-libraries-and-media
+  - formula-money-through-the-state
 - id: neh-celebrate-america
   name: NEH Celebrate America! (Chairman's Awards)
   family: programme-service
@@ -30055,6 +30995,8 @@
   sources:
   - 709
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: imls-museums-for-america
   name: IMLS Museums for America
   family: programme-service
@@ -30110,6 +31052,8 @@
   - 686
   - 683
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: imls-inspire-grants-for-small-museums
   name: IMLS Inspire! Grants for Small Museums
   family: programme-service
@@ -30163,6 +31107,8 @@
   - 1367
   - 683
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: imls-native-american-native-hawaiian-museum-services
   name: IMLS Native American/Native Hawaiian Museum Services
   family: programme-service
@@ -30222,6 +31168,8 @@
   sources:
   - 1368
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: imls-native-american-library-services
   name: 'IMLS Native American Library Services: Basic Grants and Enhancement Grants'
   family: programme-service
@@ -30283,6 +31231,8 @@
   - 1369
   - 1370
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: imls-native-hawaiian-library-services
   name: IMLS Native Hawaiian Library Services
   family: programme-service
@@ -30339,6 +31289,8 @@
   sources:
   - 1371
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
 - id: imls-grants-to-states
   name: IMLS Grants to States (Library Services and Technology Act)
   family: programme-service
@@ -30392,6 +31344,9 @@
   - 1372
   - 1483
   sweep: service-C
+  on_routes:
+  - arts-humanities-libraries-and-media
+  - formula-money-through-the-state
 - id: cpb-grants
   name: Corporation for Public Broadcasting grants to stations and producers
   family: programme-service
@@ -30439,6 +31394,9 @@
   - 1408
   - 1409
   sweep: service-C
+  on_routes:
+  - general-operating-support
+  - arts-humanities-libraries-and-media
 - id: usda-rd-community-facilities-grants
   name: USDA Rural Development Community Facilities Direct Loan and Grant Program
   family: programme-service
@@ -30516,6 +31474,8 @@
   - 1410
   - 1463
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: usda-rd-rural-community-development-initiative
   name: USDA Rural Community Development Initiative (RCDI) Grants
   family: programme-service
@@ -30586,6 +31546,8 @@
   - 1411
   - 1412
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: usda-fns-farm-to-school-grants
   name: USDA Patrick Leahy Farm to School Grant Program
   family: programme-service
@@ -30667,6 +31629,8 @@
   - 1413
   - 1415
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: nifa-community-food-projects
   name: NIFA Community Food Projects Competitive Grants Program
   family: programme-service
@@ -30733,6 +31697,8 @@
   sources:
   - 1416
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: nifa-gusnip-nutrition-incentive
   name: NIFA Gus Schumacher Nutrition Incentive Program (GusNIP), Nutrition Incentive grants
   family: programme-service
@@ -30799,6 +31765,8 @@
   sources:
   - 1417
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: nifa-4h-cooperative-extension
   name: 4-H and Cooperative Extension (through land-grant universities)
   family: programme-service
@@ -30844,6 +31812,9 @@
   - 408
   - 1475
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
+  - formula-money-through-the-state
 - id: epa-environmental-education-grants
   name: EPA Environmental Education (EE) Grants
   family: programme-service
@@ -30902,6 +31873,8 @@
   sources:
   - 1419
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: epa-brownfields-assessment-rlf-cleanup-grants
   name: EPA Brownfields Assessment, Revolving Loan Fund and Cleanup Grants
   family: programme-service
@@ -30979,6 +31952,8 @@
   - 1420
   - 1462
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: epa-brownfields-job-training
   name: EPA Brownfields Job Training Grants
   family: programme-service
@@ -31040,6 +32015,8 @@
   - $300,000 is shown as the award maximum in the Grants.gov search listing and as the award minimum on the opportunity
     page as returned [1456].
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: epa-environmental-and-climate-justice-grants
   name: EPA Environmental and Climate Justice Program (Community Change Grants and related programmes)
   family: programme-service
@@ -31092,6 +32069,8 @@
   - 1424
   - 1490
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: eda-public-works-and-economic-adjustment
   name: EDA Public Works and Economic Adjustment Assistance (PWEAA)
   family: programme-service
@@ -31174,6 +32153,8 @@
   - 1432
   - 1463
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: ntia-digital-equity-competitive-grants
   name: NTIA Digital Equity Competitive Grant Program
   family: programme-service
@@ -31235,6 +32216,8 @@
   - 1487
   - 1486
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: cdfi-fund-cdfi-program
   name: CDFI Program (Financial Assistance and Technical Assistance awards)
   family: programme-service
@@ -31323,6 +32306,10 @@
   - 1435
   - 1436
   sweep: service-C
+  on_routes:
+  - getting-registered-to-apply
+  - general-operating-support
+  - food-environment-and-community-development
 - id: irs-vita-and-tce-grants
   name: IRS Volunteer Income Tax Assistance (VITA) and Tax Counseling for the Elderly (TCE) grants
   family: programme-service
@@ -31402,6 +32389,8 @@
   - 1438
   - 1460
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: irs-low-income-taxpayer-clinics
   name: IRS Low Income Taxpayer Clinic (LITC) grants
   family: programme-service
@@ -31485,6 +32474,8 @@
     Advocate page, which carries 2021 material [1440].'
   - 'Closing date: July 6, 2026 [1459] vs July 17, 2026 [1439].'
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: sba-small-business-development-centers
   name: SBA Small Business Development Center (SBDC) cooperative agreements
   family: programme-service
@@ -31531,6 +32522,8 @@
   - 1441
   - 1442
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: sba-womens-business-centers
   name: SBA Women's Business Center (WBC) cooperative agreements
   family: programme-service
@@ -31575,6 +32568,8 @@
   - 1441
   - 1443
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: arc-area-development
   name: Appalachian Regional Commission Area Development Program
   family: programme-service
@@ -31642,6 +32637,8 @@
   - 1444
   - 1446
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: dra-sedap
   name: Delta Regional Authority States' Economic Development Assistance Program (SEDAP)
   family: programme-service
@@ -31700,6 +32697,8 @@
   sources:
   - 1447
   sweep: service-C
+  on_routes:
+  - food-environment-and-community-development
 - id: hud-fair-housing-initiatives-program
   name: Fair Housing Initiatives Program (FHIP)
   family: programme-service
@@ -31801,6 +32800,8 @@
   - 1498
   - 1499
   as_of: '2026-10-04'
+  on_routes:
+  - housing-homelessness-and-veterans-services
 - id: hud-youth-homelessness-demonstration-program
   name: Youth Homelessness Demonstration Program and Youth Homeless System Improvement Grants
   family: programme-service
@@ -31873,6 +32874,8 @@
   - 1501
   - 1500
   as_of: '2026-10-04'
+  on_routes:
+  - housing-homelessness-and-veterans-services
 - id: acf-ana-seds
   name: Social and Economic Development Strategies (SEDS)
   family: programme-service
@@ -31937,6 +32940,8 @@
   - 1504
   - 1503
   as_of: '2026-10-04'
+  on_routes:
+  - children-family-and-ageing-services
 - id: doj-bja-stop-school-violence
   name: STOP School Violence Program
   family: programme-service
@@ -32014,6 +33019,8 @@
   - 1506
   - 1505
   as_of: '2026-10-04'
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: doj-ovw-rural-program
   name: OVW Rural Domestic Violence, Dating Violence, Sexual Assault, and Stalking Grant Program (Rural Grant Program)
   family: programme-service
@@ -32087,6 +33094,8 @@
   - 1507
   - 1263
   as_of: '2026-10-04'
+  on_routes:
+  - justice-victim-services-and-legal-aid
 - id: usda-rd-rural-business-development-grants
   name: Rural Business Development Grants (RBDG)
   family: programme-service
@@ -32157,6 +33166,8 @@
   sources:
   - 1509
   as_of: '2026-10-04'
+  on_routes:
+  - food-environment-and-community-development
 - id: dol-eta-national-farmworker-jobs-program
   name: National Farmworker Jobs Program (NFJP)
   family: programme-service
@@ -32218,6 +33229,8 @@
   - 1510
   - 1511
   as_of: '2026-10-04'
+  on_routes:
+  - workforce-and-education-programmes
 - id: nsf-mri
   name: NSF Major Research Instrumentation Program (MRI)
   family: capacity
@@ -32342,6 +33355,8 @@
   - The July 2, 2025 update gives a next window of October 15 – November 16, 2026 [1514]; the programme page on 2026-10-04
     shows only an archived solicitation and an anticipated update, with no window [1513].
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nsf-midscale-ri-1
   name: NSF Mid-scale Research Infrastructure-1 (Mid-scale RI-1)
   family: capacity
@@ -32432,6 +33447,8 @@
     not-for-profit non-degree-granting domestic organisations with 501(c)(3) status, and legally incorporated consortia
     of eligible organisations [1764]. A non-profit that is not a university may therefore apply [1764].
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nsf-midscale-ri-2
   name: NSF Mid-scale Research Infrastructure-2 (Mid-scale RI-2)
   family: capacity
@@ -32467,6 +33484,8 @@
   sources:
   - 1532
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nsf-cc-star
   name: NSF Campus Cyberinfrastructure (CC*)
   family: capacity
@@ -32503,6 +33522,8 @@
   sources:
   - 1533
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nsf-epscor-e-core
   name: NSF EPSCoR Collaborations for Optimizing Research Ecosystems (E-CORE RII)
   family: capacity
@@ -32597,6 +33618,8 @@
   - 255
   - 1517
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nsf-epscor-e-rise
   name: NSF EPSCoR Research Incubators for STEM Excellence (E-RISE RII)
   family: capacity
@@ -32675,6 +33698,8 @@
   - 1522
   - 1518
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nsf-epscor-fec
   name: NSF EPSCoR Focused EPSCoR Collaborations (RII-FEC)
   family: capacity
@@ -32761,6 +33786,8 @@
   - 1518
   - 1525
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nsf-epscor-workshops
   name: NSF EPSCoR Workshop Opportunities
   family: capacity
@@ -32802,6 +33829,8 @@
   - 1518
   - 1589
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nsf-regional-innovation-engines
   name: NSF Regional Innovation Engines (NSF Engines)
   family: capacity
@@ -32873,6 +33902,8 @@
     [1582] [1581].'
   - 'Matching commitments for the first cohort: more than $2 billion [1527] vs over $1.50 billion [255].'
   sweep: capacity-A
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nsf-art
   name: NSF Accelerating Research Translation (ART)
   family: capacity
@@ -32974,6 +34005,8 @@
   - 236
   - 1528
   sweep: capacity-A
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nsf-granted
   name: NSF Growing Research Access for Nationally Transformative Economic Development (GRANTED)
   family: capacity
@@ -33030,6 +34063,8 @@
   - 1579
   - 1577
   sweep: capacity-A
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nsf-epiic
   name: NSF Enabling Partnerships to Increase Innovation Capacity (EPIIC)
   family: capacity
@@ -33072,6 +34107,9 @@
   sources:
   - 1530
   sweep: capacity-A
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: nih-s10-shared-instrumentation
   name: NIH Shared Instrumentation Grant (SIG) Program (S10)
   family: capacity
@@ -33161,6 +34199,8 @@
   - 1536
   - 1537
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nih-s10-seed-instrumentation
   name: NIH Seed Instrumentation Support (SIS) Program (S10)
   family: capacity
@@ -33238,6 +34278,8 @@
   - 1537
   - 1535
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nih-s15-equipment
   name: NIH S15 Equipment Program (Modern Equipment for Shared-use Biomedical Research Facilities)
   family: capacity
@@ -33307,6 +34349,8 @@
   conflicts:
   - ORIP page lists PAR-24-259 as Open [1539] vs the notice expiration date of September 26, 2026 [1540].
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nih-c06-research-facilities
   name: NIH Development of Collaborative Research Facilities or Research-Resource Facilities (C06)
   family: capacity
@@ -33381,6 +34425,8 @@
   - 'Cost sharing: not required in PAR-26-106 [1542] vs "matching Federal funds, up to 75%" in the activity-code definition
     [3].'
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nih-idea-cobre-d
   name: 'NIH IDeA Centers of Biomedical Research Excellence: Development Phase (COBRE-D)'
   family: capacity
@@ -33457,6 +34503,8 @@
   - 1545
   - 1546
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nih-idea-cobre-e-s
   name: 'NIH IDeA Centers of Biomedical Research Excellence: Expansion and Sustainability Phases (COBRE-E/S)'
   family: capacity
@@ -33520,6 +34568,8 @@
   - 1544
   - 1546
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nih-idea-inbre
   name: NIH IDeA Networks of Biomedical Research Excellence (INBRE)
   family: capacity
@@ -33594,6 +34644,8 @@
   - 1549
   - 1543
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nih-idea-ctr
   name: NIH IDeA for Clinical and Translational Research (IDeA-CTR)
   family: capacity
@@ -33671,6 +34723,8 @@
   conflicts:
   - The NIGMS IDeA-CTR page names PAR-20-175 [1550]; Grants.gov shows PAR-27-056 as the open notice [1551].
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nih-sure-r16
   name: NIH Support for Research Excellence (SuRE) Award (R16)
   family: capacity
@@ -33734,6 +34788,8 @@
   - 1555
   - 1554
   sweep: capacity-A
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nih-sure-first-r16
   name: NIH Support for Research Excellence – First Independent Research (SuRE-First) Award (R16)
   family: capacity
@@ -33792,6 +34848,8 @@
   - 1556
   - 1554
   sweep: capacity-A
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nih-ctsa-um1
   name: NIH Clinical and Translational Science Award (CTSA) hub (UM1)
   family: capacity
@@ -33860,6 +34918,8 @@
   - 1558
   - 1559
   sweep: capacity-A
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nih-p30-p20-center-grants
   name: NIH Center Core Grants (P30) and Exploratory Grants (P20)
   family: capacity
@@ -33918,6 +34978,9 @@
   - 1548
   - 1765
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
+  - research-centres-and-institutional-research-capacity
 - id: nih-rcmi-u54
   name: NIH Research Centers in Minority Institutions (RCMI) (U54)
   family: capacity
@@ -34033,6 +35096,9 @@
     - 1622
     - 1623
     sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: dod-durip
   name: Defense University Research Instrumentation Program (DURIP)
   family: capacity
@@ -34126,6 +35192,8 @@
   - 'Ceiling: $3,000,000 [1562] vs an award range of $50,000 – $7,000,000 on the AFOSR listing [1561]; the announcement
     says AFOSR will not consider requests exceeding $7,000,000 [1563].'
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: dod-depscor-capacity-building
   name: DEPSCoR Capacity Building (Defense Established Program to Stimulate Competitive Research)
   family: capacity
@@ -34189,6 +35257,8 @@
   - 1565
   - 1564
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: dod-depscor-research-collaboration
   name: DEPSCoR Research Collaboration
   family: capacity
@@ -34254,6 +35324,8 @@
   - 1566
   - 1564
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: doe-epscor-state-lab-partnerships
   name: 'DOE EPSCoR: Building EPSCoR-State/National Laboratory Partnerships'
   family: capacity
@@ -34338,6 +35410,8 @@
   - 1568
   - 1569
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: doe-ne-scientific-infrastructure-support
   name: DOE Office of Nuclear Energy Scientific Infrastructure Support for Consolidated Innovative Nuclear Research
   family: capacity
@@ -34402,6 +35476,8 @@
   sources:
   - 1588
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nasa-epscor-research
   name: NASA EPSCoR Research awards
   family: capacity
@@ -34470,6 +35546,8 @@
   - 1574
   - 1585
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nasa-epscor-r3
   name: NASA EPSCoR Rapid Response Research (R3)
   family: capacity
@@ -34531,6 +35609,8 @@
   conflicts:
   - 'Award size: $100,000 total [1571] vs award ceiling $125,000 [1573].'
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nasa-epscor-rid
   name: NASA EPSCoR Research Infrastructure Development (RID)
   family: capacity
@@ -34575,6 +35655,8 @@
   - 1571
   - 1570
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
 - id: nifa-equipment-grants-program
   name: USDA NIFA Equipment Grants Program (EGP)
   family: capacity
@@ -34640,6 +35722,8 @@
   - 1575
   - 1590
   sweep: capacity-A
+  on_routes:
+  - research-instrumentation-and-facilities
 - id: nifa-afri-fase-strengthening-grants
   name: USDA NIFA AFRI Food and Agricultural Science Enhancement (FASE) Strengthening Grants
   family: capacity
@@ -34715,6 +35799,9 @@
   - 403
   - 405
   sweep: capacity-A
+  on_routes:
+  - epscor-and-idea-jurisdictions
+  - research-centres-and-institutional-research-capacity
 - id: ed-title-iii-a-strengthening-institutions
   name: Strengthening Institutions Program (Title III, Part A)
   family: capacity
@@ -34820,6 +35907,8 @@
   - 1295
   - 1405
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-b-strengthening-hbcus
   name: Strengthening Historically Black Colleges and Universities (Title III, Part B)
   family: capacity
@@ -34909,6 +35998,8 @@
   - 1592
   - 1773
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-b-hbgi
   name: Strengthening Historically Black Graduate Institutions (Title III, Part B, section 326)
   family: capacity
@@ -34970,6 +36061,8 @@
   - 1603
   - 1405
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-hbcu-masters
   name: Master's Degree Programs at Historically Black Colleges and Universities
   family: capacity
@@ -35018,6 +36111,8 @@
   - 1601
   - 1405
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-a-tccu
   name: Strengthening Tribally Controlled Colleges and Universities (Title III, Part A, section 316, and Part F)
   family: capacity
@@ -35111,6 +36206,8 @@
   - 1592
   - 1404
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-part-f-mandatory
   name: Title III, Part F mandatory funding for HBCUs and other minority-serving institutions (section 371)
   family: capacity
@@ -35202,6 +36299,8 @@
   - 1769
   - 1405
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-v-developing-hsi
   name: Developing Hispanic-Serving Institutions Program (Title V, Part A)
   family: capacity
@@ -35300,6 +36399,8 @@
   - 1606
   - 1650
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-v-ppoha
   name: Promoting Postbaccalaureate Opportunities for Hispanic Americans (Title V, Part B)
   family: capacity
@@ -35385,6 +36486,8 @@
   - 1766
   - 1768
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-hsi-stem-articulation
   name: Hispanic-Serving Institutions STEM and Articulation Program (Title III, Part F)
   family: capacity
@@ -35462,6 +36565,8 @@
     duration: per year; projected five-year funding $471,500,000
     cite:
     - 1767
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-a-annh
   name: Strengthening Alaska Native and Native Hawaiian-Serving Institutions (Title III, Part A, section 317)
   family: capacity
@@ -35548,6 +36653,8 @@
   - 1594
   - 1592
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-a-aanapisi
   name: Strengthening Asian American and Native American Pacific Islander-Serving Institutions (Title III, Part A, section
     320)
@@ -35634,6 +36741,8 @@
   - 1594
   - 1592
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-title-iii-a-nasnti
   name: Strengthening Native American-Serving Nontribal Institutions (Title III, Part A, section 319)
   family: capacity
@@ -35719,6 +36828,8 @@
   - 1594
   - 1592
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-predominantly-black-institutions
   name: Strengthening Predominantly Black Institutions (formula and competitive programmes)
   family: capacity
@@ -35811,6 +36922,8 @@
   - 1772
   - 1769
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-mseip
   name: Minority Science and Engineering Improvement Program (Title III, Part E)
   family: capacity
@@ -35890,6 +37003,8 @@
   - 1771
   - 1769
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: ed-fipse-rdi-hbcu-tccu
   name: HBCU and TCCU Research and Development Infrastructure Grants Program (FIPSE)
   family: capacity
@@ -35969,6 +37084,9 @@
   - 63
   - 1295
   sweep: capacity-B
+  on_routes:
+  - research-instrumentation-and-facilities
+  - designated-institution-programmes
 - id: nsf-hbcu-up
   name: Historically Black Colleges and Universities - Undergraduate Program (HBCU-UP)
   family: capacity
@@ -36058,6 +37176,8 @@
   - 255
   - 876
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nsf-hbcu-eir
   name: Historically Black Colleges and Universities - Excellence in Research (HBCU-EiR)
   family: capacity
@@ -36139,6 +37259,8 @@
   - 1662
   - 1626
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nsf-tcup
   name: Tribal Colleges and Universities Program (TCUP)
   family: capacity
@@ -36243,6 +37365,8 @@
   - 1655
   - 255
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nsf-hsi-program
   name: 'Improving Undergraduate STEM Education: Hispanic-Serving Institutions (HSI programme)'
   family: capacity
@@ -36297,6 +37421,8 @@
   - 1609
   - 876
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nsf-crest
   name: Centers of Research Excellence in Science and Technology (CREST)
   family: capacity
@@ -36361,6 +37487,9 @@
   - 876
   - 1654
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: nsf-ate
   name: Advanced Technological Education (ATE)
   family: capacity
@@ -36463,6 +37592,8 @@
   - 1615
   - 876
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nsf-advance
   name: 'ADVANCE: Organizational Change for Gender Equity in STEM Academic Professions'
   family: capacity
@@ -36514,6 +37645,8 @@
   - 1660
   - 876
   sweep: capacity-B
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nsf-lsamp
   name: Louis Stokes Alliances for Minority Participation (LSAMP)
   family: capacity
@@ -36564,6 +37697,9 @@
   - 881
   - 876
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: nsf-agep
   name: Alliances for Graduate Education and the Professoriate (AGEP)
   family: capacity
@@ -36612,6 +37748,9 @@
   - 882
   - 876
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: nih-narch-planning-r34
   name: Native American Research Centers for Health (NARCH) Planning Grants (R34)
   family: capacity
@@ -36666,6 +37805,9 @@
   sources:
   - 1624
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: nih-nibib-beita-hbcu
   name: Biomedical Engineering, Imaging, and Technology Acceleration (BEITA) at Historically Black Colleges and Universities
     (UG3/UH3)
@@ -36727,6 +37869,8 @@
   sources:
   - 1656
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: dod-hbcu-tcu-research-education-equipment
   name: 'Research and Education Program for HBCUs and TCUs: Equipment/Instrumentation'
   family: capacity
@@ -36801,6 +37945,9 @@
   - 1625
   - 1627
   sweep: capacity-B
+  on_routes:
+  - research-instrumentation-and-facilities
+  - designated-institution-programmes
 - id: dod-don-hbcu-mi-program
   name: Department of the Navy HBCU/MI Program (FY 2027)
   family: capacity
@@ -36875,6 +38022,8 @@
   sources:
   - 1628
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nasa-murep
   name: Minority University Research and Education Project (MUREP)
   family: capacity
@@ -36936,6 +38085,8 @@
   - 396
   - 1654
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: doe-sc-fair
   name: Funding for Accelerated, Inclusive Research (FAIR)
   family: capacity
@@ -36987,6 +38138,9 @@
   - 282
   sweep: capacity-B
   mechanism_code: DE-FOA-0003207 (FY 2024, last notice)
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: doe-sc-renew
   name: Reaching a New Energy Sciences Workforce (RENEW)
   family: capacity
@@ -37036,6 +38190,8 @@
   - 282
   sweep: capacity-B
   mechanism_code: DE-FOA-0003280 (FY 2024, last notice)
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nifa-1890-capacity-building-grants
   name: 1890 Institution Teaching, Research and Extension Capacity Building Grants (CBG)
   family: capacity
@@ -37109,6 +38265,8 @@
   - 1637
   - 1626
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-evans-allen-1890-research
   name: Agricultural Research at 1890 Land-grant Institutions (Evans-Allen)
   family: capacity
@@ -37162,6 +38320,8 @@
   - 1475
   - 1618
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-1890-facilities-grants
   name: 1890 Facilities Grants Program
   family: capacity
@@ -37221,6 +38381,9 @@
   sources:
   - 1638
   sweep: capacity-B
+  on_routes:
+  - research-instrumentation-and-facilities
+  - designated-institution-programmes
 - id: nifa-1890-centers-of-excellence
   name: Centers of Excellence at 1890 Institutions (1890 COEs)
   family: capacity
@@ -37274,6 +38437,8 @@
   sources:
   - 1658
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-tribal-colleges-education-equity
   name: Tribal Colleges Education Equity Grants Program (TCEG)
   family: capacity
@@ -37340,6 +38505,8 @@
   sources:
   - 1633
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-tribal-colleges-research-grants
   name: Tribal Colleges Research Grants Program (TCRGP)
   family: capacity
@@ -37401,6 +38568,8 @@
   sources:
   - 1657
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-tribal-college-endowment
   name: Tribal College Endowment Program
   family: capacity
@@ -37445,6 +38614,8 @@
   sources:
   - 1639
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-hsi-education-grants
   name: Hispanic-Serving Institutions Education Grants Program
   family: capacity
@@ -37519,6 +38690,8 @@
   - 876
   - 1651
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: nifa-nlgca-capacity-building
   name: Capacity Building Grants for Non-Land-Grant Colleges of Agriculture (NLGCA)
   family: capacity
@@ -37588,6 +38761,9 @@
   sources:
   - 1659
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: dol-eta-strengthening-community-colleges
   name: Strengthening Community Colleges Training Grants (Round 6)
   family: capacity
@@ -37667,6 +38843,8 @@
   - 1621
   - 1295
   sweep: capacity-B
+  on_routes:
+  - designated-institution-programmes
 - id: hud-edi-community-project-funding
   name: HUD Economic Development Initiative - Community Project Funding grants (earmarked projects)
   family: capacity
@@ -37785,6 +38963,8 @@
   conflicts:
   - House guidance does not list non-profits other than certain colleges as eligible recipients; a Senator's office guide
     says non-profits are eligible for Senate requests [1673] vs [1684].
+  on_routes:
+  - congressionally-directed-project
 - id: hrsa-cpf-cds-projects
   name: HRSA Community Project Funding/Congressionally Directed Spending (health facilities, equipment and projects)
   family: capacity
@@ -37895,6 +39075,8 @@
   conflicts:
   - House FY27 guidance sets the capital equipment threshold at a unit cost of at least $5,000; HRSA's FY2026 instructions
     describe moveable equipment as $10,000 or more per unit [1670] vs [1687].
+  on_routes:
+  - congressionally-directed-project
 - id: usda-rd-community-facilities-directed-grants
   name: USDA Community Facilities grants named by Congress (Community Project Funding/Congressionally Directed Spending)
   family: capacity
@@ -37976,6 +39158,9 @@
   - 1710
   - 1667
   - 1674
+  on_routes:
+  - congressionally-directed-project
+  - preservation-facilities-and-capital-grants
 - id: ed-congressionally-funded-community-projects
   name: Department of Education Congressionally Funded Community Projects (higher education and K-12)
   family: capacity
@@ -38048,6 +39233,8 @@
   - 1669
   - 1684
   - 1674
+  on_routes:
+  - congressionally-directed-project
 - id: dol-eta-community-project-funding
   name: Department of Labor Community Project Funding/Congressionally Directed Spending (Employment and Training Administration)
   family: capacity
@@ -38130,6 +39317,8 @@
   - 1675
   - 1669
   - 1674
+  on_routes:
+  - congressionally-directed-project
 - id: samhsa-congressionally-directed-spending-projects
   name: SAMHSA Congressionally Directed Spending Projects
   family: capacity
@@ -38207,6 +39396,8 @@
   - 1675
   - 1669
   - 1679
+  on_routes:
+  - congressionally-directed-project
 - id: nist-congressionally-identified-projects
   name: NIST Congressionally Identified Project Program (earmarked research, equipment and facility projects)
   family: capacity
@@ -38304,6 +39495,9 @@
   - 1684
   - 1667
   - 1674
+  on_routes:
+  - research-instrumentation-and-facilities
+  - congressionally-directed-project
 - id: nps-hpf-congressionally-directed-projects
   name: National Park Service Historic Preservation Fund Projects (Senate earmark account)
   family: capacity
@@ -38369,6 +39563,9 @@
   - 1669
   - 1684
   - 1693
+  on_routes:
+  - congressionally-directed-project
+  - preservation-facilities-and-capital-grants
 - id: hud-section-4-capacity-building
   name: HUD Section 4 Capacity Building for Community Development and Affordable Housing
   family: capacity
@@ -38454,6 +39651,8 @@
     costs [1783].
   budget_rules: The $84,000,000 is $42,000,000 of FY 2024 funds and $42,000,000 of FY 2025 funds; at least $10,000,000 ($5,000,000
     for each fiscal year) is for rural capacity building activities; the project and budget period is 48 months [1783].
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: hud-rural-capacity-building
   name: HUD Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)
   family: capacity
@@ -38511,6 +39710,8 @@
   sources:
   - 1714
   - 1711
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: hud-community-compass-technical-assistance
   name: HUD Community Compass Technical Assistance and Capacity Building Program
   family: capacity
@@ -38579,6 +39780,8 @@
   sources:
   - 1715
   - 1711
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: hud-distressed-cities-technical-assistance
   name: HUD Distressed Cities Technical Assistance (DCTA) Program
   family: capacity
@@ -38640,6 +39843,8 @@
   sources:
   - 1716
   - 1711
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: cdfi-fund-technical-assistance-awards
   name: CDFI Fund Technical Assistance awards (CDFI Program)
   family: capacity
@@ -38706,6 +39911,8 @@
   - 1433
   - 1434
   - 1435
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: cdfi-fund-naca-program
   name: Native American CDFI Assistance (NACA) Program
   family: capacity
@@ -38758,6 +39965,8 @@
   as_of: '2026-10-04'
   sources:
   - 1717
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: eda-planning-and-local-technical-assistance
   name: EDA Planning and Local Technical Assistance
   family: capacity
@@ -38833,6 +40042,8 @@
   conflicts:
   - Grants.gov shows the six regional notices as open and updated May 13, 2026; EDA's all-opportunities list does not show
     them [1721] vs [1718].
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: eda-university-centers
   name: EDA University Center Economic Development Program
   family: capacity
@@ -38874,6 +40085,8 @@
   sources:
   - 1722
   - 1721
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: americorps-vista-capacity-sponsorship
   name: AmeriCorps VISTA as a capacity resource (sponsoring a project)
   family: capacity
@@ -38930,6 +40143,8 @@
   - 1724
   - 1724
   - 1795
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: hrsa-primary-care-association-cooperative-agreements
   name: HRSA State and Regional Primary Care Association (PCA) Cooperative Agreements
   family: capacity
@@ -38995,6 +40210,8 @@
   sources:
   - 1741
   - 1742
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: hrsa-national-technical-assistance-programs
   name: HRSA National Technical Assistance Programs (health centres)
   family: capacity
@@ -39039,6 +40256,8 @@
   sources:
   - 1740
   - 1739
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: samhsa-rural-opioid-technical-assistance-centers
   name: SAMHSA Rural Opioid Technical Assistance Centers
   family: capacity
@@ -39103,6 +40322,8 @@
   sources:
   - 1746
   - 1745
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: doj-ojjdp-voca-training-and-technical-assistance
   name: OJJDP Victims of Child Abuse Act Training and Technical Assistance for Child Abuse Professionals
   family: capacity
@@ -39161,6 +40382,8 @@
   sources:
   - 1743
   - 1742
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: doj-ovw-training-and-technical-assistance-initiative
   name: OVW Training and Technical Assistance Initiative
   family: capacity
@@ -39197,6 +40420,8 @@
   sources:
   - 1744
   - 1263
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: neh-endowments-for-advancing-the-humanities
   name: NEH Endowments for Advancing the Humanities
   family: capacity
@@ -39270,6 +40495,9 @@
   - 1729
   - 1730
   - 1731
+  on_routes:
+  - research-centres-and-institutional-research-capacity
+  - preservation-facilities-and-capital-grants
 - id: neh-infrastructure-and-capacity-building-challenge-grants
   name: NEH Infrastructure and Capacity Building Challenge Grants
   family: capacity
@@ -39323,6 +40551,8 @@
   - 1725
   - 1781
   mechanism_code: 20230517-CHA (last notice found)
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: neh-preservation-assistance-grants-smaller-institutions
   name: NEH Preservation Assistance Grants for Smaller Institutions
   family: capacity
@@ -39388,6 +40618,8 @@
   - 1728
   - 1727
   - 1726
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: imls-museums-empowered
   name: IMLS Museums Empowered
   family: capacity
@@ -39444,6 +40676,8 @@
   sources:
   - 1732
   - 683
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: imls-museum-grants-african-american-history-culture
   name: IMLS Museum Grants for African American History and Culture
   family: capacity
@@ -39504,6 +40738,8 @@
   sources:
   - 1733
   - 683
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: imls-museum-grants-american-latino-history-culture
   name: IMLS Museum Grants for American Latino History and Culture
   family: capacity
@@ -39561,6 +40797,8 @@
   sources:
   - 1734
   - 683
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: nps-save-americas-treasures
   name: Save America's Treasures grants (preservation and collections)
   family: capacity
@@ -39660,6 +40898,8 @@
   - 1691
   - 1706
   - 1697
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: nps-hbcu-preservation-grants
   name: National Park Service Historically Black Colleges and Universities Grants (Historic Preservation Fund)
   family: capacity
@@ -39725,6 +40965,9 @@
   - 1699
   - 1698
   - 1697
+  on_routes:
+  - designated-institution-programmes
+  - preservation-facilities-and-capital-grants
 - id: nps-african-american-civil-rights-grants
   name: National Park Service African American Civil Rights Grants (Historic Preservation Fund)
   family: capacity
@@ -39797,6 +41040,8 @@
   - 1694
   - 1697
   - 1706
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: nps-history-of-equal-rights-grants
   name: National Park Service History of Equal Rights Grants (Historic Preservation Fund)
   family: capacity
@@ -39863,6 +41108,8 @@
   - 1702
   - 1694
   - 1706
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: nps-underrepresented-communities-grants
   name: National Park Service Underrepresented Communities Grants (Historic Preservation Fund)
   family: capacity
@@ -39926,6 +41173,8 @@
   sources:
   - 1703
   - 1706
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: nps-paul-bruhn-historic-revitalization-grants
   name: National Park Service Paul Bruhn Historic Revitalization Grants
   family: capacity
@@ -39978,6 +41227,8 @@
   sources:
   - 1704
   - 1706
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: nhprc-state-board-programming-grants
   name: NHPRC State Board Programming Grants
   family: capacity
@@ -40039,6 +41290,9 @@
   sources:
   - 700
   - 694
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
+  - preservation-facilities-and-capital-grants
 - id: nhprc-capacity-building-hbcu-archives
   name: NHPRC Capacity Building for HBCU Archives
   family: capacity
@@ -40097,6 +41351,9 @@
   - 1736
   - 694
   - 1697
+  on_routes:
+  - designated-institution-programmes
+  - preservation-facilities-and-capital-grants
 - id: hrsa-health-center-capital-development
   name: HRSA Health Center Capital Development Grants
   family: capacity
@@ -40152,6 +41409,8 @@
   - 1151
   - 1670
   - 1782
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: usda-rd-community-facilities-technical-assistance-training
   name: USDA Community Facilities Technical Assistance and Training Grant
   family: capacity
@@ -40208,6 +41467,9 @@
   as_of: '2026-10-04'
   sources:
   - 1752
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
+  - preservation-facilities-and-capital-grants
 - id: fema-bric
   name: FEMA Building Resilient Infrastructure and Communities (BRIC), in outline
   family: capacity
@@ -40302,6 +41564,8 @@
     communities; the non-federal share is waived for insular areas when it is under $200,000 [1776].
   budget_rules: An applicant may not receive more than 15 percent of the total available funding; subapplicants may request
     management costs of up to 5 percent of the budget and applicants up to 10 percent of the application budget [1776].
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: doe-renew-americas-nonprofits
   name: DOE Renew America's Nonprofits (energy efficiency grants for non-profit buildings)
   family: capacity
@@ -40368,6 +41632,8 @@
   - 308
   - 1784
   mechanism_code: DE-FOA-0003066
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: neh-humanities-initiatives
   name: NEH Humanities Initiatives (colleges and universities, and the HBCU, HSI, TCU and community college variants)
   family: capacity
@@ -40426,6 +41692,9 @@
   sources:
   - 1786
   - 1787
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: nih-nimhd-research-endowment-s21
   name: John Lewis NIMHD Research Endowment Program (S21)
   family: capacity
@@ -40490,6 +41759,8 @@
   as_of: '2026-10-04'
   sources:
   - 1788
+  on_routes:
+  - research-centres-and-institutional-research-capacity
 - id: nih-narch-s06
   name: Native American Research Centers for Health (NARCH), S06 centre awards
   family: capacity
@@ -40550,6 +41821,9 @@
   sources:
   - 1789
   - 1790
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: usda-rd-tribal-college-initiative-grants
   name: USDA Rural Development Tribal College Initiative Grants
   family: capacity
@@ -40611,6 +41885,9 @@
   sources:
   - 1791
   - 1760
+  on_routes:
+  - designated-institution-programmes
+  - preservation-facilities-and-capital-grants
 - id: nifa-hatch-act-capacity-grants
   name: NIFA Hatch Act capacity grants (State Agricultural Experiment Stations)
   family: capacity
@@ -40674,6 +41951,9 @@
   - 1792
   - 1793
   - 1794
+  on_routes:
+  - designated-institution-programmes
+  - research-centres-and-institutional-research-capacity
 - id: americorps-volunteer-generation-fund
   name: AmeriCorps Volunteer Generation Fund
   family: capacity
@@ -40727,6 +42007,8 @@
   sources:
   - 1795
   - 1796
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: sba-prime
   name: SBA Program for Investment in Microentrepreneurs (PRIME)
   family: capacity
@@ -40789,6 +42071,8 @@
   sources:
   - 1797
   - 1798
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: simons-collaborations-mps
   name: Simons Collaborations in Mathematics and the Physical Sciences
   family: research
@@ -40866,6 +42150,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: simons-pivot-fellowship
   name: Simons Foundation Pivot Fellowship
   family: people
@@ -40928,6 +42215,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: sloan-research-fellowships
   name: Sloan Research Fellowships
   family: people
@@ -40999,6 +42288,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: keck-research-program
   name: W. M. Keck Foundation Research Program
   family: research
@@ -41081,6 +42372,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - approaching-a-foundation
+  - foundation-research-grant
 - id: cottrell-scholar-award
   name: Cottrell Scholar Award
   family: people
@@ -41145,6 +42439,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: camille-dreyfus-teacher-scholar
   name: Camille Dreyfus Teacher-Scholar Awards
   family: people
@@ -41203,6 +42499,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: henry-dreyfus-teacher-scholar
   name: Henry Dreyfus Teacher-Scholar Awards
   family: people
@@ -41262,6 +42560,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: packard-fellowships-science-engineering
   name: Packard Fellowships for Science and Engineering
   family: people
@@ -41337,6 +42637,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: hhmi-investigator-program
   name: HHMI Investigator Program
   family: people
@@ -41391,6 +42693,8 @@
   - 2161
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: hhmi-freeman-hrabowski-scholars
   name: HHMI Freeman Hrabowski Scholars Program
   family: people
@@ -41455,6 +42759,8 @@
   - 2162
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: hhmi-hanna-gray-fellows
   name: HHMI Hanna H. Gray Fellows Program
   family: people
@@ -41511,6 +42817,9 @@
   - 2158
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - postdoctoral-fellowship
+  - foundation-fellowship-and-scholar-award
 - id: bwf-career-awards-medical-scientists
   name: Burroughs Wellcome Fund Career Awards for Medical Scientists (CAMS)
   family: people
@@ -41572,6 +42881,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - postdoctoral-fellowship
+  - foundation-fellowship-and-scholar-award
 - id: bwf-career-awards-scientific-interface
   name: Burroughs Wellcome Fund Career Awards at the Scientific Interface (CASI)
   family: people
@@ -41636,6 +42948,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - postdoctoral-fellowship
+  - foundation-fellowship-and-scholar-award
 - id: pew-biomedical-scholars
   name: Pew Scholars Program in the Biomedical Sciences
   family: people
@@ -41709,6 +43024,9 @@
   - 2174
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - approaching-a-foundation
+  - foundation-fellowship-and-scholar-award
 - id: ddf-health-solutions-science-in-action
   name: Demonstrating Health Solutions Science in Action (Doris Duke Foundation and the Pathways for Health Research Collective)
   family: research
@@ -41772,6 +43090,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: aha-career-development-award
   name: American Heart Association Career Development Award
   family: people
@@ -41836,6 +43157,8 @@
   - 2187
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: acs-research-scholar-grants
   name: American Cancer Society Research Scholar Grants
   family: research
@@ -41905,6 +43228,9 @@
   - 2248
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: spencer-small-research-grants
   name: 'Spencer Foundation Research Grants on Education: Small'
   family: research
@@ -41965,6 +43291,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: spencer-large-research-grants
   name: 'Spencer Foundation Research Grants on Education: Large'
   family: research
@@ -42023,6 +43352,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: spencer-research-practice-partnerships
   name: Spencer Foundation Research-Practice Partnerships
   family: research
@@ -42086,6 +43418,10 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - joining-as-a-subrecipient-or-partner
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: rsf-core-research-grants
   name: Russell Sage Foundation Core Research Grants
   family: research
@@ -42161,6 +43497,10 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - approaching-a-foundation
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: rsf-pipeline-grants
   name: Russell Sage Foundation Sheldon Danziger Pipeline Grants
   family: research
@@ -42208,6 +43548,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-research-grant
 - id: william-t-grant-scholars
   name: William T. Grant Scholars Program
   family: people
@@ -42277,6 +43619,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - foundation-fellowship-and-scholar-award
 - id: wtgrant-research-grants-reducing-inequality
   name: William T. Grant Foundation Research Grants on Reducing Inequality
   family: research
@@ -42339,6 +43683,10 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - approaching-a-foundation
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: andrew-carnegie-fellows
   name: Andrew Carnegie Fellows Program
   family: people
@@ -42398,6 +43746,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - humanities-arts-and-international-fellowships
+  - foundation-fellowship-and-scholar-award
 - id: guggenheim-fellowships
   name: Guggenheim Fellowships (United States and Canada competition)
   family: people
@@ -42467,6 +43818,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - humanities-arts-and-international-fellowships
+  - foundation-fellowship-and-scholar-award
 - id: acls-fellowship-program
   name: ACLS Fellowship Program
   family: people
@@ -42519,6 +43873,9 @@
   - 2228
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - humanities-arts-and-international-fellowships
+  - foundation-fellowship-and-scholar-award
 - id: mellon-acls-dissertation-innovation-fellowships
   name: Mellon/ACLS Dissertation Innovation Fellowships
   family: people
@@ -42561,6 +43918,9 @@
   - 2229
   as_of: '2026-10-04'
   sweep: foundations-A
+  on_routes:
+  - predoctoral-fellowship
+  - humanities-arts-and-international-fellowships
 - id: macarthur-100-and-change
   name: 100&Change
   family: programme-service
@@ -42627,6 +43987,8 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - foundation-programme-grant
 - id: rwjf-exploring-equitable-futures
   name: Exploring Equitable Futures (RWJF open call for ideas)
   family: research
@@ -42692,6 +44054,11 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - becoming-an-eligible-nonprofit
+  - approaching-a-foundation
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: rwjf-e4a-rapid-response-research
   name: 'Evidence for Action: Rapid Response Research'
   family: research
@@ -42755,6 +44122,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: knight-cities-challenge
   name: Knight Cities Challenge
   family: programme-service
@@ -42817,6 +44187,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - approaching-a-foundation
+  - foundation-programme-grant
 - id: mellon-higher-learning-open-call
   name: Mellon Higher Learning Program Open Call for Concepts
   family: research
@@ -42873,6 +44246,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - approaching-a-foundation
+  - foundation-research-grant
 - id: mellon-humanities-in-place
   name: Mellon Humanities in Place
   family: programme-service
@@ -42920,6 +44296,9 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - approaching-a-foundation
+  - foundation-programme-grant
 - id: arnold-ventures-k12-causal-research-rfp
   name: 'Arnold Ventures request for proposals: Causal Research on the Impacts of K-12 School Policies'
   family: research
@@ -42976,6 +44355,10 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - approaching-a-foundation
+  - research-at-a-nonprofit-that-is-not-a-university
+  - foundation-research-grant
 - id: yield-giving-open-call
   name: Yield Giving Open Call
   family: programme-service
@@ -43023,6 +44406,10 @@
   funder_kind: foundation
   as_of: '2026-10-04'
   sweep: foundations-B
+  on_routes:
+  - becoming-an-eligible-nonprofit
+  - general-operating-support
+  - foundation-programme-grant
 - id: walmart-spark-good-local-grants
   name: Walmart Spark Good Local Grants
   family: programme-service
@@ -43078,6 +44465,9 @@
   - 2435
   - 2433
   sweep: foundations-C
+  on_routes:
+  - approaching-a-foundation
+  - foundation-programme-grant
 - id: bank-of-america-local-grants
   name: Bank of America Charitable Foundation local grants (requests for proposals)
   family: programme-service
@@ -43140,6 +44530,10 @@
   - 2438
   - 2439
   sweep: foundations-C
+  on_routes:
+  - becoming-an-eligible-nonprofit
+  - approaching-a-foundation
+  - foundation-programme-grant
 - id: home-depot-veteran-housing-grants
   name: Home Depot Foundation Veteran Housing Grants
   family: capacity
@@ -43198,6 +44592,8 @@
   sources:
   - 2443
   sweep: foundations-C
+  on_routes:
+  - preservation-facilities-and-capital-grants
 - id: lowes-gable-grants
   name: Lowe's Foundation Gable Grants
   family: capacity
@@ -43240,6 +44636,8 @@
   sources:
   - 2444
   sweep: foundations-C
+  on_routes:
+  - nonprofit-capacity-building-and-technical-assistance
 - id: svcf-community-action-grants
   name: Silicon Valley Community Foundation Community Action Grants
   family: programme-service
@@ -43282,3 +44680,7 @@
   - 2412
   - 2411
   sweep: foundations-C
+  on_routes:
+  - becoming-an-eligible-nonprofit
+  - approaching-a-foundation
+  - foundation-programme-grant

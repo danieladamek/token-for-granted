@@ -1,4 +1,4 @@
-# Token for Granted content pack — extension schema (draft v0.9, 2026-10-05)
+# Token for Granted content pack — extension schema (draft v0.10, 2026-10-05)
 
 Token for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -416,3 +416,54 @@ status_change: '… [n]'         # only when the page showed something the recor
 ```
 
 `cycle` is left as the sweep wrote it. Where `status_change` is present, `cycle` is a day older than `status_note` and the two differ; the site should show the status fields first. Pages the status pass read are references 2513 onward, with `sweep: status-A` to `status-C`; they were read once and are flagged `recheck: true`.
+
+## Added in v0.10: routes and the pathfinder
+
+```yaml
+# routes.yaml
+- id: formula-money-through-the-state
+  name: Federal formula money that reaches a non-profit through a state, tribe or local government
+  family: programme-service        # research | people | programme-service | capacity | start (the entry routes)
+  what: '… [n]'                    # 2–4 cited sentences, plain layer
+  who_for: '… [n]'
+  how_it_works: ['… [n]', …]       # 3–6 cited steps in the order a first-time applicant meets them
+  watch: '… [n]'                   # what changed in 2025–26 or is pending, dated, from changes.yaml
+  programs: [ids]                  # every programme on the route, whatever its status
+  funders: [ids]
+  standing: [ids]
+  gates: [ids]
+  mechanics: [ids]
+  help: [ids]
+  changes: [ids]
+  who: […]  purpose: […]  stage: […]     # editorial tags; the pathfinder uses them only for entry routes
+  funder_kind: federal | foundation | either
+  door: direct | state | congress | nomination | invitation | letter-of-inquiry | registration | partner
+  find_filter: {applicant_types: […], keywords: […]}   # how /find is pre-set from this route
+  as_of: '2026-10-05'
+  sources: [n, …]                  # written at consolidation: every number the prose cites
+```
+
+Each programme record gains `on_routes: [route ids]`.
+
+A route states nothing its linked records do not state. Its prose does not say what is open; the page lists the route's programmes with each one's status and date.
+
+```yaml
+# pathfinder.yaml
+rule: …                            # the ranking rule in words
+display:
+  route_statuses: [open, forecast, closed, formula]    # which programmes a route page lists; search shows all
+questions: [who, purpose, stage, funder_kind]
+routes:
+- id: health-and-behavioural-health-services
+  family: programme-service
+  door: direct
+  funder_kind: federal
+  n: {federal: 41, foundation: 0}                       # programmes on the route, by side
+  fit:                                                  # how many of them carry each pair of answers in their own records
+  - {who: nonprofit-programmes, purpose: service, funder: federal, count: 37}
+- id: getting-registered-to-apply                       # an entry route carries tags instead of counts
+  family: start
+  who: […]  purpose: […]  stage: […]
+```
+
+The `fit` counts are computed at consolidation from `who` and `purpose` on the programme records, so they change when the records do.

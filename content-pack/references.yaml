@@ -84,6 +84,9 @@
   - changes/ch-pa-r25-parent-notices
   - todo/t-ra-002
   - todo/t-ra-014
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -164,6 +167,9 @@
   - funders/nih
   - mechanics/nih-standard-due-dates
   - changes/ch-nih-aids-due-dates-removed
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -241,6 +247,10 @@
   - programs/nih-c06-research-facilities
   - programs/nih-p30-p20-center-grants
   - programs/nih-rcmi-u54
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
+  - routes/nih-r15-for-institutions-with-little-nih-funding
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: research-A
@@ -306,6 +316,8 @@
   - gates/era-commons
   - gates/orcid-id
   - todo/t-ra-003
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -359,6 +371,7 @@
   - programs/nih-r21
   - standing/nih-nonprofit-other-than-higher-education
   - standing/nih-foreign-organization
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -405,6 +418,7 @@
   - programs/nih-r03
   - standing/nih-nonprofit-other-than-higher-education
   - standing/nih-foreign-organization
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -457,6 +471,8 @@
   - standing/nih-area-eligible-institution
   - standing/nih-nonprofit-other-than-higher-education
   - standing/nih-foreign-organization
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -507,6 +523,8 @@
   - programs/nih-parent-announcements
   - programs/nih-r15-reap
   - standing/nih-reap-eligible-institution
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -713,6 +731,9 @@
   - mechanics/nih-six-application-limit-fellowships-careers
   - changes/ch-nih-ai-and-application-limit-2025
   - changes/ch-pa-six-application-limit
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-r15-for-institutions-with-little-nih-funding
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: research-A
@@ -918,6 +939,7 @@
   - mechanics/nih-standard-due-dates
   - changes/ch-nih-aids-due-dates-removed
   - changes/ch-ca-nih-aids-due-dates-removed
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -1137,6 +1159,8 @@
   - standing/nih-foreign-organization
   - mechanics/nih-foreign-component
   - changes/ch-nih-foreign-subawards-2025
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -1182,6 +1206,7 @@
   - programs/nih-pf5
   - changes/ch-nih-international-structure-2025
   - todo/t-ra-006
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -1235,6 +1260,9 @@
   - mechanics/termination-objections-appeals-and-forums
   - mechanics/indirect-cost-rate-caps-2025
   - changes/ch-nih-indirect-cost-guidance-2025
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -1278,6 +1306,9 @@
     rate.
   cited_in:
   - changes/ch-nih-indirect-cost-guidance-2025
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -1558,6 +1589,8 @@
   - mechanics/foreign-support-disclosure
   - changes/ch-nih-common-forms-sciencv
   - changes/ch-gb-2026-05-08-nih-common-forms-enforced
+  - routes/getting-registered-to-apply
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -1806,6 +1839,7 @@
   - mechanics/nih-f-and-a-costs
   - changes/ch-nih-loi-and-500k-removed
   - todo/t-ra-007
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -1848,6 +1882,7 @@
   - programs/nih-r01
   - mechanics/nih-large-budget-prior-approval
   - changes/ch-nih-loi-and-500k-removed
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -1922,6 +1957,7 @@
   - funders/nih
   - mechanics/nih-simplified-review-framework
   - changes/ch-nih-simplified-review-2025
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -2010,6 +2046,7 @@
   - funders/nih
   - mechanics/nih-simplified-review-framework
   - changes/ch-nih-simplified-review-2025
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -2084,6 +2121,7 @@
   cited_in:
   - programs/nih-parent-announcements
   - programs/nih-r21
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -2161,6 +2199,7 @@
   - programs/nih-r15-reap
   - standing/nih-area-eligible-institution
   - standing/nih-reap-eligible-institution
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -2266,6 +2305,7 @@
   - Each research project usually under the leadership of an established investigator.
   cited_in:
   - programs/nih-p01
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -2301,6 +2341,7 @@
     his or her specific interest and competencies.
   cited_in:
   - programs/nih-u01
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -2790,6 +2831,7 @@
   - changes/ch-sd-fy2027-continuing-resolution-pl-119-103
   - changes/ch-cc-fy2027-continuing-resolution
   - todo/t-ra-008
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: research-A
@@ -2951,6 +2993,8 @@
   - standing/nih-foreign-organization
   - mechanics/nih-f-and-a-costs
   - todo/t-ra-007
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -3402,6 +3446,7 @@
   - programs/nih-dp1-pioneer
   - standing/nih-nonprofit-other-than-higher-education
   - standing/nih-foreign-organization
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -3673,6 +3718,7 @@
   cited_in:
   - programs/nih-r01
   - changes/ch-nih-success-rate-fy2025
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -3893,6 +3939,9 @@
   - standing/nih-foreign-organization
   - mechanics/nih-foreign-component
   - changes/ch-nih-international-structure-2025
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -3967,6 +4016,8 @@
   - programs/nih-r01
   - funders/nih
   - changes/ch-nih-rpg-cap-rfi
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4006,6 +4057,8 @@
   - programs/nih-r01
   - funders/nih
   - changes/ch-nih-rpg-cap-rfi
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4122,6 +4175,7 @@
   - funders/nih
   - help/nih-program-official
   - help/nih-matchmaker
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -4479,6 +4533,7 @@
   cited_in:
   - programs/nih-dp1-pioneer
   - programs/nih-dp2-new-innovator
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4524,6 +4579,7 @@
   cited_in:
   - programs/nih-dp1-pioneer
   - programs/nih-tr01-transformative
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4568,6 +4624,7 @@
   - programs/nih-dp1-pioneer
   - programs/nih-dp5-early-independence
   - gates/unique-entity-identifier
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4650,6 +4707,7 @@
   - standing/nih-early-stage-investigator
   - mechanics/nih-cooperative-agreement
   - mechanics/nih-foreign-component
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: true
   sweep: research-A
@@ -4690,6 +4748,7 @@
   cited_in:
   - programs/nih-p01
   - standing/nih-foreign-organization
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4725,6 +4784,7 @@
   quotes: []
   cited_in:
   - programs/nih-r61-r33
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4763,6 +4823,7 @@
   quotes: []
   cited_in:
   - programs/nih-r34
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4836,6 +4897,7 @@
   quotes: []
   cited_in:
   - programs/nih-u01
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -4920,6 +4982,7 @@
   - funders/nih-niaid
   - standing/nih-nonprofit-other-than-higher-education
   - standing/nih-foreign-organization
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -5005,6 +5068,7 @@
   cited_in:
   - programs/nih-r61-r33
   - funders/nih-nhlbi
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -5053,6 +5117,7 @@
   - standing/nih-nonprofit-other-than-higher-education
   - standing/nih-foreign-organization
   - mechanics/nih-cooperative-agreement
+  - routes/nih-targeted-and-large-awards
   verified: true
   recheck: false
   sweep: research-A
@@ -5213,6 +5278,7 @@
   - funders/nih
   - help/nih-program-official
   - help/nih-matchmaker
+  - routes/nih-investigator-initiated-grant
   verified: true
   recheck: false
   sweep: research-A
@@ -5256,6 +5322,8 @@
   - programs/nih-r34
   - gates/grants-gov-registration
   - gates/era-commons
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -6002,6 +6070,8 @@
   - mechanics/nih-six-application-limit
   - mechanics/nih-ai-originality-rule
   - changes/ch-nih-ai-and-application-limit-2025
+  - routes/nih-investigator-initiated-grant
+  - routes/nih-r15-for-institutions-with-little-nih-funding
   verified: true
   recheck: false
   sweep: research-A
@@ -6381,6 +6451,7 @@
   - changes/c-2025-08-eo-14332
   - changes/c-nsf-2025-12-pappg-supplement-1
   - changes/c-nsf-2025-12-merit-review-two-reviewers
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -6708,6 +6779,8 @@
   - changes/ch-ca-nsf-award-terminations
   - changes/ch-ca-nsf-indirect-cost-cap-vacated
   - changes/ch-cb-nsf-opportunity-page-states
+  - routes/institutional-training-grant
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: research-B
@@ -6773,6 +6846,7 @@
   - funders/nsf-sbe
   - funders/nsf-edu
   - funders/nsf-tip
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -6875,6 +6949,11 @@
   - mechanics/nsf-preliminary-proposal
   - mechanics/nsf-target-date-deadline-window
   - mechanics/sam-entity-validation
+  - routes/getting-registered-to-apply
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -6966,6 +7045,7 @@
   - funders/nsf-tip
   - mechanics/nsf-merit-review
   - changes/c-nsf-2025-12-merit-review-two-reviewers
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -7031,6 +7111,7 @@
   - help/nsf-webinars-office-hours
   - help/nsf-interdisciplinary-contact
   - mechanics/nsf-funding-opportunity-types
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -7168,6 +7249,8 @@
   - gates/grants-gov-registration
   - gates/nsf-id
   - gates/research-gov
+  - routes/getting-registered-to-apply
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -7270,6 +7353,7 @@
   - mechanics/de-minimis-indirect-rate
   - mechanics/negotiated-indirect-cost-rate
   - mechanics/nonprofit-indirect-cost-rate-negotiation
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: research-B
@@ -7403,6 +7487,7 @@
   - programs/nsf-eng-cmmi
   - programs/nsf-eng-eccs
   - funders/nsf-eng
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -8152,6 +8237,8 @@
   - gates/grants-gov-registration
   - changes/c-nsf-2026-08-foundational-nofos
   - changes/ch-pb-foundational-nofos-no-career-stage
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -8321,6 +8408,7 @@
   - funders/nsf
   - funders/nsf-cise
   - changes/ch-pb-crii-archived
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -8364,6 +8452,7 @@
     consecutive 12-month period.
   cited_in:
   - programs/nsf-cise-future-core
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -8403,6 +8492,7 @@
   - funders/nsf-cise
   - standing/nsf-nonprofit-nonacademic
   - mechanics/nsf-preliminary-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -8461,6 +8551,9 @@
   - mechanics/nsf-funding-opportunity-types
   - changes/c-nsf-2026-08-foundational-nofos
   - changes/ch-pb-foundational-nofos-no-career-stage
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: research-B
@@ -8610,6 +8703,7 @@
   quotes: []
   cited_in:
   - programs/nsf-eng-cbet
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -8649,6 +8743,8 @@
   cited_in:
   - programs/nsf-eng-cbet
   - changes/c-nsf-2026-08-foundational-nofos
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -8723,6 +8819,8 @@
   cited_in:
   - programs/nsf-eng-cmmi
   - changes/c-nsf-2026-08-foundational-nofos
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -8798,6 +8896,7 @@
   - Proposals will be reviewed by Ad Hoc, Panel, or Internal NSF Review.
   cited_in:
   - programs/nsf-eng-eccs
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -8932,6 +9031,7 @@
   quotes: []
   cited_in:
   - programs/nsf-geo-core
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -8973,6 +9073,7 @@
   - programs/nsf-raise
   - programs/nsf-geo-core
   - funders/nsf-geo
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -9144,6 +9245,7 @@
   quotes: []
   cited_in:
   - programs/nsf-mps-physics
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -9186,6 +9288,7 @@
   - programs/nsf-planning
   - programs/nsf-conference
   - programs/nsf-mps-physics
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -9317,6 +9420,7 @@
   - programs/nsf-research-proposal
   - programs/nsf-mps-materials
   - funders/nsf
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -9630,6 +9734,8 @@
   - programs/nsf-sbe-core-programs
   - funders/nsf-sbe
   - changes/c-nsf-2026-09-sbe-programmes-waiting
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -9665,6 +9771,8 @@
   - programs/nsf-sbe-core-programs
   - funders/nsf-sbe
   - changes/c-nsf-2026-09-sbe-programmes-waiting
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -9699,6 +9807,8 @@
   - programs/nsf-sbe-core-programs
   - funders/nsf-sbe
   - changes/c-nsf-2026-09-sbe-programmes-waiting
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -10159,6 +10269,7 @@
   - mechanics/nsf-indirect-costs
   - mechanics/indirect-cost-rate-caps-2025
   - changes/c-nsf-2025-05-idc-15-percent
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -10229,6 +10340,7 @@
   - programs/nsf-trailblazer
   - mechanics/nsf-indirect-costs
   - changes/c-nsf-2025-05-idc-15-percent
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -10581,6 +10693,7 @@
   - changes/ch-pc-eo-14332-grantmaking
   - changes/ch-sa-2025-08-07-eo-14332-grant-oversight
   - changes/ch-sb-eo-14332-grant-oversight
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: research-B
@@ -10868,6 +10981,7 @@
   - programs/nsf-clb-supplement
   - programs/nsf-epscor-research-fellows
   - help/nsf-career-stage-landing-pages
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -10919,6 +11033,7 @@
   - programs/nsf-planning
   - programs/nsf-conference
   - gates/research-gov
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -10957,6 +11072,7 @@
   cited_in:
   - programs/nsf-rui-roa
   - standing/nsf-predominantly-undergraduate-institution
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -10997,6 +11113,7 @@
   - programs/nsf-sbe-core-programs
   - standing/nsf-nonprofit-nonacademic
   - standing/nsf-predominantly-undergraduate-institution
+  - routes/nsf-core-research-proposal
   verified: true
   recheck: false
   sweep: research-B
@@ -11106,6 +11223,11 @@
   - changes/ch-ca-nsf-fy2027-request-capacity-lines
   - changes/ch-ca-nsf-epscor-rii-track-1-replaced
   - changes/ch-cb-nsf-fy2027-request
+  - routes/nsf-core-research-proposal
+  - routes/early-career-faculty-award
+  - routes/research-instrumentation-and-facilities
+  - routes/epscor-and-idea-jurisdictions
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: true
   sweep: research-B
@@ -11267,6 +11389,8 @@
   - mechanics/nsf-other-proposal-types
   - mechanics/nsf-person-supplements
   - mechanics/agency-specific-certifications
+  - routes/nsf-core-research-proposal
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -11569,6 +11693,7 @@
   quotes: []
   cited_in:
   - programs/nsf-satc
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -11606,6 +11731,7 @@
   - A PI or a Co-PI may participate in only one GCR project at a time.
   cited_in:
   - programs/nsf-gcr
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -11868,6 +11994,7 @@
   cited_in:
   - programs/nsf-crcns
   - changes/c-nsf-2026-09-sbe-programmes-waiting
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -11901,6 +12028,7 @@
   - Awards are expected to range from $1,500,000 – $2,000,000 over a duration of four years
   cited_in:
   - programs/nsf-dmref
+  - routes/nsf-special-and-cross-cutting-solicitations
   verified: true
   recheck: false
   sweep: research-B
@@ -11982,6 +12110,7 @@
   - funders/doe
   - funders/doe-sc
   - mechanics/doe-pre-application
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12039,6 +12168,8 @@
   - mechanics/doe-pre-application
   - mechanics/doe-epact-cost-share
   - mechanics/doe-rtes-review
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/energy-department-research
   verified: true
   recheck: true
   sweep: research-C
@@ -12106,6 +12237,7 @@
   - gates/sciencv
   - gates/doe-pams
   - changes/research-security-training-doe-2025
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12198,6 +12330,7 @@
   - funders/doe
   - funders/doe-sc
   - mechanics/doe-pre-application
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12258,6 +12391,7 @@
   - help/doe-pams-helpdesk
   - changes/ch-pc-doe-ecrp-fy26-notice-dates
   - changes/ch-cd-doe-sc-fair-renew-no-notice-since-2024
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: research-C
@@ -12306,6 +12440,7 @@
   - programs/doe-sc-targeted-notices
   - gates/doe-pams
   - help/doe-pams-helpdesk
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12495,6 +12630,7 @@
   - a standardized 15 percent indirect cost rate for all grant awards to IHEs
   cited_in:
   - changes/doe-15pct-indirect-ihe-2025
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12548,6 +12684,7 @@
   - mechanics/negotiated-rate-acceptance-rule
   - mechanics/indirect-cost-rate-caps-2025
   - changes/doe-indirect-flashes-withdrawn-2026
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12708,6 +12845,7 @@
   cited_in:
   - programs/dod-onr-long-range-baa
   - changes/dod-15pct-indirect-2025
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12748,6 +12886,7 @@
   - funders/nasa-smd
   - changes/nasa-roses-2025-july-release
   - changes/nasa-roses-2026-release-status
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -12800,6 +12939,7 @@
   - funders/dod-cdmrp
   - changes/cdmrp-fy26-appropriation
   - changes/ch-pe-cdmrp-fy26-appropriation
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -12990,6 +13130,7 @@
   - programs/doe-applied-office-notices
   - funders/doe
   - mechanics/doe-epact-cost-share
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13076,6 +13217,8 @@
   - gates/fedconnect
   - mechanics/arpa-e-concept-paper
   - changes/arpa-e-notices-drop-15pct-cap-2026
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13120,6 +13263,7 @@
   - funders/doe-arpa-e
   - mechanics/arpa-e-concept-paper
   - changes/arpa-e-notices-drop-15pct-cap-2026
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13292,6 +13436,7 @@
   - funders/doe-arpa-e
   - gates/doe-exchange
   - changes/arpa-e-exchange-consolidated
+  - routes/energy-department-research
   verified: true
   recheck: true
   sweep: research-C
@@ -13331,6 +13476,7 @@
   - programs/doe-applied-office-notices
   - funders/doe
   - changes/doe-applied-offices-renamed
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13450,6 +13596,7 @@
   cited_in:
   - gates/research-security-training
   - changes/research-security-training-doe-2025
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13527,6 +13674,7 @@
   cited_in:
   - programs/doe-nnsa-ssaa
   - funders/doe
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13661,6 +13809,7 @@
   cited_in:
   - funders/doe
   - changes/eo-14332-grant-oversight-2025
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13810,6 +13959,7 @@
   - programs/dod-afosr-open-baa
   - funders/dod-afosr
   - changes/afosr-baa-closed-reissued-2026
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -13854,6 +14004,7 @@
   - programs/dod-afosr-open-baa
   - funders/dod-afosr
   - changes/afosr-baa-closed-reissued-2026
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14069,6 +14220,8 @@
   - mechanics/white-paper
   - mechanics/de-minimis-indirect-rate
   - changes/department-of-war-secondary-title-2025
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14220,6 +14373,7 @@
   cited_in:
   - programs/dod-minerva
   - funders/dod-basic-research-office
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14272,6 +14426,7 @@
   - gates/ebrap
   - mechanics/cdmrp-pre-application
   - changes/department-of-war-secondary-title-2025
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14443,6 +14598,7 @@
   - mechanics/white-paper
   - mechanics/de-minimis-indirect-rate
   - changes/onr-lrbaa-extended-2026
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14500,6 +14656,7 @@
   - programs/dod-durip
   - funders/dod-onr
   - changes/ch-pc-department-of-war-name-on-pages
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14556,6 +14713,7 @@
   - gates/onr-submission-portal
   - help/grants-gov-support
   - mechanics/white-paper
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14674,6 +14832,7 @@
   - funders/dod-afosr
   - gates/cage-code
   - changes/afosr-baa-closed-reissued-2026
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14712,6 +14871,7 @@
   cited_in:
   - programs/dod-afosr-open-baa
   - funders/dod-afosr
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14770,6 +14930,8 @@
   - funders/dod-aro
   - help/aro-technical-point-of-contact
   - mechanics/white-paper
+  - routes/defense-basic-research
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: research-C
@@ -14818,6 +14980,7 @@
   cited_in:
   - programs/dod-aro-arl-baa
   - funders/dod-aro
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14895,6 +15058,7 @@
   - programs/dod-darpa-office-wide-baa
   - funders/dod-darpa
   - mechanics/broad-agency-announcement
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -14930,6 +15094,7 @@
   - programs/dod-darpa-office-wide-baa
   - funders/dod-darpa
   - help/darpaconnect
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15135,6 +15300,7 @@
   cited_in:
   - programs/dod-cdmrp-program-announcements
   - funders/dod-cdmrp
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15216,6 +15382,7 @@
   - programs/dod-cdmrp-prmrp
   - funders/dod-cdmrp
   - changes/cdmrp-fy25-reduced-funding
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15341,6 +15508,7 @@
   - programs/dod-cdmrp-program-announcements
   - mechanics/cdmrp-pre-application
   - mechanics/cdmrp-verification-period
+  - routes/defense-basic-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15515,6 +15683,7 @@
   - undertaking action to terminate all grant awards to IHEs that do not conform with this updated policy
   cited_in:
   - changes/doe-15pct-indirect-ihe-2025
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15656,6 +15825,7 @@
   - funders/doe
   - funders/doe-sc
   - gates/fedconnect
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15727,6 +15897,7 @@
   cited_in:
   - programs/doe-sc-targeted-notices
   - gates/doe-pams
+  - routes/energy-department-research
   verified: true
   recheck: false
   sweep: research-C
@@ -15913,6 +16084,7 @@
   - funders/nasa-smd
   - changes/nasa-roses-2026-release-status
   - changes/ch-pc-nasa-roses-2026-timing
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -15959,6 +16131,7 @@
   - programs/nasa-roses
   - funders/nasa-smd
   - changes/nasa-roses-2025-july-release
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16037,6 +16210,7 @@
   - programs/nasa-roses
   - mechanics/nasa-step-1-proposal
   - changes/nasa-roses-2026-release-status
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16074,6 +16248,7 @@
   - funders/nasa-smd
   - mechanics/dual-anonymous-peer-review
   - changes/nasa-roses-2025-july-release
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16112,6 +16287,7 @@
   - Proposals to these programs may be submitted at any time during the open period of ROSES
   cited_in:
   - programs/nasa-roses-flexible-due-date
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16161,6 +16337,7 @@
   - mechanics/nasa-step-1-proposal
   - mechanics/no-exchange-of-funds
   - changes/nasa-roses-2025-july-release
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16287,6 +16464,7 @@
   - funders/nasa-smd
   - mechanics/no-exchange-of-funds
   - mechanics/nasa-grant-regulations
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16324,6 +16502,7 @@
   cited_in:
   - mechanics/nasa-grant-regulations
   - changes/nasa-termination-payment-terms-2026
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16361,6 +16540,7 @@
   - funders/nasa-smd
   - changes/eo-14332-grant-oversight-2025
   - changes/nasa-termination-payment-terms-2026
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16410,6 +16590,7 @@
   - gates/research-security-training
   - help/secure-center-training-module
   - changes/research-security-training-nasa-2026
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16522,6 +16703,7 @@
   - programs/nasa-roses
   - programs/nasa-roses-flexible-due-date
   - funders/nasa-smd
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16590,6 +16772,7 @@
   - gates/nspires
   - help/nspires-helpdesk
   - help/nasa-new-pi-resources
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16624,6 +16807,7 @@
   cited_in:
   - programs/nasa-roses
   - gates/nspires
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16662,6 +16846,7 @@
   - programs/nasa-roses
   - funders/nasa-smd
   - help/nasa-program-officers-list
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16763,6 +16948,7 @@
   - programs/nasa-roses
   - programs/nasa-roses-flexible-due-date
   - changes/research-security-training-nasa-2026
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -16836,6 +17022,7 @@
   - programs/nasa-roses
   - funders/nasa-smd
   - changes/nasa-roses-2026-release-status
+  - routes/nasa-research-announcements
   verified: true
   recheck: false
   sweep: research-C
@@ -17183,6 +17370,7 @@
   - mechanics/letter-of-intent
   - mechanics/nifa-mentoring-plan
   - changes/c-rd-2025-11-14-afri-deadline-extension
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -17280,6 +17468,7 @@
   cited_in:
   - programs/nifa-afri-fas
   - funders/usda-nifa
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -17566,6 +17755,7 @@
   - mechanics/letter-of-intent
   - mechanics/nifa-indirect-cost-limit
   - changes/c-rd-2025-12-30-usda-rd-priorities
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -17661,6 +17851,7 @@
   - mechanics/nifa-indirect-cost-limit
   - mechanics/nifa-matching
   - changes/c-rd-2025-12-30-usda-rd-priorities
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -17708,6 +17899,7 @@
   cited_in:
   - programs/nifa-orei
   - mechanics/nifa-matching
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -17842,6 +18034,7 @@
   cited_in:
   - funders/usda-nifa
   - changes/c-rd-2025-12-30-usda-rd-priorities
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -17963,6 +18156,7 @@
   - funders/usda-nifa
   - gates/sam-registration
   - help/nifa-application-help
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18085,6 +18279,7 @@
   - programs/nifa-afri-sas
   - funders/usda-nifa
   - changes/c-rd-2025-11-14-afri-deadline-extension
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18206,6 +18401,7 @@
   cited_in:
   - programs/usda-ars-non-assistance-cooperative-agreement
   - funders/usda-ars
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: true
   sweep: research-D
@@ -18250,6 +18446,7 @@
   cited_in:
   - programs/usda-ars-non-assistance-cooperative-agreement
   - funders/usda-ars
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18585,6 +18782,7 @@
   - help/sea-grant-fellowships-contact
   - changes/ch-pc-sea-grant-deia-excluded-fy25
   - changes/ch-pc-knauss-2027-calendar
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18630,6 +18828,7 @@
   - funders/noaa
   - standing/noaa-sea-grant-program
   - help/noaa-state-sea-grant-programs
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18739,6 +18938,7 @@
   - Applications are welcome from eligible U.S. universities, colleges, and research institutions.
   cited_in:
   - programs/noaa-cooperative-institutes
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18887,6 +19087,7 @@
   - funders/noaa
   - changes/c-rd-2026-01-23-noaa-fy26-appropriation
   - changes/c-rd-2026-04-noaa-fy27-request
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -18946,6 +19147,9 @@
   - changes/ch-pc-noaa-fy27-sea-grant-termination-proposed
   - changes/ch-pc-noaa-fy27-office-of-education-termination-proposed
   - changes/ch-pc-noaa-fy27-climate-research-reductions-proposed
+  - routes/agriculture-environment-and-physical-science-agencies
+  - routes/predoctoral-fellowship
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: research-D
@@ -19200,6 +19404,7 @@
   - programs/epa-star
   - funders/epa-ord
   - changes/c-rd-2026-epa-star-no-notices
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -19237,6 +19442,7 @@
   cited_in:
   - programs/epa-star
   - funders/epa-ord
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -19529,6 +19735,7 @@
   - programs/epa-star
   - funders/epa-ord
   - changes/c-rd-2026-epa-star-no-notices
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -19915,6 +20122,7 @@
   - programs/nist-pmgp
   - funders/nist
   - mechanics/pre-application
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20155,6 +20363,7 @@
   - programs/noaa-nccos-crp
   - funders/noaa
   - mechanics/letter-of-intent
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20237,6 +20446,7 @@
     Alaska Native, and Indian tribal governments
   cited_in:
   - programs/noaa-fisheries-brep
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20318,6 +20528,7 @@
   cited_in:
   - programs/usgs-ehp-external-grants
   - funders/usgs
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20362,6 +20573,7 @@
   cited_in:
   - programs/usgs-ehp-external-grants
   - funders/usgs
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20406,6 +20618,7 @@
   - programs/usgs-wrri-104g
   - funders/usgs
   - standing/usgs-water-resources-research-institute
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20482,6 +20695,7 @@
   - funders/usgs
   - standing/usgs-water-resources-research-institute
   - help/usgs-state-water-institute-directors
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20751,6 +20965,7 @@
   - programs/dot-utc
   - funders/dot
   - changes/c-rd-2025-12-22-dot-utc-recompetition
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20804,6 +21019,8 @@
   - gates/valid-eval
   - mechanics/letter-of-intent
   - changes/c-rd-2025-12-22-dot-utc-recompetition
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20886,6 +21103,7 @@
   - programs/dot-utc
   - funders/dot
   - changes/c-rd-2025-05-02-dot-utc-terminations
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20924,6 +21142,7 @@
   - programs/dot-utc
   - funders/dot
   - changes/c-rd-2025-05-02-dot-utc-terminations
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -20994,6 +21213,7 @@
   cited_in:
   - programs/dot-faa-aviation-research-grants
   - funders/dot
+  - routes/agriculture-environment-and-physical-science-agencies
   verified: true
   recheck: false
   sweep: research-D
@@ -21371,6 +21591,7 @@
   - gates/era-commons
   - help/era-service-desk
   - changes/ch-re-2025-03-31-notices-updated-agency-priorities
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21417,6 +21638,7 @@
   cited_in:
   - programs/ahrq-r03
   - changes/ch-re-2025-03-31-notices-updated-agency-priorities
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21460,6 +21682,7 @@
   cited_in:
   - programs/ahrq-r18
   - mechanics/ahrq-special-emphasis-notice
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21579,6 +21802,7 @@
   - funders/ahrq
   - mechanics/early-expiration-notice
   - changes/ch-re-2026-03-ahrq-early-expirations
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21617,6 +21841,8 @@
   - funders/ahrq
   - changes/ch-re-2026-03-ahrq-early-expirations
   - changes/ch-pa-ahrq-r36-early-expiration
+  - routes/health-services-and-public-health-research
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: research-E
@@ -21654,6 +21880,7 @@
   - programs/ahrq-primary-care-r01
   - funders/ahrq
   - changes/ch-re-2026-03-ahrq-early-expirations
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21690,6 +21917,7 @@
   - mechanics/early-expiration-notice
   - changes/ch-re-2026-03-ahrq-early-expirations
   - changes/ch-pa-ahrq-k18-and-supplements-early-expiration
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21727,6 +21955,7 @@
   - funders/ahrq
   - changes/ch-re-2026-03-ahrq-early-expirations
   - changes/ch-pa-ahrq-k18-and-supplements-early-expiration
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -21767,6 +21996,7 @@
   - funders/ahrq
   - changes/ch-re-2026-03-ahrq-early-expirations
   - changes/ch-pa-ahrq-k18-and-supplements-early-expiration
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -22044,6 +22274,7 @@
   cited_in:
   - changes/ch-re-2025-04-01-hhs-reductions-in-force
   - changes/ch-re-2025-ahrq-grant-making-halt-and-suit
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -22497,6 +22728,8 @@
   - changes/ch-sa-2026-02-03-fy2026-appropriations
   - changes/ch-sa-2026-04-fy2027-budget-request
   - changes/ch-sb-acfc-reorganisation
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: research-E
@@ -22621,6 +22854,8 @@
   - changes/ch-sa-2026-02-03-fy2026-appropriations
   - changes/ch-sa-2026-04-fy2027-budget-request
   - changes/ch-sa-2026-04-03-title-x-fy2027-notice
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: true
   sweep: research-E
@@ -22991,6 +23226,8 @@
   cited_in:
   - changes/ch-re-2025-03-24-hhs-public-health-grant-terminations
   - changes/ch-sa-2025-03-24-public-health-grant-terminations
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: research-E
@@ -23218,6 +23455,7 @@
   - changes/ch-sa-2025-08-07-eo-14332-grant-oversight
   - changes/ch-sa-2026-04-24-samhsa-harm-reduction-letter
   - changes/ch-sa-2026-06-samhsa-fy2026-notices
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: research-E
@@ -23584,6 +23822,7 @@
   - funders/cdc
   - changes/ch-re-2025-03-31-notices-updated-agency-priorities
   - changes/ch-re-2025-11-21-niosh-parent-announcements-expired
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23620,6 +23859,7 @@
   cited_in:
   - programs/cdc-niosh-r01
   - changes/ch-re-2025-11-21-niosh-parent-announcements-expired
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23659,6 +23899,7 @@
   - programs/cdc-niosh-r21
   - changes/ch-re-2025-03-31-notices-updated-agency-priorities
   - changes/ch-re-2025-11-21-niosh-parent-announcements-expired
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23697,6 +23938,7 @@
   - For more information about current CDC funding opportunities with open applications, visit Grants.gov.
   cited_in:
   - programs/cdc-injury-violence-r01
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23736,6 +23978,7 @@
   cited_in:
   - programs/cdc-injury-violence-r01
   - funders/cdc
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23784,6 +24027,7 @@
   cited_in:
   - programs/fda-orphan-clinical-trials
   - funders/fda
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23831,6 +24075,7 @@
   - programs/fda-orphan-clinical-trials
   - programs/fda-orphan-natural-history
   - funders/fda
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -23916,6 +24161,7 @@
   - gates/era-commons
   - help/era-service-desk
   - mechanics/objective-review
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24077,6 +24323,7 @@
   - programs/hrsa-mch-first
   - programs/hrsa-autism-first
   - funders/hrsa
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24150,6 +24397,7 @@
   cited_in:
   - programs/hrsa-mch-first
   - funders/hrsa
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24298,6 +24546,7 @@
   - programs/hrsa-autism-first
   - funders/hrsa
   - mechanics/objective-review
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24470,6 +24719,7 @@
   - programs/acl-nidilrr-fip-research
   - funders/acl-nidilrr
   - mechanics/objective-review
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24514,6 +24764,7 @@
   - funders/acl-nidilrr
   - standing/nidilrr-minority-entity
   - help/nidilrr-informational-calls
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24595,6 +24846,7 @@
   cited_in:
   - programs/acl-nidilrr-drrp
   - funders/acl-nidilrr
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24636,6 +24888,7 @@
   cited_in:
   - programs/acl-nidilrr-rerc
   - funders/acl-nidilrr
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24678,6 +24931,8 @@
   - programs/va-ord-merit-review
   - funders/va-ord
   - standing/va-paid-appointment
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24714,6 +24969,8 @@
   - programs/va-ord-merit-review
   - funders/va-ord
   - standing/va-paid-appointment
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24749,6 +25006,7 @@
   - programs/va-ord-merit-review
   - funders/va-ord
   - standing/va-paid-appointment
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -24933,6 +25191,7 @@
   - programs/pcori-placer
   - programs/pcori-science-of-engagement
   - funders/pcori
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: true
   sweep: research-E
@@ -24976,6 +25235,7 @@
   - funders/pcori
   - help/pcori-applicant-town-halls
   - mechanics/pcori-letter-of-intent
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25129,6 +25389,7 @@
   - funders/pcori
   - gates/pcori-connect
   - changes/ch-re-2026-08-04-pcori-connect
+  - routes/health-services-and-public-health-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25309,6 +25570,7 @@
   cited_in:
   - programs/doj-nij-research-evaluation
   - funders/doj-nij
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25340,6 +25602,7 @@
   cited_in:
   - programs/doj-nij-research-evaluation
   - funders/doj-nij
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25374,6 +25637,7 @@
   - programs/doj-nij-research-evaluation
   - funders/doj-nij
   - help/ojp-response-center
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25407,6 +25671,7 @@
   cited_in:
   - programs/doj-nij-research-evaluation
   - funders/doj-nij
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25560,6 +25825,7 @@
   - programs/doj-nij-research-evaluation
   - funders/doj-nij
   - changes/ch-re-2026-nij-fy2026-notice-terms
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25665,6 +25931,7 @@
   cited_in:
   - programs/doj-nij-research-evaluation
   - funders/doj-nij
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -25752,6 +26019,8 @@
   - funders/doj-nij
   - funders/doj-bjs
   - funders/doj-ojp
+  - routes/education-social-and-justice-research
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: research-E
@@ -26073,6 +26342,8 @@
   - mechanics/pre-award-risk-review
   - mechanics/sf-424-form-families
   - mechanics/agency-specific-certifications
+  - routes/education-social-and-justice-research
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: true
   sweep: research-E
@@ -26200,6 +26471,7 @@
   - no longer effectuate[] the program goals or agency priorities
   cited_in:
   - changes/ch-re-2025-04-doj-ojp-terminations
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -26236,6 +26508,7 @@
   quotes: []
   cited_in:
   - changes/ch-re-2025-04-doj-ojp-terminations
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -26376,6 +26649,7 @@
   - programs/ssa-rdrc
   - funders/ssa
   - changes/ch-re-2025-02-21-ssa-rdrc-terminated
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -26411,6 +26685,7 @@
   cited_in:
   - programs/acf-opre-secondary-analyses
   - funders/acf-opre
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -26452,6 +26727,7 @@
   - programs/acf-opre-secondary-analyses
   - funders/acf-opre
   - mechanics/objective-review
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -26488,6 +26764,7 @@
   cited_in:
   - programs/dol-ceo-academic-research
   - funders/dol-ceo
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-E
@@ -26579,6 +26856,7 @@
   - programs/neh-collaborative-research
   - funders/neh
   - changes/c-rf-neh-subject-limit-2026
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -26634,6 +26912,7 @@
   - standing/neh-eligible-organization
   - changes/c-rf-neh-subject-limit-2026
   - changes/c-rf-neh-funding-restrictions-2026
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -26682,6 +26961,7 @@
   - programs/neh-scholarly-editions-translations
   - funders/neh
   - changes/c-rf-neh-subject-limit-2026
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27074,6 +27354,7 @@
   - changes/ch-pd-neh-terminations-2025-04
   - changes/ch-pd-neh-individuals-injunction-2025-08
   - changes/ch-pd-neh-summary-judgment-2026-05
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: research-F
@@ -27131,6 +27412,7 @@
   - changes/c-rf-neh-sj-2026-05
   - changes/ch-pd-neh-individuals-injunction-2025-08
   - changes/ch-pd-neh-summary-judgment-2026-05
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: research-F
@@ -27196,6 +27478,7 @@
   - mechanics/neh-outright-and-matching-funds
   - mechanics/de-minimis-indirect-rate-15
   - changes/c-rf-neh-funding-restrictions-2026
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27321,6 +27604,7 @@
     in the humanities
   cited_in:
   - programs/neh-collections-stewardship
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27377,6 +27661,8 @@
   - standing/section-501c3-organization
   - standing/fiscally-sponsored-project
   - gates/lobbying-certification
+  - routes/becoming-an-eligible-nonprofit
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27423,6 +27709,7 @@
   - The deadline for this cycle has passed.
   cited_in:
   - programs/neh-rediscovering-our-revolutionary-tradition
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27468,6 +27755,7 @@
   - funders/nea
   - gates/nea-applicant-portal
   - mechanics/nea-two-part-application
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27520,6 +27808,8 @@
   - gates/login-gov
   - mechanics/nea-two-part-application
   - mechanics/nea-one-to-one-cost-share
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27574,6 +27864,7 @@
   - standing/nea-five-year-operating-history
   - gates/nea-applicant-portal
   - mechanics/nea-one-to-one-cost-share
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -27632,6 +27923,8 @@
   - changes/c-rf-nea-terminations-2025-05
   - changes/c-rf-nea-gap-guidelines
   - changes/ch-pd-nea-literature-fellowships-not-listed
+  - routes/humanities-arts-and-cultural-heritage-research
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: research-F
@@ -27701,6 +27994,7 @@
   - funders/nea
   - changes/c-rf-nea-gap-guidelines
   - changes/ch-sc-nea-challenge-our-town-folded-into-gap
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: research-F
@@ -27863,6 +28157,8 @@
   - funders/nea
   - changes/c-rf-nea-gender-ideology-2025
   - changes/ch-sc-nea-certification-ruling
+  - routes/humanities-arts-and-cultural-heritage-research
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: research-F
@@ -27912,6 +28208,8 @@
   - funders/nea
   - changes/c-rf-nea-gender-ideology-2025
   - changes/ch-sc-nea-certification-ruling
+  - routes/humanities-arts-and-cultural-heritage-research
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: research-F
@@ -28066,6 +28364,7 @@
   - funders/ed-ies
   - changes/c-rf-ies-fy27-tranches
   - changes/ch-pe-ies-fy27-competitions-launched
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28121,6 +28420,8 @@
   - funders/ed-ies
   - standing/ies-capacity-to-conduct-research
   - changes/c-rf-ies-fy27-tranches
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28178,6 +28479,8 @@
   - mechanics/ies-letter-of-intent
   - mechanics/ies-public-access-and-data-sharing
   - changes/c-rf-ies-rfa-changes-fy27
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28266,6 +28569,7 @@
   - gates/grants-gov-registration
   - gates/ies-primo
   - help/grants-gov-support
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28398,6 +28702,7 @@
   - programs/ies-education-research-grants
   - programs/ies-special-education-research-grants
   - funders/ed-ies
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28583,6 +28888,8 @@
   - changes/ch-pd-ed-interagency-agreements-2025-11
   - changes/ch-sc-ed-interagency-agreements-2025-11
   - changes/ch-cb-ed-interagency-agreements
+  - routes/student-pipeline-and-access-programmes
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: research-F
@@ -28754,6 +29061,7 @@
   - funders/imls
   - help/imls-programme-staff
   - changes/c-rf-imls-fy26-fy27-cycles
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28812,6 +29120,7 @@
   - gates/imls-egms-reach
   - mechanics/de-minimis-indirect-rate-15
   - mechanics/imls-cost-share-by-project-type
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28935,6 +29244,7 @@
   - programs/imls-national-leadership-grants-museums
   - funders/imls
   - help/imls-programme-staff
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -28983,6 +29293,7 @@
   - funders/imls
   - standing/imls-museum-eligibility
   - mechanics/imls-cost-share-by-project-type
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29194,6 +29505,7 @@
   cited_in:
   - programs/imls-museums-for-america
   - changes/ch-sc-imls-fy27-notices
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: research-F
@@ -29247,6 +29559,7 @@
   - changes/c-rf-eo-14238
   - changes/c-rf-imls-withholding-gao
   - changes/c-rf-imls-ri-v-trump
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29286,6 +29599,7 @@
   cited_in:
   - funders/imls
   - changes/c-rf-eo-14238
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29328,6 +29642,7 @@
   - programs/imls-national-leadership-grants-museums
   - funders/imls
   - changes/c-rf-imls-settlement
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29588,6 +29903,7 @@
   - programs/nhprc-archival-projects
   - funders/nara-nhprc
   - gates/grants-gov-registration
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29631,6 +29947,7 @@
   - funders/nara-nhprc
   - help/nhprc-optional-draft
   - mechanics/nhprc-weighted-criteria
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29718,6 +30035,7 @@
   - help/nhprc-optional-draft
   - mechanics/de-minimis-indirect-rate-15
   - mechanics/nhprc-weighted-criteria
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -29913,6 +30231,7 @@
   - programs/nhprc-archival-projects
   - funders/nara-nhprc
   - changes/c-rf-nhprc-budget
+  - routes/humanities-arts-and-cultural-heritage-research
   verified: true
   recheck: false
   sweep: research-F
@@ -30319,6 +30638,7 @@
   - Institutions that have the ability and capacity to conduct rigorous research are eligible to apply.
   cited_in:
   - programs/ies-education-research-grants
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -30356,6 +30676,7 @@
   - programs/ies-statistical-research-methodology
   - programs/ies-longitudinal-data-state-policymaking
   - mechanics/ies-letter-of-intent
+  - routes/education-social-and-justice-research
   verified: true
   recheck: false
   sweep: research-F
@@ -31004,6 +31325,8 @@
   - mechanics/nih-nrsa-tuition-and-fees
   - mechanics/nih-nrsa-institutional-allowance
   - changes/ch-pa-nrsa-stipends-fy2026
+  - routes/predoctoral-fellowship
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -31092,6 +31415,7 @@
   - Supports a research education program with substantial NIH programmatic involvement in coordination, oversight, or implementation.
   cited_in:
   - programs/nih-r25
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -31193,6 +31517,8 @@
   - changes/ch-pa-fellowship-parents-reissued
   - changes/ch-pa-nigms-joins-parent-f31
   - changes/ch-pa-aids-due-dates-removed
+  - routes/predoctoral-fellowship
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-A
@@ -31256,6 +31582,8 @@
   - mechanics/nih-nrsa-full-time-and-concurrent-support
   - mechanics/nih-foreign-training-justification
   - changes/ch-pa-fellowship-parents-reissued
+  - routes/predoctoral-fellowship
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-A
@@ -31307,6 +31635,8 @@
   - programs/nih-f30
   - standing/nih-f30-dual-degree-programme-status
   - changes/ch-pa-fellowship-parents-reissued
+  - routes/predoctoral-fellowship
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-A
@@ -31356,6 +31686,8 @@
   - programs/nih-f33
   - standing/nih-domestic-organization-for-training
   - changes/ch-pa-fellowship-parents-reissued
+  - routes/predoctoral-fellowship
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-A
@@ -31511,6 +31843,7 @@
   - help/nih-division-of-biomedical-research-workforce
   - mechanics/nih-k-award-reorganization-2027
   - changes/ch-pa-k-award-reorganization
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31570,6 +31903,7 @@
   - mechanics/nih-k-one-pending-application
   - mechanics/nih-training-indirect-cost-rate
   - mechanics/nih-two-phase-transition-awards
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31642,6 +31976,7 @@
   - mechanics/nih-k-one-pending-application
   - mechanics/nih-training-indirect-cost-rate
   - changes/ch-pa-aids-due-dates-removed
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31690,6 +32025,7 @@
   cited_in:
   - programs/nih-k01
   - programs/nih-k08
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31734,6 +32070,7 @@
   - for which an investigator directly interacts with human subjects
   cited_in:
   - programs/nih-k23
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31781,6 +32118,7 @@
   cited_in:
   - programs/nih-k24
   - mechanics/nih-k-effort-requirement
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31826,6 +32164,7 @@
   - research-oriented investigators at any level of experience, from the postdoctoral level to senior faculty level
   cited_in:
   - programs/nih-k25
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31867,6 +32206,7 @@
   - independent peer reviewed research support at the time the award is made
   cited_in:
   - programs/nih-k02
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -31930,6 +32270,7 @@
   - mechanics/nih-training-indirect-cost-rate
   - mechanics/nih-training-selection-statement
   - changes/ch-pa-aids-due-dates-removed
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -31979,6 +32320,7 @@
   cited_in:
   - programs/nih-t35
   - standing/nih-domestic-organization-for-training
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -32021,6 +32363,7 @@
   - mechanics/nih-nofos-only-on-grants-gov
   - changes/ch-pa-nofos-leave-nih-guide
   - changes/ch-pa-k12-parent-notice
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -32074,6 +32417,7 @@
   - mechanics/nih-training-indirect-cost-rate
   - mechanics/nih-training-selection-statement
   - changes/ch-pa-k12-parent-notice
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -32116,6 +32460,7 @@
   cited_in:
   - programs/nih-r25
   - changes/ch-pa-r25-parent-notices
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -32206,6 +32551,7 @@
   - mechanics/nih-training-indirect-cost-rate
   - mechanics/nih-training-selection-statement
   - changes/ch-pa-r25-parent-notices
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-A
@@ -32252,6 +32598,7 @@
   - programs/nih-f33
   - standing/nih-nrsa-citizenship
   - changes/ch-pa-fellowship-parents-reissued
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-A
@@ -32295,6 +32642,7 @@
   - standing/nih-k99-postdoctoral-window
   - mechanics/nih-k-award-reorganization-2027
   - changes/ch-pa-k-award-reorganization
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -32473,6 +32821,7 @@
   - standing/nih-lrp-eligible-researcher
   - help/nih-lrp-scientific-liaison
   - changes/ch-pe-nih-lrp-fy27-consolidation
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-A
@@ -32532,6 +32881,7 @@
   - help/nih-lrp-scientific-liaison
   - mechanics/nih-lrp-application-cycle
   - changes/ch-pa-lrp-2026-notices
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-A
@@ -32618,6 +32968,7 @@
   cited_in:
   - programs/nih-extramural-lrp
   - changes/ch-pa-lrp-2026-notices
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-A
@@ -32660,6 +33011,7 @@
   - mechanics/nih-lrp-application-cycle
   - changes/ch-pa-lrp-due-date-2025
   - changes/ch-pa-lrp-2026-notices
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: true
   sweep: people-A
@@ -32811,6 +33163,7 @@
   cited_in:
   - programs/ahrq-k08
   - changes/ch-pa-ahrq-k08-early-expiration
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -32845,6 +33198,7 @@
   cited_in:
   - programs/ahrq-k18
   - changes/ch-pa-ahrq-k18-and-supplements-early-expiration
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -32878,6 +33232,7 @@
   - effective immediately PA-22-168 – AHRQ Administrative Supplements for Grants in Health Services Research is expired.
   cited_in:
   - changes/ch-pa-ahrq-k18-and-supplements-early-expiration
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -33218,6 +33573,7 @@
   cited_in:
   - programs/ahrq-k01
   - changes/ch-pa-ahrq-k01-expired
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -33262,6 +33618,7 @@
   cited_in:
   - programs/ahrq-k08
   - changes/ch-pa-ahrq-k08-early-expiration
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -33331,6 +33688,9 @@
   - gates/nih-assist
   - mechanics/nih-fellowship-reference-letters
   - changes/ch-pa-fellowship-parents-reissued
+  - routes/getting-registered-to-apply
+  - routes/predoctoral-fellowship
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-A
@@ -33815,6 +34175,7 @@
   - programs/nih-nigms-burt-t34
   - standing/nih-burt-eligible-institution
   - changes/ch-pa-burt-posted
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-A
@@ -33864,6 +34225,8 @@
   - standing/nih-burt-eligible-institution
   - mechanics/nih-training-selection-statement
   - changes/ch-pa-burt-posted
+  - routes/institutional-training-grant
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-A
@@ -33974,6 +34337,7 @@
   cited_in:
   - programs/nih-f31-diversity
   - changes/ch-pa-f-diversity-notices-closed-2025
+  - routes/predoctoral-fellowship
   verified: true
   recheck: true
   sweep: people-A
@@ -34043,6 +34407,7 @@
   cited_in:
   - programs/nih-nigms-marc-t34
   - changes/ch-pa-f-diversity-notices-closed-2025
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-A
@@ -34435,6 +34800,7 @@
   - programs/ahrq-pcor-k-awards
   - changes/ch-pa-ahrq-k01-expired
   - changes/ch-pa-ahrq-pcor-k-expired
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-A
@@ -34522,6 +34888,7 @@
   - help/nsf-career-contact
   - mechanics/nsf-career-three-competition-limit
   - mechanics/nsf-pecase-nomination
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -34582,6 +34949,7 @@
   - mechanics/nsf-career-minimum-award
   - mechanics/nsf-pecase-nomination
   - mechanics/nsf-limited-submission-people
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -34673,6 +35041,7 @@
   - programs/nsf-grfp
   - help/nsf-grfp-contact
   - changes/ch-pb-grfp-fy2027-solicitation
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -34742,6 +35111,7 @@
   - mechanics/nsf-grfp-honorable-mention
   - mechanics/nsf-grfp-return-without-review
   - changes/ch-pb-grfp-fy2027-solicitation
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -34788,6 +35158,7 @@
   cited_in:
   - programs/nsf-grfp
   - mechanics/nsf-cost-of-education-allowance
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -34946,6 +35317,7 @@
   - up to a total of 6.5 months of salary (plus fringe benefits) over the course of the award
   cited_in:
   - programs/nsf-mca
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -35041,6 +35413,7 @@
   - mechanics/nsf-cost-of-education-allowance
   - mechanics/nsf-grfp-honorable-mention
   - mechanics/nsf-limited-submission-people
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35082,6 +35455,7 @@
   - programs/nsf-sprf
   - mechanics/nsf-opportunity-page-status-labels
   - changes/ch-pb-training-programmes-waiting
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35121,6 +35495,7 @@
   - programs/nsf-nrt
   - mechanics/nsf-opportunity-page-status-labels
   - changes/ch-pb-training-programmes-waiting
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-B
@@ -35171,6 +35546,7 @@
   - mechanics/nsf-limited-submission-people
   - changes/ch-pb-training-programmes-waiting
   - changes/ch-pb-realignment-2025-12
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-B
@@ -35213,6 +35589,7 @@
   cited_in:
   - programs/nsf-reu
   - help/nsf-reu-site-directory
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-B
@@ -35261,6 +35638,7 @@
   - mechanics/nsf-reu-participant-support-no-indirect
   - mechanics/nsf-person-supplements
   - mechanics/nsf-limited-submission-people
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-B
@@ -35301,6 +35679,7 @@
   - An individual may serve as PI or Senior/Key Personnel on only one ERI proposal per deadline.
   cited_in:
   - programs/nsf-eri
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -35343,6 +35722,7 @@
   cited_in:
   - programs/nsf-eri
   - standing/nsf-non-r1-institution
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -35554,6 +35934,7 @@
   - standing/nsf-postdoctoral-fellowship-applicant
   - mechanics/nsf-fellowship-to-individual-or-institution
   - changes/ch-pb-prfb-2026-solicitation
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35599,6 +35980,7 @@
   - help/nsf-career-stage-landing-pages
   - mechanics/nsf-opportunity-page-status-labels
   - changes/ch-pb-early-2025-archives
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35681,6 +36063,7 @@
   - standing/nsf-postdoctoral-fellowship-applicant
   - gates/nsf-reference-letter-system
   - mechanics/nsf-fellowship-to-individual-or-institution
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35721,6 +36104,7 @@
   - a proposer may not participate in more than two AAPF competitions.
   cited_in:
   - programs/nsf-aapf
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35766,6 +36150,7 @@
   - programs/nsf-aapf
   - standing/nsf-postdoctoral-fellowship-applicant
   - mechanics/nsf-fellowship-to-individual-or-institution
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -35812,6 +36197,7 @@
   - help/nsf-career-stage-landing-pages
   - mechanics/nsf-opportunity-page-status-labels
   - changes/ch-pb-crii-archived
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -35850,6 +36236,7 @@
   - programs/nsf-leaps-mps
   - standing/nsf-non-r1-institution
   - changes/ch-pb-late-2025-archives
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -35887,6 +36274,7 @@
   - standing/nsf-non-r1-institution
   - help/nsf-career-stage-landing-pages
   - changes/ch-pb-early-2025-archives
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-B
@@ -35997,6 +36385,7 @@
   cited_in:
   - programs/nsf-geo-postdoctoral-fellowships
   - changes/ch-pb-geo-postdoc-archived
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -36033,6 +36422,7 @@
   cited_in:
   - programs/nsf-geo-postdoctoral-fellowships
   - changes/ch-pb-geo-postdoc-archived
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -36114,6 +36504,7 @@
   cited_in:
   - programs/nsf-stem-ed-prf
   - changes/ch-pb-early-2025-archives
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -36149,6 +36540,7 @@
   cited_in:
   - programs/nsf-stem-ed-prf
   - changes/ch-pb-early-2025-archives
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -36266,6 +36658,7 @@
     in promising STEM fields.
   cited_in:
   - programs/nsf-s-stem
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-B
@@ -36309,6 +36702,7 @@
   - programs/nsf-s-stem
   - mechanics/nsf-fellowship-to-individual-or-institution
   - mechanics/nsf-limited-submission-people
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-B
@@ -36350,6 +36744,8 @@
   - programs/nsf-noyce
   - mechanics/nsf-opportunity-page-status-labels
   - changes/ch-pb-training-programmes-waiting
+  - routes/institutional-training-grant
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-B
@@ -36396,6 +36792,7 @@
   - mechanics/nsf-limited-submission-people
   - changes/ch-pb-training-programmes-waiting
   - changes/ch-pb-realignment-2025-12
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-B
@@ -36448,6 +36845,7 @@
   - programs/nsf-grfp
   - standing/nsf-grfp-eligible-applicant
   - changes/ch-pb-grfp-fy2026-eligibility
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -36719,6 +37117,7 @@
   - funders/nsf-oia
   - standing/nsf-epscor-jurisdiction
   - help/nsf-epscor-office-hours
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: people-B
@@ -36833,6 +37232,7 @@
   cited_in:
   - programs/nsf-reu
   - help/nsf-reu-site-directory
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-B
@@ -37121,6 +37521,10 @@
   - standing/tribal-college-or-university
   - changes/ch-pb-olc-opinion-stem-programmes
   - changes/ch-cb-olc-opinion-nsf-programmes
+  - routes/student-pipeline-and-access-programmes
+  - routes/health-workforce-training-and-loan-repayment
+  - routes/designated-institution-programmes
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: people-B
@@ -37290,6 +37694,7 @@
   - programs/nsf-ags-prf
   - standing/nsf-postdoctoral-fellowship-applicant
   - mechanics/nsf-fellowship-to-individual-or-institution
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -37573,6 +37978,7 @@
   - 'Maximum length: Three pages.'
   cited_in:
   - programs/nsf-grfp
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-B
@@ -37693,6 +38099,7 @@
   cited_in:
   - programs/doe-sc-early-career
   - standing/doe-sc-early-career-eligible-investigator
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -37856,6 +38263,7 @@
   cited_in:
   - programs/doe-sc-scgsr
   - gates/wdts-online-application
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -37967,6 +38375,7 @@
   - Can apply to the SULI program a maximum of four times
   cited_in:
   - programs/doe-wdts-suli
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-C
@@ -38006,6 +38415,7 @@
   - all dates are tentative and subject to change
   cited_in:
   - programs/doe-wdts-suli
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-C
@@ -38229,6 +38639,7 @@
   quotes: []
   cited_in:
   - programs/doe-csgf
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -38414,6 +38825,7 @@
   - programs/doe-sc-early-career
   - standing/doe-sc-early-career-eligible-investigator
   - changes/ch-pc-doe-ecrp-fy26-notice-dates
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -38528,6 +38940,7 @@
   - Citizens or nationals of the United States
   cited_in:
   - programs/dod-ndseg
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -38569,6 +38982,7 @@
   - funders/dod-ousd-re
   - gates/ndseg-application-portal
   - help/ndseg-program-office-contact
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -38608,6 +39022,7 @@
   cited_in:
   - programs/dod-ndseg
   - funders/dod-ousd-re
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -38731,6 +39146,7 @@
   - funders/dod-smart-program
   - mechanics/scholarship-for-service-obligation
   - changes/ch-pc-department-of-war-name-on-pages
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-C
@@ -38884,6 +39300,7 @@
   quotes: []
   cited_in:
   - programs/dod-onr-yip
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -38933,6 +39350,7 @@
   cited_in:
   - programs/dod-onr-yip
   - changes/ch-pc-notices-cite-executive-orders
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -38975,6 +39393,7 @@
   quotes: []
   cited_in:
   - programs/dod-afosr-yip
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -39021,6 +39440,7 @@
   cited_in:
   - programs/dod-afosr-yip
   - changes/ch-pc-notices-cite-executive-orders
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -39059,6 +39479,7 @@
     between September and October.
   cited_in:
   - programs/dod-darpa-yfa
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -39519,6 +39940,7 @@
   - Indirect costs are to be budgeted in accordance with the organization's negotiated rate
   cited_in:
   - programs/dod-cdmrp-career-development-mechanisms
+  - routes/mentored-career-development-award
   verified: true
   recheck: false
   sweep: people-C
@@ -39669,6 +40091,7 @@
   cited_in:
   - programs/nasa-npp
   - funders/nasa
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -39704,6 +40127,7 @@
   - applicants who have held a doctoral degree for less than five years at the time of application
   cited_in:
   - programs/nasa-npp
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -39863,6 +40287,7 @@
   cited_in:
   - programs/nasa-hubble-fellowship
   - changes/ch-pc-hubble-2027-application-changes
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -39981,6 +40406,7 @@
   - programs/nasa-finesst
   - mechanics/student-authored-proposal-with-faculty-pi
   - changes/ch-pc-nasa-finesst25-released-april-2026
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -40019,6 +40445,7 @@
   - programs/nasa-ecip-earth-science
   - changes/ch-pc-nasa-finesst25-released-april-2026
   - changes/ch-pc-nasa-ecip-es-renamed-and-solicited
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -40055,6 +40482,7 @@
   cited_in:
   - programs/nasa-ecip-earth-science
   - changes/ch-pc-nasa-ecip-es-renamed-and-solicited
+  - routes/early-career-faculty-award
   verified: true
   recheck: false
   sweep: people-C
@@ -40621,6 +41049,7 @@
   - mechanics/institutional-allowance-in-lieu-of-indirect-costs
   - changes/ch-pc-notices-cite-executive-orders
   - changes/ch-pc-knauss-2027-calendar
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -40736,6 +41165,7 @@
   - up to $9,500 per year
   cited_in:
   - programs/noaa-hollings-scholarship
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-C
@@ -40773,6 +41203,7 @@
   - Be a U.S. citizen.
   cited_in:
   - programs/noaa-hollings-scholarship
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-C
@@ -40935,6 +41366,7 @@
   - Applicant has held a PhD for no more than 3 years as of the application deadline
   cited_in:
   - programs/noaa-cgc-postdoctoral-fellowship
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -41120,6 +41552,7 @@
   cited_in:
   - programs/nist-nrc-postdoc
   - changes/ch-pc-nist-nrc-notification-held
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -41163,6 +41596,7 @@
   cited_in:
   - programs/nist-surf
   - gates/usajobs-application
+  - routes/student-pipeline-and-access-programmes
   verified: true
   recheck: false
   sweep: people-C
@@ -41200,6 +41634,7 @@
     credentials and to advance USGS science.
   cited_in:
   - programs/usgs-mendenhall
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -41233,6 +41668,7 @@
   cited_in:
   - programs/usgs-mendenhall
   - gates/usajobs-application
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -41302,6 +41738,7 @@
   - A PhD must be completed before a new Mendenhall Fellow can start work at a USGS office.
   cited_in:
   - programs/usgs-mendenhall
+  - routes/postdoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-C
@@ -41356,6 +41793,7 @@
   - funders/smithsonian
   - gates/smithsonian-solaa
   - gates/solaa
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: true
   sweep: people-C
@@ -41452,6 +41890,7 @@
   - mechanics/neh-individual-monthly-rate
   - changes/ch-pd-neh-2026-subject-limit
   - changes/ch-pd-neh-2027-calendar
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -41519,6 +41958,7 @@
   - gates/grants-gov-individual-registration
   - mechanics/neh-individual-monthly-rate
   - changes/ch-pd-neh-2026-individual-notice
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -41734,6 +42174,7 @@
   - programs/doj-nij-graduate-research-fellowship
   - mechanics/institution-applies-for-named-person
   - changes/ch-pd-nij-grf-fy25-notice
+  - routes/predoctoral-fellowship
   verified: true
   recheck: false
   sweep: people-D
@@ -41896,6 +42337,7 @@
   - gates/ies-letter-of-intent-site
   - mechanics/institution-applies-for-named-person
   - changes/ch-pd-ies-training-fy27
+  - routes/mentored-career-development-award
   verified: true
   recheck: true
   sweep: people-D
@@ -42076,6 +42518,7 @@
   cited_in:
   - programs/loc-kluge-fellowship
   - funders/loc-kluge-center
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -42154,6 +42597,7 @@
   cited_in:
   - programs/wilson-center-research-fellowship
   - funders/wilson-center
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -42236,6 +42680,7 @@
   - help/neh-division-of-research-contacts
   - changes/ch-pd-neh-2026-subject-limit
   - changes/ch-pd-neh-2027-calendar
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -42284,6 +42729,7 @@
   - help/neh-division-of-research-contacts
   - changes/ch-pd-neh-2026-subject-limit
   - changes/ch-pd-neh-2027-calendar
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -42369,6 +42815,7 @@
   cited_in:
   - programs/nea-creative-writing-fellowships
   - changes/ch-pd-nea-literature-fellowships-not-listed
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: true
   sweep: people-D
@@ -42448,6 +42895,7 @@
   - programs/nea-creative-writing-fellowships
   - programs/nea-translation-projects
   - changes/ch-pd-nea-literature-fellowships-not-listed
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -42578,6 +43026,8 @@
   - programs/ed-fulbright-hays-gpa
   - funders/ed-ope
   - changes/ch-pd-fulbright-hays-cancelled-2025
+  - routes/predoctoral-fellowship
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -42811,6 +43261,8 @@
   - programs/ed-javits-fellowship
   - funders/ed-ope
   - mechanics/gaann-institutional-match
+  - routes/predoctoral-fellowship
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-D
@@ -42867,6 +43319,7 @@
   - programs/ed-gaann
   - funders/ed-ope
   - mechanics/gaann-institutional-match
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-D
@@ -42906,6 +43359,7 @@
   cited_in:
   - programs/ed-gaann
   - funders/ed-ope
+  - routes/institutional-training-grant
   verified: true
   recheck: false
   sweep: people-D
@@ -43062,6 +43516,7 @@
   cited_in:
   - programs/state-fulbright-us-student
   - funders/state-eca
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -43103,6 +43558,7 @@
   - programs/state-fulbright-us-student
   - funders/state-eca
   - help/fulbright-program-adviser
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -43187,6 +43643,7 @@
   cited_in:
   - programs/state-fulbright-us-scholar
   - funders/state-eca
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-D
@@ -43270,6 +43727,7 @@
   - programs/hrsa-nrsa-primary-care
   - help/hrsa-nrsa-mailbox
   - changes/ch-pd-hrsa-nrsa-fy26-notice
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -43325,6 +43783,8 @@
   - standing/hrsa-prior-title-vii-recipient
   - mechanics/training-grant-indirect-cost-limit-8-percent
   - changes/ch-pd-hrsa-nrsa-fy26-notice
+  - routes/institutional-training-grant
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: true
   sweep: people-D
@@ -43446,6 +43906,7 @@
   - When funding is available, apply via grants.gov.
   cited_in:
   - programs/hrsa-bhwet-professionals
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -43484,6 +43945,7 @@
   - NFLP funds increase the number of qualified nursing faculty.
   cited_in:
   - programs/hrsa-nurse-faculty-loan-program
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -43526,6 +43988,7 @@
   - You are a faculty member at an approved health professions school. You must have a contract for two years or more
   cited_in:
   - programs/hrsa-faculty-loan-repayment-program
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -43595,6 +44058,7 @@
   - information about the eight grantee organizations that administer the program
   cited_in:
   - programs/samhsa-minority-fellowship-program
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -43670,6 +44134,7 @@
   cited_in:
   - programs/samhsa-minority-fellowship-program
   - standing/samhsa-national-professional-organization
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -44048,6 +44513,7 @@
   cited_in:
   - programs/hrsa-nrsa-primary-care
   - changes/ch-pd-hrsa-nrsa-fy26-notice
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-D
@@ -44091,6 +44557,8 @@
   - programs/neh-fpiri
   - standing/neh-independent-research-institution
   - changes/ch-pe-neh-fpiri-no-notice-2025-2026
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: people-E
@@ -44227,6 +44695,7 @@
   cited_in:
   - programs/neh-fpiri
   - standing/neh-independent-research-institution
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: people-E
@@ -44678,6 +45147,8 @@
   - programs/cdc-niosh-erc-t42
   - programs/cdc-niosh-tpg-t03
   - mechanics/niosh-one-training-application-per-institution
+  - routes/institutional-training-grant
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-E
@@ -44737,6 +45208,8 @@
   - programs/cdc-niosh-erc-t42
   - mechanics/niosh-trainee-cost-floor
   - changes/ch-pe-niosh-training-notices-updated-2025-03
+  - routes/institutional-training-grant
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-E
@@ -44845,6 +45318,7 @@
   - mechanics/niosh-trainee-cost-floor
   - mechanics/niosh-one-training-application-per-institution
   - changes/ch-pe-niosh-training-notices-updated-2025-03
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-E
@@ -45770,6 +46244,7 @@
   cited_in:
   - programs/nih-extramural-lrp
   - changes/ch-pe-nih-lrp-fy27-consolidation
+  - routes/health-workforce-training-and-loan-repayment
   verified: true
   recheck: false
   sweep: people-E
@@ -46735,6 +47210,7 @@
   - programs/samhsa-ppw-residential-treatment
   - programs/samhsa-youth-family-treatment-recovery
   - changes/ch-sa-2026-06-samhsa-fy2026-notices
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: true
   sweep: service-A
@@ -46891,6 +47367,7 @@
   - mechanics/samhsa-spars-reporting
   - mechanics/samhsa-state-authority-letter
   - changes/ch-sa-2026-04-24-samhsa-harm-reduction-letter
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -47121,6 +47598,7 @@
   cited_in:
   - programs/samhsa-building-communities-of-recovery
   - standing/samhsa-recovery-community-organization
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -47263,6 +47741,7 @@
   cited_in:
   - programs/samhsa-988-crisis-center-follow-up
   - standing/samhsa-988-lifeline-network-crisis-center
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -47544,6 +48023,8 @@
   cited_in:
   - programs/samhsa-substance-use-block-grant
   - mechanics/hhs-block-grant-pass-through
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-A
@@ -47734,6 +48215,7 @@
   - programs/samhsa-substance-use-block-grant
   - mechanics/samhsa-fy2026-funding-restrictions
   - changes/ch-sa-2026-04-24-samhsa-harm-reduction-letter
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -48362,6 +48844,8 @@
   - programs/hrsa-health-center-service-area-competition
   - gates/hrsa-ehbs
   - mechanics/hrsa-two-tier-submission
+  - routes/general-operating-support
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -48476,6 +48960,7 @@
   cited_in:
   - programs/hrsa-health-center-new-access-points
   - changes/ch-sa-2026-08-13-new-access-points-awards
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -48583,6 +49068,7 @@
   quotes: []
   cited_in:
   - programs/hrsa-ryan-white-parts-a-and-b
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-A
@@ -48622,6 +49108,7 @@
   - Part C EIS grants fund primary health care and support services in outpatient settings for people with HIV.
   cited_in:
   - programs/hrsa-ryan-white-part-c-eis
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -48658,6 +49145,7 @@
   cited_in:
   - programs/hrsa-ryan-white-parts-a-and-b
   - mechanics/hhs-block-grant-pass-through
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-A
@@ -48806,6 +49294,7 @@
   - supports integrated health care networks that address health care needs of targeted rural communities
   cited_in:
   - programs/hrsa-rural-health-network-development
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49027,6 +49516,8 @@
   cited_in:
   - programs/hrsa-title-v-mch-block-grant
   - mechanics/hhs-block-grant-pass-through
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-A
@@ -49065,6 +49556,7 @@
   - Invest in communities with infant death rates that are 1.5x the U.S. national average or greater.
   cited_in:
   - programs/hrsa-healthy-start
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49099,6 +49591,7 @@
   quotes: []
   cited_in:
   - programs/hrsa-healthy-start
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49310,6 +49803,8 @@
   - mechanics/federal-public-benefit-classification
   - changes/ch-sa-2025-07-14-prwora-federal-public-benefit
   - changes/ch-sb-prwora-federal-public-benefit-notices
+  - routes/health-and-behavioural-health-services
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49392,6 +49887,7 @@
   - programs/oash-title-x-family-planning
   - mechanics/federal-public-benefit-classification
   - changes/ch-sa-2025-07-14-prwora-federal-public-benefit
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49429,6 +49925,7 @@
   quotes: []
   cited_in:
   - changes/ch-sa-2025-07-14-prwora-federal-public-benefit
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49515,6 +50012,7 @@
   - programs/oash-title-x-family-planning
   - funders/oash
   - changes/ch-sa-2026-04-03-title-x-fy2027-notice
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49814,6 +50312,7 @@
   cited_in:
   - programs/ihs-tribal-management-grant
   - funders/ihs
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -49888,6 +50387,7 @@
   cited_in:
   - programs/cms-navigator-cooperative-agreements
   - funders/cms
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: true
   sweep: service-A
@@ -50336,6 +50836,7 @@
   cited_in:
   - programs/samhsa-state-opioid-response
   - mechanics/hhs-block-grant-pass-through
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -50463,6 +50964,8 @@
   - mechanics/hrsa-programme-grants-process
   - mechanics/hrsa-budget-and-reporting-terms
   - changes/ch-sa-2025-08-07-eo-14332-grant-oversight
+  - routes/general-operating-support
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -50547,6 +51050,7 @@
   - programs/samhsa-building-communities-of-recovery
   - standing/samhsa-recovery-community-organization
   - mechanics/samhsa-spars-reporting
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -50582,6 +51086,7 @@
   - States; political subdivisions of states; Indian tribes; tribal organizations; and nonprofit private organizations
   cited_in:
   - programs/samhsa-mental-health-awareness-training
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -50618,6 +51123,7 @@
   cited_in:
   - programs/samhsa-mat-pdoa
   - mechanics/samhsa-spars-reporting
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -50692,6 +51198,8 @@
   quotes: []
   cited_in:
   - changes/ch-sa-2025-03-24-public-health-grant-terminations
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-A
@@ -51058,6 +51566,8 @@
   - programs/samhsa-mental-health-block-grant
   - programs/samhsa-substance-use-block-grant
   - mechanics/hhs-block-grant-pass-through
+  - routes/health-and-behavioural-health-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-A
@@ -51101,6 +51611,7 @@
   - Community coalitions across the country receive funding up to $125,000 per year
   cited_in:
   - programs/cdc-drug-free-communities
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-A
@@ -51249,6 +51760,7 @@
   cited_in:
   - programs/acf-orr-placement-and-coordination
   - funders/acf
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51332,6 +51844,8 @@
   - programs/acf-head-start
   - standing/head-start-designated-agency
   - mechanics/head-start-designation-renewal-system
+  - routes/general-operating-support
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51456,6 +51970,7 @@
   - programs/acf-head-start
   - programs/acf-early-head-start-expansion
   - standing/head-start-designated-agency
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51501,6 +52016,7 @@
   - programs/acf-csbg
   - funders/acf
   - changes/ch-sb-prwora-federal-public-benefit-notices
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51617,6 +52133,7 @@
   - programs/acf-rhy-basic-center
   - funders/acf
   - changes/ch-sb-rhy-short-application-windows
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51710,6 +52227,7 @@
   - funders/acf
   - gates/rhy-hmis
   - changes/ch-sb-acf-notice-funding-restrictions
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51824,6 +52342,7 @@
   - programs/acf-rhy-basic-center
   - programs/acf-rhy-street-outreach
   - programs/acf-rhy-transitional-living
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -51868,6 +52387,8 @@
   - programs/acf-csbg
   - funders/acf
   - help/find-your-caa
+  - routes/children-family-and-ageing-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -51909,6 +52430,7 @@
   - no less than 90 percent of the CSBG grant award
   cited_in:
   - programs/acf-csbg
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: service-B
@@ -51948,6 +52470,7 @@
   cited_in:
   - programs/acf-ssbg
   - funders/acf
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -51989,6 +52512,7 @@
   - The Uniform Definitions of Services, which include 29 service categories, provide guidelines to states.
   cited_in:
   - programs/acf-ssbg
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52027,6 +52551,7 @@
   quotes: []
   cited_in:
   - programs/acf-fvpsa-formula
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52110,6 +52635,7 @@
   - programs/acf-orr-placement-and-coordination
   - funders/acf
   - changes/ch-sb-orr-placement-and-coordination
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52157,6 +52683,7 @@
   - funders/acf
   - changes/ch-sb-acf-notice-funding-restrictions
   - changes/ch-sb-orr-placement-and-coordination
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52239,6 +52766,8 @@
   cited_in:
   - programs/acf-ccdf
   - funders/acf
+  - routes/children-family-and-ageing-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -52281,6 +52810,7 @@
   - programs/acf-head-start
   - programs/acf-early-head-start-expansion
   - mechanics/head-start-non-federal-match
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52366,6 +52896,8 @@
   - programs/acf-head-start
   - funders/acf
   - changes/ch-sb-head-start-fy2027-competition-forecast
+  - routes/general-operating-support
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52451,6 +52983,7 @@
   - programs/acf-head-start
   - changes/ch-sb-head-start-immigration-directive-enjoined
   - changes/ch-sb-head-start-deia-certification-enjoined
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52613,6 +53146,7 @@
   cited_in:
   - programs/acl-adpi-state-and-community
   - funders/acl
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -52657,6 +53191,7 @@
   cited_in:
   - programs/acl-centers-for-independent-living
   - standing/acl-cil-eligible-agency
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: true
   sweep: service-B
@@ -52737,6 +53272,8 @@
   cited_in:
   - programs/acl-oaa-title-iii
   - funders/acl
+  - routes/children-family-and-ageing-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -52877,6 +53414,8 @@
   - mechanics/ovw-out-of-scope-certification
   - changes/ch-sb-ovw-out-of-scope-conditions-stayed
   - changes/ch-cc-ovw-tta-not-accepting-fy2026
+  - routes/justice-victim-services-and-legal-aid
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: service-B
@@ -53006,6 +53545,7 @@
   - programs/doj-ovw-transitional-housing
   - programs/doj-ovw-stop-formula
   - funders/doj-ovw
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53052,6 +53592,7 @@
   cited_in:
   - programs/doj-ovw-legal-assistance-for-victims
   - funders/doj-ovw
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53099,6 +53640,7 @@
   - States, territories, and local governments must partner with a victim service provider
   cited_in:
   - programs/doj-ovw-transitional-housing
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53142,6 +53684,7 @@
   - Each state or territory receives $600,000, with remaining funds allotted by population.
   cited_in:
   - programs/doj-ovw-stop-formula
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53235,6 +53778,7 @@
   - funders/doj-ovw
   - mechanics/ovw-out-of-scope-certification
   - changes/ch-sb-ovw-out-of-scope-conditions-stayed
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53279,6 +53823,7 @@
   cited_in:
   - funders/hud
   - changes/ch-sb-hhs-hud-new-grant-conditions-vacated
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -53315,6 +53860,7 @@
     returning to communities from adult correctional facilities
   cited_in:
   - programs/doj-bja-second-chance-community-reentry
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53357,6 +53903,7 @@
   - funders/doj-ojp
   - mechanics/ojp-unallowable-activities
   - changes/ch-sb-ojp-fy2026-unallowable-activities
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53395,6 +53942,7 @@
   cited_in:
   - programs/doj-ovc-human-trafficking-services
   - funders/doj-ojp
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53441,6 +53989,7 @@
   - funders/doj-ojp
   - mechanics/ojp-unallowable-activities
   - changes/ch-sb-ojp-fy2026-unallowable-activities
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53487,6 +54036,7 @@
   - programs/doj-ojjdp-multistate-mentoring
   - funders/doj-ojp
   - changes/ch-sb-ojp-fy2026-unallowable-activities
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53524,6 +54074,7 @@
   - one-on-one, group, peer, or a combination of these types
   cited_in:
   - programs/doj-ojjdp-multistate-mentoring
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53560,6 +54111,8 @@
   cited_in:
   - programs/doj-ovc-voca-victim-assistance
   - help/state-voca-administrator
+  - routes/justice-victim-services-and-legal-aid
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -53599,6 +54152,8 @@
   cited_in:
   - programs/doj-ovc-voca-victim-assistance
   - funders/doj-ojp
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -53639,6 +54194,7 @@
   cited_in:
   - funders/doj-ojp
   - changes/ch-sb-ojp-award-terminations-2025
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53675,6 +54231,7 @@
   cited_in:
   - funders/doj-ojp
   - changes/ch-sb-ojp-award-terminations-2025
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -53727,6 +54284,8 @@
   - changes/ch-sb-coc-fy2025-notice
   - changes/ch-sb-coc-fy2026-notice
   - changes/ch-sd-coc-notices-set-aside-2026
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -53862,6 +54421,7 @@
   - mechanics/coc-consolidated-application
   - mechanics/coc-tiers
   - changes/ch-sb-coc-fy2026-notice
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54027,6 +54587,7 @@
   - programs/hud-housing-counseling
   - funders/hud
   - standing/hud-approved-housing-counseling-agency
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54106,6 +54667,8 @@
   - programs/hud-cdbg
   - funders/hud
   - mechanics/pass-through-subaward
+  - routes/housing-homelessness-and-veterans-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -54149,6 +54712,7 @@
   cited_in:
   - programs/hud-home
   - funders/hud
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54344,6 +54908,7 @@
   cited_in:
   - programs/dol-eta-youthbuild
   - funders/dol-eta
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -54379,6 +54944,7 @@
     youth ages 16-24
   cited_in:
   - programs/dol-eta-youthbuild
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -54416,6 +54982,7 @@
     or rural regions.
   cited_in:
   - programs/dol-eta-reentry-restart
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -54505,6 +55072,7 @@
   - incentive payments to program sponsors on a per apprentice basis for all new apprentices enrolled during the term
   cited_in:
   - programs/dol-eta-apprenticeship-pay-for-performance
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -54614,6 +55182,7 @@
   cited_in:
   - programs/dol-eta-wioa-formula
   - help/american-job-center
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -54652,6 +55221,7 @@
   - programs/dol-eta-youthbuild
   - programs/dol-eta-reentry-restart
   - funders/dol-eta
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -54726,6 +55296,7 @@
   cited_in:
   - programs/va-ssvf
   - funders/va
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54763,6 +55334,7 @@
   cited_in:
   - programs/va-ssvf
   - funders/va
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54813,6 +55385,7 @@
   - gates/hmis
   - mechanics/ssvf-priorities
   - changes/ch-sb-eo-14332-grant-oversight
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54852,6 +55425,7 @@
   cited_in:
   - programs/va-grant-and-per-diem
   - funders/va
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -54971,6 +55545,7 @@
   cited_in:
   - programs/va-grant-and-per-diem
   - funders/va
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -55009,6 +55584,7 @@
   cited_in:
   - programs/va-ssg-fox-suicide-prevention
   - funders/va
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -55082,6 +55658,7 @@
   cited_in:
   - programs/va-ssg-fox-suicide-prevention
   - funders/va
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -55119,6 +55696,7 @@
   cited_in:
   - programs/fema-nsgp
   - funders/fema
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -55250,6 +55828,8 @@
   - mechanics/pass-through-subaward
   - mechanics/nsgp-investment-justification
   - changes/ch-sb-nsgp-fy2026-notice
+  - routes/housing-homelessness-and-veterans-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -55364,6 +55944,7 @@
   - programs/lsc-grantee-only-grants
   - funders/lsc
   - standing/lsc-grantee
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -55403,6 +55984,8 @@
   - programs/lsc-basic-field-grant
   - funders/lsc
   - gates/lsc-grantease
+  - routes/general-operating-support
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -55440,6 +56023,7 @@
   cited_in:
   - programs/lsc-basic-field-grant
   - funders/lsc
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -55484,6 +56068,7 @@
   - programs/lsc-basic-field-grant
   - funders/lsc
   - gates/lsc-grantease
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -55845,6 +56430,7 @@
   cited_in:
   - funders/fema
   - changes/ch-sb-dhs-immigration-conditions-vacated
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -55977,6 +56563,8 @@
   - funders/acl
   - changes/ch-sb-acfc-reorganisation
   - changes/ch-sb-acfc-fy2026-enacted-fy2027-request
+  - routes/children-family-and-ageing-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -56020,6 +56608,8 @@
   - programs/hud-continuum-of-care
   - funders/hud
   - changes/ch-sb-hud-fy2027-request
+  - routes/housing-homelessness-and-veterans-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -56058,6 +56648,8 @@
   - programs/hud-home
   - funders/hud
   - changes/ch-sb-hud-fy2027-request
+  - routes/housing-homelessness-and-veterans-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -56103,6 +56695,8 @@
   - programs/dol-eta-wioa-formula
   - funders/dol-eta
   - changes/ch-sb-dol-fy2027-masa-consolidation
+  - routes/workforce-and-education-programmes
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -56143,6 +56737,7 @@
     are eligible to receive funding
   cited_in:
   - programs/doj-bja-byrne-jag
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -56186,6 +56781,7 @@
   cited_in:
   - programs/doj-ojjdp-title-ii-formula
   - funders/doj-ojp
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-B
@@ -56229,6 +56825,7 @@
   cited_in:
   - programs/acf-fvpsa-culturally-specific-services
   - funders/acf
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -56267,6 +56864,7 @@
   - provide culturally specific services for survivors of domestic violence and sexual assault
   cited_in:
   - programs/acf-fvpsa-culturally-specific-services
+  - routes/children-family-and-ageing-services
   verified: true
   recheck: false
   sweep: service-B
@@ -56302,6 +56900,7 @@
   cited_in:
   - programs/hud-continuum-of-care
   - funders/hud
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-B
@@ -56459,6 +57058,8 @@
   - a record of effective direct services and support from sources other than the Crime Victims Fund
   cited_in:
   - programs/doj-ovc-voca-victim-assistance
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-B
@@ -56655,6 +57256,7 @@
   quotes: []
   cited_in:
   - programs/dol-eta-youthbuild
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-B
@@ -56699,6 +57301,7 @@
   cited_in:
   - programs/nea-challenge-america
   - changes/ch-sc-nea-challenge-our-town-folded-into-gap
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -56737,6 +57340,7 @@
   cited_in:
   - programs/nea-our-town
   - changes/ch-sc-nea-challenge-our-town-folded-into-gap
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -56778,6 +57382,7 @@
   cited_in:
   - programs/nea-partnership-agreements
   - help/state-arts-agency
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -56825,6 +57430,7 @@
   - programs/nea-partnership-agreements
   - help/state-arts-agency
   - mechanics/pass-through-subaward
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -56953,6 +57559,7 @@
   quotes: []
   cited_in:
   - programs/neh-public-humanities-projects
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -56996,6 +57603,7 @@
     group of participants each summer.
   cited_in:
   - programs/neh-landmarks-and-summer-institutes
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57036,6 +57644,7 @@
   - Next deadline (anticipated) January 13, 2027
   cited_in:
   - programs/neh-national-digital-newspaper-program
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57079,6 +57688,7 @@
   - programs/neh-state-humanities-councils
   - help/state-humanities-council
   - mechanics/pass-through-subaward
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57120,6 +57730,7 @@
   cited_in:
   - programs/imls-inspire-grants-for-small-museums
   - changes/ch-sc-imls-fy27-notices
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57159,6 +57770,7 @@
   cited_in:
   - programs/imls-native-american-native-hawaiian-museum-services
   - changes/ch-sc-imls-fy27-notices
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57195,6 +57807,7 @@
   cited_in:
   - programs/imls-native-american-library-services
   - changes/ch-sc-imls-fy27-notices
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57232,6 +57845,7 @@
   cited_in:
   - programs/imls-native-american-library-services
   - changes/ch-sc-imls-fy27-notices
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57268,6 +57882,7 @@
   cited_in:
   - programs/imls-native-hawaiian-library-services
   - changes/ch-sc-imls-fy27-notices
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57314,6 +57929,7 @@
   - programs/imls-grants-to-states
   - help/state-library-administrative-agency
   - mechanics/pass-through-subaward
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -57353,6 +57969,7 @@
   cited_in:
   - programs/americorps-state-and-national
   - programs/americorps-vista
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -57394,6 +58011,7 @@
   - programs/americorps-state-and-national
   - funders/americorps
   - changes/ch-sc-americorps-fy27-notices
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -57475,6 +58093,7 @@
   - programs/americorps-seniors-rsvp
   - funders/americorps
   - changes/ch-sc-americorps-fy27-notices
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -57522,6 +58141,7 @@
   - funders/americorps
   - help/state-service-commission
   - mechanics/americorps-grantee-share
+  - routes/national-service
   verified: true
   recheck: true
   sweep: service-C
@@ -57566,6 +58186,7 @@
   cited_in:
   - programs/americorps-seniors-rsvp
   - funders/americorps
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -57609,6 +58230,7 @@
   cited_in:
   - programs/americorps-vista
   - funders/americorps
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -57662,6 +58284,7 @@
   - funders/americorps
   - changes/ch-sc-americorps-terminations-2025-04
   - changes/ch-sc-americorps-injunction-2025-06
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -57765,6 +58388,7 @@
   - mechanics/ed-interagency-administration
   - mechanics/trio-participant-and-cost-floors
   - changes/ch-sc-ed-first-competitions-under-partners-2026
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -57806,6 +58430,7 @@
   - The Talent Search Program does not require cost sharing or matching.
   cited_in:
   - programs/ed-trio-talent-search
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -57851,6 +58476,7 @@
   - mechanics/ed-notice-announcing-competition
   - mechanics/trio-participant-and-cost-floors
   - changes/ch-sc-ed-first-competitions-under-partners-2026
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -57891,6 +58517,7 @@
   - The EOC Program does not require cost sharing or matching.
   cited_in:
   - programs/ed-trio-educational-opportunity-centers
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -57964,6 +58591,7 @@
   - The UB Program does not require cost sharing or matching.
   cited_in:
   - programs/ed-trio-upward-bound
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58004,6 +58632,7 @@
   - Institutions of higher education or a combination of institutions of higher education
   cited_in:
   - programs/ed-trio-student-support-services
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58050,6 +58679,7 @@
   - programs/ed-trio-upward-bound
   - programs/ed-trio-student-support-services
   - changes/ch-sc-ed-trio-denials-and-discontinuations-2025
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58291,6 +58921,7 @@
   - funders/ed-oese
   - mechanics/ed-notice-announcing-competition
   - changes/ch-sc-ed-first-competitions-under-partners-2026
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58334,6 +58965,7 @@
   cited_in:
   - programs/ed-charter-schools-state-entities
   - changes/ch-sc-ed-first-competitions-under-partners-2026
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58480,6 +59112,8 @@
   - funders/ed-oese
   - help/state-21st-cclc-coordinator
   - mechanics/pass-through-subaward
+  - routes/workforce-and-education-programmes
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-C
@@ -58524,6 +59158,7 @@
   cited_in:
   - programs/ed-full-service-community-schools
   - funders/ed-oese
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58567,6 +59202,7 @@
   cited_in:
   - programs/ed-education-innovation-research
   - funders/ed-oese
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58609,6 +59245,7 @@
   - The non-Federal share of the cost of a GEAR UP project must be not less than 50 percent of the total cost of the project
   cited_in:
   - programs/ed-gear-up
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58704,6 +59341,7 @@
   - funders/ed-oese
   - changes/ch-sc-ed-fy27-request
   - changes/ch-cb-ed-fy2027-request
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58788,6 +59426,7 @@
   - changes/ch-cb-sip-fy2026-competition
   - changes/ch-cb-ed-fy2027-request
   - changes/ch-cd-fy2026-enacted-totals-found
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-C
@@ -58837,6 +59476,7 @@
   - programs/cpb-grants
   - funders/cpb
   - changes/ch-sc-cpb-wind-down
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -58874,6 +59514,8 @@
   - programs/cpb-grants
   - funders/cpb
   - changes/ch-sc-cpb-rescission
+  - routes/general-operating-support
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -58991,6 +59633,7 @@
   - funders/usda-rd
   - help/usda-rd-state-office
   - mechanics/grant-share-by-distress
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59076,6 +59719,7 @@
   - programs/usda-rd-rural-community-development-initiative
   - funders/usda-rd
   - changes/ch-sc-usda-rcdi-notice-rescinded
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59167,6 +59811,7 @@
   - programs/usda-fns-farm-to-school-grants
   - funders/usda-fns
   - changes/ch-sc-usda-f2s-fy25-cancelled
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59238,6 +59883,7 @@
   - Public food program service providers, tribal organizations, or private nonprofit entities, including gleaners
   cited_in:
   - programs/nifa-community-food-projects
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59276,6 +59922,7 @@
   quotes: []
   cited_in:
   - programs/nifa-gusnip-nutrition-incentive
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59352,6 +59999,7 @@
   cited_in:
   - programs/epa-environmental-education-grants
   - funders/epa
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59399,6 +60047,7 @@
   - programs/epa-brownfields-assessment-rlf-cleanup-grants
   - funders/epa
   - changes/ch-sc-epa-brownfields-fy27-no-multipurpose
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59476,6 +60125,7 @@
   - programs/epa-environmental-and-climate-justice-grants
   - funders/epa
   - changes/ch-sc-epa-ecj-rescission
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59637,6 +60287,7 @@
   - funders/ntia
   - changes/ch-sc-ntia-digital-equity-cancelled
   - changes/ch-sc-ntia-digital-equity-ruling
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59739,6 +60390,7 @@
   cited_in:
   - programs/ntia-digital-equity-competitive-grants
   - changes/ch-sc-ntia-digital-equity-ruling
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59777,6 +60429,7 @@
   - programs/eda-public-works-and-economic-adjustment
   - funders/eda
   - gates/eda-edge-portal
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59817,6 +60470,7 @@
   - funders/eda
   - gates/eda-edge-portal
   - help/eda-economic-development-representative
+  - routes/food-environment-and-community-development
   verified: true
   recheck: true
   sweep: service-C
@@ -59860,6 +60514,7 @@
   - funders/eda
   - standing/eda-economic-distress
   - mechanics/grant-share-by-distress
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -59903,6 +60558,8 @@
   - programs/cdfi-fund-technical-assistance-awards
   - funders/cdfi-fund
   - standing/certified-cdfi
+  - routes/food-environment-and-community-development
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: service-C
@@ -59965,6 +60622,7 @@
   - standing/certified-cdfi
   - standing/emerging-cdfi
   - gates/cdfi-fund-amis
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -60104,6 +60762,7 @@
   cited_in:
   - programs/irs-vita-and-tce-grants
   - funders/irs
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -60255,6 +60914,7 @@
   - programs/sba-small-business-development-centers
   - programs/sba-womens-business-centers
   - funders/sba
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -60410,6 +61070,7 @@
   - programs/arc-area-development
   - funders/arc
   - help/arc-state-program-manager
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -60497,6 +61158,7 @@
   - programs/dra-sedap
   - funders/dra
   - help/dra-local-development-district
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -60538,6 +61200,7 @@
   cited_in:
   - programs/neh-state-humanities-councils
   - changes/ch-sc-neh-council-grants-terminated
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-C
@@ -60645,6 +61308,7 @@
   cited_in:
   - programs/americorps-seniors-foster-grandparent
   - funders/americorps
+  - routes/national-service
   verified: true
   recheck: false
   sweep: service-C
@@ -60752,6 +61416,7 @@
     Extension Service nationwide
   cited_in:
   - programs/nifa-4h-cooperative-extension
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -60823,6 +61488,7 @@
   cited_in:
   - programs/epa-brownfields-job-training
   - funders/epa
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -61001,6 +61667,7 @@
   cited_in:
   - programs/irs-low-income-taxpayer-clinics
   - funders/irs
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -61049,6 +61716,7 @@
   cited_in:
   - programs/irs-vita-and-tce-grants
   - funders/irs
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -61164,6 +61832,7 @@
   - programs/ntia-digital-equity-competitive-grants
   - funders/eda
   - changes/ch-sc-fy27-budget-commerce-usda
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-C
@@ -61719,6 +62388,7 @@
   cited_in:
   - changes/ch-sb-coc-fy2025-notice
   - changes/ch-sd-coc-notices-set-aside-2026
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-D
@@ -61763,6 +62433,7 @@
   cited_in:
   - changes/ch-sb-coc-fy2026-notice
   - changes/ch-sd-coc-notices-set-aside-2026
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-D
@@ -61808,6 +62479,9 @@
   - changes/ch-sa-2025-07-14-prwora-federal-public-benefit
   - changes/ch-sb-prwora-federal-public-benefit-notices
   - changes/ch-sd-prwora-notices-vacated-2026-09-21
+  - routes/health-and-behavioural-health-services
+  - routes/children-family-and-ageing-services
+  - routes/formula-money-through-the-state
   verified: true
   recheck: false
   sweep: service-D
@@ -62103,6 +62777,7 @@
   cited_in:
   - programs/neh-state-humanities-councils
   - changes/ch-sd-neh-fedstate-fy2026-escrow
+  - routes/arts-humanities-libraries-and-media
   verified: true
   recheck: false
   sweep: service-D
@@ -62511,6 +63186,7 @@
   - Have not received more than 10 years of DFC funding
   cited_in:
   - programs/cdc-drug-free-communities
+  - routes/health-and-behavioural-health-services
   verified: true
   recheck: false
   sweep: service-D
@@ -62552,6 +63228,7 @@
   quotes: []
   cited_in:
   - programs/hud-fair-housing-initiatives-program
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-D
@@ -62596,6 +63273,7 @@
   - FHIP provides funds to eligible organizations through competitive grants
   cited_in:
   - programs/hud-fair-housing-initiatives-program
+  - routes/housing-homelessness-and-veterans-services
   verified: true
   recheck: false
   sweep: service-D
@@ -62920,6 +63598,7 @@
   - Private K–12 schools, including private charter schools, should apply as 'nonprofits.'
   cited_in:
   - programs/doj-bja-stop-school-violence
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-D
@@ -62966,6 +63645,7 @@
     nonprofit organizations
   cited_in:
   - programs/doj-ovw-rural-program
+  - routes/justice-victim-services-and-legal-aid
   verified: true
   recheck: false
   sweep: service-D
@@ -63052,6 +63732,7 @@
   - There is no maximum grant amount; however, smaller requests are given higher priority.
   cited_in:
   - programs/usda-rd-rural-business-development-grants
+  - routes/food-environment-and-community-development
   verified: true
   recheck: false
   sweep: service-D
@@ -63132,6 +63813,7 @@
     grants.
   cited_in:
   - programs/dol-eta-national-farmworker-jobs-program
+  - routes/workforce-and-education-programmes
   verified: true
   recheck: false
   sweep: service-D
@@ -63211,6 +63893,7 @@
   - funders/nsf-oia
   - changes/ch-ca-nsf-mri-updated-solicitation-anticipated
   - changes/ch-ca-nsf-capacity-solicitations-awaiting-republication
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63257,6 +63940,7 @@
   - funders/nsf-oia
   - changes/ch-ca-nsf-mri-fy2026-window-not-held
   - changes/ch-ca-nsf-mri-updated-solicitation-anticipated
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63340,6 +64024,7 @@
   - programs/nsf-mri
   - funders/nsf-oia
   - mechanics/limited-submission-capacity-programmes
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63386,6 +64071,7 @@
   - standing/usda-epscor-state
   - mechanics/epscor-lists-differ-by-agency
   - changes/ch-ca-nsf-epscor-eligibility-frozen
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63428,6 +64114,7 @@
   - programs/nsf-epscor-fec
   - programs/nsf-epscor-workshops
   - mechanics/nsf-epscor-co-funding
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63468,6 +64155,7 @@
   - programs/nsf-epscor-e-core
   - funders/nsf-oia
   - changes/ch-ca-nsf-epscor-rii-track-1-replaced
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63517,6 +64205,7 @@
   - gates/nsf-epscor-jurisdiction-prerequisites
   - mechanics/limited-submission-capacity-programmes
   - mechanics/nsf-epscor-renewal-cost-share
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63559,6 +64248,7 @@
   - programs/nsf-epscor-e-rise
   - funders/nsf-oia
   - changes/ch-ca-nsf-epscor-rii-track-1-replaced
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63602,6 +64292,7 @@
   - gates/nsf-epscor-jurisdiction-prerequisites
   - mechanics/limited-submission-capacity-programmes
   - mechanics/nsf-epscor-renewal-cost-share
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63640,6 +64331,7 @@
   cited_in:
   - programs/nsf-epscor-fec
   - funders/nsf-oia
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63678,6 +64370,7 @@
   cited_in:
   - programs/nsf-epscor-fec
   - mechanics/limited-submission-capacity-programmes
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63837,6 +64530,7 @@
   - programs/nsf-art
   - mechanics/limited-submission-capacity-programmes
   - changes/ch-ca-nsf-art-new-solicitation
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63880,6 +64574,7 @@
   - funders/nsf-oia
   - changes/ch-ca-nsf-granted-not-accepting
   - changes/ch-ca-nsf-capacity-solicitations-awaiting-republication
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -63917,6 +64612,7 @@
   cited_in:
   - programs/nsf-epiic
   - changes/ch-ca-nsf-capacity-solicitations-awaiting-republication
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64067,6 +64763,7 @@
   - programs/nih-s10-shared-instrumentation
   - funders/nih-orip
   - help/nih-s10-office-hours
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64104,6 +64801,7 @@
   - programs/nih-s10-seed-instrumentation
   - funders/nih-orip
   - changes/ch-ca-nih-s10-consolidated
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64150,6 +64848,7 @@
   - mechanics/nih-instrument-awards-no-indirect-costs
   - mechanics/nih-s10-major-users
   - changes/ch-ca-nih-s10-consolidated
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64202,6 +64901,7 @@
   - mechanics/nih-instrument-awards-no-indirect-costs
   - mechanics/nih-s10-major-users
   - changes/ch-ca-nih-s10-consolidated
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64316,6 +65016,7 @@
   cited_in:
   - programs/nih-s15-equipment
   - changes/ch-ca-nih-s15-notice-expired
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64355,6 +65056,7 @@
   - funders/nih-orip
   - mechanics/nih-c06-ten-year-use
   - changes/ch-ca-nih-c06-notice-2026
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64399,6 +65101,7 @@
   - mechanics/nih-instrument-awards-no-indirect-costs
   - mechanics/nih-c06-ten-year-use
   - changes/ch-ca-nih-c06-notice-2026
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64445,6 +65148,7 @@
   - help/nigms-drcb-staff-contacts
   - mechanics/epscor-lists-differ-by-agency
   - changes/ch-ca-nih-idea-list-unchanged
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64535,6 +65239,8 @@
   - mechanics/limited-submission-capacity-programmes
   - changes/ch-ca-nih-cobre-renamed-phases
   - changes/ch-ca-nih-idea-list-unchanged
+  - routes/epscor-and-idea-jurisdictions
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64585,6 +65291,7 @@
   - standing/nih-idea-eligible-state
   - changes/ch-ca-nih-cobre-renamed-phases
   - changes/ch-ca-nih-idea-list-unchanged
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64623,6 +65330,7 @@
     biomedical research capacity
   cited_in:
   - programs/nih-idea-inbre
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64661,6 +65369,7 @@
   - programs/nih-idea-inbre
   - programs/nih-p30-p20-center-grants
   - changes/ch-ca-nih-inbre-notice-expired-and-forecast
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64697,6 +65406,7 @@
   - programs/nih-idea-inbre
   - funders/nih-nigms-drcb
   - changes/ch-ca-nih-inbre-notice-expired-and-forecast
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64925,6 +65635,7 @@
   - programs/nih-sure-r16
   - standing/nih-sure-eligible-institution
   - changes/ch-ca-nih-aids-due-dates-removed
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -64964,6 +65675,7 @@
   cited_in:
   - programs/nih-sure-first-r16
   - standing/nih-sure-eligible-institution
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65072,6 +65784,7 @@
   cited_in:
   - programs/nih-ctsa-um1
   - mechanics/nih-ctsa-budget-tiers
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65182,6 +65895,7 @@
     except for-profit educational institutions.
   cited_in:
   - programs/dod-durip
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65226,6 +65940,7 @@
   - mechanics/nih-instrument-awards-no-indirect-costs
   - mechanics/durip-three-office-announcements
   - changes/ch-ca-dod-durip-fy2027
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65305,6 +66020,7 @@
   - standing/dod-depscor-eligible-state
   - mechanics/epscor-lists-differ-by-agency
   - changes/ch-ca-dod-depscor-fy26
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65344,6 +66060,7 @@
   - programs/dod-depscor-research-collaboration
   - standing/dod-depscor-eligible-state
   - changes/ch-ca-dod-depscor-fy26
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65384,6 +66101,7 @@
   - programs/doe-epscor-state-lab-partnerships
   - standing/doe-epscor-jurisdiction
   - mechanics/epscor-lists-differ-by-agency
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65498,6 +66216,7 @@
   - programs/nasa-epscor-rid
   - standing/nasa-epscor-jurisdiction
   - help/nasa-epscor-jurisdiction-directors
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65539,6 +66258,7 @@
   - programs/nasa-epscor-r3
   - programs/nasa-epscor-rid
   - changes/ch-ca-nasa-epscor-no-notice-since-fy2025
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65575,6 +66295,7 @@
   - programs/nasa-epscor-research
   - programs/nasa-epscor-r3
   - changes/ch-ca-nasa-epscor-no-notice-since-fy2025
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65616,6 +66337,7 @@
   - mechanics/limited-submission-capacity-programmes
   - mechanics/epscor-lists-differ-by-agency
   - changes/ch-ca-nasa-fy2027-request-stem-engagement
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65734,6 +66456,7 @@
   - standing/usda-epscor-state
   - mechanics/epscor-lists-differ-by-agency
   - changes/ch-ca-nifa-epscor-fy2026-list
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -65991,6 +66714,7 @@
   cited_in:
   - programs/nsf-regional-innovation-engines
   - changes/ch-ca-nsf-engines-second-cohort
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-A
@@ -66064,6 +66788,7 @@
   cited_in:
   - programs/nasa-epscor-research
   - changes/ch-ca-nasa-fy2027-request-stem-engagement
+  - routes/epscor-and-idea-jurisdictions
   verified: true
   recheck: false
   sweep: capacity-A
@@ -66176,6 +66901,7 @@
   - programs/doe-ne-scientific-infrastructure-support
   - gates/inl-proposals-portal
   - changes/ch-ca-doe-ne-infrastructure-fy2026
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-A
@@ -66345,6 +67071,7 @@
   - standing/native-american-serving-nontribal-institution
   - standing/predominantly-black-institution
   - changes/ch-cb-olc-opinion-ed-programmes
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -66448,6 +67175,7 @@
   - programs/ed-mseip
   - mechanics/title-iii-part-f-mandatory-funding
   - changes/ch-cb-ed-ends-msi-discretionary-funding
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -66555,6 +67283,7 @@
   - gates/ed-hepis-gea
   - mechanics/ed-eligibility-matrix
   - changes/ch-cb-fy2026-eligibility-notice-section-312
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -66855,6 +67584,7 @@
   - programs/ed-title-iii-b-strengthening-hbcus
   - standing/hbcu
   - changes/ch-cb-ed-fy2025-reprogramming-to-hbcus-tccus
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67061,6 +67791,7 @@
   - programs/ed-title-v-ppoha
   - programs/ed-hsi-stem-articulation
   - changes/ch-cb-tennessee-v-ed-filed
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67265,6 +67996,7 @@
   - programs/nsf-crest
   - mechanics/nsf-opportunity-status-waiting-or-archived
   - changes/ch-cb-nsf-opportunity-page-states
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67313,6 +68045,7 @@
   - standing/alaska-native-native-hawaiian-serving-institution
   - help/nsf-tcup-programme-contact
   - changes/ch-cb-nsf-opportunity-page-states
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67396,6 +68129,7 @@
   cited_in:
   - programs/nsf-ate
   - standing/community-college-two-year-institution
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67449,6 +68183,7 @@
   - programs/ed-fipse-rdi-hbcu-tccu
   - changes/ch-cb-ed-interagency-agreements
   - changes/ch-cb-rdi-fy2026-competition
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67504,6 +68239,7 @@
   - programs/ed-title-iii-part-f-mandatory
   - standing/tribal-college-or-university
   - mechanics/ed-endowment-match
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67685,6 +68421,7 @@
   cited_in:
   - programs/dol-eta-strengthening-community-colleges
   - standing/community-college-two-year-institution
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67810,6 +68547,7 @@
   quotes: []
   cited_in:
   - programs/nih-narch-planning-r34
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67948,6 +68686,7 @@
   - standing/hbcu
   - standing/dod-covered-educational-institution
   - changes/ch-cb-dod-equipment-notice-hbcu-tcu
+  - routes/research-instrumentation-and-facilities
   verified: true
   recheck: false
   sweep: capacity-B
@@ -67994,6 +68733,7 @@
   cited_in:
   - programs/dod-don-hbcu-mi-program
   - standing/dod-covered-educational-institution
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68040,6 +68780,7 @@
   - funders/nasa-ostem
   - standing/nasa-msi-list
   - help/nasa-msi-exchange
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68154,6 +68895,7 @@
   quotes: []
   cited_in:
   - programs/nifa-1890-capacity-building-grants
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68276,6 +69018,7 @@
   cited_in:
   - programs/nifa-evans-allen-1890-research
   - help/nifa-1890-mailbox
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68351,6 +69094,7 @@
   - programs/nifa-1890-capacity-building-grants
   - programs/nifa-evans-allen-1890-research
   - standing/land-grant-1890-institution
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68552,6 +69296,7 @@
   - programs/ed-title-v-developing-hsi
   - standing/hispanic-serving-institution
   - mechanics/ed-endowment-match
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68602,6 +69347,7 @@
   - programs/ed-title-iii-a-aanapisi
   - programs/ed-title-iii-a-nasnti
   - changes/ch-cb-ed-withdraws-fy2025-notices
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68816,6 +69562,7 @@
   cited_in:
   - programs/ed-predominantly-black-institutions
   - standing/predominantly-black-institution
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68854,6 +69601,7 @@
   cited_in:
   - programs/ed-title-iii-b-strengthening-hbcus
   - standing/hbcu
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -68894,6 +69642,7 @@
   - programs/ed-title-v-developing-hsi
   - standing/hispanic-serving-institution
   - changes/ch-cb-tennessee-summary-judgment-motion
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -69165,6 +69914,7 @@
   quotes: []
   cited_in:
   - programs/nifa-tribal-colleges-research-grants
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -69365,6 +70115,7 @@
   - An individual may serve as PI or co-PI on only one proposal per deadline.
   cited_in:
   - programs/nsf-hbcu-eir
+  - routes/designated-institution-programmes
   verified: true
   recheck: false
   sweep: capacity-B
@@ -69454,6 +70205,7 @@
   - Only one preliminary proposal may be submitted per eligible institution and due date.
   cited_in:
   - programs/nsf-crest
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-B
@@ -69532,6 +70284,7 @@
   - programs/hud-edi-community-project-funding
   - funders/house-appropriations-committee
   - changes/ch-cc-fy2027-continuing-resolution
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69586,6 +70339,7 @@
   - help/congressional-office-appropriations-request
   - mechanics/congressionally-directed-spending-process
   - mechanics/earmark-request-rules
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69653,6 +70407,7 @@
   - mechanics/earmark-eligible-accounts-fy2027
   - changes/ch-cc-fy2027-request-rules
   - changes/ch-cd-fy2027-earmark-request-windows-closed
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69710,6 +70465,7 @@
   - funders/house-appropriations-committee
   - mechanics/earmark-eligible-accounts-fy2027
   - changes/ch-cc-fy2027-request-rules
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69807,6 +70563,7 @@
   - programs/nist-congressionally-identified-projects
   - standing/earmark-named-recipient
   - changes/ch-cc-fy2027-house-nonprofit-exclusions
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69861,6 +70618,7 @@
   - standing/earmark-named-recipient
   - mechanics/earmark-agency-application-step
   - changes/ch-cc-fy2027-house-nonprofit-exclusions
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69910,6 +70668,7 @@
   - programs/hud-edi-community-project-funding
   - mechanics/environmental-review-before-federal-funds
   - changes/ch-cc-fy2027-house-nonprofit-exclusions
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -69962,6 +70721,7 @@
   - help/congressional-office-appropriations-request
   - mechanics/congressionally-directed-spending-process
   - mechanics/earmark-request-rules
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70051,6 +70811,7 @@
   - mechanics/earmark-eligible-accounts-fy2027
   - changes/ch-cc-fy2027-request-rules
   - changes/ch-cd-fy2027-earmark-request-windows-closed
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70143,6 +70904,7 @@
   - mechanics/congressionally-directed-spending-process
   - changes/ch-cc-fy2026-earmarks-enacted
   - todo/t-cd-001
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70256,6 +71018,7 @@
   cited_in:
   - mechanics/congressionally-directed-spending-process
   - changes/ch-cc-fy2025-no-earmarks
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70333,6 +71096,7 @@
   - Fiscal year 2023, 2024 and 2026 CPF grants are available at up to an 80 percent federal share.
   cited_in:
   - changes/ch-cc-fy2025-no-earmarks
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70370,6 +71134,7 @@
   - at a rate for operations as provided in the applicable appropriations Acts for fiscal year 2026
   cited_in:
   - changes/ch-cc-fy2027-continuing-resolution
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70527,6 +71292,7 @@
   - mechanics/congressionally-directed-spending-process
   - mechanics/earmark-agency-application-step
   - changes/ch-cc-fy2025-no-earmarks
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70583,6 +71349,7 @@
   - mechanics/environmental-review-before-federal-funds
   - mechanics/notice-of-federal-interest
   - changes/ch-cc-fy2026-agency-steps
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70627,6 +71394,7 @@
   - programs/samhsa-congressionally-directed-spending-projects
   - mechanics/earmark-agency-application-step
   - changes/ch-cc-fy2026-agency-steps
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70726,6 +71494,7 @@
   - standing/earmark-named-recipient
   - mechanics/earmark-agency-application-step
   - changes/ch-cc-fy2026-agency-steps
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70872,6 +71641,7 @@
   - programs/nps-african-american-civil-rights-grants
   - programs/nps-history-of-equal-rights-grants
   - funders/nps-stlpg
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70912,6 +71682,7 @@
   cited_in:
   - programs/nps-save-americas-treasures
   - standing/nps-national-significance
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -70957,6 +71728,7 @@
   - funders/nps-stlpg
   - standing/nps-national-significance
   - help/nps-stlpg-grants-mailbox
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71006,6 +71778,7 @@
   - programs/nhprc-capacity-building-hbcu-archives
   - funders/nps-stlpg
   - changes/ch-cc-nps-fy2025-hpf-notices-2026
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71090,6 +71863,7 @@
   - programs/nps-hbcu-preservation-grants
   - funders/nps-stlpg
   - standing/nps-accredited-hbcu
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71209,6 +71983,7 @@
   quotes: []
   cited_in:
   - programs/nps-history-of-equal-rights-grants
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71250,6 +72025,7 @@
     Register.
   cited_in:
   - programs/nps-underrepresented-communities-grants
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71289,6 +72065,8 @@
   cited_in:
   - programs/nps-paul-bruhn-historic-revitalization-grants
   - mechanics/capacity-award-to-intermediary
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71340,6 +72118,7 @@
   - changes/ch-cc-fy2025-no-earmarks
   - changes/ch-cc-nps-fy2025-hpf-notices-2026
   - changes/ch-cc-nps-sat-notice-terms-2026
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71466,6 +72245,7 @@
   - programs/hrsa-cpf-cds-projects
   - help/hrsa-cds-program-mailbox
   - changes/ch-cc-fy2025-no-earmarks
+  - routes/congressionally-directed-project
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71555,6 +72335,8 @@
   - programs/eda-planning-and-local-technical-assistance
   - programs/fema-bric
   - changes/ch-cc-fy2027-budget-request
+  - routes/nonprofit-capacity-building-and-technical-assistance
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: true
   sweep: capacity-C
@@ -71644,6 +72426,8 @@
   - help/hud-capacity-building-mailbox
   - mechanics/capacity-award-to-intermediary
   - changes/ch-cc-hud-capacity-notices-2026
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71682,6 +72466,7 @@
   cited_in:
   - programs/hud-section-4-capacity-building
   - standing/hud-section-4-named-organization
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71724,6 +72509,7 @@
   - help/hud-capacity-building-mailbox
   - mechanics/capacity-award-to-intermediary
   - changes/ch-cc-hud-capacity-notices-2026
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71770,6 +72556,7 @@
   - help/hud-capacity-building-mailbox
   - mechanics/capacity-award-to-intermediary
   - changes/ch-cc-hud-capacity-notices-2026
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -71813,6 +72600,7 @@
   - programs/hud-distressed-cities-technical-assistance
   - help/hud-capacity-building-mailbox
   - changes/ch-cc-hud-capacity-notices-2026
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72036,6 +72824,7 @@
   cited_in:
   - programs/eda-university-centers
   - changes/ch-cc-eda-university-centers-not-funded
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72075,6 +72864,7 @@
   cited_in:
   - programs/americorps-vista-capacity-sponsorship
   - help/americorps-region-office
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72269,6 +73059,7 @@
     town and county records offices, and colleges and universities
   cited_in:
   - programs/neh-preservation-assistance-grants-smaller-institutions
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72306,6 +73097,7 @@
   cited_in:
   - programs/neh-endowments-for-advancing-the-humanities
   - changes/ch-cc-neh-endowments-programme
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72419,6 +73211,7 @@
   cited_in:
   - programs/imls-museums-empowered
   - changes/ch-cc-imls-fy2027-museum-notices
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72753,6 +73546,7 @@
   cited_in:
   - programs/hrsa-primary-care-association-cooperative-agreements
   - mechanics/capacity-award-to-intermediary
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -72937,6 +73731,7 @@
   cited_in:
   - programs/samhsa-rural-opioid-technical-assistance-centers
   - mechanics/capacity-award-to-intermediary
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-C
@@ -73088,6 +73883,7 @@
   cited_in:
   - programs/fema-bric
   - changes/ch-cc-fema-bric-ended-and-resumed
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-C
@@ -74124,6 +74920,7 @@
   - programs/fema-bric
   - changes/ch-cc-fema-bric-ended-and-resumed
   - changes/ch-cd-fema-bric-fy24-25-round-closed
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74168,6 +74965,7 @@
   - programs/fema-bric
   - changes/ch-cc-fema-bric-ended-and-resumed
   - changes/ch-cd-fema-bric-court-orders
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74210,6 +75008,7 @@
   - programs/fema-bric
   - changes/ch-cc-fema-bric-ended-and-resumed
   - changes/ch-cd-fema-bric-court-orders
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74401,6 +75200,7 @@
   - At least $10,000,000 ($5,000,000 for each FY) shall be made available for rural capacity building activities.
   cited_in:
   - programs/hud-section-4-capacity-building
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74480,6 +75280,7 @@
   - programs/hud-section-4-capacity-building
   - changes/ch-cc-house-fy27-thud-bill
   - changes/ch-cd-house-fy27-thud-edi-projects
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74673,6 +75474,7 @@
   quotes: []
   cited_in:
   - programs/nih-narch-s06
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74715,6 +75517,7 @@
   - Applications for this program are accepted through your local office year round.
   cited_in:
   - programs/usda-rd-tribal-college-initiative-grants
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74834,6 +75637,7 @@
   - Indirect costs and tuition remission are unallowable as Hatch Regular Research Fund capacity grant expenditures.
   cited_in:
   - programs/nifa-hatch-act-capacity-grants
+  - routes/research-centres-and-institutional-research-capacity
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74912,6 +75716,7 @@
   - This opportunity is only open to State Service Commissions.
   cited_in:
   - programs/americorps-volunteer-generation-fund
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-D
@@ -74949,6 +75754,7 @@
   cited_in:
   - programs/sba-prime
   - changes/ch-cd-sba-prime-fy2026-notice
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: capacity-D
@@ -75056,6 +75862,7 @@
   - mechanics/indirect-costs-facilities-and-administrative
   - mechanics/modified-total-direct-costs
   - mechanics/negotiated-indirect-cost-rate
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: true
   sweep: rules-A
@@ -75227,6 +76034,8 @@
   - mechanics/negotiated-indirect-cost-rate
   - mechanics/negotiated-rate-acceptance-rule
   - mechanics/executive-order-14332-grant-oversight
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: true
   sweep: rules-A
@@ -75389,6 +76198,7 @@
   - mechanics/uniform-guidance-2-cfr-200
   - mechanics/cost-principles
   - mechanics/single-audit
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-A
@@ -76050,6 +76860,7 @@
   cited_in:
   - standing/subrecipient
   - mechanics/pass-through-subaward
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-A
@@ -76353,6 +77164,7 @@
   cited_in:
   - mechanics/pass-through-subaward
   - mechanics/award-closeout
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-A
@@ -76889,6 +77701,7 @@
   - standing/subrecipient
   - mechanics/financial-management-standards
   - mechanics/single-audit
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-A
@@ -79068,6 +79881,7 @@
   - gates/grants-gov-individual-registration
   - mechanics/grants-gov-roles
   - mechanics/sam-entity-administrator-and-notarized-letter
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -79120,6 +79934,7 @@
   - gates/sam-registration
   - gates/grants-gov-individual-registration
   - mechanics/grants-gov-roles
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -79173,6 +79988,7 @@
   - mechanics/sam-entity-validation
   - mechanics/federal-system-sign-in-requirements
   - mechanics/sam-entity-administrator-and-notarized-letter
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -79238,6 +80054,8 @@
   - mechanics/sam-financial-assistance-certifications
   - mechanics/sam-entity-validation
   - mechanics/sam-entity-administrator-and-notarized-letter
+  - routes/getting-registered-to-apply
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-B
@@ -79297,6 +80115,8 @@
   - gates/sam-registration
   - gates/unique-entity-identifier
   - mechanics/sam-uei-only-versus-full-registration
+  - routes/getting-registered-to-apply
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-B
@@ -79641,6 +80461,7 @@
   - A recipient with gross income under $300,000 in the previous tax year is exempt
   cited_in:
   - mechanics/ffata-subaward-reporting
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-B
@@ -79692,6 +80513,7 @@
   - gates/era-commons-samhsa
   - help/nih-new-to-nih-registration-pages
   - mechanics/sam-entity-administrator-and-notarized-letter
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -79779,6 +80601,7 @@
   cited_in:
   - gates/era-commons
   - gates/login-gov
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -80506,6 +81329,7 @@
   - gates/ed-g6
   - help/grants-gov-support
   - changes/ch-gb-2025-08-29-ed-common-instructions
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -82037,6 +82861,7 @@
   - mechanics/grants-gov-roles
   - mechanics/grants-gov-workspace
   - mechanics/federal-system-sign-in-requirements
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -82078,6 +82903,7 @@
   - gates/login-gov
   - gates/grants-gov-individual-registration
   - mechanics/grants-gov-workspace
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-B
@@ -82689,6 +83515,7 @@
   - gates/federalwide-assurance
   - gates/irb-registration
   - mechanics/common-rule
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-C
@@ -82829,6 +83656,7 @@
   - Failure to renew or update an FWA while continuing to engage in research subject to the Common Rule may constitute noncompliance.
   cited_in:
   - gates/federalwide-assurance
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-C
@@ -82906,6 +83734,7 @@
     renew a FWA every 5 years
   cited_in:
   - gates/federalwide-assurance
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-C
@@ -83590,6 +84419,7 @@
   - prior to engaging in research related to any PHS-funded grant and at least every four years
   cited_in:
   - gates/financial-conflict-of-interest-policy
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-C
@@ -84125,6 +84955,7 @@
   - mechanics/confucius-institute-certification
   - changes/ch-gc-nsf-in-149-effective-dates
   - changes/ch-gc-nsf-ffdr-2025
+  - routes/getting-registered-to-apply
   verified: true
   recheck: false
   sweep: rules-C
@@ -85131,6 +85962,7 @@
   - exceeding $100,000
   cited_in:
   - gates/lobbying-certification
+  - routes/joining-as-a-subrecipient-or-partner
   verified: true
   recheck: false
   sweep: rules-C
@@ -85399,6 +86231,7 @@
   - standing/section-501c3-organization
   - standing/nonprofit-without-501c3-status
   - gates/recognition-of-exemption-501c3
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85442,6 +86275,7 @@
   - standing/nonprofit-without-501c3-status
   - standing/fiscally-sponsored-project
   - gates/recognition-of-exemption-501c3
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85561,6 +86395,7 @@
   cited_in:
   - standing/public-charity-status
   - gates/recognition-of-exemption-501c3
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85600,6 +86435,7 @@
   - The user fees must be paid through Pay.gov when the application is filed.
   cited_in:
   - gates/recognition-of-exemption-501c3
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85678,6 +86514,7 @@
   - We issue 80% of Form 1023 application determinations within 191 days
   cited_in:
   - gates/recognition-of-exemption-501c3
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85761,6 +86598,7 @@
   cited_in:
   - standing/public-charity-status
   - gates/annual-form-990-filing
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85843,6 +86681,7 @@
   - gates/recognition-of-exemption-501c3
   - gates/annual-form-990-filing
   - mechanics/automatic-revocation-of-exemption
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -85935,6 +86774,7 @@
   - help/irs-form-990-series-downloads
   - mechanics/automatic-revocation-of-exemption
   - mechanics/irs-990-e-file-data
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: rules-C
@@ -86061,6 +86901,7 @@
   cited_in:
   - gates/state-charitable-solicitation-registration
   - help/nasco-state-charity-offices
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -86138,6 +86979,8 @@
   - standing/nonprofit-without-501c3-status
   - gates/recognition-of-exemption-501c3
   - help/grants-gov-learn-grants
+  - routes/becoming-an-eligible-nonprofit
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-C
@@ -86177,6 +87020,7 @@
   cited_in:
   - standing/section-501c3-organization
   - standing/fiscally-sponsored-project
+  - routes/becoming-an-eligible-nonprofit
   verified: true
   recheck: false
   sweep: rules-C
@@ -86378,6 +87222,7 @@
   cited_in:
   - mechanics/de-minimis-indirect-rate
   - mechanics/nonprofit-indirect-cost-rate-negotiation
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-C
@@ -87529,6 +88374,7 @@
   - mechanics/uniform-guidance-2-cfr-200
   - mechanics/sam-uei-only-versus-full-registration
   - changes/ch-gd-2026-08-17-doe-conflict-of-interest-rule
+  - routes/research-at-a-nonprofit-that-is-not-a-university
   verified: true
   recheck: false
   sweep: rules-D
@@ -88617,6 +89463,7 @@
   - programs/simons-collaborations-mps
   - funders/simons-foundation
   - changes/ch-fa-simons-empire-faculty-fellowship
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -88714,6 +89561,7 @@
   - programs/simons-collaborations-mps
   - funders/simons-foundation
   - mechanics/foundation-letter-of-inquiry
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -88848,6 +89696,7 @@
   cited_in:
   - funders/sloan-foundation
   - mechanics/foundation-letter-of-inquiry
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -88898,6 +89747,7 @@
   - funders/sloan-foundation
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -89013,6 +89863,7 @@
   cited_in:
   - funders/moore-foundation
   - mechanics/foundation-letter-of-inquiry
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -89219,6 +90070,7 @@
   - mechanics/foundation-indirect-cost-caps
   - mechanics/foundation-letter-of-inquiry
   - changes/ch-fa-keck-concept-consultations-ended
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -89268,6 +90120,7 @@
   - gates/keck-designated-liaison
   - help/institutional-limited-submission-process
   - mechanics/foundation-limited-nomination
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -89541,6 +90394,7 @@
   - funders/rcsa
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -89731,6 +90585,7 @@
   - funders/dreyfus-foundation
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -89884,6 +90739,7 @@
   - standing/foundation-invited-nominating-institution
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -90367,6 +91223,8 @@
   - standing/hhmi-eligible-institution
   - mechanics/private-foundation-public-charity-medical-research-organization
   - mechanics/foundation-award-to-institution-or-person
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -90421,6 +91279,8 @@
   - gates/hhmi-arc
   - mechanics/foundation-limited-nomination
   - changes/ch-fa-hhmi-combined-competition
+  - routes/research-at-a-nonprofit-that-is-not-a-university
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -90473,6 +91333,7 @@
   - gates/hhmi-arc
   - changes/ch-fa-hhmi-combined-competition
   - changes/ch-fa-hhmi-competitions-paused-2025
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -90686,6 +91547,7 @@
   - mechanics/foundation-indirect-cost-caps
   - mechanics/foundation-letter-of-inquiry
   - todo/t-fa-bwf-nomination
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -90935,6 +91797,7 @@
   - standing/foundation-invited-nominating-institution
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -91178,6 +92041,7 @@
   cited_in:
   - programs/ddf-health-solutions-science-in-action
   - funders/doris-duke-foundation
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -91487,6 +92351,7 @@
   - funders/american-heart-association
   - gates/aha-professional-membership
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -91622,6 +92487,7 @@
   cited_in:
   - programs/acs-research-scholar-grants
   - funders/american-cancer-society
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -91748,6 +92614,7 @@
   - programs/spencer-small-research-grants
   - funders/spencer-foundation
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -91796,6 +92663,7 @@
   - funders/spencer-foundation
   - mechanics/foundation-indirect-cost-caps
   - changes/ch-fa-spencer-large-single-cycle
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -91842,6 +92710,9 @@
   - funders/spencer-foundation
   - mechanics/foundation-indirect-cost-caps
   - todo/t-fa-spencer-rpp-status
+  - routes/joining-as-a-subrecipient-or-partner
+  - routes/approaching-a-foundation
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92004,6 +92875,7 @@
   - programs/rsf-pipeline-grants
   - funders/russell-sage-foundation
   - todo/t-fa-rsf-pipeline-eligibility
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92049,6 +92921,7 @@
   - programs/rsf-pipeline-grants
   - funders/russell-sage-foundation
   - mechanics/foundation-letter-of-inquiry
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92267,6 +93140,7 @@
   - funders/william-t-grant-foundation
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-indirect-cost-caps
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92314,6 +93188,7 @@
   - funders/william-t-grant-foundation
   - mechanics/foundation-indirect-cost-caps
   - mechanics/foundation-letter-of-inquiry
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92435,6 +93310,7 @@
   - mechanics/foundation-relationship-before-invitation
   - mechanics/foundation-open-calls-and-requests-for-proposals
   - mechanics/where-foundations-publish-grants
+  - routes/approaching-a-foundation
   verified: true
   recheck: true
   sweep: foundations-A
@@ -92481,6 +93357,7 @@
     proposal for funding.
   cited_in:
   - funders/mellon-foundation
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92704,6 +93581,7 @@
   cited_in:
   - funders/carnegie-corporation-of-new-york
   - mechanics/foundation-letter-of-inquiry
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92747,6 +93625,7 @@
   - funders/carnegie-corporation-of-new-york
   - mechanics/foundation-limited-nomination
   - changes/ch-fa-carnegie-fellows-new-cycle
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -92975,6 +93854,7 @@
   cited_in:
   - programs/guggenheim-fellowships
   - funders/guggenheim-foundation
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: foundations-A
@@ -93061,6 +93941,8 @@
   - funders/guggenheim-foundation
   - mechanics/foundation-limited-nomination
   - mechanics/foundation-award-to-institution-or-person
+  - routes/humanities-arts-and-international-fellowships
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -93178,6 +94060,7 @@
   cited_in:
   - programs/acls-fellowship-program
   - funders/acls
+  - routes/humanities-arts-and-international-fellowships
   verified: true
   recheck: false
   sweep: foundations-A
@@ -93289,6 +94172,7 @@
     current HHMI scientists
   cited_in:
   - changes/ch-fa-hhmi-competitions-paused-2025
+  - routes/foundation-fellowship-and-scholar-award
   verified: true
   recheck: false
   sweep: foundations-A
@@ -93525,6 +94409,7 @@
   - standing/private-foundation-status
   - standing/corporate-foundation-versus-giving-programme
   - mechanics/private-foundation-public-charity-medical-research-organization
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -93579,6 +94464,7 @@
   - standing/supporting-organization
   - standing/medical-research-organization
   - mechanics/private-foundation-public-charity-medical-research-organization
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-A
@@ -93992,6 +94878,7 @@
   - programs/acs-research-scholar-grants
   - funders/american-cancer-society
   - changes/ch-fa-acs-policy-changes
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -94043,6 +94930,7 @@
   - programs/keck-research-program
   - funders/keck-foundation
   - changes/ch-fa-keck-concept-consultations-ended
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-A
@@ -94444,6 +95332,7 @@
   - mechanics/foundation-invitation-only-grantmaking
   - mechanics/foundation-relationship-before-invitation
   - todo/t-fb-066
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -94529,6 +95418,7 @@
   - mechanics/general-operating-support-and-project-support
   - mechanics/foundation-multi-year-grants
   - mechanics/foundation-reporting-expectations
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -94656,6 +95546,7 @@
   - funders/macarthur-foundation
   - mechanics/foundation-invitation-only-grantmaking
   - mechanics/foundation-multi-year-grants
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -94697,6 +95588,7 @@
   - funders/macarthur-foundation
   - mechanics/general-operating-support-and-project-support
   - mechanics/foundation-indirect-cost-policies
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -94739,6 +95631,7 @@
   cited_in:
   - programs/macarthur-100-and-change
   - funders/macarthur-foundation
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -94865,6 +95758,7 @@
   - gates/foundation-fluxx-portal-account
   - mechanics/foundation-letter-of-inquiry
   - mechanics/foundation-geographic-limits
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -95028,6 +95922,7 @@
   - funders/kresge-foundation
   - gates/foundation-fluxx-portal-account
   - mechanics/foundation-invitation-only-grantmaking
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -95308,6 +96203,7 @@
   - mechanics/foundation-multi-year-grants
   - mechanics/foundation-indirect-cost-policies
   - mechanics/trust-based-grantmaking-practices
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -95715,6 +96611,7 @@
   - funders/rockefeller-foundation
   - mechanics/foundation-invitation-only-grantmaking
   - mechanics/where-foundations-publish-grants
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -95832,6 +96729,7 @@
   cited_in:
   - funders/open-society-foundations
   - mechanics/general-operating-support-and-project-support
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -95957,6 +96855,7 @@
   - standing/knight-community
   - mechanics/foundation-relationship-before-invitation
   - mechanics/foundation-geographic-limits
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -96038,6 +96937,7 @@
   - mechanics/foundation-invitation-only-grantmaking
   - mechanics/where-foundations-publish-grants
   - changes/ch-fb-mott-closes-unsolicited
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -96523,6 +97423,7 @@
   - standing/duke-endowment-eligible-organisation
   - gates/duke-endowment-grantee-portal
   - mechanics/foundation-geographic-limits
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -96649,6 +97550,7 @@
   - mechanics/foundation-relationship-before-invitation
   - mechanics/general-operating-support-and-project-support
   - mechanics/foundation-geographic-limits
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -96769,6 +97671,8 @@
   - programs/yield-giving-open-call
   - funders/yield-giving
   - mechanics/foundation-reporting-expectations
+  - routes/general-operating-support
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -96847,6 +97751,7 @@
   - programs/arnold-ventures-k12-causal-research-rfp
   - funders/arnold-ventures
   - mechanics/foundation-open-calls-and-requests-for-proposals
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -96956,6 +97861,7 @@
   - mechanics/foundation-letter-of-inquiry
   - mechanics/foundation-open-calls-and-requests-for-proposals
   - changes/ch-fb-arnold-k12-rfp
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97036,6 +97942,7 @@
   cited_in:
   - funders/commonwealth-fund
   - mechanics/foundation-letter-of-inquiry
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97080,6 +97987,7 @@
   - mechanics/foundation-letter-of-inquiry
   - mechanics/general-operating-support-and-project-support
   - mechanics/foundation-multi-year-grants
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97399,6 +98307,7 @@
   - funders/ford-foundation
   - mechanics/general-operating-support-and-project-support
   - mechanics/foundation-indirect-cost-policies
+  - routes/general-operating-support
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97557,6 +98466,8 @@
   - gates/my-rwjf-registration
   - mechanics/foundation-letter-of-inquiry
   - mechanics/foundation-indirect-cost-policies
+  - routes/becoming-an-eligible-nonprofit
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97602,6 +98513,7 @@
   - programs/rwjf-e4a-rapid-response-research
   - funders/robert-wood-johnson-foundation
   - changes/ch-fb-rwjf-rapid-response
+  - routes/foundation-research-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97687,6 +98599,7 @@
   - funders/mellon-foundation
   - gates/foundation-fluxx-portal-account
   - changes/ch-fb-mellon-higher-learning-call
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97728,6 +98641,7 @@
   - programs/mellon-humanities-in-place
   - funders/mellon-foundation
   - gates/foundation-fluxx-portal-account
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -97847,6 +98761,7 @@
   - Good Neighbor grants are allocated for general operating support with a fixed award amount of $10,000.
   cited_in:
   - funders/hilton-foundation
+  - routes/general-operating-support
   verified: true
   recheck: true
   sweep: foundations-B
@@ -98282,6 +99197,7 @@
   - gates/knight-submittable-portal
   - mechanics/foundation-open-calls-and-requests-for-proposals
   - changes/ch-fb-knight-cities-challenge
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-B
@@ -98397,6 +99313,8 @@
   cited_in:
   - programs/yield-giving-open-call
   - funders/yield-giving
+  - routes/general-operating-support
+  - routes/foundation-programme-grant
   verified: true
   recheck: true
   sweep: foundations-B
@@ -98718,6 +99636,7 @@
   cited_in:
   - funders/packard-foundation
   - gates/foundation-fluxx-portal-account
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-B
@@ -98978,6 +99897,7 @@
   - standing/medical-research-organization
   - mechanics/form-990-pf-part-by-part
   - mechanics/form-990-pf-unsolicited-applications-line
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -99985,6 +100905,7 @@
   - help/propublica-nonprofit-explorer
   - help/irs-form-990-series-downloads
   - changes/ch-fc-form-990-pf-renumbering
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -100027,6 +100948,7 @@
   - help/free-foundation-filing-sources
   - help/candid-search
   - changes/ch-fc-candid-search-launch
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -100066,6 +100988,7 @@
   cited_in:
   - help/candid-search
   - changes/ch-fc-candid-search-launch
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -100145,6 +101068,7 @@
   - help/free-foundation-filing-sources
   - help/candid-search
   - changes/ch-fc-candid-search-launch
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -100370,6 +101294,7 @@
   - standing/corporate-foundation-versus-giving-programme
   - standing/federated-fund
   - mechanics/corporate-charitable-deduction-floor
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -100538,6 +101463,7 @@
   - programs/svcf-community-action-grants
   - funders/silicon-valley-community-foundation
   - mechanics/community-foundation-grantmaking-pattern
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-C
@@ -100765,6 +101691,7 @@
   cited_in:
   - funders/new-york-community-trust
   - mechanics/community-foundation-grantmaking-pattern
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101065,6 +101992,7 @@
   cited_in:
   - funders/cleveland-foundation
   - mechanics/community-foundation-grantmaking-pattern
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101391,6 +102319,7 @@
   - programs/walmart-spark-good-local-grants
   - funders/walmart-foundation
   - mechanics/corporate-giving-pattern
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101432,6 +102361,7 @@
   - funders/walmart-foundation
   - standing/corporate-foundation-versus-giving-programme
   - mechanics/corporate-giving-pattern
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101504,6 +102434,7 @@
   cited_in:
   - programs/bank-of-america-local-grants
   - funders/bank-of-america-charitable-foundation
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101550,6 +102481,7 @@
   - funders/bank-of-america-charitable-foundation
   - standing/corporate-foundation-versus-giving-programme
   - mechanics/corporate-giving-pattern
+  - routes/foundation-programme-grant
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101744,6 +102676,7 @@
   - programs/home-depot-veteran-housing-grants
   - funders/home-depot-foundation
   - mechanics/corporate-giving-pattern
+  - routes/preservation-facilities-and-capital-grants
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101789,6 +102722,7 @@
   - programs/lowes-gable-grants
   - funders/lowes-foundation
   - mechanics/corporate-giving-pattern
+  - routes/nonprofit-capacity-building-and-technical-assistance
   verified: true
   recheck: false
   sweep: foundations-C
@@ -101940,6 +102874,7 @@
   cited_in:
   - funders/fnih
   - standing/congressionally-chartered-foundation
+  - routes/approaching-a-foundation
   verified: true
   recheck: false
   sweep: foundations-C
