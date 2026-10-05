@@ -1,5 +1,6 @@
 # todo.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: t-ra-001
   kind: conflict
   about: records-research-A.yaml/nih
@@ -2775,8 +2776,9 @@
 - id: t-ca-018
   kind: conflict
   about: records-capacity-A.yaml/dod-durip
-  text: 'ONR list page gives the DURIP number as N0001426SF004; the announcement page and Grants.gov give N0001426SF003.
-    Ceiling: $3,000,000 on the ONR listing and in the announcement, $7,000,000 on the AFOSR listing.'
+  text: 'Ceiling: $3,000,000 on the ONR listing and in the announcement, $7,000,000 on the AFOSR listing. (The number question
+    is settled: DURIP is N0001426SF003; the ONR list page gives N0001426SF004 to the Young Investigator Program, re-read
+    2026-10-05.)'
   sweep: capacity-A
 - id: t-ca-019
   kind: gap
@@ -5194,3 +5196,646 @@
   about: mechanics/foundation-letter-of-inquiry
   text: Stated in more than one sweep slice; the wordings are kept under variants. Reconcile into one cited statement.
   sweep: consolidation
+- id: tr-51-f2
+  kind: conflict
+  about: references/51
+  text: 'Recheck 2026-10-05: stored fact "24 institutes and centers listed as participating." The page as re-read: 23 organizations
+    listed.'
+  sweep: recheck
+- id: tr-63-unconfirmed
+  kind: recheck
+  about: references/63
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Says the agreement increases funding for all Title III and
+    V programmes; no line amounts given. | Reports that the agreement states no authority exists for the Department of Education
+    to transfer its fundamental responsibilities to other agencies.'
+  sweep: recheck
+- id: tr-84-unconfirmed
+  kind: recheck
+  about: references/84
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The same notice at grants.nih.gov (without www) returned
+    a 404 in this sweep.'
+  sweep: recheck
+- id: tr-106-unconfirmed
+  kind: recheck
+  about: references/106
+  text: 'Recheck 2026-10-05: not found on the page as re-read: A cooperative agreement is financial assistance with substantial
+    Federal involvement in carrying out the activity.'
+  sweep: recheck
+- id: tr-125-unconfirmed
+  kind: recheck
+  about: references/125
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Compliance is shown by the PMCID.'
+  sweep: recheck
+- id: tr-255-f20
+  kind: conflict
+  about: references/255
+  text: 'Recheck 2026-10-05: stored fact "MRI: $20.00 million FY 2027 Request. For FY 2025 Current Plan one extraction returned
+    $20.0 million and a second returned the table row "$46.65 $20.00 -$26.65 -57.1%"." The page as re-read: FY 2025 Current
+    Plan shows $46.65M total Mid-scale RI, with $20.00M for MRI specifically.'
+  sweep: recheck
+- id: tr-255-unconfirmed
+  kind: recheck
+  about: references/255
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Lines for the Hispanic-serving institutions programme, CREST,
+    ATE, ADVANCE, LSAMP and AGEP were not in the sections returned.'
+  sweep: recheck
+- id: tr-278-unconfirmed
+  kind: recheck
+  about: references/278
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No stated limit on the number of applications per applicant.'
+  sweep: recheck
+- id: tr-303-unconfirmed
+  kind: recheck
+  about: references/303
+  text: 'Recheck 2026-10-05: not found on the page as re-read: OPEN 2018: approximately $100 million; awards $500,000 to
+    $10 million; 30–50 projects expected. | Full-application criteria and weights in 2018: Impact of the Proposed Technology
+    30%; Overall Scientific and Technical Merit 30%; Qualifications, Experience and Capabilities 30%; Soundness of Management
+    Plan 10%.'
+  sweep: recheck
+- id: tr-408-unconfirmed
+  kind: recheck
+  about: references/408
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Tribal Colleges Research Grants Program: Open, posted Apr
+    22, 2026, closes Dec 31, 2026.'
+  sweep: recheck
+- id: tr-426-unconfirmed
+  kind: recheck
+  about: references/426
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No FY 2027 line for AFRI Education and Workforce Development
+    or National Needs Fellowships was found in the part read.'
+  sweep: recheck
+- id: tr-535-unconfirmed
+  kind: recheck
+  about: references/535
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Pages returned by the fetch: 1-17, 30-42, 46-103.'
+  sweep: recheck
+- id: tr-538-unconfirmed
+  kind: recheck
+  about: references/538
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No figure given for AHRQ, NIOSH, NIDILRR or FDA. | No Title
+    III, Title V, HBCU or tribal college figures in the release as fetched.'
+  sweep: recheck
+- id: tr-554-unconfirmed
+  kind: recheck
+  about: references/554
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Last updated and reviewed September 2, 2026. | Page updated
+    and last reviewed September 2, 2026.'
+  sweep: recheck
+- id: tr-586-unconfirmed
+  kind: recheck
+  about: references/586
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Page modified June 11, 2026.'
+  sweep: recheck
+- id: tr-590-f5
+  kind: conflict
+  about: references/590
+  text: 'Recheck 2026-10-05: stored fact "294 announcements listed in all; 8 upcoming, 11 with letters of intent under review,
+    20 with applications under review, 255 closed." The page as re-read: Displaying 1 - 25 of 286 results.'
+  sweep: recheck
+- id: tr-590-unconfirmed
+  kind: recheck
+  about: references/590
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Cycle 1 2027: opens November 17, 2026; letters of intent
+    January 6, 2027; applications May 4, 2027.'
+  sweep: recheck
+- id: tr-594-blocked
+  kind: recheck
+  about: references/594
+  text: 'Recheck 2026-10-05: the page could not be re-read (403 from www.pcori.org. Retry: blocked HTTP 403 from www.pcori.org.).
+    Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-619-unconfirmed
+  kind: recheck
+  about: references/619
+  text: 'Recheck 2026-10-05: not found on the page as re-read: De minimis indirect cost rate given as 10 percent of modified
+    total direct costs, citing 2 C.F.R. 200.414(f), as the fetch returned it.'
+  sweep: recheck
+- id: tr-655-unconfirmed
+  kind: recheck
+  about: references/655
+  text: 'Recheck 2026-10-05: not found on the page as re-read: 2027: not shown'
+  sweep: recheck
+- id: tr-671-unconfirmed
+  kind: recheck
+  about: references/671
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No mention of IES'
+  sweep: recheck
+- id: tr-727-unconfirmed
+  kind: recheck
+  about: references/727
+  text: 'Recheck 2026-10-05: not found on the page as re-read: researchtraining.nih.gov returned a 302 redirect to this
+    page on 2026-10-04.'
+  sweep: recheck
+- id: tr-740-unconfirmed
+  kind: recheck
+  about: references/740
+  text: 'Recheck 2026-10-05: not found on the page as re-read: https://grants.nih.gov/grants/guide/pa-files/PA-27-037.html
+    returned HTTP 404 on 2026-10-04.'
+  sweep: recheck
+- id: tr-761-unconfirmed
+  kind: recheck
+  about: references/761
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The NIH Guide address for PA-23-271 returned HTTP 404 on
+    2026-10-04.'
+  sweep: recheck
+- id: tr-766-unconfirmed
+  kind: recheck
+  about: references/766
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The notice as returned calls it the Fiscal Year 2025 application
+    cycle.'
+  sweep: recheck
+- id: tr-798-unconfirmed
+  kind: recheck
+  about: references/798
+  text: 'Recheck 2026-10-05: not found on the page as re-read: https://grants.nih.gov/grants/guide/pa-files/PAR-24-225.html
+    returned HTTP 404 on 2026-10-04.'
+  sweep: recheck
+- id: tr-800-unconfirmed
+  kind: recheck
+  about: references/800
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The NIH Guide address https://grants.nih.gov/grants/guide/pa-files/PA-23-271.html
+    returned HTTP 404 on 2026-10-04.'
+  sweep: recheck
+- id: tr-824-unconfirmed
+  kind: recheck
+  about: references/824
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Solicitation NSF 24-588, posted July 3, 2024; page last updated
+    September 23, 2024.'
+  sweep: recheck
+- id: tr-945-unconfirmed
+  kind: recheck
+  about: references/945
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The 2026 class had 24 fellows. | Dates shown for the previous
+    cycle: applications due October 29, 2025; letters November 5, 2025.'
+  sweep: recheck
+- id: tr-984-unconfirmed
+  kind: recheck
+  about: references/984
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No citizenship restriction was returned by the extraction.'
+  sweep: recheck
+- id: tr-989-unconfirmed
+  kind: recheck
+  about: references/989
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No status banner and no next deadline were returned on 2026-10-04.'
+  sweep: recheck
+- id: tr-993-unconfirmed
+  kind: recheck
+  about: references/993
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No FY 2026 or FY 2027 notice was shown on 2026-10-04.'
+  sweep: recheck
+- id: tr-995-unconfirmed
+  kind: recheck
+  about: references/995
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Cost sharing is not required.'
+  sweep: recheck
+- id: tr-997-unconfirmed
+  kind: recheck
+  about: references/997
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Cost sharing not required.'
+  sweep: recheck
+- id: tr-1006-unconfirmed
+  kind: recheck
+  about: references/1006
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No statement of cancellation, withdrawal or changed priorities
+    was returned on 2026-10-04.'
+  sweep: recheck
+- id: tr-1020-unconfirmed
+  kind: recheck
+  about: references/1020
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The number of members who resigned was not returned by the
+    extraction.'
+  sweep: recheck
+- id: tr-1028-unconfirmed
+  kind: recheck
+  about: references/1028
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The extraction returned no payback or service obligation
+    for trainees.'
+  sweep: recheck
+- id: tr-1100-unconfirmed
+  kind: recheck
+  about: references/1100
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No application dates, stipend or status statement was returned
+    on 2026-10-04.'
+  sweep: recheck
+- id: tr-1109-unconfirmed
+  kind: recheck
+  about: references/1109
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Posted Jun 15, 2026 and closed Jul 15, 2026: SM-26-025 Behavioral
+    Health Partnerships for Early Diversion of Adults and Youth; SP-26-001 Sober Truth on Preventing Underage Drinking Act
+    Grants; SM-26-029 Behavioral Health'
+  sweep: recheck
+- id: tr-1111-unconfirmed
+  kind: recheck
+  about: references/1111
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The SAMHSA announcement page (samhsa.gov/grants/grant-announcements/sm-26-014)
+    shows a posted date of June 9, 2026 in its metadata.'
+  sweep: recheck
+- id: tr-1113-unconfirmed
+  kind: recheck
+  about: references/1113
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Body text did not render; only the meta description was returned.
+    | Body text was not returned (JavaScript-rendered).'
+  sweep: recheck
+- id: tr-1137-unconfirmed
+  kind: recheck
+  about: references/1137
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Last updated October 23, 2024.'
+  sweep: recheck
+- id: tr-1139-unconfirmed
+  kind: recheck
+  about: references/1139
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Research notices (agency code CDC-ERA) appear in the same
+    list, including NIOSH training grants open to 2028.'
+  sweep: recheck
+- id: tr-1190-unconfirmed
+  kind: recheck
+  about: references/1190
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Earlier Navigator notices on Grants.gov: CA-NAV-21-001 (2021),
+    CA-NAV-19-001 (2019), CA-NAV-18-001 (2018).'
+  sweep: recheck
+- id: tr-1192-unconfirmed
+  kind: recheck
+  about: references/1192
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No statement on a future notice of funding opportunity.'
+  sweep: recheck
+- id: tr-1193-unconfirmed
+  kind: recheck
+  about: references/1193
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The cms.gov address /priorities/rural-health-transformation-rht-program/overview
+    returns a 302 redirect to this page.'
+  sweep: recheck
+- id: tr-1217-unconfirmed
+  kind: recheck
+  about: references/1217
+  text: 'Recheck 2026-10-05: not found on the page as re-read: HTTP 302 redirect to https://health.gov/ on 2026-10-04.'
+  sweep: recheck
+- id: tr-1258-f2
+  kind: conflict
+  about: references/1258
+  text: 'Recheck 2026-10-05: stored fact "The listing gives total funding as $247,308; the description as returned also
+    gave an estimated total of $159,762 (the figure on the American Samoa listing) - to be re-checked." The page as re-read:
+    $159,762 estimated total funding for Guam center; $247,308 and $123,654 listed under Award section.'
+  sweep: recheck
+- id: tr-1377-f3
+  kind: conflict
+  about: references/1377
+  text: 'Recheck 2026-10-05: stored fact "Member support - grantee provides at least 15 percent in non-Federal cash." The
+    page as re-read: grantee provides at least 24 percent overall share in years 1-3, with member support being non-Federal
+    cash.'
+  sweep: recheck
+- id: tr-1413-unconfirmed
+  kind: recheck
+  about: references/1413
+  text: 'Recheck 2026-10-05: not found on the page as re-read: www.fns.usda.gov/f2s/grant returns a 302 redirect to www.fna.usda.gov/f2s/grant.'
+  sweep: recheck
+- id: tr-1421-unconfirmed
+  kind: recheck
+  about: references/1421
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No statement on terminations or on Public Law 119-21 was
+    returned.'
+  sweep: recheck
+- id: tr-1425-unconfirmed
+  kind: recheck
+  about: references/1425
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No statement on termination, reinstatement or a new notice
+    was returned. | No statement on termination, reinstatement or a superseding notice.'
+  sweep: recheck
+- id: tr-1431-unconfirmed
+  kind: recheck
+  about: references/1431
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Individuals and for-profit entities may not apply. | Applications
+    go through EDA''s EDGE portal (sfgrants.eda.gov).'
+  sweep: recheck
+- id: tr-1458-unconfirmed
+  kind: recheck
+  about: references/1458
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The preamble says the proposal clarifies that OMB''s requirements
+    are binding regulations and aims to reduce burden on recipients.'
+  sweep: recheck
+- id: tr-1461-unconfirmed
+  kind: recheck
+  about: references/1461
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The FY 2026 notice, deadline and match were not on the page
+    as returned.'
+  sweep: recheck
+- id: tr-1467-unconfirmed
+  kind: recheck
+  about: references/1467
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No match rule and no reauthorisation after 2020 is stated
+    in the text returned.'
+  sweep: recheck
+- id: tr-1483-unconfirmed
+  kind: recheck
+  about: references/1483
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The guessed address /grants-to-states/state-allotments returned
+    404.'
+  sweep: recheck
+- id: tr-1493-blocked
+  kind: recheck
+  about: references/1493
+  text: 'Recheck 2026-10-05: the page could not be re-read (HTTP 403 from acf.gov (the stored facts also record a 403).
+    Retry: blocked HTTP 403.). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-1494-blocked
+  kind: recheck
+  about: references/1494
+  text: 'Recheck 2026-10-05: the page could not be re-read (HTTP 403 from acf.gov (the stored facts also record a 403).
+    Retry: blocked HTTP 403 from acf.gov.). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-1508-unconfirmed
+  kind: recheck
+  about: references/1508
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No FY 2026 notice appeared in the search list on 2026-10-04.'
+  sweep: recheck
+- id: tr-1603-unconfirmed
+  kind: recheck
+  about: references/1603
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The matching rule was not returned by the fetch.'
+  sweep: recheck
+- id: tr-1620-unconfirmed
+  kind: recheck
+  about: references/1620
+  text: 'Recheck 2026-10-05: not found on the page as re-read: "Historically Black" - two results, documents 2025-07380
+    (April 28, 2025) and 2025-19485 (Continuance of Certain Federal Advisory Committees, October 6, 2025).'
+  sweep: recheck
+- id: tr-1638-unconfirmed
+  kind: recheck
+  about: references/1638
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No later notice appears on the page as fetched.'
+  sweep: recheck
+- id: tr-1656-unconfirmed
+  kind: recheck
+  about: references/1656
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The NIH Guide address for RFA-EB-26-003 returned HTTP 404
+    on October 4, 2026.'
+  sweep: recheck
+- id: tr-1710-unconfirmed
+  kind: recheck
+  about: references/1710
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Not seen in the fetched text - Historic Preservation Fund,
+    NEH, NEA, IMLS, AmeriCorps, CDFI Fund.'
+  sweep: recheck
+- id: tr-1758-unconfirmed
+  kind: recheck
+  about: references/1758
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Contact: cipp@nist.gov.'
+  sweep: recheck
+- id: tr-1769-unconfirmed
+  kind: recheck
+  about: references/1769
+  text: 'Recheck 2026-10-05: not found on the page as re-read: "Minority Science and Engineering": one document, a Privacy
+    Act matching programme notice of August 25, 2026 (2026-17297).'
+  sweep: recheck
+- id: tr-1799-blocked
+  kind: recheck
+  about: references/1799
+  text: 'Recheck 2026-10-05: the page could not be re-read (HTTP 503 server error from ecfr.gov. Retry: blocked HTTP 503
+    from www.ecfr.gov.). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-1800-blocked
+  kind: recheck
+  about: references/1800
+  text: 'Recheck 2026-10-05: the page could not be re-read (429 Retry: blocked 429 from www.ecfr.gov.). Its quotes and facts
+    stand as first extracted.'
+  sweep: recheck
+- id: tr-1802-blocked
+  kind: recheck
+  about: references/1802
+  text: 'Recheck 2026-10-05: the page could not be re-read (429 returned by ecfr.gov itself. Retry: blocked 429 from www.ecfr.gov.).
+    Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-1811-blocked
+  kind: recheck
+  about: references/1811
+  text: 'Recheck 2026-10-05: the page could not be re-read (Target returned HTTP 503 server error. Retry: skipped-host www.ecfr.gov
+    failed on five different URLs (503 and 429).). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-1866-unconfirmed
+  kind: recheck
+  about: references/1866
+  text: 'Recheck 2026-10-05: not found on the page as re-read: A search of the Federal Register for the control number on
+    2026-10-04 returned no later notice submitting the revision for OMB review.'
+  sweep: recheck
+- id: tr-1882-unconfirmed
+  kind: recheck
+  about: references/1882
+  text: 'Recheck 2026-10-05: not found on the page as re-read: COFFA.gov describes itself as the hub for Federal financial
+    assistance and the Council on Federal Financial Assistance, hosting policies, priorities and training materials. | No
+    content on the 2026 proposed rule appeared in the pages read.'
+  sweep: recheck
+- id: tr-1900-blocked
+  kind: recheck
+  about: references/1900
+  text: 'Recheck 2026-10-05: the page could not be re-read (429 Retry: skipped-host www.ecfr.gov failed on five different
+    URLs (503 and 429).). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-1901-unconfirmed
+  kind: recheck
+  about: references/1901
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The entries on entity validation review time and on the FAR
+    overhaul link to Federal Service Desk articles, which could not be fetched.'
+  sweep: recheck
+- id: tr-1916-unconfirmed
+  kind: recheck
+  about: references/1916
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Custom roles are built by Expanded AOR users from any combination
+    of privileges.'
+  sweep: recheck
+- id: tr-1940-blocked
+  kind: recheck
+  about: references/1940
+  text: 'Recheck 2026-10-05: the page could not be re-read (503 server error from www.ecfr.gov. Retry: blocked HTTP 503
+    from www.ecfr.gov; fifth different ecfr.gov URL to fail, so the remaining ecfr.gov entries are skipped-host.). Its quotes
+    and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-2009-unconfirmed
+  kind: recheck
+  about: references/2009
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The page states no fee and no consequence for failing to
+    file.'
+  sweep: recheck
+- id: tr-2061-unconfirmed
+  kind: recheck
+  about: references/2061
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Existing holders have transition periods; the dates were
+    not returned by the fetch.'
+  sweep: recheck
+- id: tr-2091-blocked
+  kind: recheck
+  about: references/2091
+  text: 'Recheck 2026-10-05: the page could not be re-read (HTTP 503 server error from www.ecfr.gov. Retry: skipped-host
+    www.ecfr.gov failed on five different URLs (503 and 429).). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-2093-unconfirmed
+  kind: recheck
+  about: references/2093
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Part IX: Executive Order 14332 of August 7, 2025 directed
+    OMB to revise the requirements on indirect cost recovery; fiscal year 2026 appropriations provisions required agencies
+    to keep applying negotiated rates under 200 | Part IX: OMB is not proposing updates to the indirect cost rate negotiation
+    system through the document, may consider a request for information later, and tells commenters not to comment on that
+    system. | Preamble on 200.340: OMB proposes to revise 200.340(a) on the reasons for discretionary terminations and to
+    add provisions on temporary suspension, described as similar to procedures for procurement contracts under the F | Preamble
+    on 200.340: under the new discretionary termination provision the agency or pass-through entity, to the extent permitted
+    by law, may terminate an award in part or its entirety if it determines that termination i | Proposed regulatory text,
+    amendatory instruction 87: "Revise § 200.340 to read as follows"; paragraph (a)(1) is headed "For noncompliance by the
+    recipient or subrecipient". | Preamble on 200.342: only minor clarifying revisions; administrative hearing rights continue
+    on a remedy for noncompliance, and such procedures would not be required for other types of terminations unless expressly
+    requi | Preamble on 200.333: OMB proposes to remove the policy allowing recipients to issue fixed amount subawards.
+    | Preamble on 200.421: all advertising and public relations costs unallowable with limited exceptions; the only exception
+    for public relations costs is those required by statute. | Preamble on 200.432: costs of attending conferences allowable
+    only if participation is expressly approved by the agency and included in the terms and conditions of the award. | Preamble
+    on 200.450: three new paragraphs; paragraph (c)(1)(iii) would expressly prohibit funding voter registration campaigns,
+    drives or related activities. | Preamble on 200.454: the only allowable costs are those necessary to fulfil the award
+    requirements, with a new prior approval requirement. | Preamble on 200.461: publication costs unallowable unless expressly
+    required by statute; the word "promotion" removed. | Preamble on 200.300: OMB proposes to streamline references to legal
+    and policy obligations and to supplement the section to reflect administration policies and priorities. | Preamble on
+    new 200.220: prohibits the obligation of Federal funds for covered foreign collaborations; it does not prohibit foreign
+    collaborations using non-Federal funds. | Proposed regulatory text of 200.205: the merit review process, including the
+    pre-issuance review in paragraph (b), must be described or incorporated by reference in the notice of funding opportunity,
+    and the pre-issuance | Preamble on 200.429: the reference to institutions of higher education would be removed so that
+    the restriction applies to all entities.'
+  sweep: recheck
+- id: tr-2102-blocked
+  kind: recheck
+  about: references/2102
+  text: 'Recheck 2026-10-05: the page could not be re-read (429 Retry: blocked 429 from www.ecfr.gov.). Its quotes and facts
+    stand as first extracted.'
+  sweep: recheck
+- id: tr-2104-unconfirmed
+  kind: recheck
+  about: references/2104
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Proposed 200.211(b)(16): the award must show the indirect
+    cost rate, including whether the de minimis rate is charged per 200.414. | Proposed Appendix A to part 25 would define
+    System for Award Management (SAM.gov) as the Federal repository into which a recipient must provide the information
+    required for the conduct of business as a recipient. | A search for "senior appointee" together with "funding opportunity
+    announcements" in documents of May 29, 2026 returned no result.'
+  sweep: recheck
+- id: tr-2109-unconfirmed
+  kind: recheck
+  about: references/2109
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Comment number GSA-GSA-2026-0001-2352 in the docket; addressed
+    to Greg Barbaccia, Acting Director, Technology Transformation Services, GSA. | Quotes a proposed certification that
+    the registrant will comply with the Constitution, federal laws and relevant executive orders prohibiting unlawful discrimination
+    on the basis of race or color in federally funded prog | Quotes a proposed certification on immigration: will not knowingly
+    bring or attempt to bring to the United States, transport, conceal, harbor, shield, hire, or recruit for a fee an illegal
+    alien. | Quotes a proposed certification that the registrant will not fund, subsidize, or facilitate violence, terrorism,
+    or other illegal activities that threaten public safety or national security. | Quotes a certification on promoting
+    freedom of speech and religious liberty.'
+  sweep: recheck
+- id: tr-2110-unconfirmed
+  kind: recheck
+  about: references/2110
+  text: 'Recheck 2026-10-05: not found on the page as re-read: USDA''s General Terms and Conditions page links the deviation
+    and describes it as an optional deviation applicable to all USDA awarding agencies.'
+  sweep: recheck
+- id: tr-2118-blocked
+  kind: recheck
+  about: references/2118
+  text: 'Recheck 2026-10-05: the page could not be re-read (HTTP 503 server error from www.ecfr.gov; not retried. Retry:
+    skipped-host www.ecfr.gov failed on five different URLs (503 and 429).). Its quotes and facts stand as first extracted.'
+  sweep: recheck
+- id: tr-2148-unconfirmed
+  kind: recheck
+  about: references/2148
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The Kavli Foundation page (organizations/770560142) gave
+    object id 202503079349101115 for fiscal year ending December 2024 and total assets of $604,090,789. | Gordon E and Betty
+    I Moore Foundation (organizations/943397785): fiscal year ending December 2024, Form 990-PF, object id 202503189349103305,
+    total assets $11,522,694,235. | Lilly Endowment Inc (organizations/350868122): fiscal year 2025 object id 202641359349103099
+    (total assets $105,894,116,636; charitable disbursements $3,887,876,303); fiscal year 2024 object id 202521359349102167
+    (total  | projects.propublica.org/nonprofits/download-xml?object_id=… returned ROBOTS_DISALLOWED.'
+  sweep: recheck
+- id: tr-2167-unconfirmed
+  kind: recheck
+  about: references/2167
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No indirect-cost statement was returned.'
+  sweep: recheck
+- id: tr-2178-unconfirmed
+  kind: recheck
+  about: references/2178
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No indirect-cost policy was returned.'
+  sweep: recheck
+- id: tr-2210-unconfirmed
+  kind: recheck
+  about: references/2210
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No indirect-cost policy was returned.'
+  sweep: recheck
+- id: tr-2283-unconfirmed
+  kind: recheck
+  about: references/2283
+  text: 'Recheck 2026-10-05: not found on the page as re-read: "There are currently no open RFPs at this time, please check
+    back again soon."'
+  sweep: recheck
+- id: tr-2319-unconfirmed
+  kind: recheck
+  about: references/2319
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The organisation calls itself "the philanthropy"; no legal
+    form is named on the page.'
+  sweep: recheck
+- id: tr-2335-unconfirmed
+  kind: recheck
+  about: references/2335
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The page carries no statement on unsolicited proposals.'
+  sweep: recheck
+- id: tr-2343-unconfirmed
+  kind: recheck
+  about: references/2343
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No indirect cost policy is given.'
+  sweep: recheck
+- id: tr-2358-unconfirmed
+  kind: recheck
+  about: references/2358
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Applicants were scored by peer organisations and then by
+    a second-round evaluation panel.'
+  sweep: recheck
+- id: tr-2401-unconfirmed
+  kind: recheck
+  about: references/2401
+  text: 'Recheck 2026-10-05: not found on the page as re-read: On 2026-10-04 https://philanthropynewsdigest.org/rfps returned
+    a 302 redirect to this page.'
+  sweep: recheck
+- id: tr-2475-unconfirmed
+  kind: recheck
+  about: references/2475
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The dictionary has 27 tabs, among them 990PF Basic Fields,
+    990PF Current Grants, 990PF Future Grants, 990PF Officers, 990PF Manager Contributions and 990PF States Registered.'
+  sweep: recheck
+- id: tr-2479-unconfirmed
+  kind: recheck
+  about: references/2479
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The licence texts themselves were not read.'
+  sweep: recheck
+- id: tr-2484-unconfirmed
+  kind: recheck
+  about: references/2484
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The financials page (gatesfoundation.org/about/financials)
+    links the 2025 statements of the foundation and of the trust, and the 2024 Forms 990-PF of both.'
+  sweep: recheck
+- id: tr-2488-unconfirmed
+  kind: recheck
+  about: references/2488
+  text: 'Recheck 2026-10-05: not found on the page as re-read: hewlett.org/wp-content/uploads/2025/08/2024-Audited-Financials.pdf
+    is disallowed by robots.txt.'
+  sweep: recheck
+- id: tr-2502-unconfirmed
+  kind: recheck
+  about: references/2502
+  text: 'Recheck 2026-10-05: not found on the page as re-read: Note 1 of the 2025 audited statements calls the body "Gates
+    Foundation", says it "is organized as a charitable trust" and is "classified as a private foundation under Section 509(a)
+    of the Internal Revenue Code", and has'
+  sweep: recheck
+- id: tr-2505-unconfirmed
+  kind: recheck
+  about: references/2505
+  text: 'Recheck 2026-10-05: not found on the page as re-read: State of organisation, tax status and address were not returned.'
+  sweep: recheck
+- id: tr-2511-unconfirmed
+  kind: recheck
+  about: references/2511
+  text: 'Recheck 2026-10-05: not found on the page as re-read: The address EfileData/XmlFiles/202641359349103099_public.xml
+    in the lake returned HTTP 404 on 2026-10-04; the reason was not established.'
+  sweep: recheck
+- id: tr-2512-unconfirmed
+  kind: recheck
+  about: references/2512
+  text: 'Recheck 2026-10-05: not found on the page as re-read: No tax status is stated.'
+  sweep: recheck

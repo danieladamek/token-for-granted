@@ -1,5 +1,6 @@
 # programs.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: nih-parent-announcements
   name: NIH parent announcements (investigator-initiated applications)
   family: research
@@ -8940,7 +8941,9 @@
         $1,750,000 [577].
     - id: HHS-2025-ACL-NIDILRR-IFRE-0104
       closes: '2024-12-09'
-      note: FY2025 competition; 8 expected research awards; total estimated funding $2,000,000 [578].
+      note: FY2025 competition; total estimated funding $2,000,000; the notice says NIDILRR plans to make 15 Field Initiated
+        Projects awards in 2025, research and development applications together (the first reading returned 8 expected research
+        awards) [578].
   awards:
   - label: per 12-month budget period (floor $245,000)
     amount: $250,000
@@ -22904,7 +22907,7 @@
       closes: '2026-07-16'
       note: Archived August 15, 2026 [1202].
   awards:
-  - label: award ceiling (44 awards expected)
+  - label: shown under Award Minimum on the listing, which gives no maximum (44 awards expected)
     amount: $350,000
     cite:
     - 1202
@@ -29170,8 +29173,8 @@
     Partnership page [1366].
   cycle:
     pattern: Each council sets its own programmes and deadlines; NEH's page lists none [1366]. NEH says it sets each council's
-      annual funding by a legislatively mandated formula; the councils' application was due April 6, 2026 for a period of
-      performance of November 1, 2026 to May 1, 2027 [1484]. NEH's FY 2026 spend plan shows $34.8 million for the Federal/State
+      annual funding by a legislatively mandated formula; the councils' application was due April 6, 2026, with a project
+      start date of November 1, 2026 or May 1, 2027 [1484]. NEH's FY 2026 spend plan shows $34.8 million for the Federal/State
       Partnership, held in escrow due to pending litigation [1485].
     current_notices: []
   portal: https://www.neh.gov/divisions/fedstate
@@ -33317,8 +33320,9 @@
   - 1562
   - 1563
   conflicts:
-  - 'ONR announcement number: N0001426SF004 on the ONR list page [335] vs N0001426SF003 on the announcement page and Grants.gov
-    [1560] [1562].'
+  - 'ONR announcement number: N0001426SF003 on the announcement page and Grants.gov [1560] [1562]. The first reading of
+    the ONR list page took N0001426SF004 for DURIP; re-read on 2026-10-05, the list gives that number to the Young Investigator
+    Program [335].'
   - 'Ceiling: $3,000,000 [1562] vs an award range of $50,000 – $7,000,000 on the AFOSR listing [1561]; the announcement
     says AFOSR will not consider requests exceeding $7,000,000 [1563].'
   sweep: capacity-A
@@ -37367,8 +37371,9 @@
     - id: FG-26-099
       opens: '2026-06-12'
       closes: unknown
-      note: Award ceiling $2,980,000; no cost sharing; the listing gives no closing date and shows the notice archived on
-        August 12, 2026 [1688]. The Grants.gov search listing gives a close date of Jul 13, 2026 [1759].
+      note: The listing shows $2,980,000 under Award Minimum and no Award Maximum; no cost sharing; the listing gives no
+        closing date and shows the notice archived on August 12, 2026 [1688]. The Grants.gov search listing gives a close
+        date of Jul 13, 2026 [1759].
   awards:
   - label: FY 2026 estimated total, 79 expected awards
     amount: $54,311,000
@@ -37745,7 +37750,8 @@
     - id: PDR-2600-DC-0006
       opens: '2026-11-05'
       closes: '2027-02-03'
-      note: Forecast dates, posted September 16, 2026; 45 expected awards; estimated total $86,000,000 [1715].
+      note: Forecast dates, posted September 16, 2026; 60 expected awards; estimated total $115,640,000, as the listing
+        stood after its update of October 2, 2026 (the first reading returned 45 awards and $86,000,000) [1715].
   awards:
   - label: per award, forecast
     amount: $250,000 to $35,000,000

@@ -1,5 +1,6 @@
 # mechanics.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: nih-standard-due-dates
   name: Standard due dates and the three review cycles
   what: Each activity code has three due dates a year; applications are due by 5:00 PM local time of the applicant organization,
@@ -2904,15 +2905,16 @@
     changes in approved cost sharing; a need for additional federal funds; and a no-cost extension beyond the one-time extension
     [1815]. An agency may also restrict transfers among cost categories where the Federal share exceeds the simplified acquisition
     threshold and the cumulative transfer exceeds or is expected to exceed 10 percent of the total budget [1815]. The agency
-    must tell the recipient within 30 days of receipt whether a requested revision is approved [1815]. 2 CFR 200.407 lists
-    sixteen sections where prior written approval is a condition of allowability, among them 200.306 cost sharing, 200.307
-    program income, 200.333 fixed amount subawards, 200.430(h) compensation, 200.431 fringe benefits, 200.439 equipment,
-    200.455 organization costs, 200.458 pre-award costs and 200.475 travel [1834]. For indirect costs the approval comes
-    from the cognizant agency for indirect costs [1834]. Absence of prior approval does not by itself make a cost unreasonable
-    or unallocable unless one of the listed sections requires it [1834]. The eCFR's version record for part 200, read on
-    2026-10-04, gives October 1, 2024 as the latest amendment date of the part; the only later issues are of 200.1, 200.405,
-    Appendix VII and Appendix XII, each marked not substantive [2103]. The eCFR text of 200.308 current to 10/01/2026 has
-    the same figures on project director time, budget transfers and the 30-day agency response [2118].
+    should notify the recipient within 30 days of receipt whether a requested revision is approved; the section says should,
+    not must [1815]. 2 CFR 200.407 lists sixteen sections where prior written approval is a condition of allowability, among
+    them 200.306 cost sharing, 200.307 program income, 200.333 fixed amount subawards, 200.430(h) compensation, 200.431
+    fringe benefits, 200.439 equipment, 200.455 organization costs, 200.458 pre-award costs and 200.475 travel [1834]. For
+    indirect costs the approval comes from the cognizant agency for indirect costs [1834]. Absence of prior approval does
+    not by itself make a cost unreasonable or unallocable unless one of the listed sections requires it [1834]. The eCFR's
+    version record for part 200, read on 2026-10-04, gives October 1, 2024 as the latest amendment date of the part; the
+    only later issues are of 200.1, 200.405, Appendix VII and Appendix XII, each marked not substantive [2103]. The eCFR
+    text of 200.308 current to 10/01/2026 has the same figures on project director time, budget transfers and the 30-day
+    agency response [2118].
   figures:
   - label: reduction in project director time that needs approval
     value: 25 percent, or disengagement for more than three months

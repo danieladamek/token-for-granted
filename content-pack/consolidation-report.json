@@ -332,11 +332,11 @@
   "help": 146,
   "mechanics": 272,
   "changes": 524,
-  "todo": 798
+  "todo": 902
  },
  "todo_by_kind": {
-  "conflict": 119,
-  "recheck": 231,
+  "conflict": 124,
+  "recheck": 330,
   "unverified": 106,
   "gap": 342
  },
@@ -506,5 +506,17 @@
   "mechanics/nih-highlighted-topics",
   "mechanics/samhsa-notice-six-steps"
  ],
+ "recheck": {
+  "blocked": 12,
+  "cleared": 2410,
+  "fact C": 9289,
+  "fact N": 120,
+  "fact S": 559,
+  "fact X": 5,
+  "quote N": 14,
+  "quote P": 75,
+  "quote V": 2618,
+  "still flagged": 90
+ },
  "queries": 615
 }

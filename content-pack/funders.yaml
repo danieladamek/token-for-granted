@@ -1,5 +1,6 @@
 # funders.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: nih
   name: National Institutes of Health
   funder_kind: federal
@@ -7280,7 +7281,7 @@
   giving:
   - amount: $585,449,878
     year: 2024
-    basis: grants expense, consolidated audited statements
+    basis: net grants (gross grants $676,659,064 less amounts distributed on behalf of others), consolidated audited statements
     cite:
     - 2431
   - amount: $353,684,313

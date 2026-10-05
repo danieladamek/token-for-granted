@@ -1,4 +1,4 @@
-# Taken for Granted content pack — extension schema (draft v0.7, 2026-10-04)
+# Taken for Granted content pack — extension schema (draft v0.8, 2026-10-05)
 
 Taken for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -376,3 +376,28 @@ Statuses still missing from the vocabulary and recorded in prose: a declaratory 
 A foundation programme record uses the programme layout with `funder_kind: foundation`, and its `family` is whichever of research, people, programme-service or capacity fits the award, so foundation programmes sit beside federal ones.
 
 Figures for giving and assets came first from ProPublica's summaries of the filings; for the twelve largest the foundation's own statement was added. Where the two differ both are kept, with a `conflict` todo.
+
+## Added in v0.8, after the recheck
+
+The recheck re-read every source against its live page and put each stored quote and fact to it. Its results are fields on the reference; no record file changes shape.
+
+```yaml
+# references.yaml — added by the recheck
+rechecked: '2026-10-05'        # the date the page was re-read; absent when the page refused
+recheck_result:
+  fetch: ok                    # ok | blocked (with reason)
+  partial: true                # the fetch returned only part of the page; the verdict covers that part
+  quotes_dropped: 1            # quotes not found word for word, removed from quotes
+  by_hand: 1                   # facts whose code rests on a re-read by hand
+fact_check: [C, C, S, N]       # one code per key_facts entry, in order:
+                               #   C  the page states all of it
+                               #   S  the page states part of it and contradicts none of it
+                               #   N  not found on the page as re-read
+                               #   X  the page says something different (a tr-<n>-f<i> todo gives the page's wording)
+                               #   -  not re-read (the page refused, or the fact was edited after the recheck)
+recheck: false                 # true while any fact is N, X or -, or the page refused
+```
+
+`quotes` now holds only quotes found word for word on the second reading, except on a page that refused, where the first extraction stands. A todo whose id starts `tr-` comes from the recheck: `tr-<n>-f<i>` (kind `conflict`) for a contradicted fact, `tr-<n>-unconfirmed` (kind `recheck`) for facts not found, `tr-<n>-blocked` (kind `recheck`) for a page that refused. Their `about` is `references/<n>`.
+
+A site built from this pack should show a record's figure with less confidence when the reference behind it is still flagged, and should not print a quote from a reference whose page refused without saying so.

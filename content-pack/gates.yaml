@@ -1,5 +1,6 @@
 # gates.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: sam-registration
   name: SAM.gov entity registration
   what: SAM.gov, run by the General Services Administration, is the federal registry in which an organisation must hold
@@ -2575,7 +2576,7 @@
   - Disclosures use the uniform Disclosure Certification Statement in Appendix A to the subpart [2096].
   renewal: Covered individuals update their disclosures annually and as soon as practicable, but not later than 15 days,
     after a new conflict arises; refresher training is required at least every two years; organisational conflicts are reported
-    within 15 business days of discovery [2096].
+    within fifteen days of learning of the conflict [2096].
   common_problems: DOE declined commenters' request for a one-year lead time and made the rule effective 30 days after publication
     [2096]. The two-year training cycle differs from the four-year cycle commenters asked DOE to match [2096].
   official_url: https://www.federalregister.gov/documents/2026/07/16/2026-14333/financial-assistance-regulations-conflict-of-interest-and-conflict-of-commitment-policy-requirements

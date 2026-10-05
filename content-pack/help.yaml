@@ -1,5 +1,6 @@
 # help.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: sponsored-programs-office
   name: The applicant organization's sponsored programmes office
   what: NIH's help and planning pages send applicants first to their own organization's office of sponsored research, which

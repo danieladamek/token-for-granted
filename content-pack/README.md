@@ -1,10 +1,10 @@
 # Taken for Granted — content pack
 
-State on 2026-10-04: **all six sweep families are in** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. Nothing here has been through the recheck pass, and the pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `routes.yaml`, `glossary.yaml`, `concepts/`, `figures.yaml` or `pathfinder.yaml`.
+State on 2026-10-05: **all six sweep families are in, and every source has been through the recheck pass** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `routes.yaml`, `glossary.yaml`, `concepts/`, `figures.yaml` or `pathfinder.yaml`.
 
 | File | Count | Note |
 |---|---|---|
-| `references.yaml` | 2512 | 2412 primary, 100 secondary; 377 read in full, 2132 in part, 3 not fetched; 2492 cited by a record. All flagged `recheck: true`. Numbers 1–726 are research, 727–1106 people, 1107–1512 programme-service, 1513–1798 capacity, 1799–2118 rules, 2119–2512 foundations; they do not move. |
+| `references.yaml` | 2512 | 2412 primary, 100 secondary; 377 read in full, 2132 in part, 3 not fetched; 2492 cited by a record. Rechecked 2026-10-05: 2410 cleared (`recheck: false`), 102 still flagged (12 pages that refused, 90 with an item the second reading did not confirm). 2636 quotes, all verbatim on the second reading or on a page that refused. Numbers 1–726 are research, 727–1106 people, 1107–1512 programme-service, 1513–1798 capacity, 1799–2118 rules, 2119–2512 foundations; they do not move. |
 | `programs.yaml` | 565 | 524 federal and 41 foundation programmes; by family: research 145, people 154, programme-service 141, capacity 125 |
 | `funders.yaml` | 159 | 94 federal and congressionally created funders, 65 foundations and other private grantmakers |
 | `standing.yaml` | 113 | jurisdiction lists, institution designations, non-profit tax standing, the kinds of foundation |
@@ -12,10 +12,32 @@ State on 2026-10-04: **all six sweep families are in** — research project gran
 | `help.yaml` | 146 | |
 | `mechanics.yaml` | 272 | |
 | `changes.yaml` | 524 | dated ledger, 2025–26 |
-| `todo.yaml` | 798 | gap 342, recheck 231, unverified 106, conflict 119 |
+| `todo.yaml` | 902 | gap 342, recheck 330, unverified 106, conflict 124; the 104 with ids starting `tr-` come from the recheck |
 | `queries.yaml` | 615 | every search run, by slice |
-| `EXTENSIONS.md` | | the schema, draft v0.7 |
+| `EXTENSIONS.md` | | the schema, draft v0.8 |
 | `consolidation-report.json` | | counts and integrity checks from the last consolidation |
+
+## The recheck (2026-10-05)
+
+Each of the 2,512 sources was fetched again and its stored quotes and facts put to the page, one source at a time (`source/recheck/PROTOCOL.md`; verdicts in `source/recheck/verdicts-*.jsonl`).
+
+| | Count | Share |
+|---|---|---|
+| Pages re-read | 2,500 of 2,512 | 99.5% |
+| Pages that refused (nine eCFR sections, two acf.gov pages, one pcori.org page) | 12 | |
+| Quotes found word for word | 2,618 of 2,707 put to a page | 96.7% |
+| Quotes not word for word, removed from the pack | 89 | |
+| Facts confirmed in full | 9,289 of 9,973 put to a page | 93.1% |
+| Facts confirmed in part, nothing contradicted | 559 | 5.6% |
+| Facts not found on the page as re-read | 120 | 1.2% |
+| Facts the page contradicts, still open | 5 | |
+| Facts corrected after a second reading by hand | 14 | |
+
+Three limits on what this shows. The second reading went through the same summarising fetch layer as the first, so it is a second opinion and not a reading of raw pages. For 1,077 sources the fetch returned only part of the page (long PDFs, rules, paged lists), and the verdict covers the part returned. And the fetch layer's "contradicted" verdicts were often wrong: of 38, 14 were differences of label or wording, 4 were misreadings shown by a re-read by hand, 1 was a page date the fetch layer gave differently each time, 14 were real and are corrected, and 5 are still open. Eight confirmed facts drawn at random and re-asked by hand without stating the stored value all held.
+
+The 14 corrections are listed with their evidence in `source/recheck/corrections-applied.json`. They include: a HUD technical-assistance forecast that grew to 60 awards and $115,640,000; two SAMHSA listings whose figure sits under Award Minimum, not the ceiling; 2 CFR 200.308, where the agency "should", not "must", answer a revision request within 30 days; and the DOE conflict-of-interest rule's fifteen days, not fifteen business days.
+
+Each reference now carries `rechecked`, `recheck_result`, `fact_check` (one code per key fact: C confirmed, S in part, N not found, X contradicted, - not re-read) and `recheck` (true while an item is unconfirmed).
 
 ## Foundations
 
@@ -50,7 +72,7 @@ Every citation in a record resolves to a reference. No record id is used twice. 
 
 ## Known debts
 
-- The recheck pass has not run. Every quote and figure came through a summarising fetch layer.
+- The recheck ran through the same summarising fetch layer as the sweeps. 102 references stay flagged: 12 pages refused (nine eCFR sections among them, which were answering 503 on the day) and 90 hold a fact the second reading did not find. Five contradictions are open (`tr-*-f*` in `todo.yaml`).
 - Programme `status` is not yet filled on the 131 federal research records.
 - 106 facts rest on a non-primary source and are marked `unverified`; 119 conflicts between sources are open, among them nine foundation asset or giving figures where the foundation's own statement and its filing summary differ.
 - Three sections of 2 CFR Part 200 rest on GovInfo's January 1, 2025 edition; OMB's proposed rewrite was read only in part.
@@ -59,4 +81,4 @@ Every citation in a record resolves to a reference. No record id is used twice. 
 
 ## How it was made
 
-`source/sweeps/SWEEP-BRIEF-*.md` are the briefs the sweep agents read. `python3 source/sweeps/consolidate.py source/sweeps content-pack` rebuilds every file above from the sweep files and `overrides.yaml`; it renumbers, merges and relabels, and adds no facts.
+`source/sweeps/SWEEP-BRIEF-*.md` are the briefs the sweep agents read. `python3 source/sweeps/consolidate.py source/sweeps content-pack` rebuilds every file above from the sweep files and `overrides.yaml`; it renumbers, merges and relabels, applies the recheck verdicts in `source/sweeps/recheck.json`, and adds no facts. `source/recheck/build_recheck.py` writes that file from the verdict files and `adjudications.json`.

@@ -1,5 +1,6 @@
 # changes.yaml — Taken for Granted content pack. Written by source/sweeps/consolidate.py from the sweep files; schema in EXTENSIONS.md.
-# Every quote and figure came through a summarising fetch layer and is flagged recheck until read against the live page.
+# Every quote and figure came through a summarising fetch layer. Each source was re-read against its live page on the date in its
+# rechecked field (source/recheck/); recheck: true marks a source with an item the second reading did not confirm.
 - id: ch-nih-simplified-review-2025
   date: '2025-01-25'
   what: 'The simplified peer review framework took effect for due dates from January 25, 2025: two factors scored 1 to 9
@@ -1465,8 +1466,8 @@
   date: '2025-09-30'
   what: Plaintiffs in Society of General Internal Medicine v. Kennedy state that AHRQ issued no new-project awards from
     April 1 to mid-August 2025 and approved 67 continuation awards by September 30, 2025, spending about $94 million of
-    a $369 million FY2025 appropriation; defendants moved to dismiss the suit as moot. These are a party's statements, not
-    court findings, and no ruling on the motion was read [524].
+    a $369 million FY2025 appropriation; defendants moved to dismiss the suit, and plaintiffs write that defendants do not
+    directly argue mootness. These are a party's statements, not court findings, and no ruling on the motion was read [524].
   status: final
   affects:
   - ahrq
@@ -3763,11 +3764,11 @@
   date: '2025-12-20'
   what: 'HUD posted a separate FY2025 Continuum of Care notice on December 20, 2025; its listing states that HUD understands
     the notice to be enjoined and will not implement or enforce it pending further court order [1350]. Plaintiffs'' counsel
-    dates the preliminary injunction December 23, 2025 and a summary-judgment ruling June 29, 2026 [1288]. HUD announced
-    FY2025 renewal awards on March 31, April 27 and May 21, 2026 [1283]. The court''s order is dated December 23, 2025:
-    it stayed and preliminarily enjoined HUD''s rescission of the FY 2024 and FY 2025 notice and stayed the 2025 notice
-    [1476]. On June 29, 2026 the court set aside HUD''s November 2025 and December 2025 notices under the Administrative
-    Procedure Act and denied a permanent injunction [1477].'
+    dates the preliminary injunction December 23, 2025 and a ruling of June 29, 2026 that HUD violated federal law when
+    it issued its 2025 grant notices [1288]. HUD announced FY2025 renewal awards on March 31, April 27 and May 21, 2026
+    [1283]. The court''s order is dated December 23, 2025: it stayed and preliminarily enjoined HUD''s rescission of the
+    FY 2024 and FY 2025 notice and stayed the 2025 notice [1476]. On June 29, 2026 the court set aside HUD''s November 2025
+    and December 2025 notices under the Administrative Procedure Act and denied a permanent injunction [1477].'
   status: vacated
   affects:
   - hud-continuum-of-care
@@ -4519,8 +4520,8 @@
 - id: ch-sd-neh-fedstate-fy2026-escrow
   date: '2026'
   what: NEH's FY 2026 spend plan shows $34.8 million for the Federal/State Partnership, held in escrow due to pending litigation
-    [1485]. NEH's programme page gave the councils an application deadline of April 6, 2026 for a period of performance
-    of November 1, 2026 to May 1, 2027 [1484].
+    [1485]. NEH's programme page gave the councils an application deadline of April 6, 2026 and a project start date of
+    November 1, 2026 or May 1, 2027 [1484].
   status: in-litigation
   affects:
   - neh-state-humanities-councils
