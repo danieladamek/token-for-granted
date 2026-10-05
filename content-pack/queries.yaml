@@ -206,35 +206,35 @@
   hits: 0, not performed
   date: '2026-10-04'
   slice: research-A
-- text: '`https://simpler.grants.gov/search?query=P01%20program%20project&status=posted`'
-  engine: 1 result
-  hits: '2026-10-04'
-  date: null
+- text: https://simpler.grants.gov/search?query=P01%20program%20project&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
   slice: research-A
-- text: '`https://simpler.grants.gov/search?query=P01&status=posted`'
-  engine: 1 result
-  hits: '2026-10-04'
-  date: null
+- text: https://simpler.grants.gov/search?query=P01&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 1 result
+  date: '2026-10-04'
   slice: research-A
-- text: '`https://simpler.grants.gov/search?query=R61%2FR33&status=posted`'
-  engine: 25 results
-  hits: '2026-10-04'
-  date: null
+- text: https://simpler.grants.gov/search?query=R61%2FR33&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 25 results
+  date: '2026-10-04'
   slice: research-A
-- text: '`https://simpler.grants.gov/search?query=R34%20planning%20grant&status=posted`'
-  engine: 5 results
-  hits: '2026-10-04'
-  date: null
+- text: https://simpler.grants.gov/search?query=R34%20planning%20grant&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 5 results
+  date: '2026-10-04'
   slice: research-A
-- text: '`https://simpler.grants.gov/search?query=U01%20Clinical%20Trial&status=posted`'
-  engine: 33 results
-  hits: '2026-10-04'
-  date: null
+- text: https://simpler.grants.gov/search?query=U01%20Clinical%20Trial&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 33 results
+  date: '2026-10-04'
   slice: research-A
-- text: '`https://simpler.grants.gov/search?query=Parent%20R01&status=posted`'
-  engine: 2 results
-  hits: '2026-10-04'
-  date: null
+- text: https://simpler.grants.gov/search?query=Parent%20R01&status=posted
+  engine: WebFetch of the Grants.gov search page
+  hits: 2 results
+  date: '2026-10-04'
   slice: research-A
 - text: NSF "Guidance on Financial Assistance" Federal Register notice comment August 24, 2026
   engine: WebSearch

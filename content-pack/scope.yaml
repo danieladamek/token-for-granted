@@ -48,13 +48,142 @@ stance: navigation-with-provenance
 depth: deep
 anchors:
 - citation: FAR Out, the sister guide (danieladamek/far-out)
+  url: https://danieladamek.github.io/far-out/
   why: Daniel asked for something very much like it; its spine, reading level and provenance rules were carried over
+  refs: []
 - citation: 2 CFR part 200, the Uniform Guidance
   why: the rulebook beneath every federal award; chosen by the builder
-- citation: Grants.gov, the NIH Grants Policy Statement and the NSF PAPPG
-  why: the official front door and the two largest research funders' policy guides; chosen by the builder
+  refs:
+  - 1799
+  - 1800
+  - 1801
+  - 1802
+  - 1805
+  - 1806
+  - 1807
+  - 1808
+  - 1809
+  - 1810
+  - 1811
+  - 1812
+  - 1813
+  - 1814
+  - 1815
+  - 1816
+  - 1817
+  - 1818
+  - 1819
+  - 1820
+  - 1821
+  - 1822
+  - 1823
+  - 1824
+  - 1825
+  - 1826
+  - 1827
+  - 1828
+  - 1829
+  - 1830
+  - 1831
+  - 1832
+  - 1833
+  - 1834
+  - 1835
+  - 1836
+  - 1837
+  - 1838
+  - 1839
+  - 1840
+  - 1841
+  - 1842
+  - 1843
+  - 1844
+  - 1845
+  - 1846
+  - 1847
+  - 1848
+  - 1849
+  - 1850
+  - 1885
+  - 1886
+  - 1887
+  - 1894
+  - 1939
+  - 1940
+  - 2023
+  - 2034
+  - 2068
+  - 2069
+  - 2070
+  - 2071
+  - 2091
+  - 2102
+  - 2105
+  - 2116
+  - 2117
+  - 2118
+- citation: Grants.gov
+  why: the official front door for federal funding notices; chosen by the builder
+  refs:
+  - 1880
+  - 1895
+  - 1896
+  - 1915
+  - 1916
+  - 1917
+  - 1918
+  - 1965
+  - 1966
+  - 2064
+  - 2074
+  - 2075
+- citation: NIH Grants Policy Statement
+  why: the policy guide of the largest research funder; chosen by the builder
+  refs:
+  - 35
+  - 64
+  - 106
+  - 107
+  - 139
+  - 145
+  - 768
+  - 769
+  - 1090
+  - 2081
+  - 2088
+- citation: NSF Proposal and Award Policies and Procedures Guide (PAPPG)
+  why: NSF's policy guide; chosen by the builder
+  refs:
+  - 147
+  - 148
+  - 156
+  - 157
+  - 250
+  - 257
+  - 258
+  - 259
+  - 260
+  - 261
+  - 1955
+  - 2004
 - citation: IRS pages on private foundations and Form 990-PF
   why: the legal ground for the foundation records; chosen by the builder
+  refs:
+  - 2054
+  - 2237
+  - 2375
+  - 2376
+  - 2379
+  - 2381
+  - 2386
+  - 2387
+  - 2388
+  - 2410
+  - 2467
+  - 2468
+  - 2469
+  - 2470
+  - 2471
 excluded:
 - what: law-firm, association and trade-press commentary as a source of fact
   why: carried only as pointers to a primary source or as flags of a pending change; labelled secondary
@@ -370,40 +499,40 @@ search_strategy:
     hits_as_noted: 0, not performed
     run_on: '2026-10-04'
     slice: A — research funders and programmes
-  - q: '`https://simpler.grants.gov/search?query=P01%20program%20project&status=posted`'
-    source: 1 result
-    hits: 2026
-    hits_as_noted: '2026-10-04'
+  - q: https://simpler.grants.gov/search?query=P01%20program%20project&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
     run_on: '2026-10-04'
     slice: A — research funders and programmes
-  - q: '`https://simpler.grants.gov/search?query=P01&status=posted`'
-    source: 1 result
-    hits: 2026
-    hits_as_noted: '2026-10-04'
+  - q: https://simpler.grants.gov/search?query=P01&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 1
+    hits_as_noted: 1 result
     run_on: '2026-10-04'
     slice: A — research funders and programmes
-  - q: '`https://simpler.grants.gov/search?query=R61%2FR33&status=posted`'
-    source: 25 results
-    hits: 2026
-    hits_as_noted: '2026-10-04'
+  - q: https://simpler.grants.gov/search?query=R61%2FR33&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 25
+    hits_as_noted: 25 results
     run_on: '2026-10-04'
     slice: A — research funders and programmes
-  - q: '`https://simpler.grants.gov/search?query=R34%20planning%20grant&status=posted`'
-    source: 5 results
-    hits: 2026
-    hits_as_noted: '2026-10-04'
+  - q: https://simpler.grants.gov/search?query=R34%20planning%20grant&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 5
+    hits_as_noted: 5 results
     run_on: '2026-10-04'
     slice: A — research funders and programmes
-  - q: '`https://simpler.grants.gov/search?query=U01%20Clinical%20Trial&status=posted`'
-    source: 33 results
-    hits: 2026
-    hits_as_noted: '2026-10-04'
+  - q: https://simpler.grants.gov/search?query=U01%20Clinical%20Trial&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 33
+    hits_as_noted: 33 results
     run_on: '2026-10-04'
     slice: A — research funders and programmes
-  - q: '`https://simpler.grants.gov/search?query=Parent%20R01&status=posted`'
-    source: 2 results
-    hits: 2026
-    hits_as_noted: '2026-10-04'
+  - q: https://simpler.grants.gov/search?query=Parent%20R01&status=posted
+    source: WebFetch of the Grants.gov search page
+    hits: 2
+    hits_as_noted: 2 results
     run_on: '2026-10-04'
     slice: A — research funders and programmes
   - q: NSF "Guidance on Financial Assistance" Federal Register notice comment August 24, 2026

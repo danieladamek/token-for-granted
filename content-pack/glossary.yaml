@@ -5979,7 +5979,9 @@
     lapsed, was archived or was ended early, and nothing replaces it); not-competed; no-current-notice; formula (money allotted
     by formula or block grant, with no federal competition a non-profit can enter); and unconfirmed (the pages would not
     load or do not settle the question). A programme with several notices takes the status of the notice a new applicant
-    would use. A status is a reading on one day and goes out of date quickly.'
+    would use. A status is a reading on one day and goes out of date quickly. An example of how a label is reached: NIH''s
+    parent R01 notice, PA-25-301, was posted on December 18, 2024 and expires on January 08, 2028, so the record for the
+    R01 carried the label open when its pages were read on October 5, 2026 [4].'
   concept: reading-a-funding-notice
   see:
   - no-current-notice
@@ -5987,7 +5989,8 @@
   - forecast
   - formula-grant
   - nofo
-  sources: []
+  sources:
+  - https://grants.nih.gov/grants/guide/pa-files/PA-25-301.html
   domain: status
   own_label: true
 - id: no-current-notice
