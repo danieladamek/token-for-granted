@@ -1,10 +1,11 @@
 # Token for Granted — content pack
 
-State on 2026-10-05: **all six sweep families are in, every source from the sweeps has been through the recheck pass, every programme has a status, and the routes and the pathfinder are written** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `glossary.yaml`, `concepts/` or `figures.yaml`.
+State on 2026-10-05: **all six sweep families are in, every source from the sweeps has been through the recheck pass, every programme has a status, the routes and the pathfinder are written, and the guide's main text is written** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `glossary.yaml`, `concepts/` (the primers) or `figures.yaml`.
 
 | File | Count | Note |
 |---|---|---|
 | `references.yaml` | 2563 | 2463 primary, 100 secondary; 380 read in full, 2180 in part, 3 not fetched; 2541 cited by a record. Rechecked 2026-10-05: 2397 cleared (`recheck: false`), 166 still flagged: 12 pages that refused, 90 with an item the second reading did not confirm, and 64 from the status pass (51 pages read once on 2026-10-05, after the recheck, and 13 earlier pages to which that pass added a fact). 2653 quotes. Numbers 1–726 are research, 727–1106 people, 1107–1512 programme-service, 1513–1798 capacity, 1799–2118 rules, 2119–2512 foundations, 2513–2563 the status pass; they do not move. |
+| `review.md` | 12 sections | the guide's main text: an abstract and eleven sections, about 11,600 words, 416 references cited, 35 sentences marked as synthesis. Written by hand and by section writers from the pack's records; not produced by `consolidate.py` |
 | `routes.yaml` | 45 | 6 entry routes, then research 13, people 9, programme-service 10, capacity 7; every programme is on at least one |
 | `pathfinder.yaml` | | four questions, the ranking rule, the display rules, and for each route the counts the ranking uses |
 | `programs.yaml` | 565 | 524 federal and 41 foundation programmes; by family: research 145, people 154, programme-service 141, capacity 125 |
@@ -46,6 +47,16 @@ Each reference now carries `rechecked`, `recheck_result`, `fact_check` (one code
 65 funder records. How each takes requests, in its own words: open-call-only 23, invitation-only 23, letter-of-inquiry 10, accepted 6, not-stated 3. The 41 foundation programmes with their own competition: closed 24, open 12, forecast 3, unconfirmed 2.
 
 The selection is editorial: the largest national grantmakers that fund universities or non-profits, spread across kinds and fields, with examples of community and corporate foundations. It is a sample, and the site must say so.
+
+## The main text (`review.md`)
+
+Eleven sections and an abstract: why the word "grant" covers several systems; how grant money moves; the rules underneath; the research funders; money that follows a person; funding a programme or a service; foundations; standing and capacity; the gates; what changed in 2025–26; and how to read the material. The outline was shown to the author on 2026-10-05 before any prose was written.
+
+Sections 2 to 10 were drafted by nine writers, each from a file of the pack records its section rests on (`source/review/input-N.yaml`) under one brief (`source/review/REVIEW-BRIEF.md`), and checked by `source/review/check_section.py`: every paragraph of 25 words or more cited, every cited number present in the section's input, no advice, no second person. The editor read every section in full, made seven edits (among them replacing a statement the status pass had overtaken, and taking the pack's own bookkeeping out of the prose), and wrote the abstract and sections 1 and 11. `source/review/section-N.md` are the drafts and `source/review/edited/` the text as assembled.
+
+Twenty-four of the 416 references the text cites are still flagged by the recheck, among them the eCFR pages for 2 CFR 200.1, 200.204 and 200.414, which refused every re-reading. Three rules the text leans on were re-read by hand on 2026-10-05 in GovInfo's 2025 edition of title 2 and held: negotiated rates must be accepted and the de minimis rate is up to 15 percent (200.414), the single audit threshold is $1,000,000 (200.501), and 200.340 lists four grounds for termination and does not contain the words "for convenience".
+
+The primers (`concepts/`) will carry no self-check questions: the author asked for that on 2026-10-05, and the builder now treats the questions as something to add (`manifest.concept_self_checks`, default `false`).
 
 ## Routes and the pathfinder
 
