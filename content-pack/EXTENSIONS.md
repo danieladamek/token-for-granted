@@ -1,4 +1,4 @@
-# Token for Granted content pack — extension schema (draft v0.8, 2026-10-05)
+# Token for Granted content pack — extension schema (draft v0.9, 2026-10-05)
 
 Token for Granted is `mode: topic` with extension files, on the pattern FAR Out set (`apps/far-out/content-pack/EXTENSIONS.md`). Standard files follow docs/CONTENT-PACK.md (manifest.yaml, scope.yaml, review.md, references.yaml, glossary.yaml, concepts/, figures.yaml, todo.yaml). This file says only what differs from FAR Out. Every field marked *cited* carries `[n]` markers; an uncited prose block fails the build.
 
@@ -401,3 +401,18 @@ recheck: false                 # true while any fact is N, X or -, or the page r
 `quotes` now holds only quotes found word for word on the second reading, except on a page that refused, where the first extraction stands. A todo whose id starts `tr-` comes from the recheck: `tr-<n>-f<i>` (kind `conflict`) for a contradicted fact, `tr-<n>-unconfirmed` (kind `recheck`) for facts not found, `tr-<n>-blocked` (kind `recheck`) for a page that refused. Their `about` is `references/<n>`.
 
 A site built from this pack should show a record's figure with less confidence when the reference behind it is still flagged, and should not print a quote from a reference whose page refused without saying so.
+
+## Added in v0.9, after the status pass
+
+The 131 federal research records were written before `status` was a field. A status pass on 2026-10-05 read each programme's notice or listing and recorded its state. The findings live beside the sweep files in `status-research-?.yaml` and are applied at consolidation; a record that already had a status is left alone.
+
+```yaml
+# programs.yaml — added by the status pass
+status: forecast               # the vocabulary of v0.3 and v0.4, unchanged
+status_as_of: '2026-10-05'     # the day the page was read; absent on records whose status came with their sweep (use as_of)
+status_note: '… [n]'           # one or two cited sentences: what the page showed
+next_date: '2026-12-14'        # the next date an applicant can act on, when a page gave one
+status_change: '… [n]'         # only when the page showed something the record's cycle did not: a new notice, a new date, an archived listing
+```
+
+`cycle` is left as the sweep wrote it. Where `status_change` is present, `cycle` is a day older than `status_note` and the two differ; the site should show the status fields first. Pages the status pass read are references 2513 onward, with `sweep: status-A` to `status-C`; they were read once and are flagged `recheck: true`.

@@ -3475,20 +3475,27 @@
   - 'Most recent announcement of awards cited on the page: 67 awards totaling over $207 million (FY 2025), a figure the
     page gives for the programme set.'
   - Page last reviewed September 14, 2026.
+  - States that there are no open funding announcements
+  - Gives no date for the next funding opportunity and no statement that the programme is paused or ended
   quotes:
   - Supports individuals or teams proposing transformative projects that are inherently risky and untested but have the
     potential to create or overturn fundamental paradigms.
+  - No open funding announcements. Check the funding opportunities page for past announcements and information about future
+    announcements.
   cited_in:
   - programs/nih-tr01-transformative
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-A
   sweep_ids:
   - ra-cf-tra
+  - sta-cf-tra
   fact_check:
   - S
   - C
   - C
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -3511,21 +3518,28 @@
   - Degree or clinical training completed within 16 months before application, or expected within 12 months after.
   - Current notice RFA-RM-27-004.
   - Page last reviewed September 14, 2026.
+  - States that there are no open funding announcements
+  - Gives no date for the next funding opportunity and no statement that the programme is paused or ended
   quotes:
   - Limit of 2 applications per institution.
   - $350,000 direct costs per year for up to 5 years.
   - Requires 9.6 months of research effort each year for first 2 years.
+  - No open funding announcements. Check the funding opportunities page for past announcements and information about future
+    announcements.
   cited_in:
   - programs/nih-dp5-early-independence
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-A
   sweep_ids:
   - ra-cf-early-independence
+  - sta-cf-early-independence
   fact_check:
   - C
   - C
   - C
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -13223,6 +13237,8 @@
     date.
   key_facts:
   - ARPA-E funding notices moved to the consolidated DOE eXCHANGE at exchange.energy.gov.
+  - No funding opportunities are listed on the page as returned.
+  - The page states that the site has been decommissioned and consolidated into one platform, eXCHANGE.energy.gov.
   quotes:
   - has been decommissioned
   cited_in:
@@ -13232,13 +13248,16 @@
   - gates/doe-exchange
   - changes/arpa-e-exchange-consolidated
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-C
   sweep_ids:
   - rc-doe-exchange-decommission
+  - stb-arpae-exchange-notice
   date_note: undated page; year is the year accessed
   fact_check:
   - S
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -13259,8 +13278,14 @@
     list of opportunities.
   key_facts:
   - eXCHANGE is used to publish DOE funding opportunities and to manage applications.
+  - The page describes eXCHANGE as the Department of Energy's platform for publishing funding opportunities and managing
+    the application lifecycle.
+  - No opportunity numbers, titles or deadlines appear on the home page as returned; they sit behind a 'View Funding Opportunities'
+    link.
   quotes:
   - the Department of Energy's platform for publishing funding opportunities and managing the application lifecycle
+  - The eXCHANGE system is the Department of Energy's platform for publishing funding opportunities and managing the application
+    lifecycle.
   cited_in:
   - programs/doe-arpa-e-program-notices
   - programs/doe-applied-office-notices
@@ -13268,13 +13293,16 @@
   - gates/doe-exchange
   - changes/arpa-e-exchange-consolidated
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-C
   sweep_ids:
   - rc-doe-exchange-home
+  - stb-doe-exchange-home
   date_note: undated page; year is the year accessed
   fact_check:
   - C
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -15346,20 +15374,28 @@
   - Established in fiscal year 1999.
   - Appropriations of $4.341 billion from FY99–06 and FY08–25.
   - FY26 appropriation $370 million.
+  - The page gives '$370 million FY26'.
+  - It links to 'Topic Areas Offered by Year (FY21-26)'.
+  - No FY27 funding information appears on the page as returned.
   quotes:
   - Improve the health, care, and well-being of all military Service Members, Veterans, and their families
+  - $370 million FY26
   cited_in:
   - programs/dod-cdmrp-prmrp
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-C
   sweep_ids:
   - rc-cdmrp-prmrp-page
+  - stb-cdmrp-prmrp-home
   date_note: undated page; year is the year accessed
   fact_check:
   - C
   - C
   - C
+  - '-'
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -18160,20 +18196,27 @@
   key_facts:
   - Last modified 4/21/2026.
   - The division administers assistance and non-assistance programmes related to research, education, statistics and extension.
+  - The page says the division 'provides leadership and guidance for the administration of assistance and non-assistance
+    programs.'
+  - No notice, deadline or application cycle appears on the page as returned.
   quotes:
   - provides leadership and guidance for the administration of assistance and non-assistance programs related to research,
     education, statistics, and extension activities
+  - provides leadership and guidance for the administration of assistance and non-assistance programs.
   cited_in:
   - programs/usda-ars-non-assistance-cooperative-agreement
   - funders/usda-ars
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-D
   sweep_ids:
   - rd-ars-agreements-home
+  - stb-ars-agreements-home
   fact_check:
   - C
   - C
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -18651,19 +18694,24 @@
   - 16 Cooperative Institutes consisting of 80 universities and research institutions across 33 states, the District of
     Columbia, US territories and Canada.
   - Page last modified May 28, 2026.
+  - The page says the institutes 'conduct research that supports NOAA's Mission Goals and Strategic Plan'.
+  - No open, upcoming or recent notice of funding opportunity appears on the page as returned.
   quotes:
   - NOAA supports 16 Cooperative Institutes consisting of 80 universities, and research institutions across 33 states, the
     District of Columbia, US Territories, and Canada.
   cited_in:
   - programs/noaa-cooperative-institutes
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-D
   sweep_ids:
   - rd-noaa-ci-home
+  - stb-noaa-ci-home
   fact_check:
   - C
   - C
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -20545,19 +20593,25 @@
   key_facts:
   - One National CASC and nine regional CASCs.
   - News items on the page are dated August 11-14, 2026.
+  - The network is described as 'the National CASC and nine regional CASCs'.
+  - No funding opportunity, recompetition schedule or statement of a centre ending appears on the page as returned.
   quotes:
   - Our network is comprised of the National CASC and nine regional CASCs
+  - the National CASC and nine regional CASCs
   cited_in:
   - programs/usgs-casc-host
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-D
   sweep_ids:
   - rd-usgs-casc-home
+  - stb-usgs-casc-home
   date_note: undated page; year is the year accessed
   fact_check:
   - C
   - S
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -20971,19 +21025,26 @@
   key_facts:
   - Last updated 09/05/2023.
   - Each centre works under a cooperative agreement that provides annual management and research funding.
+  - The page has a section headed 'Active Centers of Excellence'.
+  - No notice of funding opportunity, deadline, or statement of termination or pause appears on the page as returned.
   quotes:
   - University-led research networks that anticipate threats and challenges to the homeland and operations.
+  - Each COE works under a cooperative agreement that provides annual management and research funding over the duration
+    of the award.
   cited_in:
   - programs/dhs-coe
   - funders/dhs-st
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-D
   sweep_ids:
   - rd-dhs-coe-page
+  - stb-dhs-coe-page
   fact_check:
   - C
   - C
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -21739,6 +21800,9 @@
   - Notes FORMS-I application forms for due dates on or after January 25, 2025.
   - 'Programme announcements table: No current open opportunities.'
   - Links to archives of closed or inactive RFAs and PAs.
+  - 'The announcements table reads: No current open opportunities.'
+  - The page links to closed and inactive RFAs and PAs and to an email list for grant announcements.
+  - No statement about a pause or about forthcoming announcements was returned.
   quotes:
   - No current open opportunities.
   - No current open opportunities
@@ -21746,6 +21810,7 @@
   - programs/ahrq-r01
   - programs/ahrq-r03
   - programs/ahrq-r18
+  - programs/ahrq-primary-care-r01
   - programs/ahrq-k08
   - programs/ahrq-k01
   - programs/ahrq-k18
@@ -21755,17 +21820,21 @@
   - mechanics/ahrq-special-emphasis-notice
   - changes/ch-re-2026-03-ahrq-early-expirations
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-E
   sweep_ids:
   - re-ahrq-fund-opps-index
   - pa-ahrq-fund-opps
+  - stc-ahrq-fund-opps-index
   fact_check:
   - C
   - C
   - C
   - C
   - C
+  - '-'
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -23922,20 +23991,32 @@
     Triangle.'
   - Awards began September 1, 2023, with a maximum of $50 million over 5 years.
   - Content current as of January 15, 2025.
+  - The current CERSI institutions were selected under RFA-FD-23-004.
+  - Awards began September 1, 2023, with a maximum of $50M over 5 years.
+  - 'Five centres are named: University of Maryland; Johns Hopkins University; UCSF-Stanford; Yale University-Mayo Clinic;
+    Research Triangle CERSI.'
+  - No end date for the agreements and no plan for a recompetition is stated.
   quotes:
   - selected and awarded through a competitive process for a cooperative agreement under RFA-FD-23-004.
+  - The current CERSI institutions were selected and awarded through a competitive process for a cooperative agreement under
+    RFA-FD-23-004.
   cited_in:
   - programs/fda-cersi
   - funders/fda
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-E
   sweep_ids:
   - re-fda-cersi-page
+  - stc-fda-cersi-page
   fact_check:
   - C
   - C
   - C
+  - '-'
+  - '-'
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -27903,10 +27984,14 @@
   - Lists Research Training Programs in the Education Sciences (84.305B) and Research Training Programs in Special Education
     (84.324B) for FY 2027.
   - No FY 2026 training competition is shown.
+  - 'FY 2027 competitions listed: 84.324S, 84.305B, 84.324B, 84.305D and 84.305S, each labelled Request for Applications.'
+  - Education Research Grants (84.305A) and Special Education Research Grants (84.324A) are not listed.
+  - No dates for future competitions are given on the page.
   quotes:
   - Future RFAs will be listed here as they are available
   - IES is not currently considering unsolicited prospectus submissions. Should this change in the future, we will post
     an update.
+  - Future RFAs will be listed here as they are available.
   cited_in:
   - programs/ies-education-research-grants
   - programs/ies-special-education-research-grants
@@ -27916,17 +28001,21 @@
   - changes/c-rf-ies-fy27-tranches
   - changes/ch-pd-ies-training-fy27
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-F
   sweep_ids:
   - rf-ies-funding
   - pd-ies-funding
+  - stc-ies-funding
   date_note: undated page; year is the year accessed
   fact_check:
   - C
   - S
   - C
   - C
+  - '-'
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -29431,6 +29520,11 @@
   - Archival Projects - final deadline November 5, 2025.
   - Publishing Historical Records in Collaborative Digital Editions - final deadline May 7, 2025.
   - State Board Programming Grants - final deadline May 7, 2025.
+  - 'Archival Projects: draft deadline August 15, 2025; final deadline November 5, 2025.'
+  - 'Publishing Historical Records in Collaborative Digital Editions: draft deadline February 18, 2025; final deadline May
+    7, 2025.'
+  - 'State Board Programming Grants: final deadline May 7, 2025.'
+  - No FY 2027 announcement or future cycle is named.
   quotes:
   - The application deadline for these programs has passed. You may use the following for informational purposes only.
   - For projects to publish documentary editions of historical records.
@@ -29442,12 +29536,13 @@
   - funders/nara-nhprc
   - changes/ch-cc-nhprc-no-later-cycle
   verified: true
-  recheck: false
+  recheck: true
   sweep: research-F
   sweep_ids:
   - rf-nhprc-announcement
   - pe-nara-nhprc-announcements
   - cc-nhprc-announcements
+  - stc-nhprc-announcement
   date_note: undated page; year is the year accessed
   fact_check:
   - C
@@ -29460,6 +29555,10 @@
   - C
   - C
   - C
+  - '-'
+  - '-'
+  - '-'
+  - '-'
   rechecked: '2026-10-05'
   recheck_result:
     fetch: ok
@@ -104548,3 +104647,1528 @@
   recheck_result:
     fetch: ok
     partial: true
+- n: 2513
+  key: sta-simpler-par-26-121
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: PAR-26-121 Maximizing Investigators'' Research Award
+    (MIRA) (R35 - Clinical Trial Optional). 2025-12-11. https://simpler.grants.gov/opportunity/59c3ea57-ba49-4e96-9706-0528937de746'
+  url: https://simpler.grants.gov/opportunity/59c3ea57-ba49-4e96-9706-0528937de746
+  year: 2025
+  published: '2025-12-11'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: PAR-26-121 Maximizing Investigators'' Research Award (MIRA) (R35 - Clinical Trial Optional)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the NIGMS MIRA notice for established and new investigators. It settles that the notice
+    is open and gives its closing date.
+  key_facts:
+  - Opportunity number PAR-26-121
+  - 'Status: Open'
+  - 'Posted date: December 11, 2025'
+  - 'Closing date: May 26, 2028'
+  - 'Archive date: July 25, 2028'
+  - Version 2; a revised full announcement was posted on December 18, 2025
+  quotes: []
+  cited_in:
+  - programs/nih-r35
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-par-26-121
+- n: 2514
+  key: sta-simpler-par-27-032
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: PAR-27-032 Maximizing Investigators'' Research Award
+    (MIRA) for Early Stage Investigators (ESI). 2026-05-12. https://simpler.grants.gov/opportunity/9a4aeb2f-d0ac-403b-ac67-9d1fd24d9556'
+  url: https://simpler.grants.gov/opportunity/9a4aeb2f-d0ac-403b-ac67-9d1fd24d9556
+  year: 2026
+  published: '2026-05-12'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: PAR-27-032 Maximizing Investigators'' Research Award (MIRA) for Early Stage Investigators
+    (ESI)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the NIGMS MIRA notice for early stage investigators. It settles that the notice is open
+    and gives its closing date.
+  key_facts:
+  - Opportunity number PAR-27-032
+  - 'Status: Open'
+  - 'Posted date: May 12, 2026'
+  - 'Closing date: February 6, 2029'
+  - 'Archive date: April 7, 2029'
+  - Version 1
+  quotes: []
+  cited_in:
+  - programs/nih-r35
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-par-27-032
+- n: 2515
+  key: sta-simpler-rfa-rm-27-001
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: RFA-RM-27-001 NIH Director''s Pioneer Award (DP1 Clinical
+    Trial Optional). 2026-06-29. https://simpler.grants.gov/opportunity/f3b0799c-6539-4045-8b85-42d7a9ef4dd5'
+  url: https://simpler.grants.gov/opportunity/f3b0799c-6539-4045-8b85-42d7a9ef4dd5
+  year: 2026
+  published: '2026-06-29'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: RFA-RM-27-001 NIH Director''s Pioneer Award (DP1 Clinical Trial Optional)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the fiscal year 2027 Pioneer Award notice. It settles that the notice is closed.
+  key_facts:
+  - Opportunity number RFA-RM-27-001
+  - 'Status: Closed'
+  - 'Posted date: June 29, 2026'
+  - 'Closing date: September 9, 2026'
+  - 'Archive date: November 8, 2026'
+  - Version 1
+  quotes: []
+  cited_in:
+  - programs/nih-dp1-pioneer
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-rfa-rm-27-001
+- n: 2516
+  key: sta-cf-pioneer
+  tier: current
+  citation: NIH Common Fund. NIH Director's Pioneer Award. n.d.. https://commonfund.nih.gov/pioneer
+  url: https://commonfund.nih.gov/pioneer
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: NIH Common Fund
+  title: NIH Director's Pioneer Award
+  source_kind: primary
+  read: partial
+  summary: The Common Fund's programme page for the Pioneer Award. It states that no funding announcement is open and gives
+    no date for the next one.
+  key_facts:
+  - States that there are no open funding announcements
+  - Refers to RFA-RM-27-001
+  - Gives no date for the next funding opportunity and no statement that the programme is paused or ended
+  quotes:
+  - No open funding announcements. Check the funding opportunities page for past announcements and information about future
+    announcements.
+  cited_in:
+  - programs/nih-dp1-pioneer
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-cf-pioneer
+  date_note: undated page; year is the year accessed
+- n: 2517
+  key: sta-simpler-rfa-rm-27-002
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: RFA-RM-27-002 NIH Director''s New Innovator Award (DP2
+    Clinical Trial Optional). 2026-06-26. https://simpler.grants.gov/opportunity/e60227f3-787d-418c-aadf-f6e36a9f9890'
+  url: https://simpler.grants.gov/opportunity/e60227f3-787d-418c-aadf-f6e36a9f9890
+  year: 2026
+  published: '2026-06-26'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: RFA-RM-27-002 NIH Director''s New Innovator Award (DP2 Clinical Trial Optional)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the fiscal year 2027 New Innovator Award notice. It settles that the notice is closed.
+  key_facts:
+  - Opportunity number RFA-RM-27-002
+  - 'Status: Closed'
+  - 'Posted date: June 26, 2026'
+  - 'Closing date: August 17, 2026'
+  - 'Archive date: October 17, 2026'
+  quotes: []
+  cited_in:
+  - programs/nih-dp2-new-innovator
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-rfa-rm-27-002
+- n: 2518
+  key: sta-simpler-rfa-rm-27-004
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: RFA-RM-27-004 NIH Director''s Early Independence Award
+    (DP5 Clinical Trial Optional). 2026-06-26. https://simpler.grants.gov/opportunity/8518b002-2452-44e3-8b00-78fcaa5c7edb'
+  url: https://simpler.grants.gov/opportunity/8518b002-2452-44e3-8b00-78fcaa5c7edb
+  year: 2026
+  published: '2026-06-26'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: RFA-RM-27-004 NIH Director''s Early Independence Award (DP5 Clinical Trial Optional)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the fiscal year 2027 Early Independence Award notice. It settles that the notice is closed.
+  key_facts:
+  - Opportunity number RFA-RM-27-004
+  - 'Status: Closed'
+  - 'Posted date: June 26, 2026'
+  - 'Closing date: September 10, 2026'
+  - 'Archive date: November 10, 2026'
+  quotes: []
+  cited_in:
+  - programs/nih-dp5-early-independence
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-rfa-rm-27-004
+- n: 2519
+  key: sta-simpler-rfa-rm-27-003
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: RFA-RM-27-003 NIH Director''s Transformative Research
+    Award for Individual and Group Science (R01 Clinical Trial Optional). 2026-06-29. https://simpler.grants.gov/opportunity/a71fb2f3-0d3a-477b-8b20-2451cf35cc7f'
+  url: https://simpler.grants.gov/opportunity/a71fb2f3-0d3a-477b-8b20-2451cf35cc7f
+  year: 2026
+  published: '2026-06-29'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: RFA-RM-27-003 NIH Director''s Transformative Research Award for Individual and Group Science
+    (R01 Clinical Trial Optional)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the fiscal year 2027 Transformative Research Award notice. It settles that the notice
+    is closed.
+  key_facts:
+  - Opportunity number RFA-RM-27-003
+  - 'Status: Closed'
+  - 'Posted date: June 29, 2026'
+  - 'Closing date: September 3, 2026'
+  - 'Archive date: November 2, 2026'
+  quotes: []
+  cited_in:
+  - programs/nih-tr01-transformative
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-rfa-rm-27-003
+- n: 2520
+  key: sta-simpler-pa-26-002
+  tier: current
+  citation: 'Grants.gov (Simpler.Grants.gov). Opportunity listing: PA-26-002 NIH Collaborative International Research Project
+    (Parent PF5 Clinical Trial Optional). 2026-01-20. https://simpler.grants.gov/opportunity/3df028f3-f97a-4cdf-9359-1c6515d091ce'
+  url: https://simpler.grants.gov/opportunity/3df028f3-f97a-4cdf-9359-1c6515d091ce
+  year: 2026
+  published: '2026-01-20'
+  accessed: '2026-10-05'
+  publisher: Grants.gov (Simpler.Grants.gov)
+  title: 'Opportunity listing: PA-26-002 NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the parent PF5 notice. It settles that the notice is open and gives its closing date.
+  key_facts:
+  - Opportunity number PA-26-002
+  - 'Status: Open'
+  - 'Posted date: January 20, 2026'
+  - 'Closing date: May 7, 2029'
+  - 'Archive date: July 9, 2029'
+  - Version 1 posted January 20, 2026
+  quotes: []
+  cited_in:
+  - programs/nih-pf5
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-simpler-pa-26-002
+- n: 2521
+  key: sta-nsf-bio-core-page
+  tier: current
+  citation: U.S. National Science Foundation. Core Research in Biological Sciences (BIO Core) — opportunity page. 2026-08-13.
+    https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences
+  url: https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences
+  year: 2026
+  published: '2026-08-13'
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: Core Research in Biological Sciences (BIO Core) — opportunity page
+  source_kind: primary
+  read: partial
+  summary: NSF's opportunity page for BIO Core. It settles that NSF 26-517 is the current solicitation and that full proposals
+    are accepted at any time.
+  key_facts:
+  - 'Current solicitation: NSF 26-517'
+  - 'Posted: August 13, 2026'
+  - 'Deadline text: Full proposal accepted anytime'
+  - No statement that the programme is archived, paused or replaced
+  quotes:
+  - Full proposal accepted anytime
+  cited_in:
+  - programs/nsf-bio-core
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-bio-core-page
+- n: 2522
+  key: sta-nsf-expeditions-page
+  tier: current
+  citation: U.S. National Science Foundation. Expeditions in Computing (Expeditions) — opportunity page. n.d.. https://www.nsf.gov/funding/opportunities/expeditions-expeditions-computing
+  url: https://www.nsf.gov/funding/opportunities/expeditions-expeditions-computing
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: Expeditions in Computing (Expeditions) — opportunity page
+  source_kind: primary
+  read: partial
+  summary: NSF's opportunity page for Expeditions in Computing. It settles that NSF 26-525 is the current solicitation and
+    gives its preliminary and full proposal dates.
+  key_facts:
+  - 'Current solicitation: NSF 26-525'
+  - Preliminary proposal due December 2, 2026
+  - Full proposal deadline date July 27, 2027; fourth Tuesday in July, annually thereafter
+  - No statement that the programme is archived, paused or replaced
+  quotes: []
+  cited_in:
+  - programs/nsf-cise-expeditions
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-expeditions-page
+  date_note: undated page; year is the year accessed
+- n: 2523
+  key: sta-nsf-ecr-core-update-2026-07
+  tier: current
+  citation: 'U.S. National Science Foundation. Important NSF EDU Core Research (ECR: Core) program update. 2026-07-02. https://www.nsf.gov/funding/opportunities/ecrcore-edu-core-research/updates/120825'
+  url: https://www.nsf.gov/funding/opportunities/ecrcore-edu-core-research/updates/120825
+  year: 2026
+  published: '2026-07-02'
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: 'Important NSF EDU Core Research (ECR: Core) program update'
+  source_kind: primary
+  read: partial
+  summary: A programme update posted on the ECR:Core opportunity page. It names October 1, 2026 as the competition's deadline
+    and narrows what that round accepts.
+  key_facts:
+  - Dated July 2, 2026
+  - Refers to the October 1, 2026 deadline
+  - For that deadline the programme accepts only fundamental STEM education research focused on undergraduate education,
+    graduate education, higher education and the STEM workforce
+  - Early childhood, K-12 and informal-setting projects are pointed to the NSF STEM K-12 solicitation (NSF 25-545)
+  quotes:
+  - will only accept proposals for fundamental STEM education research focused on undergraduate education, graduate education,
+    higher education and the STEM workforce
+  cited_in:
+  - programs/nsf-edu-ecr-core
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-ecr-core-update-2026-07
+- n: 2524
+  key: sta-nsf-satc-page
+  tier: current
+  citation: U.S. National Science Foundation. Security, Privacy, and Trust in Cyberspace (NSF SaTC) — opportunity page.
+    2024-12-05. https://www.nsf.gov/funding/opportunities/satc-20-security-privacy-trust-cyberspace
+  url: https://www.nsf.gov/funding/opportunities/satc-20-security-privacy-trust-cyberspace
+  year: 2024
+  published: '2024-12-05'
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: Security, Privacy, and Trust in Cyberspace (NSF SaTC) — opportunity page
+  source_kind: primary
+  read: partial
+  summary: NSF's opportunity page for SaTC. It settles that NSF 25-515 is the current solicitation and gives the next two
+    target dates.
+  key_facts:
+  - 'Current solicitation: NSF 25-515, publication date December 5, 2024'
+  - Target date January 25, 2027; last Monday in January, annually thereafter
+  - Target date September 27, 2027; last Monday in September, annually thereafter
+  - 'Updates listed: Update on NSF SaTC education proposals, March 23, 2026; SaTC international partnerships, August 12,
+    2025'
+  quotes: []
+  cited_in:
+  - programs/nsf-satc
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-satc-page
+- n: 2525
+  key: sta-nsf-efri-wbc-page
+  tier: current
+  citation: 'U.S. National Science Foundation. Emerging Frontiers in Research and Innovation (EFRI): Wave-Based Computing
+    (WBC) — opportunity page. 2026-08-13. https://www.nsf.gov/funding/opportunities/efri-wbc-emerging-frontiers-research-innovation-efri-wave-based'
+  url: https://www.nsf.gov/funding/opportunities/efri-wbc-emerging-frontiers-research-innovation-efri-wave-based
+  year: 2026
+  published: '2026-08-13'
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: 'Emerging Frontiers in Research and Innovation (EFRI): Wave-Based Computing (WBC) — opportunity page'
+  source_kind: primary
+  read: partial
+  summary: NSF's opportunity page for EFRI Wave-Based Computing. It settles that NSF 26-524 is the current solicitation
+    and gives the concept outline and full proposal dates.
+  key_facts:
+  - 'Current solicitation: NSF 26-524'
+  - 'Posted: August 13, 2026'
+  - Concept outlines required by November 19, 2026 for the FY 2027 cycle
+  - Full proposals due February 11, 2027
+  - Concept outlines due by November 16, 2027 for the FY 2028 cycle
+  - 'Update listed: Wave-Based Computing: Key Engineering Bottlenecks, August 19, 2026'
+  quotes: []
+  cited_in:
+  - programs/nsf-efri-wbc
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-efri-wbc-page
+- n: 2526
+  key: sta-nsf-25-508
+  tier: current
+  citation: 'U.S. National Science Foundation. NSF 25-508: Designing Materials to Revolutionize and Engineer our Future
+    (DMREF). 2024-11-04. https://www.nsf.gov/funding/opportunities/dmref-designing-materials-revolutionize-engineer-our-future/nsf25-508/solicitation'
+  url: https://www.nsf.gov/funding/opportunities/dmref-designing-materials-revolutionize-engineer-our-future/nsf25-508/solicitation
+  year: 2024
+  published: '2024-11-04'
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: 'NSF 25-508: Designing Materials to Revolutionize and Engineer our Future (DMREF)'
+  source_kind: primary
+  read: partial
+  summary: The DMREF solicitation. It gives the one submission window of the current notice and the statement on how often
+    the competition is expected to recur.
+  key_facts:
+  - Solicitation NSF 25-508, posted November 4, 2024
+  - 'Submission window: January 21, 2025 - February 04, 2025'
+  - Replaces NSF 23-530
+  - Competitions anticipated biennially in odd-numbered years, subject to the availability of funds
+  quotes:
+  - Subject to the availability of funds, it is anticipated that the DMREF program will continue with competitions biennially
+    in odd-numbered years.
+  cited_in:
+  - programs/nsf-dmref
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-25-508
+- n: 2527
+  key: sta-nsf-26-502
+  tier: current
+  citation: 'U.S. National Science Foundation. NSF 26-502: NSF Trailblazer Engineering Impact Award (TRAILBLAZER). 2025-12-11.
+    https://www.nsf.gov/funding/opportunities/trailblazer-nsf-trailblazer-engineering-impact-award/nsf26-502/solicitation'
+  url: https://www.nsf.gov/funding/opportunities/trailblazer-nsf-trailblazer-engineering-impact-award/nsf26-502/solicitation
+  year: 2025
+  published: '2025-12-11'
+  accessed: '2026-10-05'
+  publisher: U.S. National Science Foundation
+  title: 'NSF 26-502: NSF Trailblazer Engineering Impact Award (TRAILBLAZER)'
+  source_kind: primary
+  read: partial
+  summary: The TRAILBLAZER solicitation. It gives the three due dates of the current notice, all in 2026, and says nothing
+    about later competitions.
+  key_facts:
+  - Solicitation NSF 26-502, posted December 11, 2025
+  - 'Letter of intent due date (required): January 20, 2026'
+  - 'Preliminary proposal due date (required): March 10, 2026'
+  - 'Full proposal deadline: July 24, 2026'
+  - Replaces NSF 24-600
+  - No statement on how often the competition is held
+  quotes: []
+  cited_in:
+  - programs/nsf-trailblazer
+  verified: true
+  recheck: true
+  sweep: status-A
+  sweep_ids:
+  - sta-nsf-26-502
+- n: 2528
+  key: stb-grantsgov-ssaa-search
+  tier: current
+  citation: 'Grants.gov (simpler.grants.gov). Grants.gov search: Stewardship Science Academic Alliances, all statuses, newest
+    first. n.d.. https://simpler.grants.gov/search?query=Stewardship%20Science%20Academic%20Alliances&status=forecasted,posted,closed,archived&sortby=postedDateDesc'
+  url: https://simpler.grants.gov/search?query=Stewardship%20Science%20Academic%20Alliances&status=forecasted,posted,closed,archived&sortby=postedDateDesc
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov (simpler.grants.gov)
+  title: 'Grants.gov search: Stewardship Science Academic Alliances, all statuses, newest first'
+  source_kind: primary
+  read: full
+  summary: Search of all Grants.gov statuses for the programme name. It returns 9 results; the newest Stewardship Science
+    Academic Alliances notice is archived and none is open or forecast.
+  key_facts:
+  - 9 total results.
+  - 'Newest: STEWARDSHIP SCIENCE ACADEMIC ALLIANCES PROGRAM, DE-FOA-0003242, NNSA, Archived, posted Mar 1, 2024, closes
+    Jun 20, 2024.'
+  - STEWARDSHIP SCIENCE ACADEMIC ALLIANCES PROGRAM CENTERS OF EXCELLENCE, DE-FOA-0002789, Archived, posted Jul 11, 2022,
+    closes Oct 24, 2022.
+  - No result carries the status Open or Forecasted.
+  quotes: []
+  cited_in:
+  - programs/doe-nnsa-ssaa
+  verified: true
+  recheck: true
+  sweep: status-B
+  sweep_ids:
+  - stb-grantsgov-ssaa-search
+  date_note: undated page; year is the year accessed
+- n: 2529
+  key: stb-grantsgov-minerva-search
+  tier: current
+  citation: 'Grants.gov (simpler.grants.gov). Grants.gov search: Minerva Research Initiative, all statuses, newest first.
+    n.d.. https://simpler.grants.gov/search?query=Minerva%20Research%20Initiative&status=forecasted,posted,closed,archived&sortby=postedDateDesc'
+  url: https://simpler.grants.gov/search?query=Minerva%20Research%20Initiative&status=forecasted,posted,closed,archived&sortby=postedDateDesc
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov (simpler.grants.gov)
+  title: 'Grants.gov search: Minerva Research Initiative, all statuses, newest first'
+  source_kind: primary
+  read: full
+  summary: Search of all Grants.gov statuses for the programme name. It returns 14 results, all archived; the newest was
+    posted in December 2023, and none is open or forecast.
+  key_facts:
+  - 14 total results; every one carries the status Archived.
+  - 'Newest: Minerva Research Initiative - University Research, HQ003424NFOEASD02, Washington Headquarters Services, Archived,
+    posted Dec 7, 2023, closes May 7, 2024.'
+  - 'Before that: HQ0034NFOEASD07, Archived, posted Sep 7, 2022, closes Feb 16, 2023.'
+  quotes: []
+  cited_in:
+  - programs/dod-minerva
+  verified: true
+  recheck: true
+  sweep: status-B
+  sweep_ids:
+  - stb-grantsgov-minerva-search
+  date_note: undated page; year is the year accessed
+- n: 2530
+  key: stb-grantsgov-noaa-baa-search
+  tier: current
+  citation: 'Grants.gov (simpler.grants.gov). Grants.gov search: Broad Agency Announcement Oceanic and Atmospheric Research,
+    forecast, open and closed, newest first. n.d.. https://simpler.grants.gov/search?query=Broad%20Agency%20Announcement%20Oceanic%20and%20Atmospheric%20Research&status=forecasted,posted,closed&sortby=postedDateDesc'
+  url: https://simpler.grants.gov/search?query=Broad%20Agency%20Announcement%20Oceanic%20and%20Atmospheric%20Research&status=forecasted,posted,closed&sortby=postedDateDesc
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov (simpler.grants.gov)
+  title: 'Grants.gov search: Broad Agency Announcement Oceanic and Atmospheric Research, forecast, open and closed, newest
+    first'
+  source_kind: primary
+  read: full
+  summary: Search for a successor to NOAA's FY 2024 – 2026 broad agency announcements. It returns 6 results; the four NOAA
+    FY 2024 – 2026 announcements are all Closed with a closing date of Sep 30, 2026 and no NOAA successor is forecast or
+    open.
+  key_facts:
+  - 6 total results.
+  - 'FY 2024 – 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR), NOAA-OAR-CPO-2024-28363:
+    Closed, posted Oct 9, 2024, closing Sep 30, 2026.'
+  - The Office of Education (NOAA-SEC-OED-2024-28060), National Marine Fisheries Service (NOAA-NMFS-FHQ-2024-27611) and
+    NOAA-NWS-2024-28059 announcements are also Closed, closing Sep 30, 2026.
+  - The only Open result is the Naval Research Laboratory announcement N00173-24-S-BA01; no NOAA result is Open or Forecasted.
+  quotes: []
+  cited_in:
+  - programs/noaa-oar-baa
+  verified: true
+  recheck: true
+  sweep: status-B
+  sweep_ids:
+  - stb-grantsgov-noaa-baa-search
+  date_note: undated page; year is the year accessed
+- n: 2531
+  key: stb-grantsgov-noaa-ci-search
+  tier: current
+  citation: 'Grants.gov (simpler.grants.gov). Grants.gov search: Cooperative Institute NOAA, all statuses, newest first.
+    n.d.. https://simpler.grants.gov/search?query=Cooperative%20Institute%20NOAA&status=forecasted,posted,closed,archived&sortby=postedDateDesc'
+  url: https://simpler.grants.gov/search?query=Cooperative%20Institute%20NOAA&status=forecasted,posted,closed,archived&sortby=postedDateDesc
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov (simpler.grants.gov)
+  title: 'Grants.gov search: Cooperative Institute NOAA, all statuses, newest first'
+  source_kind: primary
+  read: partial
+  summary: Search of all Grants.gov statuses for NOAA cooperative institute notices (64 results, first 8 read). The newest
+    cooperative institute notice is the Northern Gulf of America competition, archived; none of the first 8 is open or forecast.
+  key_facts:
+  - 64 total results.
+  - 'Cooperative Institute in the Northern Gulf of America (CINGA), NOAA-OAR-CIAO-2026-32786: Archived, posted Apr 2, 2026,
+    closes May 18, 2026.'
+  - 'Cooperative Institute Fostering Aquaculture Research and Marketing (CIFARM), NOAA-OAR-CIPO-2025-31269: Archived, posted
+    Jun 6, 2025, closes Sep 5, 2025.'
+  - 'Climate Program Office FY 2026 - Regional Integrated Sciences and Assessments (RISA), NOAA-OAR-CPO-2026-33094: Archived,
+    posted May 5, 2026, closes Jun 10, 2026.'
+  quotes: []
+  cited_in:
+  - programs/noaa-cooperative-institutes
+  verified: true
+  recheck: true
+  sweep: status-B
+  sweep_ids:
+  - stb-grantsgov-noaa-ci-search
+  date_note: undated page; year is the year accessed
+- n: 2532
+  key: stb-grantsgov-sk-search
+  tier: current
+  citation: 'Grants.gov (simpler.grants.gov). Grants.gov search: Saltonstall-Kennedy, all statuses, newest first. n.d..
+    https://simpler.grants.gov/search?query=Saltonstall-Kennedy&status=forecasted,posted,closed,archived&sortby=postedDateDesc'
+  url: https://simpler.grants.gov/search?query=Saltonstall-Kennedy&status=forecasted,posted,closed,archived&sortby=postedDateDesc
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov (simpler.grants.gov)
+  title: 'Grants.gov search: Saltonstall-Kennedy, all statuses, newest first'
+  source_kind: primary
+  read: partial
+  summary: Search of all Grants.gov statuses for the competition name (14 results, first 6 read). The newest notices are
+    the two FY25 stages, both archived; no FY26 or FY27 notice appears and none is open or forecast.
+  key_facts:
+  - 14 total results.
+  - 'FY25 Saltonstall-Kennedy Full Proposal Competition, NOAA-NMFS-FHQ-2025-26868: Archived, posted Sep 26, 2024, closing
+    Nov 25, 2024.'
+  - 'FY25 Saltonstall-Kennedy Pre-Proposal Competition, NOAA-NMFS-FHQ-2025-26840: Archived, posted May 24, 2024, closing
+    Jul 23, 2024.'
+  - Earlier annual competitions (FY24, FY23, FY22, FY21) were each posted in May or June; none is listed for 2025 or 2026.
+  quotes: []
+  cited_in:
+  - programs/noaa-fisheries-saltonstall-kennedy
+  verified: true
+  recheck: true
+  sweep: status-B
+  sweep_ids:
+  - stb-grantsgov-sk-search
+  date_note: undated page; year is the year accessed
+- n: 2533
+  key: stc-grantsgov-search-niosh-forecast
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Occupational Safety and Health Research (forecasted and open). n.d..
+    https://simpler.grants.gov/search?query=Occupational%20Safety%20and%20Health%20Research&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=Occupational%20Safety%20and%20Health%20Research&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Occupational Safety and Health Research (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open listings matching Occupational Safety and Health Research. It returned
+    19 listings, among them forecasts for a NIOSH R01, R21 and R03.
+  key_facts:
+  - 19 results.
+  - 'RFA-OH-27-032, Occupational Safety and Health Research (R01): Forecasted; posted Jul 22, 2026; close TBD.'
+  - 'RFA-OH-27-033, NIOSH Exploratory/Developmental Grant Program (R21): Forecasted; posted Jul 27, 2026; close TBD.'
+  - 'RFA-OH-27-056, NIOSH Small Research Grant Program (R03): Forecasted; posted Jul 23, 2026; close TBD.'
+  quotes: []
+  cited_in: []
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-niosh-forecast
+  date_note: undated page; year is the year accessed
+- n: 2534
+  key: stc-grantsgov-rfa-oh-27-032
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Occupational Safety and Health Research (R01), RFA-OH-27-032. n.d.. https://simpler.grants.gov/opportunity/e0b00d08-7c83-4488-8b55-94bd733a57fa'
+  url: https://simpler.grants.gov/opportunity/e0b00d08-7c83-4488-8b55-94bd733a57fa
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Occupational Safety and Health Research (R01), RFA-OH-27-032'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov forecast for a new NIOSH R01 notice. It settles that a successor to PAR-18-812 is forecast and gives
+    the estimated dates.
+  key_facts:
+  - Opportunity number RFA-OH-27-032; agency Centers for Disease Control and Prevention - ERA.
+  - 'Status: Forecasted.'
+  - Forecast posted date July 22, 2026; estimated post date November 12, 2026; estimated application due date February 5,
+    2027.
+  - Estimated award date August 2, 2027; estimated project start date September 1, 2027.
+  - Expected number of awards 7; estimated total program funding $12,500,000; award ceiling $680,000.
+  quotes: []
+  cited_in:
+  - programs/cdc-niosh-r01
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-rfa-oh-27-032
+  date_note: undated page; year is the year accessed
+- n: 2535
+  key: stc-grantsgov-rfa-oh-27-033
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: NIOSH Exploratory/Developmental Grant Program (R21), RFA-OH-27-033. n.d..
+    https://simpler.grants.gov/opportunity/f4ac056d-f7a3-403b-8e82-95ddbd4a1e4b'
+  url: https://simpler.grants.gov/opportunity/f4ac056d-f7a3-403b-8e82-95ddbd4a1e4b
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: NIOSH Exploratory/Developmental Grant Program (R21), RFA-OH-27-033'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov forecast for a new NIOSH R21 notice. It settles that a successor to PAR-18-798 is forecast and gives
+    the estimated dates.
+  key_facts:
+  - Opportunity number RFA-OH-27-033; agency Centers for Disease Control and Prevention - ERA.
+  - 'Status: Forecasted.'
+  - Forecast posted date July 27, 2026; estimated post date December 16, 2026; estimated application due date February 16,
+    2027.
+  - Estimated award date August 2, 2027; estimated project start date September 1, 2027.
+  - Expected number of awards 10; estimated total program funding $3,000,000; award ceiling $300,000.
+  quotes: []
+  cited_in:
+  - programs/cdc-niosh-r21
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-rfa-oh-27-033
+  date_note: undated page; year is the year accessed
+- n: 2536
+  key: stc-grantsgov-search-rfa-oh-26
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: RFA-OH-26 (all statuses). n.d.. https://simpler.grants.gov/search?query=RFA-OH-26&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=RFA-OH-26&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: RFA-OH-26 (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for listings numbered RFA-OH-26. It returned three listings and gives the status and dates
+    of the two World Trade Center Health Program research notices.
+  key_facts:
+  - 'RFA-OH-26-001, Cooperative Research Agreements Related to the World Trade Center Health Program (U01): Closed; posted
+    May 8, 2026; close date June 23, 2026; expected awards 30.'
+  - 'RFA-OH-26-015, Exploratory/Developmental Grants Related to the World Trade Center Health Program (R21): Closed; posted
+    May 8, 2026; close date June 23, 2026; expected awards 36.'
+  - 'RFA-OH-26-016, Extension of the World Trade Center Health Registry (U50): Archived; posted December 19, 2025; close
+    date February 20, 2026.'
+  quotes: []
+  cited_in:
+  - programs/cdc-niosh-wtc-research
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-rfa-oh-26
+  date_note: undated page; year is the year accessed
+- n: 2537
+  key: stc-grantsgov-search-wtc-forecast
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: World Trade Center Health Program (forecasted and open). n.d.. https://simpler.grants.gov/search?query=World%20Trade%20Center%20Health%20Program&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=World%20Trade%20Center%20Health%20Program&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: World Trade Center Health Program (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open listings matching World Trade Center Health Program. It returned two
+    forecasts, neither a U01 or R21 research notice.
+  key_facts:
+  - 2 results.
+  - 'RFA-OH-27-031, World Trade Center Health Program Mentored Research Scientist Career Development Award (K01): Forecasted;
+    posted Jul 2, 2026; close TBD.'
+  - 'RFA-OH-27-054, World Trade Center Youth Research Coordinating Center (U54): Forecasted; posted Jul 31, 2026; close
+    TBD.'
+  quotes: []
+  cited_in:
+  - programs/cdc-niosh-wtc-research
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-wtc-forecast
+  date_note: undated page; year is the year accessed
+- n: 2538
+  key: stc-grantsgov-search-rfa-ce-27
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: RFA-CE-27 (forecasted and open). n.d.. https://simpler.grants.gov/search?query=RFA-CE-27&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=RFA-CE-27&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: RFA-CE-27 (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open listings numbered RFA-CE-27. It returned 12 forecasts from the CDC
+    injury centre, among them the successor to RFA-CE-26-020.
+  key_facts:
+  - 12 results, all Forecasted.
+  - 'RFA-CE-27-015, Preventing Suicide and Interpersonal Violence Among Youth and Young Adults: Forecasted; posted Jul 9,
+    2026; close TBD.'
+  - 'RFA-CE-27-014, Research Grants to Rigorously Evaluate Innovative and Promising Approaches to Prevent Firearm-Related
+    Violence and Injuries: Forecasted; posted Jul 9, 2026.'
+  - 'RFA-CE-27-019, New Investigator Grants to Conduct Research to Prevent Interpersonal Violence and Suicide Among Children
+    and Adolescents (K01): Forecasted; posted Jul 2, 2026.'
+  quotes: []
+  cited_in: []
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-rfa-ce-27
+  date_note: undated page; year is the year accessed
+- n: 2539
+  key: stc-grantsgov-rfa-ce-27-015
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Preventing Suicide and Interpersonal Violence Among Youth and Young Adults,
+    RFA-CE-27-015. n.d.. https://simpler.grants.gov/opportunity/fedda8fc-2bb6-4237-b981-8cf04bfeedc5'
+  url: https://simpler.grants.gov/opportunity/fedda8fc-2bb6-4237-b981-8cf04bfeedc5
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Preventing Suicide and Interpersonal Violence Among Youth and Young Adults, RFA-CE-27-015'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov forecast for the CDC injury centre's next research competition on suicide and interpersonal violence
+    among people aged 10 to 24. It settles that a next competition is forecast and gives the estimated dates.
+  key_facts:
+  - Opportunity number RFA-CE-27-015; agency Centers for Disease Control and Prevention - ERA.
+  - 'Status: Forecasted.'
+  - Forecast posted date July 9, 2026; estimated post date October 1, 2026; estimated application due date December 1, 2026.
+  - Estimated award date August 29, 2027; estimated project start date September 30, 2027.
+  - Expected number of awards 8; estimated total program funding $12,000,000; award ceiling $500,000.
+  quotes:
+  - This NOFO will support evaluation of existing primary prevention approaches that have not yet undergone rigorous evaluation.
+  cited_in:
+  - programs/cdc-injury-violence-r01
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-rfa-ce-27-015
+  date_note: undated page; year is the year accessed
+- n: 2540
+  key: stc-grantsgov-search-rfa-fd
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: RFA-FD (forecasted and open). n.d.. https://simpler.grants.gov/search?query=RFA-FD&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=RFA-FD&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: RFA-FD (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open listings numbered RFA-FD. It returned three open FDA notices and no
+    forecasts.
+  key_facts:
+  - 3 results, all Open; none Forecasted.
+  - 'RFA-FD-25-020, Reissue of RFA-FD-23-001 - Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases
+    (R01 Clinical Trials Required): Open; posted Jul 11, 2025; close date May 16, 2028.'
+  - 'RFA-FD-25-017, Reissue of RFA-FD-22-001 - Efficient and Innovative Natural History Studies Addressing Unmet Needs in
+    Rare Diseases (R01 Clinical Trials Optional): Open; posted Jul 11, 2025; close date Feb 8, 2028.'
+  - 'RFA-FD-25-007, Laboratory Flexible Funding Model (LFFM): Open; posted Feb 6, 2025; close date Jan 11, 2028.'
+  - No listing for Centers of Excellence in Regulatory Science and Innovation and no topic-specific regulatory science U01
+    was returned.
+  quotes: []
+  cited_in:
+  - programs/fda-orphan-clinical-trials
+  - programs/fda-orphan-natural-history
+  - programs/fda-cersi
+  - programs/fda-regulatory-science-u01
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-rfa-fd
+  date_note: undated page; year is the year accessed
+- n: 2541
+  key: stc-fda-rfa-fd-25-017
+  tier: current
+  citation: 'Food and Drug Administration (NIH Guide for Grants and Contracts). RFA-FD-25-017: Reissue of RFA-FD-22-001
+    - Efficient and Innovative Natural History Studies Addressing Unmet Needs in Rare Diseases (R01 Clinical Trials Optional).
+    2025-07-11. https://grants.nih.gov/grants/guide/rfa-files/RFA-FD-25-017.html'
+  url: https://grants.nih.gov/grants/guide/rfa-files/RFA-FD-25-017.html
+  year: 2025
+  published: '2025-07-11'
+  accessed: '2026-10-05'
+  publisher: Food and Drug Administration (NIH Guide for Grants and Contracts)
+  title: 'RFA-FD-25-017: Reissue of RFA-FD-22-001 - Efficient and Innovative Natural History Studies Addressing Unmet Needs
+    in Rare Diseases (R01 Clinical Trials Optional)'
+  source_kind: primary
+  read: partial
+  summary: The FDA request for applications for natural history studies in rare diseases. It settles that a notice is in
+    force and gives its remaining due date.
+  key_facts:
+  - Posted Date July 11, 2025; Open Date (Earliest Submission Date) December 12, 2025.
+  - Letter of intent due dates January 9, 2026 and January 7, 2028.
+  - Application due dates February 10, 2026 and February 8, 2028, by 11:59 PM Eastern Time.
+  - Expiration Date February 15, 2028.
+  - No expiration banner and no related notices were returned.
+  quotes: []
+  cited_in:
+  - programs/fda-orphan-natural-history
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-fda-rfa-fd-25-017
+- n: 2542
+  key: stc-fda-rare-disease-funding
+  tier: current
+  citation: Food and Drug Administration. Funding Opportunities for Rare Disease Research. n.d.. https://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/funding-opportunities-rare-disease-research
+  url: https://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/funding-opportunities-rare-disease-research
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Food and Drug Administration
+  title: Funding Opportunities for Rare Disease Research
+  source_kind: primary
+  read: partial
+  summary: FDA's list of rare disease funding opportunities. When read it still showed RFA-FD-23-001 with 2024 and 2025
+    receipt dates and named no natural history notice, so it lags the NIH Guide and Grants.gov.
+  key_facts:
+  - Lists RFA-FD-23-001 (clinical studies of orphan products) with a receipt date of October 22, 2024 and a resubmission
+    date of June 3, 2025.
+  - Lists RFA-FD-25-001 (rare neurodegenerative diseases) with receipt dates of October 22, 2024 and October 21, 2025.
+  - 'Natural History Studies: no RFA number or dates; the most recent announcement is described as from FY 2024.'
+  quotes:
+  - Please check back for future opportunities. For reference, the most recent funding opportunity announcement is from
+    FY 2024.
+  cited_in:
+  - programs/fda-orphan-natural-history
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-fda-rare-disease-funding
+  date_note: undated page; year is the year accessed
+- n: 2543
+  key: stc-grantsgov-rfa-fd-26-012
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Use of Digital Health Technologies in Clinical Investigations to Support Drug
+    and Biological Product Development (U01) Clinical Trials Optional, RFA-FD-26-012. n.d.. https://simpler.grants.gov/opportunity/758eb232-aa13-4c39-a651-e6429d961b03'
+  url: https://simpler.grants.gov/opportunity/758eb232-aa13-4c39-a651-e6429d961b03
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Use of Digital Health Technologies in Clinical Investigations to Support Drug and Biological
+    Product Development (U01) Clinical Trials Optional, RFA-FD-26-012'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the FDA digital health technologies cooperative agreement. It settles that the notice
+    is archived.
+  key_facts:
+  - Opportunity number RFA-FD-26-012; agency Food and Drug Administration.
+  - 'Status: Archived.'
+  - Posted date July 20, 2026; archive date September 19, 2026; last updated July 20, 2026.
+  - The closing date was not returned by the fetch.
+  - 2 expected awards; award minimum $1,100,000.
+  quotes: []
+  cited_in:
+  - programs/fda-regulatory-science-u01
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-rfa-fd-26-012
+  date_note: undated page; year is the year accessed
+- n: 2544
+  key: stc-grantsgov-search-hrsa-first
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Field-Initiated Innovative Research Studies (all statuses). n.d.. https://simpler.grants.gov/search?query=Field-Initiated%20Innovative%20Research%20Studies&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=Field-Initiated%20Innovative%20Research%20Studies&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Field-Initiated Innovative Research Studies (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search across all statuses for the HRSA FIRST programmes. It returned seven HRSA FIRST listings, all
+    Closed or Archived, and none Forecasted or Open.
+  key_facts:
+  - 'HRSA-23-067, Maternal and Child Health Field-Initiated Innovative Research Studies (MCH FIRST): Closed; posted Nov
+    9, 2022; close date Feb 7, 2023.'
+  - 'HRSA-24-048, Autism Field-Initiated Innovative Research Studies (Autism FIRST): Closed; posted Jan 4, 2024; close date
+    Apr 3, 2024.'
+  - 'HRSA-20-056 (MCH FIRST): Archived; posted Aug 12, 2019; close date Nov 12, 2019.'
+  - 'HRSA-21-053 (Autism-FIRST): Archived; posted Jan 15, 2021; close date Apr 15, 2021.'
+  - No Forecasted or Open FIRST listing was returned.
+  quotes: []
+  cited_in:
+  - programs/hrsa-mch-first
+  - programs/hrsa-autism-first
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-hrsa-first
+  date_note: undated page; year is the year accessed
+- n: 2545
+  key: stc-grantsgov-search-hrsa-sdar
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Secondary Data Analysis Research HRSA (forecasted, open and closed).
+    n.d.. https://simpler.grants.gov/search?query=Secondary%20Data%20Analysis%20Research%20HRSA&status=forecasted,posted,closed'
+  url: https://simpler.grants.gov/search?query=Secondary%20Data%20Analysis%20Research%20HRSA&status=forecasted,posted,closed
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Secondary Data Analysis Research HRSA (forecasted, open and closed)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted, open and closed HRSA listings for Secondary Data Analysis Research. It returned
+    the two fiscal year 2023 notices, both Closed.
+  key_facts:
+  - 'HRSA-23-068, Maternal and Child Health Secondary Data Analysis Research (MCH SDAR): Closed; posted Nov 14, 2022; close
+    date Feb 13, 2023.'
+  - 'HRSA-23-069, Autism Secondary Data Analysis Research (Autism SDAR): Closed; posted Nov 14, 2022; close date Feb 13,
+    2023.'
+  - No Forecasted or Open listing with Secondary Data Analysis in the title was returned.
+  quotes: []
+  cited_in:
+  - programs/hrsa-mch-sdar
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-hrsa-sdar
+  date_note: undated page; year is the year accessed
+- n: 2546
+  key: stc-grantsgov-search-nidilrr
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: NIDILRR (forecasted and open). n.d.. https://simpler.grants.gov/search?query=NIDILRR&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=NIDILRR&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: NIDILRR (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open NIDILRR listings. It returned 13 fiscal year 2027 forecasts from the
+    Administration for Community Living, all posted September 25, 2026, and no open notices.
+  key_facts:
+  - 13 results, all Forecasted, all posted Sep 25, 2026, close TBD.
+  - HHS-2027-ACL-NIDILRR-IFRE-0303, Field Initiated Projects Program (Research).
+  - HHS-2027-ACL-NIDILRR-IFDV-0304, Field Initiated Projects Program (Development).
+  - HHS-2027-ACL-NIDILRR-REGE-0312 and HHS-2027-ACL-NIDILRR-REGE-0313, two Rehabilitation Engineering Research Centers.
+  - 'Also forecast: three Advanced Rehabilitation Research Training notices, SBIR Phase I and Phase II, a Center on Knowledge
+    Translation (DPKT-0310), Traumatic Brain Injury Model Systems Centers, Burn Injury Model System Centers and one Rehabilitation
+    Research and Training Center.'
+  - 'No forecast for Field Initiated Projects: Minority-Serving Institutions and none titled Disability and Rehabilitation
+    Research Projects (DRRP).'
+  quotes: []
+  cited_in:
+  - programs/acl-nidilrr-fip-msi
+  - programs/acl-nidilrr-drrp
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-nidilrr
+  date_note: undated page; year is the year accessed
+- n: 2547
+  key: stc-grantsgov-nidilrr-fip-research-0303
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Field Initiated Projects Program (Research), HHS-2027-ACL-NIDILRR-IFRE-0303.
+    2026-09-25. https://simpler.grants.gov/opportunity/23540a91-8dc4-454a-89d1-9ecc031b819c'
+  url: https://simpler.grants.gov/opportunity/23540a91-8dc4-454a-89d1-9ecc031b819c
+  year: 2026
+  published: '2026-09-25'
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Field Initiated Projects Program (Research), HHS-2027-ACL-NIDILRR-IFRE-0303'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov forecast for the fiscal year 2027 Field Initiated Projects research competition. It gives the estimated
+    posting and due dates.
+  key_facts:
+  - 'Status: Forecasted.'
+  - Forecast posted date September 25, 2026; estimated post date October 12, 2026; estimated application due date December
+    14, 2026.
+  - Estimated award date and estimated project start date September 1, 2027.
+  - Expected awards 8; total program funding $2,000,000; award ceiling $250,000.
+  quotes: []
+  cited_in:
+  - programs/acl-nidilrr-fip-research
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-nidilrr-fip-research-0303
+- n: 2548
+  key: stc-grantsgov-nidilrr-fip-msi-0205
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Field Initiated Projects Program: Minority-Serving Institutions (MSI) - Research,
+    HHS-2026-ACL-NIDILRR-IFST-0205. 2026-02-10. https://simpler.grants.gov/opportunity/a07130c9-e1e8-487a-b5d7-20757d5ef21d'
+  url: https://simpler.grants.gov/opportunity/a07130c9-e1e8-487a-b5d7-20757d5ef21d
+  year: 2026
+  published: '2026-02-10'
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Field Initiated Projects Program: Minority-Serving Institutions (MSI) - Research, HHS-2026-ACL-NIDILRR-IFST-0205'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov listing for the fiscal year 2026 Minority-Serving Institutions competition. It settles that the notice
+    is archived.
+  key_facts:
+  - 'Status: Archived.'
+  - Posted date February 10, 2026; archive date September 30, 2026; last updated May 13, 2026.
+  - The closing date was not returned by the fetch.
+  - Expected awards 2; total program funding $500,000.
+  quotes: []
+  cited_in:
+  - programs/acl-nidilrr-fip-msi
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-nidilrr-fip-msi-0205
+- n: 2549
+  key: stc-grantsgov-nidilrr-rerc-0312
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Rehabilitation Engineering Research Center on Recreational, Sport, and Exercise
+    Technologies for People with Disabilities, HHS-2027-ACL-NIDILRR-REGE-0312. 2026-09-25. https://simpler.grants.gov/opportunity/afd41643-2302-4802-8a30-777dc599a188'
+  url: https://simpler.grants.gov/opportunity/afd41643-2302-4802-8a30-777dc599a188
+  year: 2026
+  published: '2026-09-25'
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Rehabilitation Engineering Research Center on Recreational, Sport, and Exercise Technologies
+    for People with Disabilities, HHS-2027-ACL-NIDILRR-REGE-0312'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov forecast for a fiscal year 2027 Rehabilitation Engineering Research Center. It gives the estimated
+    posting and due dates.
+  key_facts:
+  - 'Status: Forecasted.'
+  - Forecast posted date September 25, 2026; estimated post date February 15, 2027; estimated application due date April
+    15, 2027.
+  - Estimated award date September 1, 2027.
+  - Expected awards 1; total program funding $975,000; award ceiling $975,000; 60-month project period.
+  quotes: []
+  cited_in:
+  - programs/acl-nidilrr-rerc
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-nidilrr-rerc-0312
+- n: 2550
+  key: stc-grantsgov-nidilrr-rerc-0313
+  tier: current
+  citation: 'Grants.gov. Opportunity Listing: Rehabilitation Engineering Research Center on Technologies for People Who
+    are Blind or have Low Vision, HHS-2027-ACL-NIDILRR-REGE-0313. 2026-09-25. https://simpler.grants.gov/opportunity/ad788fe9-4a95-430c-b0df-0833de1c00eb'
+  url: https://simpler.grants.gov/opportunity/ad788fe9-4a95-430c-b0df-0833de1c00eb
+  year: 2026
+  published: '2026-09-25'
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Opportunity Listing: Rehabilitation Engineering Research Center on Technologies for People Who are Blind or have
+    Low Vision, HHS-2027-ACL-NIDILRR-REGE-0313'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov forecast for a second fiscal year 2027 Rehabilitation Engineering Research Center. It gives the estimated
+    posting and due dates.
+  key_facts:
+  - 'Status: Forecasted.'
+  - Forecast posted date September 25, 2026; estimated post date February 22, 2027; estimated application due date April
+    22, 2027.
+  - Estimated award date September 1, 2027.
+  - Expected awards 1; total program funding $975,000; award ceiling $975,000; 60-month project with five 12-month budget
+    periods.
+  quotes: []
+  cited_in:
+  - programs/acl-nidilrr-rerc
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-nidilrr-rerc-0313
+- n: 2551
+  key: stc-va-ord-rfa-page
+  tier: current
+  citation: VA Office of Research and Development. Request for Applications (RFA) and Program Announcements. n.d.. https://www.research.va.gov/funding/rfa.cfm
+  url: https://www.research.va.gov/funding/rfa.cfm
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: VA Office of Research and Development
+  title: Request for Applications (RFA) and Program Announcements
+  source_kind: primary
+  read: partial
+  summary: The public stub of the Office of Research and Development's requests-for-applications page. It settles only that
+    the notices themselves are held on the VA intranet and cannot be read from outside.
+  key_facts:
+  - The notices of special interest and requests for applications are on the VA intranet at vaww.research.va.gov/funding/rfa.cfm.
+  - The page says it is not available to the public because VA-ORD funding is available to VA investigators only.
+  - No notice numbers, cycles or due dates are shown on the public page.
+  - 'Contact given: VAResearch@va.gov.'
+  quotes:
+  - This page is not available to the public as VA-ORD funding is available to VA investigators only.
+  cited_in:
+  - programs/va-ord-merit-review
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-va-ord-rfa-page
+  date_note: undated page; year is the year accessed
+- n: 2552
+  key: stc-pcori-bps-c1-2027
+  tier: current
+  citation: Patient-Centered Outcomes Research Institute. Broad Pragmatic Studies PCORI Funding Announcement -- Cycle 1
+    2027. n.d.. https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-1-2027
+  url: https://www.pcori.org/funding-opportunities/announcement/broad-pragmatic-studies-pcori-funding-announcement-cycle-1-2027
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Patient-Centered Outcomes Research Institute
+  title: Broad Pragmatic Studies PCORI Funding Announcement -- Cycle 1 2027
+  source_kind: primary
+  read: partial
+  summary: PCORI's announcement page for the next Broad Pragmatic Studies cycle. It settles that the next cycle is announced
+    and gives its dates.
+  key_facts:
+  - 'Status label: Upcoming.'
+  - Online System Opens Nov. 17, 2026, 9 am (ET); Applicant Town Hall Dec. 9, 2026.
+  - Letter of Intent Deadline Jan. 6, 2027, 5 pm (ET); LOI Status Notification Feb. 16, 2027.
+  - Application Deadline May 4, 2027, 5 pm (ET); Merit Review July 2027.
+  - Awards Announced December 2027 (Subject to Change); Earliest Start Date April 2028.
+  - Up to $120 million in direct costs across three funding categories.
+  quotes:
+  - up to $120 million in direct costs through this funding opportunity
+  cited_in:
+  - programs/pcori-broad-pragmatic-studies
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-pcori-bps-c1-2027
+  date_note: undated page; year is the year accessed
+- n: 2553
+  key: stc-grantsgov-search-opre-secondary
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Secondary Analyses OPRE (all statuses). n.d.. https://simpler.grants.gov/search?query=Secondary%20Analyses%20OPRE&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=Secondary%20Analyses%20OPRE&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Secondary Analyses OPRE (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search across all statuses for OPRE secondary analysis grants. It returned 20 listings from the Administration
+    for Children and Families - OPRE, all Archived.
+  key_facts:
+  - 20 results, all Archived; none Forecasted or Open.
+  - 'HHS-2024-ACF-OPRE-YE-0195, Secondary Analyses of Child Care and Early Education Data: Archived; posted Mar 21, 2024;
+    close date May 22, 2024.'
+  - 'HHS-2024-ACF-OPRE-YR-0093, Secondary Analyses of Head Start Data: Archived; posted Feb 26, 2024; close date Apr 26,
+    2024.'
+  - 'HHS-2023-ACF-OPRE-YR-0247, Secondary Analyses of Head Start Data: Archived; posted Feb 28, 2023; close date May 12,
+    2023.'
+  quotes: []
+  cited_in:
+  - programs/acf-opre-secondary-analyses
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-opre-secondary
+  date_note: undated page; year is the year accessed
+- n: 2554
+  key: stc-grantsgov-search-rdrc
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Retirement and Disability Research Consortium (all statuses). n.d..
+    https://simpler.grants.gov/search?query=Retirement%20and%20Disability%20Research%20Consortium&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=Retirement%20and%20Disability%20Research%20Consortium&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Retirement and Disability Research Consortium (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search across all statuses for the SSA consortium. It returned Social Security Administration listings
+    that are all Archived, with no forecast or open notice.
+  key_facts:
+  - 'RDR-RDR-23-001, Retirement and Disability Research Consortium: Archived; posted Feb 13, 2023; close date May 12, 2023.'
+  - 'RDRC-RDRC-18-01, Retirement and Disability Research Consortium: Archived; posted Apr 20, 2018; close date Jun 8, 2018.'
+  - No Social Security Administration listing is Forecasted or Open.
+  quotes: []
+  cited_in:
+  - programs/ssa-rdrc
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-rdrc
+  date_note: undated page; year is the year accessed
+- n: 2555
+  key: stc-grantsgov-search-dol-ceo
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Chief Evaluation Office research (forecasted and open). n.d.. https://simpler.grants.gov/search?query=Chief%20Evaluation%20Office%20research&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=Chief%20Evaluation%20Office%20research&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Chief Evaluation Office research (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open listings matching Chief Evaluation Office research. It returned one
+    unrelated Air Force listing and none from the Department of Labor.
+  key_facts:
+  - One result, FOA-AFRL-PZLDA-2021-0001 (STARBASE Wright Patt, Air Force Research Lab), Forecasted.
+  - The Department of Labor agency filter shows 0 results.
+  quotes: []
+  cited_in:
+  - programs/dol-ceo-academic-research
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-dol-ceo
+  date_note: undated page; year is the year accessed
+- n: 2556
+  key: stc-grantsgov-search-neh-hcrr
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Humanities Collections and Reference Resources (all statuses). n.d..
+    https://simpler.grants.gov/search?query=Humanities%20Collections%20and%20Reference%20Resources&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=Humanities%20Collections%20and%20Reference%20Resources&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Humanities Collections and Reference Resources (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search across all statuses for the NEH programme. It returned 11 listings, none Forecasted or Open,
+    and shows no notice later than the 2024 competition.
+  key_facts:
+  - 11 NEH listings titled Humanities Collections and Reference Resources.
+  - 'Latest: 20240716-PW, Closed; posted Apr 1, 2024; close date Jul 16, 2024.'
+  - 'Before it: 20230718-PW, Closed; posted Mar 21, 2023; close date Jul 18, 2023.'
+  - No listing is Forecasted or Open; no 2025 or 2026 listing was returned.
+  quotes: []
+  cited_in:
+  - programs/neh-humanities-collections-reference-resources
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-neh-hcrr
+  date_note: undated page; year is the year accessed
+- n: 2557
+  key: stc-grantsgov-search-neh-rd
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: NEH Research and Development preservation (all statuses). n.d.. https://simpler.grants.gov/search?query=NEH%20Research%20and%20Development%20preservation&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=NEH%20Research%20and%20Development%20preservation&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: NEH Research and Development preservation (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search across all statuses for the NEH preservation Research and Development programme. It returned
+    yearly listings from 2009 to 2024, all Closed or Archived, and nothing later.
+  key_facts:
+  - 'Latest: 20240521-PR, Research and Development, Closed; posted Feb 29, 2024; close date May 28, 2024.'
+  - 'Before it: 20230516-PR, Closed; posted Jan 25, 2023; close date May 16, 2023.'
+  - No listing is Forecasted or Open; no 2025 or 2026 listing was returned.
+  quotes: []
+  cited_in:
+  - programs/neh-preservation-research-and-development
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-neh-rd
+  date_note: undated page; year is the year accessed
+- n: 2558
+  key: stc-grantsgov-search-neh-dhag
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Digital Humanities Advancement Grants (all statuses). n.d.. https://simpler.grants.gov/search?query=Digital%20Humanities%20Advancement%20Grants&status=forecasted,posted,closed,archived'
+  url: https://simpler.grants.gov/search?query=Digital%20Humanities%20Advancement%20Grants&status=forecasted,posted,closed,archived
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Digital Humanities Advancement Grants (all statuses)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search across all statuses for the NEH programme. It returned 11 listings, all Closed, and shows no
+    notice later than the one that closed in June 2024.
+  key_facts:
+  - 11 NEH listings titled Digital Humanities Advancement Grants, all Closed.
+  - 'Latest: 20240111-HAA, Closed; posted Aug 22, 2023; close date Jun 13, 2024.'
+  - 'Before it: 20230112-HAA, Closed; posted Aug 16, 2022; close date Jun 15, 2023.'
+  - No listing is Forecasted or Open.
+  quotes: []
+  cited_in:
+  - programs/neh-digital-humanities-advancement-grants
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-neh-dhag
+  date_note: undated page; year is the year accessed
+- n: 2559
+  key: stc-grantsgov-search-imls-nlg
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: National Leadership Grants (forecasted and open). n.d.. https://simpler.grants.gov/search?query=National%20Leadership%20Grants&status=forecasted,posted'
+  url: https://simpler.grants.gov/search?query=National%20Leadership%20Grants&status=forecasted,posted
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: National Leadership Grants (forecasted and open)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted and open National Leadership Grants listings. It returned the two FY 2027 IMLS
+    notices, both Open.
+  key_facts:
+  - 'NLG-LIBRARIES-FY27, National Leadership Grants for Libraries (2027): Open; posted Sep 1, 2026; close date Nov 13, 2026;
+    https://simpler.grants.gov/opportunity/1bbe7a77-aeff-4653-8602-b864c237ba91.'
+  - 'NLG-M-FY27, National Leadership Grants for Museums (2027): Open; posted Sep 1, 2026; close date Nov 13, 2026; https://simpler.grants.gov/opportunity/a4dc5da0-c126-4693-bc83-8ccc9cc70615.'
+  quotes: []
+  cited_in:
+  - programs/imls-national-leadership-grants-libraries
+  - programs/imls-national-leadership-grants-museums
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-imls-nlg
+  date_note: undated page; year is the year accessed
+- n: 2560
+  key: stc-grantsgov-search-ies-305d
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Institute of Education Sciences Statistical and Research Methodology
+    (forecasted, open and closed). n.d.. https://simpler.grants.gov/search?query=Institute%20of%20Education%20Sciences%20Statistical%20and%20Research%20Methodology&status=forecasted,posted,closed'
+  url: https://simpler.grants.gov/search?query=Institute%20of%20Education%20Sciences%20Statistical%20and%20Research%20Methodology&status=forecasted,posted,closed
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Institute of Education Sciences Statistical and Research Methodology (forecasted, open
+    and closed)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for the IES methodology competition. It returned the FY 2027 notice for 84.305D and shows it
+    Closed.
+  key_facts:
+  - 'ED-GRANTS-080626-003, Institute of Education Sciences (IES): National Center for Education Research (NCER): Statistical
+    and Research Methodology in Education, Assistance Listing Number (ALN) 84.305D.'
+  - 'Status: Closed; posted Aug 6, 2026; close date Oct 1, 2026.'
+  - 'Listing: https://simpler.grants.gov/opportunity/985f68aa-76f5-4fb0-b6d9-f22255a7a594.'
+  quotes: []
+  cited_in:
+  - programs/ies-statistical-research-methodology
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-ies-305d
+  date_note: undated page; year is the year accessed
+- n: 2561
+  key: stc-grantsgov-search-ies-longitudinal
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: Using Longitudinal Data to Support State Education Policymaking (forecasted,
+    open and closed). n.d.. https://simpler.grants.gov/search?query=Using%20Longitudinal%20Data%20to%20Support%20State%20Education%20Policymaking&status=forecasted,posted,closed'
+  url: https://simpler.grants.gov/search?query=Using%20Longitudinal%20Data%20to%20Support%20State%20Education%20Policymaking&status=forecasted,posted,closed
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: Using Longitudinal Data to Support State Education Policymaking (forecasted, open and
+    closed)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for the two IES longitudinal data competitions. It returned both FY 2027 notices and shows
+    them Closed.
+  key_facts:
+  - 'ED-GRANTS-080626-004, IES NCER: Using Longitudinal Data to Support State Education Policymaking: Closed; posted Aug
+    6, 2026; close date Oct 1, 2026; https://simpler.grants.gov/opportunity/069c1e81-d310-44fc-b066-218533eb35cc.'
+  - 'ED-GRANTS-080626-005, IES NCSER: Using Longitudinal Data to Support State Education Policymaking in Special Education:
+    Closed; posted Aug 6, 2026; close date Oct 1, 2026; https://simpler.grants.gov/opportunity/72bd1f82-d3f8-4226-872e-fc254dd21a6a.'
+  quotes: []
+  cited_in:
+  - programs/ies-longitudinal-data-state-policymaking
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-ies-longitudinal
+  date_note: undated page; year is the year accessed
+- n: 2562
+  key: stc-grantsgov-search-nhprc
+  tier: current
+  citation: 'Grants.gov. Grants.gov search results: National Historical Publications and Records Commission (forecasted,
+    open and closed). n.d.. https://simpler.grants.gov/search?query=National%20Historical%20Publications%20and%20Records%20Commission&status=forecasted,posted,closed'
+  url: https://simpler.grants.gov/search?query=National%20Historical%20Publications%20and%20Records%20Commission&status=forecasted,posted,closed
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Grants.gov
+  title: 'Grants.gov search results: National Historical Publications and Records Commission (forecasted, open and closed)'
+  source_kind: primary
+  read: partial
+  summary: Grants.gov search for forecasted, open and closed listings from the National Archives and Records Administration.
+    It returned 68 listings, all Closed.
+  key_facts:
+  - 68 results from the National Archives and Records Administration, all Closed.
+  - None Forecasted or Open.
+  - The first page showed Public Engagement with Historical Records listings from 2016 to 2023; the remaining 60 results
+    were on later pages and were not read.
+  quotes: []
+  cited_in:
+  - programs/nhprc-publishing-historical-records-editions
+  - programs/nhprc-archival-projects
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-grantsgov-search-nhprc
+  date_note: undated page; year is the year accessed
+- n: 2563
+  key: stc-pcori-engagement-science-c1-2027
+  tier: current
+  citation: Patient-Centered Outcomes Research Institute. Advancing the Science of Engagement in Research PCORI Funding
+    Announcement -- Cycle 1 2027. n.d.. https://www.pcori.org/funding-opportunities/announcement/advancing-science-engagement-research-pcori-funding-announcement-cycle-1-2027
+  url: https://www.pcori.org/funding-opportunities/announcement/advancing-science-engagement-research-pcori-funding-announcement-cycle-1-2027
+  year: 2026
+  published: unknown
+  accessed: '2026-10-05'
+  publisher: Patient-Centered Outcomes Research Institute
+  title: Advancing the Science of Engagement in Research PCORI Funding Announcement -- Cycle 1 2027
+  source_kind: primary
+  read: partial
+  summary: PCORI's announcement page for the next Science of Engagement cycle. It settles that the next cycle is announced
+    and gives its dates.
+  key_facts:
+  - 'Status label: Upcoming.'
+  - Online System Opens Nov. 17, 2026, 9 am (ET).
+  - Letter of Intent Deadline Jan. 6, 2027, 5 pm (ET); LOI Status Notification Feb. 16, 2027.
+  - Application Deadline May 4, 2027, 5 pm (ET); Merit Review July 2027.
+  - Awards Announced December 2027 (Subject to Change); Earliest Start Date April 2028 (Subject to Change).
+  - Budget up to $1 million (measurement studies) or $1.5 million (engagement approach development).
+  quotes: []
+  cited_in:
+  - programs/pcori-science-of-engagement
+  verified: true
+  recheck: true
+  sweep: status-C
+  sweep_ids:
+  - stc-pcori-engagement-science-c1-2027
+  date_note: undated page; year is the year accessed

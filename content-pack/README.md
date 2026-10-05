@@ -1,10 +1,10 @@
 # Token for Granted — content pack
 
-State on 2026-10-05: **all six sweep families are in, and every source has been through the recheck pass** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `routes.yaml`, `glossary.yaml`, `concepts/`, `figures.yaml` or `pathfinder.yaml`.
+State on 2026-10-05: **all six sweep families are in, every source from the sweeps has been through the recheck pass, and every programme has a status** — research project grants; fellowships, career and training ("people"); programme and service grants; capacity and infrastructure; rules and gates; foundations. The pack is not yet buildable: there is no `manifest.yaml`, `scope.yaml`, `review.md`, `routes.yaml`, `glossary.yaml`, `concepts/`, `figures.yaml` or `pathfinder.yaml`.
 
 | File | Count | Note |
 |---|---|---|
-| `references.yaml` | 2512 | 2412 primary, 100 secondary; 377 read in full, 2132 in part, 3 not fetched; 2492 cited by a record. Rechecked 2026-10-05: 2410 cleared (`recheck: false`), 102 still flagged (12 pages that refused, 90 with an item the second reading did not confirm). 2636 quotes, all verbatim on the second reading or on a page that refused. Numbers 1–726 are research, 727–1106 people, 1107–1512 programme-service, 1513–1798 capacity, 1799–2118 rules, 2119–2512 foundations; they do not move. |
+| `references.yaml` | 2563 | 2463 primary, 100 secondary; 380 read in full, 2180 in part, 3 not fetched; 2541 cited by a record. Rechecked 2026-10-05: 2397 cleared (`recheck: false`), 166 still flagged: 12 pages that refused, 90 with an item the second reading did not confirm, and 64 from the status pass (51 pages read once on 2026-10-05, after the recheck, and 13 earlier pages to which that pass added a fact). 2653 quotes. Numbers 1–726 are research, 727–1106 people, 1107–1512 programme-service, 1513–1798 capacity, 1799–2118 rules, 2119–2512 foundations, 2513–2563 the status pass; they do not move. |
 | `programs.yaml` | 565 | 524 federal and 41 foundation programmes; by family: research 145, people 154, programme-service 141, capacity 125 |
 | `funders.yaml` | 159 | 94 federal and congressionally created funders, 65 foundations and other private grantmakers |
 | `standing.yaml` | 113 | jurisdiction lists, institution designations, non-profit tax standing, the kinds of foundation |
@@ -14,7 +14,7 @@ State on 2026-10-05: **all six sweep families are in, and every source has been 
 | `changes.yaml` | 524 | dated ledger, 2025–26 |
 | `todo.yaml` | 902 | gap 342, recheck 330, unverified 106, conflict 124; the 104 with ids starting `tr-` come from the recheck |
 | `queries.yaml` | 615 | every search run, by slice |
-| `EXTENSIONS.md` | | the schema, draft v0.8 |
+| `EXTENSIONS.md` | | the schema, draft v0.9 |
 | `consolidation-report.json` | | counts and integrity checks from the last consolidation |
 
 ## The recheck (2026-10-05)
@@ -45,12 +45,15 @@ Each reference now carries `rechecked`, `recheck_result`, `fact_check` (one code
 
 The selection is editorial: the largest national grantmakers that fund universities or non-profits, spread across kinds and fields, with examples of community and corporate foundations. It is a sample, and the site must say so.
 
-## Programme status as of 2026-10-04
+## Programme status
+
+All 565 programmes carry a status: open 177, closed 171, no-current-notice 82, forecast 40, formula 32, unconfirmed 26, expired 25, not-competed 12. People, programme-service and capacity are as read on 2026-10-04; the 131 federal research records were read on 2026-10-05 and carry `status_as_of`, `status_note` and, where a page gave one, `next_date`.
+
 
 - People: open 57, closed 41, unconfirmed 19, expired 14, no-current-notice 14, forecast 6, not-competed 3.
 - Programme-service: closed 60, formula 24, open 19, no-current-notice 18, forecast 17, unconfirmed 1, not-competed 1, expired 1.
 - Capacity: closed 35, open 34, no-current-notice 26, forecast 8, formula 8, not-competed 7, expired 4, unconfirmed 3.
-- Research: None 131, open 7, closed 6, unconfirmed 1 — the 131 federal research records were written before `status` was a field ("None"); their state is in `cycle`.
+- Research: open 67, closed 35, no-current-notice 24, forecast 9, expired 6, unconfirmed 3, not-competed 1. Sixteen of the federal records carry `status_change`, a sentence on what the page showed on 2026-10-05 that the record's `cycle` of the day before did not: among them forecasts for the NIOSH R01 and R21 and for three NIDILRR competitions, an open FDA natural-history notice, and the retirement of ARPA-E's own notice site.
 
 ## Slices swept
 
@@ -65,20 +68,22 @@ The selection is editorial: the largest national grantmakers that fund universit
 | foundations-B | 25 national funders of non-profit programmes, services, arts and community work |
 | foundations-C | the kinds of foundation; the tax rules that shape giving; how to read a Form 990-PF; finding foundations without paying; community and corporate foundations and federal-agency foundations as examples |
 | foundations-D | gap-filling pass: what the public filing data carries; own-document figures for the twelve largest |
+| status-A … C | the status pass of 2026-10-05 over the 131 federal research programmes: NIH and NSF · the science and mission agencies · health, justice, education and culture. Sources only; the findings are in `status-research-?.yaml` |
 
 ## Integrity, as consolidated
 
-Every citation in a record resolves to a reference. No record id is used twice. No record points to a funder, gate, standing class or programme that does not exist. 20 references are cited by no record. 255 pages were read in more than one slice and are one reference each.
+Every citation in a record resolves to a reference. No record id is used twice. No record points to a funder, gate, standing class or programme that does not exist. 22 references are cited by no record. 268 pages were read in more than one slice and are one reference each.
 
 ## Known debts
 
 - The recheck ran through the same summarising fetch layer as the sweeps. 102 references stay flagged: 12 pages refused (nine eCFR sections among them, which were answering 503 on the day) and 90 hold a fact the second reading did not find. Five contradictions are open (`tr-*-f*` in `todo.yaml`).
-- Programme `status` is not yet filled on the 131 federal research records.
+- The status pass was a single reading on one day. Status goes stale fastest of anything here; the site should show `status_as_of` beside it, and the nightly harvest should overwrite it where a programme can be matched to a Grants.gov notice.
+- 26 programmes are `unconfirmed`. For the two federal research ones, ARPA-E and VA Merit Review, the notices sit on sites the fetch layer cannot read.
 - 106 facts rest on a non-primary source and are marked `unverified`; 119 conflicts between sources are open, among them nine foundation asset or giving figures where the foundation's own statement and its filing summary differ.
 - Three sections of 2 CFR Part 200 rest on GovInfo's January 1, 2025 edition; OMB's proposed rewrite was read only in part.
 - The instructions for Part XIV of Form 990-PF could not be read (the fetch layer cuts them short); the form itself was read.
-- 26 records contain a second-person sentence to re-voice (listed in `consolidation-report.json`).
+- 28 records contain a second-person sentence to re-voice; two of them only quote a page or name a page title (listed in `consolidation-report.json`).
 
 ## How it was made
 
-`source/sweeps/SWEEP-BRIEF-*.md` are the briefs the sweep agents read. `python3 source/sweeps/consolidate.py source/sweeps content-pack` rebuilds every file above from the sweep files and `overrides.yaml`; it renumbers, merges and relabels, applies the recheck verdicts in `source/sweeps/recheck.json`, and adds no facts. `source/recheck/build_recheck.py` writes that file from the verdict files and `adjudications.json`.
+`source/sweeps/SWEEP-BRIEF-*.md` are the briefs the sweep agents read, and `STATUS-BRIEF.md` the brief for the status pass. `python3 source/sweeps/consolidate.py source/sweeps content-pack` rebuilds every file above from the sweep files and `overrides.yaml`; it renumbers, merges and relabels, applies the recheck verdicts in `source/sweeps/recheck.json` and the statuses in `source/sweeps/status-research-?.yaml`, and adds no facts. `source/recheck/build_recheck.py` writes that file from the verdict files and `adjudications.json`.

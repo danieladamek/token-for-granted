@@ -125,6 +125,15 @@
   - 'PA-25-301 end date: expiration January 08, 2028 on the NIH notice [4] vs close date January 7, 2028 on the Grants.gov
     listing [112].'
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The parent announcements page lists the research-project parents PA-25-301 and PA-25-305 (R01), PA-25-304
+    and PA-25-306 (R21), PA-25-302 (R03), PAR-25-134 and PAR-25-148 (R15 AREA) and PAR-25-298 (R15 REAP), each expiring
+    01-08-2028, with PAR-27-078 (R15 REAP, expires 10-26-2027), PA-25-080 (R13, expires 09-08-2027) and PA-26-002 (PF5,
+    expires 05-08-2029), and carries no statement that any is paused or withdrawn [1]. The PA-25-301 notice lists October
+    05, 2026 as a due date for new R01 applications, followed by February 05, 2027, and PA-25-304 and PA-25-302 list October
+    16, 2026 [4] [5] [6].
+  next_date: '2026-10-05'
 - id: nih-r01
   name: NIH Research Project Grant (R01)
   family: research
@@ -296,6 +305,12 @@
     [4], while PA-25-305 says applications with foreign subawards are noncompliant [144]; NIH policy bars foreign subawards
     in new awards [22].'
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PA-25-301 is listed as Open on Grants.gov, posted December 18, 2024 and closing January 7, 2028 [112]. The
+    notice gives an expiration date of January 08, 2028 and lists October 05, 2026, February 05, 2027, June 05, 2027 and
+    October 05, 2027 as the remaining due dates for new applications [4].
+  next_date: '2026-10-05'
 - id: nih-r21
   name: NIH Exploratory/Developmental Research Grant (R21)
   family: research
@@ -429,6 +444,12 @@
   - 82
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PA-25-304 carries an expiration date of January 08, 2028 and lists October 16, 2026 as the next due date
+    for new applications, followed by February 16, 2027, June 16, 2027 and October 16, 2027 [5]. The parent announcements
+    page lists PA-25-304 and PA-25-306, both expiring 01-08-2028 [1].
+  next_date: '2026-10-16'
 - id: nih-r03
   name: NIH Small Research Grant (R03)
   family: research
@@ -529,6 +550,12 @@
   - 2
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PA-25-302 carries an expiration date of January 8, 2028 and lists October 16, 2026 as the next due date for
+    new applications, followed by February 16, 2027, June 16, 2027 and October 16, 2027 [6]. The standard due dates page
+    gives February 16, June 16 and October 16 for new R03 applications [2].
+  next_date: '2026-10-16'
 - id: nih-r15-area
   name: NIH Academic Research Enhancement Award for Undergraduate-Focused Institutions (R15 AREA)
   family: research
@@ -645,6 +672,12 @@
   - 1
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PAR-25-134 carries an expiration date of January 8, 2028 and lists October 25, 2026 as the next application
+    due date, followed by February 25, 2027, June 25, 2027 and October 25, 2027 [7]. The parent announcements page lists
+    PAR-25-134 and PAR-25-148 (clinical trial required), both expiring 01-08-2028 [1].
+  next_date: '2026-10-25'
 - id: nih-r15-reap
   name: NIH Research Enhancement Award Program for Health Professional Schools and Graduate Schools (R15 REAP)
   family: research
@@ -753,6 +786,13 @@
   - 1
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PAR-25-298 carries an expiration date of January 08, 2028 and lists October 25, 2026 as the next due date
+    for new, renewal and resubmission applications, followed by February 25, 2027, June 25, 2027 and October 25, 2027 [8].
+    The parent announcements page lists PAR-25-298 (expires 01-08-2028) and PAR-27-078, clinical trial required (released
+    05-29-2026, expires 10-26-2027) [1].
+  next_date: '2026-10-25'
 - id: nih-r34
   name: NIH Planning Grant (R34)
   family: research
@@ -842,6 +882,12 @@
   - 2
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: R34 notices are institute-specific; PAR-25-032 (NHLBI Clinical Trial Pilot Studies) is listed as Open on
+    Grants.gov, posted December 18, 2024 and closing January 7, 2027 [114]. The Grants.gov search for posted R34 planning
+    grants returns five Open notices, among them PAR-25-358 (closes Jan 7, 2028), PAR-25-104 (closes Oct 25, 2027) and PAR-25-159
+    (closes Jan 7, 2027) [109].
 - id: nih-r61-r33
   name: NIH Phased Exploratory/Developmental Award (R61/R33)
   family: research
@@ -932,6 +978,11 @@
   - 41
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: R61/R33 notices are institute-specific; the Grants.gov search for posted R61/R33 opportunities returns 25
+    Open notices, among them PAR-27-011 (posted Mar 18, 2026, closes Nov 2, 2028), PAR-28-072 (posted Sep 25, 2026, closes
+    Nov 16, 2029) and PAR-25-059 (posted Oct 22, 2024, closes Oct 20, 2027) [108].
 - id: nih-r35
   name: NIH Investigator-Focused Award (R35), including the NIGMS Maximizing Investigators' Research Award (MIRA)
   family: research
@@ -1029,6 +1080,13 @@
   - 71
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'Both NIGMS MIRA notices are listed as Open on Grants.gov: PAR-26-121 (established and new investigators),
+    closing May 26, 2028, and PAR-27-032 (early stage investigators), posted May 12, 2026 and closing February 6, 2029 [2513]
+    [2514]. The PAR-26-121 announcement lists January 27, 2027 as its next application due date, followed by May 27, 2027,
+    January 27, 2028 and May 26, 2028 [73].'
+  next_date: '2027-01-27'
 - id: nih-p01
   name: NIH Research Program Project Grant (P01)
   family: research
@@ -1113,6 +1171,12 @@
   - 107
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov search for posted P01 opportunities returns one notice, PAR-27-082 (NIAID Investigator Initiated
+    Program Project Applications), listed as Open, posted May 7, 2026 and closing May 25, 2029 [110]. The announcement lists
+    January 25, 2027 as the next application due date after September 25, 2026 and an expiration date of May 26, 2029 [113].
+  next_date: '2027-01-25'
 - id: nih-u01
   name: NIH Research Project Cooperative Agreement (U01)
   family: research
@@ -1203,6 +1267,12 @@
   - 2
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: U01 notices are institute-specific; the Grants.gov search for posted U01 clinical-trial opportunities returns
+    33 results, with PAR-27-064 (posted Jun 16, 2026, closes Jul 5, 2029), PAR-25-297 (closes Nov 5, 2027) and PAR-24-325
+    (closes Sep 7, 2027) each shown as Open [111]. The standard due dates page gives February 5, June 5 and October 5 for
+    new U01 applications where a notice uses standard dates [2].
 - id: nih-dp1-pioneer
   name: NIH Director's Pioneer Award (DP1)
   family: research
@@ -1288,6 +1358,12 @@
   - 3
   conflicts: []
   sweep: research-A
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: RFA-RM-27-001 is listed as Closed on Grants.gov, posted June 29, 2026 with a closing date of September 9,
+    2026 [2515]. The Common Fund's Pioneer Award page states "No open funding announcements" and points to its funding opportunities
+    page for information about future announcements, and neither it nor the High-Risk, High-Reward page gives a date for
+    the next round or says the award has ended [2516] [53].
 - id: nih-dp2-new-innovator
   name: NIH Director's New Innovator Award (DP2)
   family: research
@@ -1373,6 +1449,11 @@
   - 3
   conflicts: []
   sweep: research-A
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: RFA-RM-27-002 is listed as Closed on Grants.gov, posted June 26, 2026 with a closing date of August 17, 2026
+    [2517]. The Common Fund's New Innovator Award page still shows RFA-RM-27-002 with "Applications due August 17, 2026"
+    and gives neither a date for the next round nor a statement that the award has ended [76].
 - id: nih-dp5-early-independence
   name: NIH Director's Early Independence Award (DP5)
   family: research
@@ -1457,6 +1538,12 @@
   - 3
   conflicts: []
   sweep: research-A
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: RFA-RM-27-004 is listed as Closed on Grants.gov, posted June 26, 2026 with a closing date of September 10,
+    2026 [2518]. The Common Fund's Early Independence Award page states "No open funding announcements" and points to its
+    funding opportunities page for information about future announcements, with no date for the next round and no statement
+    that the award has ended [78] [53].
 - id: nih-tr01-transformative
   name: NIH Director's Transformative Research Award (R01)
   family: research
@@ -1539,6 +1626,12 @@
   - 103
   conflicts: []
   sweep: research-A
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: RFA-RM-27-003 is listed as Closed on Grants.gov, posted June 29, 2026 with a closing date of September 3,
+    2026 [2519]. The Common Fund's Transformative Research Award page states "No open funding announcements" and points
+    to its funding opportunities page for information about future announcements, with no date for the next round and no
+    statement that the award has ended [77] [53].
 - id: nih-r13
   name: NIH Support for Conferences and Scientific Meetings (R13)
   family: research
@@ -1657,6 +1750,12 @@
   conflicts:
   - 'Posted date: October 02, 2024 on the notice [52] vs 10-01-2024 in the parent-announcement table [1].'
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PA-25-080 carries an expiration date of September 08, 2027 and lists December 12, 2026 as the next due date
+    for new and renewal applications, followed by April 12, 2027 and August 12, 2027 [52]. The standard due dates page gives
+    April 12, August 12 and December 12 for R13 and U13 applications [2].
+  next_date: '2026-12-12'
 - id: nih-pf5
   name: NIH Collaborative International Research Project (PF5, with linked RF2 awards)
   family: research
@@ -1775,6 +1874,12 @@
   - 141
   conflicts: []
   sweep: research-A
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: PA-26-002 is listed as Open on Grants.gov, posted January 20, 2026 and closing May 7, 2029 [2520]. The announcement
+    lists January 25, 2027 as the next application due date after September 25, 2026 and an expiration date of May 08, 2029
+    [23].
+  next_date: '2027-01-25'
 - id: nsf-research-proposal
   name: NSF research proposal (standard proposal under the PAPPG)
   family: research
@@ -1927,6 +2032,12 @@
   - 'De minimis indirect-cost rate: 10% of MTDC in PAPPG 24-1 as printed [257] vs up to 15% of MTDC on NSF''s indirect-costs
     page [163].'
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The research proposal is a proposal type sent to a funding opportunity, not a competition of its own; NSF's
+    news item of August 17, 2026 lists 12 foundational-research notices of funding opportunity, and one of them, NSF 26-517
+    (BIO Core), states "Proposals Accepted Anytime" [192] [185]. The Preparing Your Proposal page still points to Chapter
+    II of PAPPG 24-1 and carries no notice of a new guide or of a pause in accepting proposals [159].
 - id: nsf-rapid
   name: Rapid Response Research (RAPID)
   family: research
@@ -2027,6 +2138,12 @@
   - 'RAPID ceiling: $300,000 in Supplement 1 [149] vs $200,000 in a third-party guide that says it includes Supplements
     1 and 2 [264].'
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: RAPID is a proposal type with no notice of its own; NSF 26-517 (BIO Core) states that RAPID proposals may
+    be submitted at any time once a concept outline has been submitted and NSF BIO has approved submission [185]. The ENG
+    proposal guidance states that RAPID proposals can be submitted at any time after a concept outline has gone to the cognizant
+    programme director [166].
 - id: nsf-eager
   name: EArly-concept Grants for Exploratory Research (EAGER)
   family: research
@@ -2126,6 +2243,12 @@
   - 'EAGER ceiling: $400,000 in Supplement 1 [149] vs $300,000 on NSF''s early-career page last updated September 26, 2025
     [251] and in a third-party guide updated September 14, 2026 [264].'
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: EAGER is a proposal type with no notice of its own; NSF 26-517 (BIO Core) states that EAGER proposals may
+    be submitted at any time once a concept outline has been submitted and NSF BIO has approved submission [185]. The ENG
+    proposal guidance states that EAGER proposals can be submitted at any time after a concept outline has gone to the cognizant
+    programme director [166].
 - id: nsf-raise
   name: Research Advanced by Interdisciplinary Science and Engineering (RAISE)
   family: research
@@ -2210,6 +2333,11 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: RAISE is a proposal type with no notice of its own; NSF 26-517 (BIO Core), posted August 17, 2026, states
+    that RAISE proposals may be submitted at any time once a concept outline has been submitted and NSF BIO has approved
+    submission [185].
 - id: nsf-goali
   name: Grant Opportunities for Academic Liaison with Industry (GOALI)
   family: research
@@ -2293,6 +2421,12 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: GOALI is a proposal type with no notice of its own; the ENG proposal guidance states that a GOALI proposal
+    may be submitted in conjunction with a regular proposal to an NSF programme, as an unsolicited proposal, or as a supplemental
+    funding request to an active award, after contact with the programme director, and it lists no proposal type as paused
+    or discontinued [166].
 - id: nsf-planning
   name: Planning proposal
   family: research
@@ -2381,6 +2515,11 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The planning proposal is a proposal type with no notice of its own; NSF 26-517 (BIO Core), posted August
+    17, 2026, states that Planning proposals may be submitted at any time once a concept outline has been submitted and
+    NSF BIO has approved submission [185].
 - id: nsf-conference
   name: Conference proposal
   family: research
@@ -2470,6 +2609,11 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The conference proposal is a proposal type with no notice of its own; NSF 26-517 (BIO Core) states that travel
+    or conference support, including workshops, can be submitted at any time [185]. The ENG proposal guidance states that
+    conference proposals should be submitted at least a year in advance of the scheduled meeting [166].
 - id: nsf-rui-roa
   name: Research in Undergraduate Institutions (RUI) and Research Opportunity Awards (ROA-PUI)
   family: research
@@ -2580,6 +2724,12 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 14-579, posted July 1, 2014, as the current solicitation with "Full proposal
+    accepted anytime" and the note that submission deadlines vary by programme [253]. NSF 26-517 (BIO Core) states that
+    RUI proposals may be submitted at any time and must follow the proposal preparation guidance in the RUI solicitation
+    [185].
 - id: nsf-bio-core
   name: Core Research in Biological Sciences (BIO Core)
   family: research
@@ -2695,6 +2845,11 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-517 as the current solicitation with "Full proposal accepted anytime" [2521].
+    The solicitation itself gives "Proposals Accepted Anytime" in place of a deadline and states that it replaces NSF 24-543,
+    NSF 24-546 and NSF 24-539 [185].
 - id: nsf-cise-future-core
   name: CISE Future Computing Research (Future CoRe)
   family: research
@@ -2815,6 +2970,12 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 25-543 as the current solicitation and states that proposals are accepted
+    anytime, with target dates of February 4, 2027 (first Thursday in February, annually thereafter) and September 9, 2027
+    (second Thursday in September, annually thereafter) [190].
+  next_date: '2027-02-04'
 - id: nsf-cise-expeditions
   name: Expeditions in Computing
   family: research
@@ -2916,6 +3077,11 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-525 as the current solicitation, with preliminary proposals due December
+    2, 2026 and a full proposal deadline of July 27, 2027 [2522].
+  next_date: '2026-12-02'
 - id: nsf-eng-cbet
   name: 'ENG: Chemical, Bioengineering, Energy, and Transport Systems (CBET)'
   family: research
@@ -3031,6 +3197,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-518, posted August 13, 2026, as the current solicitation with "Full proposal
+    accepted anytime" [196].
 - id: nsf-eng-cmmi
   name: 'ENG: Civil, Mechanical, and Manufacturing Innovation (CMMI)'
   family: research
@@ -3145,6 +3315,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-515, published August 13, 2026, as the current solicitation with "Full
+    proposal accepted anytime" [198].
 - id: nsf-eng-eccs
   name: 'ENG: Electrical, Communications, and Computing Systems (ECCS)'
   family: research
@@ -3260,6 +3434,9 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-514 as the current solicitation with "Full proposal accepted anytime" [200].
 - id: nsf-geo-core
   name: 'Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)'
   family: research
@@ -3375,6 +3552,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-516, posted August 13, 2026, as the current solicitation with "Full proposal
+    accepted anytime" [205].
 - id: nsf-mps-astro
   name: MPS Astronomical Sciences Research Programs (MPS Astro)
   family: research
@@ -3484,6 +3665,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-522, published August 13, 2026, as the current solicitation with "Full
+    proposal accepted anytime" [219].
 - id: nsf-mps-chem
   name: MPS Chemistry Research Programs (MPS Chem)
   family: research
@@ -3589,6 +3774,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-519, posted August 13, 2026, as the current solicitation and states that
+    full proposals are accepted anytime starting September 1, 2026, a date now past [213].
 - id: nsf-mps-materials
   name: MPS Materials Research Programs (MPS Materials)
   family: research
@@ -3700,6 +3889,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-521, posted August 13, 2026, as the current solicitation with "Full proposal
+    accepted anytime" [215].
 - id: nsf-mps-mathsci
   name: MPS Mathematical Sciences Research Programs (MPS MathSci)
   family: research
@@ -3809,6 +4002,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-520, posted August 13, 2026, as the current solicitation with "Full proposal
+    accepted anytime" [217].
 - id: nsf-mps-physics
   name: MPS Physics Research Programs (MPS Physics)
   family: research
@@ -3921,6 +4118,9 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-523 as the current solicitation with "Full proposal accepted anytime" [211].
 - id: nsf-sbe-core-programs
   name: SBE core disciplinary programmes (programme descriptions)
   family: research
@@ -4033,6 +4233,13 @@
   - 152
   - 151
   sweep: research-B
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: 'The three programme pages read show no due date: Economics and Perception, Action & Cognition each state
+    "No upcoming due dates", and Economics (PD 23-1320), Sociology (PD 98-1331) and Perception, Action & Cognition (PD 09-7252)
+    each state that the programme is currently waiting for a new publication [224] [226] [225]. None of the three pages
+    marks the programme archived or ended or gives a date for the new publication, and NSF''s list of 12 foundational-research
+    notices of August 17, 2026 names none for SBE [225] [192].'
 - id: nsf-edu-ecr-core
   name: EDU Core Research (ECR:Core)
   family: research
@@ -4157,6 +4364,11 @@
   - 'Deadline: first Thursday in October annually in the solicitation [233] vs no upcoming due dates on the opportunity
     page [232].'
   sweep: research-B
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 21-588 as the current solicitation and shows "No upcoming due dates" [232].
+    A programme update dated July 2, 2026 set the scope for the October 1, 2026 deadline, a date now past, and the opportunity
+    page neither marks the programme archived nor names a later deadline [2523] [232].
 - id: nsf-satc
   name: Security, Privacy, and Trust in Cyberspace (SaTC 2.0)
   family: research
@@ -4277,6 +4489,12 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 25-515, published December 5, 2024, as the current solicitation with target
+    dates of January 25, 2027 (last Monday in January, annually thereafter) and September 27, 2027 (last Monday in September,
+    annually thereafter) [2524].
+  next_date: '2027-01-25'
 - id: nsf-gcr
   name: Growing Convergence Research (GCR)
   family: research
@@ -4364,6 +4582,11 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 24-527, posted January 12, 2024, as the current solicitation with a full proposal
+    deadline of February 8, 2027 (second Monday in February, annually thereafter) [266].
+  next_date: '2027-02-08'
 - id: nsf-efri-wbc
   name: 'Emerging Frontiers in Research and Innovation: Wave-Based Computing (EFRI-WBC)'
   family: research
@@ -4480,6 +4703,16 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-524 as the current solicitation, with concept outlines due November 19,
+    2026 for the FY 2027 cycle and full proposals due February 11, 2027 [2525]. The solicitation requires each prospective
+    principal investigator to email a concept outline by November 19, 2026 (FY 2027 cycle) or November 16, 2027 (FY 2028
+    cycle), with full proposals due February 11, 2027 and February 10, 2028 [267].
+  next_date: '2026-11-19'
+  status_change: The solicitation and the opportunity page give a required concept outline date of November 19, 2026 ahead
+    of the February 11, 2027 full proposal deadline; the cycle recorded yesterday carried only the full proposal dates [267]
+    [2525].
 - id: nsf-frr
   name: Foundational Research in Robotics (FRR)
   family: research
@@ -4551,6 +4784,10 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists PD 20-144Y, published February 11, 2020, as the current programme description
+    with "Full proposal accepted anytime" [268].
 - id: nsf-cdse
   name: Computational and Data-Enabled Science and Engineering (CDS&E)
   family: research
@@ -4625,6 +4862,14 @@
   - 152
   - 151
   sweep: research-B
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'The opportunity page lists PD 24-8084, posted August 14, 2024, as the current programme description, with
+    dates that differ by unit: MPS Astronomical Sciences October 1-November 15, 2026; three MPS Chemistry programmes (CMI,
+    ECS, MSN) October 1-31, 2026; MPS Materials Research October 15, 2026; MPS Mathematical Sciences October 15-31, 2026;
+    MPS Physics (Plasma Physics) November 16, 2026; and three MPS Chemistry programmes (CLP, CSD, CTMC) accepting full proposals
+    anytime [273]. The ENG windows shown are in September 2027 [273].'
+  next_date: '2026-10-15'
 - id: nsf-dmref
   name: Designing Materials to Revolutionize and Engineer our Future (DMREF)
   family: research
@@ -4707,6 +4952,14 @@
   - 152
   - 151
   sweep: research-B
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 25-508, posted November 4, 2024, as the current solicitation and shows no
+    upcoming due dates; the solicitation's only submission window was January 21, 2025 - February 04, 2025 [275] [2526].
+    The solicitation states that, subject to the availability of funds, the programme is anticipated to continue with competitions
+    biennially in odd-numbered years, and no later solicitation is listed on the page [2526] [275].
+  status_change: The cycle recorded yesterday had no due dates; the solicitation read today gives a single submission window
+    of January 21, 2025 - February 04, 2025, and the opportunity page shows no upcoming due dates [2526] [275].
 - id: nsf-crcns
   name: Collaborative Research in Computational Neuroscience (CRCNS)
   family: research
@@ -4787,6 +5040,11 @@
   - 152
   - 151
   sweep: research-B
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 24-510, published December 7, 2023, as the current solicitation, shows "No
+    upcoming due dates" and states that the programme is currently waiting for a new publication; it gives no date for that
+    publication and does not mark the programme archived or ended [274].
 - id: nsf-trailblazer
   name: NSF Trailblazer Engineering Impact Award (TRAILBLAZER)
   family: research
@@ -4862,6 +5120,14 @@
   - 152
   - 151
   sweep: research-B
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The opportunity page lists NSF 26-502, published December 11, 2025, as the current solicitation and shows
+    "No upcoming due dates" [269]. The solicitation's dates were a letter of intent on January 20, 2026, a preliminary proposal
+    on March 10, 2026 and a full proposal deadline of July 24, 2026, all now past, and neither page names a next competition
+    or says the award has ended [2527] [269].
+  status_change: The cycle recorded yesterday had no due dates; the solicitation read today gives a full proposal deadline
+    of July 24, 2026, now past, and the opportunity page shows no upcoming due dates [2527] [269].
 - id: doe-sc-annual-foa
   name: Office of Science annual open funding opportunity (FY 2027 Continuation of Solicitation for the Office of Science
     Financial Assistance Program)
@@ -5009,6 +5275,11 @@
   - Expected funding is approximately $400,000,000 in the FY 2027 notice and approximately $500,000,000 in the FY 2026 notice;
     these are different years, not a disagreement [278] vs [281].
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The notice page for DE-FOA-0003665 gives a post date of Wednesday, September 30, 2026 and a close date of
+    Thursday, September 30, 2027, and states that the notice will remain open until September 30, 2027, or until replaced
+    by a successor; applications may be submitted at any time during the open period [277].
 - id: doe-sc-targeted-notices
   name: 'Office of Science targeted funding notices (example: The Genesis Mission, DE-FOA-0003612)'
   family: research
@@ -5082,6 +5353,14 @@
   - 285
   - 287
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'The Office of Science list of open announcements shows two targeted notices besides the annual one: DE-FOA-0003657,
+    The DOE Quantum Genesis Q Competition, posted 9/17/2026 with applications due by 11:59 PM Eastern on October 19, 2026,
+    and DE-FOA-0003612, The Genesis Mission, posted 3/16/2026 and closing 12/17/2026 [282]. The notices differ: the only
+    date still ahead under DE-FOA-0003612 is December 17, 2026 for Phase II applications from FY26 Phase I awards, so the
+    notice open to a new applicant is DE-FOA-0003657 [282].'
+  next_date: '2026-10-19'
 - id: doe-arpa-e-program-notices
   name: ARPA-E programme funding notices
   family: research
@@ -5191,6 +5470,15 @@
   - 'Cost share for a university or non-profit applying alone: 10% in the notice modified in 2026 [301] vs none in a 2019–2020
     notice [400]. The notices are six years apart.'
   sweep: research-C
+  status: unconfirmed
+  status_as_of: '2026-10-05'
+  status_note: 'Two ARPA-E listings were re-read and neither is a notice in force for a new applicant: SCALEUP Ready (DE-FOA-0003467)
+    is Open, posted October 2, 2024 and closing September 29, 2029, and is for technologies ARPA-E has already funded, while
+    IGNIITE 2026 (DE-FOA-0003624) is Closed, posted April 23, 2026 with a closing date of August 26, 2026 [370] [304]. The
+    ARPA-E exchange address returned only a notice that the site has been decommissioned and consolidated into eXCHANGE.energy.gov,
+    so the full list of current programme notices was not read within the three fetches allowed [305].'
+  status_change: The ARPA-E exchange at arpa-e-foa.energy.gov now shows a decommissioning notice pointing to eXCHANGE.energy.gov
+    and lists no opportunities [305].
 - id: doe-applied-office-notices
   name: DOE applied energy offices — funding notices in outline
   family: research
@@ -5256,6 +5544,11 @@
   - 300
   - 289
   sweep: research-C
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The Office of Critical Minerals and Energy Innovation funding page states that there are no current opportunities
+    to display and asks readers to check back for future opportunities; it does not say that funding has ended [307]. The
+    DOE eXCHANGE home page returned no individual listings, so notices from other applied offices were not checked [306].
 - id: doe-nnsa-ssaa
   name: NNSA Stewardship Science Academic Alliances (SSAA)
   family: research
@@ -5308,6 +5601,11 @@
   - 312
   - 313
   sweep: research-C
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The programme page states 'There are no open NOFOs at this time' and gives no date for a next solicitation
+    and no statement that the programme has ended [312]. A Grants.gov search across all statuses returns no open or forecast
+    notice; the newest programme notice, DE-FOA-0003242, is Archived, posted Mar 1, 2024 and closed Jun 20, 2024 [2528].
 - id: dod-onr-long-range-baa
   name: ONR Long Range Broad Agency Announcement for Navy and Marine Corps Science and Technology (N0001425SB001)
   family: research
@@ -5417,6 +5715,14 @@
   - 'Closing date: 31 December 2026 on ONR''s page and in Amendment 0008 [316] [334] vs 30 September 2026 on a university
     research-office page that predates the amendment [401].'
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'ONR''s list of current announcements carries the FY25 Long Range Broad Agency Announcement N0001425SB001,
+    published October 1, 2024, with the line ''Full Proposals will be accepted until: December 31, 2026 11:59 PM EST'';
+    no successor long-range announcement is on the list [335]. The Grants.gov listing for the same number shows the status
+    Archived with a closing date of December 31, 2026 and an archive date of January 30, 2027, so the two pages differ and
+    the status here follows ONR''s own page [317].'
+  next_date: '2026-12-31'
 - id: dod-afosr-open-baa
   name: AFOSR open broad agency announcement — Research Interests of the Air Force Office of Scientific Research (FA955026S0001)
   family: research
@@ -5517,6 +5823,10 @@
   - 'Close date of FA955026S0001: ''open until superseded'' on Grants.gov [320] vs August 18, 2026 on an aggregator copy
     [321].'
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for FA955026S0001, Research Interests of the Air Force Office of Scientific Research,
+    was posted June 4, 2026, shows no closing date and is described as 'Open until superseded' [320].
 - id: dod-aro-arl-baa
   name: DEVCOM Army Research Laboratory Broad Agency Announcement for Foundational Research (W911NF-23-S-0001) — the Army
     Research Office route
@@ -5602,6 +5912,11 @@
   - 341
   - 342
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for W911NF-23-S-0001 shows the status Open, posted November 21, 2022 with a closing
+    date of November 20, 2027 [324].
+  next_date: '2027-11-20'
 - id: dod-darpa-office-wide-baa
   name: DARPA office-wide broad agency announcements
   family: research
@@ -5676,6 +5991,13 @@
   - 'Instruments: the Defense Sciences listing shows cooperative agreement, procurement contract and other [328]; the Tactical
     Technology listing also shows grant [346]. These are two different announcements.'
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'A Grants.gov search of posted opportunities returns three DARPA office-wide announcements with the status
+    Open: HR001126S0015 (Defense Sciences Office), posted Aug 28, 2026 and closing Aug 27, 2027; HR001126S0011 (Information
+    Processing Techniques Office), posted Jun 22, 2026 and closing Jun 22, 2027; and HR001125S0011 (Tactical Technology
+    Office), posted Jun 23, 2025 and closing Dec 22, 2026 [347].'
+  next_date: '2026-12-22'
 - id: dod-muri
   name: Multidisciplinary Research Program of the University Research Initiative (MURI), FY 2027
   family: research
@@ -5775,6 +6097,13 @@
   - 'Award size: recommended five-year total $7,500,000 in the announcement [325] vs an award ceiling of $15,000,000 in
     the Grants.gov listing field [326].'
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for the FY 2027 MURI, NOFOAFRLAFOSR20260002, shows the status Open, posted September
+    21, 2026 and closing April 9, 2027 at 5:00 PM Eastern Time [326]. ONR's list of current announcements carries the same
+    competition as N0001426SF002, published September 21, 2026, with white papers due November 20, 2026 and full proposals
+    due April 9, 2027 [335].
+  next_date: '2026-11-20'
 - id: dod-minerva
   name: Minerva Research Initiative
   family: research
@@ -5819,6 +6148,12 @@
   sources:
   - 329
   sweep: research-C
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses returns 14 Minerva Research Initiative notices, all Archived; the
+    newest, HQ003424NFOEASD02, was posted Dec 7, 2023 and closed May 7, 2024, and none is open or forecast [2529]. The programme
+    site at minerva.defense.gov is on a host that refuses automated reading and was not read today, so no statement from
+    the funder about the programme's future was seen.
 - id: dod-cdmrp-program-announcements
   name: CDMRP programme announcements (award mechanisms across the Congressionally Directed Medical Research Programs)
   family: research
@@ -5940,6 +6275,14 @@
   - 'Who approves the funding list: the two-tier page names the Commanding General, USAMRMC and the Director of the Defense
     Health Agency J9 [352]; an FY26 announcement says ''a designated official'' [356].'
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'The CDMRP funding page shows open opportunities in four programmes: Bone Marrow Failure, Breast Cancer,
+    Parkinson''s and Reconstructive Transplant Research [354]. The Breast Cancer page lists two open announcements released
+    on September 3, 2026, Breakthrough Award Levels 1 and 2 (HT942526BCRPBTA122) and Clinical Research Extension Award (HT942526BCRPCREA2),
+    each with a pre-application deadline of November 4, 2026 5:00 p.m. Eastern Time and an application deadline of November
+    18, 2026 11:59 p.m. Eastern Time [355].'
+  next_date: '2026-11-04'
 - id: dod-cdmrp-prmrp
   name: CDMRP Peer Reviewed Medical Research Program (PRMRP)
   family: research
@@ -6031,6 +6374,11 @@
   - 353
   - 352
   sweep: research-C
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The PRMRP funding page lists no open opportunity and states 'The application submission deadline for FY26
+    has passed' [331]. The programme page remains in place with a $370 million FY26 appropriation and topic areas listed
+    through FY26; neither page names an FY27 opportunity or a date for one [357].
 - id: nasa-roses
   name: NASA Research Opportunities in Space and Earth Science (ROSES)
   family: research
@@ -6148,6 +6496,16 @@
   - 396
   - 361
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search for NNH25ZDA001N returns 11 ROSES-2025 programme elements with the status Open, with
+    closing dates from Oct 15, 2026 (A.13 Accelerating Earth Solutions) to Jan 28, 2027 (A.17 Hydrosphere); the newest post
+    on NASA's ROSES-2025 index is Amendment 77, which adds A.18 Geosphere [394] [373]. A search for NNH26ZDA001N among forecast
+    and open opportunities returns 0 results and the ROSES-2025 index carries no ROSES-2026 release, so ROSES-2025 remains
+    the solicitation in force [395] [373].
+  next_date: '2026-10-15'
+  status_change: The Grants.gov search now lists A.18 Geosphere (NNH25ZDA001N-GEO), posted Oct 2, 2026 and closing Jan 15,
+    2027, among the 11 open elements, and the earliest closing date among them is Oct 15, 2026 [394].
 - id: nasa-roses-flexible-due-date
   name: 'ROSES no-due-date and flexible-due-date programme elements (example: C.2 Solar System Science)'
   family: research
@@ -6217,6 +6575,12 @@
   - 294
   - 386
   sweep: research-C
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: 'The Grants.gov listing for the example element, ROSES 2025: C.2 Solar System Science (NNH25ZDA001N-SCUBED),
+    shows the status Open, posted July 11, 2025 with a closing date of November 12, 2026; proposals are accepted on a rolling
+    basis until that date [393].'
+  next_date: '2026-11-12'
 - id: nifa-afri-fas
   name: AFRI Foundational and Applied Science Program
   family: research
@@ -6361,6 +6725,13 @@
   - 'Sixth priority area: NIFA pages name it "Agriculture economics and rural communities"; the statute as returned names
     it "Markets, trade, economics, and policy" [406] vs [417]'
   sweep: research-D
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: NIFA's opportunity page for USDA-NIFA-AFRI-011134 gives a posted date of Friday, August 1, 2025 and a closing
+    date of Thursday, December 31, 2026, so the FY 2026 notice is still in force [403]. The AFRI deadlines table shows only
+    the two Rapid Response priorities (A1712 and A1713) as Continuous under this programme, and states that FY 2027 deadlines
+    will be announced in the FY 2027 notices [424].
+  next_date: '2026-12-31'
 - id: nifa-afri-sas
   name: AFRI Strengthening Agricultural Systems
   family: research
@@ -6438,6 +6809,11 @@
   - 'Award floor: the NIFA opportunity page gives an award range of $1,000,000 - $10,000,000; the notice gives a minimum
     of $2,500,000 [411] vs [412]'
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: NIFA's opportunity page for USDA-NIFA-AFRI-011677 gives a posted date of Thursday, January 29, 2026 and a
+    closing date of Thursday, April 23, 2026, and names no later notice [411]. The AFRI deadlines page states that the FY
+    2027 AFRI deadlines will be announced in all FY 2027 notices of funding opportunity [424].
 - id: nifa-scri
   name: Specialty Crop Research Initiative
   family: research
@@ -6532,6 +6908,12 @@
   - 414
   - 408
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: NIFA's opportunity page for USDA-NIFA-SCRI-011676, the FY 2026 pre-application notice, gives a posted date
+    of Monday, April 13, 2026 and a closing date of Monday, June 15, 2026, and carries no text on full applications or a
+    next notice [413]. The first page of NIFA's funding opportunities list, which runs back to notices posted June 18, 2026,
+    shows no newer Specialty Crop Research Initiative notice [408].
 - id: nifa-orei
   name: Organic Agriculture Research and Extension Initiative
   family: research
@@ -6598,6 +6980,12 @@
   - 415
   - 408
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: NIFA's opportunity page lists three FY26 opportunity numbers (USDA-NIFA-D113A-32357, USDA-NIFA-D113A-32481
+    and USDA-NIFA-D113A-32483) with a posted date of Wednesday, March 11, 2026 and a closing date of Thursday, May 14, 2026,
+    and names no next notice [415]. The first page of NIFA's funding opportunities list, which runs back to notices posted
+    June 18, 2026, shows no newer Organic Agriculture Research and Extension Initiative notice [408].
 - id: usda-ars-non-assistance-cooperative-agreement
   name: USDA non-assistance cooperative agreements (Agricultural Research Service)
   family: research
@@ -6645,6 +7033,11 @@
   - 428
   - 427
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: 'These agreements have no competition cycle: 7 CFR 550.104 states that the agencies ''may enter into non-assistance
+    cooperative agreements, as authorized by this part, without regard to any requirements for competition'' [428]. The
+    ARS agreements page shows no notice, deadline or application cycle and no statement that the agreements have ended [427].'
 - id: noaa-cpo-esssp
   name: NOAA Climate Program Office Earth System Science and Services Partnership (FY 2026)
   family: research
@@ -6730,6 +7123,12 @@
   - 'Deadline: NOAA''s page and notice give October 26, 2026; a university listing gives October 16, 2026; the Climate Program
     Office list page shows the date September 11, 2026 beside the opportunity [432] vs [433] vs [430]'
   sweep: research-D
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Climate Program Office page for NOAA-OAR-CPO-2026-33326 gives a publication date of September 11, 2026
+    and an application deadline of 11:59 p.m. Pacific Time on October 26, 2026 [431]. The office's funding opportunities
+    page lists the FY 2026 Earth System Science and Services Partnership as its one active opportunity [430].
+  next_date: '2026-10-26'
 - id: noaa-cpo-risa
   name: NOAA Climate Program Office Regional Integrated Sciences and Assessments (RISA), FY 2026
   family: research
@@ -6803,6 +7202,13 @@
   - 'Number of awards: the Grants.gov record shows 1 expected award with total funding of $16,200,000 and a ceiling of $1,800,000;
     the notice competes nine regions [435] vs [434]'
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The Climate Program Office page for NOAA-OAR-CPO-2026-33094 gives a full application deadline of June 5,
+    2026 (11:59 pm Pacific Time) and states 'This funding opportunity is now closed' [434]. The office's funding opportunities
+    page lists the FY 2026 RISA notice among previous opportunities and names no later RISA competition [430].
+  status_change: A Grants.gov search shows the RISA listing as Archived with a closing date of Jun 10, 2026, where the programme
+    page and the recorded cycle give June 5, 2026 [480].
 - id: noaa-oar-programme-competitions
   name: NOAA Research annual programme competitions (Climate Program Office and Weather Program Office)
   family: research
@@ -6855,6 +7261,13 @@
   - 445
   - 444
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The Climate Program Office funding page lists one active opportunity, the FY 2026 Earth System Science and
+    Services Partnership, which has its own entry, and shows the programme-by-programme competitions (MAPP, AC4, CVP and
+    others) only under previous opportunities, with no statement about future ones [430]. A Grants.gov search across all
+    statuses shows the newest Weather Program Office announcement as NOAA-OAR-WPO-2025-28596, Archived, posted Sep 17, 2024
+    and closed Dec 2, 2024 [480].
 - id: noaa-oar-baa
   name: NOAA Office of Oceanic and Atmospheric Research Broad Agency Announcement, FY 2024-2026
   family: research
@@ -6913,6 +7326,12 @@
   sources:
   - 478
   sweep: research-D
+  status: expired
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for NOAA-OAR-CPO-2024-28363 shows the status Closed, posted October 9, 2024 with a
+    closing date of September 30, 2026 and an archive date of October 30, 2026 [478]. A Grants.gov search of forecast, open
+    and closed opportunities shows no successor NOAA broad agency announcement; all four NOAA FY 2024 – 2026 announcements
+    are Closed with the same closing date [2530].
 - id: noaa-sea-grant-research
   name: National Sea Grant College Program research competitions
   family: research
@@ -6989,6 +7408,14 @@
   - 436
   - 445
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: Sea Grant's funding page states under Current Opportunities 'There are no open funding opportunities at this
+    time'; the dated items it shows have deadlines that have passed, the latest being a programme-run 2026 American Lobster
+    Initiative competition with full proposals due August 28, 2026 [437]. The National Sea Grant Office page lists two notices,
+    the Knauss fellowship (NOAA-OAR-SG-2027-32433, full packages due Aug 26, 2026) and FY26 Sea Grant Aquaculture Institutional
+    Activities (NOAA-OAR-SG-2026-33593, due July 23, 2026), both limited to Sea Grant programmes and both past their deadlines,
+    and no statement that competitions have ended [436].
 - id: noaa-cooperative-institutes
   name: NOAA Cooperative Institutes
   family: research
@@ -7052,6 +7479,15 @@
   - 445
   - 450
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses shows the newest cooperative institute notice as Cooperative Institute
+    in the Northern Gulf of America (CINGA), NOAA-OAR-CIAO-2026-32786, Archived, posted Apr 2, 2026 and closed May 18, 2026;
+    no cooperative institute notice among the first results is open or forecast [2531]. The programme home page continues
+    to describe the institutes and carries no notice or selection announcement, and the laboratory's page for the earlier
+    notice NOAA-OAR-CIPO-2025-32786 gives an application due date of February 2, 2026 [439] [440].
+  status_change: 'Grants.gov shows a later notice for the same institute than the one recorded: NOAA-OAR-CIAO-2026-32786,
+    posted Apr 2, 2026 and closed May 18, 2026, now Archived [2531].'
 - id: noaa-nccos-crp
   name: NOAA NCCOS Competitive Research Program
   family: research
@@ -7130,6 +7566,12 @@
   - 477
   - 441
   sweep: research-D
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for NOAA-NOS-NCCOS-2026-32934 shows the status Open, posted September 25, 2026 with
+    a closing date of February 12, 2027 [476]. The notice requires a letter of intent by 11:59 p.m. Eastern Time on November
+    9, 2026 and sets the full application deadline at 11:59 pm Eastern Time on February 12, 2027 [477].
+  next_date: '2026-11-09'
 - id: noaa-ocean-exploration-grants
   name: NOAA Ocean Exploration funding opportunities
   family: research
@@ -7163,6 +7605,11 @@
   sources:
   - 449
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The NOAA Ocean Exploration funding page states 'All NOAA Ocean Exploration funding opportunity competitions
+    have been completed. We are not currently accepting proposals' and gives oer.nofo@noaa.gov for notice of future opportunities;
+    it does not say that funding has ended [449].
 - id: noaa-fisheries-saltonstall-kennedy
   name: NOAA Fisheries Saltonstall-Kennedy Grant Competition
   family: research
@@ -7218,6 +7665,12 @@
   sources:
   - 446
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses shows the newest notices as the FY25 pre-proposal competition (NOAA-NMFS-FHQ-2025-26840,
+    closed Jul 23, 2024) and the FY25 full proposal competition (NOAA-NMFS-FHQ-2025-26868, posted Sep 26, 2024, closed Nov
+    25, 2024), both Archived, with no FY26 or FY27 notice [2532]. NOAA Fisheries' competition page still describes the FY25
+    solicitation with the same dates and carries no statement about a later competition or about the programme ending [446].
 - id: noaa-fisheries-brep
   name: NOAA Fisheries National Bycatch Reduction Engineering Program (FY2026/27)
   family: research
@@ -7283,6 +7736,11 @@
   - 479
   - 475
   sweep: research-D
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for NOAA-NMFS-FHQ-2027-33398 shows the status Open, posted August 24, 2026 with a
+    closing date of January 22, 2027 [479].
+  next_date: '2027-01-22'
 - id: epa-star
   name: EPA Science to Achieve Results (STAR) Research Program
   family: research
@@ -7357,6 +7815,12 @@
   - 458
   - 460
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: EPA's research funding opportunities page states 'There are no open Funding Opportunities' and directs readers
+    to check back or subscribe to the Research Grants Listserv; it carries no statement about the status of the programme
+    [452]. A Grants.gov search across all statuses shows the newest EPA STAR notice as EPA-G2024-STAR-G1, Archived, posted
+    July 31, 2024 and closed November 13, 2024 [461].
 - id: nist-mse
   name: NIST Measurement Science and Engineering (MSE) Research Grant Programs
   family: research
@@ -7463,6 +7927,12 @@
   - 470
   - 468
   sweep: research-D
+  status: expired
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for 2025-NIST-MSE-01 shows the status Closed, posted May 14, 2025 with a closing date
+    of September 15, 2026 [463]. A Grants.gov search for NIST across all statuses shows 0 forecast opportunities and no
+    newer Measurement Science and Engineering notice, and the NIST funding opportunities page as returned does not mention
+    the programme [470] [468].
 - id: nist-pmgp
   name: NIST Precision Measurement Grant Program
   family: research
@@ -7529,6 +7999,11 @@
   - 472
   - 470
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search for NIST across all statuses shows the FY26 notice 2026-NIST-PMGP-01 as Archived, posted
+    Feb 23, 2026 with a closing date of Jun 22, 2026, with 0 forecast opportunities and no newer Precision Measurement Grant
+    Program notice [470]. No page read today names the date of the next annual notice.
 - id: usgs-ehp-external-grants
   name: USGS Earthquake Hazards Program External Research Support
   family: research
@@ -7609,6 +8084,13 @@
   - 'FY 2027 funding: the USGS page says the programme is "authorized to award up to $5 million"; the Grants.gov record
     gives an estimated total of $4,000,000, potentially up to $7,000,000 [481] vs [482]'
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for G27AS00075, the announcement for Fiscal Year 2027, shows the status Archived,
+    posted April 29, 2026 with a closing date of June 4, 2026 at 6:00 pm Eastern Daylight Time and an archive date of June
+    30, 2026 [482]. The programme's external grants page still presents the FY 2027 announcement with the June 4, 2026 deadline
+    and points to Grants.gov subscriptions for notice of application period openings; it gives no date for the next announcement
+    [481].
 - id: usgs-wrri-104g
   name: USGS Water Resources Research Act Program National Competitive Grants (104(g))
   family: research
@@ -7686,6 +8168,13 @@
   - 'Programme size: the programme site gives the 104(g) general grants as historically $1.5 million a year; the FY2026
     Grants.gov record gives total program funding of $462,500 [485] vs [486]'
   sweep: research-D
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for G27AS00164, the FY2026 104(g) General notice, shows the status Open, posted September
+    30, 2026 with a closing date of November 12, 2026 [486]. The programme site's note of September 21, 2026 still describes
+    the 104(b) Base and 104(g) PFAS notices as at their final level of approval with no timeline, so the 104(g) General
+    notice is the only one posted [484].
+  next_date: '2026-11-12'
 - id: usgs-casc-host
   name: USGS Climate Adaptation Science Centers host institution agreements
   family: research
@@ -7749,6 +8238,12 @@
   - 487
   - 490
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for the most recent host competition, G25AS00457, shows the status Closed, posted
+    September 27, 2024 with a closing date of February 3, 2025, and a Grants.gov search of forecast and open Geological
+    Survey opportunities returns no Climate Adaptation Science Center notice [489] [487]. The programme page describes a
+    National CASC and nine regional CASCs and carries no statement about recompetition or about any centre ending [488].
 - id: dot-utc
   name: University Transportation Centers Program
   family: research
@@ -7841,6 +8336,14 @@
   - 'Amount per centre: the IIJA centres page shows $3,000,000 (Regional) and $2,000,000 (Tier 1); the 2025 notice gives
     FY2024 amounts of $2,926,867 and $1,951,245 [495] vs [493]'
   sweep: research-D
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: 'The Grants.gov listing for UTCOPENCOMP2025 shows the status Closed, posted December 22, 2025 with a closing
+    date of February 13, 2026 and an archive date of December 31, 2026 [494]. The Department''s current competition page
+    still presents the 2025 competition, with ''Required Application Due: February 20, 2026'', for five centres to operate
+    2026-2030, and names neither selections nor a later competition; the two pages give different closing dates [492].'
+  status_change: The Grants.gov listing gives the closing date as February 13, 2026, where the cycle was recorded as closing
+    February 20, 2026, the date on the Department's page [494] [492].
 - id: dot-faa-aviation-research-grants
   name: FAA Aviation Research Grants Program
   family: research
@@ -7899,6 +8402,11 @@
   - 498
   - 497
   sweep: research-D
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing for the FAA Aviation Research Grants Program (20-01) shows the status Open, posted
+    September 8, 2020 with a closing date of September 7, 2027 [498].
+  next_date: '2027-09-07'
 - id: dhs-coe
   name: DHS Science and Technology Centers of Excellence
   family: research
@@ -7951,6 +8459,12 @@
   - 501
   - 502
   sweep: research-D
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses returns 41 results, all Archived, with 0 forecast and 0 open; the
+    newest Centers of Excellence notice is the supplement notice DHS-24-061-COE-SUPP, posted Jul 1, 2024 and closed May
+    23, 2025 [501]. The Department's programme page carries a section headed 'Active Centers of Excellence', no funding
+    notice and no statement that the programme has ended [499].
 - id: ahrq-r01
   name: AHRQ Health Services Research Projects (R01)
   family: research
@@ -8032,6 +8546,11 @@
   - 505
   - 506
   sweep: research-E
+  status: expired
+  status_as_of: '2026-10-05'
+  status_note: PA-24-154 carries the banner "This notice has expired" and an expiration date of March 10, 2026 per NOT-HS-26-006,
+    against an original expiration date of July 7, 2029, and names no reissue [507]. AHRQ's Notice of Funding Opportunities
+    page reads "No current open opportunities." [518].
 - id: ahrq-r03
   name: AHRQ Small Health Services Research Grant Program (R03)
   family: research
@@ -8097,6 +8616,11 @@
   - 518
   - 505
   sweep: research-E
+  status: expired
+  status_as_of: '2026-10-05'
+  status_note: PA-24-155 carries the banner "This notice has expired" and an expiration date of March 10, 2026 per issuance
+    of NOT-HS-26-007, against an original expiration date of July 18, 2029, and names no later notice [508]. AHRQ's Notice
+    of Funding Opportunities page reads "No current open opportunities." [518].
 - id: ahrq-r18
   name: AHRQ Health Services Research Demonstration and Dissemination Grants (R18)
   family: research
@@ -8166,6 +8690,11 @@
   - 518
   - 505
   sweep: research-E
+  status: expired
+  status_as_of: '2026-10-05'
+  status_note: PA-24-156 carries the banner "This notice has expired" and an expiration date of March 6, 2026 per issuance
+    of NOT-HS-26-003, against an original expiration date of May 27, 2029, and names no later notice [509]. AHRQ's Notice
+    of Funding Opportunities page reads "No current open opportunities." [518].
 - id: ahrq-primary-care-r01
   name: AHRQ Research to Advance the Science of Primary Care (R01)
   family: research
@@ -8228,6 +8757,11 @@
   - 514
   - 517
   sweep: research-E
+  status: expired
+  status_as_of: '2026-10-05'
+  status_note: PA-24-205 carries the banner "This notice has expired" and an expiration date of March 6, 2026 per issuance
+    of NOT-HS-26-001, against an original expiration date of November 6, 2029, and names no later notice [510]. AHRQ's Notice
+    of Funding Opportunities page reads "No current open opportunities." [518].
 - id: cdc-niosh-r01
   name: NIOSH Occupational Safety and Health Research (R01)
   family: research
@@ -8299,6 +8833,15 @@
   - 554
   - 552
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: PAR-18-812 expired November 21, 2025 per NOT-OH-25-004 and its Grants.gov record is Archived, with an archive
+    date of December 23, 2025 [556] [557]. Grants.gov lists RFA-OH-27-032, Occupational Safety and Health Research (R01),
+    as Forecasted, with a forecast posted date of July 22, 2026, an estimated post date of November 12, 2026 and an estimated
+    application due date of February 5, 2027 [2534].
+  next_date: '2026-11-12'
+  status_change: Grants.gov carries a forecast, RFA-OH-27-032, for a new NIOSH R01 notice with an estimated post date of
+    November 12, 2026; the record of 2026-10-04 had found no reissue [2534].
 - id: cdc-niosh-r21
   name: NIOSH Exploratory/Developmental Grant Program (R21)
   family: research
@@ -8359,6 +8902,15 @@
   - 554
   - 552
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: PAR-18-798 is marked Expired, with an expiration date of November 21, 2025 per NOT-OH-25-004 [558]. Grants.gov
+    lists RFA-OH-27-033, NIOSH Exploratory/Developmental Grant Program (R21), as Forecasted, with a forecast posted date
+    of July 27, 2026, an estimated post date of December 16, 2026 and an estimated application due date of February 16,
+    2027 [2535].
+  next_date: '2026-12-16'
+  status_change: Grants.gov carries a forecast, RFA-OH-27-033, for a new NIOSH R21 notice with an estimated post date of
+    December 16, 2026; the record of 2026-10-04 had found no reissue [2535].
 - id: cdc-niosh-wtc-research
   name: World Trade Center Health Program research (NIOSH U01 and R21)
   family: research
@@ -8405,6 +8957,14 @@
   - 551
   - 552
   sweep: research-E
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: Grants.gov search results show RFA-OH-26-001 (U01) and RFA-OH-26-015 (R21) as Closed, each posted May 8,
+    2026 with a close date of June 23, 2026, and a search of forecasted and open listings returned no later U01 or R21 notice
+    for the World Trade Center Health Program [2536] [2537]. The NIOSH page still lists both notices under Ongoing Funding
+    Opportunities [555].
+  status_change: Both notices are shown as Closed on Grants.gov with a close date of June 23, 2026; the record of 2026-10-04
+    carried no close date for either [2536].
 - id: cdc-injury-violence-r01
   name: CDC Injury Center Research Grants for Preventing Interpersonal Violence and Suicide Among Youth and Young Adults
     (R01)
@@ -8472,6 +9032,15 @@
   - 559
   - 550
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: RFA-CE-26-020 is shown as Archived on Grants.gov, posted May 29, 2026 with an archive date of August 14,
+    2026 [560]. Grants.gov lists RFA-CE-27-015, Preventing Suicide and Interpersonal Violence Among Youth and Young Adults,
+    as Forecasted, with an estimated post date of October 1, 2026 and an estimated application due date of December 1, 2026;
+    the listing was still a forecast when read [2539].
+  next_date: '2026-12-01'
+  status_change: Grants.gov carries a forecast, RFA-CE-27-015, for the next competition, with an estimated application due
+    date of December 1, 2026; the record of 2026-10-04 named only the archived RFA-CE-26-020 [2539].
 - id: fda-orphan-clinical-trials
   name: FDA Clinical Studies of Orphan Products Addressing Unmet Needs of Rare Diseases (R01)
   family: research
@@ -8553,6 +9122,12 @@
   - 562
   - 563
   sweep: research-E
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: RFA-FD-25-020 carries no expiration banner and gives application due dates of October 21, 2025, October 20,
+    2026 and October 19, 2027, with an optional letter of intent due September 21, 2026 and an expiration date of May 31,
+    2028 [561]. Grants.gov search results show the notice as Open with a close date of May 16, 2028 [2540].
+  next_date: '2026-10-20'
 - id: fda-orphan-natural-history
   name: FDA Orphan Products Natural History Studies Grants
   family: research
@@ -8613,6 +9188,16 @@
   - 562
   - 563
   sweep: research-E
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: RFA-FD-25-017, a reissue of RFA-FD-22-001 for natural history studies in rare diseases (R01), was posted
+    July 11, 2025 with application due dates of February 10, 2026 and February 8, 2028, a letter of intent date of January
+    7, 2028 and an expiration date of February 15, 2028; Grants.gov search results show it as Open with a close date of
+    Feb 8, 2028 [2541] [2540]. FDA's rare disease funding page does not list the notice and reads "Please check back for
+    future opportunities" for natural history studies [2542].
+  next_date: '2028-02-08'
+  status_change: An open notice, RFA-FD-25-017, with a remaining due date of February 8, 2028 was found on Grants.gov and
+    in the NIH Guide; the record of 2026-10-04 listed no current notice [2541].
 - id: fda-cersi
   name: FDA Centers of Excellence in Regulatory Science and Innovation (CERSI) (U01)
   family: research
@@ -8672,6 +9257,12 @@
   - 566
   - 565
   sweep: research-E
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: RFA-FD-23-004 is marked EXPIRED, with an application due date of December 22, 2022 and an expiration date
+    of December 23, 2022 [565]. FDA's CERSI page says the current centres were selected under RFA-FD-23-004 with awards
+    that began September 1, 2023 for up to 5 years and names no new competition, and a Grants.gov search of forecasted and
+    open FDA requests for applications returned no CERSI listing [566] [2540].
 - id: fda-regulatory-science-u01
   name: FDA topic-specific regulatory science cooperative agreements (U01)
   family: research
@@ -8733,6 +9324,11 @@
   sources:
   - 564
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The example notice, RFA-FD-26-012, is shown as Archived on Grants.gov, posted July 20, 2026 with an archive
+    date of September 19, 2026 [2543]. A Grants.gov search of forecasted and open listings numbered RFA-FD returned three
+    open notices, none of them a topic-specific regulatory science cooperative agreement, and no forecasts [2540].
 - id: hrsa-mch-first
   name: HRSA Maternal and Child Health Field-Initiated Innovative Research Studies (MCH FIRST)
   family: research
@@ -8785,6 +9381,11 @@
   - 568
   - 569
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses returned no forecasted or open listing for MCH FIRST; the latest
+    listing, HRSA-23-067, is Closed, posted Nov 9, 2022 with a close date of Feb 7, 2023 [2544]. The Bureau's research page
+    names no notice or date and states "Not all projects are competed annually." [568].
 - id: hrsa-mch-sdar
   name: HRSA Maternal and Child Health Secondary Data Analysis Research (MCH SDAR) and Autism SDAR
   family: research
@@ -8841,6 +9442,11 @@
   - 572
   - 573
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The programme page links only the closed notices HRSA-23-068 (MCH SDAR) and HRSA-23-069 (Autism SDAR), reports
+    awards made in fiscal year 2024 and names no future competition [572]. A Grants.gov search returned both notices as
+    Closed, posted Nov 14, 2022 with a close date of Feb 13, 2023, and no forecasted or open listing [2545].
 - id: hrsa-autism-first
   name: HRSA Autism Field-Initiated Innovative Research Studies (Autism FIRST)
   family: research
@@ -8905,6 +9511,11 @@
   - 574
   - 568
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses returned no forecasted or open listing for Autism FIRST; the latest
+    listing, HRSA-24-048, is Closed, posted Jan 4, 2024 with a close date of Apr 3, 2024 [2544]. The Bureau's research page
+    names no notice or date and states "Not all projects are competed annually." [568].
 - id: acl-nidilrr-fip-research
   name: NIDILRR Field Initiated Projects Program (Research)
   family: research
@@ -8982,6 +9593,16 @@
   - 577
   - 576
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: Grants.gov lists HHS-2027-ACL-NIDILRR-IFRE-0303, Field Initiated Projects Program (Research), as Forecasted,
+    with a forecast posted date of September 25, 2026, an estimated post date of October 12, 2026 and an estimated application
+    due date of December 14, 2026 [2547]. The fiscal year 2026 listing, HHS-2026-ACL-NIDILRR-IFRE-0203, still reads Forecasted
+    with an estimated application due date of December 12, 2025 and an archive date of September 30, 2026 [577].
+  next_date: '2026-10-12'
+  status_change: A fiscal year 2027 forecast, HHS-2027-ACL-NIDILRR-IFRE-0303, was posted on Grants.gov on September 25,
+    2026 with an estimated application due date of December 14, 2026, 8 expected awards and total programme funding of $2,000,000
+    [2547].
 - id: acl-nidilrr-fip-msi
   name: 'NIDILRR Field Initiated Projects Program: Minority-Serving Institutions (MSI) - Research'
   family: research
@@ -9043,6 +9664,14 @@
   sources:
   - 579
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: HHS-2026-ACL-NIDILRR-IFST-0205 is shown as Archived on Grants.gov, posted February 10, 2026 with an archive
+    date of September 30, 2026 [2548]. A Grants.gov search of forecasted and open NIDILRR listings returned 13 fiscal year
+    2027 forecasts posted September 25, 2026, none of them for the Minority-Serving Institutions competition [2546].
+  status_change: The fiscal year 2026 listing is now Archived on Grants.gov, with an archive date of September 30, 2026,
+    and the fiscal year 2027 forecasts posted September 25, 2026 include no Minority-Serving Institutions notice [2548]
+    [2546].
 - id: acl-nidilrr-drrp
   name: NIDILRR Disability and Rehabilitation Research Projects (DRRP)
   family: research
@@ -9117,6 +9746,11 @@
   - 581
   - 576
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: HHS-2026-ACL-NIDILRR-DPCP-0221 is shown as Archived on Grants.gov, posted July 6, 2026 with an archive date
+    of September 30, 2026 [580]. A Grants.gov search of forecasted and open NIDILRR listings returned 13 fiscal year 2027
+    forecasts posted September 25, 2026, none titled Disability and Rehabilitation Research Projects [2546].
 - id: acl-nidilrr-rerc
   name: NIDILRR Rehabilitation Engineering Research Centers (RERC)
   family: research
@@ -9180,6 +9814,17 @@
   - 582
   - 576
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: 'Grants.gov lists two fiscal year 2027 Rehabilitation Engineering Research Center notices as Forecasted,
+    both with a forecast posted date of September 25, 2026: HHS-2027-ACL-NIDILRR-REGE-0312 (recreational, sport and exercise
+    technologies), with an estimated post date of February 15, 2027 and an estimated application due date of April 15, 2027,
+    and HHS-2027-ACL-NIDILRR-REGE-0313 (technologies for people who are blind or have low vision), with an estimated post
+    date of February 22, 2027 and an estimated application due date of April 22, 2027 [2549] [2550].'
+  next_date: '2027-02-15'
+  status_change: Two fiscal year 2027 centre forecasts, HHS-2027-ACL-NIDILRR-REGE-0312 and HHS-2027-ACL-NIDILRR-REGE-0313,
+    were posted on Grants.gov on September 25, 2026; the record of 2026-10-04 named only the closed fiscal year 2026 notice
+    [2549] [2550].
 - id: va-ord-merit-review
   name: VA Office of Research and Development Merit Review awards (intramural)
   family: research
@@ -9224,6 +9869,13 @@
   - 583
   - 584
   sweep: research-E
+  status: unconfirmed
+  status_as_of: '2026-10-05'
+  status_note: The Office of Research and Development's public requests-for-applications page states that the notices and
+    requests for applications are on the VA intranet and that the page is not available to the public because funding is
+    open to VA investigators only, so no current notice could be read [2551]. The Houston VA research page gives recurring
+    submission cycles (March and September for BLR&D/CSR&D; June and December for HSR&D and RR&D Merit Review) without dates
+    or notice numbers [585].
 - id: pcori-broad-pragmatic-studies
   name: PCORI Broad Pragmatic Studies funding announcement
   family: research
@@ -9319,6 +9971,13 @@
   - 598
   - 595
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: 'The Cycle 3 2026 announcement is labelled "Letters of Intent Under Review": its letter of intent deadline
+    was Sept. 9, 2026 and its Jan. 12, 2027 application deadline is by invitation only, so it takes no new entrants [592].
+    The announcement a new applicant would use is Cycle 1 2027, labelled Upcoming, with the online system opening Nov. 17,
+    2026, a letter of intent deadline of Jan. 6, 2027 and an application deadline of May 4, 2027 [2552].'
+  next_date: '2026-11-17'
 - id: pcori-placer
   name: PCORI Phased Large Awards for Comparative Effectiveness Research (PLACER)
   family: research
@@ -9390,6 +10049,13 @@
   - 596
   - 597
   sweep: research-E
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: 'The Cycle 2 2026 announcement is labelled "Applications Under Review", with an application deadline of September
+    1, 2026; it states that PLACER will not be issued in Cycle 3 2026 and "will be considered for additional issuances in
+    2027" [593]. The Cycle 1 2027 entry recorded on 2026-10-04 could not be confirmed: the announcement list returned today
+    showed no Cycle 1 2027 rows and carried labels older than those on the announcement pages, and a Cycle 1 2027 PLACER
+    address returned HTTP 403 [590].'
 - id: pcori-science-of-engagement
   name: PCORI Advancing the Science of Engagement in Research
   family: research
@@ -9457,6 +10123,13 @@
   - 596
   - 597
   sweep: research-E
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: The announcement a new applicant would use is Cycle 1 2027, labelled Upcoming, with the online system opening
+    Nov. 17, 2026, a letter of intent deadline of Jan. 6, 2027 and an application deadline of May 4, 2027 [2563]. PCORI's
+    announcement list gives the Cycle 3 2026 letter of intent deadline as Sept. 9, 2026, which has passed, and its application
+    deadline as Jan. 12, 2027; the Cycle 3 2026 announcement page returned HTTP 403 twice [590].
+  next_date: '2026-11-17'
 - id: doj-nij-research-evaluation
   name: NIJ Research, Evaluation, and Development Project Grants (annual research solicitations)
   family: research
@@ -9567,6 +10240,12 @@
   - Notice 172659 states the number of awards is to be determined; the Grants.gov record shows 5 expected awards and a $1,500,000
     ceiling [607] vs [608]
   sweep: research-E
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: NIJ's current funding page and its forthcoming funding page each return "There are no results for your filter
+    settings.", so no research notice is open or listed as forthcoming [602] [603]. The funding opportunities page states
+    that "typically, most notices are released December through May (subject to appropriations availability)" and that a
+    list of forthcoming notices is posted typically in the late fall [601].
 - id: doj-bjs-chrarp
   name: BJS Criminal History Record Assessment and Research Program (CHRARP)
   family: research
@@ -9635,6 +10314,12 @@
   - 613
   - 619
   sweep: research-E
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The BJS opportunity page for O-BJS-2026-172685 shows the status Open, posted August 13, 2026, with a Grants.gov
+    deadline of October 6, 2026, 11:59 pm Eastern and a JustGrants application deadline of October 13, 2026, 8:59 pm Eastern
+    [614].
+  next_date: '2026-10-06'
 - id: acf-opre-secondary-analyses
   name: ACF OPRE secondary analysis research grants
   family: research
@@ -9700,6 +10385,12 @@
   - 628
   - 627
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: A Grants.gov search across all statuses returned 20 OPRE listings, all Archived and none Forecasted or Open;
+    the latest secondary analysis notices are HHS-2024-ACF-OPRE-YE-0195 (close date May 22, 2024) and HHS-2024-ACF-OPRE-YR-0093
+    (close date Apr 26, 2024) [2553]. OPRE's grants page names three opportunities it is forecasting "for 2025", none of
+    them a secondary analysis grant, and makes no statement that the secondary analysis grants have ended [627].
 - id: ssa-rdrc
   name: SSA Retirement and Disability Research Consortium (RDRC)
   family: research
@@ -9734,6 +10425,12 @@
   sources:
   - 626
   sweep: research-E
+  status: not-competed
+  status_as_of: '2026-10-05'
+  status_note: SSA's release of February 21, 2025, "Social Security Slashes Cooperative Agreements", states that the agency
+    terminated its Retirement and Disability Research Consortium cooperative agreements [626]. A Grants.gov search across
+    all statuses returned only Archived SSA listings for the consortium, the latest being RDR-RDR-23-001, posted Feb 13,
+    2023 with a close date of May 12, 2023, and none Forecasted or Open [2554].
 - id: dol-ceo-academic-research
   name: Department of Labor Chief Evaluation Office academic research support
   family: research
@@ -9762,6 +10459,12 @@
   sources:
   - 629
   sweep: research-E
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The Chief Evaluation Office's academic engagement page names no open competition, deadline or notice number
+    and directs researchers to register for updates to learn about new funding opportunities, without saying the support
+    has ended [629]. A Grants.gov search of forecasted and open listings for Chief Evaluation Office research returned no
+    Department of Labor listing [2555].
 - id: neh-collaborative-research
   name: NEH Collaborative Research
   family: research
@@ -9892,6 +10595,11 @@
   - 706
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The programme page reads "The deadline for this cycle has passed" for the cycle with a deadline of September
+    16, 2026 and says updated guidelines will be posted before the next deadline, without giving a date [631]. The Grants.gov
+    listing 20260916-RZ is shown as Closed, posted July 7, 2026 with a closing date of September 16, 2026 [726].
 - id: neh-scholarly-editions-translations
   name: NEH Scholarly Editions and Translations
   family: research
@@ -10021,6 +10729,11 @@
   - 630
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The programme page reads "The deadline for this cycle has passed" for the cycle with a deadline of September
+    16, 2026 and an expected notification date of July 30, 2027, and says updated guidelines will be posted before the next
+    deadline, without giving a date [633].
 - id: neh-collections-stewardship
   name: NEH Collections Stewardship
   family: research
@@ -10143,6 +10856,11 @@
     states three levels ($50,000 to $100,000; $100,001 to $350,000; $350,001 to $500,000). The figures agree at the ceilings;
     the page omits Level 1 [647] vs [648]
   sweep: research-F
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing 20260511-PCS, Collections Stewardship, is shown as Open, posted March 11, 2026 with
+    a closing date of December 15, 2026 [646].
+  next_date: '2026-12-15'
 - id: neh-rediscovering-our-revolutionary-tradition
   name: NEH Rediscovering Our Revolutionary Tradition
   family: research
@@ -10216,6 +10934,11 @@
   - 645
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The programme page reads "The deadline for this cycle has passed" for the cycle with a deadline of January
+    15, 2026, an expected notification date of August 31, 2026 and a project start of November 1, 2026, and says updated
+    guidelines will be posted ahead of the next cycle, without giving a date [649].
 - id: neh-humanities-collections-reference-resources
   name: NEH Humanities Collections and Reference Resources
   family: research
@@ -10280,6 +11003,11 @@
   - 641
   conflicts: []
   sweep: research-F
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The programme page shows no application date, deadline or funding opportunity number and no statement that
+    the programme has ended [639]. A Grants.gov search across all statuses returned 11 NEH listings with this title, none
+    Forecasted or Open; the latest, 20240716-PW, is Closed, posted Apr 1, 2024 with a close date of Jul 16, 2024 [2556].
 - id: neh-preservation-research-and-development
   name: NEH Research and Development (preservation and access)
   family: research
@@ -10345,6 +11073,12 @@
   - 641
   conflicts: []
   sweep: research-F
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The programme page shows the labels for application, due, notification and start dates with no dates filled
+    in, no funding opportunity number and no statement that the programme has ended [640]. A Grants.gov search across all
+    statuses returned no Forecasted or Open NEH Research and Development listing; the latest, 20240521-PR, is Closed, posted
+    Feb 29, 2024 with a close date of May 28, 2024 [2557].
 - id: neh-digital-humanities-advancement-grants
   name: NEH Digital Humanities Advancement Grants
   family: research
@@ -10410,6 +11144,12 @@
   - 641
   conflicts: []
   sweep: research-F
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The programme page lists its date fields as blank rows, gives no funding opportunity number and makes no
+    statement that the programme has ended [637]. A Grants.gov search across all statuses returned 11 NEH listings with
+    this title, all Closed and none Forecasted or Open; the latest, 20240111-HAA, was posted Aug 22, 2023 with a close date
+    of Jun 13, 2024 [2558].
 - id: nea-research-grants-in-the-arts
   name: NEA Research Grants in the Arts
   family: research
@@ -10511,6 +11251,12 @@
   - 658
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The Research Awards page gives the FY 2027 deadlines as March 23, 2026 (Part 1, Grants.gov) and April 2,
+    2026 (Part 2, NEA Applicant Portal) and is marked "Deadline has passed", with notification in November 2026 and an earliest
+    start of January 1, 2027 [650]. The NEA grants page shows the same mark for Research Awards and gives no FY 2028 dates
+    [653].
 - id: nea-research-labs
   name: NEA Research Labs
   family: research
@@ -10606,6 +11352,12 @@
   - 712
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: The Research Awards page, which covers NEA Research Labs, gives the FY 2027 deadlines as March 23, 2026 (Part
+    1, Grants.gov) and April 2, 2026 (Part 2, NEA Applicant Portal) and is marked "Deadline has passed", with notification
+    in November 2026 and an earliest start of January 1, 2027 [650]. The NEA grants page shows the same mark for Research
+    Awards and gives no FY 2028 dates [653].
 - id: imls-national-leadership-grants-libraries
   name: IMLS National Leadership Grants for Libraries (NLG-L)
   family: research
@@ -10747,6 +11499,12 @@
   - 692
   conflicts: []
   sweep: research-F
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The programme page states "The FY 2027 Notice of Funding Opportunity is now available" and gives an application
+    deadline of November 13, 2026 [676]. Grants.gov search results show NLG-LIBRARIES-FY27, National Leadership Grants for
+    Libraries (2027), as Open, posted Sep 1, 2026 with a close date of Nov 13, 2026 [2559].
+  next_date: '2026-11-13'
 - id: imls-national-leadership-grants-museums
   name: IMLS National Leadership Grants for Museums (NLG-M)
   family: research
@@ -10851,6 +11609,12 @@
   - The programme page states that funds from non-federal sources equal to or greater than the request are required unless
     the notice indicates otherwise; the notice exempts research projects [680] vs [681]
   sweep: research-F
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The programme page states "The FY 2027 Notice of Funding Opportunity is now available" and gives an application
+    deadline of November 13, 2026 [680]. Grants.gov search results show NLG-M-FY27, National Leadership Grants for Museums
+    (2027), as Open, posted Sep 1, 2026 with a close date of Nov 13, 2026 [2559].
+  next_date: '2026-11-13'
 - id: ies-education-research-grants
   name: IES Education Research Grants (NCER, ALN 84.305A)
   family: research
@@ -10954,6 +11718,12 @@
   - 674
   conflicts: []
   sweep: research-F
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: The IES funding page lists five FY 2027 requests for applications, none of them Education Research Grants
+    (84.305A), and states "Future RFAs will be listed here as they are available." [660]. The IES post dated August 06,
+    2026 says that in December the institute anticipates announcing its third and final tranche of FY 2027 grants, naming
+    Education Research Grants for NCER (84.305A) and NCSER (84.324A) [661].
 - id: ies-special-education-research-grants
   name: IES Special Education Research Grants (NCSER, ALN 84.324A)
   family: research
@@ -11026,6 +11796,12 @@
   - 660
   conflicts: []
   sweep: research-F
+  status: forecast
+  status_as_of: '2026-10-05'
+  status_note: The IES post dated August 06, 2026 says that in December the institute anticipates announcing its third and
+    final tranche of FY 2027 grants, naming Education Research Grants for NCER (84.305A) and NCSER (84.324A) [661]. The
+    IES funding page lists five FY 2027 requests for applications, none of them Special Education Research Grants (84.324A),
+    and states "Future RFAs will be listed here as they are available." [660].
 - id: ies-statistical-research-methodology
   name: IES Statistical and Research Methodology in Education (NCER, ALN 84.305D)
   family: research
@@ -11132,6 +11908,12 @@
   - 666
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: Grants.gov search results show ED-GRANTS-080626-003, the FY 2027 Statistical and Research Methodology in
+    Education notice (84.305D), as Closed, posted Aug 6, 2026 with a close date of Oct 1, 2026 [2560]. The IES competition
+    page gives the same deadline, October 1, 2026 at 11:59:59 PM EDT, and still carries the label "Request for Applications
+    Open"; it names no next competition [664].
 - id: ies-longitudinal-data-state-policymaking
   name: IES Using Longitudinal Data to Support State Education Policymaking (ALN 84.305S and 84.324S)
   family: research
@@ -11235,6 +12017,12 @@
   - 666
   conflicts: []
   sweep: research-F
+  status: closed
+  status_as_of: '2026-10-05'
+  status_note: 'Grants.gov search results show both FY 2027 notices as Closed, each posted Aug 6, 2026 with a close date
+    of Oct 1, 2026: ED-GRANTS-080626-004 (NCER, 84.305S) and ED-GRANTS-080626-005 (NCSER, special education) [2561]. The
+    IES competition page for 84.305S gives the same deadline, October 1, 2026 at 11:59:59 PM EDT, and still carries the
+    label "Request for Applications Open"; it names no next competition [715].'
 - id: nhprc-publishing-historical-records-editions
   name: NHPRC Publishing Historical Records in Collaborative Digital Editions
   family: research
@@ -11331,6 +12119,12 @@
   - The general apply page says NHPRC usually funds up to 50 percent of total project costs; the announcement says cost
     sharing is not a requirement [695] vs [698]
   sweep: research-F
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The announcement EDITIONS-202505, with a final deadline of May 7, 2025, carries the banner "The application
+    deadline for this program has passed", and the NHPRC announcements page lists the programme as closed and names no later
+    cycle [698] [694]. A Grants.gov search returned 68 National Archives and Records Administration listings, all Closed
+    and none Forecasted or Open [2562].
 - id: nhprc-archival-projects
   name: NHPRC Archival Projects
   family: research
@@ -11416,6 +12210,12 @@
   - 703
   conflicts: []
   sweep: research-F
+  status: no-current-notice
+  status_as_of: '2026-10-05'
+  status_note: The Grants.gov listing ARCHIVAL-202511 is shown as Closed, posted May 13, 2025 with a closing date of November
+    5, 2025 [697]. The NHPRC announcements page states that the application deadline for its programmes has passed and names
+    no later cycle, and a Grants.gov search returned 68 National Archives and Records Administration listings, all Closed
+    and none Forecasted or Open [694] [2562].
 - id: nih-f31
   name: NIH Kirschstein-NRSA Individual Predoctoral Fellowship (F31)
   family: people

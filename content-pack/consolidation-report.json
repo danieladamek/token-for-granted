@@ -26,25 +26,28 @@
   "foundations-A",
   "foundations-B",
   "foundations-C",
-  "foundations-D"
+  "foundations-D",
+  "status-A",
+  "status-B",
+  "status-C"
  ],
- "references": 2512,
+ "references": 2563,
  "references_by_kind": {
-  "primary": 2412,
+  "primary": 2463,
   "secondary": 100
  },
  "references_by_tier": {
-  "current": 1968,
+  "current": 2019,
   "seminal": 251,
   "background": 175,
   "classic": 118
  },
  "references_by_read": {
-  "partial": 2132,
-  "full": 377,
+  "partial": 2180,
+  "full": 380,
   "not-fetched": 3
  },
- "references_cited": 2492,
+ "references_cited": 2541,
  "references_uncited": [
   511,
   522,
@@ -65,7 +68,9 @@
   1455,
   1502,
   1508,
-  1512
+  1512,
+  2533,
+  2538
  ],
  "merged_urls": [
   "https://www.federalregister.gov/documents/2025/08/12/2025-15344/improving-oversight-of-federal-grantmaking",
@@ -322,7 +327,20 @@
   "https://www.irs.gov/pub/irs-pdf/f990pf.pdf",
   "https://projects.propublica.org/nonprofits/organizations/135570117",
   "https://www.packard.org/grantees/funding-opportunties/",
-  "https://www.pew.org/en/projects/pew-biomedical-scholars/program-details"
+  "https://www.pew.org/en/projects/pew-biomedical-scholars/program-details",
+  "https://commonfund.nih.gov/earlyindependence",
+  "https://commonfund.nih.gov/tra",
+  "https://arpa-e-foa.energy.gov/",
+  "https://exchange.energy.gov/",
+  "https://cdmrp.health.mil/prmrp/default",
+  "https://www.ars.usda.gov/afm/fmad/agreements/agreements-home/",
+  "https://ci.noaa.gov/",
+  "https://www.usgs.gov/programs/climate-adaptation-science-centers",
+  "https://www.dhs.gov/science-and-technology/centers-excellence",
+  "https://www.ahrq.gov/funding/fund-opps/index.html",
+  "https://www.fda.gov/science-research/advancing-regulatory-science/centers-excellence-regulatory-science-and-innovation-cersis",
+  "https://ies.ed.gov/funding",
+  "https://www.archives.gov/nhprc/announcement"
  ],
  "records": {
   "programs": 565,
@@ -469,16 +487,21 @@
    "expired": 1
   },
   "research": {
-   "None": 131,
-   "open": 7,
-   "closed": 6,
-   "unconfirmed": 1
+   "open": 67,
+   "closed": 35,
+   "unconfirmed": 3,
+   "no-current-notice": 24,
+   "expired": 6,
+   "forecast": 9,
+   "not-competed": 1
   }
  },
  "unresolved_source_ids": {},
  "unknown_reference_numbers": {},
  "dangling_cross_references": {},
  "second_person": [
+  "programs/nsf-research-proposal",
+  "programs/doj-nij-research-evaluation",
   "programs/acf-csbg",
   "programs/hrsa-cpf-cds-projects",
   "programs/bwf-career-awards-medical-scientists",
@@ -506,17 +529,29 @@
   "mechanics/nih-highlighted-topics",
   "mechanics/samhsa-notice-six-steps"
  ],
+ "status_pass": {
+  "closed": 29,
+  "expired": 6,
+  "forecast": 9,
+  "no-current-notice": 24,
+  "not-competed": 1,
+  "open": 60,
+  "unconfirmed": 2
+ },
  "recheck": {
   "blocked": 12,
-  "cleared": 2410,
+  "cleared": 2397,
+  "fact -": 33,
   "fact C": 9289,
   "fact N": 120,
   "fact S": 559,
   "fact X": 5,
+  "not in recheck": 51,
   "quote N": 14,
   "quote P": 75,
   "quote V": 2618,
-  "still flagged": 90
+  "quote unchecked": 9,
+  "still flagged": 103
  },
  "queries": 615
 }
