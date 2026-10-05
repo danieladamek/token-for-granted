@@ -1,0 +1,2 @@
+- {text: SAM registration time, engine: WebSearch, hits: '~9', date: '2026-10-04', slice: rules-B}
+- {text: 2 CFR 200.414, engine: WebFetch, hits: 1, date: '2026-10-04', slice: rules-A}

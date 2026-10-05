@@ -1,0 +1,3 @@
+id,rule,record,ref
+r1,SAM registration,routes/route-one,1
+r2,Indirect rate,mechanics/mini-rule,2;1

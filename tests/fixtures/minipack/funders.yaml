@@ -1,0 +1,28 @@
+- id: fed-one
+  name: Agency One
+  funder_kind: federal
+  parent: HHS
+  what: A federal research agency [1].
+  how_it_decides: Peer review, then the agency decides [2].
+  cycle: Three cycles a year [1].
+  budget: [{amount: '$1 billion', fiscal_year: 2027, status: requested, cite: [2]}]
+  programs: [prog-open, prog-gone]
+  pending_changes: []
+  official_url: https://example.gov/
+  as_of: '2026-10-04'
+  sources: [1, 2]
+- id: fdn-one
+  name: A Foundation
+  funder_kind: foundation
+  foundation_kind: independent
+  ein: 13-1234567
+  what_it_funds: Research, in its own words [3].
+  who_it_funds: Universities [3].
+  unsolicited: letter-of-inquiry
+  unsolicited_note: The foundation takes letters of inquiry and says so on its page [3].
+  how_to_approach: A letter of inquiry first [3].
+  giving: [{amount: '$10', year: 2024, basis: grants paid, cite: [3]}]
+  programs: []
+  official_url: https://example.org/
+  as_of: '2026-10-04'
+  sources: [3]

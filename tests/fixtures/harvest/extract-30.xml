@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grants xsi:schemaLocation="http://apply.grants.gov/system/OpportunityDetail-V1.0 https://apply07.grants.gov/apply/system/schemas/OpportunityDetail-V1.0.xsd" xmlns="http://apply.grants.gov/system/OpportunityDetail-V1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>352810</OpportunityID>
+        <OpportunityTitle>Medical Scientist Training Program (MSTP) (T32)</OpportunityTitle>
+        <OpportunityNumber>PAR-24-128</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.859</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following: Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession; Non-domestic (non-U.S.) Entities (Foreign Institutions) are not eligible to apply. Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>03042024</PostDate>
+        <CloseDate>01252027</CloseDate>
+        <LastUpdatedDate>04162026</LastUpdatedDate>
+        <Description>The goal of the Medical Scientist Training Program (MSTP) is to develop a broad pool of highly trained physician-scientist leaders available to meet the needs of the Nations biomedical research agenda. Specifically, this Notice of Funding Opportunity (NOFO) provides support to eligible domestic institutions to develop and implement effective, evidence-based approaches to integrated dual-degree training leading to the award of both professional medical doctorate degrees and research doctorate degrees (Ph.D. or equivalent). With the dual qualification of rigorous scientific research and clinical practice, graduates will be equipped with the skills to develop research programs that accelerate the translation of research advances to the understanding, detection, treatment and prevention of human disease, and to lead the advancement of biomedical research. Areas of particular importance to NIGMS are the iterative optimization of MSTP training efficacy and efficiency, and fostering the persistence of MSTP alumni in research careers. NIGMS expects that the proposed research training programs will incorporate didactic, research, mentoring and career development elements to prepare trainees for careers that will have a significant impact on the health-related research needs of the Nation.</Description>
+        <Version>Synopsis 2</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>03022027</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/pa-files/PAR-24-128.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/pa-files/PAR-24-128.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information &amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>353461</OpportunityID>
+        <OpportunityTitle>Mentored Patient-Oriented Research Career Development Award (Parent K23  Independent Clinical Trial Not Allowed)</OpportunityTitle>
+        <OpportunityNumber>PA-24-185</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ED</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>ENV</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>FN</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>ISS</CategoryOfFundingActivity>
+        <CFDANumbers>93.113</CFDANumbers>
+        <CFDANumbers>93.121</CFDANumbers>
+        <CFDANumbers>93.173</CFDANumbers>
+        <CFDANumbers>93.213</CFDANumbers>
+        <CFDANumbers>93.233</CFDANumbers>
+        <CFDANumbers>93.242</CFDANumbers>
+        <CFDANumbers>93.273</CFDANumbers>
+        <CFDANumbers>93.279</CFDANumbers>
+        <CFDANumbers>93.286</CFDANumbers>
+        <CFDANumbers>93.307</CFDANumbers>
+        <CFDANumbers>93.310</CFDANumbers>
+        <CFDANumbers>93.313</CFDANumbers>
+        <CFDANumbers>93.361</CFDANumbers>
+        <CFDANumbers>93.837</CFDANumbers>
+        <CFDANumbers>93.838</CFDANumbers>
+        <CFDANumbers>93.839</CFDANumbers>
+        <CFDANumbers>93.840</CFDANumbers>
+        <CFDANumbers>93.847</CFDANumbers>
+        <CFDANumbers>93.853</CFDANumbers>
+        <CFDANumbers>93.855</CFDANumbers>
+        <CFDANumbers>93.859</CFDANumbers>
+        <CFDANumbers>93.865</CFDANumbers>
+        <CFDANumbers>93.866</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following: Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession; Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.Foreign components, as defined in the NIH Grants Policy Statement, are allowed.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>04092024</PostDate>
+        <CloseDate>05072027</CloseDate>
+        <LastUpdatedDate>05022024</LastUpdatedDate>
+        <Description>The purpose of the NIH Mentored Patient-Oriented Research Career Development Award (K23) is to support the career development of individuals with a clinical doctoral degree who have made a commitment to focus their research endeavors on patient-oriented research.</Description>
+        <Version>Synopsis 2</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>06062027</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/pa-files/PA-24-185.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/pa-files/PA-24-185.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information &amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>353458</OpportunityID>
+        <OpportunityTitle>Mentored Patient-Oriented Research Career Development Award (Parent K23  Independent Clinical Trial Required)</OpportunityTitle>
+        <OpportunityNumber>PA-24-184</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ED</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>ENV</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>FN</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>ISS</CategoryOfFundingActivity>
+        <CFDANumbers>93.113</CFDANumbers>
+        <CFDANumbers>93.121</CFDANumbers>
+        <CFDANumbers>93.173</CFDANumbers>
+        <CFDANumbers>93.213</CFDANumbers>
+        <CFDANumbers>93.233</CFDANumbers>
+        <CFDANumbers>93.242</CFDANumbers>
+        <CFDANumbers>93.273</CFDANumbers>
+        <CFDANumbers>93.279</CFDANumbers>
+        <CFDANumbers>93.286</CFDANumbers>
+        <CFDANumbers>93.307</CFDANumbers>
+        <CFDANumbers>93.310</CFDANumbers>
+        <CFDANumbers>93.313</CFDANumbers>
+        <CFDANumbers>93.361</CFDANumbers>
+        <CFDANumbers>93.837</CFDANumbers>
+        <CFDANumbers>93.838</CFDANumbers>
+        <CFDANumbers>93.839</CFDANumbers>
+        <CFDANumbers>93.840</CFDANumbers>
+        <CFDANumbers>93.846</CFDANumbers>
+        <CFDANumbers>93.847</CFDANumbers>
+        <CFDANumbers>93.853</CFDANumbers>
+        <CFDANumbers>93.859</CFDANumbers>
+        <CFDANumbers>93.865</CFDANumbers>
+        <CFDANumbers>93.866</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following: Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession; Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.Foreign components, as defined in the NIH Grants Policy Statement, are allowed.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>04092024</PostDate>
+        <CloseDate>05082027</CloseDate>
+        <LastUpdatedDate>01232026</LastUpdatedDate>
+        <Description>The purpose of the NIH Mentored Patient-Oriented Research Career Development Award (K23) is to support the career development of individuals with a clinical doctoral degree who have made a commitment to focus their research endeavors on patient-oriented research.</Description>
+        <Version>Synopsis 4</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>06072027</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/pa-files/PA-24-184.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/pa-files/PA-24-184.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information &amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>275109</OpportunityID>
+        <OpportunityTitle>National Facilities</OpportunityTitle>
+        <OpportunityNumber>PD-05-1743</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>47.049</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AgencyCode>NSF</AgencyCode>
+        <AgencyName>U.S. National Science Foundation</AgencyName>
+        <PostDate>03132015</PostDate>
+        <CloseDateExplanation>Proposals accepted anytime</CloseDateExplanation>
+        <LastUpdatedDate>05202024</LastUpdatedDate>
+        <Description>The National Facilities program supports the operation of national user facilities: National Facilities areresearch facilities with specialized instrumentation available to the scientific research community in general and the materials research community in particular.These facilities provide unique research capabilities that can be located at only a few highly specialized laboratories in the Nation. They provide open user service for scientists and engineers from a broad range of disciplines including biology, chemistry, geosciences, materials research. and physics. Theyinclude facilities and resources for research using high magnetic fields, ultraviolet and x-ray synchrotron radiation, neutron scattering, and nanofabrication. Theyserve as science and technology-related resources and experiences for students. Theyconduct student and teacher education, general public awareness activities, curriculum development, and educational research.</Description>
+        <Version>Synopsis 9</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5359</AdditionalInformationURL>
+        <AdditionalInformationText>NSF Program Desccription PD-05-1743</AdditionalInformationText>
+        <GrantorContactEmail>grantsgovsupport@nsf.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>If you have any problems linking to this funding announcement, please contact the email address above.</GrantorContactEmailDescription>
+        <GrantorContactText>NSF grants.gov support&amp;lt;br/&amp;gt;grantsgovsupport@nsf.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>278447</OpportunityID>
+        <OpportunityTitle>Computational Mathematics</OpportunityTitle>
+        <OpportunityNumber>PD-16-1271</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>47.049</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AgencyCode>NSF</AgencyCode>
+        <AgencyName>U.S. National Science Foundation</AgencyName>
+        <PostDate>08132015</PostDate>
+        <CloseDate>12012026</CloseDate>
+        <CloseDateExplanation>December 1-15, annually</CloseDateExplanation>
+        <LastUpdatedDate>12122025</LastUpdatedDate>
+        <AwardCeiling>1200000</AwardCeiling>
+        <AwardFloor>1</AwardFloor>
+        <EstimatedTotalProgramFunding>18000000</EstimatedTotalProgramFunding>
+        <Description>Supports mathematical research in areas where computation plays a central and essential role, emphasizing analysis, development, and implementation of theoretically justified and efficient algorithms. The combination of these elements resulting in innovative computational methods is a hallmark of the program. Proposals ranging from single investigator to interdisciplinary team projects that not only create and analyze new computational mathematics techniques but also implement them to model, study, and solve important application problems are strongly encouraged, as is providing opportunities for rigorous mathematical training of junior computational mathematicians through research involvement. Conferences Proposals to the Computational Mathematics Program for conferences or workshops must be submitted through the program solicitation &amp;quot;Conferences and Workshops in the Mathematical Sciences&amp;quot; (link below). Principal Investigators should carefully read the solicitation to obtain important information regarding the substance of proposals for conferences, workshops, and similar activities. Unless an exception from the program is granted, to facilitate timely notification of the availability of support, the following requirements are in effect: Proposals for conferences, workshops, etc., to be held in the US must be submitted at least 6 months in advance of the conference start date; Proposals to support group travel to meetings outside the US must be submitted at least 8 months in advance of the meeting start date; Proposals for conferences, workshops, etc., whose budget request exceeds $50,000 must be submitted during the annual Computational Mathematics Program submission window. Conference proposals to the Computational Mathematics Program whose submission dates do not conform with the requirements described above will be returned without review.</Description>
+        <Version>Synopsis 17</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>12312031</ArchiveDate>
+        <AdditionalInformationURL>http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5390</AdditionalInformationURL>
+        <AdditionalInformationText>NSF Program Desccription PD-16-1271</AdditionalInformationText>
+        <GrantorContactEmail>grantsgovsupport@nsf.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>If you have any problems linking to this funding announcement, please contact the email address above.</GrantorContactEmailDescription>
+        <GrantorContactText>NSF grants.gov support&amp;lt;br/&amp;gt;grantsgovsupport@nsf.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>300997</OpportunityID>
+        <OpportunityTitle>EONS 2018: Appendix E Minority University Research and Education Project (MUREP) for Sustainability and Innovation Collaborative &amp;#8211; (MUSIC)</OpportunityTitle>
+        <OpportunityNumber>NNH18ZHA002N-MUSIC</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <CategoryOfFundingActivity>ED</CategoryOfFundingActivity>
+        <CategoryExplanation>Education and Training Services</CategoryExplanation>
+        <CFDANumbers>43.008</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Minority Serving Institutions (MSIs), Non-profit Organizations with missions to support MSIs</AdditionalInformationOnEligibility>
+        <AgencyCode>NASA</AgencyCode>
+        <AgencyName>National Aeronautics and Space Administration</AgencyName>
+        <PostDate>02222018</PostDate>
+        <CloseDateExplanation>Notice of Intent Due:  March 23, 2018; Proposals Due: May 22, 2018 11:59 PM EST</CloseDateExplanation>
+        <LastUpdatedDate>02222018</LastUpdatedDate>
+        <AwardCeiling>450000</AwardCeiling>
+        <AwardFloor>0</AwardFloor>
+        <EstimatedTotalProgramFunding>900000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>3</ExpectedNumberOfAwards>
+        <Description>Awards will be made as cooperative agreements to accredited Minority Serving Institutions (MSIs) partnered with non-profit organizations in the United States that are eligible to apply for this NASA Research Announcement (NRA). The period of performance for an award is up to 2 years. Prospective proposers are requested to submit any questions in writing to NASAMUSIC@nasaprs.com no later than 10 business days before the proposal due date so that NASA will have sufficient time to respond. Proposers to this NRA are required to have the following, no later than the due date: 1) a Data Universal Numbering System (DUNS) number, 2) a valid registration with the System for Award Management (SAM) [formerly known as the Central Contractor Registry (CCR)], 3) a valid Commercial And Government Entity (CAGE) Code, 4) a valid registration with NASA Solicitation and Proposal Integrated Review and Evaluation System (NSPIRES) (this also applies to any entities proposed for sub-awards or subcontracts.) Consult Appendix H Section H.3.1 for more eligibility information. Consult Appendix H Section 2.2 regarding teaming requirements and partnership guidelines. The goal of NASA MUSIC is: to provide strategic effort that will leverage research and contract relationships of MSIs and NASA through relationships developed by non-profit organizations that may include collaboration of subject matter experts and access to NASA research facilities; An effort to improve STEM education and research at MSIs; A funded activity that seeks to build institutional capacity of MSIs; An activity to support long-term sustainability of STEM research at MSIs. MUSIC seeks to address the agency goals and objectives through: Increasing the institutional awareness of NASA competitive resources that can build the capacity of MSIs to offer and conduct STEM undergraduate and graduate research with a focus on NASA opportunities. Assembling MSIs and their stakeholders with common interests, and challenges then provide common tools for MSIs to increase efficiency and optimize resources including opportunities to develop formal and informal partnerships. Connecting MSI administrators and university STEM leaders to cutting-edge initiatives at NASA that can increase interest in securing research and contracting opportunities while supporting NASA&amp;#8217;s policy to achieve an Agency-wide goal of providing one percent of total contract value of prime and subcontracting awards to MSIs. https://www.hq.nasa.gov/office/procurement/regs/1826.htm To achieve these goals, MUSIC seeks to increase university program capacity about practical uses of research to drive institution sustainability through the following targets: Advance the understanding of MSIs on how to effectively develop institutional administrative support by competing at the university level for funding opportunities, which will result in successful application to, and management of these funding opportunities (including those at NASA). Extend MSI&amp;#8217;s capabilities by: A. Leveraging the MSIs research capabilities with NASA research to develop Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) projects that develop and demonstrate innovative technologies that fulfill NASA needs and have significant potential for successful commercialization. B. Increasing the preparation of undergraduate and graduate science, technology, engineering, and mathematics faculty with opportunities to participate with NASA researchers and missions through grants and contracts. To achieve these goals and objectives, NASA solicits proposals from MSIs to implement the NASA MUSIC; to engage MSIs in authentic STEM experiences related to NASA missions; and to inspire and captivate learners utilizing NASA&amp;#8217;s unique assets to develop a keen interest in STEM. Every institution that intends to submit a proposal to this NRA, including the proposed prime award or any partner whether an education institution, other non-profit institutions, and other organizations that will serve as sub-awardees or contractors, must be registered in NSPIRES. Electronic submission of proposals is required by the due date and must be submitted by an authorized official of the proposing organization. Such registration must identify the authorized organizational representative(s) who will submit the electronic proposal. All principal investigators and other participants (e.g. co-investigators) must be registered in NSPIRES regardless of submission system. Potential proposers and proposing organizations are urged to access the system(s) well in advance of the proposal due date(s) of interest to familiarize themselves with its structure and enter the requested information. Electronic proposals may be submitted via the NASA proposal data system NSPIRES or via Grants.gov. Organizations that intend to submit proposals via Grants.gov must be registered 1) with Grants.gov and 2) with NSPIRES. Additional programmatic information for this NRA may develop before the proposal due date. If so, such information will be added as a Frequently Asked Question (FAQ) or formal amendment to this NRA and posted on http://nspires.nasaprs.com. It is the proposer&amp;#8217;s responsibility to regularly check NSPIRES for updates to this NRA. </Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>http://nspires.nasaprs.com</AdditionalInformationURL>
+        <AdditionalInformationText>Link to Full Announcement</AdditionalInformationText>
+        <GrantorContactEmail>NASAMUSIC@nasaprs.com</GrantorContactEmail>
+        <GrantorContactEmailDescription>.</GrantorContactEmailDescription>
+        <GrantorContactText>Clarence Bostic &amp;lt;br/&amp;gt;Activity Manager,  NASA MUSIC &amp;lt;br/&amp;gt;757-864-7836 &amp;lt;br/&amp;gt;</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>357544</OpportunityID>
+        <OpportunityTitle>Accelerating the Pace of Substance Use Research Using Existing Data (R01 Clinical Trial Not Allowed)</OpportunityTitle>
+        <OpportunityNumber>RFA-DA-26-055</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ED</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.273</CFDANumbers>
+        <CFDANumbers>93.279</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following:  Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>12052024</PostDate>
+        <CloseDate>12032027</CloseDate>
+        <LastUpdatedDate>12052024</LastUpdatedDate>
+        <Description>The purpose of this Notice of Opportunity Announcement (NOFO) is to invite applications proposing the innovative analysis of existing social science, behavioral, administrative, and neuroimaging data to study the etiology and epidemiology of drug using behaviors (defined as alcohol, tobacco, prescription and other drug) and related disorders, prevention of drug use and HIV, and health service utilization. This FOA encourages the analyses of public use and other extant community-based or clinical datasets to their full potential in order to increase our knowledge of etiology, trajectories of drug using behaviors and their consequences including morbidity and mortality, risk and resilience in the development of psychopathology, strategies to guide the development, testing, implementation, and delivery of high quality, effective and efficient services for the prevention and treatment of drug abuse and HIV.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>01082028</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/rfa-files/RFA-DA-26-055.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/rfa-files/RFA-DA-26-055.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information&amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>353758</OpportunityID>
+        <OpportunityTitle>Independent Scientist Award (Parent K02 - Independent Clinical Trial Not Allowed)</OpportunityTitle>
+        <OpportunityNumber>PA-24-179</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ED</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.121</CFDANumbers>
+        <CFDANumbers>93.273</CFDANumbers>
+        <CFDANumbers>93.279</CFDANumbers>
+        <CFDANumbers>93.310</CFDANumbers>
+        <CFDANumbers>93.313</CFDANumbers>
+        <CFDANumbers>93.853</CFDANumbers>
+        <CFDANumbers>93.866</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following:  Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession; Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.  Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.  Foreign components, as defined in the NIH Grants Policy Statement, are allowed.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>04242024</PostDate>
+        <CloseDate>05072027</CloseDate>
+        <LastUpdatedDate>04242024</LastUpdatedDate>
+        <Description>The purpose of the NIH Independent Scientist Award (K02) is to foster the development of outstanding scientists and enable them to expand their potential to make significant contributions to their field of research. The K02 award provides three to five years of salary support and &amp;quot;protected time&amp;quot; for newly independent scientists who can demonstrate the need for a period of intensive research focus as a means of enhancing their research careers. Each independent scientist career award program must be tailored to meet the individual needs of the candidate.This Funding Opportunity Announcement (FOA) is designed specifically for applicants proposing research that does not involve leading an independent clinical trial, a clinical trial feasibility study, or a separate ancillary clinical trial. Applicants to this FOA are permitted to propose research experience in a clinical trial led by another investigator. Applicants proposing a clinical trial or an ancillary clinical trial as lead investigator, should apply to the companion FOA</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>06122027</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/pa-files/PA-24-179.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/pa-files/PA-24-179.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information&amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>358829</OpportunityID>
+        <OpportunityTitle>Support for Research Excellence (SuRE) Award (R16 Clinical Trial Not Allowed)</OpportunityTitle>
+        <OpportunityNumber>PAR-25-414</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ED</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>ENV</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>FN</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CategoryOfFundingActivity>ISS</CategoryOfFundingActivity>
+        <CFDANumbers>93.113</CFDANumbers>
+        <CFDANumbers>93.121</CFDANumbers>
+        <CFDANumbers>93.172</CFDANumbers>
+        <CFDANumbers>93.173</CFDANumbers>
+        <CFDANumbers>93.242</CFDANumbers>
+        <CFDANumbers>93.273</CFDANumbers>
+        <CFDANumbers>93.279</CFDANumbers>
+        <CFDANumbers>93.286</CFDANumbers>
+        <CFDANumbers>93.307</CFDANumbers>
+        <CFDANumbers>93.361</CFDANumbers>
+        <CFDANumbers>93.398</CFDANumbers>
+        <CFDANumbers>93.846</CFDANumbers>
+        <CFDANumbers>93.847</CFDANumbers>
+        <CFDANumbers>93.853</CFDANumbers>
+        <CFDANumbers>93.855</CFDANumbers>
+        <CFDANumbers>93.859</CFDANumbers>
+        <CFDANumbers>93.865</CFDANumbers>
+        <CFDANumbers>93.866</CFDANumbers>
+        <CFDANumbers>93.867</CFDANumbers>
+        <CFDANumbers>93.879</CFDANumbers>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following: Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.  Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.  Foreign components, as defined in the NIH Grants Policy Statement, are not allowed.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>06132025</PostDate>
+        <CloseDate>09072028</CloseDate>
+        <LastUpdatedDate>06132025</LastUpdatedDate>
+        <AwardCeiling>100000</AwardCeiling>
+        <Description>The SuRE program supports research capacity building at eligible higher education institutions by funding investigator-initiated biomedical research inbasic, social, clinical, behavioral, or translational science that falls in the mission areas of the NIH. The purpose of SuRE awards is to provide support for investigator-initiated research at resource-limited institutions by full-time faculty who are not currently funded by any NIH Research Project Grants (RPGs) with the exception of SuRE or SuRE-First awards, to furnish students with high-quality undergraduate and/or graduate research experiences, and to enhance the institutional scientific research culture.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>10132028</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/pa-files/PAR-25-414.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/pa-files/PAR-25-414.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information&amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>362893</OpportunityID>
+        <OpportunityTitle>F26AS00104 State ANS Management Plan 2026</OpportunityTitle>
+        <OpportunityNumber>F26AS00104</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ENV</CategoryOfFundingActivity>
+        <CFDANumbers>15.608</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Eligible applicants are ONLY the States, Territories, or Indian tribes involved together with States and/or Territories in an interstate organization, that have an approved ANS Management Plan.  For eligibility questions, please contact the appropriate Service Regional AIS Coordinator. Unless the hosting entity of one of the 47 approved plans has an unforeseen change, the currently eligible applicants are:Approved State or Interstate PlanState Entity That Applies for FundingAlabamaAL Dept. of Conservation and Natural ResourcesAlaskaAK Department of Fish and GameArizonaAZ Game and Fish DepartmentArkansasAR Game and Fish CommissionCaliforniaCA Department of Fish and GameColoradoCO Parks and WildlifeConnecticutCT State Department of Environmental ProtectionDelawareDE Dept. of Natural Resources and Environmental ControlGeorgiaGA Department of Natural ResourcesHawaiiHI Department of Land and Natural ResourcesIdahoID Department of AgricultureIllinoisIL Department of Natural ResourcesIndianaIN Department of Natural ResourcesIowaIA Department of Natural ResourcesKansasKS Department of Wildlife &amp;amp; ParksKentuckyKY Department of Fish and Wildlife ResourcesLake Champlain BasinVT Department of Environmental ConservationLake Tahoe RegionNV Department of WildlifeLouisianaLA Department of Wildlife and FisheriesMaineME Department of Environmental ProtectionMarylandMD Department of Natural ResourcesMassachusettsMA Dept. of Conservation and Recreation, Lakes and Ponds ProgramMichiganMI Department of Environmental QualityMinnesotaMN Department of Natural ResourcesMississippiMS Department of Environmental QualityMissouriMO Department of ConservationMontanaMT Fish, Wildlife, and ParksNebraskaNE Game and Parks CommissionNew JerseyNJ Department of Environmental ProtectionNevadaNV Department of WildlifeNew MexicoNM Department of Game and FishNew YorkNY DEC via The State University of New YorkOhioOH Department of Natural ResourcesOklahomaOK Department of Wildlife ConservationOregonOR Center for Lakes and ReservoirsPennsylvaniaPA Fish and Boat CommissionRhode IslandRI Department of Environmental ManagementSouth CarolinaSC Department of Natural ResourcesSouth DakotaSD Department of Game, Fish, and ParksSt. Croix National Scenic RiverwayMN Department of Natural Resources, or WI Department of Natural ResourcesTennesseeTN Wildlife Resources AgencyTexasTX Parks and Wildlife DepartmentUtahUT Department of Natural ResourcesVirginiaVA Department of Conservation and RecreationWashingtonWA Department of Fish and WildlifeWisconsinWI Department of Natural ResourcesWyomingWY Game and Fish Department</AdditionalInformationOnEligibility>
+        <AgencyCode>DOI-FWS</AgencyCode>
+        <AgencyName>Fish and Wildlife Service</AgencyName>
+        <PostDate>06192026</PostDate>
+        <CloseDate>12162026</CloseDate>
+        <CloseDateExplanation>Pre-proposals are due on July 29, 2026, and are submitted outside GrantSolutions.Important note: The Closing Date for this funding opportunity is December 16, 2026. However, that is the date that the funding opportunity closes and applications can no longer be accepted. To give applicants the time for the &amp;quot;back and forth&amp;quot; necessary to fix issues and complete their applications, the actual due date for Application Submission in GrantSolutions is October 14, 2026.</CloseDateExplanation>
+        <LastUpdatedDate>06192026</LastUpdatedDate>
+        <AwardCeiling>150000</AwardCeiling>
+        <AwardFloor>5000</AwardFloor>
+        <EstimatedTotalProgramFunding>4084000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>47</ExpectedNumberOfAwards>
+        <Description>This Notice of Funding Opportunity requests pre-proposals, and then later full applications, for the implementation of State and Interstate Aquatic Nuisance Species Management Plans (SIANSMP) that have been approved by the Aquatic Nuisance Species Task Force (ANSTF) as per Section 4724 (b)(3)(a) of the Nonindigenous Aquatic Nuisance Prevention and Control Act of 1990 as amended (16 U.S.C. 4701-4741). These plans identify activities needed to prevent introductions and spread, and eliminate or reduce the risks associated with, aquatic nuisance species, as part of the broader objective of moving towards a nationally coordinated aquatic invasive species program.The grant process includes a pre-proposal review that occurs outside GrantSolutions. After receiving approval of pre-proposals, eligible applicants can complete the full application process within GrantSolutions. The grant program includes a 25% cost-share (of total project costs) and a 5% limit on administrative costs.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>Yes</CostSharingOrMatchingRequirement>
+        <ArchiveDate>12312026</ArchiveDate>
+        <GrantorContactEmail>don_maclean@fws.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Don MacLean</GrantorContactEmailDescription>
+        <GrantorContactText>Don MacLean&amp;lt;br/&amp;gt;don_maclean@fws.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>337460</OpportunityID>
+        <OpportunityTitle>Notice of Intent:  Program to End Modern Slavery FY 2022</OpportunityTitle>
+        <OpportunityNumber>SFOP0008547</OpportunityNumber>
+        <OpportunityCategory>O</OpportunityCategory>
+        <OpportunityCategoryExplanation>This is a notice of intent and the TIP Office is not accepting applications at this time.</OpportunityCategoryExplanation>
+        <FundingInstrumentType>O</FundingInstrumentType>
+        <CategoryOfFundingActivity>O</CategoryOfFundingActivity>
+        <CategoryExplanation>Anti-Trafficking</CategoryExplanation>
+        <CFDANumbers>19.019</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Any commercial, international, educational, or non-profit organization(s), including any faith-based, community-based, or public international organization(s) are eligible to apply if and when a Statement of Intent and/or a Notice of Funding Opportunity is published.  Lack of past experience with U.S. Department of State cooperative agreements, grants, or contracts does not bar eligibility.  All applicants for TIP Office funding opportunities must have a valid Unique Entity Identifier (formerly the Data Universal Numbering System or DUNS).  Although not required for submission of an application via SAMS Domestic on https://mygrants.service-now.com/grants, a valid UEI number is required for organizations selected for an award.  Organizations should verify their UEI number or take the steps needed to obtain one as soon as possible.  Instructions for obtaining a UEI number can be found at http://fedgov.dnb.com/webform.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOS-GTIP</AgencyCode>
+        <AgencyName>Office to Monitor-Combat Trafficking in Persons</AgencyName>
+        <PostDate>01212022</PostDate>
+        <CloseDate>01012099</CloseDate>
+        <CloseDateExplanation>undefined</CloseDateExplanation>
+        <LastUpdatedDate>02072024</LastUpdatedDate>
+        <AwardCeiling>0</AwardCeiling>
+        <AwardFloor>0</AwardFloor>
+        <ExpectedNumberOfAwards>0</ExpectedNumberOfAwards>
+        <Description>Note: This is a Notice of Intent. An announcement is not related to this notice. The U.S. State Department&amp;#8217; s Office to Monitor and Combat Trafficking in Persons (TIP Office) is not accepting applications at this time. Please review the attached notice for full details. Background: The goal of the Program to End Modern Slavery (PEMS) is to measurably and substantially reduce the prevalence of human trafficking in targeted populations in partner countries and jurisdictions through innovative interventions driven by research, monitoring, evaluation, and learning, and the expansion of partnerships. PEMS-funded efforts conduct scientifically rigorous research to establish evidence on the effects of anti-trafficking programs on the reduction of the prevalence of human trafficking through the advancement of sound prevalence measurement methodologies, strong monitoring and evaluation practices, evidence-based programming, and the application of victim-centered and trauma-informed approaches. The U.S. Congress has appropriated $25 million annually since Fiscal Year (FY) 2016 for PEMS, totaling $150 million to date. The TIP Office is interested in funding research and implementation projects focused on five priority areas as they relate to human trafficking: &amp;#8226; Supply Chains &amp;#8226; Climate Change and Displacement &amp;#8226; Public Health &amp;#8226; Financial Inclusion &amp;#8226; Sex Trafficking PEMS encourages the use of partnerships with governments, academia, civil society, the private sector, other funders, and international organizations to advance the goals of the program and improve collaboration on the reduction of the prevalence of human trafficking. The TIP Office anticipates that a Statement of Interest (SOI) will be released within the next couple of months on SAMS-Domestic and grants.gov followed by a Notification of Funding Opportunity (NOFO).</Description>
+        <Version>Synopsis 3</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>https://mygrants.servicenowservices.com/overseas?id=&amp;amp;table=x_g_usd4_d_grant_funding_opportunity&amp;amp;sys_id=55eee95087544ed01b4742270cbb35c9&amp;amp;view=Default</AdditionalInformationURL>
+        <AdditionalInformationText>Link to Opportunity in SAMS Overseas - Updated</AdditionalInformationText>
+        <GrantorContactText>JTIPGrants@state.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>345738</OpportunityID>
+        <OpportunityTitle>National Center for Construction Safety and Health Research and Translation (U54)</OpportunityTitle>
+        <OpportunityNumber>RFA-OH-24-001</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.262</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <AdditionalInformationOnEligibility>N/A</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-CDC-HHSCDCERA</AgencyCode>
+        <AgencyName>Centers for Disease Control and Prevention - ERA</AgencyName>
+        <PostDate>09132023</PostDate>
+        <CloseDate>12012026</CloseDate>
+        <CloseDateExplanation>Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.</CloseDateExplanation>
+        <LastUpdatedDate>11082023</LastUpdatedDate>
+        <AwardCeiling>5750000</AwardCeiling>
+        <AwardFloor>3000000</AwardFloor>
+        <EstimatedTotalProgramFunding>28750000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>1</ExpectedNumberOfAwards>
+        <Description>NIOSH is encouraging the submission of an application from qualified organizations for a National Center for Construction Safety and Health Research and Translation. Applicants are encouraged to propose multidisciplinary approaches and coordination for impactful applied and intervention research, hazard identification, and controls; develop partnerships for implementing prevention and intervention activities; and serve as a leader in research translation and research-to-practice for the protection of construction workers in the U.S. The Center will accomplish these goals by integrating and advancing research, research translation, best practices, policy and guidance, and capacity building. Center work should consider the NIOSH strategic plan and NORA construction research objectives. Center structure should take advantage of diverse scientific resources and focus on national worker safety and health issues. Centers should emphasize the creation and implementation of evidence-based solutions that address important construction industry safety and health problems. Collaborations with other academic institutions, nonprofit organizations, and other occupational safety and health-focused groups are expected. Applicants must concisely describe the occupational health burden of important safety and health issues in the construction industry and discuss how focused research and outreach activities will help alleviate the burden and reduce numbers. Applicants should also clearly articulate the anticipated impacts of the Center&amp;#8217;s proposed work, both during the project period and beyond.</Description>
+        <Version>Synopsis 3</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>12312026</ArchiveDate>
+        <AdditionalInformationURL>https://grants.nih.gov/grants/guide/rfa-files/RFA-OH-24-001.html</AdditionalInformationURL>
+        <GrantorContactEmail>sic7@cdc.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>schiou@cdc.gov</GrantorContactEmailDescription>
+        <GrantorContactText>Sharon Chiou &amp;lt;br/&amp;gt;Program Officer &amp;lt;br/&amp;gt;304-285-6029</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>363993</OpportunityID>
+        <OpportunityTitle>FY 2027 Continuation of Solicitation for the Office of Science Financial Assistance Program</OpportunityTitle>
+        <OpportunityNumber>DE-FOA-0003665</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <FundingInstrumentType>O</FundingInstrumentType>
+        <FundingInstrumentType>PC</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>81.049</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AgencyCode>PAMS-SC</AgencyCode>
+        <AgencyName>Office of Science</AgencyName>
+        <PostDate>09302026</PostDate>
+        <CloseDate>09302027</CloseDate>
+        <LastUpdatedDate>09302026</LastUpdatedDate>
+        <AwardCeiling>10000000</AwardCeiling>
+        <AwardFloor>5000</AwardFloor>
+        <EstimatedTotalProgramFunding>400000000</EstimatedTotalProgramFunding>
+        <Description>SC hereby announces its continuing interest in receiving applications for support of work in the following program areas: &amp;#183; Advanced Scientific Computing Research&amp;#183; Basic Energy Sciences&amp;#183; Biological and Environmental Research&amp;#183; Fusion Energy Sciences&amp;#183; High Energy and Nuclear Physics&amp;#183; Isotope R&amp;amp;D and Production. On September 3, 1992, DOE published in the Federal Register the Office of Energy Research Financial Assistance Program (now called the Office of Science Financial Assistance Program), 10 C.F.R. part 605, as a Final Rule, which contained a solicitation for this program. Information about submitting applications, eligibility, limitations, evaluation and selection processes and other policies and procedures are specified in 10 C.F.R. part 605.This NOFO is our annual open solicitation that covers all research areas in SC and is open throughout the fiscal year (FY). Any research within SC&amp;#8217;s congressionally authorized mission may be proposed under this NOFO.This NOFO will remain open until September 30, 2027, 11:59 PM Eastern Time, or until it is succeeded by another issuance, whichever occurs first.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>12302027</ArchiveDate>
+        <AdditionalInformationURL>https://science.osti.gov</AdditionalInformationURL>
+        <AdditionalInformationText>Office of Science</AdditionalInformationText>
+        <GrantorContactEmail>sc.opencall@doe.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Open Call</GrantorContactEmailDescription>
+        <GrantorContactText>sc.opencall@doe.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>360947</OpportunityID>
+        <OpportunityTitle>Limited Competition: NIGMS Mature Synchrotron Resources (MSR) for Structural Biology (P30 - Clinical Trial Not Allowed)</OpportunityTitle>
+        <OpportunityNumber>PAR-27-068</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.859</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Requirement for Current NIGMS Support: This NOFO is limited to applicants requesting support for existing synchrotron resources that are currently supported by NIGMS funding. Applications cannot support resources whose funding ended more than 36 months prior to the application due date.Refer to Section III. Eligibility Information in the NOFO for additional information on eligibility.Foreign Organizations/International CollaborationsNon-domestic (non-U.S.) Entities (Foreign Organization) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.Foreign components, as defined in the NIH Grants Policy Statement, are not allowed.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>08312026</PostDate>
+        <CloseDate>10022028</CloseDate>
+        <LastUpdatedDate>08312026</LastUpdatedDate>
+        <Description>This Notice of Funding Opportunity (NOFO) supports &amp;quot;mature&amp;quot; resources at synchrotron facilities that provide user access to X-ray beamlines for static and dynamic imaging of biological systems ranging from molecules to organs. &amp;quot;Mature&amp;quot; refers to the techniques made available at the resource beamlines, which must be well established and provide utility to the communities they serve without requiring significant novel technology development. Applications may only request support for existing synchrotron resources that are currently supported by NIGMS funding. The facility is expected to be maintained or upgraded to current best practices, make its capabilities and availability known to the biomedical research community through outreach activities, and provide user training and support.This is a Notice of Funding Opportunity (NOFO) for a Limited Competition that will invite application(s) from eligible organization(s) to apply. Please see Section III. Eligibility for additional information. In accordance with NIH standard peer-review processes, the application(s) will be peer-reviewed, and only meritorious application(s) will be considered for funding.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>11012028</ArchiveDate>
+        <GrantorContactEmail>MSRP30Mailbox@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>MSRP30Mailbox@nih.gov</GrantorContactEmailDescription>
+        <GrantorContactText>MSR P30&amp;lt;br/&amp;gt;MSRP30Mailbox@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>349724</OpportunityID>
+        <OpportunityTitle>Arctic Research Opportunities</OpportunityTitle>
+        <OpportunityNumber>23-572</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>47.050</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>*Who May Submit Proposals: Proposals may only be submitted by the following:   -Foreign organizations: For cooperative projects involving U.S. and foreign organizations, support will only be provided for the U.S. portion.   -For-profit organizations: U.S.-based commercial organizations, including small businesses, with strong capabilities in scientific or engineering research or education and a passion for innovation.   -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.   -Other Federal Agencies and Federally Funded Research and Development Centers (FFRDCs): Prospective proposers from other Federal Agencies and FFRDCs, including NSF sponsored FFRDCs, must follow the guidance in PAPPG Chapter I.E.2 regarding limitations on eligibility.   -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.   -Tribal Nations: An American Indian or Alaska Native tribe, band, nation, pueblo, village, or community that the Secretary of the Interior acknowledges as a federally recognized tribe pursuant to the Federally Recognized Indian Tribe List Act of 1994, 25 U.S.C. &amp;#167;&amp;#167; 5130-5131.</AdditionalInformationOnEligibility>
+        <AgencyCode>NSF</AgencyCode>
+        <AgencyName>U.S. National Science Foundation</AgencyName>
+        <PostDate>08022023</PostDate>
+        <CloseDate>01152027</CloseDate>
+        <CloseDateExplanation>Target Dates for Arctic Natural Sciences and Arctic Social Sciences</CloseDateExplanation>
+        <LastUpdatedDate>08062026</LastUpdatedDate>
+        <AwardFloor>330000</AwardFloor>
+        <EstimatedTotalProgramFunding>50000000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>80</ExpectedNumberOfAwards>
+        <Description>The National Science Foundation (NSF) invites investigators at U.S. organizations to submit proposals to the Arctic Sciences Section in the Office of Polar Programs (OPP) within the Geosciences Directorate, to conduct research about the Arctic region. The goal of this solicitation is to attract research proposals that advance a fundamental, process, and/or systems-level understanding of the Arctic&amp;apos;s rapidly changing natural environment, social and cultural systems, and, where appropriate, to improve our capacity to project future change. The Arctic Sciences Section supports research focused on the Arctic region and its connectivity with lower latitudes. The scientific scope is aligned with, but not limited to, research priorities outlined in the Interagency Arctic Research Policy Committee (IARPC) five-year plan. The Arctic Sciences Section coordinates with programs across NSF and with other federal and international partners to co-review and co-fund Arctic-related proposals as appropriate. The Arctic Sciences Section also maintains Arctic logistical infrastructure and field support capabilities that are available to enable research.</Description>
+        <Version>Synopsis 14</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>08142027</ArchiveDate>
+        <AdditionalInformationURL>http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23572</AdditionalInformationURL>
+        <AdditionalInformationText>NSF Publication 23-572</AdditionalInformationText>
+        <GrantorContactEmail>grantsgovsupport@nsf.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>If you have any problems linking to this funding announcement, please contact the email address above.</GrantorContactEmailDescription>
+        <GrantorContactText>NSF grants.gov support&amp;lt;br/&amp;gt;grantsgovsupport@nsf.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>358004</OpportunityID>
+        <OpportunityTitle>Cybersecurity Innovation for Cyberinfrastructure (CICI)</OpportunityTitle>
+        <OpportunityNumber>25-531</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>47.070</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>*Who May Submit Proposals: Proposals may only be submitted by the following:   -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.   -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.</AdditionalInformationOnEligibility>
+        <AgencyCode>NSF</AgencyCode>
+        <AgencyName>U.S. National Science Foundation</AgencyName>
+        <PostDate>01042025</PostDate>
+        <CloseDate>01202027</CloseDate>
+        <LastUpdatedDate>10022026</LastUpdatedDate>
+        <AwardCeiling>1200000</AwardCeiling>
+        <EstimatedTotalProgramFunding>12000000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>20</ExpectedNumberOfAwards>
+        <Description>The objective of the Cybersecurity Innovation for Cyberinfrastructure (CICI) program is to advance scientific discovery and innovation by enhancing the security and privacy of cyberinfrastructure. CICI supports efforts to develop, deploy and integrate cybersecurity that will benefit the broader scientific community by securing science data, computation, collaborations workflows, and infrastructure. CICI recognizes the unique nature of modern, complex, data-driven, distributed, rapid, and collaborative science and the breadth of infrastructure and requirements across scientific disciplines, practitioners, researchers, and projects. CICI seeks proposals in four program areas: 1. Usable and Collaborative Security for Science (UCSS): Projects in this program area should support novel and/or applied security and usability research that facilitates scientific collaboration, encourages the adoption of security into the scientific workflow, and helps create a holistic, integrated security environment that spans the entire scientific cyberinfrastructure ecosystem. 2. Reference Scientific Security Datasets (RSSD): Projects in this program area should leverage instrumented cyberinfrastructure to capture metadata from scientific workflows and workloads as reference data artifacts that can help support reproducible security research, testing and evaluation. 3. Transition to Cyberinfrastructure Resilience (TCR): Projects in this program area should improve the robustness, trustworthiness, integrity, and/or resilience of scientific cyberinfrastructure through testing, evaluation, hardening, validation, and technology transition of novel cybersecurity research. The TCR area further encourages transition activities that advance the deployment and use of reproducibility in CI, workflows, and data. 4. Integrity, Provenance, and Authenticity for Artificial Intelligence Ready Data (IPAAI): Projects in this program area should enhance confidence and reproducibility in AI produced scientific results by improving the integrity, provenance, and authenticity of scientific datasets used by Artificial Intelligence systems.</Description>
+        <Version>Synopsis 6</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>02192027</ArchiveDate>
+        <AdditionalInformationURL>http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf25531</AdditionalInformationURL>
+        <AdditionalInformationText>NSF Publication 25-531</AdditionalInformationText>
+        <GrantorContactEmail>grantsgovsupport@nsf.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>If you have any problems linking to this funding announcement, please contact the email address above.</GrantorContactEmailDescription>
+        <GrantorContactText>NSF grants.gov support&amp;lt;br/&amp;gt;grantsgovsupport@nsf.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>362190</OpportunityID>
+        <OpportunityTitle>DoW Pancreatic Cancer Research Program, Idea Development Award</OpportunityTitle>
+        <OpportunityNumber>HT942526PCARPIDA</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>12.420</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AgencyCode>DOD-AMRAA</AgencyCode>
+        <AgencyName>Defense Health Agency Contracting Activity - DHACA</AgencyName>
+        <PostDate>05042026</PostDate>
+        <CloseDate>10072026</CloseDate>
+        <LastUpdatedDate>05062026</LastUpdatedDate>
+        <EstimatedTotalProgramFunding>9900000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>12</ExpectedNumberOfAwards>
+        <Description>Summary: The fiscal year 2026 (FY26) Pancreatic Cancer Research Program (PCARP) Idea Development Award supports the development of innovative, high-risk/high-reward research that could lead to critical discoveries or major advancements that will accelerate progress in improving outcomes for individuals with pancreatic cancer. This award mechanism supports innovative ideas with the potential to yield impactful data and new avenues of investigation. All applications must address at least one of the FY26 PCARP Focus Areas. Distinctive Features: This award mechanism requires preliminary data relevant to the proposed project. Applications can support clinical research studies; however, this mechanism does not allow clinical trials. Partnering Principal Investigator (PI) Option for Early-Career Investigator: This funding mechanism offers a higher level of funding for applications that propose to partner an experienced PI (i.e., Initiating PI, who will serve as the mentor) with an Early-Career Investigator (i.e., Partnering PI) wishing to pursue a career in pancreatic cancer research. For this option, only the Initiating PI will submit a pre-application, but both PIs will need to submit at the full application stage. The partnering PI&amp;#8217;s application is an abbreviated package specific to their distinct portion of the research project. Be advised, all associated applications for a research project may be withdrawn if the initiating or partnering application is rejected or administratively withdrawn. </Description>
+        <Version>Synopsis 2</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>11062026</ArchiveDate>
+        <GrantorContactEmail>help@eBRAP.org</GrantorContactEmail>
+        <GrantorContactEmailDescription>eBRAP Help Desk</GrantorContactEmailDescription>
+        <GrantorContactText>eBRAP Help Desk &amp;lt;br/&amp;gt;Phone:      301-682-5507 &amp;lt;br/&amp;gt;Email:       help@eBRAP.org</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>342959</OpportunityID>
+        <OpportunityTitle>Astronomy and Astrophysics Research Grants</OpportunityTitle>
+        <OpportunityNumber>22-624</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>47.049</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AgencyCode>NSF</AgencyCode>
+        <AgencyName>U.S. National Science Foundation</AgencyName>
+        <PostDate>08042022</PostDate>
+        <CloseDate>11162026</CloseDate>
+        <LastUpdatedDate>12122025</LastUpdatedDate>
+        <EstimatedTotalProgramFunding>50000000</EstimatedTotalProgramFunding>
+        <Description>The Astronomy and Astrophysics Research Grants (AAG) Program is an inclusive and flexible funding opportunity to support research in the astronomical sciences. The Program provides individual investigator and collaborative research grants for observational, theoretical, laboratory, and archival data studies in astronomy and astrophysics. The Program also considers proposals for projects and tools that enable or enhance astronomical research. Proposals may span multiple disciplines and/or areas of study and may utilize multiple techniques.</Description>
+        <Version>Synopsis 10</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>12162026</ArchiveDate>
+        <AdditionalInformationURL>http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22624</AdditionalInformationURL>
+        <AdditionalInformationText>NSF Publication 22-624</AdditionalInformationText>
+        <GrantorContactEmail>grantsgovsupport@nsf.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>If you have any problems linking to this funding announcement, please contact the email address above.</GrantorContactEmailDescription>
+        <GrantorContactText>NSF grants.gov support&amp;lt;br/&amp;gt;grantsgovsupport@nsf.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>360458</OpportunityID>
+        <OpportunityTitle>Single Source for the Continuation of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Scientific and Data Research Center (U01 Clinical Trial Required)</OpportunityTitle>
+        <OpportunityNumber>RFA-DK-27-139</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.847</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>As this NOFO is a Single Source application, only the current recipient under RFA-DK-20-012 is eligible to apply under this announcement. Refer to Section III. Eligibility Information in the NOFO for additional information on eligibility.Foreign Organizations/International CollaborationsNon-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.Foreign components, as defined in the NIH Grants Policy Statement, are not allowed.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>08312026</PostDate>
+        <CloseDate>11092026</CloseDate>
+        <LastUpdatedDate>08312026</LastUpdatedDate>
+        <EstimatedTotalProgramFunding>1800000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>1</ExpectedNumberOfAwards>
+        <Description>Applications for a 3-year extension/renewal of the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) clinical trial consortium are requested to fully meet the enrollment targets, complete participant follow-up, and finalize data analysis and dissemination of study findings. This Notice of Funding Opportunity (NOFO) invites a Single Source application for the eligible organization, the Scientific and Data Research Center (SDRC) already involved in the Caring for OutPatiEnts after Acute Kidney Injury (COPE-AKI) Consortium. Please see Section III. Eligibility for additional information. In accordance with NIH standard peer-review processes, the application(s) will be peer-reviewed, and only meritorious application(s) will be considered.There is currently no standard of care for patients after hospitalization with acute kidney injury (AKI). Successful completion of the COPE-AKI study will provide key insights that are expected to directly inform improved clinical management strategies and the development of standard of care for Stage 2 and 3 AKI survivors.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>01082027</ArchiveDate>
+        <GrantorContactEmail>NIDDK_KUH@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>NIDDK_KUH@nih.gov</GrantorContactEmailDescription>
+        <GrantorContactText>Division of Kidney, Urologic, and Hematologic Diseases&amp;lt;br/&amp;gt;NIDDK_KUH@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>356800</OpportunityID>
+        <OpportunityTitle>Innovation Grants to Nurture Initial Translational Efforts (IGNITE): Assay Development and Neurotherapeutic Agent Identification (R61/R33 Clinical Trial Not Allowed)</OpportunityTitle>
+        <OpportunityNumber>PAR-25-059</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>HL</CategoryOfFundingActivity>
+        <CFDANumbers>93.853</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>04</EligibleApplicants>
+        <EligibleApplicants>05</EligibleApplicants>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>07</EligibleApplicants>
+        <EligibleApplicants>08</EligibleApplicants>
+        <EligibleApplicants>11</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>22</EligibleApplicants>
+        <EligibleApplicants>23</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Other Eligible Applicants include the following:  Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession.</AdditionalInformationOnEligibility>
+        <AgencyCode>HHS-NIH11</AgencyCode>
+        <AgencyName>National Institutes of Health</AgencyName>
+        <PostDate>10222024</PostDate>
+        <CloseDate>10202027</CloseDate>
+        <LastUpdatedDate>11042024</LastUpdatedDate>
+        <AwardCeiling>750000</AwardCeiling>
+        <EstimatedTotalProgramFunding>750000</EstimatedTotalProgramFunding>
+        <Description>This funding opportunity announcement (FOA) encourages research grant applications to develop in vitro and/or ex vivo assays and conduct iterative screening efforts to identify and characterize potential therapeutic agents for neurological or neuromuscular disorders. This FOA is part of a suite of Innovation Grants to Nurture Initial Translational Efforts (IGNITE) to advance projects to the point where they can meet the entry criteria for the Blueprint Neurotherapeutics Network (BPN) or other translational programs.</Description>
+        <Version>Synopsis 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <ArchiveDate>11252027</ArchiveDate>
+        <AdditionalInformationURL>http://grants.nih.gov/grants/guide/pa-files/PAR-25-059.html</AdditionalInformationURL>
+        <AdditionalInformationText>https://grants.nih.gov/grants/guide/pa-files/PAR-25-059.html</AdditionalInformationText>
+        <GrantorContactEmail>grantsinfo@nih.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.</GrantorContactEmailDescription>
+        <GrantorContactText>NIH Grants Information&amp;lt;br/&amp;gt;grantsinfo@nih.gov</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunityForecastDetail_1_0>
+        <OpportunityID>315723</OpportunityID>
+        <OpportunityTitle>Small Grant Program in the People&amp;apos;s Republic of China</OpportunityTitle>
+        <OpportunityNumber>EAPBJ-19-GR-001-EAP-050919</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>O</CategoryOfFundingActivity>
+        <CategoryExplanation>Discretionary</CategoryExplanation>
+        <CFDANumbers>19.040</CFDANumbers>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>21</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Eligibility is limited to entities qualified to receive U.S. grants and able to develop and implement programs in the People&amp;apos;s Republic of China.  These include: Not for profit organizations, including think tanks and civil society/non-governmental organizations; Public and private educational institutions; Individuals.  For the purpose of this NOFO, proposals from for-profit/commercial entities will not be considered.  Proposals for the establishment of projects/programs in Hong Kong, Macau or Taiwan will not be considered.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOS-CHN</AgencyCode>
+        <AgencyName>U.S. Mission to China</AgencyName>
+        <PostDate>05092019</PostDate>
+        <LastUpdatedDate>05082019</LastUpdatedDate>
+        <EstimatedSynopsisPostDate>05092019</EstimatedSynopsisPostDate>
+        <FiscalYear>2019</FiscalYear>
+        <EstimatedSynopsisCloseDate>06152019</EstimatedSynopsisCloseDate>
+        <AwardCeiling>20000</AwardCeiling>
+        <Description>Supporting civil society and creating a space for a diversity of people and ideas is a cornerstone of U.S. foreign policy abroad. To that end, PAS invites proposals for activities that promote civil engagement, human rights, and good governance, rule of law, environmental protection, education, and multilateral economic engagement. </Description>
+        <Version>Forecast 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <GrantorContactEmail>chinasmallgrants@state.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Grants mailbox</GrantorContactEmailDescription>
+        <GrantorContactName>Shanna Surendra  Grantor</GrantorContactName>
+        <GrantorContactPhoneNumber>86-10-8531-3046</GrantorContactPhoneNumber>
+    </OpportunityForecastDetail_1_0>
+    <OpportunityForecastDetail_1_0>
+        <OpportunityID>322314</OpportunityID>
+        <OpportunityTitle>Ambassadors Fund for Cultural Preservation Large Grants Program</OpportunityTitle>
+        <OpportunityNumber>PAS-CB-600-20-PAS-0003</OpportunityNumber>
+        <OpportunityCategory>O</OpportunityCategory>
+        <OpportunityCategoryExplanation>Ambassadors Fund for Cultural Preservation Large Grants Program</OpportunityCategoryExplanation>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>O</CategoryOfFundingActivity>
+        <CategoryExplanation>The Fund was established to help countries preserve their cultural heritage. For Cambodia, it is aimed at preserving major ancient archaeological sites, historic buildings and monuments, and major museum collections that have historical or cultural significance and are accessible to the public and protected by law in Cambodia. The projects selected to receive funding through the U.S. Ambassadors Fund for Cultural Preservation (AFCP) will advance U.S. diplomatic goals and demonstrate the depth of U.S. respect for the cultural heritage of Cambodia. Proposal shall advance U.S. foreign policy objectives and demonstrate American leadership in the preservation and protection of cultural heritage around the world.</CategoryExplanation>
+        <CFDANumbers>19.025</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>AFCP defines eligible project applicants as reputable and accountable non-commercial entities, such as non-governmental organizations, museums, ministries of culture, or similar institutions and organizations, including U.S.-based organizations subject to Section 501(c)(3) of the tax code, that are registered and active in SAM.gov and able to demonstrate that they have the requisite experience and capacity to manage projects to preserve cultural heritage.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOS-KHM</AgencyCode>
+        <AgencyName>U.S. Mission to Cambodia</AgencyName>
+        <PostDate>11082019</PostDate>
+        <LastUpdatedDate>11202019</LastUpdatedDate>
+        <EstimatedSynopsisPostDate>11212019</EstimatedSynopsisPostDate>
+        <FiscalYear>2020</FiscalYear>
+        <EstimatedSynopsisCloseDate>12062019</EstimatedSynopsisCloseDate>
+        <EstimatedAwardDate>09012020</EstimatedAwardDate>
+        <AwardCeiling>800000</AwardCeiling>
+        <AwardFloor>200000</AwardFloor>
+        <Description>FUNDING AREAS - SPECIFIC TO THE AFCP 2019 ANNUAL COMPETITION  The AFCP Large Grant Program supports the preservation of major ancient archaeological sites, historic buildings and monuments, and major museum collections that are accessible to the public and protected by law in the host country. Appropriate project activities may include:  A. Preventive conservation (addressing conditions that damage or threaten the site) B. Stabilization (reducing the physical disturbance [settling, collapse, etc.] of a site) C. Conservation (addressing damage or deterioration to a collection or sites) D. Consolidation (connecting or reconnecting elements of a site) E. Anastylosis (reassembling a site from its original parts) F. Restoration (replacing missing elements to recreate the original appearance of a site, usually appropriate only with fine arts, decorative arts, and historic buildings)  FUNDING PRIORITIES - SPECIFIC TO THE AFCP 2018 ANNUAL COMPETITION  Applications for projects that directly support one or more of the following will receive additional consideration in FY 2019:  &amp;#183;  U.S. treaty or bilateral agreement obligations, such as cultural property agreements;   &amp;#183;  Disaster risk reduction for cultural heritage in seismically active and other disaster-prone areas;  &amp;#183;  Post-disaster cultural heritage recovery;  &amp;#183;  Preservation of inscribed World Heritage sites.  </Description>
+        <Version>Forecast 2</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>https://kh.usembassy.gov/call-for-proposals-ambassadors-fund-for-cultural-preservation-2020-large-grants-program-deadline-december-15-2019/</AdditionalInformationURL>
+        <AdditionalInformationText>Ambassadors Fund for Cultural Preservation 2020 Large Grants Program</AdditionalInformationText>
+        <GrantorContactEmail>PASPhnomPenh@state.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Ambassadors Fund for Cultural Preservation 2020_Large Grants Program</GrantorContactEmailDescription>
+        <GrantorContactName>U.S. Embassy Phnom Penh Public Affairs Section</GrantorContactName>
+        <GrantorContactPhoneNumber>855-23728048</GrantorContactPhoneNumber>
+    </OpportunityForecastDetail_1_0>
+    <OpportunityForecastDetail_1_0>
+        <OpportunityID>322667</OpportunityID>
+        <OpportunityTitle>Public Affairs Section Notice of Funding Opportunity 2020</OpportunityTitle>
+        <OpportunityNumber>PAS-SCB-600-20-PAS-0001</OpportunityNumber>
+        <OpportunityCategory>O</OpportunityCategory>
+        <OpportunityCategoryExplanation>The U.S. Embassy Phnom Penh Public Affairs Section (PAS) of the U.S. Department of State is pleased to announce that funding is available through its Public Diplomacy Small Grants Program.</OpportunityCategoryExplanation>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>O</CategoryOfFundingActivity>
+        <CategoryExplanation>AS Phnom Penh invites proposals for projects that strengthen ties between the U.S. and Cambodia through cultural and exchange programming that highlight shared values and promotes bilateral cooperation. All programs must include an American cultural element, or connection with American expert/s, organization/s, or institution/s in a specific field that will promote increased understanding of U.S. policy and perspectives.</CategoryExplanation>
+        <CFDANumbers>19.040</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>This funding opportunity is available to organizations and individuals who are interested and have experience working with the above topics. The audiences should target the groups listed above, depending on the focus of the project.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOS-KHM</AgencyCode>
+        <AgencyName>U.S. Mission to Cambodia</AgencyName>
+        <PostDate>11232019</PostDate>
+        <LastUpdatedDate>11212019</LastUpdatedDate>
+        <FiscalYear>2020</FiscalYear>
+        <EstimatedSynopsisCloseDate>09302020</EstimatedSynopsisCloseDate>
+        <AwardCeiling>20000</AwardCeiling>
+        <Description>The U.S. Embassy Phnom Penh Public Affairs Section (PAS) of the U.S. Department of State is pleased to announce that funding is available through its Public Diplomacy Small Grants Program. This is an Annual Program Statement, outlining our funding priorities, the strategic themes we focus on, and the procedures for submitting requests for funding. Please carefully follow the instructions below. Purpose of Small Grants: PAS Phnom Penh invites proposals for projects that strengthen ties between the U.S. and Cambodia through cultural and exchange programming that highlight shared values and promotes bilateral cooperation. All programs must include an American cultural element, or connection with American expert/s, organization/s, or institution/s in a specific field that will promote increased understanding of U.S. policy and perspectives. Examples of PAS Small Grants Program projects include, but are not limited to  Academic and professional lectures, seminars and speaker programs; Artistic and cultural workshops, joint performances and exhibitions; Cultural heritage conservation and preservation projects; Professional and academic exchanges and projects.  Priority Program Areas:  A yearlong 2020 endeavor to highlight the 70th anniversary of U.S.-Cambodia diplomatic relations demonstrating efforts to protect and preserve Cambodian cultural heritage, celebrate Cambodia&amp;#8217;s recent progress and development and our enduring commitment to bilateral relations.  Affirming support of and respect for human rights and LGTBQI focused outreach. Protection of press freedoms and countering disinformation in a changing media landscape. Strengthening the understanding of civic engagement: making use of the interconnections of modern society to strengthen democracy. Promoting a Free and Open Indo-Pacific Region. Protecting the environment and strengthening resolve to tackle regional issues including but not limited to Lower Mekong issues, food security, water and energy challenges.  Promoting economic growth and sustainable development by encouraging fair and reciprocal trade and transparent, high-quality investment and empowering women and youth to spur economic growth. Promoting the development of STEM education among Cambodian youth.  </Description>
+        <Version>Forecast 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>https://kh.usembassy.gov/public-affairs-section-notice-of-funding-opportunity-2020/</AdditionalInformationURL>
+        <AdditionalInformationText>Public Affairs Section Notice of Funding Opportunity 2020</AdditionalInformationText>
+        <GrantorContactEmail>PASExchanges@state.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Public Affairs Section Notice of Funding Opportunity 2020</GrantorContactEmailDescription>
+        <GrantorContactName>Public Affairs Section  U.S. Embassy Phnom Penh</GrantorContactName>
+        <GrantorContactPhoneNumber>85523728179</GrantorContactPhoneNumber>
+    </OpportunityForecastDetail_1_0>
+    <OpportunityForecastDetail_1_0>
+        <OpportunityID>322814</OpportunityID>
+        <OpportunityTitle>AFCP 2020 Small Grants Competition</OpportunityTitle>
+        <OpportunityNumber>AFCP20</OpportunityNumber>
+        <OpportunityCategory>O</OpportunityCategory>
+        <OpportunityCategoryExplanation>Ambassadors Fund for Cultural Preservation (AFCP)</OpportunityCategoryExplanation>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>AR</CategoryOfFundingActivity>
+        <CFDANumbers>19.025</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Eligible project applicants are described as reputable and accountable non-commercial entities that are registered and active in SAM.gov and able to demonstrate that they have the requisite experience and capacity to manage projects to preserve cultural heritage.  This may include non-governmental organizations, museums, ministries of culture, or similar institutions and organizations, including U.S.-based organizations subject to Section 501(c)(3) of the tax code.  Past AFCP award recipients may submit applications for continuation funds under this opportunity.The AFCP will not award grants to individuals, commercial entities, or past award recipients that have not fulfilled the objectives or reporting requirements of previous AFCP awards.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOS-EGY</AgencyCode>
+        <AgencyName>U.S. Mission to Egypt</AgencyName>
+        <PostDate>12022019</PostDate>
+        <LastUpdatedDate>12022019</LastUpdatedDate>
+        <FiscalYear>2020</FiscalYear>
+        <EstimatedSynopsisCloseDate>12052019</EstimatedSynopsisCloseDate>
+        <EstimatedSynopsisCloseDateExplanation>Please submit applications to CairoAFCP@state.gov</EstimatedSynopsisCloseDateExplanation>
+        <EstimatedAwardDate>06302020</EstimatedAwardDate>
+        <EstimatedProjectStartDate>09302020</EstimatedProjectStartDate>
+        <AwardCeiling>200000</AwardCeiling>
+        <AwardFloor>10000</AwardFloor>
+        <ExpectedNumberOfAwards>1</ExpectedNumberOfAwards>
+        <Description>The Cultural Affairs Office of the U.S. Embassy in Cairo is now accepting project applications for the Ambassadors Fund for Cultural Preservation (AFCP) 2020 Small Grants Competition. AFCP small grants range from a floor of $10,000 to a maximum of $200,000 per project. The deadline for submitting proposals is December 5, 2019. Guidelines for the Large Grant Competition will be published separately.   All applications should be submitted electronically to CairoAFCP@state.gov. No hard copies will be accepted. Failure to include any of the required information results in the automatic exclusion of the proposal.  INELIGIBLE PROJECT APPLICANTS:  AFCP does not award grants to individuals, commercial entities, or to embassies or past award recipients which have not fulfilled the reporting requirements of previous AFCP awards. FUNDING AREAS: The AFCP 2020 Small Grants Competition supports the preservation of cultural sites, cultural objects and collections, and forms of traditional cultural expression. Appropriate project activities may include: a) In the case of cultural sites: conservation of an ancient or historic building, preservation of an archaeological site, or documentation of cultural sites in a region for preservation purposes. b) In the case of cultural objects and collections: conservation needs assessments and treatment, inventory of a collection for conservation purposes, the creation of safe environments for storage or display of collections, or specialized training in the care and preservation of collections. c) In the case of forms of traditional cultural expression: documentation and audiovisual recording of traditional music, indigenous languages and dance forms for broad dissemination as the means of teaching and further preserving them, or support for training in the preservation of traditional applied arts or crafts in danger of extinction.   FUNDING PRIORITIES:  Applications for projects that do one or more of the following will receive additional consideration in FY 2020: A. Support U.S. treaty or bilateral agreement obligations. B. Support disaster risk reduction for cultural heritage in disaster-prone areas. C. Support post-disaster cultural heritage recovery. D. Preserve World Heritage sites. E. Partner, connect with or feed into other ECA programs.  SITES AND OBJECTS THAT HAVE A RELIGIOUS CONNECTION:  The establishment clause of the U.S. Constitution permits the government to include religious objects and sites within an aid program under certain conditions. For example, an item with a religious connection (including a place of worship) may be the subject of a cultural preservation grant if the item derives its primary significance and is nominated solely on the basis of architectural, artistic, historical, or other cultural (not religious) criteria. ECA encourages embassies considering preservation projects with a religious connection to contact the AFCP Program Director.  INELIGIBILE ACTIVITIES AND UNALLOWABLE COSTS:  AFCP does NOT support the following activities or costs, and applications involving any of the activities or costs below will be deemed ineligible: a) Preservation or purchase of privately or commercially owned cultural objects, collections, or real property, including those whose transfer from private or commercial to public ownership is envisioned, planned, or in process but not complete at the time of application b) Preservation of natural heritage (e.g., physical, biological, and geological formations, paleontological collections, habitats of threatened species of animals and plants, fossils ) c) Preservation of hominid or human remains d) Preservation of news media (e.g., newspapers, newsreels, radio and TV programs) e) Preservation of published materials available elsewhere (e.g., books, periodicals) f) Development of curricula or educational materials for classroom use g) Archaeological excavations or exploratory surveys for research purposes h) Historical research, except in cases where the research is justifiable and integral to the success of the proposed project i) Acquisition or creation of new exhibits, objects, or collections for new or existing museums j) Construction of new buildings, building additions, or permanent coverings (over archaeological sites, for example) k) Commissions of new works of art or architecture for commemorative or economic development purposes l) Creation of new or the modern adaptation of existing traditional dances, songs, chants, musical compositions, plays, or other performances m) Creation of replicas or conjectural reconstructions of cultural objects or sites that no longer exist n) Relocation of cultural sites from one physical location to another o) Removal of cultural objects or elements of cultural sites from the country for any reason p) Digitization of cultural objects or collections, unless part of a larger, clearly defined conservation or documentation effort q) Conservation plans or other studies, unless they are one component of a larger project to implement the results of those studies r) Cash reserves, endowments, or revolving funds (funds must be expended within the award period [up to five years] and may not be used to create an endowment or revolving fund) s) Costs of fund-raising campaigns t) Contingency, unforeseen, or miscellaneous costs or fees u) Costs of work performed prior to announcement of the award unless allowable per 2 CFR 200.458 and approved by the Grants Officer v) International travel, except in cases where travel is justifiable and integral to the success of the proposed project w) Travel or study outside the host country for professional development x) Individual projects costing less than US $10,000 or more than $200,000 y) Independent U.S. projects overseas   Please download the the complete guidelines and requirements from the Embassy&amp;apos;s website</Description>
+        <Version>Forecast 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>https://eg.usembassy.gov/education-culture/afcp/</AdditionalInformationURL>
+        <AdditionalInformationText>US Embassy Cairo</AdditionalInformationText>
+        <GrantorContactEmail>abdelhafezdh@state.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Work email</GrantorContactEmailDescription>
+        <GrantorContactName>Dina Abdelhafez  Cultural Affairs Specialist</GrantorContactName>
+        <GrantorContactPhoneNumber>01286674862</GrantorContactPhoneNumber>
+    </OpportunityForecastDetail_1_0>
+    <OpportunityForecastDetail_1_0>
+        <OpportunityID>322815</OpportunityID>
+        <OpportunityTitle>AFCP 2020 Small Grants Competition</OpportunityTitle>
+        <OpportunityNumber>AFCPLG20</OpportunityNumber>
+        <OpportunityCategory>O</OpportunityCategory>
+        <OpportunityCategoryExplanation>Ambassadors Fund for Cultural Preservation (AFCP)</OpportunityCategoryExplanation>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>AR</CategoryOfFundingActivity>
+        <CFDANumbers>19.025</CFDANumbers>
+        <EligibleApplicants>00</EligibleApplicants>
+        <EligibleApplicants>01</EligibleApplicants>
+        <EligibleApplicants>02</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Eligible project applicants are described as reputable and accountable non-commercial entities that are registered and active in SAM.gov and able to demonstrate that they have the requisite experience and capacity to manage projects to preserve cultural heritage.  This may include non-governmental organizations, museums, ministries of culture, or similar institutions and organizations, including U.S.-based organizations subject to Section 501(c)(3) of the tax code.  Past AFCP award recipients may submit applications for continuation funds under this opportunity.The AFCP will not award grants to individuals, commercial entities, or past award recipients that have not fulfilled the objectives or reporting requirements of previous AFCP awards.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOS-EGY</AgencyCode>
+        <AgencyName>U.S. Mission to Egypt</AgencyName>
+        <PostDate>12022019</PostDate>
+        <LastUpdatedDate>12022019</LastUpdatedDate>
+        <FiscalYear>2020</FiscalYear>
+        <EstimatedSynopsisCloseDate>12052019</EstimatedSynopsisCloseDate>
+        <EstimatedSynopsisCloseDateExplanation>Please submit applications to CairoAFCP@state.gov</EstimatedSynopsisCloseDateExplanation>
+        <EstimatedAwardDate>06302020</EstimatedAwardDate>
+        <EstimatedProjectStartDate>09302020</EstimatedProjectStartDate>
+        <AwardCeiling>800000</AwardCeiling>
+        <AwardFloor>200000</AwardFloor>
+        <ExpectedNumberOfAwards>1</ExpectedNumberOfAwards>
+        <Description>The Cultural Affairs Office of the U.S. Embassy in Cairo is now accepting project abstracts for the Ambassadors Fund for Cultural Preservation (AFCP) 2020 Large Grants Competition. AFCP Large Grants range from a floor of $200,000 to a maximum of $800,000 per project.  The deadline for submitting abstracts is December 5, 2019. Guidelines for the Small Grants Competition will be published separately.   The AFCP Large Grant competition is a competition between projects from all eligible countries for funding and five to 10 projects will be funded worldwide. If, following the technical review, rating, and ranking of abstracts, projects from Egypt are invited to advance to Round 2, the Cultural Office will work with selected applicants to submit full project proposals no later than January 21, 2020.   All applications should be submitted electronically to CairoAFCP@state.gov. No hard copies will be accepted. Failure to include any of the required information results in the automatic exclusion of the proposal.  INELIGIBLE PROJECT APPLICANTS:  AFCP does not award grants to individuals, commercial entities, or to embassies or past award recipients which have not fulfilled the reporting requirements of previous AFCP awards. FUNDING AREAS: The AFCP 2020 Small Grants Competition supports the preservation of cultural sites, cultural objects and collections, and forms of traditional cultural expression. Appropriate project activities may include: a) In the case of cultural sites: conservation of an ancient or historic building, preservation of an archaeological site, or documentation of cultural sites in a region for preservation purposes. b) In the case of cultural objects and collections: conservation needs assessments and treatment, inventory of a collection for conservation purposes, the creation of safe environments for storage or display of collections, or specialized training in the care and preservation of collections. c) In the case of forms of traditional cultural expression: documentation and audiovisual recording of traditional music, indigenous languages and dance forms for broad dissemination as the means of teaching and further preserving them, or support for training in the preservation of traditional applied arts or crafts in danger of extinction.   FUNDING PRIORITIES:  Applications for projects that do one or more of the following will receive additional consideration in FY 2020: A. Support U.S. treaty or bilateral agreement obligations. B. Support disaster risk reduction for cultural heritage in disaster-prone areas. C. Support post-disaster cultural heritage recovery. D. Preserve World Heritage sites. E. Partner, connect with or feed into other ECA programs.  SITES AND OBJECTS THAT HAVE A RELIGIOUS CONNECTION:  The establishment clause of the U.S. Constitution permits the government to include religious objects and sites within an aid program under certain conditions. For example, an item with a religious connection (including a place of worship) may be the subject of a cultural preservation grant if the item derives its primary significance and is nominated solely on the basis of architectural, artistic, historical, or other cultural (not religious) criteria. ECA encourages embassies considering preservation projects with a religious connection to contact the AFCP Program Director.  INELIGIBILE ACTIVITIES AND UNALLOWABLE COSTS:  AFCP does NOT support the following activities or costs, and applications involving any of the activities or costs below will be deemed ineligible: a) Preservation or purchase of privately or commercially owned cultural objects, collections, or real property, including those whose transfer from private or commercial to public ownership is envisioned, planned, or in process but not complete at the time of application b) Preservation of natural heritage (e.g., physical, biological, and geological formations, paleontological collections, habitats of threatened species of animals and plants, fossils ) c) Preservation of hominid or human remains d) Preservation of news media (e.g., newspapers, newsreels, radio and TV programs) e) Preservation of published materials available elsewhere (e.g., books, periodicals) f) Development of curricula or educational materials for classroom use g) Archaeological excavations or exploratory surveys for research purposes h) Historical research, except in cases where the research is justifiable and integral to the success of the proposed project i) Acquisition or creation of new exhibits, objects, or collections for new or existing museums j) Construction of new buildings, building additions, or permanent coverings (over archaeological sites, for example) k) Commissions of new works of art or architecture for commemorative or economic development purposes l) Creation of new or the modern adaptation of existing traditional dances, songs, chants, musical compositions, plays, or other performances m) Creation of replicas or conjectural reconstructions of cultural objects or sites that no longer exist n) Relocation of cultural sites from one physical location to another o) Removal of cultural objects or elements of cultural sites from the country for any reason p) Digitization of cultural objects or collections, unless part of a larger, clearly defined conservation or documentation effort q) Conservation plans or other studies, unless they are one component of a larger project to implement the results of those studies r) Cash reserves, endowments, or revolving funds (funds must be expended within the award period [up to five years] and may not be used to create an endowment or revolving fund) s) Costs of fund-raising campaigns t) Contingency, unforeseen, or miscellaneous costs or fees u) Costs of work performed prior to announcement of the award unless allowable per 2 CFR 200.458 and approved by the Grants Officer v) International travel, except in cases where travel is justifiable and integral to the success of the proposed project w) Travel or study outside the host country for professional development x) Individual projects costing less than US $10,000 or more than $200,000 y) Independent U.S. projects overseas   Please download the the complete guidelines and requirements from the Embassy&amp;apos;s website</Description>
+        <Version>Forecast 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>https://eg.usembassy.gov/education-culture/afcp/</AdditionalInformationURL>
+        <AdditionalInformationText>US Embassy Cairo</AdditionalInformationText>
+        <GrantorContactEmail>abdelhafezdh@state.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Work email</GrantorContactEmailDescription>
+        <GrantorContactName>Dina Abdelhafez  Cultural Affairs Specialist</GrantorContactName>
+        <GrantorContactPhoneNumber>01286674862</GrantorContactPhoneNumber>
+    </OpportunityForecastDetail_1_0>
+    <OpportunityForecastDetail_1_0>
+        <OpportunityID>325472</OpportunityID>
+        <OpportunityTitle>USDA/USDOI Joint Fire Science Program (JFSP)</OpportunityTitle>
+        <OpportunityNumber>L20AS00080</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>15.232</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AdditionalInformationOnEligibility>The following types of entities are eligible to apply for award under this announcement. Failure to meet eligibility requirements will result in precluding the BLM from making an award. Types are:  - State, local government, Indian Tribe;  - Institution of Higher Education (IHE);  - Nonprofit Organizations</AdditionalInformationOnEligibility>
+        <AgencyCode>DOI-BLM</AgencyCode>
+        <AgencyName>Bureau of Land Management</AgencyName>
+        <PostDate>03162020</PostDate>
+        <LastUpdatedDate>03162020</LastUpdatedDate>
+        <FiscalYear>2020</FiscalYear>
+        <Description>GRANT OPPORTUNITY FORECAST USDA/USDOI Joint Fire Science Program (JFSP) Funding Opportunity Announcement (FOA): July &amp;#8211; September 2020 Potential Topics March 2020  Background The interagency Joint Fire Science Program (JFSP) intends to request proposals through one or more formal Funding Opportunity Announcements (FOA) beginning approximately July 2020 and remaining open 60 days. The intent of this announcement is to provide an early alert to investigators interested in the topics listed below so that they can begin considering responsive ideas with potential partners and collaborators.  Investigators should recognize that final decisions regarding topic selection will not be made until Spring of 2020 and that final topic selection may differ from that posted here. One or more topics could be dropped or added, and the specific focus of individual topics may be altered. Investigators should recognize this uncertainty and not invest substantial time or resources working on proposals until the FOAs and their associated topics are formally posted.  Investigators should not contact the JFSP Office or Governing Board members seeking further information on these topics. No further information will be released until the FOAs are formally posted.   Primary FOA A. Relative impacts of prescribed and wildland fire Although the documented benefits of prescribed fire are numerous including habitat improvement and hazardous fuel reduction, there are drawbacks as well, such as reductions in air quality, which may impact human health. Prescribed fire is often implemented with the assumption that it will mitigate the effects of uncontrolled wildfire, because prescribed fire has been shown to reduce the intensity of subsequent wildfire under certain conditions. This is desirable because the impacts of wildfire are usually of a higher magnitude, larger in size and intensity, and pose a risk to public safety. To fully evaluate the trade-offs between prescribed fire programs and current wildfire impacts, an assessment framework is vital. Currently, there is little information on the spatial scale, frequency and spatial pattern at which prescribed fire begins to have an impact on subsequent wildfire extent, intensity and severity. As a result, JFSP is interested in proposals that improve our understanding of the relationship between prescribed fire programs and subsequent wildfire characteristics and this information is needed across a variety of vegetation types and regions.   B. Types and distribution of ignitions and their relation to fire size and impacts One approach to reducing the negative impacts of wildfire to social and ecological values is to reduce the occurrence of human-caused wildfire ignitions with targeted wildfire prevention strategies. Planning and implementing effective fire prevention strategies requires detailed knowledge of the temporal and spatial distribution of different wildfire ignition sources (e.g., arson, accidental, lightning) and factors that influence whether different ignition sources lead to development of large wildfires. As a result, JFSP is interested in proposals that evaluate driving factors for the spatial and temporal distribution of ignitions and the effectiveness of different fire prevention actions as they relate to different human-caused ignitions.  C. Science in support of fuel treatment performance metrics While it is relatively easy to document changes in fuels conditions following treatments at finer spatial scales, there is currently no objective framework to link fuel conditions to desired outcomes (e.g., reducing fire intensity and severity, improving fire suppression efficacy, reducing resource loss) at the landscape level. Such information is critical for developing cost-effective strategies to address the threats of wildfire. One possible strategy is to consider the evaluation of fuels treatment programs using a risk framework, where the probability and intensity of wildfire is considered in conjunction with valued resources. The development of a risk framework should assist agencies in measuring the extent and duration of risk reduction that could be achieved from a given fuel treatment. As a result, JFSP is interested in proposals that improve our understanding of the impacts of fuels treatments on fire suppression efficiency and protection of valued resources including the development of fuel treatment performance metrics at landscape scales.   GRIN FOA - Graduate Research Innovation (GRIN) Award In partnership with the Association for Fire Ecology, the Joint Fire Science Program (JFSP) will likely continue the Graduate Research Innovation (GRIN) program for current master and doctoral students in the field of wildland fire and related physical, biological, and social sciences. The purpose of these awards is to enhance student exposure to the management and policy relevance of their research. As a result, these awards will enable graduate students to conduct research that will supplement and enhance the quality, scope, or applicability of their thesis or dissertation to develop information and products useful to managers and decision-makers.  Proposals must describe new, unfunded work that extends ongoing or planned research that is the subject of a thesis or dissertation that has been approved by the graduate student&amp;#8217;s advisory committee. Proposals must be directly related to the mission and goals of JFSP to be considered, and they must address management- or policy-related questions related to one or more of the following general topic areas: fuels management and fire behavior, emissions and air quality, fire effects and post-fire recovery, relative impacts of prescribed fire versus wildfire, or human dimensions of fire.  Note: The specific topics eligible for GRIN proposals identified in the FOA may differ from those listed above.  </Description>
+        <Version>Forecast 1</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <GrantorContactEmail>kdeltoro@blm.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>kdeltoro@blm.gov</GrantorContactEmailDescription>
+        <GrantorContactName>Karina I Del Toro  Grants Management Officer</GrantorContactName>
+        <GrantorContactPhoneNumber>208-373-3881</GrantorContactPhoneNumber>
+    </OpportunityForecastDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>278692</OpportunityID>
+        <OpportunityTitle>Developing Methodologies for Coastal Impacts Associated with Climate Variability</OpportunityTitle>
+        <OpportunityNumber>USGS-15-FA-0426</OpportunityNumber>
+        <OpportunityCategory>O</OpportunityCategory>
+        <OpportunityCategoryExplanation>See attached Notice of Intent</OpportunityCategoryExplanation>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <CategoryOfFundingActivity>O</CategoryOfFundingActivity>
+        <CategoryExplanation>See attached Notice of Intent</CategoryExplanation>
+        <CFDANumbers>15.808</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>See attached Notice of Intent</AdditionalInformationOnEligibility>
+        <AgencyCode>DOI-USGS1</AgencyCode>
+        <AgencyName>Geological Survey</AgencyName>
+        <PostDate>08272015</PostDate>
+        <CloseDate>05272026</CloseDate>
+        <CloseDateExplanation>See attached Notice of Intent</CloseDateExplanation>
+        <LastUpdatedDate>05282026</LastUpdatedDate>
+        <AwardCeiling>325000</AwardCeiling>
+        <AwardFloor>10000</AwardFloor>
+        <EstimatedTotalProgramFunding>325000</EstimatedTotalProgramFunding>
+        <ExpectedNumberOfAwards>1</ExpectedNumberOfAwards>
+        <Description>See attached Notice of Intent</Description>
+        <Version>Synopsis 2</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <GrantorContactEmail>tpeck@usgs.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>USGS Office of Acquisitions and Grants</GrantorContactEmailDescription>
+        <GrantorContactText>Theodore Peck &amp;lt;br/&amp;gt;Contract Specialist &amp;lt;br/&amp;gt;Phone 916-278-9441</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>286437</OpportunityID>
+        <OpportunityTitle>Air Force Defense Research Sciences Conference and Workshop Support</OpportunityTitle>
+        <OpportunityNumber>BAA-AFRL-AFOSR-2016-0008</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>12.800</CFDANumbers>
+        <EligibleApplicants>06</EligibleApplicants>
+        <EligibleApplicants>12</EligibleApplicants>
+        <EligibleApplicants>13</EligibleApplicants>
+        <EligibleApplicants>20</EligibleApplicants>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Only some organizations are eligible to submit proposals for conference or workshop support. We can consider conference or workshop funding requests from U.S. institutions of higher education (IHE) or nonprofit organizations as described in 2 CFR 25.345, including foreign public entities and foreign organizations operated primarily for scientific, educational, service, charitable, or similar purposes in the public interest. Conference or workshop funding support is not available to commercial organizations. DoD Instruction 5410.20, &amp;#8220;Public Affairs Relations with Business and Nongovernmental Organizations Representing Business&amp;#8221; prohibits co-sponsorship of conferences and workshops with commercial concerns.</AdditionalInformationOnEligibility>
+        <AgencyCode>DOD-AFOSR</AgencyCode>
+        <AgencyName>Air Force Office of Scientific Research</AgencyName>
+        <PostDate>07222016</PostDate>
+        <CloseDate>03262026</CloseDate>
+        <LastUpdatedDate>03252026</LastUpdatedDate>
+        <AwardCeiling>1000000</AwardCeiling>
+        <AwardFloor>1</AwardFloor>
+        <ExpectedNumberOfAwards>200</ExpectedNumberOfAwards>
+        <Description>Broad Agency Announcement FA955025S0001 and BAA-AFRL-AFOSR-2016-0008 are closed as of 23 March 2026 due to a new mandatory review process, as required by Executive Order 14332 Improving Oversight of Federal Grantmaking &amp;#8211; March 2026. The upcoming Open BAA will be posted at a date later to be determined. ATTENTION ALL GRANTEES: If you submitted your proposal to BAA FA955025S0001 and BAA-AFRL-AFOSR-2016-0008 during the dates 18 March 2026 &amp;#8211; 23 March 2026, you must resubmit your proposal to the upcoming Open BAA. The new Open BAA will ensure that all Department of the Air Force (DAF) assistance awards align with Department of War (DoW) priorities, serve the national interest, and adhere to applicable laws and regulations.The Air Force Office of Scientific Research manages the basic research investment for the U.S. Air Force. Conferences and workshops constitute key forums for research and technology interchange. We provide partial support for conferences and workshops as defined in the DoD Joint Travel Regulations in special areas of science that bring experts together to discuss recent research or educational findings, or to expose other researchers or advanced graduate students to new research and educational techniques in our areas of research interest. Our research interests are described in the most recent version of our general Broad Agency Announcement titled, &amp;#8220;Research Interests of the Air Force Office of Scientific Research&amp;#8221; posted on Grants.gov. We can only consider funding requests from U.S. institutions of higher education (IHE) or nonprofit organizations as described in 2 CFR 25.345, including foreign public entities and foreign organizations operated primarily for scientific, educational, service, charitable, or similar purposes in the public interest. We do not award grants to organizations with a for-profit organization type. Our support for a workshop or conference is not an endorsement of any organization.Our financial support through grants for conferences and workshops is dependent on the availability of funds, Program Officer&amp;#8217;s discretion, and certain other restrictions as described in the full announcement.</Description>
+        <Version>Synopsis 9</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <AdditionalInformationURL>http://www.wpafb.af.mil/Welcome/Fact-Sheets/Display/Article/842050</AdditionalInformationURL>
+        <AdditionalInformationText>AFOSR OTHER FUNDING OPPORTUNITIES</AdditionalInformationText>
+        <GrantorContactEmail>afosr.baa@us.af.mil</GrantorContactEmail>
+        <GrantorContactEmailDescription>BAA email</GrantorContactEmailDescription>
+        <GrantorContactText>Jennifer Brown &amp;lt;br/&amp;gt;Procurement Analyst</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>294523</OpportunityID>
+        <OpportunityTitle>Alaska Sea Grant State Fellowship Program</OpportunityTitle>
+        <OpportunityNumber>USGS-17-FA-0222</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>CA</FundingInstrumentType>
+        <CategoryOfFundingActivity>O</CategoryOfFundingActivity>
+        <CategoryExplanation>Non-Competitive Cooperative Agreement</CategoryExplanation>
+        <CFDANumbers>15.808</CFDANumbers>
+        <EligibleApplicants>25</EligibleApplicants>
+        <AdditionalInformationOnEligibility>Non-Competitive Cooperative Agreement</AdditionalInformationOnEligibility>
+        <AgencyCode>DOI-USGS1</AgencyCode>
+        <AgencyName>Geological Survey</AgencyName>
+        <PostDate>06092017</PostDate>
+        <CloseDate>05272026</CloseDate>
+        <CloseDateExplanation>Non-Competitive Cooperative Agreement</CloseDateExplanation>
+        <LastUpdatedDate>05282026</LastUpdatedDate>
+        <AwardCeiling>35000</AwardCeiling>
+        <AwardFloor>1</AwardFloor>
+        <ExpectedNumberOfAwards>1</ExpectedNumberOfAwards>
+        <Description>Non-Competitive Cooperative Agreement</Description>
+        <Version>Synopsis 2</Version>
+        <CostSharingOrMatchingRequirement>No</CostSharingOrMatchingRequirement>
+        <GrantorContactEmail>glewando@usgs.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>Non-Competitive Cooperative Agreement</GrantorContactEmailDescription>
+        <GrantorContactText>Gerald Lewandowski &amp;lt;br/&amp;gt;Contract Specialist &amp;lt;br/&amp;gt;Phone 916-278-9340</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+    <OpportunitySynopsisDetail_1_0>
+        <OpportunityID>45657</OpportunityID>
+        <OpportunityTitle>Developing Country Collaborations in Plant Genome Research (DCC-PGR)</OpportunityTitle>
+        <OpportunityNumber>04-563</OpportunityNumber>
+        <OpportunityCategory>D</OpportunityCategory>
+        <FundingInstrumentType>G</FundingInstrumentType>
+        <CategoryOfFundingActivity>ST</CategoryOfFundingActivity>
+        <CFDANumbers>47.074</CFDANumbers>
+        <EligibleApplicants>99</EligibleApplicants>
+        <AdditionalInformationOnEligibility>All currently active PGRP awardees are eligible to apply for a supplement under this Dear Colleague Letter. Scientists at institutions from</AdditionalInformationOnEligibility>
+        <AgencyCode>NSF</AgencyCode>
+        <AgencyName>U.S. National Science Foundation</AgencyName>
+        <PostDate>03222004</PostDate>
+        <CloseDate>02182026</CloseDate>
+        <CloseDateExplanation>Supplemental requests can be submitted at any time. Please allow 4 to 6 months for review. Investigators submitting new or renewalproposals for the FY2006 PGRP(http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5338&amp;amp;org=DBI&amp;amp;from=home) andfuture target dates are encouraged to integrate this activity into theproposals.</CloseDateExplanation>
+        <LastUpdatedDate>02182026</LastUpdatedDate>
+        <Description>This letter is to call your attention to a new activity that will support research collaboration between US scientists and scientists in developing countries as part of ongoing or new Plant Genome Research Program awards. The Developing Country Collaborations in Plant Genome Research (DCC-PGR) is an addendum to the NSF Program Solicitation, NSF 04-510, Plant Genome Research Program (PGRP) (http://www.nsf.gov/pubsys/ods/getpub.cfm?nsf04510). The intent of DCC-PGR awards is to support collaborative research linking US researchers with partners from developing countries to solve problems of mutual interest in agriculture, energy and the environment, while placing US and international researchers at the center of a global network of scientific excellence. The long-term goal of these collaborative research efforts is a greater and sustained engagement with developing countries in plant biotechnology research. In order to realize the full potential of biotechnology for the developing world, the technology must target crops grown locally in the developing countries and the traits that are most relevant to the local farmers and consumers. At the same time, proposals should meet the broad goals of the PGRP described in the current Program Solicitation. Of special interest are those research projects that build on prior PGRP investments and that tackle problems specific to crops grown in the developing world. A request for supplemental funding should be made under an existing PGRP award. Support can also be requested within a proposal for a new or renewal PGRP award. Proposed collaborative activities are encouraged that focus on research problems important to developing countries and that include scientist-to-scientist interactions potentially leading to long-term partnerships among participating laboratories. The exchange of ideas and people should be reciprocal and should be built on equal partnerships among U.S. scientists and scientists of developing nations. Examples of activities to be supported would include, but not be limited to: joint research projects; and long-term (1 year) or short-term (1-3 months) exchange visits that are reciprocal exchanges of investigators and students between the US and developing countries. Collaborations should be developed that bring complementary sets of expertise to bear on problems of importance to the participants from developing countries, and that meet their identified needs.</Description>
+        <Version>Synopsis 3</Version>
+        <CostSharingOrMatchingRequirement>Yes</CostSharingOrMatchingRequirement>
+        <ArchiveDate>02192026</ArchiveDate>
+        <AdditionalInformationURL>http://www.nsf.gov/pubsys/ods/getpub.cfm?nsf04563</AdditionalInformationURL>
+        <AdditionalInformationText>NSF Publication 04-563</AdditionalInformationText>
+        <GrantorContactEmail>grantsgovsupport@nsf.gov</GrantorContactEmail>
+        <GrantorContactEmailDescription>(e-mail)</GrantorContactEmailDescription>
+        <GrantorContactText>NSF Grants.gov Assistance</GrantorContactText>
+    </OpportunitySynopsisDetail_1_0>
+</Grants>

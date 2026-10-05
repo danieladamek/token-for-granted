@@ -1,0 +1,11 @@
+- id: mini-rule
+  name: The negotiated rate rule
+  what: Agencies accept negotiated rates [2].
+  rule: The rule in 200.414 [2].
+  figures: [{label: de minimis rate, value: up to 15 percent, cite: [2]}]
+  applies_to: Every award [2].
+  pending_changes: [{status: proposed, date: '2026-05-29', text: 'OMB proposed a rewrite [2].'}]
+  official_url: https://www.ecfr.gov/
+  as_of: '2026-10-04'
+  sources: [2]
+  sweep: rules-A

@@ -1,0 +1,38 @@
+- id: sam-gov
+  term: SAM.gov
+  kind: methods
+  variants: [SAM, System for Award Management]
+  short: The federal registry an organisation joins before it applies.
+  definition: The federal registry in which an organisation registers before it applies for a federal grant [1].
+  concept: mini-primer
+  see: [indirect-costs]
+  sources: [https://sam.gov/]
+  domain: process
+- id: indirect-costs
+  term: Indirect costs
+  kind: methods
+  variants: [indirect costs, indirect cost]
+  short: Costs shared across projects, paid as a rate.
+  definition: Costs an organisation incurs for common purposes, paid as a rate applied to a base [2].
+  see: [nicra]
+  sources: []
+  domain: cost
+- id: nicra
+  term: Negotiated indirect cost rate agreement (NICRA)
+  kind: methods
+  variants: [NICRA, negotiated indirect cost rate]
+  short: The rate an organisation agrees with its cognizant agency.
+  definition: The agreement that sets an organisation's indirect cost rate, which agencies accept [2].
+  see: []
+  sources: []
+  domain: cost
+- id: project-grant
+  term: Project grant (from a foundation)
+  kind: science
+  variants: [project support]
+  short: A foundation grant for a defined project.
+  definition: A grant a foundation makes for a defined project rather than for general operations [3].
+  see: []
+  sources: []
+  domain: programme
+  own_label: true

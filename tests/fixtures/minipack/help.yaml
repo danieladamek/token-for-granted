@@ -1,0 +1,7 @@
+- id: help-one
+  name: A help desk
+  what: The registry's help desk answers questions [1].
+  who_it_is_for: Registrants [1].
+  cost: No charge is stated [1].
+  official_url: https://sam.gov/
+  sources: [1]

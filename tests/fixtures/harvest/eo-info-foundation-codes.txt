@@ -1,0 +1,30 @@
+FOUNDATION CODE
+
+Code    Description
+
+00      All organizations except 501(c)(3)
+02      Private operating foundation exempt from paying excise taxes on investment income
+03      Private operating foundation (other)
+04      Private non-operating foundation
+09      Suspense
+10      Church 170(b)(1)(A)(i)
+11      School 170(b)(1)(A)(ii)
+12      Hospital or medical research organization 170(b)(1)(A)(iii)
+13      Organization that operates for the benefit of a college or university and is owned or operated by a governmental
+        unit 170(b)(1)(A)(iv)
+14      Governmental unit 170(b)(1)(A)(v)
+15      Organization that receives a substantial part of its support from a governmental unit or the general public
+        170(b)(1)(A)(vi)
+16      Organization that normally receives no more than one-third of its support from gross investment income and
+        unrelated business income and at the same time more than one-third of its support from contributions, fees, and
+        gross receipts related to exempt purposes 509(a)(2)
+17      Organizations operated solely for the benefit of and in conjunction with organizations described in 10 through 16
+        above 509(a)(3)
+18      Organization organized and operated to test for public safety 509(a)(4)
+21      509(a)(3) Type I
+22      509(a)(3) Type II
+ 23      509(a)(3) Type III functionally integrated
+ 24      509(a)(3) Type III not functionally integrated
+ 25      Agriculture research organization 170(b)(1)(A)(ix)
+
+ TYPE OF ORGANIZATION CODE

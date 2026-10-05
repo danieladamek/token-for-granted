@@ -1,0 +1,14 @@
+- id: ch-day
+  date: '2026-01-05'
+  what: The court affirmed [2].
+  status: vacated
+  affects: [fed-one, mini-rule]
+  sources: [2]
+  sweep: research-A
+- id: ch-month
+  date: 2025-03
+  what: A policy was announced [2].
+  status: announced
+  affects: [prog-open, sam-registration, standing-one]
+  sources: [2]
+  sweep: rules-A

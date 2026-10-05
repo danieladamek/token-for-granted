@@ -1,0 +1,12 @@
+- id: sam-registration
+  name: SAM.gov entity registration
+  what: The registry in which an organisation registers before it applies [1].
+  applies_when: Every applicant [1].
+  who_does_it: organisation
+  steps: ['Create an account [1].']
+  time: Up to 10 business days [1].
+  cost: Free [1].
+  official_url: https://sam.gov/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources: [1]

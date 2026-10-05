@@ -1,0 +1,44 @@
+- id: prog-open
+  name: An open programme
+  family: research
+  kind: mechanism
+  funder: fed-one
+  funder_kind: federal
+  owner: Agency One
+  what: An open research programme [1].
+  status: open
+  status_as_of: '2026-10-05'
+  status_note: The notice is open [1].
+  next_date: '2026-10-16'
+  assistance_listings: ['93.859']
+  who_may_apply: {applicant_types: [public-higher-ed], standing: [standing-one], investigator: 'Any investigator [1].'}
+  cycle: {pattern: 'Three cycles a year [1].'}
+  gates: [sam-registration]
+  on_routes: [route-one]
+  who: [faculty-investigator]
+  purpose: [research-project]
+  stage: [never-applied]
+  fields: [any]
+  official_url: https://example.gov/
+  as_of: '2026-10-04'
+  sources: [1]
+  conflicts: ['The date is October 1 [1] vs October 2 [2].']
+- id: prog-gone
+  name: An unconfirmed programme
+  family: research
+  kind: program
+  funder: fed-one
+  funder_kind: federal
+  owner: Agency One
+  what: A programme whose pages did not load [2].
+  status: unconfirmed
+  cycle: {pattern: 'Not known [2].'}
+  gates: []
+  on_routes: [route-one]
+  who: [faculty-investigator]
+  purpose: [research-project]
+  stage: [established]
+  fields: [any]
+  official_url: https://example.gov/
+  as_of: '2026-10-04'
+  sources: [2]

@@ -1,0 +1,11 @@
+- id: standing-one
+  name: An eligible institution
+  applies_to: institution
+  what: An institutional standing [1].
+  who_qualifies: Accredited institutions [1].
+  how_decided: Self-certified [1].
+  opens: [prog-open]
+  official_url: https://example.gov/
+  pending_changes: []
+  as_of: '2026-10-04'
+  sources: [1]

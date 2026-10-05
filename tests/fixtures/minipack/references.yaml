@@ -1,0 +1,79 @@
+- n: 1
+  key: mini-sam
+  tier: current
+  citation: 'General Services Administration. SAM.gov entity registration. 2026-01-01. https://sam.gov/'
+  url: https://sam.gov/
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-04'
+  publisher: General Services Administration
+  title: SAM.gov entity registration
+  source_kind: primary
+  read: full
+  summary: The registry page says registration is free and can take up to 10 business days.
+  key_facts: ['Registration is free.', 'Up to 10 business days.']
+  quotes: ['it is free to register']
+  cited_in: [s1]
+  used_by: [routes/route-one, glossary/sam-gov]
+  verified: true
+  recheck: false
+  sweep: rules-B
+  sweep_ids: [rb-sam]
+  role_here: data-source
+  role_note: 'Assigned by rule.'
+  fact_check: [C, S]
+  rechecked: '2026-10-05'
+  recheck_result: {fetch: ok, partial: false}
+- n: 2
+  key: mini-cfr
+  tier: seminal
+  citation: '2 CFR 200.414 Indirect costs. 2024. https://www.ecfr.gov/current/title-2/section-200.414'
+  url: https://www.ecfr.gov/current/title-2/section-200.414
+  year: 2024
+  published: '2024-04-22'
+  accessed: '2026-10-04'
+  publisher: Office of Management and Budget
+  title: 2 CFR 200.414
+  source_kind: primary
+  read: partial
+  summary: The rule on indirect costs and the de minimis rate.
+  why_it_mattered: The rule beneath every negotiated rate.
+  key_facts: ['Agencies accept negotiated rates.']
+  quotes: []
+  cited_in: [s1]
+  used_by: []
+  verified: true
+  recheck: true
+  sweep: rules-A
+  sweep_ids: [ra-414]
+  role_here: support
+  role_note: 'Assigned by rule.'
+  fact_check: [N]
+  rechecked: '2026-10-05'
+  recheck_result: {fetch: ok, partial: true}
+- n: 3
+  key: mini-foundation
+  tier: background
+  citation: 'A Foundation. Grant guidelines. 2026. https://example.org/'
+  url: https://example.org/
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-04'
+  publisher: A Foundation
+  title: Grant guidelines
+  source_kind: primary
+  read: full
+  summary: The foundation's guidelines.
+  key_facts: ['It takes letters of inquiry.']
+  quotes: []
+  cited_in: []
+  used_by: [funders/fdn-one]
+  verified: true
+  recheck: false
+  sweep: foundations-A
+  sweep_ids: [fa-1]
+  role_here: data-source
+  role_note: 'Assigned by rule.'
+  fact_check: [C]
+  rechecked: '2026-10-05'
+  recheck_result: {fetch: ok, partial: false}

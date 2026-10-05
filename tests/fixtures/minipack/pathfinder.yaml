@@ -1,0 +1,93 @@
+version: '0.1'
+as_of: '2026-10-05'
+rule: Deterministic, and counted from the programme records. For a family route, the fit is the number of programmes on the route whose own record carries both the answer to "who is asking" and the answer to "what is the money for", among programmes of the chosen kind of funder (a programme counts as foundation when its funder is a foundation or other private grantmaker, and as federal otherwise); the routes entry for each route holds those counts. A route is listed when at least two of its programmes fit and they are at least a fifth of the route. Routes are ordered by the share of their programmes that fit, then by the count. An entry route (family start) is listed when its own who and purpose tags match the answers; entry routes come first when the answer to the third question is never-applied or applied-unfunded and last otherwise. The page shows the count behind each route ("34 of 41 programmes on this route fit both answers"). No route is recommended over another.
+display:
+  route_statuses:
+  - open
+  - forecast
+  - closed
+  - formula
+  route_statuses_note: 'A route page lists the programmes a reader can act on: those open, forecast, closed for this cycle but continuing, or paid by formula through a state. Programmes with no current notice, expired, not competed or unconfirmed stay in the pack and are reached through search and through the funder pages, each with its status and the date it was read. Ruled by Daniel on 2026-10-05.'
+  status_date: Every status is shown with the date it was read (status_as_of, or as_of where a record has no status_as_of).
+  foundations_note: 'The 65 foundations with a record of their own are a sample chosen by the editor: the largest national grantmakers across kinds and fields, with examples of community and corporate foundations. The directory built from IRS data lists the rest. Ruled by Daniel on 2026-10-05.'
+  pass_through_note: For federal money paid by formula to a state, tribe or local government, the guide explains the money and names the body a non-profit applies to, and stops there. It does not describe any state's own process. Ruled by Daniel on 2026-10-05.
+questions:
+- id: who
+  prompt: Who is asking?
+  type: single
+  field: who
+  options:
+  - tag: faculty-investigator
+    label: A faculty member or staff scientist with a research project
+  - tag: early-career
+    label: A student, a postdoctoral researcher or someone in the first years of a faculty post
+  - tag: research-office
+    label: A research or sponsored-programmes office acting for an institution
+  - tag: nonprofit-programmes
+    label: A non-profit that runs programmes or services
+  - tag: nonprofit-research
+    label: A non-profit that does research and is not a university
+- id: purpose
+  prompt: What is the money for?
+  type: single
+  field: purpose
+  options:
+  - tag: research-project
+    label: A research project
+  - tag: person
+    label: A person's training, salary or fellowship
+  - tag: service
+    label: Delivering a programme or a service
+  - tag: capacity
+    label: Equipment, facilities or building the organisation's capacity
+  - tag: operating
+    label: General running costs
+- id: stage
+  prompt: Where does the applicant stand?
+  type: single
+  field: stage
+  options:
+  - tag: never-applied
+    label: Has never applied for a grant of this kind
+  - tag: applied-unfunded
+    label: Has applied and not been funded
+  - tag: funded-once
+    label: Has been funded once and wants to grow
+  - tag: established
+    label: Holds grants regularly
+- id: funder_kind
+  prompt: Which kind of funder?
+  type: single
+  field: funder_kind
+  options:
+  - value: federal
+    label: Federal agencies
+  - value: foundation
+    label: Foundations and other private grantmakers
+  - value: either
+    label: Either
+routes:
+- id: getting-registered-to-apply
+  family: start
+  door: registration
+  funder_kind: federal
+  who:
+  - faculty-investigator
+  - nonprofit-programmes
+  purpose:
+  - research-project
+  - service
+  stage:
+  - never-applied
+- id: route-one
+  family: research
+  door: direct
+  funder_kind: federal
+  n:
+    federal: 2
+    foundation: 0
+  fit:
+  - who: faculty-investigator
+    purpose: research-project
+    funder: federal
+    count: 2

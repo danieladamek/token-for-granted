@@ -1,0 +1,43 @@
+- id: getting-registered-to-apply
+  name: Getting registered before a first federal application
+  family: start
+  what: An organisation registers in SAM.gov before it applies [1].
+  who_for: Anyone applying to a federal agency [1].
+  how_it_works: ['Register in SAM.gov [1].']
+  watch: Nothing pending [1].
+  programs: []
+  funders: [fed-one]
+  standing: []
+  gates: [sam-registration]
+  mechanics: []
+  help: [help-one]
+  changes: []
+  who: [faculty-investigator, nonprofit-programmes]
+  purpose: [research-project, service]
+  stage: [never-applied]
+  funder_kind: federal
+  door: registration
+  as_of: '2026-10-05'
+  sources: [1]
+- id: route-one
+  name: A research grant from one agency
+  family: research
+  what: The agency funds research projects at the negotiated indirect cost rate [2].
+  who_for: A faculty investigator [1].
+  how_it_works: ['Register [1].', 'Apply [2].']
+  watch: The rate cap was vacated [2].
+  programs: [prog-open, prog-gone]
+  funders: [fed-one]
+  standing: [standing-one]
+  gates: [sam-registration]
+  mechanics: [mini-rule]
+  help: [help-one]
+  changes: [ch-day, ch-month]
+  who: [faculty-investigator]
+  purpose: [research-project]
+  stage: [never-applied, established]
+  funder_kind: federal
+  door: direct
+  find_filter: {applicant_types: [public-higher-ed, private-higher-ed], keywords: [R01]}
+  as_of: '2026-10-05'
+  sources: [1, 2]
